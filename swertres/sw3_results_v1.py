@@ -2,7 +2,6 @@ import requests
 import re
 import fileinput
 from bs4 import BeautifulSoup as BS
-from pathlib import Path
 
 def fetch_html(mo, yr):
   headers = {
@@ -107,13 +106,12 @@ def parse_html(file_date, fo):
 
 
 def main():
-    file_path = Path(
-        Path.cwd(), "results_v1.txt")
-    with open(file_path, "r+") as f1:
+    file_name = "results_v1.txt"
+    with open(file_name, "r+") as f1:
         file_date = f1.readline().strip()
         date_time = parse_html(file_date, f1)
 
-    with fileinput.input(file_path, inplace=True) as f2:
+    with fileinput.input(file_name, inplace=True) as f2:
         for line in f2:
             if " " in line:
                 print(date_time)
