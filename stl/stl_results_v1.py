@@ -101,7 +101,7 @@ def parse_html(file_date, fo):
 
 		
 
-	print("Results are up to date.")
+	print("Results are up to date for stl_results_v1.py.")
 	return "update: {} {}".format(prev_date, prev_time)
 		
 

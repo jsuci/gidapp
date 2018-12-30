@@ -98,7 +98,7 @@ def parse_html():
                 full_file_date = full_date
                 file_time = curr_time
 
-        print("Results are up to date")
+        print("Results are up to date for stl_results_v2.py.")
 
     updated_date_time = "updated: {} {}".format(
         full_file_date, file_time)
