@@ -71,34 +71,39 @@ def parse_html():
             full_date, digits = e
             trim_date = "{:10}".format(" ".join(
                     full_date.split()[0:3]))
-            curr_time = len(digits) - 1
+            web_time = len(digits) - 1
+            new_line_count = 0
 
-           
+
             if full_date == full_file_date:
 
                 for e in digits[file_time + 1:]:
                     print(e)
                     f2.write("{:>13}".format(e))
-                
-                if curr_time == 2:
-                    f2.write("\n")
+                    new_line_count += 1
 
-                file_time = curr_time
+                if new_line_count == 2 or (file_time + 1) == 2:
+                    f2.write("\n")
+                    new_line_count = 0
+
+                file_time = web_time
             else:
 
                 f2.write(trim_date)
                 for i, e in enumerate(digits):
                     print(e)
                     f2.write("{:>13}".format(e))
+                    new_line_count += 1
 
-                    if i == 2:
-                        f2.write("\n")
+                if new_line_count == 3:
+                    f2.write("\n")
+                    new_line_count = 0
 
 
                 full_file_date = full_date
-                file_time = curr_time
+                file_time = web_time
 
-        print("Results are up to date for stl_results_v2.py.")
+        print("Results are up to date for sw3_results_v2.py.")
 
     updated_date_time = "updated: {} {}".format(
         full_file_date, file_time)
