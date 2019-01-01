@@ -42,7 +42,7 @@ def possible_combi(value):
     possible_combi = []
 
     for e in a:
-        if sum_all(e) == 12:
+        if sum_all(e) == value:
             possible_combi.append("".join([str(x) for x in e]))
 
     # return possible_combi
@@ -86,13 +86,13 @@ def main():
             for e in digit_sum_tup:
                 e = e[1]
                 if count_dic == 0:
-                    digit_time_dic["11am"].append(e)
+                    digit_time_dic["11am"].insert(0, e)
                     count_dic = 1
                 elif count_dic == 1:
-                    digit_time_dic["4pm"].append(e)
+                    digit_time_dic["4pm"].insert(0, e)
                     count_dic = 2
                 else:
-                    digit_time_dic["9pm"].append(e)
+                    digit_time_dic["9pm"].insert(0, e)
                     count_dic = 0
 
             """
@@ -108,7 +108,7 @@ def main():
 
                 if value_up:
                     print("result_gap: {2}\ntime: {0}\nsum: {1}\npossible combi for {3}:\n{4}\n\n".format(
-                        k, v, outer_count, value_down, possible_combi(value_down)))
+                        k, v, outer_count, value_up, possible_combi(value_up)))
 
 
 
