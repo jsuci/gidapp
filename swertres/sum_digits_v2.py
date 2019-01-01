@@ -15,6 +15,12 @@ def main():
                 digits =  re.split(r"\s{10}", e.strip())
                 per_line = ["{:20}".format(digits[0])]
 
+
+                """
+                Skip the first n of results then start counting
+                as i increases so does step, if both are equal value
+                then sum_all that digits
+                """
                 if i == step:
                     for digit in digits[1:]:
                         output = "{:20}".format(
@@ -26,12 +32,13 @@ def main():
                         output = "{:20}".format(digit)
                         per_line.append(output)
 
+                # Latest results are at the bottom of the file
                 fix_ordering.insert(0, "".join(per_line).strip())
 
             filename = "sum_digits_v2"
             Path(filename).mkdir(parents=True, exist_ok=True)
             p = Path(filename, "{}_{:02}.txt".format(
-                filename, outer_count))
+                "result_gap", outer_count))
 
             with open(p, "w") as f1:
                 for e in fix_ordering:
