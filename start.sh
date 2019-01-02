@@ -21,6 +21,12 @@ cd /sdcard/Download/gidapp/stl
 python sum_digits_v2.1.py
 cd ~
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task
-echo "Exiting program in 30 seconds."
-sleep 30s
-killall com.termux
+read -p "Do you want to exit? (Y/y): " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo
+	echo "Exiting program in 30 seconds."
+	sleep 30s
+	killall com.termux
+fi
