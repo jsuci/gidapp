@@ -34,7 +34,7 @@ def parse_html(file_date, fo):
     """
     split_date = file_date.strip().split()
     month = convert_month(split_date[3])
-    year = split_date[4]
+    year = int(split_date[4])
     code = ""
     output = []
 
@@ -68,8 +68,11 @@ def parse_html(file_date, fo):
 
             output.append(date_results)
 
-
-        month += 1
+        if month == 12:
+            month = 1
+            year = year + 1
+        else:
+            month += 1
 
 
     """prev_date and e["date"] must be in format 

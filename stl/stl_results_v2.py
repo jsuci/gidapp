@@ -32,7 +32,7 @@ def parse_html():
         date_list = f1.readline().strip().split()
         full_file_date = " ".join(date_list[1:5])
         month = convert_month(date_list[3])
-        year = date_list[4]
+        year = int(date_list[4])
         file_time = int(date_list[5])
         output = []
         code = ""
@@ -64,7 +64,11 @@ def parse_html():
 
                 output.append(web_date_results)
 
-            month += 1
+            if month == 12:
+                month = 1
+                year = year + 1
+            else:
+                month += 1
 
     with open("results_v2.txt", "a") as f2:
         for e in output[index:]:
