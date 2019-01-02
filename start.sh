@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/data/data/com.termux/files/usr/bin/env bash
 
 clear
 echo "Fetching SW3 results."
