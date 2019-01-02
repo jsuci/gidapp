@@ -649,3 +649,11 @@ DOBOLS
 
 ANALYS ONLY
 NOT SURE
+
+-------------------------
+JAN 02, 2019
+result_gap: 29
+time: 11am
+sum: [5, 6, 7]
+possible combi for 8:
+017, 026, 035, 125, 134
