@@ -60,7 +60,6 @@ def main():
 
             for i, e in enumerate(list(islice(fo, 2, None))[::-1]):
                 digits =  re.split(r"\s{10}", e.strip())
-                per_line = ["{:20}".format(digits[0])]
 
                 """
                 Skip the first n of results base on the value of step
