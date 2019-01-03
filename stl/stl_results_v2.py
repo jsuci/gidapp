@@ -2,6 +2,7 @@ import requests
 import re
 import fileinput
 from bs4 import BeautifulSoup as BS
+from itertools import islice
 
 def fetch_html(mo, yr):
   headers = {
@@ -29,88 +30,90 @@ def parse_html():
     """
 
     with open("results_v2.txt", "r") as f1:
-        date_list = f1.readline().strip().split()
-        full_file_date = " ".join(date_list[1:5])
-        month = convert_month(date_list[3])
-        year = int(date_list[4])
-        file_time = int(date_list[5])
+        file_date_list = f1.readline().strip().split()
+        file_date = " ".join(file_date_list[1:5])
+        file_month = convert_month(file_date_list[3])
+        file_year = int(file_date_list[4])
+        file_time = int(file_date_list[5])
+
+        # A list of tuples: (date, [results])
         output = []
         code = ""
         index = ""
 
         while code != 404:
-            content, code = fetch_html(month, year)
+            content, code = fetch_html(file_month, file_year)
             soup = BS(content, "html.parser")
             entries = soup.find_all("div", class_="result")
 
             for i, e in enumerate(entries):
-                web_date = e.h4.time.get_text().split(" ")
-                format_web_date = "{:02} {} {} {}".format(
-                    int(web_date[1]),
-                    web_date[0][:3].lower(),
-                    web_date[2][:3].lower(),
-                    web_date[3].lower())
+                web_date_list = e.h4.time.get_text().split(" ")
+                web_date = "{:02} {} {} {}".format(
+                    int(web_date_list[1]),
+                    web_date_list[0][:3].lower(),
+                    web_date_list[2][:3].lower(),
+                    web_date_list[3].lower())
 
-                if format_web_date == full_file_date:
+                if web_date == file_date:
                     index = i
 
-                format_web_results = [y.get_text() 
+                web_results = [y.get_text() 
                     for y in e.select("tbody > tr > td > span") 
                     if y.get_text() != "-"]
 
 
                 web_date_results = (
-                    format_web_date, format_web_results)
+                    web_date, web_results)
 
                 output.append(web_date_results)
 
-            if month == 12:
-                month = 1
-                year = year + 1
+            if file_month == 12:
+                file_month = 1
+                file_year = file_year + 1
             else:
-                month += 1
+                file_month += 1
 
     with open("results_v2.txt", "a") as f2:
-        for e in output[index:]:
-            full_date, digits = e
+        for e in islice(output, index, None):
+            web_date, digits = e
             trim_date = "{:10}".format(" ".join(
-                    full_date.split()[0:3]))
+                    web_date.split()[0:3]))
             web_time = len(digits) - 1
-            new_line_count = 0
+            digit_index = file_time + 1
 
-
-            if full_date == full_file_date:
-
-                for e in digits[file_time + 1:]:
-                    print(e)
-                    f2.write("{:>13}".format(e))
-                    new_line_count += 1
-
-                if new_line_count == 2 or (file_time + 1) == 2:
-                    f2.write("\n")
-                    new_line_count = 0
-
-                file_time = web_time
+            if web_date == file_date and file_time == web_time:
+                continue
             else:
+                if web_date == file_date:
+                    new_line_count = 0
+                    for e in islice(digits, digit_index, None):
+                        print(e)
+                        f2.write("{:>13}".format(e))
+                        new_line_count += 1
 
-                f2.write(trim_date)
-                for i, e in enumerate(digits):
-                    print(e)
-                    f2.write("{:>13}".format(e))
-                    new_line_count += 1
+                    if new_line_count == 2 or digit_index == 2:
+                        f2.write("\n")
 
-                if new_line_count == 3:
-                    f2.write("\n")
+                    file_time = web_time
+                else:
                     new_line_count = 0
 
+                    f2.write(trim_date)
+                    for e in digits:
+                        print(e)
+                        f2.write("{:>13}".format(e))
+                        new_line_count += 1
 
-                full_file_date = full_date
-                file_time = web_time
+                    if new_line_count == 3:
+                        f2.write("\n")
+
+                    file_date = web_date
+                    file_time = web_time
 
         print("Results are up to date for sw3_results_v2.py.")
 
     updated_date_time = "updated: {} {}".format(
-        full_file_date, file_time)
+        file_date, file_time)
 
     with fileinput.input("results_v2.txt", inplace=True) as f3:
         for e in f3:
@@ -118,6 +121,7 @@ def parse_html():
                 print(updated_date_time)
             else:
                 print(e, end="")
+
 
 
 def main():
