@@ -38,6 +38,8 @@ echo "Current results for STL"
 cd /sdcard/Download/gidapp/stl
 python current_results.py
 cd ~
+echo
+echo
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task
 read -p "Do you want to exit? (Y/y): " -n 1 -r
 echo
