@@ -3,7 +3,7 @@ from itertools import islice, combinations
 from pathlib import Path
 
 def main():
-    for outer_count in range(20):
+    for outer_count in range(15):
         with open("results_v2.txt", "r") as f1:
             step = outer_count
             num_match = 0
