@@ -65,7 +65,7 @@ def get_sequence(common, results):
 def main():
     for outer_count in range(30):
         with open("results_v2.txt", "r") as f1:
-            step = outer_count
+            step = outer_count - 1
             num_match = 0
 
             time_results = {"11am": [], "4pm": [], "9pm": []}
