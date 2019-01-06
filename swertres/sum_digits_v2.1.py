@@ -50,7 +50,7 @@ def possible_combi(value):
 
 
 def get_output(to_skip):
-    for outer_count in range(2, 20):
+    for outer_count in range(2, 30):
         with open("results_v2.txt") as fo:
             step = outer_count + to_skip
             num_match_steps = 0
