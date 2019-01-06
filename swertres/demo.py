@@ -1,83 +1,33 @@
-from itertools import permutations, combinations
-
-# a = {'11am': ['15', '16', '17'], '4pm': ['15', '14', '13'], '9pm': ['11', '16', '11']}
-
-
-# def is_descend(sum_list):
-#     init_value = int(sum_list[0])
-#     true_count = 0
-
-#     for e in sum_list:
-#         e = int(e)
-#         if e == init_value:
-#             true_count += 1
-#         init_value -= 1
-
-#     if true_count == 3:
-#         return True
-#     else:
-#         return False
-
-# def is_ascend(sum_list):
-#     init_value = int(sum_list[0])
-#     true_count = 0
-
-#     for e in sum_list:
-#         e = int(e)
-#         if e == init_value:
-#             true_count += 1
-#         init_value += 1
-
-#     if true_count == 3:
-#         return True
-#     else:
-#         return False
+import re
+from itertools import islice, combinations
 
 
-# for k, v in a.items():
-#     if is_descend(v):
-#         print(k, v)
+def main():
+    outer_count = 8
+    with open("results_v2.txt", "r") as f1:
+        split_date = f1.readline().strip().split(" ")
+        curr_results = split_date[-1]
+        curr_date = " ".join(split_date[1:len(split_date) - 1])
 
-#     if is_ascend(v):
-#         print(k, v)
+        if curr_results != "2":
+            print("Results are not ready yet. [{}]".format(curr_date))
+        else:
+            step = outer_count
+            num_match = 0
 
-# def sum_all(digits):
-#     return sum([int(x) for x in digits])
+            time_results = {"11am": [], "4pm": [], "9pm": []}
 
+            for count, line in enumerate(list(islice(f1, 2, None))[::-1]):
+                date_digits = re.split(r"\s{10}", line.strip())
 
-# a = combinations(range(10), 3)
-# possible_combi = []
-# for e in a:
-#     if sum_all(e) == 12:
-#         possible_combi.append("".join([str(x) for x in e]))
-# print(", ".join(possible_combi))
+                if count == step and num_match != 3:
+                    print(date_digits, "*")
 
-# a = ['049', '280', '730']
-# # a = ['303', '202', '300']
-# digit = '0'
-# output_digit = set()
-# output_pair = set()
-# for e in a:
-#     for x in combinations(e, 2):
-#         if digit in x:
-#             output_pair.add("".join(sorted(x)))
-#             output_digit.add("".join(x).replace(digit, "", 1))
-
-# sorted_output = sorted(output_digit)
-# sorted_pair = sorted(output_pair)
+                    num_match += 1
+                    step += (outer_count + 1)
+                else:
+                    print(date_digits)
 
 
-# start = int(sorted_output[0])
-# count = 0
-# for e in sorted_output:
-#     e = int(e)
-#     if (e - start) == 1:
-#         count += 1
-#         if count == 2:
-#             print(digit, sorted_output, sorted_pair)
-
-#     start = e
-
-a = ['1', '2', '3', '7', '8', '9']
-
-print(a[3:])
+if __name__ == "__main__":
+    main()

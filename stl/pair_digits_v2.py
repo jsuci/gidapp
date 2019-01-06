@@ -2,10 +2,10 @@ import re
 from itertools import islice, combinations
 from pathlib import Path
 
-def main():
-    for outer_count in range(15):
+def get_output(to_skip):
+    for outer_count in range(20):
         with open("results_v2.txt", "r") as f1:
-            step = outer_count
+            step = outer_count + to_skip
             num_match = 0
             fix_ordering = []
 
@@ -44,6 +44,18 @@ def main():
 
     print("Done. Results are exported to \"{}\" folder".format(
         filename))
+
+
+def main():
+    with open("results_v2.txt", "r") as f1:
+        curr_results = f1.readline().strip().split()[-1]
+        to_skip = 0
+
+        if curr_results != "2":
+            to_skip = 1
+
+        get_output(to_skip)
+
 
 if __name__ == "__main__":
     main()

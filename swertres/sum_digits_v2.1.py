@@ -49,10 +49,10 @@ def possible_combi(value):
     return ", ".join(possible_combi)
 
 
-def main():
-    for outer_count in range(2, 30):
+def get_output(to_skip):
+    for outer_count in range(2, 20):
         with open("results_v2.txt") as fo:
-            step = outer_count
+            step = outer_count + to_skip
             num_match_steps = 0
             digit_sum_tup = []
             digit_time_dic = {"11am": [], "4pm": [], "9pm": []}
@@ -109,6 +109,16 @@ def main():
                     print("result_gap: {2}\ntime: {0}\nsum: {1}\npossible combi for {3}:\n{4}\n\n".format(
                         k, v, outer_count, value_up, possible_combi(value_up)))
 
+
+def main():
+    with open("results_v2.txt", "r") as f1:
+        curr_results = f1.readline().strip().split()[-1]
+        to_skip = 0
+
+        if curr_results != "2":
+            to_skip = 1
+
+        get_output(to_skip)
 
 
 if __name__ == "__main__":

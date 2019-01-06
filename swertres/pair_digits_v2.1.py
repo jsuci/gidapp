@@ -62,17 +62,17 @@ def get_sequence(common, results):
 
 
 
-def main():
-    for outer_count in range(30):
-        with open("results_v2.txt", "r") as f1:
-            step = outer_count - 1
+def get_output(to_skip):
+    for outer_count in range(2, 20):
+        with open("results_v2.txt", "r") as f2:
+            step = outer_count + to_skip
             num_match = 0
-
             time_results = {"11am": [], "4pm": [], "9pm": []}
 
-            for count, line in enumerate(list(islice(f1, 2, None))[::-1]):
+            for count, line in enumerate(
+                list(islice(f2, 2, None))[::-1]):
                 date_digits = re.split(r"\s{10}", line.strip())
-                
+
                 if count == step and num_match != 3:
                     for i, e in enumerate(date_digits[1:]):
                         if i == 0:
@@ -90,12 +90,26 @@ def main():
 
                 if common_digit:
                     seq_pair, seq_digit, is_seq = get_sequence(common_digit, v)
-
+                    
                     if seq_digit:
                         if is_seq:
                             print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
                         else:
                             print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
+
+
+
+def main():
+    with open("results_v2.txt", "r") as f1:
+        curr_results = f1.readline().strip().split()[-1]
+        to_skip = 0
+
+        if curr_results != "2":
+            to_skip = 1
+
+        get_output(to_skip)
+
+            
 
 if __name__ == "__main__":
     main()
