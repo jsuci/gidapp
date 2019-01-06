@@ -94,8 +94,8 @@ def get_output(to_skip):
                     if seq_digit:
                         if is_seq:
                             print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
-                        else:
-                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
+                        # else:
+                        #     print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
 
 
 
