@@ -29,7 +29,7 @@ echo "PAIR RESULTS SW3:"
 cd /sdcard/Download/gidapp/swertres
 python pair_digits_v2.1.py
 echo
-echo "PAIR RESULTS SW3:"
+echo "PAIR RESULTS STL:"
 cd /sdcard/Download/gidapp/stl
 python pair_digits_v2.1.py
 echo
