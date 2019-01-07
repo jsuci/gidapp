@@ -1,49 +1,42 @@
 #!/data/data/com.termux/files/usr/bin/env bash
 
 clear
-echo "FETCHING SW3 RESULTS:"
+echo "PROCESSING SW3:"
 cd /sdcard/Download/gidapp/swertres
+echo
+echo "Fetching results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
 echo
-echo "FETCHING STL RESULTS:"
-cd /sdcard/Download/gidapp/stl
-python stl_results_v1.py
-python stl_results_v2.py
-echo
-echo
-echo
-echo
-echo "SUM RESULTS SW3:"
-cd /sdcard/Download/gidapp/swertres
-python sum_digits_v2.1.py
-echo
-echo "SUM RESULTS STL:"
-cd /sdcard/Download/gidapp/stl
-python sum_digits_v2.1.py
-echo
-echo
-echo
-echo
-echo "PAIR RESULTS SW3:"
-cd /sdcard/Download/gidapp/swertres
+#echo "SUM Digits Pattern V2:"
+#python sum_digits_v2.1.py
+#echo
+echo "SYNC Digits Pattern V2:"
 python pair_digits_v2.1.py
 echo
-echo "PAIR RESULTS STL:"
+echo "Current Results:"
+python current_results.py
+echo
+echo
+echo
+echo
+echo "PROCESSING STL:"
 cd /sdcard/Download/gidapp/stl
+echo
+echo "Fetching results:"
+python sw3_results_v1.py
+python sw3_results_v2.py
+echo
+#echo "SUM Digits Pattern V2:"
+#python sum_digits_v2.1.py
+#echo
+echo "SYNC Digits Pattern V2:"
 python pair_digits_v2.1.py
 echo
-echo
-echo
-echo
-echo "CURRENT RESULTS SW3:"
-cd /sdcard/Download/gidapp/swertres
+echo "Current Results:"
 python current_results.py
 echo
-echo "CURRENT RESULTS STL:"
-cd /sdcard/Download/gidapp/stl
-python current_results.py
-cd ~
+echo
 echo
 echo
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task
