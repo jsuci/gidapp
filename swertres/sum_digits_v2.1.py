@@ -109,6 +109,8 @@ def get_output(to_skip):
                     print("result_gap: {2}\ntime: {0}\nsum: {1}\npossible combi for {3}:\n{4}\n\n".format(
                         k, v, outer_count, value_up, possible_combi(value_up)))
 
+    
+    print("No more results found.")
 
 def main():
     with open("results_v2.txt", "r") as f1:

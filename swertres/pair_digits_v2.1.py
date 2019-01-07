@@ -108,10 +108,11 @@ def get_output(to_skip):
                     
                     if seq_digit:
                         if is_total_seq:
-                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_total_seq: {}\nprev_results: {}\nseq_digit: {}\nseq_pair: {}\n\n".format(outer_count, k, common_digit, is_total_seq, v, seq_digit, seq_pair))
+                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_total_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_total_seq, v, seq_digit))
                         # else:
-                        #     print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_total_seq: {}\nprev_results: {}\nseq_digit: {}\nseq_pair: {}\n\n".format(outer_count, k, common_digit, is_total_seq, v, seq_digit, seq_pair))
+                        #     print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_total_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_total_seq, v, seq_digit))
 
+    print("No more results found.")
 
 
 def main():
