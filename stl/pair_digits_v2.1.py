@@ -20,6 +20,19 @@ def is_sequence(digits):
     return False
 
 
+def is_two_digit_seq(common, digits):
+    remove_common_digit = digits.replace(common, "", 1)
+    left_digit = int(remove_common_digit[0])
+    right_digit = int(remove_common_digit[1])
+
+    if abs(left_digit - right_digit) == 1:
+        return True
+    else:
+        return False
+
+
+
+
 def get_common_digit(results):
     count = 0
     for i in range(10):
@@ -35,13 +48,15 @@ def get_common_digit(results):
 def get_sequence(common, results):
     output_pair = set()
     output_digit = set()
-    digit = str(common)
+    common_digit = str(common)
 
     for e in results:
-        for x in combinations(e, 2):
-            if digit in x:
-                output_digit.add("".join(x).replace(digit, "", 1))
-                output_pair.add("".join(sorted(x)))
+        if not is_two_digit_seq(common_digit, e):
+            for x in combinations(e, 2):
+                if common_digit in x:
+                    output_digit.add(
+                        "".join(x).replace(common_digit, "", 1))
+                    output_pair.add("".join(sorted(x)))
 
     sorted_pair = sorted(output_pair)
     sorted_digit = sorted(output_digit)
@@ -89,13 +104,13 @@ def get_output(to_skip):
                 common_digit = get_common_digit(v)
 
                 if common_digit:
-                    seq_pair, seq_digit, total_seq = get_sequence(common_digit, v)
+                    seq_pair, seq_digit, is_total_seq = get_sequence(common_digit, v)
                     
                     if seq_digit:
-                        if total_seq:
-                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, total_seq, v, seq_digit))
+                        if is_total_seq:
+                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_total_seq: {}\nprev_results: {}\nseq_digit: {}\nseq_pair: {}\n\n".format(outer_count, k, common_digit, is_total_seq, v, seq_digit, seq_pair))
                         else:
-                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, total_seq, v, seq_digit))
+                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_total_seq: {}\nprev_results: {}\nseq_digit: {}\nseq_pair: {}\n\n".format(outer_count, k, common_digit, is_total_seq, v, seq_digit, seq_pair))
 
 
 
