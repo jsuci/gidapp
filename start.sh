@@ -12,6 +12,8 @@ python stl_results_v1.py
 python stl_results_v2.py
 echo
 echo
+echo
+echo
 echo "SUM RESULTS SW3:"
 cd /sdcard/Download/gidapp/swertres
 python sum_digits_v2.1.py
@@ -21,6 +23,8 @@ cd /sdcard/Download/gidapp/stl
 python sum_digits_v2.1.py
 echo
 echo
+echo
+echo
 echo "PAIR RESULTS SW3:"
 cd /sdcard/Download/gidapp/swertres
 python pair_digits_v2.1.py
@@ -28,6 +32,8 @@ echo
 echo "PAIR RESULTS SW3:"
 cd /sdcard/Download/gidapp/stl
 python pair_digits_v2.1.py
+echo
+echo
 echo
 echo
 echo "CURRENT RESULTS SW3:"
