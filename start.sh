@@ -24,8 +24,8 @@ echo "PROCESSING STL:"
 cd /sdcard/Download/gidapp/stl
 echo
 echo "Fetching results:"
-python sw3_results_v1.py
-python sw3_results_v2.py
+python stl_results_v1.py
+python stl_results_v2.py
 echo
 #echo "SUM Digits Pattern V2:"
 #python sum_digits_v2.1.py
