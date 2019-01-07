@@ -34,16 +34,15 @@ def is_two_digit_seq(common, digits):
 
 
 def get_common_digit(results):
-    count = 0
     for i in range(10):
-        for e in results:
-            if str(i) in e:
-                count += 1
-            else:
-                count = 0
+        has_common_digit = True
+        common_digit = str(i)
+        for result in results:
+            if not common_digit in result:
+                has_common_digit = False
 
-        if count == 3:
-            return i
+        if has_common_digit:
+            return common_digit
 
 def get_sequence(common, results):
     output_pair = set()
