@@ -89,13 +89,13 @@ def get_output(to_skip):
                 common_digit = get_common_digit(v)
 
                 if common_digit:
-                    seq_pair, seq_digit, is_seq = get_sequence(common_digit, v)
+                    seq_pair, seq_digit, total_seq = get_sequence(common_digit, v)
                     
                     if seq_digit:
-                        if is_seq:
-                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
-                        # else:
-                        #     print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, is_seq, v, seq_digit))
+                        if total_seq:
+                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, total_seq, v, seq_digit))
+                        else:
+                            print("result_gap: {}\ntime: {}\ncommon_digit: {}\nis_seq: {}\nprev_results: {}\nseq_digit: {}\n\n".format(outer_count, k, common_digit, total_seq, v, seq_digit))
 
 
 
