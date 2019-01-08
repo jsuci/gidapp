@@ -12,7 +12,7 @@ echo "SUM Digits Pattern V2:"
 python sum_digits_v2.1.py
 echo
 echo "SYNC Digits Pattern V2:"
-python pair_digits_v2.1.py
+python sync_digits_v2.1.py
 echo
 echo "Current Results:"
 python current_results.py
@@ -31,7 +31,7 @@ echo "SUM Digits Pattern V2:"
 python sum_digits_v2.1.py
 echo
 echo "SYNC Digits Pattern V2:"
-python pair_digits_v2.1.py
+python sync_digits_v2.1.py
 echo
 echo "Current Results:"
 python current_results.py
