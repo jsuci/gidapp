@@ -4,13 +4,13 @@ clear
 echo "PROCESSING SW3:"
 cd /sdcard/Download/gidapp/swertres
 echo
-echo "Fetching results:"
+echo "Fetching Results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
 echo
-#echo "SUM Digits Pattern V2:"
-#python sum_digits_v2.1.py
-#echo
+echo "SUM Digits Pattern V2:"
+python sum_digits_v2.1.py
+echo
 echo "SYNC Digits Pattern V2:"
 python pair_digits_v2.1.py
 echo
@@ -27,9 +27,9 @@ echo "Fetching results:"
 python stl_results_v1.py
 python stl_results_v2.py
 echo
-#echo "SUM Digits Pattern V2:"
-#python sum_digits_v2.1.py
-#echo
+echo "SUM Digits Pattern V2:"
+python sum_digits_v2.1.py
+echo
 echo "SYNC Digits Pattern V2:"
 python pair_digits_v2.1.py
 echo
