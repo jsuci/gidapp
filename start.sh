@@ -8,10 +8,10 @@ echo "Fetching Results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
 echo
-echo "SUM Digits Pattern V2:"
+echo "SUM Digits Pattern V2.1:"
 python sum_digits_v2.1.py
 echo
-echo "SYNC Digits Pattern V2:"
+echo "SYNC Digits Pattern V2.1:"
 python sync_digits_v2.1.py
 echo
 echo "Current Results:"
@@ -27,10 +27,10 @@ echo "Fetching results:"
 python stl_results_v1.py
 python stl_results_v2.py
 echo
-echo "SUM Digits Pattern V2:"
+echo "SUM Digits Pattern V2.1:"
 python sum_digits_v2.1.py
 echo
-echo "SYNC Digits Pattern V2:"
+echo "SYNC Digits Pattern V2.1:"
 python sync_digits_v2.1.py
 echo
 echo "Current Results:"
