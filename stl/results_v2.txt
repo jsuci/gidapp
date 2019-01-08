@@ -1,4 +1,4 @@
-updated: 07 mon jan 2019 1
+updated: 08 tue jan 2019 0
 
 02 tue jan          951          293          832
 03 wed jan          392          269          949
@@ -364,4 +364,5 @@ updated: 07 mon jan 2019 1
 04 fri jan          257          306          880
 05 sat jan          436          528          972
 06 sun jan          242          222          676
-07 mon jan          372          221
+07 mon jan          372          221          538
+08 tue jan          768
