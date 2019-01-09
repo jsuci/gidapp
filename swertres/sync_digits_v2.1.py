@@ -45,8 +45,16 @@ def is_sequence(list_digits):
     result = True
 
     for digit in islice(sorted_digits, 1, None):
-        if not ((start == 0 and abs(start - digit) == 8) or (
-            start == 1 and abs(start - digit) == 8) or (abs(start - digit) == 1)):
+
+        """Catch case where in [0, 8, 9] and [0, 1, 9]
+        are considered sequence. Note that digits are in
+        length of 3
+        """
+        if not (
+            (start == 0 and abs(start - digit) == 8) or 
+            (start == 1 and abs(start - digit) == 8) or 
+            (abs(start - digit) == 1)):
+            
             result = False
 
         start = digit
@@ -89,7 +97,7 @@ def main():
         for time, results in gap_results.items():
             if is_sync(results):
                 left, right, pairs, common = is_sync(results)
-                print("gap: {}\ntime: {}\nresults: {}\ncommon_digit: {}\nleft_digits: {}\nright_digits: {}\npairs:".format(gap_value, time, results, common, left, right))
+                print("gap: {}\ntime: {}\nresults: {}\ncommon_digit: {}\nleft_digits: {}\nright_digits: {}\npairs (curr -> prev):".format(gap_value, time, results, common, left, right))
                 for pair in pairs:
                     print(pair)
 

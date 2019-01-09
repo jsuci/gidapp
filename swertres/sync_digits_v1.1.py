@@ -87,7 +87,7 @@ def main():
         if is_sync(gap_results):
             left, right, pairs, common = is_sync(gap_results)
             
-            print("gap: {}\nresults: {}\ncommon_digit: {}\nleft_digits: {}\nright_digits: {}\npairs:".format(gap_value, gap_results, common, left, right))
+            print("gap: {}\nresults: {}\ncommon_digit: {}\nleft_digits: {}\nright_digits: {}\npairs (curr -> prev):".format(gap_value, gap_results, common, left, right))
             
             for pair in pairs:
                 print(pair)
