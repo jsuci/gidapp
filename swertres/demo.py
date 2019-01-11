@@ -11,7 +11,7 @@ def get_gap_results():
 
     gap_results_list = []
 
-    for gap_value in range(2, 20):
+    for gap_value in range(2, 50):
         with open("results_v2.txt", "r") as fo:
             last_entry = fo.readline().strip().split(" ")[-1]
             reversed_entries = list(islice(fo, 1, None))[::-1]
@@ -24,7 +24,7 @@ def get_gap_results():
                 date_results_list = re.split(r"\s{10}", line_entry.strip())
 
                 # Set number of matches here
-                if line_count == step_value and number_of_matches != 2:
+                if line_count == step_value and number_of_matches != 4:
                     gap_results["11am"].append(date_results_list[1])
                     gap_results["4pm"].append(date_results_list[2])
                     gap_results["9pm"].append(date_results_list[3])
@@ -43,32 +43,29 @@ def is_sequence(list_digits):
     """
     sorted_digits = sorted(list_digits)
     start = sorted_digits[0]
-    result = 0
+    result = True
 
     for digit in islice(sorted_digits, 1, None):
 
-        """Change values according to pattern"""
-        if ((start == 0 and abs(start - digit) == 8) or
+        """Catch case where in [0, 8, 9] and [0, 1, 9]
+        are considered sequence. Note that digits are in
+        length of 3
+        """
+        if not (
+            (start == 0 and abs(start - digit) == 8) or
             (start == 1 and abs(start - digit) == 8) or
-                (abs(start - digit) == 2)):
+                (abs(start - digit) == 1)):
 
-            # If start and digit has a difference of 2
-            result = 2
-
-        if (start == 0 and abs(start - digit) == 9 or
-                abs(start - digit)) == 1:
-
-            # If start and digit has a difference of 1
-            result = 1
+            result = False
 
         start = digit
 
     return result
 
 
-def is_missing(results):
+def is_sync(results):
     """Given a list of results ex. ['358', '468', '827']
-    check if there are missing digits. If yes then output left,
+    check if is in sync or not. If yes then output left,
     right digits, pair_common_digit, common_digit
     ex. [3, 4, 2] [5, 6, 7] [('38', '58'), ('48', '68'),
     ('28', '78')] 8
@@ -85,28 +82,29 @@ def is_missing(results):
                 has_common_digit = False
             else:
                 pairs = result.replace(common_digit, "", 1)
+                left_pair = "".join([pairs[0], common_digit])
+                right_pair = "".join([pairs[1], common_digit])
+
                 left_digit.append(int(pairs[0]))
                 right_digit.append(int(pairs[1]))
-                pair_common_digit.append(("".join([pairs[0], common_digit]),
-                                          "".join([pairs[1], common_digit])))
+                pair_common_digit.append((left_pair, right_pair))
 
-        """has_common_digit is used as main filter to pick which
-        results should we process next
-        """
         if (has_common_digit and
-            (is_sequence(left_digit) == 2 and
-                is_sequence(right_digit) == 2)):
+                (is_sequence(left_digit) and is_sequence(right_digit))):
+            # print(left_digit, right_digit, pair_common_digit, common_digit)
 
-            return (left_digit, right_digit, pair_common_digit,
-                    common_digit)
+            return left_digit, right_digit, pair_common_digit, common_digit
+        # if has_common_digit and is_sequence(
+        #         left_digit) and is_sequence(right_digit):
+        #     return left_digit, right_digit, pair_common_digit, common_digit
 
 
 def main():
     for item in get_gap_results():
         gap_value, gap_results = item
         for time, results in gap_results.items():
-            if is_missing(results):
-                left, right, pairs, common = is_missing(results)
+            if is_sync(results):
+                left, right, pairs, common = is_sync(results)
 
                 print("gap: {}\ntime: {}\nresults: {}\n".format(
                     gap_value, time, results), end="")

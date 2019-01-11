@@ -85,10 +85,12 @@ def is_missing(results):
                 has_common_digit = False
             else:
                 pairs = result.replace(common_digit, "", 1)
+                left_pair = "".join([pairs[0], common_digit])
+                right_pair = "".join([pairs[1], common_digit])
+
                 left_digit.append(int(pairs[0]))
                 right_digit.append(int(pairs[1]))
-                pair_common_digit.append(("".join([pairs[0], common_digit]),
-                                          "".join([pairs[1], common_digit])))
+                pair_common_digit.append((left_pair, right_pair))
 
         """has_common_digit is used as main filter to pick which
         results should we process next

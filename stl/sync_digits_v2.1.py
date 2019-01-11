@@ -82,13 +82,15 @@ def is_sync(results):
                 has_common_digit = False
             else:
                 pairs = result.replace(common_digit, "", 1)
+                left_pair = "".join([pairs[0], common_digit])
+                right_pair = "".join([pairs[1], common_digit])
+
                 left_digit.append(int(pairs[0]))
                 right_digit.append(int(pairs[1]))
-                pair_common_digit.append(("".join([pairs[0], common_digit]),
-                                          "".join([pairs[1], common_digit])))
+                pair_common_digit.append((left_pair, right_pair))
 
-        if has_common_digit and is_sequence(
-                left_digit) and is_sequence(right_digit):
+        if (has_common_digit and
+                is_sequence(left_digit) and is_sequence(right_digit)):
             return left_digit, right_digit, pair_common_digit, common_digit
 
 
