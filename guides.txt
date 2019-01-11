@@ -684,3 +684,15 @@ right_digits: [7, 8]
 pairs (curr -> prev):
 ('84', '74')
 ('64', '84')
+
+
+JAN 11, 9PM, 703:
+gap: 16
+time: 9pm
+results: ['704', '468']
+common_digit: 4
+left: [7, 6]
+right: [0, 8]
+pairs (curr -> prev):
+('74', '04')
+('64', '84')
