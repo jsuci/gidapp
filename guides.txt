@@ -664,12 +664,15 @@ possible combi for 8:
 ----------------------------
 SPOTTED PATTERNS
 
-results: ['364', '656', '476']
-common_digit: 6
-pairs:
-('36', '46')
-('56', '66') -
-('46', '76') -
+**repeat the last two pairs**
+('40', '50')
+('20', '20')
+('30', '50')
+
+
+('13', '93')
+('73', '13')
+('73', '03')
 
 
 SUCCESS PATTERN

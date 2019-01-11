@@ -24,7 +24,7 @@ def get_gap_results():
                 date_results_list = re.split(r"\s{10}", line_entry.strip())
 
                 # Set number of matches here
-                if line_count == step_value and number_of_matches != 4:
+                if line_count == step_value and number_of_matches != 3:
                     gap_results["11am"].append(date_results_list[1])
                     gap_results["4pm"].append(date_results_list[2])
                     gap_results["9pm"].append(date_results_list[3])
