@@ -6,6 +6,5 @@ def main():
                 print(e.strip())
 
 
-
 if __name__ == "__main__":
     main()
