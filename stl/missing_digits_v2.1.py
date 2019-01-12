@@ -55,11 +55,14 @@ def is_sequence(list_digits):
             # If start and digit has a difference of 2
             result = 2
 
-        if (start == 0 and abs(start - digit) == 9 or
+        elif (start == 0 and abs(start - digit) == 9 or
                 abs(start - digit)) == 1:
 
             # If start and digit has a difference of 1
             result = 1
+
+        else:
+            result = 0
 
         start = digit
 
