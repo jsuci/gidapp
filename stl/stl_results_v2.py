@@ -1,31 +1,32 @@
 import requests
-import re
 import fileinput
 from bs4 import BeautifulSoup as BS
 from itertools import islice
 
+
 def fetch_html(mo, yr):
-  headers = {
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3163.100 Safari/537.36"
-  }
+    headers = {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3163.100 Safari/537.36"
+    }
 
-  year_month_url = "https://www.gidapp.com/lottery/philippines/stl/swer3/month/{}-{}".format(yr, mo)
+    year_month_url = "https://www.gidapp.com/lottery/philippines/stl/swer3/month/{}-{}".format(
+        yr, mo)
 
-  r = requests.get(year_month_url, headers=headers)
+    r = requests.get(year_month_url, headers=headers)
 
-  return (r.content, r.status_code)
+    return (r.content, r.status_code)
 
 
 def convert_month(data):
     return {
-        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, 
-        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, 
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5,
+        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,
         "nov": 11, "dec": 12
     }[data]
 
 
 def parse_html():
-    """Process html source and returns all the date and 
+    """Process html source and returns all the date and
     results base on the given date from file
     """
 
@@ -57,10 +58,9 @@ def parse_html():
                 if web_date == file_date:
                     index = i
 
-                web_results = [y.get_text() 
-                    for y in e.select("tbody > tr > td > span") 
-                    if y.get_text() != "-"]
-
+                web_results = [y.get_text()
+                               for y in e.select("tbody > tr > td > span")
+                               if y.get_text() != "-"]
 
                 web_date_results = (
                     web_date, web_results)
@@ -77,7 +77,7 @@ def parse_html():
         for e in islice(output, index, None):
             web_date, digits = e
             trim_date = "{:10}".format(" ".join(
-                    web_date.split()[0:3]))
+                web_date.split()[0:3]))
             web_time = len(digits) - 1
             digit_index = file_time + 1
 
@@ -121,7 +121,6 @@ def parse_html():
                 print(updated_date_time)
             else:
                 print(e, end="")
-
 
 
 def main():

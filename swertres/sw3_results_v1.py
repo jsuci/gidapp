@@ -1,24 +1,25 @@
 import requests
-import re
 import fileinput
 from bs4 import BeautifulSoup as BS
 
+
 def fetch_html(mo, yr):
-  headers = {
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3163.100 Safari/537.36"
-  }
+    headers = {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3163.100 Safari/537.36"
+    }
 
-  year_month_url = "https://www.gidapp.com/lottery/philippines/pcso/suertres/month/{}-{}".format(yr, mo)
+    year_month_url = "https://www.gidapp.com/lottery/philippines/pcso/suertres/month/{}-{}".format(
+        yr, mo)
 
-  r = requests.get(year_month_url, headers=headers)
+    r = requests.get(year_month_url, headers=headers)
 
-  return (r.content, r.status_code)
+    return (r.content, r.status_code)
 
 
 def convert_month(data):
     return {
-        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, 
-        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, 
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5,
+        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,
         "nov": 11, "dec": 12
     }[data]
 
@@ -42,7 +43,7 @@ def parse_html(file_date, fo):
         content, code = fetch_html(month, year)
         soup = BS(content, "html.parser")
         entries = soup.find_all("div", class_="result")
-        
+
         prev_date = " ".join(split_date[1:5])
         prev_time = int(split_date[-1])
 
@@ -54,9 +55,9 @@ def parse_html(file_date, fo):
                 curr_date[2][:3].lower(),
                 curr_date[3].lower())
 
-            format_results = [y.get_text() 
-                for y in x.select("tbody > tr > td > span") 
-                if y.get_text() != "-"]
+            format_results = [y.get_text()
+                              for y in x.select("tbody > tr > td > span")
+                              if y.get_text() != "-"]
 
             date_results = {
                 "date": format_date,
@@ -74,18 +75,15 @@ def parse_html(file_date, fo):
         else:
             month += 1
 
-
-    """prev_date and e["date"] must be in format 
+    """prev_date and e["date"] must be in format
     01 mon jan 2018"""
-    index = [int(i) for i, e in enumerate(output) 
+    index = [int(i) for i, e in enumerate(output)
              if e["date"] == prev_date][0]
-
 
     for item in output[index:]:
         date = item["date"]
         results = item["results"]
         time = len(results) - 1
-
 
         if date == prev_date:
             for digits in results[prev_time + 1:]:
@@ -99,13 +97,8 @@ def parse_html(file_date, fo):
                 fo.write("{}\n".format(digits))
                 print(digits)
 
-        
-
     print("Results are up to date for sw3_results_v1.py.")
     return "update: {} {}".format(prev_date, prev_time)
-        
-
-
 
 
 def main():
