@@ -37,42 +37,71 @@ def get_gap_results():
     return gap_results_list
 
 
-def is_sequence(list_digits):
-    """Given a list of unsorted integers ex. [4, 8, 3] check
-    if all the values inside has a difference of one.
+def is_sequence(list_of_digits):
+    """Given a list of unsorted integers ex. [4, 8, 3, ...] from
+    0 to 9 of any given length, check if all the values fit the
+    conditions below:
+        if all digits has a difference of 1 then return 1
+        if some digits are in sequence and the other digit has
+        a difference of of 2 then return 2
+        else return 0
     """
-    sorted_digits = sorted(list_digits)
-    start = sorted_digits[0]
-    result = 0
+    list_of_digits.sort()
+    start = list_of_digits[0]
+    first_digit = list_of_digits[0]
+    last_digit = list_of_digits[-1]
+    diff_not_one = []
 
-    for digit in islice(sorted_digits, 1, None):
-
-        """Change values according to pattern"""
-        if ((start == 0 and abs(start - digit) == 8) or
-            (start == 1 and abs(start - digit) == 8) or
-                (abs(start - digit) == 2)):
-
-            # If start and digit has a difference of 2
-            result = 2
-
-        elif (start == 0 and abs(start - digit) == 9 or
-                abs(start - digit)) == 1:
-
-            # If start and digit has a difference of 1
-            result = 1
-
-        else:
-            result = 0
+    for digit in islice(list_of_digits, 1, None):
+        if abs(start - digit) != 1:
+            diff_not_one.append(abs(start - digit))
 
         start = digit
 
-    return result
+    diff_not_one.sort()
+
+    len_diff_not_one = len(diff_not_one)
+
+    if not len_diff_not_one:
+        return 1
+    else:
+        if first_digit == 0 and last_digit == 9:
+            if len_diff_not_one == 1:
+                if diff_not_one[0] == 2:
+                    return 2
+                else:
+                    return 1
+            elif (
+                len_diff_not_one == 2 and
+                diff_not_one[0] == 2 and
+                diff_not_one[1] != 2
+            ):
+                return 2
+            else:
+                return 0
+        elif first_digit == 0 and last_digit == 8:
+            if len_diff_not_one == 1:
+                return 2
+            else:
+                return 0
+        else:
+            if len_diff_not_one == 1 and diff_not_one[0] == 2:
+                return 2
+            else:
+                return 0
 
 
 def is_missing(results):
-    """Given a list of results ex. ['358', '468', '827']
-    check if there are missing digits. If yes then output left,
-    right digits, pair_common_digit, common_digit
+    """Given a list of results ex. ['358', '468', '827', ...]
+    check if is in sync or not. By sync means it has:
+        a. common_digit
+        b. left and right digits must are in sequence
+
+    If all conditions are satisfied then output  the following:
+        a. left and right digits
+        b. pair_common_digit
+        c. common_digit
+
     ex. [3, 4, 2] [5, 6, 7] [('38', '58'), ('48', '68'),
     ('28', '78')] 8
     """
@@ -95,23 +124,31 @@ def is_missing(results):
                 right_digit.append(int(pairs[1]))
                 pair_common_digit.append((left_pair, right_pair))
 
-        """has_common_digit is used as main filter to pick which
-        results should we process next
-        """
-        if (has_common_digit and
-            (is_sequence(left_digit) == 1 or
-                is_sequence(right_digit) == 1) and
-            (is_sequence(left_digit) == 2 or
-                is_sequence(right_digit) == 2)):
+        if has_common_digit:
+            """After you have identified results that has common
+            digits you can now further filter the results by choosing
+            wether the left or right digits is in sequence or has a
+            gap of 2
 
-            return (left_digit, right_digit, pair_common_digit,
-                    common_digit)
+            debug: print(left_digit, right_digit, left_seq, right_seq)
+            """
+
+            left_seq = is_sequence(left_digit)
+            right_seq = is_sequence(right_digit)
+
+            if (
+                (left_seq == 1 or right_seq == 1) and
+                (left_seq == 2 or right_seq == 2)
+            ):
+                return (left_digit, right_digit, pair_common_digit,
+                        common_digit)
 
 
 def main():
     for item in get_gap_results():
         gap_value, gap_results = item
         for time, results in gap_results.items():
+
             if is_missing(results):
                 left, right, pairs, common = is_missing(results)
 
