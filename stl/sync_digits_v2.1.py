@@ -1,5 +1,5 @@
 import re
-from itertools import islice
+from itertools import *
 
 
 def get_gap_results():
@@ -37,15 +37,40 @@ def get_gap_results():
     return gap_results_list
 
 
+def get_next_digit(list_of_digits):
+    """Given a list of string digits ('1', '2', '3') or ['1', '2', 3]
+    get their start and end digits and then subtract or add to get the
+    next digit. Returns a list of subtracted and added values
+    """
+
+    list_of_digits = [int(e) for e in list_of_digits]
+    list_of_digits.sort()
+    start_digit = list_of_digits[0]
+    end_digit = list_of_digits[-1]
+
+    if (start_digit - 1) == -1:
+        start_digit = 1
+    else:
+        start_digit = start_digit - 1
+
+    if (end_digit + 1) == 10:
+        end_digit = 8
+    else:
+        end_digit = end_digit + 1
+
+    return sorted([str(start_digit), str(end_digit)])
+
+
 def is_sequence(list_of_digits):
-    """Given a list of unsorted integers ex. [4, 8, 3, ...] from
-    0 to 9 of any given length, check if all the values fit the
+    """Given a list of unsorted string digits ex. ['4', '8'..]
+    from 0 to 9 of any given length, check if all the values fit the
     conditions below:
         if all digits has a difference of 1 then return 1
         if some digits are in sequence and the other digit has
         a difference of of 2 then return 2
         else return 0
     """
+    list_of_digits = [int(e) for e in list_of_digits]
     list_of_digits.sort()
     start = list_of_digits[0]
     first_digit = list_of_digits[0]
@@ -95,12 +120,12 @@ def is_sync(results):
     """Given a list of results ex. ['358', '468', '827', ...]
     check if is in sync or not. By sync means it has:
         a. common_digit
-        b. left and right digits must are in sequence
+        b. other digits must be in sequence (1, 2, 3.. or 3, 2, 1..)
 
-    If all conditions are satisfied then output  the following:
-        a. left and right digits
-        b. pair_common_digit
-        c. common_digit
+    If all conditions are satisfied then output the following:
+        a. common_digit
+        b. common_results
+        c. pair_sequence
 
     ex. [3, 4, 2] [5, 6, 7] [('38', '58'), ('48', '68'),
     ('28', '78')] 8
@@ -108,37 +133,64 @@ def is_sync(results):
     for i in range(10):
         common_digit = str(i)
         has_common_digit = True
-        left_digit = []
-        right_digit = []
-        pair_common_digit = []
+        pairs_list = []
+        common_results = []
 
         for result in results:
             if common_digit not in result:
                 has_common_digit = False
             else:
-                pairs = result.replace(common_digit, "", 1)
-                left_pair = "".join([pairs[0], common_digit])
-                right_pair = "".join([pairs[1], common_digit])
+                join_result = " ".join([
+                    "({})".format(e) if e == common_digit else
+                    " {} ".format(e) for e in result])
 
-                left_digit.append(int(pairs[0]))
-                right_digit.append(int(pairs[1]))
-                pair_common_digit.append((left_pair, right_pair))
+                common_results.append(join_result)
+                pairs_list.append(result.replace(common_digit, "", 1))
 
         if has_common_digit:
             """After you have identified results that has common
             digits you can now further filter the results by choosing
-            wether the left or right digits is in sequence or has a
+            wether the other digits is in sequence or has a
             gap of 2
-
-            debug: print(left_digit, right_digit, left_seq, right_seq)
             """
 
-            left_seq = is_sequence(left_digit)
-            right_seq = is_sequence(right_digit)
+            pair_sequence = []
+            possible_digits = [common_digit]
 
-            if left_seq == 1 and right_seq == 1:
-                return (left_digit, right_digit, pair_common_digit,
-                        common_digit)
+            """From the list of pairs in pairs_list make all possible
+            combinations of pairs
+            """
+            for pair_digit in product(*pairs_list):
+                pair_digit_join = "".join(pair_digit)
+
+                """Filter pair_digit if is in sequence or has gap:
+                    1 - if all digits are in sequence
+                    2 - if digits has a gap of 2
+                """
+                if (is_sequence(pair_digit) == 1 and
+                        pair_digit_join not in pair_sequence):
+
+                    pair_sequence.append(pair_digit_join)
+                    possible_digits.append(get_next_digit(pair_digit))
+
+            """For a complete sequence of digits limit the number of
+            pair_sequence to 2. 1 if at least 1 pair_sequence
+            """
+            if len(pair_sequence) == 2:
+                possible_combi = ["".join(e) for e in product(
+                    *possible_digits)]
+                has_repeat_pair_digit = False
+
+                """Only select pair_sequence that are unique and no
+                repeating digits ex. ['7', '8', '9'] and ['2', '3','4']
+                """
+                for digit in pair_sequence[0]:
+                    if digit in pair_sequence[1]:
+                        has_repeat_pair_digit = True
+
+                if not has_repeat_pair_digit:
+                    return (common_digit, common_results,
+                            pair_sequence, possible_combi)
 
 
 def main():
@@ -146,20 +198,17 @@ def main():
         gap_value, gap_results = item
         for time, results in gap_results.items():
             if is_sync(results):
-                left, right, pairs, common = is_sync(results)
+                common, filter_res, sequence, combi = is_sync(results)
+                print("gap: {}\ntime: {}".format(gap_value, time))
+                print("common: {}\ncombi: {}".format(common, combi))
+                print("seq: {}".format(sequence))
+                print("results: ")
+                for entry in filter_res:
+                    print(entry)
 
-                print("gap: {}\ntime: {}\nresults: {}\n".format(
-                    gap_value, time, results), end="")
-                print("common_digit: {}\nleft: {}\n".format(
-                    common, left), end="")
-                print("right: {}\npairs (curr -> prev):".format(
-                    right))
-
-                for pair in pairs:
-                    print(pair)
-
-                print("\n\n")
+                print("\n")
 
 
 if __name__ == "__main__":
     main()
+    # print(get_next_digit([8, 9]))
