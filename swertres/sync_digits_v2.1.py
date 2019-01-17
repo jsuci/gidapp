@@ -24,7 +24,7 @@ def get_gap_results():
                 date_results_list = re.split(r"\s{10}", line_entry.strip())
 
                 # Set number of matches here
-                if line_count == step_value and number_of_matches != 2:
+                if line_count == step_value and number_of_matches != 3:
                     gap_results["11am"].append(date_results_list[1])
                     gap_results["4pm"].append(date_results_list[2])
                     gap_results["9pm"].append(date_results_list[3])
@@ -45,20 +45,13 @@ def get_next_digit(list_of_digits):
 
     list_of_digits = [int(e) for e in list_of_digits]
     list_of_digits.sort()
-    start_digit = list_of_digits[0]
-    end_digit = list_of_digits[-1]
+    start = list_of_digits[0]
+    end = list_of_digits[-1]
 
-    if (start_digit - 1) == -1:
-        start_digit = 1
-    else:
-        start_digit = start_digit - 1
+    results = [str(0) if end + 1 == 10 else str(end + 1),
+               str(9) if start - 1 == -1 else str(start - 1)]
 
-    if (end_digit + 1) == 10:
-        end_digit = 8
-    else:
-        end_digit = end_digit + 1
-
-    return sorted([str(start_digit), str(end_digit)])
+    return sorted(results)
 
 
 def is_sequence(list_of_digits):
@@ -161,34 +154,44 @@ def is_sync(results):
             combinations of pairs
             """
             for pair_digit in product(*pairs_list):
-                pair_digit_join = "".join(pair_digit)
 
                 """Filter pair_digit if is in sequence or has gap:
                     1 - if all digits are in sequence
                     2 - if digits has a gap of 2
                 """
                 if (is_sequence(pair_digit) == 1 and
-                        pair_digit_join not in pair_sequence):
+                        pair_digit not in pair_sequence):
 
+                    """For output purposes only. After the common_digit
+                    has been remove show the pairs of previous result
+                    """
+                    pair_digit_join = "".join(pair_digit)
                     pair_sequence.append(pair_digit_join)
+
+                    """IMPORTANT: this will decide the possible
+                    combinations base on the previous is_sequence(
+                    pair_digit) filter
+                    """
                     possible_digits.append(get_next_digit(pair_digit))
 
             """For a complete sequence of digits limit the number of
             pair_sequence to 2. 1 if at least 1 pair_sequence
             """
             if len(pair_sequence) == 2:
-                possible_combi = ["".join(e) for e in product(
-                    *possible_digits)]
-                has_repeat_pair_digit = False
-
                 """Only select pair_sequence that are unique and no
                 repeating digits ex. ['7', '8', '9'] and ['2', '3','4']
                 """
+
+                has_repeat_pair_digit = False
+
                 for digit in pair_sequence[0]:
                     if digit in pair_sequence[1]:
                         has_repeat_pair_digit = True
 
                 if not has_repeat_pair_digit:
+                    possible_combi = ["".join(e) for e in product(
+                        *possible_digits)]
+
                     return (common_digit, common_results,
                             pair_sequence, possible_combi)
 
