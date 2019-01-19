@@ -110,7 +110,7 @@ def parse_html():
                     file_date = web_date
                     file_time = web_time
 
-        print("Results are up to date for sw3_results_v2.py.")
+        print("Results are up to date for stl_results_v2.py.")
 
     updated_date_time = "updated: {} {}".format(
         file_date, file_time)
