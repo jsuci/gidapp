@@ -9,7 +9,7 @@
 #         if some digits are in sequence and the other digit has
 #         a difference of of 2 then return 2
 #         else return 0
-#     """
+#     """bgLayer
 #     list_of_digits.sort()
 #     start = list_of_digits[0]
 #     first_digit = list_of_digits[0]
@@ -82,7 +82,7 @@ def get_gap_results():
                 date_results_list = re.split(r"\s{10}", line_entry.strip())
 
                 # Set number of matches here
-                if line_count == step_value and number_of_matches != 3:
+                if line_count == step_value and number_of_matches != 2:
                     gap_results["11am"].append(date_results_list[1])
                     gap_results["4pm"].append(date_results_list[2])
                     gap_results["9pm"].append(date_results_list[3])
@@ -98,25 +98,32 @@ def get_gap_results():
 def get_next_digit(list_of_digits):
     """Given a list of string digits ('1', '2', '3') or ['1', '2', 3]
     get their start and end digits and then subtract or add to get the
-    next digit. Returns a list of subtracted and added values
+    next digit. Returns a string of subtracted and added digits joined
+    together
     """
 
     list_of_digits = [int(e) for e in list_of_digits]
     list_of_digits.sort()
     start = list_of_digits[0]
     end = list_of_digits[-1]
+    result = ""
 
-    add_values = [str(0) if e + 1 == 10 else str(e + 1)
-                  for e in list_of_digits]
-    diff_values = [str(9) if e - 1 == -1 else str(e - 1)
-                   for e in list_of_digits]
+    if (end - start) == 1 or (end - start) == 9:
+        result = "".join(
+            [str(0) if end + 1 == 10 else str(end + 1),
+             str(9) if start - 1 == -1 else str(start - 1)]
+        )
 
-    other_values = [str(0) if end + 1 == 10 else str(end + 1),
-                    str(9) if start - 1 == -1 else str(start - 1)]
+    if (end - start) == 2:
+        result = str(start + 1)
 
-    result = [e for e in chain(add_values, diff_values, other_values)]
+    if start == 0 and end == 8:
+        result = str(9)
 
-    return list(set(result))
+    if start == 1 and end == 9:
+        result = str(0)
+
+    return result
 
 
 def is_sequence(list_of_digits):
@@ -191,83 +198,66 @@ def is_sync(results):
     for i in range(10):
         common_digit = str(i)
         has_common_digit = True
-        pairs_list = []
+        left_digits = []
+        right_digits = []
         common_results = []
+        pair_list = []
 
         for result in results:
             if common_digit not in result:
                 has_common_digit = False
             else:
+                pairs = result.replace(common_digit, "", 1)
                 join_result = " ".join([
                     "({})".format(e) if e == common_digit else
                     " {} ".format(e) for e in result])
 
+                pair_list.append(pairs)
                 common_results.append(join_result)
-                pairs_list.append(result.replace(common_digit, "", 1))
+                left_digits.append(pairs[0])
+                right_digits.append(pairs[1])
 
         if has_common_digit:
             """After you have identified results that has common
             digits you can now further filter the results by choosing
-            wether the other digits is in sequence or has a
-            gap of 2
+            wether the pairs is in sequence or has a gap of 2
             """
 
-            return (common_digit, common_results,
-                    None, None)
-
-            pair_sequence = []
             possible_digits = [common_digit]
 
-            """From the list of pairs in pairs_list make all possible
-            combinations of pairs
+            """If both diff_one and diff_two evaluates to 1 then left
+            and right digits contains a gap of one and two.
             """
-            for pair_digit in product(*pairs_list):
+            diff_one = 0
+            diff_two = 0
 
-                """Filter pair_digit if is in sequence or has gap:
-                    1 - if all digits are in sequence
-                    2 - if digits has a gap of 2
-                """
-                if (is_sequence(pair_digit) == 1 and
-                        pair_digit not in pair_sequence):
+            if is_sequence(left_digits) == 1:
+                diff_one += 1
+                possible_digits.append(get_next_digit(left_digits))
 
-                    """IMPORTANT: this will decide the possible
-                    combinations base on the previous is_sequence(
-                    pair_digit) filter
-                    """
-                    next_possible_pair = get_next_digit(pair_digit)
-                    possible_digits.append(next_possible_pair)
+            if is_sequence(left_digits) == 2:
+                diff_two += 1
+                possible_digits.append(get_next_digit(left_digits))
 
-                    """For output purposes only. After the common_digit
-                    has been remove show the pairs of previous result
-                    """
-                    pair_digit_join = "".join(pair_digit)
-                    pair_sequence.append(pair_digit_join)
+            if is_sequence(right_digits) == 1:
+                diff_one += 1
+                possible_digits.append(get_next_digit(right_digits))
 
-            """If the length of pair_sequence is not 2 then those
-            pair_sequence are not complete and cannot be used as basis
+            if is_sequence(right_digits) == 2:
+                diff_two += 1
+                possible_digits.append(get_next_digit(right_digits))
+
+            """Collection of digits and pairs used to make
+            possible_combi later on
             """
-            if len(pair_sequence) == 2:
-                """Only select pair_sequence that are unique and no
-                repeating digits ex. ['09', '01']. pair_sequence is
-                taken from pairs of previous result.
-                """
-                has_repeat_pair_digit = False
 
-                for digit in pair_sequence[0]:
-                    if digit in pair_sequence[1]:
-                        has_repeat_pair_digit = True
+            if (diff_one == 1) and (diff_two == 1):
+                possible_combi = ["".join(e)
+                                  for e in product(*possible_digits)]
+                left_right = ["".join(left_digits), "".join(right_digits)]
 
-                if not has_repeat_pair_digit:
-                    combine_all = list(
-                        set([e for e in chain(*possible_digits)]))
-                    possible_combi = []
-
-                    for combi in combinations(combine_all, 3):
-                        if common_digit in combi:
-                            possible_combi.append("".join(combi))
-
-                    return (common_digit, common_results,
-                            pair_sequence, possible_combi)
+                return (common_digit, common_results, left_right,
+                        possible_combi)
 
 
 def main():
@@ -288,8 +278,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # a = ['4', ['6', '4', '5', '7'], ['6', '4', '5', '7']]
-    # chained = [e for e in chain(*a)]
-    # print(set(chained))
-    # for e in chain(a):
-    #     print(e)
