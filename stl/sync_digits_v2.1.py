@@ -1,6 +1,11 @@
 import re
 from itertools import *
 
+"""
+Possible combinations produced using this script is good for
+2 to 3 days only
+"""
+
 
 def get_gap_results():
     """Gathers all gap results and returns a list of tuple
