@@ -64,6 +64,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo
 	echo "Exiting program in 5 seconds."
-	sleep 5s
 	killall com.termux
 fi
