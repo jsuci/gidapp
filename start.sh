@@ -17,6 +17,9 @@ echo
 echo "SYNC Digits Pattern V2.1:"
 python sync_digits_v2.1.py
 echo
+echo "SYNC Digits Pattern V2.2:"
+python sync_digits_v2.1.py
+echo
 # echo "SYNC Digits Pattern V1.1:"
 # python sync_digits_v1.1.py
 # echo
@@ -40,6 +43,9 @@ echo
 # python sum_digits_v2.1.py
 # echo
 echo "SYNC Digits Pattern V2.1:"
+python sync_digits_v2.1.py
+echo
+echo "SYNC Digits Pattern V2.2:"
 python sync_digits_v2.1.py
 echo
 # echo "SYNC Digits Pattern V1.1:"
