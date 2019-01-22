@@ -1,5 +1,6 @@
 import requests
 import fileinput
+import time
 from bs4 import BeautifulSoup as BS
 from itertools import islice
 
@@ -25,47 +26,124 @@ def convert_month(data):
     }[data]
 
 
-def parse_html():
-    """Process html source and returns all the date and
-    results base on the given date from file
+def get_results(file_month, file_date, file_year):
+    """Fetch results from given file_month, file_date and file_year
+    and returns a list of (output, index, status_code)
     """
 
-    with open("results_v2.txt", "r") as f1:
-        file_date_list = f1.readline().strip().split()
+    # A list of tuples: [(date, [results],...)]
+    output = []
+    status_code = ""
+    index = ""
+    end_date = ""
+
+    content, status_code = fetch_html(file_month, file_year)
+    soup = BS(content, "html.parser")
+    entries = soup.find_all("div", class_="result")
+
+    for i, e in enumerate(entries):
+        web_date_list = e.h4.time.get_text().split(" ")
+        web_date = "{:02} {} {} {}".format(
+            int(web_date_list[1]),
+            web_date_list[0][:3].lower(),
+            web_date_list[2][:3].lower(),
+            web_date_list[3].lower()
+        )
+        web_results = [y.get_text() for y in e.select(
+            "tbody > tr > td > span") if y.get_text() != "-"]
+        web_date_results_time = (web_date, web_results, len(
+            web_results) - 1)
+
+        if web_date == file_date:
+            index = i
+        else:
+            index = 0
+
+        output.append(web_date_results_time)
+
+        end_date = output[-1][0]
+
+    return (output, end_date, index, status_code)
+
+
+def export_results(output, index, file_date, file_time):
+    """Given the output(collected date, results, time), index(
+    skip one entry ahead), file_date(for comparison on the web_date),
+    file_time(for comparison with the current time results). Return
+    the new date and time
+    """
+
+    with open("results_v2.txt", "a") as fi:
+        for date_results_time in islice(output, index, None):
+            date, results, time = date_results_time
+
+            """Check if entries in file are identical to the ones
+            on the web. If they are then skip and process the next
+            entry.
+            """
+            if date == file_date and time == file_time:
+                continue
+            else:
+                if date == file_date:
+                    new_line_count = 0
+                    digit_index = file_time + 1
+
+                    for digits in islice(results, digit_index, None):
+                        print(digits)
+                        fi.write("{:>13}".format(digits))
+                        new_line_count += 1
+
+                    # Decide when add new line inside file
+                    if new_line_count == 2 or digit_index == 2:
+                        fi.write("\n")
+
+                else:
+                    fi.write(date)
+
+                    new_line_count = 0
+                    for digits in results:
+                        print(digits)
+                        fi.write("{:>13}".format(digits))
+                        new_line_count += 1
+
+                    if new_line_count == 3:
+                        fi.write("\n")
+
+    return (date, time)
+
+
+def update_file_date_time(new_date, new_time):
+    updated_date_time = "updated: {} {}".format(
+        new_date, new_time)
+
+    with fileinput.input("results_v2.txt", inplace=True) as fio:
+        for entry in fio:
+            if ":" in entry:
+                print(updated_date_time)
+            else:
+                print(entry, end="")
+
+
+def main():
+    with open("results_v2.txt", "r") as fi:
+        file_date_list = fi.readline().strip().split()
         file_date = " ".join(file_date_list[1:5])
         file_month = convert_month(file_date_list[3])
         file_year = int(file_date_list[4])
         file_time = int(file_date_list[5])
 
-        # A list of tuples: (date, [results])
-        output = []
-        code = ""
-        index = ""
+    while True:
+        curr_date = file_date
 
-        while code != 404:
-            content, code = fetch_html(file_month, file_year)
-            soup = BS(content, "html.parser")
-            entries = soup.find_all("div", class_="result")
+        output, curr_date, index, status_code = get_results(
+            file_month, curr_date, file_year)
 
-            for i, e in enumerate(entries):
-                web_date_list = e.h4.time.get_text().split(" ")
-                web_date = "{:02} {} {} {}".format(
-                    int(web_date_list[1]),
-                    web_date_list[0][:3].lower(),
-                    web_date_list[2][:3].lower(),
-                    web_date_list[3].lower())
+        if status_code != 404:
 
-                if web_date == file_date:
-                    index = i
+            new_date, new_time = export_results(
+                output, index, file_date, file_time)
 
-                web_results = [y.get_text()
-                               for y in e.select("tbody > tr > td > span")
-                               if y.get_text() != "-"]
-
-                web_date_results = (
-                    web_date, web_results)
-
-                output.append(web_date_results)
+            update_file_date_time(new_date, new_time)
 
             if file_month == 12:
                 file_month = 1
@@ -73,58 +151,11 @@ def parse_html():
             else:
                 file_month += 1
 
-    with open("results_v2.txt", "a") as f2:
-        for e in islice(output, index, None):
-            web_date, digits = e
-            trim_date = "{:10}".format(" ".join(
-                web_date.split()[0:3]))
-            web_time = len(digits) - 1
-            digit_index = file_time + 1
+            time.sleep(5)
+        else:
+            break
 
-            if web_date == file_date and file_time == web_time:
-                continue
-            else:
-                if web_date == file_date:
-                    new_line_count = 0
-                    for e in islice(digits, digit_index, None):
-                        print(e)
-                        f2.write("{:>13}".format(e))
-                        new_line_count += 1
-
-                    if new_line_count == 2 or digit_index == 2:
-                        f2.write("\n")
-
-                    file_time = web_time
-                else:
-                    new_line_count = 0
-
-                    f2.write(trim_date)
-                    for e in digits:
-                        print(e)
-                        f2.write("{:>13}".format(e))
-                        new_line_count += 1
-
-                    if new_line_count == 3:
-                        f2.write("\n")
-
-                    file_date = web_date
-                    file_time = web_time
-
-        print("Results are up to date for sw3_results_v2.py.")
-
-    updated_date_time = "updated: {} {}".format(
-        file_date, file_time)
-
-    with fileinput.input("results_v2.txt", inplace=True) as f3:
-        for e in f3:
-            if ":" in e:
-                print(updated_date_time)
-            else:
-                print(e, end="")
-
-
-def main():
-    parse_html()
+    print("Results are now up to date.")
 
 
 if __name__ == "__main__":

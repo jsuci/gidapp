@@ -1,279 +1,161 @@
-# from itertools import islice
+import requests
+import fileinput
+import time
+from bs4 import BeautifulSoup as BS
+from itertools import islice
 
 
-# def is_sequence(list_of_digits):
-#     """Given a list of unsorted integers ex. [4, 8, 3, ...] from
-#     0 to 9 of any given length, check if all the values fit the
-#     conditions below:
-#         if all digits has a difference of 1 then return 1
-#         if some digits are in sequence and the other digit has
-#         a difference of of 2 then return 2
-#         else return 0
-#     """bgLayer
-#     list_of_digits.sort()
-#     start = list_of_digits[0]
-#     first_digit = list_of_digits[0]
-#     last_digit = list_of_digits[-1]
-#     diff_not_one = []
+def fetch_html(mo, yr):
+    headers = {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3163.100 Safari/537.36"
+    }
 
-#     for digit in islice(list_of_digits, 1, None):
-#         if abs(start - digit) != 1:
-#             diff_not_one.append(abs(start - digit))
+    year_month_url = "https://www.gidapp.com/lottery/philippines/pcso/suertres/month/{}-{}".format(
+        yr, mo)
 
-#         start = digit
+    r = requests.get(year_month_url, headers=headers)
 
-#     diff_not_one.sort()
-
-#     len_diff_not_one = len(diff_not_one)
-
-#     if not len_diff_not_one:
-#         return 1
-#     else:
-#         if first_digit == 0 and last_digit == 9:
-#             if len_diff_not_one == 1:
-#                 if diff_not_one[0] == 2:
-#                     return 2
-#                 else:
-#                     return 1
-#             elif (
-#                 len_diff_not_one == 2 and
-#                 diff_not_one[0] == 2 and
-#                 diff_not_one[1] != 2
-#             ):
-#                 return 2
-#             else:
-#                 return 0
-#         elif first_digit == 0 and last_digit == 8:
-#             if len_diff_not_one == 1:
-#                 return 2
-#             else:
-#                 return 0
-#         else:
-#             if len_diff_not_one == 1 and diff_not_one[0] == 2:
-#                 return 2
-#             else:
-#                 return 0
-
-#############################################################
-
-import re
-from itertools import *
+    return (r.content, r.status_code)
 
 
-def get_gap_results():
-    """Gathers all gap results and returns a list of tuple
-    containing the gap_value and time, results dictionary
-    ex. [(2, {'11am': ['952', '517', '591'], '4pm': ['371',
-    '976', '433'], '9pm': ['019', '928', '653']})...]
+def convert_month(data):
+    return {
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5,
+        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,
+        "nov": 11, "dec": 12
+    }[data]
+
+
+def get_results(file_month, file_date, file_year):
+    """Fetch results from given file_month, file_date and file_year
+    and returns a list of (output, index, status_code)
     """
 
-    gap_results_list = []
+    # A list of tuples: [(date, [results],...)]
+    output = []
+    status_code = ""
+    index = ""
+    end_date = ""
 
-    for gap_value in range(2, 20):
-        with open("results_v2.txt", "r") as fo:
-            last_entry = fo.readline().strip().split(" ")[-1]
-            reversed_entries = list(islice(fo, 1, None))[::-1]
-            to_skip = 0 if last_entry == "2" else 1
-            step_value = gap_value + to_skip
-            number_of_matches = 0
-            gap_results = {"11am": [], "4pm": [], "9pm": []}
+    content, status_code = fetch_html(file_month, file_year)
+    soup = BS(content, "html.parser")
+    entries = soup.find_all("div", class_="result")
 
-            for line_count, line_entry in enumerate(reversed_entries):
-                date_results_list = re.split(r"\s{10}", line_entry.strip())
-
-                # Set number of matches here
-                if line_count == step_value and number_of_matches != 2:
-                    gap_results["11am"].append(date_results_list[1])
-                    gap_results["4pm"].append(date_results_list[2])
-                    gap_results["9pm"].append(date_results_list[3])
-
-                    number_of_matches += 1
-                    step_value += gap_value + 1
-
-            gap_results_list.append((gap_value, gap_results))
-
-    return gap_results_list
-
-
-def get_next_digit(list_of_digits):
-    """Given a list of string digits ('1', '2', '3') or ['1', '2', 3]
-    get their start and end digits and then subtract or add to get the
-    next digit. Returns a string of subtracted and added digits joined
-    together
-    """
-
-    list_of_digits = [int(e) for e in list_of_digits]
-    list_of_digits.sort()
-    start = list_of_digits[0]
-    end = list_of_digits[-1]
-    result = ""
-
-    if (end - start) == 1 or (end - start) == 9:
-        result = "".join(
-            [str(0) if end + 1 == 10 else str(end + 1),
-             str(9) if start - 1 == -1 else str(start - 1)]
+    for i, e in enumerate(entries):
+        web_date_list = e.h4.time.get_text().split(" ")
+        web_date = "{:02} {} {} {}".format(
+            int(web_date_list[1]),
+            web_date_list[0][:3].lower(),
+            web_date_list[2][:3].lower(),
+            web_date_list[3].lower()
         )
+        web_results = [y.get_text() for y in e.select(
+            "tbody > tr > td > span") if y.get_text() != "-"]
+        web_date_results_time = (web_date, web_results, len(
+            web_results) - 1)
 
-    if (end - start) == 2:
-        result = str(start + 1)
-
-    if start == 0 and end == 8:
-        result = str(9)
-
-    if start == 1 and end == 9:
-        result = str(0)
-
-    return result
-
-
-def is_sequence(list_of_digits):
-    """Given a list of unsorted string digits ex. ['4', '8'..]
-    from 0 to 9 of any given length, check if all the values fit the
-    conditions below:
-        if all digits has a difference of 1 then return 1
-        if some digits are in sequence and the other digit has
-        a difference of of 2 then return 2
-        else return 0
-    """
-    list_of_digits = [int(e) for e in list_of_digits]
-    list_of_digits.sort()
-    start = list_of_digits[0]
-    first_digit = list_of_digits[0]
-    last_digit = list_of_digits[-1]
-    diff_not_one = []
-
-    for digit in islice(list_of_digits, 1, None):
-        if abs(start - digit) != 1:
-            diff_not_one.append(abs(start - digit))
-
-        start = digit
-
-    diff_not_one.sort()
-
-    len_diff_not_one = len(diff_not_one)
-
-    if not len_diff_not_one:
-        return 1
-    else:
-        if first_digit == 0 and last_digit == 9:
-            if len_diff_not_one == 1:
-                if diff_not_one[0] == 2:
-                    return 2
-                else:
-                    return 1
-            elif (
-                len_diff_not_one == 2 and
-                diff_not_one[0] == 2 and
-                diff_not_one[1] != 2
-            ):
-                return 2
-            else:
-                return 0
-        elif first_digit == 0 and last_digit == 8:
-            if len_diff_not_one == 1:
-                return 2
-            else:
-                return 0
+        if web_date == file_date:
+            index = i
         else:
-            if len_diff_not_one == 1 and diff_not_one[0] == 2:
-                return 2
-            else:
-                return 0
+            index = 0
+
+        output.append(web_date_results_time)
+
+        end_date = output[-1][0]
+
+    return (output, end_date, index, status_code)
 
 
-def is_sync(results):
-    """Given a list of results ex. ['358', '468', '827', ...]
-    check if is in sync or not. By sync means it has:
-        a. common_digit
-        b. other digits must be in sequence (1, 2, 3.. or 3, 2, 1..)
-
-    If all conditions are satisfied then output the following:
-        a. common_digit
-        b. common_results
-        c. pair_sequence
-
-    ex. [3, 4, 2] [5, 6, 7] [('38', '58'), ('48', '68'),
-    ('28', '78')] 8
+def export_results(output, index, file_date, file_time):
+    """Given the output(collected date, results, time), index(
+    skip one entry ahead), file_date(for comparison on the web_date),
+    file_time(for comparison with the current time results). Return
+    the new date and time
     """
-    for i in range(10):
-        common_digit = str(i)
-        has_common_digit = True
-        left_digits = []
-        right_digits = []
-        common_results = []
-        pair_list = []
 
-        for result in results:
-            if common_digit not in result:
-                has_common_digit = False
+    with open("results_v2.txt", "a") as fi:
+        for date_results_time in islice(output, index, None):
+            date, results, time = date_results_time
+
+            """Check if entries in file are identical to the ones
+            on the web. If they are then skip and process the next
+            entry.
+            """
+            if date == file_date and time == file_time:
+                continue
             else:
-                pairs = result.replace(common_digit, "", 1)
-                join_result = " ".join([
-                    "({})".format(e) if e == common_digit else
-                    " {} ".format(e) for e in result])
+                if date == file_date:
+                    new_line_count = 0
+                    digit_index = file_time + 1
 
-                pair_list.append(pairs)
-                common_results.append(join_result)
-                left_digits.append(pairs[0])
-                right_digits.append(pairs[1])
+                    for digits in islice(results, digit_index, None):
+                        print(digits)
+                        fi.write("{:>13}".format(digits))
+                        new_line_count += 1
 
-        if has_common_digit:
-            """After you have identified results that has common
-            digits you can now further filter the results by choosing
-            wether the pairs is in sequence or has a gap of 2
-            """
+                    # Decide when add new line inside file
+                    if new_line_count == 2 or digit_index == 2:
+                        fi.write("\n")
 
-            possible_digits = [common_digit]
+                else:
+                    fi.write(date)
 
-            """If both diff_one and diff_two evaluates to 1 then left
-            and right digits contains a gap of one and two.
-            """
-            diff_one = 0
-            diff_two = 0
+                    new_line_count = 0
+                    for digits in results:
+                        print(digits)
+                        fi.write("{:>13}".format(digits))
+                        new_line_count += 1
 
-            if is_sequence(left_digits) == 1:
-                diff_one += 1
-                possible_digits.append(get_next_digit(left_digits))
+                    if new_line_count == 3:
+                        fi.write("\n")
 
-            if is_sequence(left_digits) == 2:
-                diff_two += 1
-                possible_digits.append(get_next_digit(left_digits))
+    return (date, time)
 
-            if is_sequence(right_digits) == 1:
-                diff_one += 1
-                possible_digits.append(get_next_digit(right_digits))
 
-            if is_sequence(right_digits) == 2:
-                diff_two += 1
-                possible_digits.append(get_next_digit(right_digits))
+def update_file_date_time(new_date, new_time):
+    updated_date_time = "updated: {} {}".format(
+        new_date, new_time)
 
-            """Collection of digits and pairs used to make
-            possible_combi later on
-            """
-
-            if (diff_one == 1) and (diff_two == 1):
-                possible_combi = ["".join(e)
-                                  for e in product(*possible_digits)]
-                left_right = ["".join(left_digits), "".join(right_digits)]
-
-                return (common_digit, common_results, left_right,
-                        possible_combi)
+    with fileinput.input("results_v2.txt", inplace=True) as fio:
+        for entry in fio:
+            if ":" in entry:
+                print(updated_date_time)
+            else:
+                print(entry, end="")
 
 
 def main():
-    for item in get_gap_results():
-        gap_value, gap_results = item
-        for time, results in gap_results.items():
-            if is_sync(results):
-                common, filter_res, sequence, combi = is_sync(results)
-                print("gap: {}\ntime: {}".format(gap_value, time))
-                print("common: {}\ncombi: {}".format(common, combi))
-                print("seq: {}".format(sequence))
-                print("results: ")
-                for entry in filter_res:
-                    print(entry)
+    with open("results_v2.txt", "r") as fi:
+        file_date_list = fi.readline().strip().split()
+        file_date = " ".join(file_date_list[1:5])
+        file_month = convert_month(file_date_list[3])
+        file_year = int(file_date_list[4])
+        file_time = int(file_date_list[5])
 
-                print("\n")
+    while True:
+        curr_date = file_date
+
+        output, curr_date, index, status_code = get_results(
+            file_month, curr_date, file_year)
+
+        if status_code != 404:
+
+            new_date, new_time = export_results(
+                output, index, file_date, file_time)
+
+            update_file_date_time(new_date, new_time)
+
+            if file_month == 12:
+                file_month = 1
+                file_year = file_year + 1
+            else:
+                file_month += 1
+
+            time.sleep(5)
+        else:
+            break
+
+    print("Results are now up to date.")
 
 
 if __name__ == "__main__":
