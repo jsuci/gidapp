@@ -34,7 +34,7 @@ def get_results(file_month, file_date, file_year):
     # A list of tuples: [(date, [results],...)]
     output = []
     status_code = ""
-    index = ""
+    index = 0
     end_date = ""
 
     content, status_code = fetch_html(file_month, file_year)
@@ -56,8 +56,6 @@ def get_results(file_month, file_date, file_year):
 
         if web_date == file_date:
             index = i
-        else:
-            index = 0
 
         output.append(web_date_results_time)
 
