@@ -88,7 +88,7 @@ def export_results(output, index, file_date, file_time):
 
                     for digits in islice(results, digit_index, None):
                         print(digits)
-                        fi.write("{:>13}".format(digits))
+                        fi.write("{:>10}".format(digits))
                         new_line_count += 1
 
                     # Decide when add new line inside file
@@ -101,7 +101,7 @@ def export_results(output, index, file_date, file_time):
                     new_line_count = 0
                     for digits in results:
                         print(digits)
-                        fi.write("{:>13}".format(digits))
+                        fi.write("{:>10}".format(digits))
                         new_line_count += 1
 
                     if new_line_count == 3:
