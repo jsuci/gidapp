@@ -80,10 +80,11 @@ def search_results(digits, exact_loc=0):
                 next_res = entries[index + 1]
                 accu_entries = (prev_res, curr_res, next_res)
 
-                filtered_res = exact_location(
-                    accu_entries, curr_res_loc, exact_loc)
+                # filtered_res = exact_location(
+                #     accu_entries, curr_res_loc, exact_loc)
                 # filtered_res = is_pair(accu_entries, curr_res_loc)
                 # filtered_res = has_common(accu_entries, curr_res_loc)
+                filtered_res = no_filter(accu_entries, curr_res_loc)
 
                 if filtered_res:
                     for e in filtered_res:
@@ -138,13 +139,13 @@ def no_filter(accu_res, digit_loc):
     return accu_res
 
 
-def exact_location(accu_res, digit_loc, exact_loc):
+def exact_location(accu_res, digit_loc, exact_loc=1):
     if digit_loc == exact_loc:
         return has_common(accu_res, digit_loc)
 
 
 def main():
-    for digits in get_combinations('150'):
+    for digits in get_combinations('225'):
         search_results(digits, exact_loc=3)
 
 
