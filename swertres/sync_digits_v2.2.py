@@ -46,32 +46,42 @@ def get_gap_results():
 def get_next_digit(list_of_digits):
     """Given a list of string digits ('1', '2', '3') or ['1', '2', 3]
     get their start and end digits and then subtract or add to get the
-    next digit. Returns a string of subtracted and added digits joined
-    together
+    next digit. Returns a list of subtracted and added values
     """
 
     list_of_digits = [int(e) for e in list_of_digits]
     list_of_digits.sort()
     start = list_of_digits[0]
     end = list_of_digits[-1]
-    result = ""
 
-    if (end - start) == 1 or (end - start) == 9:
-        result = "".join(
-            [str(0) if end + 1 == 10 else str(end + 1),
-             str(9) if start - 1 == -1 else str(start - 1)]
-        )
+    results = [str(0) if end + 1 == 10 else str(end + 1),
+               str(9) if start - 1 == -1 else str(start - 1)]
 
-    if (end - start) == 2:
-        result = str(start + 1)
+    return sorted(results)
 
-    if start == 0 and end == 8:
-        result = str(9)
 
-    if start == 1 and end == 9:
-        result = str(0)
+def get_in_between_digit(list_of_digits):
+    """Given a list of string digits ('5', '3') or ['6', '8']
+    get their start and end digits and if there difference is
+    2 then get their in between value
+    """
 
-    return result
+    list_of_digits = [int(e) for e in list_of_digits]
+    list_of_digits.sort()
+
+    start = list_of_digits[0]
+    first = list_of_digits[0]
+    end = list_of_digits[-1]
+    for digit in islice(list_of_digits, 1, None):
+
+        if (digit - start) == 2:
+            return str(start + 1)
+        elif (first == 0) and (end == 8):
+            return str(9)
+        elif (first == 1) and (end == 9):
+            return str(0)
+        else:
+            start = digit
 
 
 def is_sequence(list_of_digits):
@@ -185,7 +195,8 @@ def is_sync(results):
 
             if is_sequence(left_digits) == 2:
                 diff_two += 1
-                possible_digits.append(get_next_digit(left_digits))
+                possible_digits.append(get_in_between_digit(
+                    left_digits))
 
             if is_sequence(right_digits) == 1:
                 diff_one += 1
@@ -193,7 +204,7 @@ def is_sync(results):
 
             if is_sequence(right_digits) == 2:
                 diff_two += 1
-                possible_digits.append(get_next_digit(right_digits))
+                possible_digits.append(get_in_between_digit(right_digits))
 
             """Collection of digits and pairs used to make
             possible_combi later on

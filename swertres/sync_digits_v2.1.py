@@ -59,6 +59,34 @@ def get_next_digit(list_of_digits):
     return sorted(results)
 
 
+def get_in_between_digit(list_of_digits):
+    """Given a list of string digits ('5', '3') or ['6', '8']
+    get their start and end digits and if there difference is
+    2 then get their in between value
+    """
+
+    list_of_digits = [int(e) for e in list_of_digits]
+    list_of_digits.sort()
+
+    start = list_of_digits[0]
+    first = list_of_digits[0]
+    end = list_of_digits[-1]
+
+    for digit in islice(list_of_digits, 1, None):
+
+        if (digit - start) == 2:
+            return str(start + 1)
+
+        # 0 and 8 has a gap of 2 and
+        # 1 and 9 has a gap of 2
+        elif (first == 0) and (end == 8):
+            return str(9)
+        elif (first == 1) and (end == 9):
+            return str(0)
+        else:
+            start = digit
+
+
 def is_sequence(list_of_digits):
     """Given a list of unsorted string digits ex. ['4', '8'..]
     from 0 to 9 of any given length, check if all the values fit the
