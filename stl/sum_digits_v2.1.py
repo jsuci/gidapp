@@ -59,7 +59,7 @@ def get_output(to_skip):
 
 
             for i, e in enumerate(list(islice(fo, 2, None))[::-1]):
-                digits =  re.split(r"\s{10}", e.strip())
+                digits =  re.split(r"\s{2,}", e.strip())
 
                 """
                 Skip the first n of results base on the value of step

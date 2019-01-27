@@ -85,7 +85,7 @@ def get_output(to_skip):
 
             for count, line in enumerate(
                 list(islice(f2, 2, None))[::-1]):
-                date_digits = re.split(r"\s{10}", line.strip())
+                date_digits = re.split(r"\s{2,}", line.strip())
 
                 if count == step and num_match != 3:
                     for i, e in enumerate(date_digits[1:]):

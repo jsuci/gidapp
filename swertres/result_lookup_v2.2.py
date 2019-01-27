@@ -61,7 +61,7 @@ def get_curr_results(date, number, position):
         [057, 288, 803...]...)
     """
     with open("results_v2.txt") as fi:
-        entries = [re.split(r"\s{10}", e.strip()) for e in fi]
+        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
         index = 0
 
         while index < len(entries) - 1:

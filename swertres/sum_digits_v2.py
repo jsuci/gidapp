@@ -12,7 +12,7 @@ def get_output(to_skip):
             fix_ordering = []
 
             for i, e in enumerate(list(islice(fo, 2, None))[::-1]):
-                digits =  re.split(r"\s{10}", e.strip())
+                digits =  re.split(r"\s{2,}", e.strip())
                 per_line = ["{:20}".format(digits[0])]
 
 

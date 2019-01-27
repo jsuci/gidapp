@@ -420,7 +420,7 @@ def get_gap_results(match_count):
         with open("results_v2.txt", "r") as fi:
 
             # Turn to list and reverse it
-            entries = [re.split(r"\s{10}", e.strip())
+            entries = [re.split(r"\s{2,}", e.strip())
                        for e in fi][::-1]
 
             # Control the number of matches

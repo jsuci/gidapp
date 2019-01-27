@@ -21,7 +21,7 @@ def get_gap_results():
             gap_results = {"11am": [], "4pm": [], "9pm": []}
 
             for line_count, line_entry in enumerate(reversed_entries):
-                date_results_list = re.split(r"\s{10}", line_entry.strip())
+                date_results_list = re.split(r"\s{2,}", line_entry.strip())
 
                 # Set number of matches here
                 if line_count == step_value and number_of_matches != 5:

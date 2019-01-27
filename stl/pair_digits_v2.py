@@ -10,7 +10,7 @@ def get_output(to_skip):
             fix_ordering = []
 
             for count, line in enumerate(list(islice(f1, 2, None))[::-1]):
-                date_digits = re.split(r"\s{10}", line.strip())
+                date_digits = re.split(r"\s{2,}", line.strip())
                 per_line = ["{:15}".format(date_digits[0])]
                 
                 if count == step and num_match != 3:

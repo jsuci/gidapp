@@ -21,7 +21,7 @@ def get_last_result():
 def get_last_two_results():
     """Get the last result and return a list of digit"""
     with open("results_v2.txt") as fi:
-        entries = [re.split(r"\s{10}", e.strip()) for e in fi]
+        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
         last_result = []
 
         if len(entries[-1]) == 4:
@@ -65,7 +65,7 @@ def compare_digits(digit_one, digit_two):
 
 def search_results(digits, exact_loc=0):
     with open("results_v2.txt", "r") as fi:
-        entries = [re.split(r"\s{10}", e.strip()) for e in fi]
+        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
         index = 0
 
         while index < (len(entries) - 1):
