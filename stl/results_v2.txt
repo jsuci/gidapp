@@ -1,4 +1,4 @@
-updated: 23 wed jan 2019 0
+updated: 26 sat jan 2019 2
 
 15 wed nov 2017          660          924          727
 16 thu nov 2017          645          800          330
@@ -426,4 +426,7 @@ updated: 23 wed jan 2019 0
 20 sun jan 2019          125          991          040
 21 mon jan 2019          293          363          885
 22 tue jan 2019          857          377          981
-23 wed jan 2019          324
+23 wed jan 2019          324          003          291
+24 thu jan 2019          318          745          655
+25 fri jan 2019          721          697          348
+26 sat jan 2019          919          597          176
