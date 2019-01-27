@@ -716,9 +716,19 @@ pairs (curr -> prev):
 88(2)
 95(2)
 
+TRIAL PATTERNS 3:
+23 wed jan 2019 9PM PROBABLES
+search 507 or any other combinations of that number
+and its exact location. succeeding results from jan 21
+to 25 2019 are base off on the jan 23 - 25 2016 results
+['23 sat jan 2016', '507', '705', '910']*
+['24 sun jan 2016', '941', '105', '614']
+['25 mon jan 2016', '022', '376', '539']
+
 
 
 SUCCESS PATTERNS:
+
 JAN 11, 4PM, 674:
 gap: 2
 time: 11am
@@ -753,6 +763,17 @@ seq: ['45', '80']
 results: 
  4  (2)  8 
  5  (2)  0 
+
+//sync_digits_v2.2.py
+JAN 27, 9PM, 287
+gap: 11
+time: 11am
+common: 8
+combi: ['820', '827']
+seq: ['13', '89']
+results: 
+ 1  (8) (8)
+ 3   9  (8)
 
 ------------------
 MAINTAIN - JAN 15 - 18 4PM - STL
