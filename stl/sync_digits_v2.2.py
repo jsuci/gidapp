@@ -70,17 +70,18 @@ def get_in_between_digit(list_of_digits):
     list_of_digits.sort()
 
     start = list_of_digits[0]
+    first = list_of_digits[0]
     end = list_of_digits[-1]
     for digit in islice(list_of_digits, 1, None):
+
         if (digit - start) == 2:
             return str(start + 1)
-        elif (start == 0 and digit == 1 and end == 8):
+        elif (first == 0) and (end == 8):
             return str(9)
-        elif (start == 1 and digit == 2 and end == 9):
+        elif (first == 1) and (end == 9):
             return str(0)
         else:
-            return None
-        start = digit
+            start = digit
 
 
 def is_sequence(list_of_digits):
