@@ -1,7 +1,6 @@
 """
-Given a digit to search and its current location search all
-previous result and output the first three previous result of
-that digit.
+Given a digit and its current location search all
+previous result and output the previous result
 """
 
 
@@ -10,38 +9,10 @@ from itertools import *
 import re
 
 
-def get_last_result():
-    """Get the last result and return a string of digit"""
-    with open("results_v2.txt") as fi:
-        last_result = list(fi)[-1].split(" ")[-1].strip()
-
-        return last_result
-
-
-def get_last_two_results():
-    """Get the last result and return a list of digit"""
-    with open("results_v2.txt") as fi:
-        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
-        last_result = []
-
-        if len(entries[-1]) == 4:
-            last_result.extend(entries[-2][1:])
-            last_result.extend(entries[-1][1:])
-        else:
-            last_result.extend(entries[-3][1:])
-            last_result.extend(entries[-2][1:])
-
-        return last_result
-
-
 def get_combinations(digits):
     combi = []
 
     for permute in permutations(digits, 3):
-
-        # # Limit permutations
-        # if digits[0] == permute[0]:
-        #     combi.append("".join(permute))
 
         # Generate all possible permutations
         combi.append("".join(permute))
@@ -63,90 +34,43 @@ def compare_digits(digit_one, digit_two):
         return False
 
 
-def search_results(digits, exact_loc=0):
-    with open("results_v2.txt", "r") as fi:
-        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
-        index = 0
+def search_results(digits, exact_loc):
+    """
+    Input: Given a number and its location, search through previous
+    results that has same digit combination and location.
+    # Search through previous result.index
 
-        while index < (len(entries) - 1):
-
-            if digits in entries[index]:
-
-                # Get the position of the focus digit
-                curr_res_loc = entries[index].index(digits)
-
-                prev_res = entries[index - 1]
-                curr_res = entries[index]
-                next_res = entries[index + 1]
-                accu_entries = (prev_res, curr_res, next_res)
-
-                # filtered_res = exact_location(
-                #     accu_entries, curr_res_loc, exact_loc)
-                # filtered_res = is_pair(accu_entries, curr_res_loc)
-                # filtered_res = has_common(accu_entries, curr_res_loc)
-                filtered_res = no_filter(accu_entries, curr_res_loc)
-
-                if filtered_res:
-                    for e in filtered_res:
-                        print(e)
-
-                    print("\n")
-
-            index += 1
-
-
-def is_pair(accu_res, digit_loc):
-    """Given accu_res(tuple consisting prev, curr, nxt results)
-    and digit_loc(index in which the given digit was found) check
-    if the top digit and bottom digit has at least 2 same digits.
-    Return filtered results.
+    Output: A list of result that matches the condition
     """
 
-    prev, curr, nxt = accu_res
-    is_pair_count = False
+    # Scan through all the results
+    # Check each entries if it has the digit and the position is exact
+    # Make a list of matches
 
-    # compare_digits() controls the number of
-    # successful comparisons
-    if len(nxt) != 3 and compare_digits(
-            prev[digit_loc], nxt[digit_loc]):
-        is_pair_count = True
+    matches = []
+    for num_combi in get_combinations(digits):
+        with open("results_v2.txt", "r") as fi:
+            entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
+            index = 0
 
-    if is_pair_count:
-        return accu_res
+            while index < len(entries):
+                if num_combi in entries[index]:
 
+                    # Get the position of the focus digit
+                    curr_res_loc = entries[index].index(num_combi)
 
-def has_common(accu_res, digit_loc):
-    """Filter accu_res using the last two lines of the current
-    results. If the last_tow_results contains at least 2 digits
-    in accu_res then return that accu_res
-    """
+                    if (exact_loc == curr_res_loc and
+                            entries[index] not in matches):
+                        matches.append(entries[index])
 
-    prev, curr, nxt = accu_res
-    chain_res = [e for e in chain(prev[1:], curr[1:], nxt[1:])]
-    res_to_compare = get_last_two_results()
-    compare_count = 0
+                index += 1
 
-    for digit_one in res_to_compare:
-        for digit_two in chain_res:
-            if compare_digits(digit_one, digit_two):
-                compare_count += 1
-
-    if compare_count == 2:
-        return accu_res
-
-
-def no_filter(accu_res, digit_loc):
-    return accu_res
-
-
-def exact_location(accu_res, digit_loc, exact_loc=1):
-    if digit_loc == exact_loc:
-        return has_common(accu_res, digit_loc)
+    return matches
 
 
 def main():
-    for digits in get_combinations('225'):
-        search_results(digits, exact_loc=3)
+    for entry in search_results("305", 1):
+        print(entry)
 
 
 if __name__ == "__main__":
