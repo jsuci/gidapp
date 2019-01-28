@@ -99,7 +99,7 @@ def get_prev_results(date, number, position):
 
     for curr_num in combinations:
         with open("results_v2.txt") as fi:
-            entries = [re.split(r"\s{10}", e.strip())
+            entries = [re.split(r"\s{2,}", e.strip())
                        for e in islice(fi, 2, None)]
             index = 0
 

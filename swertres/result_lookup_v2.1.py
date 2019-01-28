@@ -65,7 +65,7 @@ def compare_digits(digit_one, digit_two):
 
 def search_results(digits, exact_loc=0):
     with open("results_v2.txt", "r") as fi:
-        entries = [re.split(r"\s{10}", e.strip()) for e in fi]
+        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
         index = 0
 
         while index < (len(entries) - 1):
