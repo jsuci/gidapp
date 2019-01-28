@@ -1183,3 +1183,136 @@ position_digits_v2.1.py 4PM JAN 25
 (7, 8, 3)
 (7, 9, 1)
 (7, 9, 3)
+
+----------------------------------------
+TRIAL PATTERNS 1:
+gap: 16
+time: 11am
+results: ['621', '723', '839']
+position: 1
+exact (curr -> prev):
+(6) [2] (1) - 3rd digit is taken from previous result
+(7) (2)  3
+(8) (3)  9
+
+
+gap: 18
+time: 9pm
+results: ['428', '020', '389']
+position: 3
+exact (curr -> prev):
+(4) [2] (8)
+ 0  (2) (0)
+(3)  8  (9)
+
+
+gap: 12
+time: 4pm
+results: ['976', '875', '827']
+position: 3
+exact (curr -> prev):
+(9) [7] (6)
+ 8  (7) (5)
+(8)  2  (7)
+
+
+TRIAL PATTERNS 2:
+gap: 2
+time: 11am
+results: ['762', '882', '952']
+common_digit: 2
+left: [7, 8, 9]
+right: [5, 6, 8]
+pairs (curr -> prev):
+76(2)
+88(2)
+95(2)
+
+TRIAL PATTERNS 3:
+23 wed jan 2019 9PM PROBABLES
+search 507 or any other combinations of that number
+and its exact location. succeeding results from jan 21
+to 25 2019 are base off on the jan 23 - 25 2016 results
+['23 sat jan 2016', '507', '705', '910']*
+['24 sun jan 2016', '941', '105', '614']
+['25 mon jan 2016', '022', '376', '539']
+
+TRIAL PATTERNS 4:
+
+
+
+
+SUCCESS PATTERNS:
+
+01 thu mar 2018
+353 <- 35
+207
+053
+236
+971
+410
+303
+523
+577 <- 77
+318
+244
+549
+382
+105
+120
+515
+053 <- 35
+990
+298
+105
+507
+808
+962
+965
+665 <- 66 (665 confirmed!)
+
+JAN 11, 4PM, 674:
+gap: 2
+time: 11am
+results: ['874', '648']
+common_digit: 4
+left_digits: [8, 6]
+right_digits: [7, 8]
+pairs (curr -> prev):
+('84', '74')
+('64', '84')
+
+
+// missing_digits_v2.1.py
+JAN 11, 9PM, 703:
+gap: 17
+time: 9pm
+results: ['640', '520']
+common_digit: 0
+left: [6, 5]
+right: [4, 2]
+pairs (curr -> prev):
+('60', '40')
+('50', '20')
+
+
+// missing_digits_v2.1.py
+gap: 19
+time: 9pm
+common: 2
+combi: ['269', '239']
+seq: ['45', '80']
+results: 
+ 4  (2)  8 
+ 5  (2)  0 
+
+//sync_digits_v2.2.py
+JAN 27, 9PM, 287
+gap: 11
+time: 11am
+common: 8
+combi: ['820', '827']
+seq: ['13', '89']
+results: 
+ 1  (8) (8)
+ 3   9  (8)
