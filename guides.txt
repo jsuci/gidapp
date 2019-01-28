@@ -576,6 +576,8 @@ WATCHOUT SA AKONG NAKITA NGA PATTERN SA PASURE NGA ((0))
 
 ['73', '28', '49'] 0
 
+['730', '280', '049']
+
 6, 0, 5, 1 - 0
 (04)(09)done 049 rslt
 (02)(08)done 280 rslt
@@ -728,6 +730,33 @@ to 25 2019 are base off on the jan 23 - 25 2016 results
 
 
 SUCCESS PATTERNS:
+
+01 thu mar 2018
+353 <- 35
+207
+053
+236
+971
+410
+303
+523
+577 <- 77
+318
+244
+549
+382
+105
+120
+515
+053 <- 35
+990
+298
+105
+507
+808
+962
+965
+665 <- 66 (665 confirmed!)
 
 JAN 11, 4PM, 674:
 gap: 2
