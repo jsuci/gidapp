@@ -1,7 +1,9 @@
 """
-Given a digit to search and its current location search all
-previous result and output the first three previous result that
-has at least 3 same current results.
+Given a recent date, number and its location search all
+previous result that has same month, same location but different
+combination of the given and once there is a match get the prev
+and nxt results and mark the match digits relative to the current
+number
 """
 
 from itertools import *
