@@ -1,4 +1,4 @@
-ayne Culaban Guides:
+Wayne Culaban Guides:
 
 Wayne Culaban
 Admin · May 8
@@ -1244,7 +1244,8 @@ TRIAL PATTERNS 4:
 
 SUCCESS PATTERNS:
 
-01 thu mar 2018
+//solid_pattern_v1.1.py
+09 fri mar 2018       962       965       665
 353 <- 35
 207
 053
@@ -1271,7 +1272,32 @@ SUCCESS PATTERNS:
 965
 665 <- 66 (665 confirmed!)
 
-JAN 11, 4PM, 674:
+//solid_pattern_v1.1.py
+09 fri mar 2018       962       965       665
+gap: 7
+common: 5
+results: ['053', '577', '353']
+pairs:
+665 <- ['65', '65', 66] (665 confirmed!)
+053 <- ['05', '35']
+577 <- ['75', '75', 77]
+353 <- ['35', '35']
+
+
+//solid_pattern_v1.1.py
+29 tue jan 2019       798       954
+gap: 5
+common: 5
+results: ['451', '953', '355']
+pairs:
+954 <- ['95', '45'] (945 confirmed!)
+451 <- ['15', '45']
+953 <- ['95', '35']
+355 <- ['35', '35']
+
+
+// missing_digits_v2.1.py
+11 fri jan 2019       393       674
 gap: 2
 time: 11am
 results: ['874', '648']
@@ -1283,31 +1309,8 @@ pairs (curr -> prev):
 ('64', '84')
 
 
-// missing_digits_v2.1.py
-JAN 11, 9PM, 703:
-gap: 17
-time: 9pm
-results: ['640', '520']
-common_digit: 0
-left: [6, 5]
-right: [4, 2]
-pairs (curr -> prev):
-('60', '40')
-('50', '20')
-
-
-// missing_digits_v2.1.py
-gap: 19
-time: 9pm
-common: 2
-combi: ['269', '239']
-seq: ['45', '80']
-results: 
- 4  (2)  8 
- 5  (2)  0 
-
 //sync_digits_v2.2.py
-JAN 27, 9PM, 287
+27 sun jan 2019       882       451       287
 gap: 11
 time: 11am
 common: 8
@@ -1316,3 +1319,15 @@ seq: ['13', '89']
 results: 
  1  (8) (8)
  3   9  (8)
+
+
+ //sync_digits_v2.2.py
+29 tue jan 2019       798       954
+gap: 11
+time: 4pm
+common: 5
+combi: ['564', '594'] (954 confirmed!)
+seq: ['87', '35']
+results: 
+ 8   3  (5)
+(5)  7  (5)
