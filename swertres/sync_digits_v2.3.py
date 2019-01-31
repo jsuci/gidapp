@@ -1,5 +1,5 @@
 """
-TODO: Fix the way the script determines if it is in_sequence
+FIXED: Fix the way the script determines if it is in_sequence
 or not. Separating the digits in to left and right digit is not
 the proper way since there are sequences that are left out
 ex.
@@ -10,15 +10,20 @@ The above sample when using left and right digit would turn out to
 be left = [0, 3, 2] which is not a diff_one sequence but there is a
 [0, 1, 2] and at the same time a diff_two sequence at [5, 3, 6] and
 [5, 3, 2]
+
+
+FIXED: Change the way the script determine if it has a common_digit or
+not.
 """
 
 import re
 from itertools import *
 
 """
-Possible combinations produced using this script is good for
-1 day use only. Use this script as guide for combinations
-produced using syn_digits_v2.1.py.
+HOW TO USE: This script will filter out result base on diff_one,
+diff_two and common_digits. It will also produce possible combinations
+for base on the given filter. Filters out first 100 results with
+matches of 3. You must enter manually the time ex. '11am', '4pm', '9pm'
 """
 
 
@@ -31,7 +36,7 @@ def get_gap_results():
 
     gap_results_list = []
 
-    for gap_value in range(2, 20):
+    for gap_value in range(2, 100):
         with open("results_v2.txt", "r") as fo:
             last_entry = fo.readline().strip().split(" ")[-1]
             reversed_entries = list(islice(fo, 1, None))[::-1]
@@ -153,6 +158,101 @@ def is_sequence(list_of_digits):
                 return 0
 
 
+def has_common_digit(results):
+    """Given a result check if it has a common_digit. Return a list
+    of common digit.
+    """
+    common_digits = []
+
+    for seq in product(*results):
+        g = groupby(seq)
+        if next(g, True) and not next(g, False):
+            if seq[0] not in common_digits:
+                common_digits.append(seq[0])
+
+    return common_digits
+
+
+def possible_digits(results, common):
+    seq = []
+    diff_one = []
+    diff_two = []
+    possible = []
+    status = ""
+
+    # Strip common digits to get pairs
+    for result in results:
+        temp = result
+        for digit in common:
+            temp = temp.replace(digit, "", 1)
+        seq.append(temp)
+
+    # Classify pairs into diff_one or diff_two
+    for digits in product(*seq):
+        if is_sequence(digits) == 1:
+            diff_one_digits = get_next_digit(digits)
+
+            if diff_one_digits not in diff_one:
+                diff_one.append(diff_one_digits)
+        elif is_sequence(digits) == 2:
+            diff_two_digits = get_in_between_digit(digits)
+
+            if diff_two_digits not in diff_two:
+                diff_two.append(diff_two_digits)
+        else:
+            pass
+
+    # Filter options
+    if len(common) == 2 and (diff_one or diff_two):
+        status = "two_common"
+        diff_one_two = diff_one if diff_one else diff_two
+        for combi in product(*common, *diff_one_two):
+            combi = "".join(combi)
+            possible.append(combi)
+
+    if len(common) == 1:
+        if diff_one and diff_two:
+            status = "diff_one_and_two"
+            for combi in product(common, chain(*diff_one), diff_two):
+                combi = "".join(combi)
+                possible.append(combi)
+
+        elif diff_one and len(diff_one) == 2:
+            status = "diff_one_only"
+            for combi in product(common, *diff_one):
+                combi = "".join(combi)
+                possible.append(combi)
+
+        elif diff_two and len(diff_two) == 2:
+            status = "diff_two_only"
+            diff_two_pairs = ["".join(e) for e in combinations(
+                diff_two, 2)]
+            for combi in product(common, diff_two_pairs):
+                combi = "".join(combi)
+                possible.append(combi)
+        else:
+            pass
+
+    diffs = (diff_one, diff_two)
+
+    return (possible, status, diffs)
+
+
+def format_results(results, common):
+    final_output = []
+
+    for result in results:
+        for digit in result:
+            format_result = [
+                "({})".format(e) if e in common else
+                " {} ".format(e) for e in result
+            ]
+
+        final_output.append("".join(format_result))
+
+    return final_output
+
+
 def is_sync(results):
     """Given a list of results ex. ['358', '468', '827', ...]
     check if is in sync or not. By sync means it has:
@@ -161,90 +261,44 @@ def is_sync(results):
 
     If all conditions are satisfied then output the following:
         a. common_digit
-        b. common_results
-        c. pair_sequence
+        b. format_res
+        c. combis
 
     ex. [3, 4, 2] [5, 6, 7] [('38', '58'), ('48', '68'),
     ('28', '78')] 8
     """
-    for i in range(10):
-        common_digit = str(i)
-        has_common_digit = True
-        left_digits = []
-        right_digits = []
-        common_results = []
-        pair_list = []
 
-        for result in results:
-            if common_digit not in result:
-                has_common_digit = False
-            else:
-                pairs = result.replace(common_digit, "", 1)
+    common_digits = has_common_digit(results)
 
-                join_result = " ".join([
-                    "({})".format(e) if e == common_digit else
-                    " {} ".format(e) for e in result])
+    if common_digits:
+        """After you have identified results that has common
+        digits you can now further filter the results by choosing
+        wether the pairs is in sequence or has a gap of 2
+        """
+        combis, status, diffs = possible_digits(results, common_digits)
 
-                pair_list.append(pairs)
-                common_results.append(join_result)
-                left_digits.append(pairs[0])
-                right_digits.append(pairs[1])
+        if status:
+            format_res = format_results(results, common_digits)
+            output = (common_digits, format_res, combis, status, diffs)
 
-        if has_common_digit:
-            """After you have identified results that has common
-            digits you can now further filter the results by choosing
-            wether the pairs is in sequence or has a gap of 2
-            """
-
-            possible_digits = [common_digit]
-
-            """If both diff_one and diff_two evaluates to 1 then left
-            and right digits contains a gap of one and two.
-            """
-            diff_one = 0
-            diff_two = 0
-
-            if is_sequence(left_digits) == 1:
-                diff_one += 1
-                possible_digits.append(get_next_digit(left_digits))
-
-            if is_sequence(left_digits) == 2:
-                diff_two += 1
-                possible_digits.append(get_in_between_digit(
-                    left_digits))
-
-            if is_sequence(right_digits) == 1:
-                diff_one += 1
-                possible_digits.append(get_next_digit(right_digits))
-
-            if is_sequence(right_digits) == 2:
-                diff_two += 1
-                possible_digits.append(get_in_between_digit(right_digits))
-
-            """Collection of digits and pairs used to make
-            possible_combi later on
-            """
-
-            if (diff_one == 1) and (diff_two == 1):
-                possible_combi = ["".join(e)
-                                  for e in product(*possible_digits)]
-                left_right = ["".join(left_digits), "".join(right_digits)]
-
-                return (common_digit, common_results, left_right,
-                        possible_combi)
+            return output
 
 
 def main():
+    option_time = "9pm"
     for item in get_gap_results():
         gap_value, gap_results = item
         for time, results in gap_results.items():
-            if is_sync(results):
-                common, filter_res, sequence, combi = is_sync(results)
-                print("gap: {}\ntime: {}".format(gap_value, time))
-                print("common: {}\ncombi: {}".format(common, combi))
-                print("seq: {}".format(sequence))
+            if is_sync(results) and option_time == time:
+                common, format_res, combi, status, diffs = is_sync(results)
+                print("gap: {}".format(gap_value))
+                print("time: {}".format(time))
+                print("status: {}".format(status))
+                print("diffs: {}".format(diffs))
+                print("common: {}".format(common))
+                print("combi: {}".format(combi))
                 print("results: ")
-                for entry in filter_res:
+                for entry in format_res:
                     print(entry)
 
                 print("\n")

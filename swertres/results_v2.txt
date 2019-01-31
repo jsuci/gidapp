@@ -1,4 +1,4 @@
-updated: 29 tue jan 2019 1
+updated: 31 thu jan 2019 1
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2182,4 +2182,6 @@ updated: 29 tue jan 2019 1
 26 sat jan 2019       069       673       225
 27 sun jan 2019       882       451       287
 28 mon jan 2019       156       424       000
-29 tue jan 2019       798       954
+29 tue jan 2019       798       954       587
+30 wed jan 2019       518       376       522
+31 thu jan 2019       186       253
