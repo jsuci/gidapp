@@ -4,11 +4,11 @@ clear
 echo "PROCESSING SW3:"
 cd /sdcard/Download/gidapp/swertres
 echo
-echo "SYNC Digits Pattern V2.1:"
-python sync_digits_v2.1.py
+echo "SYNC Digits Pattern V2.3:"
+python sync_digits_v2.3.py
 echo
-echo "SYNC Digits Pattern V2.2:"
-python sync_digits_v2.2.py
+echo "SOLID Pattern V1.1:"
+python solid_pattern_v1.1.py
 echo
 echo "Fetching Results:"
 python sw3_results_v1.py
@@ -32,11 +32,11 @@ echo
 echo "PROCESSING STL:"
 cd /sdcard/Download/gidapp/stl
 echo
-echo "SYNC Digits Pattern V2.1:"
-python sync_digits_v2.1.py
+echo "SYNC Digits Pattern V2.3:"
+python sync_digits_v2.3.py
 echo
-echo "SYNC Digits Pattern V2.2:"
-python sync_digits_v2.2.py
+echo "SOLID Pattern V1.1:"
+python solid_pattern_v1.1.py
 echo
 echo "Fetching Results:"
 python stl_results_v1.py
@@ -57,10 +57,7 @@ echo
 echo
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task
 read -p "Do you want to exit? (Y/y): " -n 1 -r
-echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-	echo
-	echo "Exiting console..."
 	killall com.termux
 fi
