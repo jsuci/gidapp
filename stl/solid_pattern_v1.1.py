@@ -34,6 +34,21 @@ def get_results():
     return results
 
 
+def get_pairs(digit, common):
+    """Given any digit and common return combination of pairs
+    that has common"""
+    result = ()
+    for pair in combinations(digit, 2):
+        pair = "".join(pair)
+        if common in pair:
+            new_pair = pair.replace(common, "", 1) + common
+            result += (new_pair, )
+        # else:
+        #     result += (pair, )
+
+    return sorted(result)
+
+
 def filter_results():
     # Load all results
 
@@ -46,24 +61,32 @@ def filter_results():
 
     for gap_value in range(1, len(results)):
         for common_digit in range(0, 10):
+            common = str(common_digit)
             step = gap_value
             common_list = []
 
             for count, result in enumerate(results):
-                if step == count and str(common_digit) in result:
+                if step == count and common in result:
                     common_list.append(result)
                     step += (gap_value + 1)
 
             if common_list and len(common_list) >= 3:
                 final_list.append((
-                    gap_value, common_digit, common_list))
+                    gap_value, common, common_list))
 
     return final_list
 
 
 def main():
     for entry in filter_results():
-        print(entry)
+        gap, common, results = entry
+        print("gap: {}".format(gap))
+        print("common: {}".format(common))
+        print("results: {}".format(results))
+        print("pairs:")
+        for result in results:
+            print("{} <- {}".format(result, get_pairs(result, common)))
+        print("\n")
 
 
 if __name__ == "__main__":
