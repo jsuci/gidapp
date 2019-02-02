@@ -138,7 +138,7 @@ def get_prev_results(date, number, position):
 
 
 def main():
-    inputs = ["22 tue jan 2019", "614", "3"]
+    inputs = ["23 wed jan 2019", "355", "2"]
     curr_res = get_curr_results(*inputs)
     all_prev_res = get_prev_results(*inputs)
 

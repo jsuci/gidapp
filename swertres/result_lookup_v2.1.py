@@ -69,7 +69,7 @@ def search_results(digits, exact_loc):
 
 
 def main():
-    for entry in search_results("305", 1):
+    for entry in search_results("614", 3):
         print(entry)
 
 
