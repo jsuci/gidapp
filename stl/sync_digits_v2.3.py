@@ -20,10 +20,48 @@ import re
 from itertools import *
 
 """
-This script will filter out result base on diff_one, diff_two and
-common_digits. It will also produce possible combinations for base
-on the given filter. Filters out first 100 results with matches of
-3
+HOW TO USE 1: This script will filter out result base on diff_one,
+diff_two and common_digits. It will also produce possible combinations
+for base on the given filter. Filters out first 100 results with
+matches of 3. You must enter manually the time ex. '11am', '4pm', '9pm'
+
+
+HOW TO USE 2: You can use this script to filter out diff_one_one.
+diff_one_one filters out this pattern:
+
+(04)(09)done 049
+(02)(08)done 280
+(03)(07)done 730
+(05)(06)done 605 <- result
+
+1. To spot this kind of pattern and predict the next result, first is
+to set the get_gap_results matches to "3"
+2. Record the time, and expected date of diff_one_one results to comeout ex.
+    // previous result; macthes: 3
+    gap: 34
+    time: 11am
+    status: diff_one_one
+    diffs: ([['1', '5']], [])
+    common: ['9']
+    combi: ['91', '95']
+    results:
+     8  3 (9)
+    (9) 3  2
+    (9)(9) 4
+
+    // predicted results; matches: 4
+    gap: 34
+    time: 11am
+    status: diff_one_two
+    diffs: ([['1', '6'], ['0', '5']], [])
+    common: ['9']
+    combi: ['910', '915', '960', '965']
+    results:
+     5 (9) 1 <- (confirmed result!)
+     8  3 (9)
+    (9) 3  2
+    (9)(9) 4
+
 """
 
 
@@ -49,7 +87,7 @@ def get_gap_results():
                 date_results_list = re.split(r"\s{2,}", line_entry.strip())
 
                 # Set number of matches here
-                if line_count == step_value and number_of_matches != 3:
+                if line_count == step_value and number_of_matches != 2:
                     gap_results["11am"].append(date_results_list[1])
                     gap_results["4pm"].append(date_results_list[2])
                     gap_results["9pm"].append(date_results_list[3])
@@ -217,11 +255,17 @@ def possible_digits(results, common):
                 combi = "".join(combi)
                 possible.append(combi)
 
-        # elif diff_one:
-        #     status = "diff_one_only"
-        #     for combi in product(common, *diff_one):
-        #         combi = "".join(combi)
-        #         possible.append(combi)
+        elif diff_one and len(diff_one) == 2:
+            status = "diff_one_two"
+            for combi in product(common, *diff_one):
+                combi = "".join(combi)
+                possible.append(combi)
+
+        elif diff_one and len(diff_one) == 1:
+            status = "diff_one_one"
+            for combi in product(*common, *diff_one[0]):
+                combi = "".join(combi)
+                possible.append(combi)
 
         elif diff_two and len(diff_two) == 2:
             status = "diff_two_only"
@@ -288,7 +332,7 @@ def main():
     for item in get_gap_results():
         gap_value, gap_results = item
         for time, results in gap_results.items():
-            if is_sync(results):
+            if is_sync(results) and time == "9pm":
                 common, format_res, combi, status, diffs = is_sync(results)
                 print("gap: {}".format(gap_value))
                 print("time: {}".format(time))
