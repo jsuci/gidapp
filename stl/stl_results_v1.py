@@ -1,5 +1,6 @@
 import requests
 import fileinput
+from time import *
 from bs4 import BeautifulSoup as BS
 
 
@@ -74,6 +75,9 @@ def parse_html(file_date, fo):
             year = year + 1
         else:
             month += 1
+
+        print(format_date)
+        sleep(5)
 
     """prev_date and e["date"] must be in format
     01 mon jan 2018"""
