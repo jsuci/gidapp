@@ -328,11 +328,38 @@ def is_sync(results):
             return output
 
 
+def export_file(results, time, gap_value):
+
+    common, format_res, combi, status, diffs = is_sync(results)
+
+    with open("results_sync_digits_v2.3.txt", "a") as fo:
+        fo.write("gap: {}\n".format(gap_value))
+        fo.write("time: {}\n".format(time))
+        fo.write("status: {}\n".format(status))
+        fo.write("diffs: {}\n".format(diffs))
+        fo.write("common: {}\n".format(common))
+        fo.write("combi: {}\n".format(combi))
+        fo.write("results: \n")
+        for entry in format_res:
+            fo.write("{}\n".format(entry))
+
+        fo.write("\n\n")
+
+
 def main():
+    with open("results_sync_digits_v2.3.txt", "w") as fo:
+        fo.write("")
+
+    # option_time = input("Enter time (11am, 4pm or 9pm): ")
+    option_time = "9pm"
+
     for item in get_gap_results():
         gap_value, gap_results = item
         for time, results in gap_results.items():
-            if is_sync(results) and time == "9pm":
+            if is_sync(results) and time == option_time:
+
+                export_file(results, time, gap_value)
+
                 common, format_res, combi, status, diffs = is_sync(results)
                 print("gap: {}".format(gap_value))
                 print("time: {}".format(time))

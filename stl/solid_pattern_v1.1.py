@@ -77,9 +77,30 @@ def filter_results():
     return final_list
 
 
+def export_file(entry):
+
+    gap, common, results = entry
+
+    with open("results_solid_pattern_v1.1.txt", "a") as fo:
+        fo.write("gap: {}\n".format(gap))
+        fo.write("common: {}\n".format(common))
+        fo.write("results: {}\n".format(results))
+        fo.write("pairs:\n")
+        for result in results:
+            fo.write("{} <- {}\n".format(
+                result, get_pairs(result, common)))
+        fo.write("\n")
+
+
 def main():
+    with open("results_solid_pattern_v1.1.txt", "w") as fo:
+        fo.write("")
+
     for entry in filter_results():
         gap, common, results = entry
+
+        export_file(entry)
+
         print("gap: {}".format(gap))
         print("common: {}".format(common))
         print("results: {}".format(results))
