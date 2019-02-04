@@ -2,6 +2,7 @@ import requests
 import fileinput
 from time import *
 from bs4 import BeautifulSoup as BS
+from itertools import *
 
 
 def fetch_html(mo, yr):
@@ -25,98 +26,118 @@ def convert_month(data):
     }[data]
 
 
-def parse_html(file_date, fo):
-    """Process html source and returns a dictionary of date and
-    results base on a given date.
-
-    Args:
-        fo: file open
-        file_date: must be in date day month year format
-        ex. 10 thu dec 2018
+def export_results(output, index, file_date, file_time):
+    """Given the output(collected date, results, time), index(
+    skip one entry ahead), file_date(for comparison on the web_date),
+    file_time(for comparison with the current time results). Return
+    the new date and time
     """
-    split_date = file_date.strip().split()
-    month = convert_month(split_date[3])
-    year = int(split_date[4])
-    code = ""
+
+    with open("results_v1.txt", "a") as fi:
+        for date_results_time in islice(output, index, None):
+            date, results, time = date_results_time
+
+            """Check if entries in file are identical to the ones
+            on the web. If they are then skip and process the next
+            entry.
+            """
+            if date == file_date and time == file_time:
+                continue
+            else:
+                if date == file_date:
+                    digit_index = file_time + 1
+
+                    for digits in islice(results, digit_index, None):
+                        fi.write("{}\n".format(digits))
+                        print(digits)
+                else:
+                    for digits in results:
+                        fi.write("{}\n".format(digits))
+                        print(digits)
+
+    return (date, time)
+
+
+def update_file_date_time(new_date, new_time):
+    updated_date_time = "updated: {} {}".format(
+        new_date, new_time)
+
+    with fileinput.input("results_v1.txt", inplace=True) as fio:
+        for entry in fio:
+            if ":" in entry:
+                print(updated_date_time)
+            else:
+                print(entry, end="")
+
+
+def get_results(file_month, file_date, file_year):
+    """Give a converted month, date and year, fetch and filter gidapp
+    website and return a list of tuple output, index, status_code
+    """
+
+    # A list of tuples: [(date, [results],...)]
     output = []
+    status_code = ""
+    index = 0
+    end_date = ""
 
-    while code != 404:
-        content, code = fetch_html(month, year)
-        soup = BS(content, "html.parser")
-        entries = soup.find_all("div", class_="result")
+    content, status_code = fetch_html(file_month, file_year)
+    soup = BS(content, "html.parser")
+    entries = soup.find_all("div", class_="result")
 
-        prev_date = " ".join(split_date[1:5])
-        prev_time = int(split_date[-1])
+    for i, e in enumerate(entries):
+        web_date_list = e.h4.time.get_text().split(" ")
+        web_date = "{:02} {} {} {}".format(
+            int(web_date_list[1]),
+            web_date_list[0][:3].lower(),
+            web_date_list[2][:3].lower(),
+            web_date_list[3].lower()
+        )
+        web_results = [y.get_text() for y in e.select(
+            "tbody > tr > td > span") if y.get_text() != "-"]
+        web_date_results_time = (web_date, web_results, len(
+            web_results) - 1)
 
-        for x in entries:
-            curr_date = x.h4.time.get_text().split(" ")
-            format_date = "{:02} {} {} {}".format(
-                int(curr_date[1]),
-                curr_date[0][:3].lower(),
-                curr_date[2][:3].lower(),
-                curr_date[3].lower())
+        if web_date == file_date:
+            index = i
 
-            format_results = [y.get_text()
-                              for y in x.select("tbody > tr > td > span")
-                              if y.get_text() != "-"]
+        output.append(web_date_results_time)
 
-            date_results = {
-                "date": format_date,
-                "results": format_results
-            }
+        end_date = output[-1][0]
 
-            # If entries are ordered in descending order
-            # output.insert(0, date_results)
-
-            output.append(date_results)
-
-        if month == 12:
-            month = 1
-            year = year + 1
-        else:
-            month += 1
-
-        print(format_date)
-        sleep(5)
-
-    """prev_date and e["date"] must be in format
-    01 mon jan 2018"""
-    index = [int(i) for i, e in enumerate(output)
-             if e["date"] == prev_date][0]
-
-    for item in output[index:]:
-        date = item["date"]
-        results = item["results"]
-        time = len(results) - 1
-
-        if date == prev_date:
-            for digits in results[prev_time + 1:]:
-                prev_time = time
-                fo.write("{}\n".format(digits))
-                print(digits)
-        else:
-            for digits in results:
-                prev_date = date
-                prev_time = time
-                fo.write("{}\n".format(digits))
-                print(digits)
-
-    print("Results are now up to date.")
-    return "update: {} {}".format(prev_date, prev_time)
+    return (output, end_date, index, status_code)
 
 
 def main():
-    file_name = "results_v1.txt"
-    with open(file_name, "r+") as f1:
-        file_date = f1.readline().strip()
-        date_time = parse_html(file_date, f1)
+    with open("results_v1.txt", "r") as fi:
+        file_date_list = fi.readline().strip().split()
+        file_date = " ".join(file_date_list[1:5])
+        file_month = convert_month(file_date_list[3])
+        file_year = int(file_date_list[4])
+        file_time = int(file_date_list[5])
 
-    with fileinput.input(file_name, inplace=True) as f2:
-        for line in f2:
-            if " " in line:
-                print(date_time)
+    while True:
+        curr_date = file_date
+        output, curr_date, index, status_code = get_results(
+            file_month, curr_date, file_year)
+
+        if status_code != 404:
+            new_date, new_time = export_results(
+                output, index, file_date, file_time)
+
+            update_file_date_time(new_date, new_time)
+
+            if file_month == 12:
+                file_month = 1
+                file_year = file_year + 1
             else:
-                print(line, end="")
+                file_month += 1
+
+            sleep(5)
+        else:
+            break
+
+    print("Results are now up to date.")
 
 
 if __name__ == "__main__":
