@@ -1473,3 +1473,8 @@ ex:
 
 5. compare your possible digits/pair to the once generated
 by sync_digits_v2.3.py
+
+-------------------------
+regenerating list of results missing
+
+30 fri jun 2017       502       586       970
