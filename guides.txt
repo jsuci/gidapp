@@ -1458,6 +1458,14 @@ ex:
     703 <- ['03', '73'] (73)
     371 <- ['13', '73'] (73)
 
+    gap: 29
+    common: 9
+    results: ['069', '329', '952']
+    pairs:
+    ???  <-                 (49, 69/09) (649 11am feb 5 result)
+    069 <- ['09', '69'] (69)
+    329 <- ['29', '39'] (39) (29)
+    952 <- ['29', '59'] (59) (29)
 
 4. after you have formulated a possible digits/pair from solid_pattern_v1.1.py run sync_digits_v2.3.py
 ex:
