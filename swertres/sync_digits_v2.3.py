@@ -351,7 +351,7 @@ def main():
         fo.write("")
 
     # option_time = input("Enter time (11am, 4pm or 9pm): ")
-    option_time = "9pm"
+    option_time = "11am"
 
     for item in get_gap_results():
         gap_value, gap_results = item
