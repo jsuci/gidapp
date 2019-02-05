@@ -24,7 +24,9 @@ from itertools import *
 
 
 def get_results():
-    """Get all the previous result and store it in reverse order"""
+    """Get all the previous result and store it in a list in 
+    reverse order.
+    """
 
     results = []
     with open("results_v1.txt", "r") as fi:
@@ -50,16 +52,17 @@ def get_pairs(digit, common):
 
 
 def filter_results():
-    # Load all results
-
-    # Check each result if it has a common digit
-    # until no common digit is found. After that increment
-    # 1 to the gap
+    """Process get_results() output and filter them by gap.
+    Return a list of tuple containing [(gap_value, results, time)]
+    """
 
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, len(results)):
+    # gap_value counter
+    for gap_value in range(1, 100):
+
+        # common_digit counter
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
