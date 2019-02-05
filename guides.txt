@@ -1475,6 +1475,10 @@ ex:
 by sync_digits_v2.3.py
 
 -------------------------
-regenerating list of results missing
+FIX MISSING RESULTS
 
-30 fri jun 2017       502       586       970
+SW3
+30 fri jun 2017       502       586       ((970))
+
+STL
+07 sun jan 2018       924       ((977))     623
