@@ -1,0 +1,451 @@
+gap: 3
+time: 11am
+status: diff_one_two
+diffs: ([['2', '9'], ['0', '3']], [])
+common: ['3']
+combi: ['320', '323', '390', '393']
+results: 
+ 7  1 (3)
+ 0 (3) 2 
+
+
+gap: 7
+time: 11am
+status: diff_one_and_two
+diffs: ([['2', '9']], ['2', '4'])
+common: ['2']
+combi: ['222', '224', '292', '294']
+results: 
+ 0  3 (2)
+ 1 (2) 5 
+
+
+gap: 9
+time: 11am
+status: diff_one_two
+diffs: ([['0', '3'], ['0', '7']], [])
+common: ['9']
+combi: ['900', '907', '930', '937']
+results: 
+(9) 1 (9)
+(9) 8  2 
+
+
+gap: 10
+time: 11am
+status: diff_one_and_two
+diffs: ([['5', '8']], ['8'])
+common: ['2']
+combi: ['258', '288']
+results: 
+ 7 (2) 1 
+(2) 6  9 
+
+
+gap: 13
+time: 11am
+status: two_common
+diffs: ([['4', '7']], [])
+common: ['8', '7']
+combi: ['874', '877']
+results: 
+(8) 5 (7)
+(7) 6 (8)
+
+
+gap: 14
+time: 11am
+status: diff_one_two
+diffs: ([['2', '5'], ['1', '4']], [])
+common: ['2']
+combi: ['221', '224', '251', '254']
+results: 
+(2) 9  3 
+(2) 4 (2)
+
+
+gap: 17
+time: 11am
+status: diff_one_and_two
+diffs: ([['5', '8']], ['7'])
+common: ['0']
+combi: ['057', '087']
+results: 
+ 8 (0) 7 
+ 6  4 (0)
+
+
+gap: 19
+time: 11am
+status: diff_one_one
+diffs: ([['0', '3']], [])
+common: ['8']
+combi: ['803']
+results: 
+ 9 (8) 2 
+ 5  1 (8)
+
+
+gap: 20
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '9']], ['8'])
+common: ['3']
+combi: ['308', '398']
+results: 
+(3) 9  4 
+ 0 (3) 7 
+
+
+gap: 21
+time: 11am
+status: diff_one_one
+diffs: ([['4', '7']], [])
+common: ['2']
+combi: ['247']
+results: 
+(2) 6  9 
+(2) 3  5 
+
+
+gap: 26
+time: 11am
+status: diff_one_one
+diffs: ([['2', '9']], [])
+common: ['2']
+combi: ['229']
+results: 
+ 1  1 (2)
+ 6  0 (2)
+
+
+gap: 27
+time: 11am
+status: two_common
+diffs: ([], ['9'])
+common: ['7', '6']
+combi: ['769']
+results: 
+(7)(6) 8 
+ 0 (7)(6)
+
+
+gap: 29
+time: 11am
+status: diff_one_two
+diffs: ([['2', '5'], ['1', '4']], [])
+common: ['2']
+combi: ['221', '224', '251', '254']
+results: 
+(2) 4 (2)
+(2) 3  7 
+
+
+gap: 31
+time: 11am
+status: diff_two_only
+diffs: ([], ['1', '8'])
+common: ['5']
+combi: ['518']
+results: 
+ 2 (5) 7 
+(5) 9  0 
+
+
+gap: 35
+time: 11am
+status: diff_one_and_two
+diffs: ([['2', '5']], ['3'])
+common: ['0']
+combi: ['023', '053']
+results: 
+ 6  4 (0)
+(0) 3  2 
+
+
+gap: 36
+time: 11am
+status: diff_one_and_two
+diffs: ([['2', '9'], ['0', '3']], ['9'])
+common: ['5']
+combi: ['529', '599', '509', '539']
+results: 
+ 0  2 (5)
+(5) 8  1 
+
+
+gap: 42
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '9']], ['5'])
+common: ['7']
+combi: ['705', '795']
+results: 
+ 0  6 (7)
+(7) 4  9 
+
+
+gap: 44
+time: 11am
+status: diff_one_one
+diffs: ([['2', '5']], [])
+common: ['1']
+combi: ['125']
+results: 
+ 3  0 (1)
+(1) 4  6 
+
+
+gap: 46
+time: 11am
+status: diff_one_one
+diffs: ([['4', '7']], [])
+common: ['0']
+combi: ['047']
+results: 
+ 8  6 (0)
+(0) 5  5 
+
+
+gap: 47
+time: 11am
+status: two_common
+diffs: ([], ['6'])
+common: ['2', '1']
+combi: ['216']
+results: 
+ 7 (2)(1)
+ 5 (2)(1)
+
+
+gap: 50
+time: 11am
+status: diff_one_and_two
+diffs: ([['6', '9']], ['8'])
+common: ['8']
+combi: ['868', '898']
+results: 
+(8)(8) 9 
+ 7  5 (8)
+
+
+gap: 53
+time: 11am
+status: diff_two_only
+diffs: ([], ['5', '1'])
+common: ['2']
+combi: ['251']
+results: 
+ 6  0 (2)
+ 4 (2)(2)
+
+
+gap: 54
+time: 11am
+status: two_common
+diffs: ([], ['4'])
+common: ['0', '9']
+combi: ['094']
+results: 
+ 5 (0)(9)
+(0) 3 (9)
+
+
+gap: 55
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '9']], ['8'])
+common: ['6']
+combi: ['608', '698']
+results: 
+ 0  7 (6)
+ 9 (6) 3 
+
+
+gap: 57
+time: 11am
+status: two_common
+diffs: ([], ['5'])
+common: ['9', '1']
+combi: ['915']
+results: 
+ 4 (9)(1)
+ 6 (1)(9)
+
+
+gap: 62
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '3']], ['7'])
+common: ['8']
+combi: ['807', '837']
+results: 
+(8) 6  2 
+ 1 (8)(8)
+
+
+gap: 63
+time: 11am
+status: two_common
+diffs: ([['0', '7']], [])
+common: ['5', '0']
+combi: ['500', '507']
+results: 
+(5) 9 (0)
+ 8 (5)(0)
+
+
+gap: 64
+time: 11am
+status: two_common
+diffs: ([['1', '4']], [])
+common: ['4', '1']
+combi: ['411', '414']
+results: 
+ 2 (4)(1)
+(4) 3 (1)
+
+
+gap: 65
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '7']], ['9'])
+common: ['6']
+combi: ['609', '679']
+results: 
+(6) 9  0 
+ 5 (6) 8 
+
+
+gap: 68
+time: 11am
+status: diff_one_one
+diffs: ([['2', '5']], [])
+common: ['7']
+combi: ['725']
+results: 
+(7) 4 (7)
+ 3  3 (7)
+
+
+gap: 69
+time: 11am
+status: diff_one_one
+diffs: ([['6', '9']], [])
+common: ['2']
+combi: ['269']
+results: 
+(2) 4  7 
+ 8 (2) 0 
+
+
+gap: 73
+time: 11am
+status: diff_one_one
+diffs: ([['4', '7']], [])
+common: ['8']
+combi: ['847']
+results: 
+ 5 (8) 1 
+(8) 9  6 
+
+
+gap: 74
+time: 11am
+status: two_common
+diffs: ([['4', '7']], [])
+common: ['2', '8']
+combi: ['284', '287']
+results: 
+ 6 (2)(8)
+(8) 5 (2)
+
+
+gap: 75
+time: 11am
+status: diff_one_one
+diffs: ([['2', '5']], [])
+common: ['2']
+combi: ['225']
+results: 
+ 3 (2) 3 
+ 4 (2) 8 
+
+
+gap: 78
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '7']], ['8'])
+common: ['0']
+combi: ['008', '078']
+results: 
+ 8 (0) 7 
+(0) 4  9 
+
+
+gap: 82
+time: 11am
+status: diff_one_and_two
+diffs: ([['1', '4']], ['3'])
+common: ['5']
+combi: ['513', '543']
+results: 
+ 3  4 (5)
+ 9 (5) 2 
+
+
+gap: 83
+time: 11am
+status: diff_one_one
+diffs: ([['0', '9']], [])
+common: ['3']
+combi: ['309']
+results: 
+ 0 (3) 2 
+ 6 (3) 9 
+
+
+gap: 85
+time: 11am
+status: diff_one_two
+diffs: ([['2', '5'], ['0', '7']], [])
+common: ['7']
+combi: ['720', '727', '750', '757']
+results: 
+(7) 4  9 
+ 8 (7) 3 
+
+
+gap: 87
+time: 11am
+status: diff_one_and_two
+diffs: ([['4', '7']], ['5'])
+common: ['8']
+combi: ['845', '875']
+results: 
+ 6 (8) 1 
+(8) 5  4 
+
+
+gap: 95
+time: 11am
+status: two_common
+diffs: ([], ['6'])
+common: ['2', '1']
+combi: ['216']
+results: 
+ 5 (2)(1)
+(2) 7 (1)
+
+
+gap: 97
+time: 11am
+status: diff_one_and_two
+diffs: ([['5', '8']], ['7'])
+common: ['0']
+combi: ['057', '087']
+results: 
+ 7  8 (0)
+(0) 4  6 
+
+
