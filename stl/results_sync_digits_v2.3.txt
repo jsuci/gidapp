@@ -1,451 +1,407 @@
+gap: 2
+time: 11am
+status: two_common
+diffs: ([['5', '8']], [])
+common: ['3', '1']
+combi: ['315', '318']
+results: 
+ 6 (3)(1)
+ 7 (1)(3)
+
+
 gap: 3
 time: 11am
-status: diff_one_two
-diffs: ([['2', '9'], ['0', '3']], [])
-common: ['3']
-combi: ['320', '323', '390', '393']
+status: diff_one_one
+diffs: ([['3', '6']], [])
+common: ['6']
+combi: ['636']
 results: 
- 7  1 (3)
- 0 (3) 2 
+ 4 (6) 8 
+(6) 5  5 
+
+
+gap: 6
+time: 11am
+status: two_common
+diffs: ([], ['7'])
+common: ['1', '3']
+combi: ['137']
+results: 
+ 6 (1)(3)
+(3)(1) 8 
 
 
 gap: 7
 time: 11am
 status: diff_one_and_two
-diffs: ([['2', '9']], ['2', '4'])
-common: ['2']
-combi: ['222', '224', '292', '294']
+diffs: ([['5', '8']], ['7', '6'])
+common: ['5']
+combi: ['557', '556', '587', '586']
 results: 
- 0  3 (2)
- 1 (2) 5 
+ 6 (5)(5)
+ 8 (5) 7 
 
 
-gap: 9
+gap: 11
 time: 11am
-status: diff_one_two
-diffs: ([['0', '3'], ['0', '7']], [])
+status: diff_one_one
+diffs: ([['0', '3']], [])
 common: ['9']
-combi: ['900', '907', '930', '937']
+combi: ['903']
 results: 
 (9) 1 (9)
-(9) 8  2 
+ 2  6 (9)
 
 
-gap: 10
+gap: 16
 time: 11am
-status: diff_one_and_two
-diffs: ([['5', '8']], ['8'])
+status: diff_two_only
+diffs: ([], ['8', '4'])
 common: ['2']
-combi: ['258', '288']
-results: 
- 7 (2) 1 
-(2) 6  9 
-
-
-gap: 13
-time: 11am
-status: two_common
-diffs: ([['4', '7']], [])
-common: ['8', '7']
-combi: ['874', '877']
-results: 
-(8) 5 (7)
-(7) 6 (8)
-
-
-gap: 14
-time: 11am
-status: diff_one_two
-diffs: ([['2', '5'], ['1', '4']], [])
-common: ['2']
-combi: ['221', '224', '251', '254']
+combi: ['284']
 results: 
 (2) 9  3 
-(2) 4 (2)
-
-
-gap: 17
-time: 11am
-status: diff_one_and_two
-diffs: ([['5', '8']], ['7'])
-common: ['0']
-combi: ['057', '087']
-results: 
- 8 (0) 7 
- 6  4 (0)
+(2) 5  7 
 
 
 gap: 19
 time: 11am
-status: diff_one_one
-diffs: ([['0', '3']], [])
+status: diff_one_and_two
+diffs: ([['0', '9']], ['1', '8'])
 common: ['8']
-combi: ['803']
+combi: ['801', '808', '891', '898']
 results: 
- 9 (8) 2 
- 5  1 (8)
+(8) 0  7 
+(8) 9  2 
 
 
 gap: 20
 time: 11am
 status: diff_one_and_two
-diffs: ([['0', '9']], ['8'])
+diffs: ([['2', '9'], ['6', '9']], ['9'])
+common: ['5']
+combi: ['529', '599', '569', '599']
+results: 
+(5) 0  7 
+(5) 1  8 
+
+
+gap: 22
+time: 11am
+status: diff_one_and_two
+diffs: ([['3', '6']], ['3'])
 common: ['3']
-combi: ['308', '398']
+combi: ['333', '363']
 results: 
 (3) 9  4 
- 0 (3) 7 
+ 2 (3) 5 
 
 
-gap: 21
-time: 11am
-status: diff_one_one
-diffs: ([['4', '7']], [])
-common: ['2']
-combi: ['247']
-results: 
-(2) 6  9 
-(2) 3  5 
-
-
-gap: 26
-time: 11am
-status: diff_one_one
-diffs: ([['2', '9']], [])
-common: ['2']
-combi: ['229']
-results: 
- 1  1 (2)
- 6  0 (2)
-
-
-gap: 27
+gap: 23
 time: 11am
 status: two_common
-diffs: ([], ['9'])
-common: ['7', '6']
-combi: ['769']
+diffs: ([['5', '8']], [])
+common: ['2', '9']
+combi: ['295', '298']
 results: 
-(7)(6) 8 
- 0 (7)(6)
-
-
-gap: 29
-time: 11am
-status: diff_one_two
-diffs: ([['2', '5'], ['1', '4']], [])
-common: ['2']
-combi: ['221', '224', '251', '254']
-results: 
-(2) 4 (2)
-(2) 3  7 
+(2) 6 (9)
+(2)(9) 7 
 
 
 gap: 31
 time: 11am
-status: diff_two_only
-diffs: ([], ['1', '8'])
-common: ['5']
-combi: ['518']
+status: diff_one_one
+diffs: ([['3', '6']], [])
+common: ['2']
+combi: ['236']
 results: 
- 2 (5) 7 
-(5) 9  0 
+(2) 4 (2)
+(2) 5  9 
 
 
 gap: 35
 time: 11am
-status: diff_one_and_two
-diffs: ([['2', '5']], ['3'])
-common: ['0']
-combi: ['023', '053']
+status: diff_two_only
+diffs: ([], ['8', '6'])
+common: ['4']
+combi: ['486']
 results: 
- 6  4 (0)
-(0) 3  2 
+ 9  5 (4)
+ 2 (4) 7 
 
 
 gap: 36
 time: 11am
 status: diff_one_and_two
-diffs: ([['2', '9'], ['0', '3']], ['9'])
-common: ['5']
-combi: ['529', '599', '509', '539']
+diffs: ([['2', '5']], ['3', '1'])
+common: ['0']
+combi: ['023', '021', '053', '051']
 results: 
- 0  2 (5)
-(5) 8  1 
+ 4 (0)(0)
+(0) 3  2 
 
 
-gap: 42
+gap: 43
 time: 11am
-status: diff_one_and_two
-diffs: ([['0', '9']], ['5'])
+status: diff_one_two
+diffs: ([['0', '9'], ['2', '5']], [])
 common: ['7']
-combi: ['705', '795']
+combi: ['702', '705', '792', '795']
 results: 
- 0  6 (7)
+ 0  3 (7)
 (7) 4  9 
 
 
 gap: 44
 time: 11am
-status: diff_one_one
-diffs: ([['2', '5']], [])
-common: ['1']
-combi: ['125']
+status: diff_one_and_two
+diffs: ([['2', '9'], ['6', '9']], ['9'])
+common: ['6']
+combi: ['629', '699', '669', '699']
 results: 
- 3  0 (1)
-(1) 4  6 
+ 0 (6) 7 
+(6) 8  1 
 
 
 gap: 46
 time: 11am
-status: diff_one_one
-diffs: ([['4', '7']], [])
-common: ['0']
-combi: ['047']
-results: 
- 8  6 (0)
-(0) 5  5 
-
-
-gap: 47
-time: 11am
 status: two_common
-diffs: ([], ['6'])
-common: ['2', '1']
-combi: ['216']
+diffs: ([['2', '5']], [])
+common: ['0', '1']
+combi: ['012', '015']
 results: 
- 7 (2)(1)
- 5 (2)(1)
+ 3 (0)(1)
+(1) 4 (0)
+
+
+gap: 49
+time: 11am
+status: diff_one_and_two
+diffs: ([['2', '9']], ['1'])
+common: ['7']
+combi: ['721', '791']
+results: 
+(7) 2  1 
+(7) 8  0 
 
 
 gap: 50
 time: 11am
+status: diff_one_one
+diffs: ([['0', '7']], [])
+common: ['4']
+combi: ['407']
+results: 
+ 9 (4) 5 
+ 2  8 (4)
+
+
+gap: 51
+time: 11am
 status: diff_one_and_two
-diffs: ([['6', '9']], ['8'])
-common: ['8']
-combi: ['868', '898']
+diffs: ([['5', '8']], ['7'])
+common: ['5']
+combi: ['557', '587']
 results: 
-(8)(8) 9 
- 7  5 (8)
-
-
-gap: 53
-time: 11am
-status: diff_two_only
-diffs: ([], ['5', '1'])
-common: ['2']
-combi: ['251']
-results: 
- 6  0 (2)
- 4 (2)(2)
-
-
-gap: 54
-time: 11am
-status: two_common
-diffs: ([], ['4'])
-common: ['0', '9']
-combi: ['094']
-results: 
- 5 (0)(9)
-(0) 3 (9)
+ 1 (5) 6 
+ 7 (5) 8 
 
 
 gap: 55
 time: 11am
-status: diff_one_and_two
-diffs: ([['0', '9']], ['8'])
-common: ['6']
-combi: ['608', '698']
+status: diff_one_one
+diffs: ([['1', '4']], [])
+common: ['0']
+combi: ['014']
 results: 
- 0  7 (6)
- 9 (6) 3 
+ 6 (0) 2 
+(0) 3  9 
 
 
-gap: 57
+gap: 56
+time: 11am
+status: diff_one_and_two
+diffs: ([['4', '7']], ['4'])
+common: ['9']
+combi: ['944', '974']
+results: 
+ 5  0 (9)
+(9) 6  3 
+
+
+gap: 58
+time: 11am
+status: diff_one_and_two
+diffs: ([['0', '7'], ['5', '8']], ['7', '8'])
+common: ['1']
+combi: ['107', '108', '177', '178', '157', '158', '187', '188']
+results: 
+ 8  7 (1)
+ 6 (1) 9 
+
+
+gap: 59
 time: 11am
 status: two_common
-diffs: ([], ['5'])
+diffs: ([], ['3'])
 common: ['9', '1']
-combi: ['915']
+combi: ['913']
 results: 
  4 (9)(1)
- 6 (1)(9)
-
-
-gap: 62
-time: 11am
-status: diff_one_and_two
-diffs: ([['0', '3']], ['7'])
-common: ['8']
-combi: ['807', '837']
-results: 
-(8) 6  2 
- 1 (8)(8)
-
-
-gap: 63
-time: 11am
-status: two_common
-diffs: ([['0', '7']], [])
-common: ['5', '0']
-combi: ['500', '507']
-results: 
-(5) 9 (0)
- 8 (5)(0)
+(1) 2 (9)
 
 
 gap: 64
 time: 11am
-status: two_common
-diffs: ([['1', '4']], [])
-common: ['4', '1']
-combi: ['411', '414']
+status: diff_one_and_two
+diffs: ([['4', '7']], ['1'])
+common: ['8']
+combi: ['841', '871']
 results: 
- 2 (4)(1)
-(4) 3 (1)
+(8) 6  2 
+(8) 5  0 
 
 
-gap: 65
+gap: 67
 time: 11am
 status: diff_one_and_two
-diffs: ([['0', '7']], ['9'])
-common: ['6']
-combi: ['609', '679']
+diffs: ([['4', '7'], ['0', '7']], ['7'])
+common: ['0']
+combi: ['047', '077', '007', '077']
 results: 
-(6) 9  0 
- 5 (6) 8 
+ 6  9 (0)
+ 5  8 (0)
 
 
 gap: 68
 time: 11am
-status: diff_one_one
-diffs: ([['2', '5']], [])
-common: ['7']
-combi: ['725']
+status: diff_one_and_two
+diffs: ([['4', '7']], ['7'])
+common: ['3']
+combi: ['347', '377']
 results: 
-(7) 4 (7)
- 3  3 (7)
+ 6  1 (3)
+ 8 (3) 5 
 
 
-gap: 69
+gap: 71
 time: 11am
-status: diff_one_one
-diffs: ([['6', '9']], [])
+status: diff_one_and_two
+diffs: ([['6', '9'], ['5', '8']], ['5'])
 common: ['2']
-combi: ['269']
+combi: ['265', '295', '255', '285']
 results: 
 (2) 4  7 
- 8 (2) 0 
-
-
-gap: 73
-time: 11am
-status: diff_one_one
-diffs: ([['4', '7']], [])
-common: ['8']
-combi: ['847']
-results: 
- 5 (8) 1 
-(8) 9  6 
-
-
-gap: 74
-time: 11am
-status: two_common
-diffs: ([['4', '7']], [])
-common: ['2', '8']
-combi: ['284', '287']
-results: 
- 6 (2)(8)
-(8) 5 (2)
+ 8  6 (2)
 
 
 gap: 75
 time: 11am
-status: diff_one_one
-diffs: ([['2', '5']], [])
-common: ['2']
-combi: ['225']
+status: two_common
+diffs: ([['0', '3']], [])
+common: ['5', '8']
+combi: ['580', '583']
 results: 
- 3 (2) 3 
- 4 (2) 8 
+(5)(8) 1 
+(8)(5) 2 
 
 
-gap: 78
+gap: 76
 time: 11am
-status: diff_one_and_two
-diffs: ([['0', '7']], ['8'])
-common: ['0']
-combi: ['008', '078']
+status: two_common
+diffs: ([], ['5'])
+common: ['2', '8']
+combi: ['285']
 results: 
- 8 (0) 7 
-(0) 4  9 
-
-
-gap: 82
-time: 11am
-status: diff_one_and_two
-diffs: ([['1', '4']], ['3'])
-common: ['5']
-combi: ['513', '543']
-results: 
- 3  4 (5)
- 9 (5) 2 
+ 6 (2)(8)
+ 4 (2)(8)
 
 
 gap: 83
 time: 11am
-status: diff_one_one
-diffs: ([['0', '9']], [])
-common: ['3']
-combi: ['309']
+status: diff_two_only
+diffs: ([], ['8', '6'])
+common: ['2']
+combi: ['286']
 results: 
- 0 (3) 2 
+(2) 7 (2)
+ 9  5 (2)
+
+
+gap: 84
+time: 11am
+status: diff_one_and_two
+diffs: ([['4', '7']], ['5'])
+common: ['3']
+combi: ['345', '375']
+results: 
+(3) 4  5 
  6 (3) 9 
 
 
 gap: 85
 time: 11am
-status: diff_one_two
-diffs: ([['2', '5'], ['0', '7']], [])
-common: ['7']
-combi: ['720', '727', '750', '757']
+status: two_common
+diffs: ([], ['4'])
+common: ['0', '2']
+combi: ['024']
 results: 
-(7) 4  9 
+(0) 3 (2)
+ 5 (2)(0)
+
+
+gap: 86
+time: 11am
+status: diff_one_and_two
+diffs: ([['2', '5']], ['7'])
+common: ['7']
+combi: ['727', '757']
+results: 
+(7) 4  6 
  8 (7) 3 
 
 
-gap: 87
+gap: 89
 time: 11am
 status: diff_one_and_two
-diffs: ([['4', '7']], ['5'])
+diffs: ([['2', '9']], ['2'])
 common: ['8']
-combi: ['845', '875']
+combi: ['822', '892']
 results: 
  6 (8) 1 
-(8) 5  4 
+ 0  3 (8)
 
 
-gap: 95
-time: 11am
-status: two_common
-diffs: ([], ['6'])
-common: ['2', '1']
-combi: ['216']
-results: 
- 5 (2)(1)
-(2) 7 (1)
-
-
-gap: 97
+gap: 90
 time: 11am
 status: diff_one_and_two
-diffs: ([['5', '8']], ['7'])
-common: ['0']
-combi: ['057', '087']
+diffs: ([['0', '7']], ['8'])
+common: ['6']
+combi: ['608', '678']
 results: 
- 7  8 (0)
+(6) 8  7 
+ 1  9 (6)
+
+
+gap: 96
+time: 11am
+status: diff_two_only
+diffs: ([], ['2', '6'])
+common: ['2']
+combi: ['226']
+results: 
+ 3  5 (2)
+(2) 7  1 
+
+
+gap: 98
+time: 11am
+status: diff_one_two
+diffs: ([['3', '6'], ['4', '7']], [])
+common: ['0']
+combi: ['034', '037', '064', '067']
+results: 
+(0) 5  1 
 (0) 4  6 
 
 
