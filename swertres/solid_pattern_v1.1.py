@@ -53,7 +53,7 @@ def get_pairs(digit, common):
 
 def filter_results():
     """Process get_results() output and filter them by gap.
-    Return a list of tuple containing [(gap_value, results, time)]
+    Return a list of tuple containing [(gap_value, common, results)]
     """
 
     results = get_results()
