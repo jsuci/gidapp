@@ -61,17 +61,116 @@ def get_pairs(digit):
     return result
 
 
-def filter_results():
-    # Load all results
+def diff_one(digit):
+    return {
+        0: 1,
+        1: 2,
+        2: 3,
+        3: 4,
+        4: 5,
+        5: 6,
+        6: 7,
+        7: 8,
+        8: 9,
+        9: 0
+    }[digit]
 
-    # Check each result if it has a common digit
-    # until no common digit is found. After that increment
-    # 1 to the gap
+
+def diff_two(digit):
+    return {
+        0: 2,
+        1: 3,
+        2: 4,
+        3: 5,
+        4: 6,
+        5: 7,
+        6: 8,
+        7: 9,
+        8: 0,
+        9: 1
+    }[digit]
+
+
+def seq_type(digits):
+    """
+    Given a sequence of string numbers ['8', '9', '0', '1'...] determine
+    what type of sequence it has. Return a string of seq_type
+        diff_one - if all numbers has a difference of 1
+        diff_two - if all numbers has a difference of 2
+        diff_zero - if all numbers has the same digit
+
+        gap_one - all of the numbers has a difference of one except 1
+            ex. 8, 9, 0, 1, 3 (2 missing)
+                7, 9, 0, 1, 2 (8 missing)
+    """
+
+    uniq_digits = set([int(e) for e in digits])
+    diff_one_count = 0
+    diff_two_count = 0
+    diff_none_count = 0
+
+    if len(uniq_digits) == 1:
+        return "diff_zero"
+    elif len(uniq_digits) != len(digits):
+        return "has_double"
+    else:
+        for digit in uniq_digits:
+
+            if diff_one(digit) in uniq_digits:
+                diff_one_count += 1
+            elif diff_two(digit) in uniq_digits:
+                diff_two_count += 1
+            else:
+                diff_none_count += 1
+
+        # print(diff_one_count, diff_two_count, diff_none_count)
+
+        # Filter diff_one
+        if diff_two_count == 0 and diff_none_count < 2:
+            return "diff_one"
+
+        # Filter diff_two
+        if (
+            diff_one_count == 0 and
+            diff_two_count >= 1 and
+            diff_none_count != 2
+        ):
+            return "diff_two"
+
+        # Filter gap_one
+        if (
+            diff_one_count != 0 and
+            diff_two_count == 1 and
+            diff_none_count != 2
+        ):
+            return "gap_one"
+
+
+def get_seq_types(results, common):
+    pairs = [e.replace(common, "", 1) for e in results]
+    seq_type_list = []
+
+    for seq in product(*pairs):
+        # common_seq = [e + common for e in seq]
+
+        if (
+            seq_type(seq) and
+            (seq, seq_type(seq)) not in seq_type_list
+        ):
+            seq_type_list.append((seq, seq_type(seq)))
+
+    return seq_type_list
+
+
+def filter_results():
+    """Process get_results() output and filter them by gap.
+    Return a list of tuple containing [(gap_value, common, results)]
+    """
 
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, len(results)):
+    for gap_value in range(1, 100):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
@@ -83,28 +182,23 @@ def filter_results():
                     step += (gap_value + 1)
 
             if common_list and len(common_list) >= 3:
+                seq_types = get_seq_types(common_list, common)
                 final_list.append((
-                    gap_value, common, common_list))
+                    gap_value, common, common_list, seq_types))
 
     return final_list
 
 
-def pair_seq(results, common):
-    """Given a list of result check if it is in sequence or not 
-    return True else False
-    """
-    pass
-
-
 def main():
     for entry in filter_results():
-        gap, common, results = entry
+        gap, common, results, seq_types = entry
         print("gap: {}".format(gap))
         print("common: {}".format(common))
         print("results: {}".format(results))
-        print("pairs:")
-        for result in results:
-            print("{} <- {}".format(result, get_pairs(result)))
+        print("seq_types:")
+        for seq in seq_types:
+            sequence, label = seq
+            print("{} <- {}".format(sequence, label))
         print("\n")
 
 
