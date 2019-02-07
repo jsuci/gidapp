@@ -189,9 +189,31 @@ def filter_results():
     return final_list
 
 
+def export_file(entry):
+
+    gap, common, results, seq_types = entry
+
+    with open("results_solid_pattern_v1.2.txt", "a") as fo:
+        fo.write("gap: {}\n".format(gap))
+        fo.write("common: {}\n".format(common))
+        fo.write("results: {}\n".format(results))
+        fo.write("pairs:\n")
+        for seq in seq_types:
+            sequence, label = seq
+            fo.write("{} <- {}\n".format(
+                sequence, label))
+        fo.write("\n")
+
+
 def main():
+    with open("results_solid_pattern_v1.2.txt", "w") as fo:
+        fo.write("")
+
     for entry in filter_results():
         gap, common, results, seq_types = entry
+
+        export_file(entry)
+
         print("gap: {}".format(gap))
         print("common: {}".format(common))
         print("results: {}".format(results))
