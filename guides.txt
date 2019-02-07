@@ -578,10 +578,13 @@ WATCHOUT SA AKONG NAKITA NGA PATTERN SA PASURE NGA ((0))
 
 ['730', '280', '049']
 
+(('7', '8', '9'), 'diff_one')
+(('3', '2', '4'), 'diff_one')
+
 6, 0, 5, 1 - 0
-(04)(09)done 049 rslt
-(02)(08)done 280 rslt
-(03)(07)done 730 rslt
+(04)(09)done 049 rslt 12 mon nov 2018
+(02)(08)done 280 rslt 14 wed nov 2018
+(03)(07)done 730 rslt 16 fri nov 2018
 (05)(06)done 605 rslt
 (01)(05)done 015 rslt
 (00)(04)next??
@@ -1490,3 +1493,52 @@ SW3
 
 STL
 07 sun jan 2018       924       ((977))     623
+
+-----------------------
+NEW WAY OF FINDING POSSIBLE COMBINATIONS
+
+SAMPLE CONFIRMED PATTERN:
+
+#1
+"""
+script: solid_pattern_v1.2.py
+generated_date: 17 sat nov 2018
+release_date: 19 mon nov 2018
+result: 4pm 249
+""" 
+gap: 5
+common: 4
+results: ['546', '034', '814']
+pairs:
+('5', '3', '1') <- diff_two
+('6', '0', '8') <- diff_two
+
+
+#2
+"""
+script: sync_digits_v2.4.py
+generated_date: 17 sat nov 2018
+release_date: 19 mon nov 2018
+result: 11am 605
+"""
+gap: 1
+time: 4pm
+common: ['0']
+results: ['730', '280', '049']
+('7', '8', '9') <- diff_one
+('3', '2', '4') <- diff_one
+
+
+HOW TO SPOT PATTERN:
+
+1. using sync_digits_v2.4 and solid_pattern_v1.2 spot
+these type of sequence types:
+    *diff_one, diff_one
+    *diff_two, diff_two
+    *gap_one, gap_one
+
+2. when searching for those sequences make sure the gap_value
+is less than 10 or so.
+
+
+
