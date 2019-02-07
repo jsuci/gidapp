@@ -186,7 +186,7 @@ def main():
         for time, results in gap_results.items():
             common = has_common_digit(results)
 
-            if common:
+            if common and time == "9pm":
                 seq_results = get_seq_type(results, common)
 
                 print("gap: {}".format(gap_value))

@@ -134,11 +134,15 @@ def get_seq_type(results, common):
     digits and seq_type [(('9', '9', '9'), 'diff_zero')...]
     """
 
-    results = [e.replace(f, "", 1) for f in common for e in results]
+    trim_results = []
+    for result in results:
+        for c in common:
+            result = result.replace(c, "", 1)
+        trim_results.append(result)
 
     output = []
 
-    for seq in product(*results):
+    for seq in product(*trim_results):
         output_item = (seq, seq_type(seq))
         if seq_type(seq) and output_item not in output:
             output.append(output_item)
@@ -186,7 +190,7 @@ def main():
         for time, results in gap_results.items():
             common = has_common_digit(results)
 
-            if common:
+            if common and time == "9pm":
                 seq_results = get_seq_type(results, common)
 
                 print("gap: {}".format(gap_value))

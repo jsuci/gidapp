@@ -1367,6 +1367,7 @@ def export_file(gap, time, common, results, seq_results):
                 sequence, label))
         fo.write("\n")
 
+
 def main():
     with open("results_sync_digits_v2.4.txt", "w") as fo:
         fo.write("")
@@ -1393,4 +1394,18 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    c = ['0', '4']
+    a = ['034', '490', '064']
+    d = []
+
+    for result in a:
+        for common in c:
+            result = result.replace(common, "", 1)
+
+        d.append(result)
+
+    print(d)
+
+    # for seq in product(*a):
+    #     print(seq)
