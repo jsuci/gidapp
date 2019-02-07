@@ -4,8 +4,8 @@ clear
 echo "PROCESSING SW3:"
 cd /sdcard/Download/gidapp/swertres
 echo
-echo "SYNC Digits Pattern V2.3:"
-python sync_digits_v2.3.py
+echo "SYNC Digits Pattern V2.4:"
+python sync_digits_v2.4.py
 echo
 echo "SOLID Pattern V1.2:"
 python solid_pattern_v1.2.py
@@ -32,8 +32,8 @@ echo
 echo "PROCESSING STL:"
 cd /sdcard/Download/gidapp/stl
 echo
-echo "SYNC Digits Pattern V2.3:"
-python sync_digits_v2.3.py
+echo "SYNC Digits Pattern V2.4:"
+python sync_digits_v2.4.py
 echo
 echo "SOLID Pattern V1.2:"
 python solid_pattern_v1.2.py
