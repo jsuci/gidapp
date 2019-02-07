@@ -16,7 +16,7 @@ def get_gap_results(matches=2):
 
     gap_results_list = []
 
-    for gap_value in range(2, 100):
+    for gap_value in range(1, 200):
         with open("results_v2.txt", "r") as fo:
             last_entry = fo.readline().strip().split(" ")[-1]
             reversed_entries = list(islice(fo, 1, None))[::-1]
@@ -168,6 +168,7 @@ def export_file(gap, time, common, results, seq_results):
         fo.write("time: {}\n".format(time))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
+        fo.write("seq_type:\n")
         for seq in seq_results:
             sequence, label = seq
             fo.write("{} <- {}\n".format(
@@ -185,7 +186,7 @@ def main():
         for time, results in gap_results.items():
             common = has_common_digit(results)
 
-            if common and time == "4pm":
+            if common:
                 seq_results = get_seq_type(results, common)
 
                 print("gap: {}".format(gap_value))

@@ -170,7 +170,7 @@ def filter_results():
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, 100):
+    for gap_value in range(1, 200):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
