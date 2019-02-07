@@ -1,0 +1,114 @@
+gap: 5
+common: 9
+results: ['649', '079', '922']
+pairs:
+('4', '0', '2') <- diff_two
+
+gap: 8
+common: 9
+results: ['399', '922', '798', '069']
+pairs:
+('9', '2', '8', '0') <- gap_one
+
+gap: 14
+common: 5
+results: ['576', '156', '552']
+pairs:
+('7', '6', '5') <- diff_one
+('6', '6', '5') <- has_double
+('6', '6', '2') <- has_double
+
+gap: 15
+common: 4
+results: ['456', '451', '924']
+pairs:
+('5', '5', '9') <- has_double
+('5', '5', '2') <- has_double
+
+gap: 30
+common: 8
+results: ['287', '835', '871']
+pairs:
+('2', '3', '1') <- diff_one
+('7', '3', '7') <- has_double
+('7', '5', '7') <- has_double
+
+gap: 31
+common: 5
+results: ['451', '715', '952']
+pairs:
+('4', '1', '2') <- gap_one
+('1', '7', '9') <- diff_two
+('1', '1', '9') <- has_double
+('1', '1', '2') <- has_double
+
+gap: 40
+common: 6
+results: ['687', '650', '621']
+pairs:
+('8', '0', '2') <- diff_two
+('8', '0', '1') <- gap_one
+
+gap: 47
+common: 9
+results: ['924', '952', '098']
+pairs:
+('2', '2', '0') <- has_double
+('2', '2', '8') <- has_double
+('4', '2', '0') <- diff_two
+
+gap: 55
+common: 7
+results: ['874', '733', '764']
+pairs:
+('4', '3', '6') <- gap_one
+('4', '3', '4') <- has_double
+
+gap: 62
+common: 3
+results: ['377', '230', '039', '034', '364']
+pairs:
+('7', '2', '0', '0', '6') <- has_double
+('7', '2', '0', '0', '4') <- has_double
+('7', '2', '0', '4', '4') <- has_double
+('7', '2', '9', '4', '4') <- has_double
+('7', '0', '0', '0', '6') <- has_double
+('7', '0', '0', '0', '4') <- has_double
+('7', '0', '0', '4', '6') <- has_double
+('7', '0', '0', '4', '4') <- has_double
+('7', '0', '9', '0', '6') <- has_double
+('7', '0', '9', '0', '4') <- has_double
+('7', '0', '9', '4', '4') <- has_double
+
+gap: 63
+common: 1
+results: ['715', '801', '136']
+pairs:
+('7', '8', '6') <- diff_one
+('5', '8', '6') <- gap_one
+
+gap: 67
+common: 6
+results: ['667', '506', '016']
+pairs:
+('6', '0', '0') <- has_double
+('7', '0', '0') <- has_double
+
+gap: 71
+common: 8
+results: ['864', '098', '853']
+pairs:
+
+gap: 89
+common: 8
+results: ['874', '184', '850']
+pairs:
+('7', '4', '5') <- gap_one
+('4', '4', '5') <- has_double
+('4', '4', '0') <- has_double
+
+gap: 91
+common: 0
+results: ['450', '020', '079']
+pairs:
+
