@@ -60,9 +60,10 @@ echo
 echo
 echo
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task
-# read -p "Do you want to exit? (Y/y): " -n 1 -r
-# if [[ $REPLY =~ ^[Yy]$ ]]
-# then
-# 	killall com.termux
-# fi
-yes "" | killall com.termux
+read -p "Press enter to exit: " -n 1 -r
+if [[ $REPLY =~ ^$ ]]
+then
+ killall com.termux
+fi
+echo
+# echo -ne "\n" | killall com.termux
