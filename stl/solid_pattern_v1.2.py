@@ -14,26 +14,17 @@ them form an alternating pattern.
 
 What this script will do is:
 1. search through all the list of results
-2. filter only results that has a common digit and length of 3
-3. after filtering check the pairs of each result. check if:
-    a. first(prev), second(prev), third(curr) pairs are in sequence
-    ex.
-        [(20), 90]
-        [(30), 80]
-        [(40), 80]
-
-    b. first and second pairs are the same
-    ex.
-        [20, 90]
-        [30, (80)]
-        [40, (80)]
-
-    c. first and third pairs are the same
-    ex.
-        [05, (35)]
-        [75, 77]
-        [33, (35)]
-
+2. filter only results that has a common digit and length of results
+is more than 3
+3. sample output:
+    gap: 3
+    common: 9
+    results: ['695', '196', '399']
+    seq_types:
+    ('6', '6', '3') <- has_double
+    ('6', '6', '9') <- has_double
+    ('5', '1', '3') <- diff_two
+    ('5', '6', '3') <- gap_one
 """
 
 from itertools import *
@@ -146,20 +137,39 @@ def seq_type(digits):
             return "gap_one"
 
 
-def get_seq_types(results, common):
-    pairs = [e.replace(common, "", 1) for e in results]
-    seq_type_list = []
+def get_seq_types(results, common=[]):
+    """Given a list of results ['123', '345', '678'...] and a list of
+    common digits (optional). Remove common digits from results and
+    then determine their sequence type. Return a list of tuple
+    containing the digits and seq_type [(('9', '9', '9'),
+    'diff_zero')...]
+    """
 
-    for seq in product(*pairs):
-        # common_seq = [e + common for e in seq]
+    trim_results = []
 
-        if (
-            seq_type(seq) and
-            (seq, seq_type(seq)) not in seq_type_list
-        ):
-            seq_type_list.append((seq, seq_type(seq)))
+    if common:
+        for result in results:
+            for c in common:
+                result = result.replace(c, "", 1)
+            trim_results.append(result)
+    else:
+        trim_results = results
 
-    return seq_type_list
+    output = []
+
+    for seq in product(*trim_results):
+        output_item = (seq, seq_type(seq))
+        if seq_type(seq) and output_item not in output:
+            output.append(output_item)
+
+    return output
+
+    for seq in product(*trim_results):
+        output_item = (seq, seq_type(seq))
+        if seq_type(seq) and output_item not in output:
+            output.append(output_item)
+
+    return output
 
 
 def filter_results():

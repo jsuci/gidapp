@@ -127,18 +127,23 @@ def seq_type(digits):
             return "gap_one"
 
 
-def get_seq_type(results, common):
+def get_seq_types(results, common=[]):
     """Given a list of results ['123', '345', '678'...] and a list of
-    common digits remove common digits from results and then determine
-    their sequence type. Return a list of tupple containing the
-    digits and seq_type [(('9', '9', '9'), 'diff_zero')...]
+    common digits (optional). Remove common digits from results and
+    then determine their sequence type. Return a list of tuple
+    containing the digits and seq_type [(('9', '9', '9'),
+    'diff_zero')...]
     """
 
     trim_results = []
-    for result in results:
-        for c in common:
-            result = result.replace(c, "", 1)
-        trim_results.append(result)
+
+    if common:
+        for result in results:
+            for c in common:
+                result = result.replace(c, "", 1)
+            trim_results.append(result)
+    else:
+        trim_results = results
 
     output = []
 
@@ -191,7 +196,7 @@ def main():
             common = has_common_digit(results)
 
             if common:
-                seq_results = get_seq_type(results, common)
+                seq_results = get_seq_types(results, common)
 
                 print("gap: {}".format(gap_value))
                 print("time: {}".format(time))
