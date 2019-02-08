@@ -41,17 +41,6 @@ def get_results():
     return results
 
 
-def get_pairs(digit):
-    """Given any digit return pairs of that digit"""
-    result = []
-
-    for pair in combinations(digit, 2):
-        pair = "".join(pair)
-        result.append(pair)
-
-    return result
-
-
 def diff_one(digit):
     return {
         0: 1,
