@@ -1,4 +1,4 @@
-updated: 07 thu feb 2019 2
+updated: 08 fri feb 2019 1
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -442,3 +442,4 @@ updated: 07 thu feb 2019 2
 05 tue feb 2019       683       190       803
 06 wed feb 2019       714       661       914
 07 thu feb 2019       403       005       776
+08 fri feb 2019       510       311

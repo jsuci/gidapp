@@ -1,0 +1,30 @@
+gap: 47
+common: 0
+results: ['150', '405', '750', '520']
+seq_types:
+('5', '5', '5', '5') <- diff_zero
+
+gap: 47
+common: 5
+results: ['150', '405', '750', '520']
+seq_types:
+('0', '0', '0', '0') <- diff_zero
+
+gap: 95
+common: 0
+results: ['405', '520', '050', '056']
+seq_types:
+('5', '5', '5', '5') <- diff_zero
+
+gap: 95
+common: 5
+results: ['405', '520', '050', '056']
+seq_types:
+('0', '0', '0', '0') <- diff_zero
+
+gap: 144
+common: 1
+results: ['001', '501', '801']
+seq_types:
+('0', '0', '0') <- diff_zero
+
