@@ -65,4 +65,4 @@ echo
 # then
 # 	killall com.termux
 # fi
-yes | killall com.termux
+yes "" | killall com.termux
