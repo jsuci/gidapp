@@ -1,0 +1,12 @@
+gap: 194
+common: 1
+results: ['891', '188', '185']
+seq_types:
+('8', '8', '8') <- diff_zero
+
+gap: 194
+common: 8
+results: ['891', '188', '185']
+seq_types:
+('1', '1', '1') <- diff_zero
+
