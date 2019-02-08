@@ -1503,8 +1503,8 @@ SAMPLE CONFIRMED PATTERN:
 """
 script: solid_pattern_v1.2.py
 generated_date: 17 sat nov 2018
-release_date: 19 mon nov 2018
-result: 4pm 249
+release_date: 19 mon nov 2018 4pm
+result: 249
 """ 
 gap: 5
 common: 4
@@ -1518,8 +1518,8 @@ pairs:
 """
 script: sync_digits_v2.4.py
 generated_date: 17 sat nov 2018
-release_date: 19 mon nov 2018
-result: 11am 605
+release_date: 19 mon nov 2018 11am
+result: 605
 """
 gap: 1
 time: 4pm
@@ -1529,16 +1529,45 @@ results: ['730', '280', '049']
 ('3', '2', '4') <- diff_one
 
 
+#3
+"""
+script: sync_digits_v2.4.py
+generated_date: 04 mon feb 2019
+release_date: 07 thu feb 2019 9pm
+result: 096
+"""
+gap: 14
+time: 9pm
+common: ['0']
+results: ['803', '004', '750']
+seq_type:
+('8', '0', '7') <- gap_one
+('3', '4', '5') <- diff_one
+
+
 HOW TO SPOT PATTERN:
 
 1. using sync_digits_v2.4 and solid_pattern_v1.2 spot
-these type of sequence types:
+these type of sequence types:   
+
     *diff_one, diff_one
     *diff_two, diff_two
     *gap_one, gap_one
+    *gap_one, diff_one
 
 2. when searching for those sequences make sure the gap_value
-is less than 10 or so.
+is less than 10 or so and the values are unique from each other.
+    ex:
+
+    results: ['730', '280', '049']
+    seq_type:
+    ('7', '8', '9') <- diff_one
+    ('3', '2', '4') <- diff_one
+
+    results: ['803', '004', '750']
+    seq_type:
+    ('8', '0', '7') <- gap_one
+    ('3', '4', '5') <- diff_one
 
 
 
