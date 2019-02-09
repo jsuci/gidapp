@@ -1717,6 +1717,28 @@ results: ['943', '384', '493']
 seq_types:
 ('4', '4', '4') <- diff_zero
 
+
+#6
+"""
+script: script_diff_zero_v1.1.py
+generated_date: 08 fri feb 2019 4PM
+release_date: 09 sat feb 2019 9PM
+confirmed: 405
+num_draws: 4
+"""
+gap: 47
+common: 0
+results: ['1', '4', '7', '2']
+seq_types:
+('5', '5', '5', '5') <- diff_zero
+
+
+gap: 95
+common: 0
+results: ['4', '2', '0', '6']
+seq_types:
+('5', '5', '5', '5') <- diff_zero
+
 --------------------------------
 TRIAL DIFF_ZERO
 
