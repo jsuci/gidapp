@@ -1661,7 +1661,7 @@ IN THE NEXT DRAW AFTER 576
 
 gap: 40
 common: 5
-results: ['375', '575', '750']
+results: ['3', '5', '0']
 seq_types:
 ('7', '7', '7') <- diff_zero
 num_draws: 1
@@ -1702,3 +1702,30 @@ seq_types:
 num_draws: 0
 confirmed: 456
 
+--------------------------------
+TRIAL DIFF_ZERO
+
+gap: 47
+common: 0
+results: ['1', '4', '7', '2']
+seq_types:
+('5', '5', '5', '5') <- diff_zero
+
+
+
+gap: 95
+common: 0
+results: ['4', '2', '0', '6']
+seq_types:
+('5', '5', '5', '5') <- diff_zero
+
+
+
+gap: 144
+common: 1
+results: ['001', '501', '801']
+seq_types:
+('0', '0', '0') <- diff_zero
+
+
+[Finished in 3.4s]

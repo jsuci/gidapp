@@ -1,24 +1,30 @@
-gap: 32
-common: 7
-results: ['798', '768', '871']
+gap: 47
+common: 0
+results: ['150', '405', '750', '520']
 seq_types:
-('8', '8', '8') <- diff_zero
+('5', '5', '5', '5') <- diff_zero
 
-gap: 32
-common: 8
-results: ['798', '768', '871']
+gap: 47
+common: 5
+results: ['150', '405', '750', '520']
 seq_types:
-('7', '7', '7') <- diff_zero
+('0', '0', '0', '0') <- diff_zero
 
-gap: 53
-common: 2
-results: ['924', '952', '972']
+gap: 95
+common: 0
+results: ['405', '520', '050', '056']
 seq_types:
-('9', '9', '9') <- diff_zero
+('5', '5', '5', '5') <- diff_zero
 
-gap: 110
-common: 8
-results: ['398', '853', '883']
+gap: 95
+common: 5
+results: ['405', '520', '050', '056']
 seq_types:
-('3', '3', '3') <- diff_zero
+('0', '0', '0', '0') <- diff_zero
+
+gap: 144
+common: 1
+results: ['001', '501', '801']
+seq_types:
+('0', '0', '0') <- diff_zero
 
