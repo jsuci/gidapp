@@ -1702,6 +1702,21 @@ seq_types:
 num_draws: 0
 confirmed: 456
 
+
+#5
+"""
+script: script_diff_zero_v1.1.py
+generated_date: 09 sat feb 2019 11AM
+release_date: 09 sat feb 2019 4PM
+confirmed: 143
+num_draws: 0
+"""
+gap: 83
+common: 3
+results: ['943', '384', '493']
+seq_types:
+('4', '4', '4') <- diff_zero
+
 --------------------------------
 TRIAL DIFF_ZERO
 
