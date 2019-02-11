@@ -86,14 +86,14 @@ def get_results(file_month, file_date, file_year):
     entries = soup.find_all("div", class_="result")
 
     for i, e in enumerate(entries):
-        # Sunday, 10 February 2019
-        web_date_list = e.h4.time.get_text().split(" ")
+          # Sunday, February 10, 2019 format
+        web_date_list = e.h5.time.get_text().split(" ")
 
         # date, day, month, year
         web_date = "{:02} {} {} {}".format(
-            int(web_date_list[1]),
+            int(web_date_list[2].replace(",", "", 1)),
             web_date_list[0][:3].lower(),
-            web_date_list[2][:3].lower(),
+            web_date_list[1][:3].lower(),
             web_date_list[3].lower()
         )
         web_results = [y.get_text() for y in e.select(
