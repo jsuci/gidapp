@@ -1766,3 +1766,10 @@ seq_types:
 
 
 [Finished in 3.4s]
+
+-------------------------------------
+LIST OF STABLE SCRIPT AND PATTERNS
+
+1. script_diff_zero_v1.1.py - spot pair upcoming pairs using this script
+if pairs reappear again then there is a high chance that after 2 to 3 draws
+it will come out
