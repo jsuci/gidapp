@@ -176,14 +176,17 @@ def filter_results():
     return final_list
 
 
-def export_file(gap, common, results, sequence, label):
+def export_file(gap, common, results, seq, seq_types):
 
     with open("results_diff_zero_v1.1.txt", "a") as fo:
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
+        fo.write("pair: {}{}\n".format(common, seq[0][0]))
         fo.write("seq_types:\n")
-        fo.write("{} <- {}\n".format(sequence, label))
+        for seq in seq_types:
+            sequence, label = seq
+            fo.write("{} <- {}\n".format(sequence, label))
         fo.write("\n")
 
 
@@ -195,18 +198,20 @@ def main():
         gap, common, results, seq_types = entry
 
         for seq in seq_types:
-            sequence, label = seq
 
-            if label == "diff_zero":
+            if "diff_zero" in seq:
 
                 print("gap: {}".format(gap))
                 print("common: {}".format(common))
                 print("results: {}".format(results))
+                print("pair: {}{}".format(common, seq[0][0]))
                 print("seq_types:")
-                print("{} <- {}".format(sequence, label))
-                print("\n")
+                for new_seq in seq_types:
+                    sequence, label = new_seq
+                    print("{} <- {}".format(sequence, label))
 
-                export_file(gap, common, results, sequence, label)
+                export_file(gap, common, results, seq, seq_types)
+                print("\n")
 
 
 if __name__ == "__main__":
