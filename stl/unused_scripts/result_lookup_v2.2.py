@@ -1,154 +1,54 @@
-"""
-Given a recent date, number and its location search all
-previous result that has same month, same location but different
-combination of the given and once there is a match get the prev
-and nxt results and mark the match digits relative to the current
-number
-"""
-
 from itertools import *
 import re
 
+"""
+Process results_v2.txt and look for digits that match
+the current result and position
+"""
 
-def mark_compile_res(prev_compile_res, number):
-    # Given sorted number and the prev_compile_res mark the
-    # prev_compile_res
+def compare_digits(digit_1, digit_2):
 
-    result = ()
+    for num_1 in digit_1:
+        if num_1 in digit_2:
+            digit_2 = digit_2.replace(num_1, "", 1)
 
-    for entry in prev_compile_res:
-        result += (["{}*".format(e) if sorted(number) == sorted(e)
-                    else e for e in entry],)
-
-    return result
-
-
-def compare_accu_res(curr_res, prev_res):
-    # Mark the digit in prev_compile_res where it has a match
-
-    curr_compile_res, curr_chain_res = curr_res
-    prev_compile_res, prev_chain_res = prev_res
-
-    sort_accu_prev = ["".join(sorted(e)) for e in prev_chain_res]
-    sort_accu_curr = ["".join(sorted(e)) for e in curr_chain_res]
-    match_count = 0
-
-    for number in sort_accu_curr:
-        if number in sort_accu_prev:
-            prev_compile_res = mark_compile_res(prev_compile_res, number)
-            match_count += 1
-
-    if match_count >= 3:
-        return prev_compile_res
+    if len(digit_2) == 0:
+        return True
     else:
         return False
 
 
-def get_combinations(number):
-    """Given a number generate a list of permutations"""
+def filter_results(curr_result, time):
 
-    combinations = []
-    for combi in permutations(number, 3):
-        combinations.append("".join(combi))
+    accu_result = []
 
-    return combinations
+    with open("results_v2.txt", "r") as fi:
+        for entry in islice(fi, 2, None):
+            entry = re.split(r"\s{2,}", entry.strip())
+            date = entry[0]
+            results = entry[1:]
 
+            for count, result in enumerate(results):
+                if (
+                    compare_digits(curr_result, result) and
+                    count == time
+                ):
+                    accu_result.append((date, count, results))
 
-def get_curr_results(date, number, position):
-    """Given a date, number and its position get the prev, curr and
-    nxt results relative to the given number and return
-    a tuple of prev, curr, nxt and chained results
-        ex. get_curr_results("22 tue jan 2019", "820", "2")
-        >>> ((['12 sat jan 2013', '052', '632', '820']..),
-        [057, 288, 803...]...)
-    """
-    with open("results_v2.txt") as fi:
-        entries = [re.split(r"\s{2,}", e.strip()) for e in fi]
-        index = 0
-
-        while index < len(entries) - 1:
-            if ((date in entries[index]) and
-                    (number in entries[index])):
-
-                prev = entries[index - 1]
-                curr = entries[index]
-                nxt = entries[index + 1]
-
-                compiled_curr_res = (prev, curr, nxt)
-                accu_curr_res = list(chain(
-                    prev[1:], curr[1:], nxt[1:]))
-
-                return (compiled_curr_res, accu_curr_res)
-
-            index += 1
-
-
-def get_prev_results(date, number, position):
-    """Given a date, number and its position get the prev, curr and
-    nxt results relative to the given number and return
-    a list of tuple containing prev, curr, nxt and chained results
-        ex. get_curr_results("22 tue jan 2019", "820", "2")
-        >>> [((['12 sat jan 2013', '052', '632', '820']..),
-        [057, 288, 803...]...),...]
-    """
-
-    combinations = get_combinations(number)
-    curr_month = date.split(" ")[2].strip()
-    curr_year = date.split(" ")[3].strip()
-    curr_position = int(position)
-
-    all_prev_res = []
-
-    for curr_num in combinations:
-        with open("results_v2.txt") as fi:
-            entries = [re.split(r"\s{2,}", e.strip())
-                       for e in islice(fi, 2, None)]
-            index = 0
-
-            while index < len(entries) - 1:
-                entry_num = entries[index]
-
-                if (curr_num in entry_num):
-                    entry_month = entries[index][0].split(" ")[2]
-                    entry_year = entries[index][0].split(" ")[3]
-                    entry_position = entries[index].index(curr_num)
-
-                    if (
-                        (curr_month == entry_month) and
-                        (curr_year != entry_year) and
-                        (curr_position == entry_position)
-                    ):
-
-                        prev = entries[index - 1]
-                        curr = entries[index]
-                        nxt = entries[index + 1]
-
-                        compiled_prev_res = (prev, curr, nxt)
-                        accu_prev_res = list(chain(
-                            prev[1:], curr[1:], nxt[1:]))
-
-                        result = (compiled_prev_res, accu_prev_res)
-
-                        if result not in all_prev_res:
-                            all_prev_res.append(result)
-
-                index += 1
-
-    return all_prev_res
+    return accu_result
 
 
 def main():
-    inputs = ["22 tue jan 2019", "614", "3"]
-    curr_res = get_curr_results(*inputs)
-    all_prev_res = get_prev_results(*inputs)
+    # The current result
+    curr_res = "328"
 
-    for prev_res in all_prev_res:
-        if compare_accu_res(curr_res, prev_res):
-            prev_compile_res = compare_accu_res(
-                curr_res, prev_res)
+    # Time, 0 for 11am, 1 for 4pm and 2 for 9pm
+    time = 0
 
-            for entry in prev_compile_res:
-                print(entry)
+    for entry in filter_results(curr_res, time):
+        print(entry)
+
+
 
 
 if __name__ == "__main__":
