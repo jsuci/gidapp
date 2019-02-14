@@ -1,0 +1,20 @@
+gap: 2
+common: 4
+results: ['145', '480', '405']
+seq_types: 48, 40, 80
+
+gap: 78
+common: 4
+results: ['874', '489', '974', '774']
+seq_types: 48, 49, 89
+
+gap: 79
+common: 7
+results: ['375', '672', '327']
+seq_types: 67, 62, 72
+
+gap: 86
+common: 1
+results: ['715', '613', '371']
+seq_types: 61, 63, 13
+
