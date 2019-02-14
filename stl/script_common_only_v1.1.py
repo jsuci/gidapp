@@ -158,7 +158,7 @@ def filter_results():
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, 100):
+    for gap_value in range(1, 500):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
@@ -177,14 +177,15 @@ def filter_results():
     return final_list
 
 
-def export_file(gap, common, results, sequence, label):
+def export_file(gap, common, results, seq_types):
 
     with open("results_common_only_v1.1.txt", "a") as fo:
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
         fo.write("seq_types:\n")
-        fo.write("{} <- {}\n".format(sequence, label))
+        for seq in seq_types:
+            fo.write("{} <- {}\n".format(seq[0], seq[1]))
         fo.write("\n")
 
 
@@ -202,6 +203,8 @@ def main():
         for seq in seq_types:
             print("{} <- {}".format(seq[0], seq[1]))
         print("\n")
+
+        export_file(gap, common, results, seq_types)
 
 
 if __name__ == "__main__":

@@ -1777,3 +1777,69 @@
 #     main()
 
 ##########################################################
+
+from itertools import *
+
+
+def plus_one(digit):
+    return {
+        0: 1,
+        1: 2,
+        2: 3,
+        3: 4,
+        4: 5,
+        5: 6,
+        6: 7,
+        7: 8,
+        8: 9,
+        9: 0
+    }[digit]
+
+
+def minus_one(digit):
+    return {
+        1: 0,
+        2: 1,
+        3: 2,
+        4: 3,
+        5: 4,
+        6: 5,
+        7: 6,
+        8: 7,
+        9: 8,
+        0: 9
+    }[digit]
+
+
+def possible_combi(digit, common):
+    """Given a digit and its common number, generate possible
+    combinations by adding and subtracting each or all digit
+    by 1
+    ex:
+        pair: 92
+        plus_all: 03
+        minus_all: 81
+        plus_minus: 83
+        minus_plus: 03
+    """
+
+    pair = [int(e) for e in digit if e != common]
+    plus_all = [str(plus_one(e)) for e in pair]
+    minus_all = [str(minus_one(e)) for e in pair]
+    plus_minus = [str(plus_one(pair[0])), str(minus_one(pair[1]))]
+    minus_plus = [str(minus_one(pair[0])), str(plus_one(pair[1]))]
+    combined = ["".join(e)
+                for e in (plus_all, minus_all, plus_minus, minus_plus)]
+
+    final_result = []
+
+    for seq in product(combined, common):
+        combi = seq[0] + seq[1]
+
+        final_result.append(combi)
+
+    return final_result
+
+
+if __name__ == "__main__":
+    print(possible_combi('921', '1'))

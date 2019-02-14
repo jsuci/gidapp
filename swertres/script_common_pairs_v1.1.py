@@ -179,14 +179,17 @@ def filter_results():
     return final_list
 
 
-def export_file(gap, common, results, gen_pairs):
+def export_file(gap, common, results, gen_pairs, combi):
 
     with open("results_common_pairs_v1.1.txt", "a") as fo:
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
-        fo.write("seq_types: {}\n".format(gen_pairs))
-        fo.write("\n")
+        fo.write("next_pairs: {}\n".format(gen_pairs))
+        fo.write("possible_combi:\n")
+        for p_combi in combi:
+            fo.write("{}\n".format(p_combi))
+        fo.write("\n\n")
 
 
 def compare_digits(digit_1, digit_2):
@@ -206,20 +209,96 @@ def gen_pairs(digit):
     return ", ".join(["".join(e) for e in combinations(digit, 2)])
 
 
+def plus_one(digit):
+    return {
+        0: 1,
+        1: 2,
+        2: 3,
+        3: 4,
+        4: 5,
+        5: 6,
+        6: 7,
+        7: 8,
+        8: 9,
+        9: 0
+    }[digit]
+
+
+def minus_one(digit):
+    return {
+        1: 0,
+        2: 1,
+        3: 2,
+        4: 3,
+        5: 4,
+        6: 5,
+        7: 6,
+        8: 7,
+        9: 8,
+        0: 9
+    }[digit]
+
+
+def possible_combi(digit, common):
+    """Given a digit and its common number, generate possible
+    combinations by adding and subtracting each or all digit
+    by 1
+    ex:
+        pair: 92
+        plus_all: 03
+        minus_all: 81
+        plus_minus: 83
+        minus_plus: 03
+    """
+
+    pair = [int(e) for e in digit.replace(common, "", 1)]
+
+    plus_all = [str(plus_one(e)) for e in pair]
+    minus_all = [str(minus_one(e)) for e in pair]
+
+    plus_minus = [str(plus_one(pair[0])), str(minus_one(pair[1]))]
+    minus_plus = [str(minus_one(pair[0])), str(plus_one(pair[1]))]
+
+    plus_left = [str(plus_one(pair[0])), str(pair[1])]
+    plus_right = [str(pair[0]), str(plus_one(pair[1]))]
+
+    minus_left = [str(minus_one(pair[0])), str(pair[1])]
+    minus_right = [str(pair[0]), str(minus_one(pair[1]))]
+
+    combined = ["".join(e) for e in (
+        plus_all, minus_all, plus_minus, minus_plus,
+        plus_left, plus_right, minus_left, minus_right)]
+
+    final_result = []
+
+    for seq in product(combined, common):
+        combi = seq[0] + seq[1]
+
+        final_result.append(combi)
+
+    return final_result
+
+
 def main():
     with open("results_common_pairs_v1.1.txt", "w") as fi:
         fi.write("")
 
     for entry in filter_results():
         gap, common, results, seq_types = entry
+        combi = possible_combi(results[1], common)
+        pairs = gen_pairs(results[1])
 
         if compare_digits(results[0], results[2]):
             print("gap: {}".format(gap))
             print("common: {}".format(common))
             print("results: {}".format(results))
-            print("next_pairs: {}".format(gen_pairs(results[1])))
+            print("next_pairs: {}".format(pairs))
+            print("possible_combi:")
+            for p_combi in combi:
+                print(p_combi)
 
-            export_file(gap, common, results, gen_pairs(results[1]))
+
+            export_file(gap, common, results, pairs, combi)
             print("\n")
 
 

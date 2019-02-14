@@ -1,20 +1,60 @@
-gap: 2
-common: 4
-results: ['145', '480', '405']
-seq_types: 48, 40, 80
+gap: 5
+common: 6
+results: ['683', '616', '163', '369', '649']
+next_pairs: 61, 66, 16
+possible_combi:
+276
+056
+256
+076
+266
+176
+066
+156
 
-gap: 78
-common: 4
-results: ['874', '489', '974', '774']
-seq_types: 48, 49, 89
 
-gap: 79
-common: 7
-results: ['375', '672', '327']
-seq_types: 67, 62, 72
+gap: 10
+common: 9
+results: ['995', '096', '399']
+next_pairs: 09, 06, 96
+possible_combi:
+179
+959
+159
+979
+169
+079
+969
+059
 
-gap: 86
-common: 1
-results: ['715', '613', '371']
-seq_types: 61, 63, 13
+
+gap: 26
+common: 5
+results: ['578', '156', '375']
+next_pairs: 15, 16, 56
+possible_combi:
+275
+055
+255
+075
+265
+175
+065
+155
+
+
+gap: 32
+common: 3
+results: ['399', '305', '923', '382', '113', '723']
+next_pairs: 30, 35, 05
+possible_combi:
+163
+943
+143
+963
+153
+063
+953
+043
+
 

@@ -1,10 +1,75 @@
-gap: 39
-common: 2
-results: ['627', '626', '972']
-seq_types: 62, 66, 26
+gap: 6
+common: 1
+results: ['091', '661', '510']
+next_pairs: 66, 61, 61
+possible_combi:
+771
+551
+751
+571
+761
+671
+561
+651
 
-gap: 98
+
+gap: 27
+common: 0
+results: ['803', '021', '807']
+next_pairs: 02, 01, 21
+possible_combi:
+320
+100
+300
+120
+310
+220
+110
+200
+
+
+gap: 53
 common: 3
-results: ['873', '733', '883', '333']
-seq_types: 73, 73, 33
+results: ['032', '354', '235']
+next_pairs: 35, 34, 54
+possible_combi:
+653
+433
+633
+453
+643
+553
+443
+533
+
+
+gap: 54
+common: 3
+results: ['413', '538', '301', '930']
+next_pairs: 53, 58, 38
+possible_combi:
+693
+473
+673
+493
+683
+593
+483
+573
+
+
+gap: 57
+common: 1
+results: ['176', '221', '721']
+next_pairs: 22, 21, 21
+possible_combi:
+331
+111
+311
+131
+321
+231
+121
+211
+
 
