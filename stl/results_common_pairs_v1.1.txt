@@ -1,0 +1,10 @@
+gap: 39
+common: 2
+results: ['627', '626', '972']
+seq_types: 62, 66, 26
+
+gap: 98
+common: 3
+results: ['873', '733', '883', '333']
+seq_types: 73, 73, 33
+
