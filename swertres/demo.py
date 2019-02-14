@@ -2054,228 +2054,148 @@
 
 ########################################################
 # from itertools import *
-
+# import re
 # """
 # Classify results by (month, year, [results]) and after that
 # compare current month, year, results to all classified results
 # count the number of results that
 # """
 
-###################################################
+
+# def classify_results():
+#     """Process results_v2.txt and classify them according to month, year and
+#     result. Return a list of tuple
+#     """
+
+#     final_result = []
+
+#     with open("results_v2.txt", "r") as fi:
+
+#         curr_month = ""
+#         curr_month_results = []
+
+#         for entry in islice(fi, 2, None):
+#             entry = re.split(r"\s{2,}", entry.strip())
+#             month = " ".join(entry[0].split(" ")[2:])
+#             results = entry[1:]
+
+#             if curr_month == month:
+#                 curr_month_results.extend(results)
+#             else:
+#                 curr_month_results = []
+#                 curr_month = month
+
+#             to_append = (curr_month, curr_month_results)
+#             if to_append not in final_result:
+#                 final_result.append(to_append)
+
+#     return final_result
+
+
+# def compare_digits(digit_1, digit_2):
+
+#     for num_1 in digit_1:
+#         if num_1 in digit_2:
+#             digit_2 = digit_2.replace(num_1, "", 1)
+
+#     if len(digit_2) == 0:
+#         return True
+#     else:
+#         return False
+
+
+# def count_similar(results_1, results_2):
+#     """Given a list of results_1 (['123', '456'...]) and
+#     results_2 (['456', '789', ...]) count the number of
+#     similarities. Return the number of similarities
+#     """
+
+#     count = 0
+
+#     for digit_1 in results_1:
+#         for digit_2 in results_2:
+#             if compare_digits(digit_1, digit_2):
+#                 count += 1
+
+#     return (count, results_1)
+
+
+# def filtered_results():
+#     base_results = classify_results()
+#     results_2 = base_results.pop(-1)[1]
+#     highest = []
+#     curr_highest = 0
+
+#     for entry in base_results:
+#         date, results_1 = entry
+#         count, mark_results = count_similar(results_1, results_2)
+
+#         if curr_highest < count:
+#             curr_highest = count
+#             highest = (date, count, mark_results)
+
+#     return highest
+
+
+# def main():
+#     print(filtered_results())
+
+
+# if __name__ == "__main__":
+#     main()
+############################################
+
 from itertools import *
+import re
 
 """
-Using this script filter results that contains diff_zero
-or has repeating pairs ex: ['541', '453', '540']
-
-Output:
-    gap: 141
-    common: 4
-    results: ['541', '453', '540']
-    seq_types:
-    ('5', '5', '5') <- diff_zero
-
-Once you have identified the result get the pair. Using the example
-above the pair is 45. Now watch out for 45 pairs coming after 3 to 4
-draws. The above sample appeared with only 1 draw with the confirmed
-result of 456
+Process results_v2.txt and look for digits that match
+the current result and position
 """
 
+def compare_digits(digit_1, digit_2):
 
-def get_results():
-    """Get all the previous result and store it in reverse order"""
+    for num_1 in digit_1:
+        if num_1 in digit_2:
+            digit_2 = digit_2.replace(num_1, "", 1)
 
-    results = []
-    with open("results_v1.txt", "r") as fi:
-        for line in islice(fi, 2, None):
-            results.insert(0, line.strip())
-
-    return results
-
-
-def diff_one(digit):
-    return {
-        0: 1,
-        1: 2,
-        2: 3,
-        3: 4,
-        4: 5,
-        5: 6,
-        6: 7,
-        7: 8,
-        8: 9,
-        9: 0
-    }[digit]
-
-
-def diff_two(digit):
-    return {
-        0: 2,
-        1: 3,
-        2: 4,
-        3: 5,
-        4: 6,
-        5: 7,
-        6: 8,
-        7: 9,
-        8: 0,
-        9: 1
-    }[digit]
-
-
-def seq_type(digits):
-    """
-    Given a sequence of string numbers ['8', '9', '0', '1'...] determine
-    what type of sequence it has. Return a string of seq_type
-        diff_one - if all numbers has a difference of 1
-        diff_two - if all numbers has a difference of 2
-        diff_zero - if all numbers has the same digit
-
-        gap_one - all of the numbers has a difference of one except 1
-            ex. 8, 9, 0, 1, 3 (2 missing)
-                7, 9, 0, 1, 2 (8 missing)
-    """
-
-    uniq_digits = set([int(e) for e in digits])
-    diff_one_count = 0
-    diff_two_count = 0
-    diff_none_count = 0
-
-    if len(uniq_digits) == 1:
-        return "diff_zero"
-    elif len(uniq_digits) != len(digits):
-        return "has_double"
+    if len(digit_2) == 0:
+        return True
     else:
-        for digit in uniq_digits:
-
-            if diff_one(digit) in uniq_digits:
-                diff_one_count += 1
-            elif diff_two(digit) in uniq_digits:
-                diff_two_count += 1
-            else:
-                diff_none_count += 1
-
-        # print(diff_one_count, diff_two_count, diff_none_count)
-
-        # Filter diff_one
-        if diff_two_count == 0 and diff_none_count < 2:
-            return "diff_one"
-
-        # Filter diff_two
-        if (
-            diff_one_count == 0 and
-            diff_two_count >= 1 and
-            diff_none_count != 2
-        ):
-            return "diff_two"
-
-        # Filter gap_one
-        if (
-            diff_one_count != 0 and
-            diff_two_count == 1 and
-            diff_none_count != 2
-        ):
-            return "gap_one"
+        return False
 
 
-def get_seq_types(results, common=[]):
-    """Given a list of results ['123', '345', '678'...] and a list of
-    common digits (optional). Remove common digits from results and
-    then determine their sequence type. Return a list of tuple
-    containing the digits and seq_type [(('9', '9', '9'),
-    'diff_zero')...]
-    """
+def filter_results(curr_result, time):
 
-    trim_results = []
+    accu_result = []
 
-    if common:
-        for result in results:
-            for c in common:
-                result = result.replace(c, "", 1)
-            trim_results.append(result)
-    else:
-        trim_results = results
-
-    output = []
-
-    for seq in product(*trim_results):
-        output_item = (seq, seq_type(seq))
-        if seq_type(seq) and output_item not in output:
-            output.append(output_item)
-
-    return output
-
-    for seq in product(*trim_results):
-        output_item = (seq, seq_type(seq))
-        if seq_type(seq) and output_item not in output:
-            output.append(output_item)
-
-    return output
-
-
-def filter_results():
-    """Process get_results() output and filter them by gap.
-    Return a list of tuple containing [(gap_value, common, results)]
-    """
-
-    results = get_results()
-    final_list = []
-
-    for gap_value in range(1, 100):
-        for common_digit in range(0, 10):
-            common = str(common_digit)
-            step = gap_value
-            common_list = []
+    with open("results_v2.txt", "r") as fi:
+        for entry in islice(fi, 2, None):
+            entry = re.split(r"\s{2,}", entry.strip())
+            date = entry[0]
+            results = entry[1:]
 
             for count, result in enumerate(results):
-                if step == count and common in result:
-                    common_list.append(result)
-                    step += (gap_value + 1)
+                if (
+                    compare_digits(curr_result, result) and
+                    count == time
+                ):
+                    accu_result.append((date, count, results))
 
-            if common_list and len(common_list) >= 3:
-                seq_types = get_seq_types(common_list, common)
-                final_list.append((
-                    gap_value, common, common_list, seq_types))
-
-    return final_list
-
-
-def export_file(gap, common, results, seq, seq_types):
-
-    with open("results_diff_zero_v1.1.txt", "a") as fo:
-        fo.write("gap: {}\n".format(gap))
-        fo.write("common: {}\n".format(common))
-        fo.write("results: {}\n".format(results))
-        fo.write("pair: {}{}\n".format(common, seq[0][0]))
-        fo.write("seq_types:\n")
-        for seq in seq_types:
-            sequence, label = seq
-            fo.write("{} <- {}\n".format(sequence, label))
-        fo.write("\n")
+    return accu_result
 
 
 def main():
-    with open("results_diff_zero_v1.1.txt", "w") as fo:
-        fo.write("")
+    # The current result
+    curr_res = "971"
 
-    for entry in filter_results():
-        gap, common, results, seq_types = entry
+    # Time, 0 for 11am, 1 for 4pm and 2 for 9pm
+    time = 0
 
-        for seq in seq_types:
+    for entry in filter_results(curr_res, time):
+        print(entry)
 
-            if "diff_zero" in seq:
 
-                print("gap: {}".format(gap))
-                print("common: {}".format(common))
-                print("results: {}".format(results))
-                print("pair: {}{}".format(common, seq[0][0]))
-                print("seq_types:")
-                for new_seq in seq_types:
-                    sequence, label = new_seq
-                    print("{} <- {}".format(sequence, label))
-
-                export_file(gap, common, results, seq, seq_types)
-                print("\n")
 
 
 if __name__ == "__main__":
