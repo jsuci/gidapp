@@ -297,7 +297,6 @@ def main():
             for p_combi in combi:
                 print(p_combi)
 
-
             export_file(gap, common, results, pairs, combi)
             print("\n")
 

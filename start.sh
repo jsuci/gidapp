@@ -12,6 +12,9 @@ python script_diff_zero_v1.1.py
 # echo "SOLID Pattern V1.2:"
 # python script_solid_pattern_v1.2.py
 echo
+echo "COMMON_PAIRS Pattern V1.1"
+python script_common_pairs_v1.1.py
+echo
 echo "Fetching Results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
@@ -41,6 +44,9 @@ python script_diff_zero_v1.1.py
 # echo
 # echo "SOLID Pattern V1.2:"
 # python script_solid_pattern_v1.2.py
+echo
+echo "COMMON_PAIRS Pattern V1.1"
+python script_common_pairs_v1.1.py
 echo
 echo "Fetching Results:"
 python stl_results_v1.py
