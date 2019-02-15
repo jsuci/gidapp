@@ -1,0 +1,20 @@
+gap: 58
+common: 4
+results: ['451', '405', '546']
+pair: 45
+seq_types:
+('5', '0', '5') <- has_double
+('5', '5', '5') <- diff_zero
+('5', '5', '6') <- has_double
+('1', '5', '5') <- has_double
+
+gap: 58
+common: 5
+results: ['451', '405', '546']
+pair: 54
+seq_types:
+('4', '4', '4') <- diff_zero
+('4', '4', '6') <- has_double
+('4', '0', '4') <- has_double
+('1', '4', '4') <- has_double
+
