@@ -6,11 +6,9 @@ cd /sdcard/Download/gidapp/swertres
 echo
 echo "DIFF_ZERO Pattern V1.1"
 python script_diff_zero_v1.1.py
-# echo "SYNC Digits Pattern V2.4:"
-# python script_sync_digits_v2.4.py
-# echo
-# echo "SOLID Pattern V1.2:"
-# python script_solid_pattern_v1.2.py
+echo
+echo "DIFF_ONE Pattern V1.1"
+python script_diff_one_v1.1.py
 echo
 echo "COMMON_PAIRS Pattern V1.1"
 python script_common_pairs_v1.1.py
@@ -39,11 +37,9 @@ cd /sdcard/Download/gidapp/stl
 echo
 echo "DIFF_ZERO Pattern V1.1"
 python script_diff_zero_v1.1.py
-# echo "SYNC Digits Pattern V2.4:"
-# python script_sync_digits_v2.4.py
-# echo
-# echo "SOLID Pattern V1.2:"
-# python script_solid_pattern_v1.2.py
+echo
+echo "DIFF_ONE Pattern V1.1"
+python script_diff_one_v1.1.py
 echo
 echo "COMMON_PAIRS Pattern V1.1"
 python script_common_pairs_v1.1.py
