@@ -1773,3 +1773,20 @@ LIST OF STABLE SCRIPT AND PATTERNS
 1. script_diff_zero_v1.1.py - spot pair upcoming pairs using this script
 if pairs reappear again then there is a high chance that after 2 to 3 draws
 it will come out
+
+---------------------------------------
+[+] 1. edit diff_zero_v1.1 to show all seq_types
+[-] 2. create diff_one but this time using results_v2.txt
+[+] 3. create new script that filter two diff_one
+[+] 4. re-write result_lookup script to find result that has same position and has same digits
+
+monitor pairs for repeat:
+12 tue 9pm: 86 *(683 result)
+13 wed 9pm: 48, 13
+15 fri 11am: 58
+15 fri 4pm: 54, 69
+15 fri 9pm: 54
+
+zinn combi: 508 852
+dreamgirl combi: 752 754 758 759 756 546 544 525
+my combi: 
