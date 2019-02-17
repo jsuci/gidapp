@@ -1,23 +1,21 @@
-DATE GENERATED: 17 sun feb 2019 0
-gap: 43
-common: 3
-results: ['037', '375', '371']
-pair: 37
+DATE GENERATED: 17 sun feb 2019 1
+gap: 56
+common: 0
+results: ['150', '019', '140']
+pair: 01
 seq_types:
-('0', '7', '7') <- has_double
-('7', '7', '7') <- diff_zero
-('7', '7', '1') <- has_double
-('7', '5', '7') <- has_double
+('1', '1', '1') <- diff_zero
+('1', '1', '4') <- has_double
+('1', '9', '1') <- has_double
+('5', '1', '1') <- has_double
 
-gap: 43
-common: 7
-results: ['037', '375', '371']
-pair: 73
+gap: 56
+common: 1
+results: ['150', '019', '140']
+pair: 10
 seq_types:
-('0', '3', '3') <- has_double
-('0', '3', '1') <- gap_one
-('3', '3', '3') <- diff_zero
-('3', '3', '1') <- has_double
-('3', '5', '3') <- has_double
-('3', '5', '1') <- diff_two
+('5', '0', '0') <- has_double
+('0', '0', '4') <- has_double
+('0', '0', '0') <- diff_zero
+('0', '9', '0') <- has_double
 

@@ -160,7 +160,7 @@ def filter_results():
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, 100):
+    for gap_value in range(1, 500):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
@@ -268,6 +268,8 @@ def possible_combi(digit, common):
     combined = ["".join(e) for e in (
         plus_all, minus_all, plus_minus, minus_plus,
         plus_left, plus_right, minus_left, minus_right)]
+
+    combined.append("".join([str(e) for e in pair]))
 
     final_result = []
 
