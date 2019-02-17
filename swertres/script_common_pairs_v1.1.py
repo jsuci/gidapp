@@ -7,14 +7,20 @@ ex: ['928', '965', '729']. From the example 92 appears on the
 first and third result
 
 Output:
-    gap: 130
-    common: 9
-    results: ['928', '965', '729']
-    seq_types:
-    ('2', '6', '2') <- has_double
-    ('2', '5', '2') <- has_double
-    ('8', '6', '7') <- diff_one
-    ('8', '5', '7') <- gap_one
+    gap: 31
+    common: 4
+    results: ['456', '924', '674']
+    next_pairs: 92, 94, 24
+    possible_combi:
+    034
+    814
+    014
+    834
+    024
+    934
+    824
+    914
+    924
 
 The purpose of this script is to observe common patterns between gap
 of common digits on results_v1.txt

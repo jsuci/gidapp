@@ -1,4 +1,5 @@
 from itertools import *
+from re import *
 
 """
 Using this script filter results that contains
@@ -197,10 +198,10 @@ def export_file(gap, common, results, seq_types, poss_combis):
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
+        fo.write("combi: {}\n".format(poss_combis))
         fo.write("seq:\n")
         for seq in seq_types:
             fo.write("{} <- {}\n".format(seq[0], seq[1]))
-        fo.write("combi: {}\n".format(poss_combis))
         fo.write("\n\n")
 
 
@@ -296,9 +297,19 @@ def possible_combi(diff_one_list, common):
     return combi
 
 
+def get_current_date():
+    """Get current date"""
+
+    with open("results_v1.txt") as fi:
+        first_line = fi.readline().strip()
+
+        return findall(r"(?<=updated: )(\S.+)", first_line)[0]
+
+
 def main():
     with open("results_diff_one_v1.1.txt", "w") as fo:
-        fo.write("")
+        date = get_current_date()
+        fo.write("DATE GENERATED: {}\n".format(date))
 
     for entry in filter_results():
         gap, common, results, seq_types = entry
@@ -315,10 +326,10 @@ def main():
             print("gap: {}".format(gap))
             print("common: {}".format(common))
             print("results: {}".format(results))
+            print("combi: {}".format(poss_combis))
             print("seq:")
             for seq in seq_types:
                 print("{} <- {}".format(seq[0], seq[1]))
-            print("combi: {}".format(poss_combis))
             print("\n\n")
 
             export_file(gap, common, results, seq_types, poss_combis)
