@@ -1790,3 +1790,33 @@ monitor pairs for repeat:
 zinn combi: 508 852
 dreamgirl combi: 752 754 758 759 756 546 544 525
 my combi: 
+
+-----------------------------------
+DIFF_ZERO CONFIRMED PATTERS AND RESULTS
+
+the criteria for this selection is that
+filter results with length of 4 and then
+get their common pair. Common pair must have
+length of 1 or else skip. Once found select
+your next bet digit among the results. If the
+chosen digit does not come out then forget
+that pair and proceed to the next pair.
+
+DATE GENERATED: 29 tue jan 2019 0
+results: ['450', '541', '495', '547']
+pairs: ['45'] (954 - 1 draw after)*
+
+
+DATE GENERATED: 02 sat feb 2019 1
+results: ['673', '375', '703', '371']
+pairs: ['37'] (037 - 1 draw after)*
+
+
+DATE GENERATED: 13 wed feb 2019 0
+results: ['457', '451', '405', '465']
+pairs: ['45'] (451 - 2 draw after)*
+
+
+DATE GENERATED: 15 fri feb 2019 2
+results: ['150', '415', '145', '591']
+pairs: ['15'] (751 - 3 draws after)

@@ -158,7 +158,7 @@ def filter_results():
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, 100):
+    for gap_value in range(1, 500):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
@@ -169,7 +169,7 @@ def filter_results():
                     common_list.append(result)
                     step += (gap_value + 1)
 
-            if common_list and len(common_list) >= 3:
+            if common_list and len(common_list) == 4:
                 seq_types = get_seq_types(common_list, common)
                 final_list.append((
                     gap_value, common, common_list, seq_types))
@@ -186,23 +186,30 @@ def get_current_date():
         return findall(r"(?<=updated: )(\S.+)", first_line)[0]
 
 
-def export_file(gap, common, results, seq, seq_types):
+# def export_file(gap, common, results, seq, seq_types):
+
+#     with open("results_diff_zero_v1.1.txt", "a") as fo:
+#         fo.write("gap: {}\n".format(gap))
+#         fo.write("common: {}\n".format(common))
+#         fo.write("results: {}\n".format(results))
+#         fo.write("pair: {}{}\n".format(common, seq[0][0]))
+#         fo.write("seq_types:\n")
+#         for seq in seq_types:
+#             sequence, label = seq
+#             fo.write("{} <- {}\n".format(sequence, label))
+#         fo.write("\n")
+
+
+def export_file(pairs):
 
     with open("results_diff_zero_v1.1.txt", "a") as fo:
-        fo.write("gap: {}\n".format(gap))
-        fo.write("common: {}\n".format(common))
-        fo.write("results: {}\n".format(results))
-        fo.write("pair: {}{}\n".format(common, seq[0][0]))
-        fo.write("seq_types:\n")
-        for seq in seq_types:
-            sequence, label = seq
-            fo.write("{} <- {}\n".format(sequence, label))
-        fo.write("\n")
+        fo.write("pairs: {}\n\n\n".format(pairs))
 
 
 def main():
-    with open("results_diff_zero_v1.1.txt", "w") as fo:
+    with open("results_diff_zero_v1.1.txt", "a") as fo:
         date = get_current_date()
+        pairs = []
         fo.write("DATE GENERATED: {}\n".format(date))
 
     for entry in filter_results():
@@ -211,6 +218,10 @@ def main():
         for seq in seq_types:
 
             if "diff_zero" in seq:
+                sorted_pairs = "".join(sorted([common, seq[0][0]]))
+
+                if sorted_pairs not in pairs:
+                    pairs.append(sorted_pairs)
 
                 print("gap: {}".format(gap))
                 print("common: {}".format(common))
@@ -220,9 +231,9 @@ def main():
                 for new_seq in seq_types:
                     sequence, label = new_seq
                     print("{} <- {}".format(sequence, label))
-
-                export_file(gap, common, results, seq, seq_types)
                 print("\n")
+
+    export_file(pairs)
 
 
 if __name__ == "__main__":

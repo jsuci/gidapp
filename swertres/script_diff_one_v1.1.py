@@ -195,14 +195,14 @@ def filter_results():
 def export_file(gap, common, results, seq_types, poss_combis):
 
     with open("results_diff_one_v1.1.txt", "a") as fo:
-        fo.write("gap: {}\n".format(gap))
-        fo.write("common: {}\n".format(common))
-        fo.write("results: {}\n".format(results))
+        # fo.write("gap: {}\n".format(gap))
+        # fo.write("common: {}\n".format(common))
+        # fo.write("results: {}\n".format(results))
         fo.write("combi: {}\n".format(poss_combis))
-        fo.write("seq:\n")
-        for seq in seq_types:
-            fo.write("{} <- {}\n".format(seq[0], seq[1]))
-        fo.write("\n\n")
+        # fo.write("seq:\n")
+        # for seq in seq_types:
+        #     fo.write("{} <- {}\n".format(seq[0], seq[1]))
+        # fo.write("\n\n")
 
 
 def compare_digits(digit_1, digit_2):
