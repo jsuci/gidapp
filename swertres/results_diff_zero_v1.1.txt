@@ -1,12 +1,23 @@
-gap: 58
-common: 8
-results: ['287', '874', '875']
-pair: 87
+DATE GENERATED: 17 sun feb 2019 0
+gap: 43
+common: 3
+results: ['037', '375', '371']
+pair: 37
 seq_types:
-('2', '7', '7') <- has_double
-('2', '4', '5') <- gap_one
+('0', '7', '7') <- has_double
 ('7', '7', '7') <- diff_zero
-('7', '7', '5') <- has_double
-('7', '4', '7') <- has_double
-('7', '4', '5') <- gap_one
+('7', '7', '1') <- has_double
+('7', '5', '7') <- has_double
+
+gap: 43
+common: 7
+results: ['037', '375', '371']
+pair: 73
+seq_types:
+('0', '3', '3') <- has_double
+('0', '3', '1') <- gap_one
+('3', '3', '3') <- diff_zero
+('3', '3', '1') <- has_double
+('3', '5', '3') <- has_double
+('3', '5', '1') <- diff_two
 

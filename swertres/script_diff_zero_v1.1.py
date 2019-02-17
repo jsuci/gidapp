@@ -1,4 +1,5 @@
 from itertools import *
+from re import *
 
 """
 Using this script filter results that contains diff_zero
@@ -176,6 +177,15 @@ def filter_results():
     return final_list
 
 
+def get_current_date():
+    """Get current date"""
+
+    with open("results_v1.txt") as fi:
+        first_line = fi.readline().strip()
+
+        return findall(r"(?<=updated: )(\S.+)", first_line)[0]
+
+
 def export_file(gap, common, results, seq, seq_types):
 
     with open("results_diff_zero_v1.1.txt", "a") as fo:
@@ -192,7 +202,8 @@ def export_file(gap, common, results, seq, seq_types):
 
 def main():
     with open("results_diff_zero_v1.1.txt", "w") as fo:
-        fo.write("")
+        date = get_current_date()
+        fo.write("DATE GENERATED: {}\n".format(date))
 
     for entry in filter_results():
         gap, common, results, seq_types = entry
