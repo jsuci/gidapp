@@ -1794,6 +1794,7 @@ my combi:
 -----------------------------------
 DIFF_ZERO CONFIRMED PATTERS AND RESULTS
 
+#1
 the criteria for this selection is that
 filter results with length of 4 and then
 get their common pair. Common pair must have
@@ -1820,3 +1821,34 @@ pairs: ['45'] (451 - 2 draw after)*
 DATE GENERATED: 15 fri feb 2019 2
 results: ['150', '415', '145', '591']
 pairs: ['15'] (751 - 3 draws after)
+
+
+#2
+another pattern found which you can bet
+daily. using diff_zero_v1.2.py generate
+all possible pairs. further filter those
+pairs by looking at the previous result
+and whose digit mathes the digit in those
+pairs then choose that pair.
+
+['68', '59', '27', '28'] 11am * get 8 from prev (480) (683 result)
+['69', '25'] 4pm x
+['29', '59', '47', '48'] 9pm x
+
+['48', '13', '01', '24', '36', '57'] 11am x
+['04'] 4pm x
+['03', '01', '56', '27', '49', '78', '47', '06'] 9pm x
+
+[] 11am x
+['58', '79'] 4pm x
+['45', '69', '05', '37'] 9pm x
+
+
+['78', '69', '79', '23'] 11am * get 9 from prev (299) (971 result)
+['29', '09', '79'] 4pm x
+['25', '24', '07'] 9pm x
+
+
+['68', '38'] 11am x
+['67', '05', '44', '03', '36'] 4pm x
+['56', '24'] 9pm * get 6 from (468) (568 result)
