@@ -1,15 +1,22 @@
 from itertools import *
+from re import *
+import fileinput
 
 """
-Using this script filter results that contains diff_zero
-or has repeating pairs ex: ['541', '453', '540']
+Using this script filter results of length 3 that
+contains atleast one diff_zero
+
 
 Output:
-    gap: 141
-    common: 4
-    results: ['541', '453', '540']
+    gap: 278
+    common: 8
+    results: ['887', '738', '784']
+    pair: 87
     seq_types:
-    ('5', '5', '5') <- diff_zero
+    ('8', '7', '7') <- has_double
+    ('7', '7', '7') <- diff_zero
+    ('7', '7', '4') <- has_double
+    ('7', '3', '7') <- has_double
 
 Once you have identified the result get the pair. Using the example
 above the pair is 45. Now watch out for 45 pairs coming after 3 to 4
@@ -157,7 +164,7 @@ def filter_results():
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, 100):
+    for gap_value in range(1, 500):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
@@ -168,7 +175,7 @@ def filter_results():
                     common_list.append(result)
                     step += (gap_value + 1)
 
-            if common_list and len(common_list) >= 3:
+            if common_list and len(common_list) == 3:
                 seq_types = get_seq_types(common_list, common)
                 final_list.append((
                     gap_value, common, common_list, seq_types))
@@ -176,42 +183,82 @@ def filter_results():
     return final_list
 
 
-def export_file(gap, common, results, seq, seq_types):
+def export_file(all_results, all_pairs):
 
-    with open("results_diff_zero_v1.1.txt", "a") as fo:
-        fo.write("gap: {}\n".format(gap))
-        fo.write("common: {}\n".format(common))
-        fo.write("results: {}\n".format(results))
-        fo.write("pair: {}{}\n".format(common, seq[0][0]))
-        fo.write("seq_types:\n")
-        for seq in seq_types:
-            sequence, label = seq
-            fo.write("{} <- {}\n".format(sequence, label))
+    with open("results_diff_zero_v1.2.txt", "a") as fo:
+        date = get_current_date()
+        fo.write("DATE GENERATED: {}\n".format(date))
+        fo.write("pairs: {}\n".format(all_pairs))
+        fo.write("results:\n")
+        for result in all_results:
+            fo.write("{}\n".format(result))
         fo.write("\n")
 
 
+def check_date():
+    """Check results_v1.txt current date and compare it to the
+    results_diff_zero date. Return True if they are the same and
+    False if not"""
+
+    with open("results_v1.txt", "r") as fi:
+        with open("results_diff_zero_v1.2.txt", "r") as fo:
+            fi_date = fi.readline().strip()
+            fo_date = fo.readline().strip()
+
+            if fi_date != fo_date:
+                return fi_date
+
+
+def get_current_date():
+    """Get current date"""
+
+    with open("results_v1.txt") as fi:
+        first_line = fi.readline().strip()
+
+        return findall(r"(?<=updated: )(\S.+)", first_line)[0]
+
+
 def main():
-    with open("results_diff_zero_v1.1.txt", "w") as fo:
-        fo.write("")
 
-    for entry in filter_results():
-        gap, common, results, seq_types = entry
+    if not check_date():
+        print("Results are up to date.")
+    else:
+        all_pairs = []
+        all_results = []
 
-        for seq in seq_types:
+        for entry in filter_results():
+            gap, common, results, seq_types = entry
 
-            if "diff_zero" in seq:
+            for seq in seq_types:
 
-                print("gap: {}".format(gap))
-                print("common: {}".format(common))
-                print("results: {}".format(results))
-                print("pair: {}{}".format(common, seq[0][0]))
-                print("seq_types:")
-                for new_seq in seq_types:
-                    sequence, label = new_seq
-                    print("{} <- {}".format(sequence, label))
+                if "diff_zero" in seq:
+                    sorted_pairs = "".join(sorted([common, seq[0][0]]))
 
-                export_file(gap, common, results, seq, seq_types)
-                print("\n")
+                    if sorted_pairs not in all_pairs:
+                        all_pairs.append(sorted_pairs)
+
+                    if results not in all_results:
+                        all_results.append(results)
+
+                    print("gap: {}".format(gap))
+                    print("common: {}".format(common))
+                    print("results: {}".format(results))
+                    print("pair: {}{}".format(common, seq[0][0]))
+                    print("seq_types:")
+                    for new_seq in seq_types:
+                        sequence, label = new_seq
+                        print("{} <- {}".format(sequence, label))
+                    print("\n")
+
+        export_file(all_results, all_pairs)
+
+        with fileinput.input("results_diff_zero_v1.2.txt",
+                             inplace=True) as fio:
+            for entry in fio:
+                if "updated:" in entry:
+                    print(check_date())
+                else:
+                    print(entry, end="")
 
 
 if __name__ == "__main__":

@@ -1,17 +1,13 @@
 updated: 18 mon feb 2019 1
 
-DATE GENERATED: 17 sun feb 2019 2
-pairs: []
-results:
-
-
 DATE GENERATED: 18 mon feb 2019 0
-pairs: []
+pairs: ['27']
 results:
-
+['782', '297', '972']
 
 DATE GENERATED: 18 mon feb 2019 1
-pairs: []
+pairs: ['19', '78']
 results:
-
+['091', '914', '931']
+['887', '738', '784']
 
