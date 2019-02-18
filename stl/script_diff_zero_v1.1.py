@@ -201,13 +201,17 @@ def get_current_date():
 #         fo.write("\n")
 
 
-def export_file(pairs):
+def export_file(pairs, results):
 
     with open("results_diff_zero_v1.1.txt", "a") as fo:
         date = get_current_date()
 
         fo.write("DATE GENERATED: {}\n".format(date))
-        fo.write("pairs: {}\n\n\n".format(pairs))
+        fo.write("pairs: {}\n".format(pairs))
+        fo.write("results:\n")
+        for result in results:
+            fo.write("{}\n".format(result))
+        fo.write("\n\n")
 
 
 def check_date():
@@ -230,6 +234,7 @@ def main():
         print("Results are up to date.")
     else:
         pairs = []
+        curr_results = []
         for entry in filter_results():
             gap, common, results, seq_types = entry
 
@@ -237,6 +242,9 @@ def main():
 
                 if "diff_zero" in seq:
                     sorted_pairs = "".join(sorted([common, seq[0][0]]))
+
+                    if (results) not in curr_results:
+                        curr_results.append((results))
 
                     if sorted_pairs not in pairs:
                         pairs.append(sorted_pairs)
@@ -251,7 +259,7 @@ def main():
                         print("{} <- {}".format(sequence, label))
                     print("\n")
 
-        export_file(pairs)
+        export_file(pairs, curr_results)
 
         with fileinput.input("results_diff_zero_v1.1.txt",
                              inplace=True) as fio:
