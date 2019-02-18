@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 updated: 18 mon feb 2019 1
 
 DATE GENERATED: 18 mon feb 2019 0
@@ -10,3 +11,5 @@ pairs: []
 results:
 
 
+=======
+>>>>>>> Stashed changes
