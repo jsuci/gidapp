@@ -29,6 +29,8 @@ def main():
             digit = entry.strip()
             high_low_mix(digit)
 
+    print("Done identifying high, low, mix results.")
+
 
 if __name__ == "__main__":
     main()

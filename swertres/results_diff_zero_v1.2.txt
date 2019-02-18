@@ -1,4 +1,4 @@
-updated: 18 mon feb 2019 1
+updated: 18 mon feb 2019 2
 
 DATE GENERATED: 17 sun feb 2019 2
 pairs: ['68', '38']
@@ -20,4 +20,9 @@ pairs: ['56', '24']
 results:
 ['506', '563', '265']
 ['248', '492', '642']
+
+DATE GENERATED: 18 mon feb 2019 2
+pairs: ['35']
+results:
+['358', '953', '513']
 
