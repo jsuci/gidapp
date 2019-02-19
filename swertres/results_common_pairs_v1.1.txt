@@ -1,448 +1,480 @@
-gap: 42
-common: 0
-results: ['049', '057', '004']
-next_pairs: 05, 07, 57
-possible_combi:
-680
-460
-660
-480
-670
-580
-470
-560
-570
-
-
-gap: 50
-common: 6
-results: ['456', '960', '653']
-next_pairs: 96, 90, 60
-possible_combi:
-016
-896
-096
-816
-006
-916
-806
-996
-906
-
-
-gap: 53
-common: 8
-results: ['480', '385', '428', '468', '248']
-next_pairs: 38, 35, 85
-possible_combi:
-468
-248
-448
-268
-458
-368
-258
-348
-358
-
-
-gap: 69
+gap: 49
 common: 3
-results: ['673', '398', '763', '493', '364']
-next_pairs: 39, 38, 98
+results: ['037', '377', '703', '733']
+next_pairs: 37, 37, 77
 possible_combi:
-093
-873
-073
-893
-083
-993
 883
-973
-983
+663
+863
+683
+873
+783
+673
+763
+773
+
+
+gap: 49
+common: 7
+results: ['037', '377', '703', '733']
+next_pairs: 37, 37, 77
+possible_combi:
+487
+267
+467
+287
+477
+387
+277
+367
+377
+
+
+gap: 61
+common: 8
+results: ['587', '882', '875']
+next_pairs: 88, 82, 82
+possible_combi:
+938
+718
+918
+738
+928
+838
+728
+818
+828
 
 
 gap: 76
-common: 3
-results: ['305', '433', '083', '371']
-next_pairs: 43, 43, 33
-possible_combi:
-543
-323
-523
-343
-533
-443
-333
-423
-433
-
-
-gap: 82
-common: 9
-results: ['924', '159', '974', '695', '968', '906', '094']
-next_pairs: 15, 19, 59
-possible_combi:
-269
-049
-249
-069
-259
-169
-059
-149
-159
-
-
-gap: 100
-common: 3
-results: ['329', '563', '423']
-next_pairs: 56, 53, 63
-possible_combi:
-673
-453
-653
-473
-663
-573
-463
-553
-563
-
-
-gap: 117
-common: 4
-results: ['294', '484', '264', '471', '834']
-next_pairs: 48, 44, 84
-possible_combi:
-954
-734
-934
-754
-944
-854
-744
-834
-844
-
-
-gap: 147
-common: 0
-results: ['703', '005', '043']
-next_pairs: 00, 05, 05
-possible_combi:
-160
-940
-140
-960
-150
-060
-950
-040
-050
-
-
-gap: 149
-common: 6
-results: ['626', '063', '260']
-next_pairs: 06, 03, 63
-possible_combi:
-146
-926
-126
-946
-136
-046
-936
-026
-036
-
-
-gap: 170
-common: 5
-results: ['506', '563', '265']
-next_pairs: 56, 53, 63
-possible_combi:
-745
-525
-725
-545
-735
-645
-535
-625
-635
-
-
-gap: 170
-common: 6
-results: ['506', '563', '265']
-next_pairs: 56, 53, 63
-possible_combi:
-646
-426
-626
-446
-636
-546
-436
-526
-536
-
-
-gap: 176
-common: 4
-results: ['543', '264', '541']
-next_pairs: 26, 24, 64
-possible_combi:
-374
-154
-354
-174
-364
-274
-164
-254
-264
-
-
-gap: 178
-common: 0
-results: ['098', '250', '801']
-next_pairs: 25, 20, 50
-possible_combi:
-360
-140
-340
-160
-350
-260
-150
-240
-250
-
-
-gap: 248
-common: 9
-results: ['974', '906', '049']
-next_pairs: 90, 96, 06
-possible_combi:
-179
-959
-159
-979
-169
-079
-969
-059
-069
-
-
-gap: 262
-common: 2
-results: ['299', '276', '297', '972', '327']
-next_pairs: 27, 26, 76
-possible_combi:
-872
-652
-852
-672
-862
-772
-662
-752
-762
-
-
-gap: 269
-common: 2
-results: ['248', '492', '642']
-next_pairs: 49, 42, 92
-possible_combi:
-502
-382
-582
-302
-592
-402
-392
-482
-492
-
-
-gap: 269
-common: 4
-results: ['248', '492', '642']
-next_pairs: 49, 42, 92
-possible_combi:
-034
-814
-014
-834
-024
-934
-824
-914
-924
-
-
-gap: 275
-common: 8
-results: ['389', '804', '378']
-next_pairs: 80, 84, 04
-possible_combi:
-158
-938
-138
-958
-148
-058
-948
-038
-048
-
-
-gap: 289
-common: 9
-results: ['933', '509', '935', '907']
-next_pairs: 50, 59, 09
-possible_combi:
-619
-499
-699
-419
-609
-519
-409
-599
-509
-
-
-gap: 301
-common: 6
-results: ['765', '236', '176']
-next_pairs: 23, 26, 36
-possible_combi:
-346
-126
-326
-146
-336
-246
-136
-226
-236
-
-
-gap: 306
-common: 8
-results: ['859', '384', '879']
-next_pairs: 38, 34, 84
-possible_combi:
-458
-238
-438
-258
-448
-358
-248
-338
-348
-
-
-gap: 334
-common: 3
-results: ['453', '123', '345', '306']
-next_pairs: 12, 13, 23
-possible_combi:
-233
-013
-213
-033
-223
-133
-023
-113
-123
-
-
-gap: 335
-common: 4
-results: ['487', '841', '547']
-next_pairs: 84, 81, 41
-possible_combi:
-924
-704
-904
-724
-914
-824
-714
-804
-814
-
-
-gap: 361
-common: 8
-results: ['883', '589', '438']
-next_pairs: 58, 59, 89
-possible_combi:
-608
-488
-688
-408
-698
-508
-498
-588
-598
-
-
-gap: 366
-common: 7
-results: ['487', '798', '974']
-next_pairs: 79, 78, 98
-possible_combi:
-097
-877
-077
-897
-087
-997
-887
-977
-987
-
-
-gap: 400
-common: 4
-results: ['467', '417', '461', '243']
-next_pairs: 41, 47, 17
-possible_combi:
-284
-064
-264
-084
-274
-184
-074
-164
-174
-
-
-gap: 445
 common: 1
-results: ['138', '371', '618']
-next_pairs: 37, 31, 71
+results: ['173', '157', '712', '261']
+next_pairs: 15, 17, 57
 possible_combi:
-481
-261
+681
 461
-281
+661
+481
+671
+581
 471
+561
+571
+
+
+gap: 76
+common: 7
+results: ['173', '157', '712']
+next_pairs: 15, 17, 57
+possible_combi:
+267
+047
+247
+067
+257
+167
+057
+147
+157
+
+
+gap: 111
+common: 2
+results: ['923', '520', '942']
+next_pairs: 52, 50, 20
+possible_combi:
+612
+492
+692
+412
+602
+512
+402
+592
+502
+
+
+gap: 116
+common: 4
+results: ['674', '742', '466', '421']
+next_pairs: 74, 72, 42
+possible_combi:
+834
+614
+814
+634
+824
+734
+624
+714
+724
+
+
+gap: 124
+common: 1
+results: ['167', '491', '751']
+next_pairs: 49, 41, 91
+possible_combi:
+501
 381
-271
-361
-371
+581
+301
+591
+401
+391
+481
+491
+
+
+gap: 127
+common: 4
+results: ['405', '416', '240']
+next_pairs: 41, 46, 16
+possible_combi:
+274
+054
+254
+074
+264
+174
+064
+154
+164
+
+
+gap: 160
+common: 1
+results: ['912', '501', '152']
+next_pairs: 50, 51, 01
+possible_combi:
+611
+491
+691
+411
+601
+511
+401
+591
+501
+
+
+gap: 161
+common: 9
+results: ['981', '992', '219', '999']
+next_pairs: 99, 92, 92
+possible_combi:
+039
+819
+019
+839
+029
+939
+829
+919
+929
+
+
+gap: 163
+common: 8
+results: ['428', '678', '820', '886']
+next_pairs: 67, 68, 78
+possible_combi:
+788
+568
+768
+588
+778
+688
+578
+668
+678
+
+
+gap: 192
+common: 7
+results: ['972', '979', '974']
+next_pairs: 97, 99, 79
+possible_combi:
+007
+887
+087
+807
+097
+907
+897
+987
+997
+
+
+gap: 192
+common: 9
+results: ['972', '979', '974']
+next_pairs: 97, 99, 79
+possible_combi:
+809
+689
+889
+609
+899
+709
+699
+789
+799
+
+
+gap: 196
+common: 4
+results: ['432', '644', '248']
+next_pairs: 64, 64, 44
+possible_combi:
+754
+534
+734
+554
+744
+654
+544
+634
+644
+
+
+gap: 208
+common: 3
+results: ['763', '351', '173']
+next_pairs: 35, 31, 51
+possible_combi:
+623
+403
+603
+423
+613
+523
+413
+503
+513
+
+
+gap: 229
+common: 6
+results: ['516', '622', '565']
+next_pairs: 62, 62, 22
+possible_combi:
+336
+116
+316
+136
+326
+236
+126
+216
+226
+
+
+gap: 231
+common: 2
+results: ['502', '273', '524']
+next_pairs: 27, 23, 73
+possible_combi:
+842
+622
+822
+642
+832
+742
+632
+722
+732
+
+
+gap: 259
+common: 4
+results: ['364', '494', '343']
+next_pairs: 49, 44, 94
+possible_combi:
+054
+834
+034
+854
+044
+954
+844
+934
+944
+
+
+gap: 274
+common: 3
+results: ['371', '302', '321']
+next_pairs: 30, 32, 02
+possible_combi:
+133
+913
+113
+933
+123
+033
+923
+013
+023
+
+
+gap: 305
+common: 9
+results: ['921', '609', '917']
+next_pairs: 60, 69, 09
+possible_combi:
+719
+599
+799
+519
+709
+619
+509
+699
+609
+
+
+gap: 347
+common: 5
+results: ['325', '524', '053']
+next_pairs: 52, 54, 24
+possible_combi:
+355
+135
+335
+155
+345
+255
+145
+235
+245
+
+
+gap: 364
+common: 5
+results: ['795', '508', '569', '520']
+next_pairs: 50, 58, 08
+possible_combi:
+195
+975
+175
+995
+185
+095
+985
+075
+085
+
+
+gap: 406
+common: 5
+results: ['543', '591', '593', '754']
+next_pairs: 59, 51, 91
+possible_combi:
+025
+805
+005
+825
+015
+925
+815
+905
+915
+
+
+gap: 428
+common: 7
+results: ['874', '217', '788']
+next_pairs: 21, 27, 17
+possible_combi:
+327
+107
+307
+127
+317
+227
+117
+207
+217
+
+
+gap: 431
+common: 8
+results: ['518', '825', '218']
+next_pairs: 82, 85, 25
+possible_combi:
+368
+148
+348
+168
+358
+268
+158
+248
+258
+
+
+gap: 461
+common: 5
+results: ['955', '625', '955', '580']
+next_pairs: 62, 65, 25
+possible_combi:
+735
+515
+715
+535
+725
+635
+525
+615
+625
+
+
+gap: 470
+common: 0
+results: ['807', '409', '307']
+next_pairs: 40, 49, 09
+possible_combi:
+500
+380
+580
+300
+590
+400
+390
+480
+490
+
+
+gap: 487
+common: 0
+results: ['102', '160', '801']
+next_pairs: 16, 10, 60
+possible_combi:
+270
+050
+250
+070
+260
+170
+060
+150
+160
+
+
+gap: 487
+common: 1
+results: ['102', '160', '801']
+next_pairs: 16, 10, 60
+possible_combi:
+711
+591
+791
+511
+701
+611
+501
+691
+601
 
 
