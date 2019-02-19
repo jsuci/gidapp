@@ -1,4 +1,4 @@
-updated: 19 tue feb 2019 0
+updated: 19 tue feb 2019 2
 
 DATE GENERATED: 17 sun feb 2019 2
 pairs: ['68', '38']
@@ -32,4 +32,16 @@ results:
 ['173', '157', '712']
 ['972', '979', '974']
 ['102', '160', '801']
+
+DATE GENERATED: 19 tue feb 2019 1
+pairs: ['48', '35']
+results:
+['874', '884', '486']
+['325', '935', '353']
+
+DATE GENERATED: 19 tue feb 2019 2
+pairs: ['25', '35']
+results:
+['520', '502', '253']
+['453', '253', '563']
 
