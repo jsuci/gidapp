@@ -1,4 +1,4 @@
-updated: 19 tue feb 2019 2
+updated: 22 fri feb 2019 1
 
 DATE GENERATED: 17 sun feb 2019 2
 pairs: ['68', '38']
@@ -44,4 +44,53 @@ pairs: ['25', '35']
 results:
 ['520', '502', '253']
 ['453', '253', '563']
+
+DATE GENERATED: 20 wed feb 2019 0
+pairs: ['47']
+results:
+['774', '974', '874']
+
+DATE GENERATED: 20 wed feb 2019 1
+pairs: ['59', '12']
+results:
+['259', '395', '995']
+['291', '126', '521']
+
+DATE GENERATED: 20 wed feb 2019 2
+pairs: []
+results:
+
+DATE GENERATED: 21 thu feb 2019 0
+pairs: ['18']
+results:
+['821', '118', '281']
+
+DATE GENERATED: 21 thu feb 2019 1
+pairs: ['23', '06']
+results:
+['203', '332', '327']
+['706', '605', '960']
+
+DATE GENERATED: 21 thu feb 2019 2
+pairs: ['17', '59']
+results:
+['715', '167', '817']
+['955', '955', '935']
+['295', '945', '595']
+
+DATE GENERATED: 22 fri feb 2019 0
+pairs: ['03', '06', '59']
+results:
+['930', '830', '036']
+['056', '046', '064']
+['395', '559', '955']
+
+DATE GENERATED: 22 fri feb 2019 1
+pairs: ['14', '17', '35', '57', '16']
+results:
+['144', '140', '146']
+['371', '761', '571']
+['563', '351', '553']
+['547', '507', '057']
+['961', '162', '216']
 

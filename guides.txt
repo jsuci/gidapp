@@ -1852,3 +1852,177 @@ pairs then choose that pair.
 ['68', '38'] 11am x
 ['67', '05', '44', '03', '36'] 4pm x
 ['56', '24'] 9pm * get 6 from (468) (568 result)
+
+---------------------------------
+NEW PATTERN MISSING POSITIONS
+
+#1
+Using results_v1.txt observe 
+22 fri feb 2019 0 result: 528
+
+971
+751
+444
+934
+555
+311
+468
+568
+157
+831
+327
+806
+332
+685
+203
+083
+795
+528
+
+the digit "5" positions at the first
+since it has been missing on the first
+position for 12 draws.
+
+the digit "2" also positions at the second
+since it has been missing for the past 6
+draws.
+
+the digit "8" positions at the last since
+it has been missing for almost 9 draws.
+Notice the digit 8 repeats every other draw
+so it also incorporates pattern
+
+
+missing_positions as of feb 22, 2019 friday:
+_ _ 0
+_ 1 _
+
+_ 4 _
+_ _ 4
+
+_ 5 _
+_ 6 _
+_ 7 _
+
+8 _ _
+
+9 _ _
+_ _ 9
+
+
+this missing_position pattern is only good
+for determining exact combinations of your
+possible combinations
+
+
+
+#2
+Using missing_positions pattern, I have noticed
+that all those digits that are missing for a certain
+position for almost >10 draws are likely the ones
+being paired together.
+
+date monitored: 20 wed feb 2019 1
+
+ex: 21 thu feb 2019: 083 result
+    "0" - 21 draws missing for first position
+    "8" - 22 draws missing for the second position
+    "3" - 17 draws missing for the third position
+
+you might have noticed that the digits being paired
+together has been missing for their positions for atleast
+10 or more draws but this is not always the case.
+
+ex: 20 wed feb 2019: 685 result
+    "6" - 22 draws missing for the first position
+    "8" - 22 draws missing for the second position
+    "5" - only 8 draws missing for the last position
+
+as you can see "5" has only 8 draws missing for the last
+position.
+
+
+conclusion:
+missing digit positions are most likely being paired together
+into one regardless of their missing position duration BUT
+it is most likely that the digits being paired contains digit
+that has a missing position for over 10 draws
+
+date generated: 20 wed feb 2019
+0 _ _ (21)
+_ 1 _
+2 _ _
+_ _ 3 (17)
+_ 4 _
+_ _ 5 (8)
+6 _ _ (22)
+_ 7 _ (12)
+_ 8 _ (22)
+_ 9 _
+_ _ 9
+
+pairs:
+01_, 04_, 07_, 08_, 09_
+0_3, 0_5, 0_9
+
+results:
+685 (only 5 is <10 draws)
+083 (all digits >10 draws)
+
+---------------------------
+TRIAL MISSING POSITION PATTERN
+
+date generated:
+22 fri feb 2019
+
+missing_positions:
+_ _ 0 (21)
+_ _ 9 (18)
+_ 7 _ (17)
+_ 4 _ (15)
+_ 1 _ (12)
+_ 6 _ (10)
+
+
+_ 5 _ (9)
+8 _ _ (6)
+_ _ 2 (5)
+3 _ _ (5)
+_ 3 _ (5)
+
+combinations:
+"8" as first position
+870
+879
+
+810
+819
+
+860
+869
+
+840
+849
+
+"3" as first position
+370
+379
+
+310
+319
+
+360
+369
+
+340
+349
+
+best bet for 5 draws starting 22 fri feb 2019 0:
+870
+879
+
+860
+869
+
+370
+379
