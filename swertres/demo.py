@@ -289,76 +289,28 @@
 # if __name__ == "__main__":
 #     main()
 
-######################################
-# from operator import itemgetter
+# ######################################
+# # from operator import itemgetter
 
-# a = [[3, 'hello', 'Hello'], [2, 'cat', 'dog'], [6, 'mini', 'mouse']]
+# # a = [[3, 'hello', 'Hello'], [2, 'cat', 'dog'], [6, 'mini', 'mouse']]
 
-# b = list(map(lambda x: x[0], a))
+# # b = list(map(lambda x: x[0], a))
 
-# print(b)
+# # print(b)
 
-#####################################
-from itertools import *
-
-def get_reverse_result():
-	results = []
-	with open("results_v1.txt", "r") as fi:
-		for entry in islice(fi, 2, None):
-			result = entry.strip()
-			results.insert(0, result)
-
-	return results
+# #####################################
+# from itertools import *
 
 
-def count_missing_digit(digit):
-    """Given a str digit determine the longest missing
-    position of that digit. Return a list containing
-    digit, {position: missing_count}, "0 _ _")
-    """
+# def get_reverse_result():
+#     results = []
+#     with open("results_v1.txt", "r") as fi:
+#         for entry in islice(fi, 2, None):
+#             result = entry.strip()
+#             results.insert(0, result)
 
-    results = get_reverse_result()
-    first_count = 0
-    second_count = 0
-    third_count = 0
-    highest_count = 0
-    highest_format = ""
+#     return results
 
-    final_result = [digit, {"first": 0, "second": 0, "third": 0}]
-
-    for result in results:
-    	if digit != result[0]:
-    		first_count += 1
-    	else:
-    		final_result[1]["first"] = first_count
-    		if highest_count < first_count:
-    			highest_count = first_count
-    			highest_format = "{} - -".format(digit)
-    		break
-
-    for result in results:
-    	if digit != result[1]:
-    		second_count += 1
-    	else:
-    		final_result[1]["second"] = second_count
-    		if highest_count < second_count:
-    			highest_count = second_count
-    			highest_format = "- {} -".format(digit)
-    		break
-
-    for result in results:
-    	if digit != result[2]:
-    		third_count += 1
-    	else:
-    		final_result[1]["third"] = third_count
-    		if highest_count < third_count:
-    			highest_count = third_count
-    			highest_format = "- - {}".format(digit)
-    		break
-
-
-    final_result.extend([highest_count, highest_format])
-    return final_result
 
 # def count_missing_digit(digit):
 #     """Given a str digit determine the longest missing
@@ -367,31 +319,137 @@ def count_missing_digit(digit):
 #     """
 
 #     results = get_reverse_result()
-#     has_digit_count = 0
-#     final_result = [digit]
+#     first_count = 0
+#     second_count = 0
+#     third_count = 0
+#     highest_count = 0
+#     highest_format = ""
+
+#     final_result = [digit, {"first": 0, "second": 0, "third": 0}]
 
 #     for result in results:
-#     	if digit not in result:
-#     		has_digit_count += 1
-#     	else:
-#     		break
+#         if digit != result[0]:
+#             first_count += 1
+#         else:
+#             final_result[1]["first"] = first_count
+#             if highest_count < first_count:
+#                 highest_count = first_count
+#                 highest_format = "{} - -".format(digit)
+#             break
 
-    final_result.append(has_digit_count)
-    return final_result
+#     for result in results:
+#         if digit != result[1]:
+#             second_count += 1
+#         else:
+#             final_result[1]["second"] = second_count
+#             if highest_count < second_count:
+#                 highest_count = second_count
+#                 highest_format = "- {} -".format(digit)
+#             break
+
+#     for result in results:
+#         if digit != result[2]:
+#             third_count += 1
+#         else:
+#             final_result[1]["third"] = third_count
+#             if highest_count < third_count:
+#                 highest_count = third_count
+#                 highest_format = "- - {}".format(digit)
+#             break
+
+#     final_result.extend([highest_count, highest_format])
+#     return final_result
 
 
+# def all_missing_digit():
+#     for i in range(10):
+#         print(count_missing_digit(str(i))[0], "<-",
+#               count_missing_digit(str(i))[2], " ",
+#               count_missing_digit(str(i))[3])
 
-def all_missing_digit():
-	for i in range(10):
-		print(count_missing_digit(str(i))[0], "<-",
-			  count_missing_digit(str(i))[2])
+
+# def main():
+#     all_missing_digit()
+
+
+# if __name__ == "__main__":
+#     main()
+####################################
+"""
+Get all results from results_v1.txt and transfer it
+to excel with some digits being filtered
+"""
+
+from openpyxl import *
+from openpyxl.utils import *
+from openpyxl.styles import *
+from itertools import *
+from random import *
+
+
+def get_results():
+    results = []
+
+    with open("results_v1.txt", "r") as fi:
+        for entry in islice(fi, 2, None):
+            result = entry.strip()
+            results.append(result)
+
+    return results
+
+
+def export_to_excel():
+    results = get_results()
+
+    wb = Workbook()
+    sheet = wb.active
+
+    header_gap = 3
+    header_start = 1
+    header_end = 3
+
+    header_font = Font(size=15, bold=True)
+    header_fill = PatternFill(fill_type="solid", fgColor="33ccff")
+    alignment = Alignment(horizontal="center", vertical="center")
+
+    digit_font = Font(size=15)
+
+    for num in range(0, 10):
+        sheet.merge_cells(start_row=1, end_row=1,
+                          start_column=header_start,
+                          end_column=header_end)
+
+        selectedCell = sheet.cell(1, header_start)
+        selectedCell.font = header_font
+        selectedCell.alignment = alignment
+        selectedCell.fill = header_fill
+        selectedCell.value = num
+
+        digit_fill = PatternFill(
+            fill_type="solid", fgColor=str(randint(100000, 999999)))
+
+        for rowCount, result in enumerate(results, start=2):
+            for colCount, digit in enumerate(result):
+                sheet.cell(
+                    rowCount, colCount + header_start).font = digit_font
+                sheet.cell(
+                    rowCount, colCount + header_start).alignment = alignment
+                sheet.cell(
+                    rowCount, colCount + header_start).value = int(digit)
+
+                if int(digit) == num:
+                    sheet.cell(
+                        rowCount, colCount + header_start).fill = digit_fill
+
+        header_start = header_end + 2
+        header_end = header_end + header_gap + 1
+
+    wb.save("filtered_results.xlsx")
 
 
 def main():
-	all_missing_digit()
+    export_to_excel()
 
 
 if __name__ == "__main__":
-	# main()
-	for seq in product("503", "390", "842"):
-		print(seq)
+    main()
