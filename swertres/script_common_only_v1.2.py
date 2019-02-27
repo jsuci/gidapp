@@ -1,4 +1,6 @@
 from itertools import *
+from re import *
+import fileinput
 
 """
 Using this script filter results that contains common_digit
@@ -171,39 +173,91 @@ def filter_results():
     return final_list
 
 
-def export_file(gap, common, results, seq_types):
+# def export_file(gap, common, results, seq_types):
+
+#     with open("results_common_only_v1.2.txt", "a") as fo:
+#         fo.write("gap: {}\n".format(gap))
+#         fo.write("common: {}\n".format(common))
+#         fo.write("results: {}\n".format(results))
+#         fo.write("seq_types:\n")
+#         for seq in seq_types:
+#             fo.write("{} <- {}\n".format(seq[0], seq[1]))
+#         fo.write("\n")
+
+
+def export_file(gap, common, results, seq_types, pairs):
 
     with open("results_common_only_v1.2.txt", "a") as fo:
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
+        fo.write("pairs: {}\n".format(pairs))
         fo.write("seq_types:\n")
         for seq in seq_types:
             fo.write("{} <- {}\n".format(seq[0], seq[1]))
         fo.write("\n")
 
 
+def check_date():
+    """Check results_v1.txt current date and compare it to the
+    results_diff_zero date. Return True if they are the same and
+    False if not"""
+
+    with open("results_v1.txt", "r") as fi:
+        with open("results_common_only_v1.2.txt", "r") as fo:
+            fi_date = fi.readline().strip()
+            fo_date = fo.readline().strip()
+
+            if fi_date != fo_date:
+                return fi_date
+
+
+def get_current_date():
+    """Get current date"""
+
+    with open("results_v1.txt") as fi:
+        first_line = fi.readline().strip()
+        return findall(r"(?<=updated: )(\S.+)", first_line)[0]
+
+
 def main():
-    with open("results_common_only_v1.2.txt", "w") as fi:
-        fi.write("")
 
-    for entry in filter_results():
-        gap, common, results, seq_types = entry
+    if not check_date():
+        print("Results are up to date.")
+    else:
+        with open("results_common_only_v1.2.txt", "a") as fo:
+            date = get_current_date()
+            fo.write("DATE GENERATED: {}\n".format(date))
 
-        if (
-            len(seq_types) == 2 and
-            "diff_zero" in chain(*seq_types)
-        ):
+        for entry in filter_results():
+            gap, common, results, seq_types = entry
 
-            print("gap: {}".format(gap))
-            print("common: {}".format(common))
-            print("results: {}".format(results))
-            print("seq_types:")
-            for seq in seq_types:
-                print("{} <- {}".format(seq[0], seq[1]))
-            print("\n")
+            if (
+                len(seq_types) == 2 and
+                "diff_zero" in chain(*seq_types)
+            ):
+                pairs = ""
 
-            export_file(gap, common, results, seq_types)
+                print("gap: {}".format(gap))
+                print("common: {}".format(common))
+                print("results: {}".format(results))
+                print("pairs: {}".format(pairs))
+                print("seq_types:")
+                for seq in seq_types:
+                    if seq[1] == "diff_zero":
+                        pairs = common + seq[0][0]
+                    print("{} <- {}".format(seq[0], seq[1]))
+                print("\n")
+
+                export_file(gap, common, results, seq_types, pairs)
+
+                with fileinput.input("results_common_only_v1.2.txt",
+                                     inplace=True) as fio:
+                    for entry in fio:
+                        if "updated:" in entry:
+                            print(check_date())
+                        else:
+                            print(entry, end="")
 
 
 if __name__ == "__main__":
