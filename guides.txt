@@ -2075,7 +2075,7 @@ pairs:
 ----------------------------
 NEW PATTERN DISCOVERED
 
-1. using the modified common_only_v1.2 script which only
+1. using the modified diff_zero_v1.3 script which only
 filter results containing diff_zero with length of two.
 Form a pair by combining the diff_zero digit and the common
 digit and the last digit would be the sum and difference of

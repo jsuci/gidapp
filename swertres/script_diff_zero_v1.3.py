@@ -173,21 +173,9 @@ def filter_results():
     return final_list
 
 
-# def export_file(gap, common, results, seq_types):
-
-#     with open("results_common_only_v1.2.txt", "a") as fo:
-#         fo.write("gap: {}\n".format(gap))
-#         fo.write("common: {}\n".format(common))
-#         fo.write("results: {}\n".format(results))
-#         fo.write("seq_types:\n")
-#         for seq in seq_types:
-#             fo.write("{} <- {}\n".format(seq[0], seq[1]))
-#         fo.write("\n")
-
-
 def export_file(gap, common, results, seq_types, pairs):
 
-    with open("results_common_only_v1.2.txt", "a") as fo:
+    with open("results_diff_zero_v1.3.txt", "a") as fo:
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
@@ -204,7 +192,7 @@ def check_date():
     False if not"""
 
     with open("results_v1.txt", "r") as fi:
-        with open("results_common_only_v1.2.txt", "r") as fo:
+        with open("results_diff_zero_v1.3.txt", "r") as fo:
             fi_date = fi.readline().strip()
             fo_date = fo.readline().strip()
 
@@ -225,7 +213,7 @@ def main():
     if not check_date():
         print("Results are up to date.")
     else:
-        with open("results_common_only_v1.2.txt", "a") as fo:
+        with open("results_diff_zero_v1.3.txt", "a") as fo:
             date = get_current_date()
             fo.write("DATE GENERATED: {}\n".format(date))
 
@@ -251,7 +239,7 @@ def main():
 
                 export_file(gap, common, results, seq_types, pairs)
 
-                with fileinput.input("results_common_only_v1.2.txt",
+                with fileinput.input("results_diff_zero_v1.3.txt",
                                      inplace=True) as fio:
                     for entry in fio:
                         if "updated:" in entry:

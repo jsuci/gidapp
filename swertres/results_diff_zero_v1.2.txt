@@ -1,4 +1,4 @@
-updated: 27 wed feb 2019 1
+updated: 27 wed feb 2019 2
 
 DATE GENERATED: 17 sun feb 2019 2
 pairs: ['68', '38']
@@ -191,4 +191,10 @@ pairs: ['48', '18']
 results:
 ['804', '184', '487']
 ['814', '181', '981']
+
+DATE GENERATED: 27 wed feb 2019 2
+pairs: ['28', '46']
+results:
+['287', '258', '028']
+['364', '646', '546']
 

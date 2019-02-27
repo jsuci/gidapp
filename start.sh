@@ -7,6 +7,7 @@ echo
 echo "DIFF_ZERO Pattern"
 python script_diff_zero_v1.1.py
 python script_diff_zero_v1.2.py
+python script_diff_zero_v1.3.py
 echo
 echo "ODD_EVEN Pattern"
 python script_odd_even_v1.1.py
@@ -19,6 +20,7 @@ echo
 echo "Fetching Results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
+python script_filter_excel.py
 echo
 echo "Current Results:"
 python script_current_results.py
@@ -33,6 +35,7 @@ echo
 echo "DIFF_ZERO Pattern"
 python script_diff_zero_v1.1.py
 python script_diff_zero_v1.2.py
+python script_diff_zero_v1.3.py
 echo
 echo "ODD_EVEN Pattern"
 python script_odd_even_v1.1.py
@@ -45,6 +48,7 @@ echo
 echo "Fetching Results:"
 python stl_results_v1.py
 python stl_results_v2.py
+python script_filter_excel.py
 echo
 echo "Current Results:"
 python script_current_results.py
