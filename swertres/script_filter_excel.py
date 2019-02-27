@@ -69,6 +69,8 @@ def export_to_excel():
 
     wb.save("results_filter_excel.xlsx")
 
+    print("Results are up to date")
+
 
 def main():
     export_to_excel()
