@@ -1,1062 +1,1183 @@
 gap: 3
-common: 1
-results: ['145', '041', '616']
+common: 5
+results: ['538', '551', '057']
 seq_types:
-('4', '4', '6') <- has_double
-('5', '4', '6') <- diff_one
+('3', '5', '7') <- diff_two
+('3', '1', '0') <- gap_one
+('8', '5', '7') <- gap_one
+('8', '1', '0') <- gap_one
 
-gap: 5
-common: 6
-results: ['683', '616', '163', '369', '649']
+gap: 4
+common: 8
+results: ['186', '830', '083']
 seq_types:
-('8', '1', '1', '3', '4') <- has_double
-('8', '1', '1', '3', '9') <- has_double
-('8', '1', '1', '9', '4') <- has_double
-('8', '1', '1', '9', '9') <- has_double
-('8', '1', '3', '3', '4') <- has_double
-('8', '1', '3', '3', '9') <- has_double
-('8', '1', '3', '9', '9') <- has_double
-('8', '6', '1', '9', '9') <- has_double
-('8', '6', '3', '3', '4') <- has_double
-('8', '6', '3', '3', '9') <- has_double
-('8', '6', '3', '9', '9') <- has_double
-('3', '1', '1', '3', '4') <- has_double
-('3', '1', '1', '3', '9') <- has_double
-('3', '1', '1', '9', '4') <- has_double
-('3', '1', '1', '9', '9') <- has_double
-('3', '1', '3', '3', '4') <- has_double
-('3', '1', '3', '3', '9') <- has_double
-('3', '1', '3', '9', '4') <- has_double
-('3', '1', '3', '9', '9') <- has_double
-('3', '6', '1', '3', '4') <- has_double
-('3', '6', '1', '3', '9') <- has_double
-('3', '6', '1', '9', '9') <- has_double
-('3', '6', '3', '3', '4') <- has_double
-('3', '6', '3', '3', '9') <- has_double
-('3', '6', '3', '9', '4') <- has_double
-('3', '6', '3', '9', '9') <- has_double
+('1', '3', '0') <- gap_one
+('1', '3', '3') <- has_double
+('1', '0', '0') <- has_double
+('1', '0', '3') <- gap_one
+('6', '3', '3') <- has_double
+('6', '0', '0') <- has_double
 
 gap: 10
-common: 9
-results: ['995', '096', '399']
-seq_types:
-('9', '0', '9') <- has_double
-('9', '6', '9') <- has_double
-('5', '6', '3') <- gap_one
-
-gap: 22
-common: 2
-results: ['280', '522', '552']
-seq_types:
-('8', '5', '5') <- has_double
-('0', '5', '5') <- has_double
-
-gap: 24
 common: 5
-results: ['695', '954', '057']
+results: ['705', '157', '535', '405']
 seq_types:
-('6', '9', '7') <- gap_one
-('6', '4', '7') <- gap_one
-('9', '9', '0') <- has_double
-('9', '9', '7') <- has_double
+('7', '7', '3', '4') <- has_double
+('7', '7', '3', '0') <- has_double
+('7', '7', '5', '4') <- has_double
+('7', '7', '5', '0') <- has_double
+('0', '1', '3', '4') <- gap_one
+('0', '1', '3', '0') <- has_double
+('0', '1', '5', '0') <- has_double
+('0', '7', '3', '0') <- has_double
+('0', '7', '5', '0') <- has_double
 
-gap: 26
-common: 5
-results: ['578', '156', '375']
+gap: 20
+common: 1
+results: ['831', '041', '196']
 seq_types:
-('7', '1', '7') <- has_double
-('7', '6', '7') <- has_double
-('8', '6', '7') <- diff_one
+('8', '0', '9') <- diff_one
+('8', '0', '6') <- diff_two
+('8', '4', '6') <- diff_two
+('3', '4', '6') <- gap_one
 
-gap: 29
+gap: 31
 common: 9
-results: ['649', '069', '329', '952']
+results: ['897', '649', '953']
 seq_types:
-('6', '0', '2', '2') <- has_double
-('6', '6', '3', '5') <- has_double
-('6', '6', '3', '2') <- has_double
-('6', '6', '2', '5') <- has_double
-('6', '6', '2', '2') <- has_double
-('4', '0', '3', '2') <- gap_one
-('4', '0', '2', '2') <- has_double
-('4', '6', '3', '5') <- diff_one
-('4', '6', '3', '2') <- gap_one
-('4', '6', '2', '5') <- gap_one
-('4', '6', '2', '2') <- has_double
+('8', '6', '5') <- gap_one
+('7', '6', '5') <- diff_one
+('7', '4', '5') <- gap_one
 
-gap: 32
-common: 3
-results: ['399', '305', '923', '382', '113', '723']
-seq_types:
-('9', '0', '9', '8', '1', '7') <- has_double
-('9', '0', '9', '8', '1', '2') <- has_double
-('9', '0', '9', '2', '1', '7') <- has_double
-('9', '0', '9', '2', '1', '2') <- has_double
-('9', '0', '2', '8', '1', '7') <- diff_one
-('9', '0', '2', '8', '1', '2') <- has_double
-('9', '0', '2', '2', '1', '7') <- has_double
-('9', '0', '2', '2', '1', '2') <- has_double
-('9', '5', '9', '8', '1', '7') <- has_double
-('9', '5', '9', '8', '1', '2') <- has_double
-('9', '5', '9', '2', '1', '7') <- has_double
-('9', '5', '9', '2', '1', '2') <- has_double
-('9', '5', '2', '8', '1', '2') <- has_double
-('9', '5', '2', '2', '1', '7') <- has_double
-('9', '5', '2', '2', '1', '2') <- has_double
-
-gap: 35
-common: 9
-results: ['079', '924', '898', '591', '972']
-seq_types:
-('0', '2', '8', '5', '2') <- has_double
-('0', '2', '8', '1', '7') <- gap_one
-('0', '2', '8', '1', '2') <- has_double
-('7', '2', '8', '5', '7') <- has_double
-('7', '2', '8', '5', '2') <- has_double
-('7', '2', '8', '1', '7') <- has_double
-('7', '2', '8', '1', '2') <- has_double
-('7', '4', '8', '5', '7') <- has_double
-('7', '4', '8', '1', '7') <- has_double
-
-gap: 37
-common: 8
-results: ['698', '856', '874', '801', '286']
-seq_types:
-('6', '5', '7', '0', '6') <- has_double
-('6', '5', '7', '1', '6') <- has_double
-('6', '5', '4', '0', '6') <- has_double
-('6', '5', '4', '1', '2') <- gap_one
-('6', '5', '4', '1', '6') <- has_double
-('6', '6', '7', '0', '2') <- has_double
-('6', '6', '7', '0', '6') <- has_double
-('6', '6', '7', '1', '2') <- has_double
-('6', '6', '7', '1', '6') <- has_double
-('6', '6', '4', '0', '2') <- has_double
-('6', '6', '4', '0', '6') <- has_double
-('6', '6', '4', '1', '2') <- has_double
-('6', '6', '4', '1', '6') <- has_double
-('9', '5', '7', '0', '6') <- gap_one
-('9', '6', '7', '0', '6') <- has_double
-('9', '6', '7', '1', '6') <- has_double
-('9', '6', '4', '0', '6') <- has_double
-('9', '6', '4', '1', '6') <- has_double
-
-gap: 38
-common: 7
-results: ['576', '717', '871']
-seq_types:
-('5', '1', '1') <- has_double
-('5', '7', '8') <- gap_one
-('6', '1', '1') <- has_double
-('6', '7', '8') <- diff_one
-
-gap: 42
-common: 8
-results: ['480', '835', '398']
+gap: 48
+common: 1
+results: ['417', '173', '139']
 seq_types:
 ('4', '3', '3') <- has_double
-('4', '5', '3') <- diff_one
-('0', '3', '3') <- has_double
+('7', '7', '3') <- has_double
+('7', '7', '9') <- has_double
+('7', '3', '3') <- has_double
 
-gap: 46
-common: 7
-results: ['376', '287', '157', '917']
+gap: 49
+common: 0
+results: ['405', '305', '450']
 seq_types:
-('3', '2', '1', '9') <- gap_one
-('3', '2', '1', '1') <- has_double
-('3', '2', '5', '1') <- gap_one
-('3', '8', '1', '1') <- has_double
-('6', '2', '1', '1') <- has_double
-('6', '8', '1', '1') <- has_double
-('6', '8', '5', '9') <- gap_one
+('4', '3', '4') <- has_double
+('4', '3', '5') <- diff_one
+('4', '5', '4') <- has_double
+('4', '5', '5') <- has_double
+('5', '3', '4') <- diff_one
+('5', '3', '5') <- has_double
+('5', '5', '4') <- has_double
+('5', '5', '5') <- diff_zero
 
-gap: 56
-common: 8
-results: ['882', '874', '897']
-seq_types:
-('8', '7', '9') <- diff_one
-('8', '7', '7') <- has_double
-('2', '7', '7') <- has_double
-
-gap: 57
+gap: 49
 common: 5
-results: ['225', '450', '546', '757']
+results: ['405', '305', '450', '543']
 seq_types:
-('2', '4', '4', '7') <- has_double
+('4', '3', '4', '4') <- has_double
+('4', '3', '4', '3') <- has_double
+('4', '3', '0', '4') <- has_double
+('4', '3', '0', '3') <- has_double
+('4', '0', '4', '4') <- has_double
+('4', '0', '4', '3') <- has_double
+('4', '0', '0', '4') <- has_double
+('4', '0', '0', '3') <- has_double
+('0', '3', '4', '4') <- has_double
+('0', '3', '4', '3') <- has_double
+('0', '3', '0', '4') <- has_double
+('0', '3', '0', '3') <- has_double
+('0', '0', '4', '4') <- has_double
+('0', '0', '4', '3') <- has_double
+('0', '0', '0', '4') <- has_double
+('0', '0', '0', '3') <- has_double
 
 gap: 59
-common: 9
-results: ['069', '952', '972']
+common: 8
+results: ['808', '835', '358']
 seq_types:
-('0', '2', '2') <- has_double
-('6', '5', '7') <- diff_one
-('6', '2', '2') <- has_double
+('0', '3', '3') <- has_double
+('0', '5', '5') <- has_double
+('8', '3', '3') <- has_double
+('8', '5', '5') <- has_double
 
-gap: 65
-common: 3
-results: ['305', '382', '723']
+gap: 69
+common: 0
+results: ['079', '650', '300']
 seq_types:
-('0', '8', '7') <- gap_one
-('0', '8', '2') <- diff_two
-('0', '2', '2') <- has_double
-('5', '8', '7') <- gap_one
-('5', '2', '2') <- has_double
+('7', '5', '3') <- diff_two
 
-gap: 76
-common: 4
-results: ['804', '704', '742', '455']
+gap: 79
+common: 2
+results: ['522', '952', '152']
 seq_types:
-('8', '7', '7', '5') <- has_double
-('0', '7', '7', '5') <- has_double
-('0', '0', '7', '5') <- has_double
-('0', '0', '2', '5') <- has_double
+('5', '9', '5') <- has_double
+('5', '5', '1') <- has_double
+('5', '5', '5') <- diff_zero
+('2', '9', '1') <- gap_one
+('2', '5', '5') <- has_double
 
-gap: 98
-common: 3
-results: ['923', '723', '371']
+gap: 79
+common: 5
+results: ['522', '952', '152']
 seq_types:
-('9', '7', '7') <- has_double
-('9', '7', '1') <- diff_two
-('9', '2', '1') <- gap_one
-('2', '7', '7') <- has_double
-('2', '2', '7') <- has_double
+('2', '9', '1') <- gap_one
+('2', '9', '2') <- has_double
 ('2', '2', '1') <- has_double
+('2', '2', '2') <- diff_zero
+
+gap: 84
+common: 7
+results: ['798', '733', '742', '817']
+seq_types:
+('9', '3', '2', '1') <- gap_one
+('8', '3', '4', '8') <- has_double
+('8', '3', '2', '8') <- has_double
+
+gap: 87
+common: 6
+results: ['156', '653', '464', '569']
+seq_types:
+('1', '5', '4', '5') <- has_double
+('1', '3', '4', '5') <- gap_one
+('5', '5', '4', '5') <- has_double
+('5', '5', '4', '9') <- has_double
+('5', '3', '4', '5') <- has_double
+
+gap: 89
+common: 5
+results: ['451', '358', '513', '758']
+seq_types:
+('4', '3', '3', '7') <- has_double
+('4', '3', '3', '8') <- has_double
+('4', '8', '1', '8') <- has_double
+('4', '8', '3', '8') <- has_double
+('1', '3', '1', '7') <- has_double
+('1', '3', '1', '8') <- has_double
+('1', '3', '3', '7') <- has_double
+('1', '3', '3', '8') <- has_double
+('1', '8', '1', '7') <- has_double
+('1', '8', '1', '8') <- has_double
+('1', '8', '3', '8') <- has_double
+
+gap: 90
+common: 2
+results: ['882', '912', '286']
+seq_types:
+('8', '9', '8') <- has_double
+('8', '9', '6') <- gap_one
+('8', '1', '8') <- has_double
+
+gap: 94
+common: 2
+results: ['902', '264', '112']
+seq_types:
 
 gap: 99
-common: 0
-results: ['020', '680', '079']
-seq_types:
-('0', '8', '7') <- gap_one
-('0', '8', '9') <- diff_one
-
-gap: 100
 common: 3
-results: ['943', '063', '310']
+results: ['305', '543', '730']
 seq_types:
-('9', '0', '1') <- diff_one
-('9', '0', '0') <- has_double
-('4', '0', '0') <- has_double
+('0', '5', '0') <- has_double
+('0', '4', '0') <- has_double
+('5', '5', '7') <- has_double
+('5', '5', '0') <- has_double
+('5', '4', '7') <- gap_one
 
-gap: 106
-common: 9
-results: ['294', '955', '695']
+gap: 103
+common: 4
+results: ['614', '546', '049']
 seq_types:
-('2', '5', '5') <- has_double
-('4', '5', '6') <- diff_one
-('4', '5', '5') <- has_double
+('6', '6', '0') <- has_double
+('6', '6', '9') <- has_double
+
+gap: 109
+common: 8
+results: ['856', '318', '859', '890']
+seq_types:
+('5', '3', '5', '9') <- has_double
+('5', '3', '5', '0') <- has_double
+('5', '3', '9', '9') <- has_double
+('5', '1', '5', '9') <- has_double
+('5', '1', '5', '0') <- has_double
+('5', '1', '9', '9') <- has_double
+('6', '3', '9', '9') <- has_double
+('6', '1', '9', '9') <- has_double
 
 gap: 112
-common: 3
-results: ['139', '631', '364']
+common: 4
+results: ['144', '764', '410', '463', '460']
 seq_types:
-('1', '6', '6') <- has_double
-('1', '1', '6') <- has_double
-('1', '1', '4') <- has_double
-('9', '6', '6') <- has_double
+('1', '7', '1', '6', '6') <- has_double
+('1', '7', '1', '6', '0') <- has_double
+('1', '7', '1', '3', '6') <- has_double
+('1', '7', '1', '3', '0') <- has_double
+('1', '7', '0', '6', '6') <- has_double
+('1', '7', '0', '6', '0') <- has_double
+('1', '7', '0', '3', '0') <- has_double
+('1', '6', '1', '6', '6') <- has_double
+('1', '6', '1', '6', '0') <- has_double
+('1', '6', '1', '3', '6') <- has_double
+('1', '6', '1', '3', '0') <- has_double
+('1', '6', '0', '6', '6') <- has_double
+('1', '6', '0', '6', '0') <- has_double
+('1', '6', '0', '3', '6') <- has_double
+('1', '6', '0', '3', '0') <- has_double
+('4', '7', '1', '6', '6') <- has_double
+('4', '7', '0', '6', '6') <- has_double
+('4', '7', '0', '6', '0') <- has_double
+('4', '7', '0', '3', '0') <- has_double
+('4', '6', '1', '6', '6') <- has_double
+('4', '6', '1', '6', '0') <- has_double
+('4', '6', '1', '3', '6') <- has_double
+('4', '6', '0', '6', '6') <- has_double
+('4', '6', '0', '6', '0') <- has_double
+('4', '6', '0', '3', '6') <- has_double
+('4', '6', '0', '3', '0') <- has_double
 
 gap: 115
-common: 5
-results: ['450', '757', '975']
-seq_types:
-('4', '7', '7') <- has_double
-('0', '7', '9') <- gap_one
-('0', '7', '7') <- has_double
-
-gap: 116
-common: 8
-results: ['871', '985', '883']
-seq_types:
-('7', '9', '8') <- diff_one
-('7', '5', '8') <- gap_one
-('7', '5', '3') <- diff_two
-('1', '9', '8') <- gap_one
-('1', '9', '3') <- diff_two
-('1', '5', '3') <- diff_two
-
-gap: 123
-common: 9
-results: ['019', '495', '094', '592']
-seq_types:
-('0', '4', '0', '5') <- has_double
-('0', '4', '0', '2') <- has_double
-('0', '4', '4', '5') <- has_double
-('0', '4', '4', '2') <- has_double
-('0', '5', '0', '5') <- has_double
-('0', '5', '0', '2') <- has_double
-('0', '5', '4', '5') <- has_double
-('1', '4', '0', '2') <- gap_one
-('1', '4', '4', '5') <- has_double
-('1', '4', '4', '2') <- has_double
-('1', '5', '0', '5') <- has_double
-('1', '5', '4', '5') <- has_double
-('1', '5', '4', '2') <- gap_one
-
-gap: 125
-common: 2
-results: ['952', '299', '652']
-seq_types:
-('9', '9', '6') <- has_double
-('9', '9', '5') <- has_double
-('5', '9', '5') <- has_double
-
-gap: 134
-common: 5
-results: ['517', '546', '351']
-seq_types:
-('1', '4', '3') <- gap_one
-('1', '4', '1') <- has_double
-('1', '6', '1') <- has_double
-
-gap: 143
-common: 5
-results: ['591', '558', '705']
-seq_types:
-('9', '5', '7') <- diff_two
-('9', '8', '7') <- diff_one
-('9', '8', '0') <- diff_one
-('1', '8', '0') <- gap_one
-
-gap: 157
-common: 2
-results: ['202', '127', '782']
-seq_types:
-('0', '1', '8') <- gap_one
-('0', '7', '7') <- has_double
-('0', '7', '8') <- gap_one
-('2', '7', '7') <- has_double
-
-gap: 168
-common: 4
-results: ['844', '466', '494']
-seq_types:
-('8', '6', '9') <- gap_one
-('8', '6', '4') <- diff_two
-('4', '6', '4') <- has_double
-
-gap: 173
-common: 5
-results: ['546', '975', '503']
-seq_types:
-
-gap: 177
 common: 7
-results: ['117', '487', '791']
-seq_types:
-('1', '4', '1') <- has_double
-('1', '8', '9') <- gap_one
-('1', '8', '1') <- has_double
-
-gap: 181
-common: 1
-results: ['541', '601', '169']
-seq_types:
-('5', '6', '6') <- has_double
-('4', '6', '6') <- has_double
-
-gap: 187
-common: 9
-results: ['917', '291', '957', '569', '992', '998']
-seq_types:
-('1', '2', '5', '5', '9', '9') <- has_double
-('1', '2', '5', '5', '9', '8') <- has_double
-('1', '2', '5', '5', '2', '9') <- has_double
-('1', '2', '5', '5', '2', '8') <- has_double
-('1', '2', '5', '6', '9', '9') <- has_double
-('1', '2', '5', '6', '2', '9') <- has_double
-('1', '2', '5', '6', '2', '8') <- has_double
-('1', '2', '7', '5', '9', '9') <- has_double
-('1', '2', '7', '5', '2', '9') <- has_double
-('1', '2', '7', '5', '2', '8') <- has_double
-('1', '2', '7', '6', '9', '9') <- has_double
-('1', '2', '7', '6', '9', '8') <- gap_one
-('1', '2', '7', '6', '2', '9') <- has_double
-('1', '2', '7', '6', '2', '8') <- has_double
-('1', '1', '5', '5', '9', '9') <- has_double
-('1', '1', '5', '5', '9', '8') <- has_double
-('1', '1', '5', '5', '2', '9') <- has_double
-('1', '1', '5', '5', '2', '8') <- has_double
-('1', '1', '5', '6', '9', '9') <- has_double
-('1', '1', '5', '6', '9', '8') <- has_double
-('1', '1', '5', '6', '2', '9') <- has_double
-('1', '1', '5', '6', '2', '8') <- has_double
-('1', '1', '7', '5', '9', '9') <- has_double
-('1', '1', '7', '5', '9', '8') <- has_double
-('1', '1', '7', '5', '2', '9') <- has_double
-('1', '1', '7', '5', '2', '8') <- has_double
-('1', '1', '7', '6', '9', '9') <- has_double
-('1', '1', '7', '6', '9', '8') <- has_double
-('1', '1', '7', '6', '2', '9') <- has_double
-('1', '1', '7', '6', '2', '8') <- has_double
-('7', '2', '5', '5', '9', '9') <- has_double
-('7', '2', '5', '5', '9', '8') <- has_double
-('7', '2', '5', '5', '2', '9') <- has_double
-('7', '2', '5', '5', '2', '8') <- has_double
-('7', '2', '5', '6', '9', '9') <- has_double
-('7', '2', '5', '6', '2', '9') <- has_double
-('7', '2', '5', '6', '2', '8') <- has_double
-('7', '2', '7', '5', '9', '9') <- has_double
-('7', '2', '7', '5', '9', '8') <- has_double
-('7', '2', '7', '5', '2', '9') <- has_double
-('7', '2', '7', '5', '2', '8') <- has_double
-('7', '2', '7', '6', '9', '9') <- has_double
-('7', '2', '7', '6', '9', '8') <- has_double
-('7', '2', '7', '6', '2', '9') <- has_double
-('7', '2', '7', '6', '2', '8') <- has_double
-('7', '1', '5', '5', '9', '9') <- has_double
-('7', '1', '5', '5', '9', '8') <- has_double
-('7', '1', '5', '5', '2', '9') <- has_double
-('7', '1', '5', '5', '2', '8') <- has_double
-('7', '1', '5', '6', '9', '9') <- has_double
-('7', '1', '5', '6', '9', '8') <- gap_one
-('7', '1', '7', '5', '9', '9') <- has_double
-('7', '1', '7', '5', '9', '8') <- has_double
-('7', '1', '7', '5', '2', '9') <- has_double
-('7', '1', '7', '5', '2', '8') <- has_double
-('7', '1', '7', '6', '9', '9') <- has_double
-('7', '1', '7', '6', '9', '8') <- has_double
-('7', '1', '7', '6', '2', '9') <- has_double
-('7', '1', '7', '6', '2', '8') <- has_double
-
-gap: 188
-common: 2
-results: ['321', '652', '502']
-seq_types:
-('3', '6', '5') <- gap_one
-('3', '5', '5') <- has_double
-('1', '5', '5') <- has_double
-
-gap: 190
-common: 6
-results: ['563', '603', '586']
-seq_types:
-('5', '0', '5') <- has_double
-('5', '3', '5') <- has_double
-('3', '3', '5') <- has_double
-('3', '3', '8') <- has_double
-
-gap: 194
-common: 4
-results: ['400', '467', '845']
-seq_types:
-('0', '6', '8') <- diff_two
-('0', '7', '8') <- gap_one
-
-gap: 198
-common: 3
-results: ['763', '930', '130']
-seq_types:
-('7', '9', '1') <- diff_two
-('7', '9', '0') <- gap_one
-('7', '0', '0') <- has_double
-('6', '0', '0') <- has_double
-
-gap: 204
-common: 4
-results: ['468', '844', '544', '475']
-seq_types:
-('6', '8', '5', '7') <- diff_one
-('6', '8', '5', '5') <- has_double
-('6', '8', '4', '7') <- gap_one
-('6', '8', '4', '5') <- gap_one
-('6', '4', '5', '7') <- diff_one
-('6', '4', '5', '5') <- has_double
-('6', '4', '4', '7') <- has_double
-('6', '4', '4', '5') <- has_double
-('8', '8', '5', '7') <- has_double
-('8', '8', '5', '5') <- has_double
-('8', '8', '4', '7') <- has_double
-('8', '8', '4', '5') <- has_double
-('8', '4', '5', '7') <- gap_one
-('8', '4', '5', '5') <- has_double
-('8', '4', '4', '7') <- has_double
-('8', '4', '4', '5') <- has_double
-
-gap: 216
-common: 5
-results: ['516', '056', '507']
-seq_types:
-('1', '0', '0') <- has_double
-('6', '0', '0') <- has_double
-('6', '6', '0') <- has_double
-('6', '6', '7') <- has_double
-
-gap: 222
-common: 2
-results: ['682', '236', '275']
-seq_types:
-('6', '3', '5') <- gap_one
-('6', '6', '7') <- has_double
-('6', '6', '5') <- has_double
-('8', '6', '7') <- diff_one
-('8', '6', '5') <- gap_one
-
-gap: 223
-common: 7
-results: ['731', '997', '739']
-seq_types:
-('3', '9', '3') <- has_double
-('3', '9', '9') <- has_double
-('1', '9', '3') <- diff_two
-('1', '9', '9') <- has_double
-
-gap: 224
-common: 8
-results: ['484', '382', '789', '879']
-seq_types:
-('4', '3', '7', '7') <- has_double
-('4', '3', '9', '9') <- has_double
-('4', '2', '7', '7') <- has_double
-('4', '2', '9', '9') <- has_double
-
-gap: 234
-common: 5
-results: ['325', '152', '553']
-seq_types:
-('3', '1', '5') <- diff_two
-('3', '1', '3') <- has_double
-('3', '2', '5') <- gap_one
-('3', '2', '3') <- has_double
-('2', '1', '3') <- diff_one
-('2', '2', '5') <- has_double
-('2', '2', '3') <- has_double
-
-gap: 240
-common: 7
-results: ['327', '607', '798']
-seq_types:
-('2', '0', '9') <- gap_one
-('2', '0', '8') <- diff_two
-
-gap: 241
-common: 4
-results: ['884', '419', '545']
-seq_types:
-
-gap: 242
-common: 1
-results: ['416', '120', '151', '145', '186']
-seq_types:
-('4', '2', '5', '4', '8') <- has_double
-('4', '2', '5', '4', '6') <- has_double
-('4', '2', '5', '5', '8') <- has_double
-('4', '2', '5', '5', '6') <- has_double
-('4', '2', '1', '4', '8') <- has_double
-('4', '2', '1', '4', '6') <- has_double
-('4', '2', '1', '5', '6') <- gap_one
-('4', '0', '5', '4', '8') <- has_double
-('4', '0', '5', '4', '6') <- has_double
-('4', '0', '5', '5', '8') <- has_double
-('4', '0', '5', '5', '6') <- has_double
-('4', '0', '1', '4', '8') <- has_double
-('4', '0', '1', '4', '6') <- has_double
-('6', '2', '5', '4', '6') <- has_double
-('6', '2', '5', '5', '8') <- has_double
-('6', '2', '5', '5', '6') <- has_double
-('6', '2', '1', '4', '6') <- has_double
-('6', '2', '1', '5', '6') <- has_double
-('6', '0', '5', '4', '6') <- has_double
-('6', '0', '5', '5', '8') <- has_double
-('6', '0', '5', '5', '6') <- has_double
-('6', '0', '1', '4', '6') <- has_double
-('6', '0', '1', '5', '6') <- has_double
-
-gap: 247
-common: 9
-results: ['495', '592', '918']
-seq_types:
-('4', '2', '1') <- gap_one
-('5', '5', '1') <- has_double
-('5', '5', '8') <- has_double
-
-gap: 250
-common: 2
-results: ['112', '265', '925']
-seq_types:
-('1', '5', '5') <- has_double
-
-gap: 262
-common: 8
-results: ['484', '801', '668']
-seq_types:
-
-gap: 272
-common: 6
-results: ['761', '169', '546']
-seq_types:
-('7', '9', '5') <- diff_two
-('1', '1', '5') <- has_double
-('1', '1', '4') <- has_double
-
-gap: 276
-common: 2
-results: ['259', '228', '025']
+results: ['507', '723', '547']
 seq_types:
 ('5', '2', '5') <- has_double
-('5', '8', '5') <- has_double
-('9', '2', '0') <- gap_one
-('9', '8', '0') <- diff_one
+('5', '2', '4') <- gap_one
+('5', '3', '5') <- has_double
+('5', '3', '4') <- diff_one
+('0', '2', '4') <- diff_two
 
-gap: 280
-common: 2
-results: ['272', '132', '725', '052']
-seq_types:
-('7', '1', '7', '0') <- has_double
-('7', '1', '7', '5') <- has_double
-('7', '1', '5', '5') <- has_double
-('7', '3', '7', '0') <- has_double
-('7', '3', '7', '5') <- has_double
-('7', '3', '5', '5') <- has_double
-('2', '1', '5', '5') <- has_double
-('2', '3', '5', '5') <- has_double
-
-gap: 286
-common: 0
-results: ['610', '047', '540']
-seq_types:
-('6', '4', '5') <- diff_one
-('6', '4', '4') <- has_double
-('6', '7', '5') <- diff_one
-('6', '7', '4') <- gap_one
-('1', '4', '4') <- has_double
-
-gap: 291
-common: 4
-results: ['423', '435', '940', '479', '034']
-seq_types:
-('2', '3', '9', '7', '3') <- has_double
-('2', '3', '9', '9', '0') <- has_double
-('2', '3', '9', '9', '3') <- has_double
-('2', '3', '0', '7', '0') <- has_double
-('2', '3', '0', '7', '3') <- has_double
-('2', '3', '0', '9', '0') <- has_double
-('2', '3', '0', '9', '3') <- has_double
-('2', '5', '9', '9', '0') <- has_double
-('2', '5', '9', '9', '3') <- has_double
-('2', '5', '0', '7', '0') <- has_double
-('2', '5', '0', '9', '0') <- has_double
-('3', '3', '9', '7', '0') <- has_double
-('3', '3', '9', '7', '3') <- has_double
-('3', '3', '9', '9', '0') <- has_double
-('3', '3', '9', '9', '3') <- has_double
-('3', '3', '0', '7', '0') <- has_double
-('3', '3', '0', '7', '3') <- has_double
-('3', '3', '0', '9', '0') <- has_double
-('3', '3', '0', '9', '3') <- has_double
-('3', '5', '9', '7', '3') <- has_double
-('3', '5', '9', '9', '0') <- has_double
-('3', '5', '9', '9', '3') <- has_double
-('3', '5', '0', '7', '0') <- has_double
-('3', '5', '0', '7', '3') <- has_double
-('3', '5', '0', '9', '0') <- has_double
-('3', '5', '0', '9', '3') <- has_double
-
-gap: 294
-common: 2
-results: ['261', '243', '892']
-seq_types:
-('6', '4', '8') <- diff_two
-('1', '3', '9') <- diff_two
-
-gap: 297
-common: 7
-results: ['725', '753', '867']
-seq_types:
-('5', '5', '8') <- has_double
-('5', '5', '6') <- has_double
-('5', '3', '6') <- gap_one
-
-gap: 299
-common: 7
-results: ['079', '738', '879']
-seq_types:
-('0', '8', '8') <- has_double
-('0', '8', '9') <- diff_one
-('9', '3', '9') <- has_double
-('9', '8', '8') <- has_double
-('9', '8', '9') <- has_double
-
-gap: 313
-common: 7
-results: ['547', '207', '307']
-seq_types:
-('5', '2', '3') <- gap_one
-('5', '0', '0') <- has_double
-('4', '2', '3') <- diff_one
-('4', '2', '0') <- diff_two
-('4', '0', '0') <- has_double
-
-gap: 321
-common: 5
-results: ['150', '705', '561', '458']
-seq_types:
-('1', '7', '1', '4') <- has_double
-('1', '7', '1', '8') <- has_double
-('1', '0', '1', '4') <- has_double
-('1', '0', '1', '8') <- has_double
-('0', '7', '6', '8') <- gap_one
-('0', '7', '1', '8') <- gap_one
-('0', '0', '6', '4') <- has_double
-('0', '0', '6', '8') <- has_double
-('0', '0', '1', '4') <- has_double
-('0', '0', '1', '8') <- has_double
-
-gap: 323
-common: 5
-results: ['453', '258', '145']
-seq_types:
-('4', '2', '1') <- gap_one
-('4', '2', '4') <- has_double
-('4', '8', '4') <- has_double
-('3', '2', '1') <- diff_one
-('3', '2', '4') <- diff_one
-
-gap: 330
+gap: 117
 common: 6
-results: ['563', '936', '768']
+results: ['768', '063', '262']
 seq_types:
-('5', '9', '7') <- diff_two
-('5', '3', '7') <- diff_two
-('3', '3', '7') <- has_double
-('3', '3', '8') <- has_double
+('8', '0', '2') <- diff_two
 
-gap: 339
+gap: 118
+common: 4
+results: ['480', '184', '942']
+seq_types:
+('8', '1', '9') <- gap_one
+('8', '8', '9') <- has_double
+('8', '8', '2') <- has_double
+('0', '1', '9') <- diff_one
+('0', '1', '2') <- diff_one
+('0', '8', '9') <- diff_one
+('0', '8', '2') <- diff_two
+
+gap: 119
+common: 5
+results: ['835', '152', '758']
+seq_types:
+('8', '1', '8') <- has_double
+('8', '2', '8') <- has_double
+
+gap: 128
 common: 1
-results: ['153', '421', '105']
+results: ['518', '731', '211']
+seq_types:
+('5', '3', '2') <- gap_one
+('5', '3', '1') <- diff_two
+
+gap: 138
+common: 9
+results: ['393', '494', '569']
+seq_types:
+('3', '4', '5') <- diff_one
+('3', '4', '6') <- gap_one
+
+gap: 142
+common: 9
+results: ['419', '299', '729']
+seq_types:
+('4', '2', '2') <- has_double
+('1', '2', '2') <- has_double
+('1', '9', '7') <- diff_two
+('1', '9', '2') <- gap_one
+
+gap: 145
+common: 6
+results: ['167', '605', '968']
+seq_types:
+('1', '0', '9') <- diff_one
+('1', '0', '8') <- gap_one
+('7', '0', '9') <- gap_one
+('7', '0', '8') <- gap_one
+('7', '5', '9') <- diff_two
+('7', '5', '8') <- gap_one
+
+gap: 150
+common: 1
+results: ['871', '418', '518']
+seq_types:
+('8', '4', '8') <- has_double
+('8', '8', '5') <- has_double
+('8', '8', '8') <- diff_zero
+('7', '4', '5') <- gap_one
+('7', '8', '5') <- gap_one
+('7', '8', '8') <- has_double
+
+gap: 150
+common: 8
+results: ['871', '418', '518']
+seq_types:
+('7', '4', '5') <- gap_one
+('7', '1', '1') <- has_double
+('1', '4', '1') <- has_double
+('1', '1', '5') <- has_double
+('1', '1', '1') <- diff_zero
+
+gap: 153
+common: 2
+results: ['952', '242', '258']
 seq_types:
 ('5', '4', '5') <- has_double
 ('5', '2', '5') <- has_double
-('3', '4', '5') <- diff_one
-('3', '2', '0') <- gap_one
-('3', '2', '5') <- gap_one
 
-gap: 345
+gap: 157
+common: 1
+results: ['019', '814', '711']
+seq_types:
+('0', '8', '7') <- gap_one
+('0', '8', '1') <- gap_one
+('9', '8', '7') <- diff_one
+('9', '8', '1') <- gap_one
+
+gap: 158
+common: 3
+results: ['371', '303', '395']
+seq_types:
+('7', '0', '9') <- gap_one
+('7', '3', '5') <- diff_two
+('1', '0', '9') <- diff_one
+('1', '3', '9') <- diff_two
+('1', '3', '5') <- diff_two
+
+gap: 163
+common: 0
+results: ['220', '850', '807', '506']
+seq_types:
+('2', '8', '8', '5') <- has_double
+('2', '8', '8', '6') <- has_double
+('2', '5', '8', '5') <- has_double
+('2', '5', '7', '5') <- has_double
+
+gap: 199
+common: 4
+results: ['543', '844', '974']
+seq_types:
+('5', '8', '7') <- gap_one
+('5', '4', '7') <- gap_one
+
+gap: 200
+common: 9
+results: ['691', '491', '509']
+seq_types:
+('6', '4', '5') <- diff_one
+('1', '1', '5') <- has_double
+('1', '1', '0') <- has_double
+
+gap: 203
+common: 4
+results: ['304', '494', '248', '794']
+seq_types:
+('3', '9', '2', '9') <- has_double
+('3', '9', '8', '9') <- has_double
+('0', '9', '2', '9') <- has_double
+('0', '9', '8', '7') <- diff_one
+('0', '9', '8', '9') <- has_double
+
+gap: 204
+common: 9
+results: ['897', '291', '936']
+seq_types:
+
+gap: 210
 common: 6
-results: ['316', '682', '163']
+results: ['486', '564', '609']
 seq_types:
-('3', '8', '3') <- has_double
-('3', '2', '1') <- diff_one
-('3', '2', '3') <- has_double
-('1', '8', '1') <- has_double
-('1', '2', '1') <- has_double
-('1', '2', '3') <- diff_one
+('4', '4', '0') <- has_double
+('4', '4', '9') <- has_double
 
-gap: 346
-common: 2
-results: ['250', '772', '972']
+gap: 212
+common: 6
+results: ['468', '621', '769']
 seq_types:
-('5', '7', '9') <- diff_two
-('5', '7', '7') <- has_double
-('0', '7', '9') <- gap_one
-('0', '7', '7') <- has_double
+('8', '1', '9') <- gap_one
+
+gap: 214
+common: 0
+results: ['140', '081', '110']
+seq_types:
+('1', '8', '1') <- has_double
+('1', '1', '1') <- diff_zero
+('4', '1', '1') <- has_double
+
+gap: 214
+common: 1
+results: ['140', '081', '110']
+seq_types:
+('4', '0', '0') <- has_double
+('0', '0', '1') <- has_double
+('0', '0', '0') <- diff_zero
+('0', '8', '1') <- gap_one
+('0', '8', '0') <- has_double
+
+gap: 218
+common: 8
+results: ['384', '968', '998']
+seq_types:
+('3', '9', '9') <- has_double
+('4', '9', '9') <- has_double
+
+gap: 219
+common: 8
+results: ['318', '890', '528']
+seq_types:
+('3', '0', '2') <- gap_one
+('1', '9', '2') <- gap_one
+('1', '0', '2') <- diff_one
+
+gap: 223
+common: 8
+results: ['286', '038', '385']
+seq_types:
+('2', '0', '3') <- gap_one
+('2', '3', '3') <- has_double
+('2', '3', '5') <- gap_one
+('6', '3', '3') <- has_double
+('6', '3', '5') <- gap_one
+
+gap: 227
+common: 1
+results: ['130', '731', '510', '051']
+seq_types:
+('3', '7', '5', '5') <- has_double
+('3', '7', '0', '0') <- has_double
+('3', '3', '5', '0') <- has_double
+('3', '3', '5', '5') <- has_double
+('3', '3', '0', '0') <- has_double
+('3', '3', '0', '5') <- has_double
+('0', '7', '5', '0') <- has_double
+('0', '7', '5', '5') <- has_double
+('0', '7', '0', '0') <- has_double
+('0', '7', '0', '5') <- has_double
+('0', '3', '5', '0') <- has_double
+('0', '3', '5', '5') <- has_double
+('0', '3', '0', '0') <- has_double
+('0', '3', '0', '5') <- has_double
+
+gap: 233
+common: 0
+results: ['680', '056', '780']
+seq_types:
+('6', '5', '7') <- diff_one
+('6', '5', '8') <- gap_one
+('6', '6', '7') <- has_double
+('6', '6', '8') <- has_double
+('8', '5', '7') <- gap_one
+('8', '5', '8') <- has_double
+('8', '6', '7') <- diff_one
+('8', '6', '8') <- has_double
+
+gap: 241
+common: 2
+results: ['020', '382', '682']
+seq_types:
+('0', '8', '6') <- diff_two
+('0', '8', '8') <- has_double
+
+gap: 242
+common: 0
+results: ['501', '470', '101']
+seq_types:
+('1', '4', '1') <- has_double
+('1', '7', '1') <- has_double
+
+gap: 244
+common: 0
+results: ['520', '019', '505', '380']
+seq_types:
+('5', '1', '5', '3') <- has_double
+('5', '1', '5', '8') <- has_double
+('5', '9', '5', '3') <- has_double
+('5', '9', '5', '8') <- has_double
+('2', '1', '5', '3') <- gap_one
+
+gap: 245
+common: 7
+results: ['827', '807', '270', '017']
+seq_types:
+('8', '8', '2', '0') <- has_double
+('8', '8', '2', '1') <- has_double
+('8', '8', '0', '0') <- has_double
+('8', '8', '0', '1') <- has_double
+('8', '0', '2', '0') <- has_double
+('8', '0', '2', '1') <- gap_one
+('8', '0', '0', '0') <- has_double
+('8', '0', '0', '1') <- has_double
+('2', '8', '2', '0') <- has_double
+('2', '8', '2', '1') <- has_double
+('2', '8', '0', '0') <- has_double
+('2', '8', '0', '1') <- gap_one
+('2', '0', '2', '0') <- has_double
+('2', '0', '2', '1') <- has_double
+('2', '0', '0', '0') <- has_double
+('2', '0', '0', '1') <- has_double
+
+gap: 251
+common: 2
+results: ['712', '152', '224']
+seq_types:
+('7', '5', '4') <- gap_one
+('1', '1', '2') <- has_double
+('1', '1', '4') <- has_double
+
+gap: 252
+common: 5
+results: ['502', '135', '755']
+seq_types:
+('2', '3', '5') <- gap_one
+
+gap: 257
+common: 7
+results: ['731', '607', '007']
+seq_types:
+('3', '0', '0') <- has_double
+('1', '0', '0') <- has_double
+
+gap: 258
+common: 4
+results: ['484', '419', '488']
+seq_types:
+('8', '1', '8') <- has_double
+('8', '9', '8') <- has_double
+
+gap: 260
+common: 5
+results: ['258', '576', '552', '965']
+seq_types:
+('2', '7', '2', '9') <- has_double
+('2', '7', '2', '6') <- has_double
+('2', '6', '5', '6') <- has_double
+('2', '6', '2', '9') <- has_double
+('2', '6', '2', '6') <- has_double
+('8', '7', '5', '9') <- gap_one
+('8', '7', '5', '6') <- diff_one
+('8', '6', '5', '9') <- gap_one
+('8', '6', '5', '6') <- has_double
+('8', '6', '2', '6') <- has_double
+
+gap: 262
+common: 5
+results: ['659', '579', '951', '515']
+seq_types:
+('6', '7', '9', '5') <- gap_one
+('6', '7', '1', '1') <- has_double
+('6', '9', '9', '1') <- has_double
+('6', '9', '9', '5') <- has_double
+('6', '9', '1', '1') <- has_double
+('9', '7', '9', '1') <- has_double
+('9', '7', '9', '5') <- has_double
+('9', '7', '1', '1') <- has_double
+('9', '7', '1', '5') <- diff_two
+('9', '9', '9', '1') <- has_double
+('9', '9', '9', '5') <- has_double
+('9', '9', '1', '1') <- has_double
+('9', '9', '1', '5') <- has_double
+
+gap: 262
+common: 9
+results: ['659', '579', '951']
+seq_types:
+('6', '5', '5') <- has_double
+('6', '7', '5') <- diff_one
+('5', '5', '5') <- diff_zero
+('5', '5', '1') <- has_double
+('5', '7', '5') <- has_double
+
+gap: 266
+common: 3
+results: ['737', '839', '343']
+seq_types:
+
+gap: 271
+common: 4
+results: ['974', '464', '794']
+seq_types:
+('9', '6', '7') <- gap_one
+('9', '6', '9') <- has_double
+('9', '4', '9') <- has_double
+('7', '6', '7') <- has_double
+('7', '6', '9') <- gap_one
+('7', '4', '7') <- has_double
+
+gap: 272
+common: 8
+results: ['286', '183', '178']
+seq_types:
+('2', '1', '1') <- has_double
+('2', '3', '1') <- diff_one
+('6', '1', '1') <- has_double
+
+gap: 291
+common: 5
+results: ['605', '915', '605']
+seq_types:
+('6', '9', '6') <- has_double
+('6', '1', '6') <- has_double
+('0', '9', '0') <- has_double
+('0', '1', '0') <- has_double
+
+gap: 292
+common: 2
+results: ['248', '283', '217', '214', '712']
+seq_types:
+('4', '8', '1', '1', '7') <- has_double
+('4', '8', '1', '1', '1') <- has_double
+('4', '8', '1', '4', '7') <- has_double
+('4', '8', '1', '4', '1') <- has_double
+('4', '8', '7', '1', '7') <- has_double
+('4', '8', '7', '1', '1') <- has_double
+('4', '8', '7', '4', '7') <- has_double
+('4', '8', '7', '4', '1') <- has_double
+('4', '3', '1', '1', '7') <- has_double
+('4', '3', '1', '1', '1') <- has_double
+('4', '3', '1', '4', '7') <- has_double
+('4', '3', '1', '4', '1') <- has_double
+('4', '3', '7', '1', '7') <- has_double
+('4', '3', '7', '1', '1') <- has_double
+('4', '3', '7', '4', '7') <- has_double
+('4', '3', '7', '4', '1') <- has_double
+('8', '8', '1', '1', '7') <- has_double
+('8', '8', '1', '1', '1') <- has_double
+('8', '8', '1', '4', '7') <- has_double
+('8', '8', '1', '4', '1') <- has_double
+('8', '8', '7', '1', '7') <- has_double
+('8', '8', '7', '1', '1') <- has_double
+('8', '8', '7', '4', '7') <- has_double
+('8', '8', '7', '4', '1') <- has_double
+('8', '3', '1', '1', '7') <- has_double
+('8', '3', '1', '1', '1') <- has_double
+('8', '3', '1', '4', '1') <- has_double
+('8', '3', '7', '1', '7') <- has_double
+('8', '3', '7', '1', '1') <- has_double
+('8', '3', '7', '4', '7') <- has_double
+
+gap: 293
+common: 8
+results: ['187', '228', '289']
+seq_types:
+('1', '2', '2') <- has_double
+('1', '2', '9') <- gap_one
+('7', '2', '2') <- has_double
+
+gap: 295
+common: 7
+results: ['371', '757', '714']
+seq_types:
+('3', '5', '1') <- diff_two
+('3', '5', '4') <- diff_one
+('1', '5', '1') <- has_double
+('1', '7', '1') <- has_double
+
+gap: 298
+common: 9
+results: ['389', '957', '694']
+seq_types:
+('3', '5', '6') <- gap_one
+('3', '5', '4') <- diff_one
+('8', '5', '6') <- gap_one
+('8', '7', '6') <- diff_one
+
+gap: 300
+common: 8
+results: ['888', '989', '837', '982']
+seq_types:
+('8', '9', '3', '9') <- has_double
+('8', '9', '7', '9') <- has_double
+
+gap: 305
+common: 2
+results: ['280', '248', '962', '327']
+seq_types:
+('8', '4', '6', '7') <- gap_one
+('8', '8', '9', '3') <- has_double
+('8', '8', '9', '7') <- has_double
+('8', '8', '6', '3') <- has_double
+('8', '8', '6', '7') <- has_double
+('0', '8', '9', '7') <- diff_one
+('0', '8', '6', '7') <- gap_one
+
+gap: 306
+common: 7
+results: ['761', '837', '527']
+seq_types:
+('6', '8', '5') <- gap_one
+('6', '3', '5') <- gap_one
+('1', '3', '5') <- diff_two
+('1', '3', '2') <- diff_one
+
+gap: 308
+common: 4
+results: ['774', '435', '469']
+seq_types:
+('7', '5', '6') <- diff_one
+('7', '5', '9') <- diff_two
+
+gap: 322
+common: 6
+results: ['063', '636', '116']
+seq_types:
+('0', '3', '1') <- gap_one
+('3', '3', '1') <- has_double
+
+gap: 325
+common: 3
+results: ['423', '453', '347', '573']
+seq_types:
+('4', '4', '4', '5') <- has_double
+('4', '4', '4', '7') <- has_double
+('4', '4', '7', '5') <- has_double
+('4', '4', '7', '7') <- has_double
+('4', '5', '4', '5') <- has_double
+('4', '5', '4', '7') <- has_double
+('4', '5', '7', '5') <- has_double
+('4', '5', '7', '7') <- has_double
+('2', '4', '4', '5') <- has_double
+('2', '4', '4', '7') <- has_double
+('2', '4', '7', '7') <- has_double
+('2', '5', '4', '5') <- has_double
+('2', '5', '7', '5') <- has_double
+('2', '5', '7', '7') <- has_double
+
+gap: 325
+common: 4
+results: ['423', '453', '347']
+seq_types:
+('2', '5', '3') <- gap_one
+('2', '3', '3') <- has_double
+('3', '5', '3') <- has_double
+('3', '5', '7') <- diff_two
+('3', '3', '3') <- diff_zero
+('3', '3', '7') <- has_double
+
+gap: 327
+common: 0
+results: ['850', '506', '017']
+seq_types:
+('8', '5', '7') <- gap_one
+('8', '6', '7') <- diff_one
+('5', '5', '1') <- has_double
+('5', '5', '7') <- has_double
+('5', '6', '7') <- diff_one
+
+gap: 328
+common: 1
+results: ['261', '831', '148', '140', '105']
+seq_types:
+('2', '8', '4', '4', '0') <- has_double
+('2', '8', '4', '4', '5') <- has_double
+('2', '8', '4', '0', '0') <- has_double
+('2', '8', '8', '4', '0') <- has_double
+('2', '8', '8', '4', '5') <- has_double
+('2', '8', '8', '0', '0') <- has_double
+('2', '8', '8', '0', '5') <- has_double
+('2', '3', '4', '4', '0') <- has_double
+('2', '3', '4', '4', '5') <- has_double
+('2', '3', '4', '0', '0') <- has_double
+('2', '3', '4', '0', '5') <- gap_one
+('2', '3', '8', '0', '0') <- has_double
+('6', '8', '4', '4', '0') <- has_double
+('6', '8', '4', '4', '5') <- has_double
+('6', '8', '4', '0', '0') <- has_double
+('6', '8', '8', '4', '0') <- has_double
+('6', '8', '8', '4', '5') <- has_double
+('6', '8', '8', '0', '0') <- has_double
+('6', '8', '8', '0', '5') <- has_double
+('6', '3', '4', '4', '0') <- has_double
+('6', '3', '4', '4', '5') <- has_double
+('6', '3', '4', '0', '0') <- has_double
+('6', '3', '8', '4', '5') <- gap_one
+('6', '3', '8', '0', '0') <- has_double
+
+gap: 329
+common: 5
+results: ['859', '528', '561', '593']
+seq_types:
+('8', '2', '1', '9') <- gap_one
+('8', '8', '6', '9') <- has_double
+('8', '8', '6', '3') <- has_double
+('8', '8', '1', '9') <- has_double
+('8', '8', '1', '3') <- has_double
+('9', '2', '6', '9') <- has_double
+('9', '2', '1', '9') <- has_double
+('9', '2', '1', '3') <- gap_one
+('9', '8', '6', '9') <- has_double
+('9', '8', '1', '9') <- has_double
+
+gap: 330
+common: 7
+results: ['371', '207', '754']
+seq_types:
+('3', '2', '5') <- gap_one
+('3', '2', '4') <- diff_one
+('1', '2', '4') <- gap_one
+
+gap: 331
+common: 5
+results: ['725', '540', '252']
+seq_types:
+('2', '4', '2') <- has_double
+('2', '0', '2') <- has_double
+
+gap: 333
+common: 9
+results: ['079', '569', '379']
+seq_types:
+('7', '5', '3') <- diff_two
+('7', '5', '7') <- has_double
+('7', '6', '7') <- has_double
+
+gap: 334
+common: 6
+results: ['613', '726', '604']
+seq_types:
+('1', '2', '0') <- diff_one
+('1', '2', '4') <- gap_one
+('3', '2', '0') <- gap_one
+('3', '2', '4') <- diff_one
+
+gap: 336
+common: 3
+results: ['310', '434', '431']
+seq_types:
+('1', '4', '4') <- has_double
+('1', '4', '1') <- has_double
+('0', '4', '4') <- has_double
+
+gap: 355
+common: 1
+results: ['150', '971', '451']
+seq_types:
+('5', '9', '5') <- has_double
+('5', '7', '4') <- gap_one
+('5', '7', '5') <- has_double
 
 gap: 356
-common: 2
-results: ['102', '352', '722', '012']
+common: 4
+results: ['942', '421', '405', '594']
 seq_types:
-('1', '3', '7', '1') <- has_double
-('1', '3', '2', '0') <- diff_one
-('1', '3', '2', '1') <- has_double
-('1', '5', '7', '1') <- has_double
-('1', '5', '2', '1') <- has_double
-('0', '3', '7', '0') <- has_double
-('0', '3', '2', '0') <- has_double
-('0', '3', '2', '1') <- diff_one
-('0', '5', '7', '0') <- has_double
-('0', '5', '2', '0') <- has_double
+('9', '2', '0', '9') <- has_double
+('9', '2', '5', '5') <- has_double
+('9', '2', '5', '9') <- has_double
+('9', '1', '0', '9') <- has_double
+('9', '1', '5', '5') <- has_double
+('9', '1', '5', '9') <- has_double
+('2', '2', '0', '5') <- has_double
+('2', '2', '0', '9') <- has_double
+('2', '2', '5', '5') <- has_double
+('2', '2', '5', '9') <- has_double
+('2', '1', '0', '9') <- diff_one
+('2', '1', '5', '5') <- has_double
 
-gap: 361
-common: 7
-results: ['751', '769', '778']
+gap: 360
+common: 4
+results: ['749', '534', '404']
 seq_types:
-('5', '6', '7') <- diff_one
-('5', '6', '8') <- gap_one
-('5', '9', '7') <- diff_two
-('1', '9', '7') <- diff_two
-('1', '9', '8') <- gap_one
+('7', '5', '4') <- gap_one
 
 gap: 364
 common: 3
-results: ['936', '380', '353', '034']
+results: ['563', '739', '328']
 seq_types:
-('9', '0', '5', '0') <- has_double
-('9', '0', '3', '0') <- has_double
-('6', '8', '5', '4') <- gap_one
-('6', '0', '5', '0') <- has_double
-('6', '0', '3', '0') <- has_double
+('5', '7', '8') <- gap_one
+('6', '7', '8') <- diff_one
+('6', '9', '8') <- gap_one
 
-gap: 370
-common: 4
-results: ['240', '475', '469']
+gap: 365
+common: 8
+results: ['087', '833', '828', '687']
 seq_types:
-('0', '7', '9') <- gap_one
+('7', '3', '2', '7') <- has_double
+('7', '3', '8', '7') <- has_double
+
+gap: 366
+common: 2
+results: ['528', '125', '209', '123']
+seq_types:
+('5', '1', '0', '1') <- has_double
+('5', '1', '9', '1') <- has_double
+('5', '1', '9', '3') <- diff_two
+('5', '5', '0', '1') <- has_double
+('5', '5', '0', '3') <- has_double
+('5', '5', '9', '1') <- has_double
+('5', '5', '9', '3') <- has_double
+('8', '1', '0', '1') <- has_double
+('8', '1', '9', '1') <- has_double
+
+gap: 368
+common: 2
+results: ['325', '270', '120', '287']
+seq_types:
+('3', '7', '1', '7') <- has_double
+('3', '7', '0', '7') <- has_double
+('3', '0', '0', '8') <- has_double
+('3', '0', '0', '7') <- has_double
+('5', '7', '1', '7') <- has_double
+('5', '7', '0', '7') <- has_double
+('5', '0', '0', '8') <- has_double
+('5', '0', '0', '7') <- has_double
+
+gap: 371
+common: 6
+results: ['466', '186', '569']
+seq_types:
+('6', '8', '5') <- gap_one
+('6', '8', '9') <- gap_one
+
+gap: 372
+common: 3
+results: ['364', '643', '323']
+seq_types:
+('6', '6', '2') <- has_double
+('6', '6', '3') <- has_double
+('6', '4', '2') <- diff_two
+('6', '4', '3') <- gap_one
+('4', '6', '2') <- diff_two
+('4', '6', '3') <- gap_one
+('4', '4', '2') <- has_double
+('4', '4', '3') <- has_double
 
 gap: 375
-common: 9
-results: ['291', '569', '998', '369']
+common: 0
+results: ['001', '704', '202', '030']
 seq_types:
-('2', '6', '9', '6') <- has_double
-('2', '6', '8', '6') <- has_double
-('1', '5', '9', '3') <- diff_two
-('1', '6', '9', '6') <- has_double
-('1', '6', '8', '6') <- has_double
+('0', '7', '2', '0') <- has_double
+('0', '4', '2', '3') <- gap_one
+('0', '4', '2', '0') <- has_double
+('1', '4', '2', '3') <- diff_one
+('1', '4', '2', '0') <- gap_one
 
-gap: 382
-common: 9
-results: ['569', '009', '907', '968']
+gap: 378
+common: 6
+results: ['226', '769', '460', '506', '746']
 seq_types:
-('5', '0', '0', '6') <- has_double
-('5', '0', '0', '8') <- has_double
-('6', '0', '0', '6') <- has_double
-('6', '0', '0', '8') <- has_double
-('6', '0', '7', '6') <- has_double
-('6', '0', '7', '8') <- gap_one
+('2', '7', '4', '5', '7') <- has_double
+('2', '7', '4', '5', '4') <- has_double
+('2', '7', '4', '0', '7') <- has_double
+('2', '7', '4', '0', '4') <- has_double
+('2', '7', '0', '5', '7') <- has_double
+('2', '7', '0', '0', '7') <- has_double
+('2', '7', '0', '0', '4') <- has_double
+('2', '9', '4', '5', '4') <- has_double
+('2', '9', '4', '0', '4') <- has_double
+('2', '9', '0', '0', '7') <- has_double
+('2', '9', '0', '0', '4') <- has_double
 
-gap: 387
-common: 5
-results: ['564', '573', '335']
-seq_types:
-('6', '3', '3') <- has_double
-('4', '3', '3') <- has_double
-
-gap: 414
-common: 2
-results: ['252', '682', '266', '312']
-seq_types:
-('5', '6', '6', '3') <- has_double
-('5', '6', '6', '1') <- has_double
-('2', '6', '6', '3') <- has_double
-('2', '6', '6', '1') <- has_double
-
-gap: 417
+gap: 401
 common: 4
-results: ['463', '814', '437']
+results: ['491', '347', '042']
 seq_types:
-('6', '8', '7') <- diff_one
-('3', '8', '3') <- has_double
-('3', '1', '3') <- has_double
+('9', '7', '0') <- gap_one
+('1', '3', '0') <- gap_one
+('1', '3', '2') <- diff_one
+
+gap: 403
+common: 4
+results: ['486', '884', '411']
+seq_types:
+('8', '8', '1') <- has_double
+
+gap: 405
+common: 9
+results: ['094', '297', '192']
+seq_types:
+('0', '2', '1') <- diff_one
+('0', '2', '2') <- has_double
+('4', '2', '1') <- gap_one
+('4', '2', '2') <- has_double
+
+gap: 408
+common: 1
+results: ['561', '411', '201']
+seq_types:
+('5', '4', '2') <- gap_one
+('6', '4', '2') <- diff_two
+
+gap: 413
+common: 5
+results: ['357', '586', '593', '650']
+seq_types:
+('3', '8', '3', '6') <- has_double
+('3', '8', '3', '0') <- has_double
+('3', '6', '9', '6') <- has_double
+('3', '6', '3', '6') <- has_double
+('3', '6', '3', '0') <- has_double
+('7', '8', '9', '6') <- diff_one
+('7', '8', '9', '0') <- diff_one
+('7', '6', '9', '6') <- has_double
+('7', '6', '9', '0') <- gap_one
+('7', '6', '3', '6') <- has_double
+
+gap: 416
+common: 6
+results: ['569', '961', '675']
+seq_types:
+('5', '9', '7') <- diff_two
+('5', '9', '5') <- has_double
+('5', '1', '5') <- has_double
+('9', '9', '7') <- has_double
+('9', '9', '5') <- has_double
+('9', '1', '7') <- diff_two
 
 gap: 418
-common: 1
-results: ['518', '140', '818']
+common: 6
+results: ['068', '426', '860']
 seq_types:
+('0', '4', '0') <- has_double
+('0', '2', '8') <- diff_two
+('0', '2', '0') <- has_double
 ('8', '4', '8') <- has_double
-('8', '0', '8') <- has_double
-
-gap: 420
-common: 5
-results: ['571', '605', '555']
-seq_types:
-('7', '6', '5') <- diff_one
+('8', '2', '8') <- has_double
+('8', '2', '0') <- diff_two
 
 gap: 421
-common: 1
-results: ['731', '133', '814', '641']
+common: 5
+results: ['564', '589', '154', '905']
 seq_types:
-('7', '3', '4', '6') <- gap_one
-('7', '3', '4', '4') <- has_double
-('3', '3', '8', '6') <- has_double
-('3', '3', '8', '4') <- has_double
-('3', '3', '4', '6') <- has_double
-('3', '3', '4', '4') <- has_double
+('6', '8', '4', '0') <- diff_two
+('6', '9', '1', '9') <- has_double
+('6', '9', '4', '9') <- has_double
+('4', '8', '4', '9') <- has_double
+('4', '8', '4', '0') <- has_double
+('4', '9', '1', '9') <- has_double
+('4', '9', '4', '9') <- has_double
+('4', '9', '4', '0') <- has_double
 
-gap: 424
-common: 3
-results: ['523', '693', '593']
+gap: 427
+common: 5
+results: ['543', '519', '656', '518']
 seq_types:
-('5', '6', '5') <- has_double
-('5', '9', '5') <- has_double
-('5', '9', '9') <- has_double
-('2', '9', '9') <- has_double
-
-gap: 425
-common: 1
-results: ['145', '091', '911', '881']
-seq_types:
-('4', '9', '9', '8') <- has_double
-('5', '9', '9', '8') <- has_double
-
-gap: 432
-common: 3
-results: ['043', '362', '935', '338']
-seq_types:
-('0', '6', '9', '8') <- gap_one
-('0', '2', '9', '3') <- gap_one
-('0', '2', '9', '8') <- gap_one
-('4', '6', '5', '3') <- diff_one
-('4', '6', '5', '8') <- gap_one
-('4', '2', '5', '3') <- diff_one
+('4', '1', '6', '1') <- has_double
+('3', '1', '6', '1') <- has_double
 
 gap: 433
-common: 6
-results: ['056', '662', '056']
+common: 5
+results: ['295', '953', '275']
 seq_types:
-('0', '6', '0') <- has_double
-('0', '2', '0') <- has_double
-('5', '6', '5') <- has_double
-('5', '2', '5') <- has_double
-
-gap: 434
-common: 3
-results: ['138', '357', '300', '463']
-seq_types:
-('8', '7', '0', '6') <- gap_one
-
-gap: 437
-common: 4
-results: ['747', '940', '842']
-seq_types:
-('7', '9', '8') <- diff_one
-('7', '0', '8') <- gap_one
+('2', '9', '2') <- has_double
+('2', '3', '2') <- has_double
+('9', '9', '2') <- has_double
+('9', '9', '7') <- has_double
 
 gap: 438
-common: 0
-results: ['260', '051', '084']
+common: 1
+results: ['351', '133', '218']
 seq_types:
-('2', '5', '4') <- gap_one
-('2', '1', '4') <- gap_one
-('6', '5', '8') <- gap_one
-('6', '5', '4') <- diff_one
+('3', '3', '2') <- has_double
+('3', '3', '8') <- has_double
+('5', '3', '2') <- gap_one
 
 gap: 441
 common: 9
-results: ['903', '962', '495', '239', '159']
+results: ['900', '693', '798']
 seq_types:
-('0', '6', '5', '2', '5') <- has_double
-('0', '6', '5', '3', '5') <- has_double
-('0', '2', '4', '2', '1') <- has_double
-('0', '2', '4', '2', '5') <- has_double
-('0', '2', '4', '3', '1') <- diff_one
-('0', '2', '4', '3', '5') <- gap_one
-('0', '2', '5', '2', '1') <- has_double
-('0', '2', '5', '2', '5') <- has_double
-('0', '2', '5', '3', '1') <- gap_one
-('0', '2', '5', '3', '5') <- has_double
-('3', '6', '4', '2', '1') <- gap_one
-('3', '6', '4', '2', '5') <- diff_one
-('3', '6', '4', '3', '1') <- has_double
-('3', '6', '4', '3', '5') <- has_double
-('3', '6', '5', '2', '1') <- gap_one
-('3', '6', '5', '2', '5') <- has_double
-('3', '6', '5', '3', '1') <- has_double
-('3', '6', '5', '3', '5') <- has_double
-('3', '2', '4', '2', '1') <- has_double
-('3', '2', '4', '2', '5') <- has_double
-('3', '2', '4', '3', '1') <- has_double
-('3', '2', '4', '3', '5') <- has_double
-('3', '2', '5', '2', '1') <- has_double
-('3', '2', '5', '2', '5') <- has_double
-('3', '2', '5', '3', '1') <- has_double
-('3', '2', '5', '3', '5') <- has_double
+('0', '6', '8') <- diff_two
+
+gap: 442
+common: 9
+results: ['192', '091', '907']
+seq_types:
+('1', '0', '0') <- has_double
+('1', '1', '0') <- has_double
+('1', '1', '7') <- has_double
+('2', '0', '0') <- has_double
+('2', '1', '0') <- diff_one
+
+gap: 443
+common: 4
+results: ['844', '714', '874']
+seq_types:
+('8', '7', '8') <- has_double
+('8', '7', '7') <- has_double
+('8', '1', '8') <- has_double
+('4', '7', '7') <- has_double
 
 gap: 444
-common: 5
-results: ['539', '245', '275', '856']
+common: 3
+results: ['553', '813', '131']
 seq_types:
-('3', '2', '2', '8') <- has_double
-('3', '2', '2', '6') <- has_double
-('3', '4', '2', '6') <- gap_one
-('3', '4', '7', '6') <- gap_one
-('9', '2', '2', '8') <- has_double
-('9', '2', '2', '6') <- has_double
+('5', '1', '1') <- has_double
 
-gap: 451
-common: 7
-results: ['470', '709', '734', '744']
+gap: 452
+common: 1
+results: ['518', '818', '361']
 seq_types:
-('4', '0', '3', '4') <- has_double
-('4', '0', '4', '4') <- has_double
-('4', '9', '3', '4') <- has_double
-('4', '9', '4', '4') <- has_double
-('0', '0', '3', '4') <- has_double
-('0', '0', '4', '4') <- has_double
-('0', '9', '4', '4') <- has_double
+('5', '8', '6') <- gap_one
+('8', '8', '3') <- has_double
+('8', '8', '6') <- has_double
+
+gap: 460
+common: 0
+results: ['027', '024', '408']
+seq_types:
+('2', '2', '4') <- has_double
+('2', '2', '8') <- has_double
+('2', '4', '4') <- has_double
+('7', '4', '4') <- has_double
 
 gap: 462
-common: 5
-results: ['254', '056', '856']
+common: 1
+results: ['991', '414', '301']
 seq_types:
-('2', '0', '8') <- diff_two
+
+gap: 464
+common: 6
+results: ['667', '695', '956', '640']
+seq_types:
+('6', '9', '9', '4') <- has_double
+('6', '9', '9', '0') <- has_double
+('6', '5', '5', '4') <- has_double
+('6', '5', '5', '0') <- has_double
+('7', '9', '9', '4') <- has_double
+('7', '9', '9', '0') <- has_double
+('7', '5', '5', '4') <- has_double
+('7', '5', '5', '0') <- has_double
+
+gap: 474
+common: 3
+results: ['773', '443', '317', '963']
+seq_types:
+('7', '4', '7', '9') <- has_double
+('7', '4', '7', '6') <- has_double
+
+gap: 484
+common: 7
+results: ['273', '674', '762']
+seq_types:
 ('2', '6', '6') <- has_double
-('4', '6', '8') <- diff_two
-('4', '6', '6') <- has_double
-
-gap: 465
-common: 0
-results: ['540', '100', '057']
-seq_types:
-('5', '1', '5') <- has_double
-('5', '0', '5') <- has_double
-
-gap: 469
-common: 2
-results: ['152', '992', '237']
-seq_types:
-('1', '9', '3') <- diff_two
-('1', '9', '7') <- diff_two
-('5', '9', '7') <- diff_two
-
-gap: 475
-common: 1
-results: ['961', '313', '012']
-seq_types:
-
-gap: 477
-common: 1
-results: ['561', '561', '123']
-seq_types:
-('5', '5', '2') <- has_double
-('5', '5', '3') <- has_double
-('5', '6', '3') <- gap_one
-('6', '5', '3') <- gap_one
-('6', '6', '2') <- has_double
-('6', '6', '3') <- has_double
-
-gap: 479
-common: 0
-results: ['090', '190', '022', '044']
-seq_types:
-('9', '9', '2', '4') <- has_double
-('0', '1', '2', '4') <- gap_one
-
-gap: 486
-common: 0
-results: ['906', '007', '204', '003', '160']
-seq_types:
-('9', '0', '2', '0', '1') <- has_double
-('9', '0', '2', '0', '6') <- has_double
-('9', '0', '2', '3', '1') <- diff_one
-('9', '0', '4', '0', '1') <- has_double
-('9', '0', '4', '0', '6') <- has_double
-('9', '0', '4', '3', '1') <- gap_one
-('9', '7', '2', '0', '1') <- gap_one
-('6', '0', '2', '0', '1') <- has_double
-('6', '0', '2', '0', '6') <- has_double
-('6', '0', '2', '3', '6') <- has_double
-('6', '0', '4', '0', '1') <- has_double
-('6', '0', '4', '0', '6') <- has_double
-('6', '0', '4', '3', '6') <- has_double
-('6', '7', '2', '0', '6') <- has_double
-('6', '7', '2', '3', '6') <- has_double
-('6', '7', '4', '0', '6') <- has_double
-('6', '7', '4', '3', '6') <- has_double
-
-gap: 493
-common: 0
-results: ['830', '057', '506']
-seq_types:
-('8', '5', '5') <- has_double
-('8', '5', '6') <- gap_one
-('8', '7', '5') <- gap_one
-('8', '7', '6') <- diff_one
-('3', '5', '5') <- has_double
-('3', '5', '6') <- gap_one
-('3', '7', '5') <- diff_two
-
-gap: 498
-common: 9
-results: ['913', '969', '629']
-seq_types:
-('1', '6', '6') <- has_double
-('1', '9', '2') <- gap_one
+('2', '6', '2') <- has_double
+('2', '4', '6') <- diff_two
+('2', '4', '2') <- has_double
 ('3', '6', '6') <- has_double
+('3', '4', '6') <- gap_one
+('3', '4', '2') <- diff_one
+
+gap: 491
+common: 7
+results: ['807', '017', '287']
+seq_types:
+('8', '0', '2') <- diff_two
+('8', '0', '8') <- has_double
+('8', '1', '8') <- has_double
+('0', '0', '2') <- has_double
+('0', '0', '8') <- has_double
+('0', '1', '2') <- diff_one
+('0', '1', '8') <- gap_one
+
+gap: 494
+common: 1
+results: ['471', '561', '801']
+seq_types:
+('4', '6', '8') <- diff_two
+('7', '5', '8') <- gap_one
+('7', '6', '8') <- diff_one
 

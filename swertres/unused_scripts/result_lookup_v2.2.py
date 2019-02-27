@@ -40,7 +40,7 @@ def filter_results(curr_result, time):
 
 def main():
     # The current result
-    curr_res = "328"
+    curr_res = "697"
 
     # Time, 0 for 11am, 1 for 4pm and 2 for 9pm
     time = 0

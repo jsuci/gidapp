@@ -2073,3 +2073,25 @@ pairs:
 
 
 ----------------------------
+NEW PATTERN DISCOVERED
+
+1. using the modified common_only_v1.2 script which only
+filter results containing diff_zero with length of two.
+Form a pair by combining the diff_zero digit and the common
+digit and the last digit would be the sum and difference of
+the latest result. Maintain that number for 3 to 5 draws
+
+ex:
+
+date generated:
+26 tue feb 2019 0
+
+gap: 8
+common: 0
+results: ['830', '806']
+seq_types:
+['8', '8'] <- diff_zero
+['8', '6'] <- diff_two
+
+pair: 08
+combis: 082, 084 (408 result 27 wed feb 2019 1)

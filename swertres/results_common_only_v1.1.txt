@@ -1,0 +1,7 @@
+gap: 8
+common: 0
+results: ['830', '806']
+seq_types:
+['8', '8'] <- diff_zero
+['8', '6'] <- diff_two
+

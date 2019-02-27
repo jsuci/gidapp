@@ -136,8 +136,14 @@ def get_seq_types(results, common=[]):
     output = []
 
     for seq in product(*trim_results):
-        output_item = (list(seq), seq_type(seq))
+        output_item = (seq, seq_type(seq))
+        if seq_type(seq) and output_item not in output:
+            output.append(output_item)
 
+    return output
+
+    for seq in product(*trim_results):
+        output_item = (seq, seq_type(seq))
         if seq_type(seq) and output_item not in output:
             output.append(output_item)
 
@@ -190,20 +196,15 @@ def main():
     for entry in filter_results():
         gap, common, results, seq_types = entry
 
-        if (
-            len(seq_types) == 2 and
-            "diff_zero" in chain(*seq_types)
-        ):
+        print("gap: {}".format(gap))
+        print("common: {}".format(common))
+        print("results: {}".format(results))
+        print("seq_types:")
+        for seq in seq_types:
+            print("{} <- {}".format(seq[0], seq[1]))
+        print("\n")
 
-            print("gap: {}".format(gap))
-            print("common: {}".format(common))
-            print("results: {}".format(results))
-            print("seq_types:")
-            for seq in seq_types:
-                print("{} <- {}".format(seq[0], seq[1]))
-            print("\n")
-
-            export_file(gap, common, results, seq_types)
+        export_file(gap, common, results, seq_types)
 
 
 if __name__ == "__main__":

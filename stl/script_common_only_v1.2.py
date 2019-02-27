@@ -173,7 +173,7 @@ def filter_results():
 
 def export_file(gap, common, results, seq_types):
 
-    with open("results_common_only_v1.1.txt", "a") as fo:
+    with open("results_common_only_v1.2.txt", "a") as fo:
         fo.write("gap: {}\n".format(gap))
         fo.write("common: {}\n".format(common))
         fo.write("results: {}\n".format(results))
@@ -184,7 +184,7 @@ def export_file(gap, common, results, seq_types):
 
 
 def main():
-    with open("results_common_only_v1.1.txt", "w") as fi:
+    with open("results_common_only_v1.2.txt", "w") as fi:
         fi.write("")
 
     for entry in filter_results():
