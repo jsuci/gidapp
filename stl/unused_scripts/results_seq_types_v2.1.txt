@@ -1,0 +1,169 @@
+updated: 01 fri mar 2019
+
+
+DATE GENERATED: 28 thu feb 2019 2
+time: 11am
+gap: 1
+common: ['5']
+results: ['765', '538']
+seq_type: diff_one(1), diff_two(1)
+combis:
+567
+597
+
+time: 11am
+gap: 4
+common: ['7']
+results: ['697', '157']
+seq_type: diff_one(1), diff_two(1)
+combis:
+740
+770
+
+time: 11am
+gap: 8
+common: ['6']
+results: ['806', '616']
+seq_type: diff_one(1), diff_two(1)
+combis:
+697
+627
+
+time: 4pm
+gap: 4
+common: ['1']
+results: ['112', '831']
+seq_type: diff_one(1), diff_two(1)
+combis:
+112
+142
+
+time: 4pm
+gap: 7
+common: ['0']
+results: ['083', '076']
+seq_type: diff_one(1), diff_two(1)
+combis:
+067
+097
+
+time: 4pm
+gap: 12
+common: ['9']
+results: ['971', '390']
+seq_type: diff_one(1), diff_two(1)
+combis:
+992
+922
+
+time: 9pm
+gap: 6
+common: ['7']
+results: ['705', '897']
+seq_type: diff_one(1), diff_two(1)
+combis:
+799
+709
+
+time: 9pm
+gap: 10
+common: ['6']
+results: ['568', '096']
+seq_type: diff_one(1), diff_two(1)
+combis:
+679
+609
+
+time: 9pm
+gap: 12
+common: ['7']
+results: ['751', '772']
+seq_type: diff_one(1), diff_two(1)
+combis:
+706
+736
+
+
+
+DATE GENERATED: 01 fri mar 2019 1
+time: 11am
+gap: 1
+common: ['5']
+results: ['765', '538']
+seq_type: diff_one(1), diff_two(1)
+combis:
+567
+597
+
+time: 11am
+gap: 4
+common: ['7']
+results: ['697', '157']
+seq_type: diff_one(1), diff_two(1)
+combis:
+740
+770
+
+time: 11am
+gap: 8
+common: ['6']
+results: ['806', '616']
+seq_type: diff_one(1), diff_two(1)
+combis:
+697
+627
+
+time: 4pm
+gap: 4
+common: ['1']
+results: ['112', '831']
+seq_type: diff_one(1), diff_two(1)
+combis:
+112
+142
+
+time: 4pm
+gap: 7
+common: ['0']
+results: ['083', '076']
+seq_type: diff_one(1), diff_two(1)
+combis:
+067
+097
+
+time: 4pm
+gap: 12
+common: ['9']
+results: ['971', '390']
+seq_type: diff_one(1), diff_two(1)
+combis:
+992
+922
+
+time: 9pm
+gap: 6
+common: ['7']
+results: ['705', '897']
+seq_type: diff_one(1), diff_two(1)
+combis:
+799
+709
+
+time: 9pm
+gap: 10
+common: ['6']
+results: ['568', '096']
+seq_type: diff_one(1), diff_two(1)
+combis:
+679
+609
+
+time: 9pm
+gap: 12
+common: ['7']
+results: ['751', '772']
+seq_type: diff_one(1), diff_two(1)
+combis:
+706
+736
+

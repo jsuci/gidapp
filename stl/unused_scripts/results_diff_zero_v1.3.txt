@@ -1,0 +1,324 @@
+updated: 01 fri mar 2019 2
+
+DATE GENERATED: 26 tue feb 2019 2
+gap: 3
+common: 1
+results: ['181', '112']
+pairs: 11
+seq_types:
+['1', '1'] <- diff_zero
+['1', '2'] <- diff_one
+
+gap: 5
+common: 8
+results: ['538', '830']
+pairs: 83
+seq_types:
+['5', '3'] <- diff_two
+['3', '3'] <- diff_zero
+
+gap: 15
+common: 7
+results: ['795', '971']
+pairs: 79
+seq_types:
+['9', '9'] <- diff_zero
+['9', '1'] <- diff_two
+
+gap: 15
+common: 9
+results: ['795', '971']
+pairs: 97
+seq_types:
+['7', '7'] <- diff_zero
+['5', '7'] <- diff_two
+
+gap: 20
+common: 6
+results: ['806', '683']
+pairs: 68
+seq_types:
+['8', '8'] <- diff_zero
+['0', '8'] <- diff_two
+
+DATE GENERATED: 27 wed feb 2019 0
+gap: 21
+common: 8
+results: ['806', '480']
+pairs: 80
+seq_types:
+['0', '0'] <- diff_zero
+['6', '4'] <- diff_two
+
+gap: 22
+common: 2
+results: ['327', '328']
+pairs: 23
+seq_types:
+['3', '3'] <- diff_zero
+['7', '8'] <- diff_one
+
+gap: 22
+common: 3
+results: ['327', '328']
+pairs: 32
+seq_types:
+['2', '2'] <- diff_zero
+['7', '8'] <- diff_one
+
+DATE GENERATED: 27 wed feb 2019 1
+gap: 4
+common: 1
+results: ['152', '112']
+pairs: 12
+seq_types:
+['2', '1'] <- diff_one
+['2', '2'] <- diff_zero
+
+gap: 17
+common: 7
+results: ['795', '897']
+pairs: 79
+seq_types:
+['9', '8'] <- diff_one
+['9', '9'] <- diff_zero
+
+DATE GENERATED: 27 wed feb 2019 2
+gap: 1
+common: 0
+results: ['408', '087']
+pairs: 08
+seq_types:
+['8', '8'] <- diff_zero
+['8', '7'] <- diff_one
+
+gap: 6
+common: 1
+results: ['181', '121']
+pairs: 11
+seq_types:
+['1', '2'] <- diff_one
+['1', '1'] <- diff_zero
+
+gap: 7
+common: 7
+results: ['753', '705']
+pairs: 75
+seq_types:
+['5', '5'] <- diff_zero
+['3', '5'] <- diff_two
+
+gap: 16
+common: 5
+results: ['057', '751']
+pairs: 57
+seq_types:
+['0', '1'] <- diff_one
+['7', '7'] <- diff_zero
+
+gap: 16
+common: 7
+results: ['057', '751']
+pairs: 75
+seq_types:
+['0', '1'] <- diff_one
+['5', '5'] <- diff_zero
+
+gap: 26
+common: 7
+results: ['157', '417']
+pairs: 71
+seq_types:
+['1', '1'] <- diff_zero
+['5', '4'] <- diff_one
+
+DATE GENERATED: 28 thu feb 2019 0
+gap: 23
+common: 7
+results: ['917', '517']
+pairs: 71
+seq_types:
+['9', '1'] <- diff_two
+['1', '1'] <- diff_zero
+
+gap: 24
+common: 6
+results: ['760', '567']
+pairs: 67
+seq_types:
+['7', '5'] <- diff_two
+['7', '7'] <- diff_zero
+
+gap: 24
+common: 7
+results: ['760', '567']
+pairs: 76
+seq_types:
+['6', '5'] <- diff_one
+['6', '6'] <- diff_zero
+
+DATE GENERATED: 28 thu feb 2019 1
+gap: 2
+common: 8
+results: ['825', '185']
+pairs: 85
+seq_types:
+['2', '1'] <- diff_one
+['5', '5'] <- diff_zero
+
+gap: 7
+common: 3
+results: ['831', '713']
+pairs: 31
+seq_types:
+['8', '7'] <- diff_one
+['1', '1'] <- diff_zero
+
+gap: 14
+common: 4
+results: ['487', '848']
+pairs: 48
+seq_types:
+['8', '8'] <- diff_zero
+['7', '8'] <- diff_one
+
+gap: 23
+common: 1
+results: ['919', '091']
+pairs: 19
+seq_types:
+['9', '0'] <- diff_one
+['9', '9'] <- diff_zero
+
+DATE GENERATED: 28 thu feb 2019 2
+gap: 1
+common: 5
+results: ['581', '825']
+pairs: 58
+seq_types:
+['8', '8'] <- diff_zero
+['1', '2'] <- diff_one
+
+gap: 1
+common: 8
+results: ['581', '825']
+pairs: 85
+seq_types:
+['5', '5'] <- diff_zero
+['1', '2'] <- diff_one
+
+gap: 9
+common: 4
+results: ['564', '054']
+pairs: 45
+seq_types:
+['5', '5'] <- diff_zero
+['6', '5'] <- diff_one
+
+gap: 9
+common: 5
+results: ['564', '054']
+pairs: 54
+seq_types:
+['6', '4'] <- diff_two
+['4', '4'] <- diff_zero
+
+gap: 16
+common: 1
+results: ['713', '631']
+pairs: 13
+seq_types:
+['7', '6'] <- diff_one
+['3', '3'] <- diff_zero
+
+gap: 16
+common: 3
+results: ['713', '631']
+pairs: 31
+seq_types:
+['7', '6'] <- diff_one
+['1', '1'] <- diff_zero
+
+gap: 26
+common: 0
+results: ['760', '600']
+pairs: 06
+seq_types:
+['7', '6'] <- diff_one
+['6', '6'] <- diff_zero
+
+DATE GENERATED: 01 fri mar 2019 0
+gap: 2
+common: 1
+results: ['581', '195']
+pairs: 15
+seq_types:
+['5', '5'] <- diff_zero
+['8', '9'] <- diff_one
+
+gap: 7
+common: 5
+results: ['185', '516']
+pairs: 51
+seq_types:
+['1', '1'] <- diff_zero
+['8', '6'] <- diff_two
+
+gap: 13
+common: 0
+results: ['660', '760']
+pairs: 06
+seq_types:
+['6', '7'] <- diff_one
+['6', '6'] <- diff_zero
+
+gap: 17
+common: 3
+results: ['713', '313']
+pairs: 31
+seq_types:
+['1', '1'] <- diff_zero
+['1', '3'] <- diff_two
+
+DATE GENERATED: 01 fri mar 2019 1
+gap: 16
+common: 5
+results: ['516', '561']
+pairs: 56
+seq_types:
+['1', '1'] <- diff_zero
+['6', '6'] <- diff_zero
+
+gap: 16
+common: 6
+results: ['516', '561']
+pairs: 61
+seq_types:
+['5', '5'] <- diff_zero
+['1', '1'] <- diff_zero
+
+DATE GENERATED: 01 fri mar 2019 2
+gap: 4
+common: 1
+results: ['581', '185']
+pairs: 18
+seq_types:
+['5', '5'] <- diff_zero
+['8', '8'] <- diff_zero
+
+gap: 4
+common: 8
+results: ['581', '185']
+pairs: 81
+seq_types:
+['5', '5'] <- diff_zero
+['1', '1'] <- diff_zero
+
+gap: 10
+common: 8
+results: ['828', '884']
+pairs: 88
+seq_types:
+['2', '4'] <- diff_two
+['8', '8'] <- diff_zero
+

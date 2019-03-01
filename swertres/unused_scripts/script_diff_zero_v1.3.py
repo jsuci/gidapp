@@ -154,7 +154,7 @@ def filter_results():
     results = get_results()
     final_list = []
 
-    for gap_value in range(1, 30):
+    for gap_value in range(1, 100):
         for common_digit in range(0, 10):
             common = str(common_digit)
             step = gap_value
@@ -176,14 +176,13 @@ def filter_results():
 def export_file(gap, common, results, seq_types, pairs):
 
     with open("results_diff_zero_v1.3.txt", "a") as fo:
-        fo.write("gap: {}\n".format(gap))
-        fo.write("common: {}\n".format(common))
+        fo.write("pair: {}\n".format(pairs))
         fo.write("results: {}\n".format(results))
-        fo.write("pairs: {}\n".format(pairs))
-        fo.write("seq_types:\n")
-        for seq in seq_types:
-            fo.write("{} <- {}\n".format(seq[0], seq[1]))
         fo.write("\n")
+        # fo.write("common: {}\n".format(common))
+        # fo.write("seq_types:\n")
+        # for seq in seq_types:
+        #     fo.write("{} <- {}\n".format(seq[0], seq[1]))
 
 
 def check_date():
@@ -215,7 +214,7 @@ def main():
     else:
         with open("results_diff_zero_v1.3.txt", "a") as fo:
             date = get_current_date()
-            fo.write("DATE GENERATED: {}\n".format(date))
+            fo.write("\nDATE GENERATED: {}\n".format(date))
 
         for entry in filter_results():
             gap, common, results, seq_types = entry

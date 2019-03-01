@@ -62,9 +62,10 @@ def count_missing_digit(digit):
 
 def all_missing_digit():
     for i in range(10):
-        print(count_missing_digit(str(i))[0], "<-",
-              count_missing_digit(str(i))[2], " ",
-              count_missing_digit(str(i))[3])
+        print("{} <- {:2}\t\t{}".format(
+            count_missing_digit(str(i))[0],
+            count_missing_digit(str(i))[2],
+            count_missing_digit(str(i))[3]))
 
 
 def main():
