@@ -317,7 +317,7 @@ def is_current_date():
     with open("results_v2.txt", "r") as fi:
         with open("results_seq_types_v2.1.txt", "r") as fo:
             fi_date = fi.readline().strip()[:-2]
-            fo_date = fo.readline().strip()
+            fo_date = fo.readline().strip()[:-2]
 
             if fi_date != fo_date:
                 return fi_date
