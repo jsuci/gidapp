@@ -143,53 +143,38 @@ def get_seq_types(results):
     return seq_type_results
 
 
-def get_gap_results_v2():
+def get_gap_results_v1():
 
-    def get_reverse_results_v2():
+    def get_reverse_results_v1():
         """Given all the results from results_v2.txt
-        return a dictionary containing time results
-        in this format
+        return a list containing results in this
+        reverse order.
 
-        {"11am": ['123', ...], "4pm": ['456', ...]..}
+        ['123', ...]
         """
 
         reverse = []
-        time_results = {}
 
-        with open("results_v2.txt", "r") as fi:
+        with open("results_v1.txt", "r") as fi:
             for entry in islice(fi, 2, None):
                 entry = entry.strip()
                 reverse.insert(0, entry)
 
-        for r_entry in reverse:
-            results = split(r"\s{2,}", r_entry)[1:]
-            if len(results) == 3:
-                time_results.setdefault("11am", [])
-                time_results.setdefault("4pm", [])
-                time_results.setdefault("9pm", [])
+        return reverse
 
-                time_results["11am"].append(results[0])
-                time_results["4pm"].append(results[1])
-                time_results["9pm"].append(results[2])
-
-        return time_results
-
-    time_results = get_reverse_results_v2()
+    results = get_reverse_results_v1()
     gap_results = {}
 
-    for time, results in time_results.items():
-        for gap in range(1, 20):
-            step = gap
-            temp_results = []
+    for gap in range(1, 20):
+        step = gap
+        temp_results = []
 
-            for count, result in enumerate(results):
-                if step == count and len(temp_results) != 2:
-                    temp_results.append(result)
+        for count, result in enumerate(results):
+            if step == count and len(temp_results) != 2:
+                temp_results.append(result)
+                step += (gap + 1)
 
-                    step += (gap + 1)
-
-            gap_results.setdefault(time, {})
-            gap_results[time].setdefault(gap, temp_results)
+            gap_results.setdefault(gap, temp_results)
 
     return gap_results
 
@@ -328,9 +313,17 @@ def is_current_date():
             return fi_date
 
 
-def export_results(time, gap, results, seq_types):
+def export_results(gap, results, seq_types):
 
-    with open("results_seq_types_v2.1.txt", "a") as fo:
+    with fileinput.input("results_seq_types_v1.1.txt",
+                         inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print(is_current_date())
+            else:
+                print(entry, end="")
+
+    with open("results_seq_types_v1.1.txt", "a") as fo:
 
             if (
                 "common" in seq_types and
@@ -374,76 +367,35 @@ def export_results(time, gap, results, seq_types):
 
 
 def filter_results():
-    """After getting the get_gap_results_v2 filter
+    """After getting the get_gap_results_v1 filter
     the results by its seq_type, common etc
     """
 
-    with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date()))
+    # with open("results_seq_types_v1.1.txt", "a") as fo:
+    #     fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date()))
 
     print("DATE GENERATED: {}\n".format(get_generated_date()))
 
-    time_gap_results = get_gap_results_v2()
+    gap_results = get_gap_results_v1()
 
-    for time, gap_results in time_gap_results.items():
-        for gap, results in gap_results.items():
-            seq_types = get_seq_types(results)
+    for gap, results in gap_results.items():
+        seq_types = get_seq_types(results)
 
-            export_results(time, gap, results, seq_types)
+        # export_results(gap, results, seq_types)
 
-            # Filter options currently set to:
-            # common(1), diff_one(1), diff_two(1)
-            if (
-                "common" in seq_types and
-                len(seq_types["common"]) == 1 and
-                "diff_one" in seq_types and
-                len(seq_types["diff_one"]) == 1 and
-                "diff_two" in seq_types and
-                len(seq_types["diff_two"]) == 1
-            ):
+        # Filter options currently set to:
+        # common(2)
+        if (
+            "common" in seq_types and
+            len(seq_types["common"]) == 2
+        ):
 
-                c_digits = []
-                d_one_digits = []
-                d_two_digits = []
+            print("gap: {}".format(gap))
+            print("common: {}".format(seq_types["common"]))
+            print("results: {}".format(results))
+            print("pair: {}".format("".join(seq_types["common"])))
 
-                print("time: {}".format(time))
-                print("gap: {}".format(gap))
-                print("common: {}".format(seq_types["common"]))
-                print("results: {}".format(results))
-                print("seq_type: {}({}), {}({})".format(
-                    "diff_one", len(seq_types["diff_one"]),
-                    "diff_two", len(seq_types["diff_two"])))
-
-                for common in seq_types["common"]:
-                    c_digits.append(common)
-
-                for d_one in seq_types["diff_one"]:
-                    print("{} <- {}".format(
-                        d_one, get_pos_digits(d_one, "diff_one")))
-                    d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
-
-                for d_two in seq_types["diff_two"]:
-                    print("{} <- {}".format(
-                        d_two, get_pos_digits(d_two, "diff_two")))
-                    d_two_digits.extend(get_pos_digits(d_two, "diff_two"))
-
-                print("combis:")
-                for combi in product(
-                    c_digits,
-                    d_one_digits,
-                    d_two_digits
-                ):
-                    print("".join(combi))
-
-                print("\n")
-
-    with fileinput.input("results_seq_types_v2.1.txt",
-                         inplace=True) as fio:
-        for entry in fio:
-            if "updated:" in entry:
-                print(is_current_date())
-            else:
-                print(entry, end="")
+            print("\n")
 
 
 def main():
@@ -454,4 +406,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    filter_results()
+
