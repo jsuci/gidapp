@@ -307,11 +307,12 @@ def get_generated_date_v2():
 
     with open("results_v2.txt") as fi:
         for entry in islice(fi, 2, None):
-            entry = entry.strip()
-            date = split(r"\s{2,}", entry)[0]
-            reverse_dates.insert(0, date)
+            entry = split(r"\s{2,}", entry.strip())
+            if len(entry) == 4:
+                date = entry[0]
+                reverse_dates.insert(0, date)
 
-    return reverse_dates[1]
+    return reverse_dates[0]
 
 
 def is_current_date():
@@ -338,7 +339,7 @@ def export_results(time, gap, results, seq_types):
                 "diff_one" in seq_types and
                 len(seq_types["diff_one"]) == 1 and
                 "diff_two" in seq_types and
-                len(seq_types["diff_two"]) >= 1
+                len(seq_types["diff_two"]) == 1
             ):
 
                 c_digits = []
