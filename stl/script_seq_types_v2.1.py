@@ -1,5 +1,5 @@
 """
-Given a list of gap results taken from results_2.txt
+Given a list of gap results taken from results_v2.txt
 determine and filter the results base on its seq_types
 """
 
@@ -298,7 +298,7 @@ def get_pos_digits(sequence, seq_type):
     return output
 
 
-def get_generated_date():
+def get_generated_date_v2():
     """Get current date from updated string of
     results_v2.txt. Return a string of date
     """
@@ -321,7 +321,7 @@ def is_current_date():
     """
 
     with open("results_seq_types_v2.1.txt", "r") as fo:
-        fi_date = "updated: " + get_generated_date()
+        fi_date = "updated: " + get_generated_date_v2()
         fo_date = fo.readline().strip()
 
         if fi_date != fo_date:
@@ -338,7 +338,7 @@ def export_results(time, gap, results, seq_types):
                 "diff_one" in seq_types and
                 len(seq_types["diff_one"]) == 1 and
                 "diff_two" in seq_types and
-                len(seq_types["diff_two"]) == 1
+                len(seq_types["diff_two"]) >= 1
             ):
 
                 c_digits = []
@@ -379,9 +379,9 @@ def filter_results():
     """
 
     with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date()))
+        fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date_v2()))
 
-    print("DATE GENERATED: {}\n".format(get_generated_date()))
+    print("DATE GENERATED: {}\n".format(get_generated_date_v2()))
 
     time_gap_results = get_gap_results_v2()
 
@@ -391,7 +391,8 @@ def filter_results():
 
             export_results(time, gap, results, seq_types)
 
-            # Filter options
+            # Filter options currently set to:
+            # common(1), diff_one(1), diff_two(1)
             if (
                 "common" in seq_types and
                 len(seq_types["common"]) == 1 and

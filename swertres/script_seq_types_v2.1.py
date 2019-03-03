@@ -338,7 +338,7 @@ def export_results(time, gap, results, seq_types):
                 "diff_one" in seq_types and
                 len(seq_types["diff_one"]) == 1 and
                 "diff_two" in seq_types and
-                len(seq_types["diff_two"]) == 1
+                len(seq_types["diff_two"]) >= 1
             ):
 
                 c_digits = []
@@ -379,9 +379,9 @@ def filter_results():
     """
 
     with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date()))
+        fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date_v2()))
 
-    print("DATE GENERATED: {}\n".format(get_generated_date()))
+    print("DATE GENERATED: {}\n".format(get_generated_date_v2()))
 
     time_gap_results = get_gap_results_v2()
 
