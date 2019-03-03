@@ -1,1124 +1,1322 @@
-gap: 1
-time: 11am
-common: ['9']
-results: ['369', '649', '079']
+gap: 4
+time: 4pm
+common: ['3']
+results: ['753', '332', '535']
 seq_type:
-('6', '6', '0') <- has_double
-('6', '6', '7') <- has_double
-('6', '4', '7') <- gap_one
+('7', '3', '5') <- diff_two
+('5', '3', '5') <- has_double
+('5', '2', '5') <- has_double
 
 
 gap: 4
 time: 9pm
-common: ['2']
-results: ['302', '522', '902']
+common: ['8']
+results: ['181', '685', '897']
 seq_type:
-('3', '2', '0') <- gap_one
-('0', '5', '0') <- has_double
-('0', '2', '9') <- gap_one
-('0', '2', '0') <- has_double
 
 
-gap: 7
+gap: 5
+time: 9pm
+common: ['8']
+results: ['186', '568', '480']
+seq_type:
+('6', '5', '4') <- diff_one
+('6', '6', '4') <- has_double
+('6', '6', '0') <- has_double
+
+
+gap: 6
 time: 4pm
-common: ['6']
-results: ['642', '687', '967']
+common: ['1']
+results: ['121', '971', '341']
 seq_type:
-('4', '7', '7') <- has_double
-('2', '7', '7') <- has_double
+('1', '9', '3') <- diff_two
+
+
+gap: 6
+time: 9pm
+common: ['5']
+results: ['551', '751', '405']
+seq_type:
+('5', '7', '4') <- gap_one
+('1', '1', '4') <- has_double
+('1', '1', '0') <- has_double
 
 
 gap: 8
 time: 4pm
-common: ['2']
-results: ['253', '820', '682']
+common: ['0']
+results: ['083', '041', '390']
 seq_type:
-('5', '8', '6') <- gap_one
-('5', '8', '8') <- has_double
-('3', '8', '8') <- has_double
+('8', '1', '9') <- gap_one
+('3', '4', '3') <- has_double
+('3', '1', '3') <- has_double
+('3', '1', '9') <- diff_two
 
 
 gap: 9
-time: 9pm
-common: ['5']
-results: ['522', '856', '650']
-seq_type:
-('2', '8', '0') <- diff_two
-('2', '6', '6') <- has_double
-
-
-gap: 10
-time: 11am
-common: ['7', '8']
-results: ['798', '768', '871']
-seq_type:
-
-
-gap: 10
 time: 4pm
-common: ['4']
-results: ['954', '804', '450']
+common: ['2']
+results: ['332', '229', '253']
 seq_type:
-('9', '8', '0') <- diff_one
-('9', '0', '0') <- has_double
-('5', '8', '5') <- has_double
-('5', '0', '5') <- has_double
-('5', '0', '0') <- has_double
+('3', '2', '5') <- gap_one
+('3', '2', '3') <- has_double
+('3', '9', '3') <- has_double
 
 
-gap: 10
-time: 9pm
-common: ['5']
-results: ['587', '507', '405']
-seq_type:
-('8', '0', '0') <- has_double
-('8', '7', '0') <- gap_one
-('7', '0', '0') <- has_double
-('7', '7', '4') <- has_double
-('7', '7', '0') <- has_double
-
-
-gap: 12
-time: 9pm
-common: ['2', '8']
-results: ['287', '287', '928']
-seq_type:
-('7', '7', '9') <- has_double
-
-
-gap: 13
-time: 4pm
-common: ['3']
-results: ['673', '943', '433']
-seq_type:
-('6', '4', '4') <- has_double
-('6', '4', '3') <- gap_one
-('7', '4', '4') <- has_double
-
-
-gap: 17
-time: 11am
-common: ['9', '2']
-results: ['924', '952', '972']
-seq_type:
-('4', '5', '7') <- gap_one
-
-
-gap: 17
-time: 9pm
-common: ['1']
-results: ['614', '019', '117']
-seq_type:
-('6', '9', '7') <- gap_one
-
-
-gap: 23
+gap: 15
 time: 11am
 common: ['9']
-results: ['329', '609', '985']
+results: ['971', '798', '923']
 seq_type:
-('3', '6', '5') <- gap_one
-('2', '0', '8') <- diff_two
+('7', '7', '2') <- has_double
+('7', '7', '3') <- has_double
 
 
-gap: 23
-time: 4pm
-common: ['7']
-results: ['967', '672', '737']
-seq_type:
-('9', '6', '7') <- gap_one
-('6', '6', '3') <- has_double
-('6', '6', '7') <- has_double
-
-
-gap: 23
-time: 9pm
-common: ['5']
-results: ['715', '506', '757']
-seq_type:
-('7', '0', '7') <- has_double
-('7', '6', '7') <- has_double
-
-
-gap: 25
-time: 9pm
-common: ['7']
-results: ['287', '171', '327']
-seq_type:
-('2', '1', '3') <- diff_one
-('2', '1', '2') <- has_double
-
-
-gap: 26
+gap: 16
 time: 11am
-common: ['2']
-results: ['923', '972', '322']
+common: ['8']
+results: ['683', '882', '898']
 seq_type:
-('9', '9', '3') <- has_double
-('9', '9', '2') <- has_double
-('3', '9', '3') <- has_double
+('6', '8', '9') <- gap_one
+('6', '8', '8') <- has_double
+('3', '8', '8') <- has_double
+
+
+gap: 17
+time: 11am
+common: ['8']
+results: ['328', '888', '871']
+seq_type:
+
+
+gap: 17
+time: 9pm
+common: ['0']
+results: ['480', '902', '405']
+seq_type:
+('4', '9', '4') <- has_double
+('4', '2', '4') <- has_double
+('4', '2', '5') <- gap_one
+
+
+gap: 18
+time: 9pm
+common: ['0']
+results: ['405', '150', '019']
+seq_type:
+('4', '1', '1') <- has_double
+('5', '1', '1') <- has_double
+('5', '5', '1') <- has_double
+('5', '5', '9') <- has_double
+
+
+gap: 19
+time: 11am
+common: ['7']
+results: ['417', '057', '517']
+seq_type:
+('4', '5', '5') <- has_double
+('1', '0', '1') <- has_double
+('1', '5', '5') <- has_double
+('1', '5', '1') <- has_double
+
+
+gap: 20
+time: 4pm
+common: ['4']
+results: ['341', '874', '433']
+seq_type:
+('3', '8', '3') <- has_double
 ('3', '7', '3') <- has_double
 
 
+gap: 22
+time: 9pm
+common: ['0', '6']
+results: ['096', '960', '506']
+seq_type:
+('9', '9', '5') <- has_double
+
+
+gap: 24
+time: 11am
+common: ['9']
+results: ['649', '393', '972']
+seq_type:
+('4', '3', '2') <- diff_one
+
+
+gap: 24
+time: 4pm
+common: ['6']
+results: ['196', '674', '468']
+seq_type:
+('1', '4', '4') <- has_double
+('9', '7', '8') <- diff_one
+('9', '4', '4') <- has_double
+
+
+gap: 24
+time: 9pm
+common: ['7']
+results: ['738', '703', '117']
+seq_type:
+('3', '0', '1') <- gap_one
+('3', '3', '1') <- has_double
+('8', '0', '1') <- gap_one
+
+
 gap: 26
-time: 4pm
-common: ['8']
-results: ['682', '468', '187']
+time: 11am
+common: ['7']
+results: ['079', '871', '723']
 seq_type:
-('6', '4', '7') <- gap_one
-('6', '6', '1') <- has_double
-('6', '6', '7') <- has_double
-('2', '4', '1') <- gap_one
+('0', '8', '2') <- diff_two
+('0', '1', '2') <- diff_one
+('0', '1', '3') <- gap_one
+('9', '1', '2') <- gap_one
+('9', '1', '3') <- diff_two
 
 
-gap: 27
+gap: 28
 time: 4pm
-common: ['4', '3']
-results: ['943', '384', '493']
+common: ['4']
+results: ['642', '249', '400']
 seq_type:
-('9', '8', '9') <- has_double
+('2', '2', '0') <- has_double
+('2', '9', '0') <- gap_one
 
 
 gap: 29
 time: 9pm
-common: ['6']
-results: ['650', '763', '967']
+common: ['8']
+results: ['480', '928', '682']
 seq_type:
-('5', '7', '9') <- diff_two
-('5', '7', '7') <- has_double
-('5', '3', '7') <- diff_two
-('0', '7', '9') <- gap_one
-('0', '7', '7') <- has_double
-
-
-gap: 31
-time: 4pm
-common: ['1']
-results: ['139', '501', '410']
-seq_type:
-('3', '5', '4') <- diff_one
-('3', '0', '0') <- has_double
-('9', '0', '0') <- has_double
-
-
-gap: 32
-time: 4pm
-common: ['4']
-results: ['450', '400', '547']
-seq_type:
-('5', '0', '5') <- has_double
-('0', '0', '5') <- has_double
-('0', '0', '7') <- has_double
-
-
-gap: 32
-time: 9pm
-common: ['5']
-results: ['405', '955', '592']
-seq_type:
-('4', '9', '9') <- has_double
-('4', '5', '2') <- gap_one
-('0', '9', '9') <- has_double
+('4', '2', '6') <- diff_two
+('4', '2', '2') <- has_double
 ('0', '9', '2') <- gap_one
+('0', '2', '2') <- has_double
 
 
-gap: 33
-time: 9pm
-common: ['0']
-results: ['004', '083', '150']
-seq_type:
-('0', '8', '1') <- gap_one
-('0', '3', '1') <- gap_one
-('4', '3', '1') <- gap_one
-('4', '3', '5') <- diff_one
-
-
-gap: 36
+gap: 30
 time: 11am
-common: ['3', '8']
-results: ['398', '853', '883']
+common: ['5']
+results: ['518', '157', '985']
 seq_type:
-
-
-gap: 37
-time: 11am
-common: ['2']
-results: ['382', '211', '028']
-seq_type:
-('3', '1', '0') <- gap_one
-('8', '1', '0') <- gap_one
+('1', '1', '9') <- has_double
+('1', '1', '8') <- has_double
+('1', '7', '9') <- diff_two
+('8', '1', '9') <- gap_one
 ('8', '1', '8') <- has_double
+('8', '7', '9') <- diff_one
+('8', '7', '8') <- has_double
+
+
+gap: 30
+time: 4pm
+common: ['3']
+results: ['376', '303', '737']
+seq_type:
+('7', '0', '7') <- has_double
+('7', '3', '7') <- has_double
 
 
 gap: 37
 time: 4pm
 common: ['5']
-results: ['245', '015', '524']
+results: ['355', '541', '859']
 seq_type:
-('2', '0', '2') <- has_double
-('2', '0', '4') <- diff_two
-('2', '1', '2') <- has_double
-('2', '1', '4') <- gap_one
-('4', '0', '2') <- diff_two
-('4', '0', '4') <- has_double
-('4', '1', '2') <- gap_one
-('4', '1', '4') <- has_double
+('3', '1', '9') <- diff_two
 
 
-gap: 39
-time: 11am
-common: ['6']
-results: ['868', '605', '652']
-seq_type:
-('8', '0', '2') <- diff_two
-('8', '5', '5') <- has_double
-
-
-gap: 44
-time: 4pm
+gap: 37
+time: 9pm
 common: ['1']
-results: ['801', '610', '731']
+results: ['150', '140', '261']
 seq_type:
-('8', '6', '7') <- diff_one
-('8', '0', '7') <- gap_one
-('0', '0', '7') <- has_double
+('5', '4', '2') <- gap_one
+('5', '4', '6') <- diff_one
+('0', '4', '2') <- diff_two
+('0', '0', '2') <- has_double
+('0', '0', '6') <- has_double
+
+
+gap: 42
+time: 9pm
+common: ['5']
+results: ['507', '520', '153']
+seq_type:
+('0', '2', '1') <- diff_one
+('0', '2', '3') <- gap_one
+('0', '0', '1') <- has_double
 ('0', '0', '3') <- has_double
 
 
-gap: 52
-time: 4pm
-common: ['3']
-results: ['300', '325', '830']
-seq_type:
-('0', '2', '8') <- diff_two
-('0', '2', '0') <- has_double
-('0', '5', '0') <- has_double
-
-
-gap: 55
-time: 11am
-common: ['3']
-results: ['318', '932', '503']
-seq_type:
-('1', '9', '0') <- diff_one
-('1', '2', '0') <- diff_one
-('8', '9', '0') <- diff_one
-('8', '2', '0') <- diff_two
-
-
-gap: 57
-time: 11am
-common: ['4']
-results: ['764', '844', '794']
-seq_type:
-('7', '8', '7') <- has_double
-('7', '8', '9') <- diff_one
-('7', '4', '7') <- has_double
-('6', '8', '7') <- diff_one
-('6', '8', '9') <- gap_one
-('6', '4', '7') <- gap_one
-
-
-gap: 57
+gap: 45
 time: 9pm
 common: ['6']
-results: ['286', '601', '644']
+results: ['960', '659', '161']
 seq_type:
-('2', '0', '4') <- diff_two
-('2', '1', '4') <- gap_one
-
-
-gap: 58
-time: 11am
-common: ['0']
-results: ['400', '094', '705']
-seq_type:
-('4', '4', '7') <- has_double
-('4', '4', '5') <- has_double
-('0', '9', '7') <- gap_one
-
-
-gap: 59
-time: 4pm
-common: ['1']
-results: ['167', '818', '154']
-seq_type:
-('6', '8', '5') <- gap_one
-('6', '8', '4') <- diff_two
-('7', '8', '5') <- gap_one
-
-
-gap: 60
-time: 9pm
-common: ['6', '3']
-results: ['763', '603', '639']
-seq_type:
-('7', '0', '9') <- gap_one
-
-
-gap: 63
-time: 9pm
-common: ['2']
-results: ['020', '295', '712']
-seq_type:
-('0', '9', '7') <- gap_one
+('9', '9', '1') <- has_double
 ('0', '9', '1') <- diff_one
 
 
-gap: 65
+gap: 46
+time: 4pm
+common: ['1']
+results: ['518', '513', '818']
+seq_type:
+('5', '5', '8') <- has_double
+('8', '5', '8') <- has_double
+('8', '3', '8') <- has_double
+
+
+gap: 46
+time: 9pm
+common: ['2']
+results: ['287', '325', '291']
+seq_type:
+('7', '5', '9') <- diff_two
+
+
+gap: 47
+time: 4pm
+common: ['8']
+results: ['682', '884', '088']
+seq_type:
+('6', '8', '0') <- diff_two
+('6', '8', '8') <- has_double
+('6', '4', '8') <- diff_two
+('2', '8', '0') <- diff_two
+('2', '8', '8') <- has_double
+('2', '4', '0') <- diff_two
+
+
+gap: 48
+time: 4pm
+common: ['9']
+results: ['943', '495', '729']
+seq_type:
+('4', '4', '7') <- has_double
+('4', '4', '2') <- has_double
+('4', '5', '7') <- gap_one
+('4', '5', '2') <- gap_one
+('3', '4', '2') <- diff_one
+('3', '5', '7') <- diff_two
+('3', '5', '2') <- gap_one
+
+
+gap: 49
 time: 11am
 common: ['3']
-results: ['136', '038', '636']
+results: ['393', '813', '351']
 seq_type:
-('6', '0', '6') <- has_double
-('6', '8', '6') <- has_double
+('9', '8', '1') <- gap_one
+('9', '1', '1') <- has_double
+('3', '1', '5') <- diff_two
+('3', '1', '1') <- has_double
 
 
-gap: 65
-time: 9pm
-common: ['9']
-results: ['955', '019', '944']
-seq_type:
-
-
-gap: 67
+gap: 52
 time: 11am
-common: ['4']
-results: ['490', '145', '540']
+common: ['7']
+results: ['874', '761', '705']
 seq_type:
-('9', '1', '0') <- diff_one
-('9', '5', '5') <- has_double
-('0', '1', '0') <- has_double
-('0', '5', '5') <- has_double
-('0', '5', '0') <- has_double
+('8', '6', '0') <- diff_two
+('8', '6', '5') <- gap_one
+('8', '1', '0') <- gap_one
+('4', '6', '5') <- diff_one
+
+
+gap: 57
+time: 11am
+common: ['3']
+results: ['398', '310', '283']
+seq_type:
+('9', '1', '2') <- gap_one
+('9', '1', '8') <- gap_one
+('9', '0', '2') <- gap_one
+('9', '0', '8') <- diff_one
+('8', '1', '8') <- has_double
+('8', '0', '2') <- diff_two
+('8', '0', '8') <- has_double
+
+
+gap: 58
+time: 4pm
+common: ['5']
+results: ['245', '455', '356']
+seq_type:
+('2', '4', '3') <- diff_one
+('2', '4', '6') <- diff_two
+('2', '5', '3') <- gap_one
+('4', '4', '3') <- has_double
+('4', '4', '6') <- has_double
+('4', '5', '3') <- diff_one
+('4', '5', '6') <- diff_one
+
+
+gap: 60
+time: 11am
+common: ['6']
+results: ['868', '695', '506']
+seq_type:
+('8', '9', '0') <- diff_one
+('8', '5', '5') <- has_double
+
+
+gap: 62
+time: 11am
+common: ['5']
+results: ['591', '528', '503']
+seq_type:
+('9', '2', '0') <- gap_one
+('9', '8', '0') <- diff_one
+('1', '2', '0') <- diff_one
+('1', '2', '3') <- diff_one
+('1', '8', '0') <- gap_one
+
+
+gap: 62
+time: 9pm
+common: ['5']
+results: ['653', '563', '541']
+seq_type:
+('6', '6', '4') <- has_double
+('6', '6', '1') <- has_double
+('6', '3', '4') <- gap_one
+('3', '6', '4') <- gap_one
+('3', '3', '4') <- has_double
+('3', '3', '1') <- has_double
+
+
+gap: 63
+time: 11am
+common: ['6']
+results: ['621', '364', '460']
+seq_type:
+('2', '3', '4') <- diff_one
+('2', '3', '0') <- gap_one
+('2', '4', '4') <- has_double
+('2', '4', '0') <- diff_two
+('1', '3', '4') <- gap_one
+('1', '3', '0') <- gap_one
+('1', '4', '4') <- has_double
 
 
 gap: 67
 time: 9pm
-common: ['0']
-results: ['083', '095', '207']
+common: ['6']
+results: ['640', '769', '639']
 seq_type:
-('8', '9', '7') <- diff_one
-('8', '5', '7') <- gap_one
-('3', '5', '2') <- gap_one
-('3', '5', '7') <- diff_two
+('4', '9', '9') <- has_double
+('0', '7', '9') <- gap_one
+('0', '9', '9') <- has_double
 
 
 gap: 69
-time: 4pm
-common: ['5']
-results: ['258', '502', '415']
-seq_type:
-('2', '0', '4') <- diff_two
-('2', '0', '1') <- diff_one
-('2', '2', '4') <- has_double
-('2', '2', '1') <- has_double
-('8', '0', '1') <- gap_one
-
-
-gap: 70
 time: 9pm
-common: ['9']
-results: ['659', '903', '749']
+common: ['7']
+results: ['750', '979', '711']
 seq_type:
-('6', '3', '4') <- gap_one
-('5', '3', '7') <- diff_two
-('5', '3', '4') <- diff_one
+('0', '9', '1') <- diff_one
 
 
-gap: 72
-time: 11am
-common: ['9']
-results: ['491', '019', '789']
+gap: 74
+time: 4pm
+common: ['6', '8']
+results: ['468', '968', '685']
 seq_type:
-('1', '0', '8') <- gap_one
-('1', '1', '7') <- has_double
-('1', '1', '8') <- has_double
-
-
-gap: 73
-time: 11am
-common: ['5', '3']
-results: ['853', '513', '935']
-seq_type:
-('8', '1', '9') <- gap_one
 
 
 gap: 75
-time: 11am
-common: ['2']
-results: ['211', '782', '288']
+time: 9pm
+common: ['1']
+results: ['140', '192', '051']
 seq_type:
-('1', '8', '8') <- has_double
+('4', '2', '0') <- diff_two
+('4', '2', '5') <- gap_one
+('0', '9', '0') <- has_double
+('0', '2', '0') <- has_double
+
+
+gap: 76
+time: 4pm
+common: ['4']
+results: ['384', '874', '415']
+seq_type:
+('3', '7', '5') <- diff_two
+('8', '8', '1') <- has_double
+('8', '8', '5') <- has_double
+('8', '7', '5') <- gap_one
+
+
+gap: 76
+time: 9pm
+common: ['2']
+results: ['432', '252', '255']
+seq_type:
+('4', '5', '5') <- has_double
+('4', '2', '5') <- gap_one
+('3', '5', '5') <- has_double
+('3', '2', '5') <- gap_one
 
 
 gap: 77
-time: 11am
-common: ['2']
-results: ['299', '120', '852']
-seq_type:
-('9', '1', '8') <- gap_one
-('9', '0', '8') <- diff_one
-
-
-gap: 82
-time: 4pm
+time: 9pm
 common: ['7']
-results: ['730', '276', '723']
+results: ['733', '571', '749']
 seq_type:
-('3', '2', '2') <- has_double
-('3', '2', '3') <- has_double
+('3', '5', '4') <- diff_one
+('3', '1', '4') <- gap_one
+('3', '1', '9') <- diff_two
+
+
+gap: 78
+time: 9pm
+common: ['2']
+results: ['286', '027', '231']
+seq_type:
+('8', '0', '1') <- gap_one
+
+
+gap: 79
+time: 4pm
+common: ['0']
+results: ['130', '056', '307']
+seq_type:
+('1', '5', '3') <- diff_two
+('3', '5', '3') <- has_double
+('3', '5', '7') <- diff_two
 ('3', '6', '3') <- has_double
+
+
+gap: 79
+time: 9pm
+common: ['4']
+results: ['254', '043', '429']
+seq_type:
+('2', '0', '2') <- has_double
+('2', '0', '9') <- gap_one
+('2', '3', '2') <- has_double
+('5', '3', '2') <- gap_one
+
+
+gap: 80
+time: 11am
+common: ['3']
+results: ['723', '773', '935']
+seq_type:
+('7', '7', '9') <- has_double
+('7', '7', '5') <- has_double
+
+
+gap: 81
+time: 4pm
+common: ['6']
+results: ['680', '236', '682']
+seq_type:
+('8', '2', '8') <- has_double
+('8', '2', '2') <- has_double
+('8', '3', '8') <- has_double
+('0', '2', '8') <- diff_two
 ('0', '2', '2') <- has_double
-('0', '2', '3') <- gap_one
+('0', '3', '2') <- gap_one
+
+
+gap: 83
+time: 9pm
+common: ['4']
+results: ['468', '684', '034']
+seq_type:
+('6', '6', '0') <- has_double
+('6', '6', '3') <- has_double
+('6', '8', '0') <- diff_two
+('8', '6', '0') <- diff_two
+('8', '8', '0') <- has_double
+('8', '8', '3') <- has_double
 
 
 gap: 85
 time: 4pm
-common: ['4']
-results: ['774', '646', '417']
+common: ['2']
+results: ['827', '152', '702']
 seq_type:
-('7', '6', '7') <- has_double
+('8', '1', '0') <- gap_one
+('8', '5', '7') <- gap_one
+('7', '1', '7') <- has_double
+('7', '5', '7') <- has_double
 
 
-gap: 86
-time: 11am
-common: ['9']
-results: ['933', '794', '591']
+gap: 85
+time: 9pm
+common: ['2']
+results: ['520', '532', '212']
 seq_type:
-('3', '7', '5') <- diff_two
-('3', '4', '5') <- diff_one
-('3', '4', '1') <- gap_one
+('5', '5', '1') <- has_double
+('5', '5', '2') <- has_double
+('5', '3', '1') <- diff_two
+('5', '3', '2') <- gap_one
+('0', '3', '1') <- gap_one
+('0', '3', '2') <- gap_one
+
+
+gap: 87
+time: 9pm
+common: ['1']
+results: ['516', '821', '155']
+seq_type:
+('5', '8', '5') <- has_double
+('5', '2', '5') <- has_double
+('6', '8', '5') <- gap_one
+
+
+gap: 88
+time: 9pm
+common: ['0']
+results: ['083', '906', '130']
+seq_type:
+('8', '9', '1') <- gap_one
+('3', '9', '1') <- diff_two
+('3', '9', '3') <- has_double
+('3', '6', '3') <- has_double
 
 
 gap: 89
-time: 9pm
-common: ['7']
-results: ['967', '873', '767']
-seq_type:
-('9', '8', '6') <- gap_one
-('9', '8', '7') <- diff_one
-('6', '8', '6') <- has_double
-('6', '8', '7') <- diff_one
-('6', '3', '6') <- has_double
-
-
-gap: 90
 time: 11am
-common: ['5']
-results: ['765', '957', '588']
+common: ['8']
+results: ['484', '280', '218']
 seq_type:
-('7', '9', '8') <- diff_one
-('7', '7', '8') <- has_double
-('6', '9', '8') <- gap_one
-('6', '7', '8') <- diff_one
+('4', '2', '2') <- has_double
+('4', '2', '1') <- gap_one
+('4', '0', '2') <- diff_two
+
+
+gap: 89
+time: 4pm
+common: ['3']
+results: ['731', '830', '723']
+seq_type:
+('7', '8', '7') <- has_double
+('7', '0', '7') <- has_double
+('1', '0', '2') <- diff_one
 
 
 gap: 90
 time: 4pm
 common: ['8']
-results: ['826', '882', '814']
+results: ['258', '839', '308']
 seq_type:
-('2', '2', '1') <- has_double
-('2', '2', '4') <- has_double
-('6', '8', '4') <- diff_two
-('6', '2', '4') <- diff_two
+('2', '3', '3') <- has_double
+('2', '3', '0') <- gap_one
+('2', '9', '0') <- gap_one
+('5', '3', '3') <- has_double
 
 
 gap: 90
 time: 9pm
 common: ['3']
-results: ['063', '132', '143']
+results: ['631', '913', '388']
 seq_type:
-('0', '1', '1') <- has_double
-('0', '2', '1') <- diff_one
-('0', '2', '4') <- diff_two
-('6', '1', '1') <- has_double
-('6', '2', '4') <- diff_two
+('6', '9', '8') <- gap_one
+('1', '9', '8') <- gap_one
+('1', '1', '8') <- has_double
+
+
+gap: 91
+time: 11am
+common: ['4']
+results: ['742', '494', '724']
+seq_type:
+('7', '9', '7') <- has_double
+('7', '4', '7') <- has_double
+('2', '9', '2') <- has_double
+('2', '4', '2') <- has_double
+
+
+gap: 92
+time: 11am
+common: ['5']
+results: ['985', '524', '543']
+seq_type:
+('9', '4', '4') <- has_double
+('8', '4', '4') <- has_double
+
+
+gap: 93
+time: 11am
+common: ['9']
+results: ['491', '459', '591']
+seq_type:
+('4', '4', '5') <- has_double
+('4', '4', '1') <- has_double
+('4', '5', '5') <- has_double
+('1', '4', '1') <- has_double
+('1', '5', '5') <- has_double
+('1', '5', '1') <- has_double
 
 
 gap: 93
 time: 4pm
-common: ['6']
-results: ['156', '936', '694']
+common: ['1']
+results: ['513', '123', '961']
 seq_type:
-('1', '9', '9') <- has_double
-('1', '3', '9') <- diff_two
-('1', '3', '4') <- gap_one
-('5', '9', '9') <- has_double
-('5', '3', '4') <- diff_one
-
-
-gap: 93
-time: 9pm
-common: ['7']
-results: ['725', '837', '657']
-seq_type:
-('2', '3', '5') <- gap_one
-('5', '8', '6') <- gap_one
-('5', '8', '5') <- has_double
 ('5', '3', '6') <- gap_one
-('5', '3', '5') <- has_double
+('3', '3', '9') <- has_double
+('3', '3', '6') <- has_double
 
 
 gap: 94
 time: 11am
-common: ['3']
-results: ['310', '345', '233']
+common: ['8']
+results: ['853', '098', '589']
 seq_type:
-('1', '4', '2') <- gap_one
-('1', '4', '3') <- gap_one
-('1', '5', '3') <- diff_two
-('0', '4', '2') <- diff_two
+('5', '0', '5') <- has_double
+('5', '9', '5') <- has_double
+('5', '9', '9') <- has_double
+('3', '9', '9') <- has_double
 
 
-gap: 96
+gap: 95
+time: 11am
+common: ['4', '6']
+results: ['416', '460', '546']
+seq_type:
+
+
+gap: 97
+time: 11am
+common: ['8']
+results: ['839', '378', '588']
+seq_type:
+('3', '3', '5') <- has_double
+('3', '3', '8') <- has_double
+('3', '7', '5') <- diff_two
+('9', '7', '5') <- diff_two
+('9', '7', '8') <- diff_one
+
+
+gap: 97
 time: 9pm
-common: ['5']
-results: ['050', '529', '385']
+common: ['4']
+results: ['364', '804', '143']
 seq_type:
-('0', '2', '3') <- gap_one
-('0', '2', '8') <- diff_two
-('0', '9', '8') <- diff_one
+('3', '8', '3') <- has_double
+('3', '0', '1') <- gap_one
+('3', '0', '3') <- has_double
 
 
 gap: 98
-time: 11am
-common: ['6']
-results: ['678', '636', '836']
+time: 4pm
+common: ['2']
+results: ['112', '572', '217']
 seq_type:
-('7', '3', '3') <- has_double
-('7', '6', '8') <- diff_one
-('8', '3', '8') <- has_double
-('8', '3', '3') <- has_double
-('8', '6', '8') <- has_double
+('1', '5', '1') <- has_double
+('1', '7', '1') <- has_double
+('1', '7', '7') <- has_double
+
+
+gap: 100
+time: 11am
+common: ['5']
+results: ['605', '835', '509']
+seq_type:
+('6', '8', '0') <- diff_two
+('6', '8', '9') <- gap_one
+('0', '8', '0') <- has_double
+('0', '8', '9') <- diff_one
+('0', '3', '0') <- has_double
+
+
+gap: 100
+time: 4pm
+common: ['9']
+results: ['249', '209', '694']
+seq_type:
+('2', '2', '6') <- has_double
+('2', '2', '4') <- has_double
+('2', '0', '4') <- diff_two
+('4', '2', '6') <- diff_two
+('4', '2', '4') <- has_double
+('4', '0', '4') <- has_double
 
 
 gap: 101
 time: 11am
-common: ['4']
-results: ['453', '540', '674']
-seq_type:
-('5', '5', '6') <- has_double
-('5', '5', '7') <- has_double
-('3', '5', '6') <- gap_one
-('3', '5', '7') <- diff_two
-
-
-gap: 109
-time: 11am
-common: ['7']
-results: ['975', '971', '700']
-seq_type:
-('9', '9', '0') <- has_double
-('9', '1', '0') <- diff_one
-
-
-gap: 109
-time: 9pm
-common: ['6']
-results: ['316', '786', '806']
-seq_type:
-('3', '8', '8') <- has_double
-('1', '8', '8') <- has_double
-('1', '8', '0') <- gap_one
-
-
-gap: 110
-time: 11am
-common: ['3']
-results: ['883', '935', '053']
-seq_type:
-('8', '9', '0') <- diff_one
-('8', '5', '5') <- has_double
-
-
-gap: 119
-time: 4pm
-common: ['1']
-results: ['818', '551', '631']
-seq_type:
-('8', '5', '6') <- gap_one
-
-
-gap: 121
-time: 4pm
-common: ['5']
-results: ['569', '552', '520']
-seq_type:
-('6', '2', '2') <- has_double
-('9', '2', '2') <- has_double
-('9', '2', '0') <- gap_one
-
-
-gap: 122
-time: 9pm
-common: ['0']
-results: ['068', '130', '085']
-seq_type:
-('6', '3', '5') <- gap_one
-('8', '1', '8') <- has_double
-('8', '3', '8') <- has_double
-
-
-gap: 123
-time: 9pm
-common: ['4']
-results: ['564', '464', '384']
-seq_type:
-('5', '6', '3') <- gap_one
-('5', '6', '8') <- gap_one
-('5', '4', '3') <- diff_one
-('6', '6', '3') <- has_double
-('6', '6', '8') <- has_double
-('6', '4', '3') <- gap_one
-('6', '4', '8') <- diff_two
-
-
-gap: 126
-time: 11am
-common: ['0']
-results: ['302', '890', '760']
-seq_type:
-
-
-gap: 128
-time: 11am
-common: ['3']
-results: ['351', '543', '003']
-seq_type:
-('5', '5', '0') <- has_double
-
-
-gap: 128
-time: 9pm
-common: ['0']
-results: ['056', '805', '306']
-seq_type:
-('5', '8', '6') <- gap_one
-('5', '5', '3') <- has_double
-('5', '5', '6') <- has_double
-('6', '8', '6') <- has_double
-('6', '5', '3') <- gap_one
-('6', '5', '6') <- has_double
-
-
-gap: 130
-time: 9pm
 common: ['2']
-results: ['192', '239', '723']
+results: ['322', '502', '233']
 seq_type:
-('1', '3', '3') <- has_double
-('1', '9', '7') <- diff_two
-('1', '9', '3') <- diff_two
-('9', '3', '3') <- has_double
-('9', '9', '7') <- has_double
-('9', '9', '3') <- has_double
-
-
-gap: 131
-time: 4pm
-common: ['4']
-results: ['174', '894', '324']
-seq_type:
-('1', '9', '3') <- diff_two
-('1', '9', '2') <- gap_one
-
-
-gap: 133
-time: 9pm
-common: ['4']
-results: ['463', '475', '284']
-seq_type:
-('6', '7', '8') <- diff_one
-('6', '5', '8') <- gap_one
-('3', '5', '2') <- gap_one
-
-
-gap: 135
-time: 11am
-common: ['5']
-results: ['145', '953', '595']
-seq_type:
-('1', '9', '9') <- has_double
-('1', '3', '9') <- diff_two
-('1', '3', '5') <- diff_two
-('4', '9', '9') <- has_double
-('4', '3', '5') <- diff_one
-
-
-gap: 137
-time: 4pm
-common: ['7']
-results: ['667', '217', '779']
-seq_type:
-
-
-gap: 138
-time: 4pm
-common: ['5']
-results: ['056', '825', '275']
-seq_type:
-('0', '8', '2') <- diff_two
-('0', '8', '7') <- gap_one
-('0', '2', '2') <- has_double
-('6', '8', '7') <- diff_one
-('6', '2', '2') <- has_double
-
-
-gap: 138
-time: 9pm
-common: ['3']
-results: ['043', '693', '863']
-seq_type:
-('0', '6', '8') <- diff_two
-('0', '6', '6') <- has_double
-('0', '9', '8') <- diff_one
-('4', '6', '8') <- diff_two
-('4', '6', '6') <- has_double
-
-
-gap: 139
-time: 9pm
-common: ['8']
-results: ['228', '813', '081']
-seq_type:
-('2', '1', '0') <- diff_one
-('2', '1', '1') <- has_double
-('2', '3', '0') <- gap_one
-('2', '3', '1') <- diff_one
-
-
-gap: 142
-time: 4pm
-common: ['3']
-results: ['236', '743', '327']
-seq_type:
-('2', '7', '2') <- has_double
-('2', '7', '7') <- has_double
-('2', '4', '2') <- has_double
-('6', '7', '7') <- has_double
-('6', '4', '2') <- diff_two
-('6', '4', '7') <- gap_one
-
-
-gap: 142
-time: 9pm
-common: ['9']
-results: ['539', '994', '919']
-seq_type:
-('5', '9', '9') <- has_double
-('3', '9', '1') <- diff_two
-('3', '9', '9') <- has_double
-('3', '4', '1') <- gap_one
-
-
-gap: 143
-time: 11am
-common: ['2']
-results: ['382', '123', '842']
-seq_type:
-('3', '1', '4') <- gap_one
-('3', '3', '8') <- has_double
-('3', '3', '4') <- has_double
-('8', '1', '8') <- has_double
-('8', '3', '8') <- has_double
-
-
-gap: 147
-time: 11am
-common: ['3']
-results: ['513', '320', '643']
-seq_type:
-('5', '2', '4') <- gap_one
-('1', '2', '4') <- gap_one
-
-
-gap: 151
-time: 4pm
-common: ['9']
-results: ['219', '409', '497']
-seq_type:
-('2', '4', '4') <- has_double
-('2', '0', '4') <- diff_two
-('1', '4', '4') <- has_double
-
-
-gap: 154
-time: 11am
-common: ['3']
-results: ['360', '325', '838']
-seq_type:
-('6', '5', '8') <- gap_one
-('0', '2', '8') <- diff_two
-
-
-gap: 156
-time: 4pm
-common: ['7']
-results: ['576', '754', '687']
-seq_type:
-('5', '5', '6') <- has_double
-('5', '5', '8') <- has_double
-('5', '4', '6') <- diff_one
-('6', '5', '6') <- has_double
-('6', '5', '8') <- gap_one
-('6', '4', '6') <- has_double
-('6', '4', '8') <- diff_two
-
-
-gap: 157
-time: 9pm
-common: ['4']
-results: ['154', '394', '574']
-seq_type:
-('1', '3', '5') <- diff_two
-('1', '9', '7') <- diff_two
-('5', '3', '5') <- has_double
-('5', '3', '7') <- diff_two
-('5', '9', '5') <- has_double
-('5', '9', '7') <- diff_two
-
-
-gap: 163
-time: 11am
-common: ['6']
-results: ['464', '563', '496']
-seq_type:
-('4', '5', '4') <- has_double
-('4', '3', '4') <- has_double
-
-
-gap: 164
-time: 4pm
-common: ['3']
-results: ['183', '431', '738']
-seq_type:
-('1', '1', '7') <- has_double
-('1', '1', '8') <- has_double
-('8', '4', '8') <- has_double
-('8', '1', '8') <- has_double
-
-
-gap: 164
-time: 9pm
-common: ['6']
-results: ['264', '806', '946']
-seq_type:
-('2', '0', '9') <- gap_one
-('2', '0', '4') <- diff_two
-('4', '8', '4') <- has_double
-('4', '0', '4') <- has_double
-
-
-gap: 165
-time: 4pm
-common: ['7']
-results: ['276', '507', '687']
-seq_type:
-('2', '0', '8') <- diff_two
-('6', '5', '6') <- has_double
-('6', '5', '8') <- gap_one
-('6', '0', '6') <- has_double
-('6', '0', '8') <- diff_two
-
-
-gap: 166
-time: 4pm
-common: ['1']
-results: ['123', '120', '371']
-seq_type:
-('2', '2', '3') <- has_double
-('2', '2', '7') <- has_double
-('2', '0', '3') <- gap_one
-('3', '2', '3') <- has_double
+('3', '5', '3') <- has_double
 ('3', '0', '3') <- has_double
+('2', '5', '3') <- gap_one
+('2', '0', '3') <- gap_one
 
 
-gap: 167
+gap: 103
+time: 9pm
+common: ['3']
+results: ['389', '396', '385']
+seq_type:
+('8', '9', '8') <- has_double
+('8', '6', '8') <- has_double
+('8', '6', '5') <- gap_one
+('9', '9', '8') <- has_double
+('9', '9', '5') <- has_double
+('9', '6', '8') <- gap_one
+
+
+gap: 104
 time: 9pm
 common: ['1']
-results: ['541', '318', '313']
+results: ['418', '711', '131']
 seq_type:
-('5', '3', '3') <- has_double
-('4', '3', '3') <- has_double
-
-
-gap: 168
-time: 9pm
-common: ['2']
-results: ['120', '236', '325']
-seq_type:
-('1', '3', '3') <- has_double
-('1', '3', '5') <- diff_two
-('0', '3', '3') <- has_double
-
-
-gap: 169
-time: 11am
-common: ['6']
-results: ['886', '163', '156']
-seq_type:
+('4', '1', '3') <- gap_one
+('4', '1', '1') <- has_double
 ('8', '1', '1') <- has_double
 
 
-gap: 170
+gap: 105
 time: 11am
-common: ['0']
-results: ['460', '035', '820']
+common: ['6']
+results: ['761', '677', '836']
 seq_type:
-('4', '3', '2') <- diff_one
-('4', '5', '2') <- gap_one
-('6', '5', '8') <- gap_one
+('7', '7', '8') <- has_double
+('7', '7', '3') <- has_double
 
 
-gap: 172
+gap: 105
+time: 9pm
+common: ['2']
+results: ['926', '152', '002']
+seq_type:
+('9', '1', '0') <- diff_one
+
+
+gap: 106
+time: 11am
+common: ['0', '3']
+results: ['034', '130', '630']
+seq_type:
+
+
+gap: 107
+time: 9pm
+common: ['9']
+results: ['259', '193', '994']
+seq_type:
+('2', '1', '9') <- gap_one
+('2', '1', '4') <- gap_one
+('2', '3', '4') <- diff_one
+('5', '3', '4') <- diff_one
+
+
+gap: 108
+time: 11am
+common: ['4']
+results: ['814', '487', '674']
+seq_type:
+('8', '8', '6') <- has_double
+('8', '8', '7') <- has_double
+('8', '7', '6') <- diff_one
+('8', '7', '7') <- has_double
+('1', '7', '7') <- has_double
+
+
+gap: 109
 time: 4pm
 common: ['3']
-results: ['813', '453', '053']
+results: ['303', '173', '347']
+seq_type:
+('0', '7', '7') <- has_double
+('3', '1', '4') <- gap_one
+('3', '7', '7') <- has_double
+
+
+gap: 111
+time: 4pm
+common: ['2']
+results: ['826', '528', '252']
 seq_type:
 ('8', '5', '5') <- has_double
-('1', '5', '5') <- has_double
+('8', '8', '5') <- has_double
+('8', '8', '2') <- has_double
+('6', '5', '5') <- has_double
+('6', '8', '5') <- gap_one
 
 
-gap: 176
+gap: 112
+time: 9pm
+common: ['4']
+results: ['423', '045', '604']
+seq_type:
+('2', '0', '0') <- has_double
+('3', '0', '0') <- has_double
+('3', '5', '6') <- gap_one
+
+
+gap: 113
+time: 4pm
+common: ['8']
+results: ['859', '385', '897']
+seq_type:
+('5', '3', '7') <- diff_two
+('5', '5', '9') <- has_double
+('5', '5', '7') <- has_double
+('9', '3', '9') <- has_double
+('9', '5', '9') <- has_double
+('9', '5', '7') <- diff_two
+
+
+gap: 116
+time: 4pm
+common: ['4']
+results: ['410', '848', '431']
+seq_type:
+('1', '8', '1') <- has_double
+('0', '8', '1') <- gap_one
+
+
+gap: 117
 time: 11am
 common: ['5']
-results: ['705', '615', '105']
+results: ['501', '253', '053']
 seq_type:
-('7', '1', '1') <- has_double
-('0', '6', '0') <- has_double
+('0', '2', '0') <- has_double
+('0', '2', '3') <- gap_one
+('0', '3', '0') <- has_double
+('0', '3', '3') <- has_double
+('1', '2', '0') <- diff_one
+('1', '2', '3') <- diff_one
+('1', '3', '0') <- gap_one
+('1', '3', '3') <- has_double
+
+
+gap: 118
+time: 11am
+common: ['5']
+results: ['544', '275', '523']
+seq_type:
+('4', '2', '2') <- has_double
+('4', '2', '3') <- diff_one
+
+
+gap: 118
+time: 9pm
+common: ['3']
+results: ['335', '163', '318']
+seq_type:
+('3', '1', '1') <- has_double
+('5', '1', '1') <- has_double
+('5', '6', '8') <- gap_one
+
+
+gap: 119
+time: 11am
+common: ['8']
+results: ['678', '789', '824']
+seq_type:
+('6', '7', '4') <- gap_one
+('7', '7', '2') <- has_double
+('7', '7', '4') <- has_double
+
+
+gap: 120
+time: 4pm
+common: ['4']
+results: ['774', '421', '242']
+seq_type:
+('7', '2', '2') <- has_double
+
+
+gap: 121
+time: 9pm
+common: ['6']
+results: ['695', '613', '671']
+seq_type:
+('9', '1', '7') <- diff_two
+('9', '1', '1') <- has_double
+('9', '3', '1') <- diff_two
+('5', '1', '1') <- has_double
+('5', '3', '7') <- diff_two
+('5', '3', '1') <- diff_two
+
+
+gap: 122
+time: 4pm
+common: ['2']
+results: ['942', '682', '328']
+seq_type:
+('9', '6', '8') <- gap_one
+('9', '8', '8') <- has_double
+('4', '6', '3') <- gap_one
+('4', '6', '8') <- diff_two
+('4', '8', '8') <- has_double
+
+
+gap: 124
+time: 4pm
+common: ['2']
+results: ['240', '270', '231']
+seq_type:
+('0', '0', '3') <- has_double
+('0', '0', '1') <- has_double
+
+
+gap: 124
+time: 9pm
+common: ['9']
+results: ['889', '975', '941']
+seq_type:
+
+
+gap: 125
+time: 11am
+common: ['8']
+results: ['528', '877', '782']
+seq_type:
+('5', '7', '7') <- has_double
+('2', '7', '7') <- has_double
+('2', '7', '2') <- has_double
+
+
+gap: 128
+time: 4pm
+common: ['0']
+results: ['009', '702', '520']
+seq_type:
+('0', '2', '2') <- has_double
+('9', '7', '5') <- diff_two
+('9', '2', '2') <- has_double
+
+
+gap: 130
+time: 11am
+common: ['9']
+results: ['975', '998', '934']
+seq_type:
+
+
+gap: 133
+time: 11am
+common: ['0']
+results: ['102', '803', '760']
+seq_type:
+
+
+gap: 133
+time: 4pm
+common: ['8']
+results: ['487', '872', '686']
+seq_type:
+('4', '7', '6') <- gap_one
+('4', '2', '6') <- diff_two
+('7', '7', '6') <- has_double
+
+
+gap: 134
+time: 11am
+common: ['2', '8']
+results: ['028', '218', '982']
+seq_type:
+('0', '1', '9') <- diff_one
+
+
+gap: 135
+time: 9pm
+common: ['6']
+results: ['769', '126', '306']
+seq_type:
+('9', '1', '3') <- diff_two
+('9', '1', '0') <- diff_one
+('9', '2', '0') <- gap_one
+
+
+gap: 136
+time: 4pm
+common: ['3']
+results: ['936', '573', '733']
+seq_type:
+('9', '5', '7') <- diff_two
+('9', '7', '7') <- has_double
+('6', '5', '7') <- diff_one
+('6', '5', '3') <- gap_one
+('6', '7', '7') <- has_double
+
+
+gap: 140
+time: 9pm
+common: ['2']
+results: ['291', '642', '284']
+seq_type:
+('9', '6', '8') <- gap_one
+('9', '4', '4') <- has_double
+('1', '4', '4') <- has_double
+
+
+gap: 142
+time: 9pm
+common: ['6']
+results: ['603', '716', '146']
+seq_type:
 ('0', '1', '1') <- has_double
-('0', '1', '0') <- has_double
+('3', '1', '1') <- has_double
+('3', '1', '4') <- gap_one
+
+
+gap: 143
+time: 9pm
+common: ['8']
+results: ['068', '378', '885']
+seq_type:
+('0', '7', '8') <- gap_one
+('6', '3', '5') <- gap_one
+('6', '7', '8') <- diff_one
+('6', '7', '5') <- diff_one
+
+
+gap: 145
+time: 11am
+common: ['2']
+results: ['920', '025', '882']
+seq_type:
+('9', '0', '8') <- diff_one
+('0', '0', '8') <- has_double
+
+
+gap: 145
+time: 4pm
+common: ['2']
+results: ['621', '682', '275']
+seq_type:
+('6', '6', '7') <- has_double
+('6', '6', '5') <- has_double
+('6', '8', '7') <- diff_one
+('6', '8', '5') <- gap_one
+
+
+gap: 148
+time: 9pm
+common: ['9']
+results: ['295', '983', '699']
+seq_type:
+('5', '8', '6') <- gap_one
+('5', '3', '6') <- gap_one
+
+
+gap: 151
+time: 9pm
+common: ['9']
+results: ['192', '995', '059']
+seq_type:
+('1', '9', '0') <- diff_one
+('1', '5', '5') <- has_double
+('2', '9', '0') <- gap_one
+('2', '5', '5') <- has_double
+
+
+gap: 152
+time: 4pm
+common: ['1']
+results: ['174', '818', '185']
+seq_type:
+('7', '8', '8') <- has_double
+('7', '8', '5') <- gap_one
+('4', '8', '8') <- has_double
+
+
+gap: 155
+time: 11am
+common: ['5']
+results: ['656', '465', '759']
+seq_type:
+('6', '4', '7') <- gap_one
+('6', '6', '7') <- has_double
+('6', '6', '9') <- has_double
+
+
+gap: 159
+time: 11am
+common: ['1']
+results: ['138', '116', '214']
+seq_type:
+('3', '1', '2') <- diff_one
+('3', '1', '4') <- gap_one
+('3', '6', '4') <- gap_one
+('8', '6', '4') <- diff_two
+
+
+gap: 160
+time: 4pm
+common: ['0']
+results: ['502', '607', '907']
+seq_type:
+('5', '6', '7') <- diff_one
+('5', '7', '9') <- diff_two
+('5', '7', '7') <- has_double
+('2', '7', '7') <- has_double
+
+
+gap: 162
+time: 11am
+common: ['5']
+results: ['526', '571', '540']
+seq_type:
+('2', '1', '4') <- gap_one
+('2', '1', '0') <- diff_one
+('6', '7', '4') <- gap_one
+
+
+gap: 166
+time: 9pm
+common: ['1']
+results: ['801', '416', '571']
+seq_type:
+('8', '6', '5') <- gap_one
+('8', '6', '7') <- diff_one
+
+
+gap: 171
+time: 11am
+common: ['2']
+results: ['772', '332', '228']
+seq_type:
+
+
+gap: 175
+time: 11am
+common: ['6']
+results: ['360', '962', '465']
+seq_type:
+('3', '2', '4') <- diff_one
+('3', '2', '5') <- gap_one
+('0', '2', '4') <- diff_two
 
 
 gap: 177
 time: 11am
-common: ['8']
-results: ['283', '778', '834']
+common: ['2']
+results: ['286', '244', '820']
 seq_type:
-('3', '7', '3') <- has_double
+('8', '4', '8') <- has_double
+('6', '4', '8') <- diff_two
 
 
-gap: 178
-time: 9pm
-common: ['7', '4']
-results: ['774', '974', '974']
+gap: 177
+time: 4pm
+common: ['5']
+results: ['576', '549', '935']
 seq_type:
 ('7', '9', '9') <- has_double
+('6', '4', '3') <- gap_one
+('6', '9', '9') <- has_double
 
 
 gap: 180
 time: 4pm
-common: ['0']
-results: ['209', '460', '064']
-seq_type:
-('2', '4', '6') <- diff_two
-('2', '4', '4') <- has_double
-('2', '6', '6') <- has_double
-('2', '6', '4') <- diff_two
-('9', '4', '4') <- has_double
-('9', '6', '6') <- has_double
-
-
-gap: 184
-time: 11am
-common: ['8']
-results: ['586', '998', '781']
-seq_type:
-('5', '9', '7') <- diff_two
-('6', '9', '7') <- gap_one
-
-
-gap: 184
-time: 9pm
 common: ['3']
-results: ['395', '312', '663']
+results: ['382', '330', '392']
 seq_type:
+('8', '0', '9') <- diff_one
+('8', '0', '2') <- diff_two
+('2', '3', '2') <- has_double
+('2', '0', '9') <- gap_one
+('2', '0', '2') <- has_double
+
+
+gap: 182
+time: 11am
+common: ['5']
+results: ['506', '457', '235']
+seq_type:
+('0', '4', '2') <- diff_two
+('6', '4', '2') <- diff_two
+('6', '4', '3') <- gap_one
 
 
 gap: 185
 time: 11am
-common: ['3']
-results: ['398', '934', '153']
+common: ['2']
+results: ['524', '722', '582']
 seq_type:
-('9', '9', '1') <- has_double
-('9', '9', '5') <- has_double
-('8', '9', '1') <- gap_one
+('5', '7', '5') <- has_double
+('5', '7', '8') <- gap_one
+('5', '2', '5') <- has_double
+('4', '7', '5') <- gap_one
+('4', '2', '5') <- gap_one
 
 
 gap: 185
-time: 9pm
-common: ['4']
-results: ['047', '384', '340']
-seq_type:
-('0', '3', '3') <- has_double
-('0', '3', '0') <- has_double
-('0', '8', '0') <- has_double
-('7', '3', '3') <- has_double
-('7', '8', '0') <- gap_one
-
-
-gap: 186
-time: 11am
-common: ['3']
-results: ['834', '386', '623']
-seq_type:
-('8', '8', '6') <- has_double
-('8', '8', '2') <- has_double
-('8', '6', '6') <- has_double
-('4', '8', '6') <- diff_two
-('4', '6', '6') <- has_double
-('4', '6', '2') <- diff_two
-
-
-gap: 190
 time: 4pm
-common: ['4']
-results: ['243', '488', '442']
+common: ['1']
+results: ['183', '135', '018']
 seq_type:
-('2', '8', '2') <- has_double
+('8', '3', '8') <- has_double
+('8', '5', '8') <- has_double
+('3', '3', '0') <- has_double
+('3', '3', '8') <- has_double
 
 
-gap: 190
+gap: 188
 time: 9pm
 common: ['5']
-results: ['152', '521', '759']
+results: ['541', '516', '905']
 seq_type:
-('1', '2', '9') <- gap_one
-('1', '1', '7') <- has_double
 ('1', '1', '9') <- has_double
-('2', '2', '7') <- has_double
-('2', '2', '9') <- has_double
-('2', '1', '9') <- gap_one
+('1', '1', '0') <- has_double
+
+
+gap: 189
+time: 4pm
+common: ['2']
+results: ['219', '202', '229']
+seq_type:
+('1', '0', '2') <- diff_one
+('1', '0', '9') <- diff_one
+('1', '2', '2') <- has_double
+('1', '2', '9') <- gap_one
+('9', '0', '2') <- gap_one
+('9', '0', '9') <- has_double
+('9', '2', '2') <- has_double
+('9', '2', '9') <- has_double
 
 
 gap: 193
-time: 4pm
-common: ['6']
-results: ['609', '461', '619']
-seq_type:
-('0', '1', '1') <- has_double
-('0', '1', '9') <- diff_one
-('9', '4', '9') <- has_double
-('9', '1', '1') <- has_double
-('9', '1', '9') <- has_double
-
-
-gap: 198
 time: 11am
-common: ['5']
-results: ['544', '651', '975']
+common: ['3']
+results: ['302', '380', '623']
 seq_type:
-('4', '6', '7') <- gap_one
+('0', '8', '6') <- diff_two
+('0', '8', '2') <- diff_two
+('0', '0', '6') <- has_double
+('0', '0', '2') <- has_double
+('2', '8', '2') <- has_double
+('2', '0', '2') <- has_double
+
+
+gap: 194
+time: 4pm
+common: ['0']
+results: ['077', '052', '210']
+seq_type:
+('7', '2', '2') <- has_double
+
+
+gap: 197
+time: 9pm
+common: ['7']
+results: ['715', '267', '759']
+seq_type:
+('1', '2', '9') <- gap_one
+('5', '2', '5') <- has_double
+('5', '6', '5') <- has_double
 
 
 gap: 199
-time: 9pm
-common: ['0']
-results: ['017', '507', '002']
+time: 4pm
+common: ['2']
+results: ['228', '424', '289']
 seq_type:
-('7', '7', '0') <- has_double
-('7', '7', '2') <- has_double
+('8', '4', '8') <- has_double
 
 

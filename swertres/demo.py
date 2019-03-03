@@ -1,11 +1,12 @@
 """
-Given a list of gap results taken from results_2.txt
+Given a list of gap results taken from results_v2.txt
 determine and filter the results base on its seq_types
 """
 
 from itertools import *
 from re import *
 from pprint import *
+import fileinput
 
 
 def get_seq_types(results):
@@ -97,8 +98,6 @@ def get_seq_types(results):
                 else:
                     diff_none_count += 1
 
-            # print(diff_one_count, diff_two_count, diff_none_count)
-
             # Filter diff_one
             if diff_two_count == 0 and diff_none_count < 2:
                 return "diff_one"
@@ -184,7 +183,7 @@ def get_gap_results_v2():
             temp_results = []
 
             for count, result in enumerate(results):
-                if step == count and len(temp_results) != 2:
+                if step == count and len(temp_results) != 3:
                     temp_results.append(result)
 
                     step += (gap + 1)
@@ -299,65 +298,130 @@ def get_pos_digits(sequence, seq_type):
     return output
 
 
-def get_current_date_v2():
+def get_generated_date_v2():
     """Get current date from updated string of
     results_v2.txt. Return a string of date
     """
 
+    reverse_dates = []
+
     with open("results_v2.txt") as fi:
-        first_line = fi.readline().strip()
-        return findall(r"(?<=updated: )(\S.+)", first_line)[0]
+        for entry in islice(fi, 2, None):
+            entry = split(r"\s{2,}", entry.strip())
+            if len(entry) == 4:
+                date = entry[0]
+                reverse_dates.insert(0, date)
+
+    return reverse_dates[0]
+
+
+def is_current_date():
+    """Get results_v2.txt current date and compare it to
+    results_seq_types_v2.1.txt date. Return True if they
+    are the same and False if not
+    """
+
+    with open("results_seq_types_v2.1.txt", "r") as fo:
+        fi_date = "updated: " + get_generated_date_v2()
+        fo_date = fo.readline().strip()
+
+        if fi_date != fo_date:
+            return fi_date
+
+
+def export_results(time, gap, results, seq_types):
+
+    with open("results_seq_types_v2.1.txt", "a") as fo:
+
+            if (
+                "common" in seq_types and
+                len(seq_types["common"]) == 1 and
+                "diff_one" in seq_types and
+                len(seq_types["diff_one"]) == 1 and
+                "diff_two" in seq_types and
+                len(seq_types["diff_two"]) == 1
+            ):
+
+                c_digits = []
+                d_one_digits = []
+                d_two_digits = []
+
+                fo.write("time: {}\n".format(time))
+                fo.write("gap: {}\n".format(gap))
+                fo.write("common: {}\n".format(seq_types["common"]))
+                fo.write("results: {}\n".format(results))
+                fo.write("seq_type: {}({}), {}({})\n".format(
+                    "diff_one", len(seq_types["diff_one"]),
+                    "diff_two", len(seq_types["diff_two"])))
+
+                for common in seq_types["common"]:
+                    c_digits.append(common)
+
+                for d_one in seq_types["diff_one"]:
+                    d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
+
+                for d_two in seq_types["diff_two"]:
+                    d_two_digits.extend(get_pos_digits(d_two, "diff_two"))
+
+                fo.write("combis:\n")
+                for combi in product(
+                    c_digits,
+                    d_one_digits,
+                    d_two_digits
+                ):
+                    fo.write("{}\n".format("".join(combi)))
+
+                fo.write("\n")
 
 
 def filter_results():
     """After getting the get_gap_results_v2 filter
     the results by its seq_type, common etc
     """
-    time_gap_results = get_gap_results_v2()
 
-    print("DATE GENERATED: {}".format(get_current_date_v2()))
+    print("DATE GENERATED: {}\n".format(get_generated_date_v2()))
+
+    time_gap_results = get_gap_results_v2()
 
     for time, gap_results in time_gap_results.items():
         for gap, results in gap_results.items():
             seq_types = get_seq_types(results)
 
-            # Filter options
+            # Filter options currently set to:
+            # common(1), diff_one(1), diff_two(1)
             if (
                 "common" in seq_types and
                 len(seq_types["common"]) == 1 and
-                "diff_two" in seq_types and
-                len(seq_types["diff_two"]) == 1 and
                 "diff_one" in seq_types and
-                len(seq_types["diff_one"]) == 1
+                len(seq_types["diff_one"]) == 2
             ):
+
+                d_one_digits = []
+                c_digits = []
+
+                for common in seq_types["common"]:
+                    c_digits.append(common)
 
                 print("time: {}".format(time))
                 print("gap: {}".format(gap))
                 print("common: {}".format(seq_types["common"]))
                 print("results: {}".format(results))
-                print("diff_one, diff_two:")
 
+                print("seq_types:")
                 for d_one in seq_types["diff_one"]:
                     print("{} <- {}".format(
                         d_one, get_pos_digits(d_one, "diff_one")))
-
-                for d_two in seq_types["diff_two"]:
-                    print("{} <- {}".format(
-                        d_two, get_pos_digits(d_two, "diff_two")))
+                    d_one_digits.append(get_pos_digits(d_one, "diff_one"))
 
                 print("combis:")
-                for combi in product(
-                    seq_types["common"],
-                    get_pos_digits(d_one, "diff_one"),
-                    get_pos_digits(d_two, "diff_two")
-                ):
-                    print(combi)
+                for combi in product(c_digits, *d_one_digits):
+                    print("".join(combi))
 
                 print("\n")
 
 
 def main():
-    filter_results()
+        filter_results()
 
 
 if __name__ == "__main__":
