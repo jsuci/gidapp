@@ -6,7 +6,6 @@ determine and filter the results base on its seq_types
 from itertools import *
 from re import *
 from pprint import *
-import fileinput
 
 
 def get_seq_types(results):
@@ -178,7 +177,7 @@ def get_gap_results_v2():
     gap_results = {}
 
     for time, results in time_results.items():
-        for gap in range(1, 20):
+        for gap in range(1, 50):
             step = gap
             temp_results = []
 
@@ -379,6 +378,18 @@ def filter_results():
     the results by its seq_type, common etc
     """
 
+    def is_pure_diff_one(results, d_one_seq):
+        filter_res = []
+        for res_c, result in enumerate(results):
+            for seq in d_one_seq:
+                result = result.replace(seq[res_c], "", 1)
+            filter_res.append(result)
+
+        if len(set(filter_res)) == 1:
+            return True
+        else:
+            return False
+
     print("DATE GENERATED: {}\n".format(get_generated_date_v2()))
 
     time_gap_results = get_gap_results_v2()
@@ -396,28 +407,30 @@ def filter_results():
                 len(seq_types["diff_one"]) == 2
             ):
 
-                d_one_digits = []
-                c_digits = []
+                if is_pure_diff_one(results, seq_types["diff_one"]):
 
-                for common in seq_types["common"]:
-                    c_digits.append(common)
+                    d_one_digits = []
+                    c_digits = []
 
-                print("time: {}".format(time))
-                print("gap: {}".format(gap))
-                print("common: {}".format(seq_types["common"]))
-                print("results: {}".format(results))
+                    for common in seq_types["common"]:
+                        c_digits.append(common)
 
-                print("seq_types:")
-                for d_one in seq_types["diff_one"]:
-                    print("{} <- {}".format(
-                        d_one, get_pos_digits(d_one, "diff_one")))
-                    d_one_digits.append(get_pos_digits(d_one, "diff_one"))
+                    print("time: {}".format(time))
+                    print("gap: {}".format(gap))
+                    print("common: {}".format(seq_types["common"]))
+                    print("results: {}".format(results))
 
-                print("combis:")
-                for combi in product(c_digits, *d_one_digits):
-                    print("".join(combi))
+                    print("seq_types:")
+                    for d_one in seq_types["diff_one"]:
+                        print("{} <- {}".format(
+                            d_one, get_pos_digits(d_one, "diff_one")))
+                        d_one_digits.append(get_pos_digits(d_one, "diff_one"))
 
-                print("\n")
+                    print("combis:")
+                    for combi in product(c_digits, *d_one_digits):
+                        print("".join(combi))
+
+                    print("\n")
 
 
 def main():

@@ -338,6 +338,18 @@ def filter_results():
     the results by its seq_type, common etc
     """
 
+    def is_pure_diff_one(results, d_one_seq):
+        filter_res = []
+        for res_c, result in enumerate(results):
+            for seq in d_one_seq:
+                result = result.replace(seq[res_c], "", 1)
+            filter_res.append(result)
+
+        if len(set(filter_res)) == 1:
+            return True
+        else:
+            return False
+
     with open("results_seq_types_v1.1.txt", "a") as fo:
         fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date_v1()))
 
