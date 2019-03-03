@@ -298,14 +298,20 @@ def get_pos_digits(sequence, seq_type):
     return output
 
 
-def get_current_date_v2():
+def get_generated_date():
     """Get current date from updated string of
     results_v2.txt. Return a string of date
     """
 
+    reverse_dates = []
+
     with open("results_v2.txt") as fi:
-        first_line = fi.readline().strip()
-        return findall(r"(?<=updated: )(\S.+)", first_line)[0]
+        for entry in islice(fi, 2, None):
+            entry = entry.strip()
+            date = split(r"\s{2,}", entry)[0]
+            reverse_dates.insert(0, date)
+
+    return reverse_dates[1]
 
 
 def is_current_date():
@@ -314,13 +320,12 @@ def is_current_date():
     are the same and False if not
     """
 
-    with open("results_v2.txt", "r") as fi:
-        with open("results_seq_types_v2.1.txt", "r") as fo:
-            fi_date = fi.readline().strip()[:-2]
-            fo_date = fo.readline().strip()
+    with open("results_seq_types_v2.1.txt", "r") as fo:
+        fi_date = "updated: " + get_generated_date()
+        fo_date = fo.readline().strip()
 
-            if fi_date != fo_date:
-                return fi_date
+        if fi_date != fo_date:
+            return fi_date
 
 
 def export_results(time, gap, results, seq_types):
@@ -374,9 +379,9 @@ def filter_results():
     """
 
     with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\n\nDATE GENERATED: {}\n".format(get_current_date_v2()))
+        fo.write("\n\nDATE GENERATED: {}\n".format(get_generated_date()))
 
-    print("DATE GENERATED: {}\n".format(get_current_date_v2()))
+    print("DATE GENERATED: {}\n".format(get_generated_date()))
 
     time_gap_results = get_gap_results_v2()
 
@@ -431,19 +436,20 @@ def filter_results():
 
                 print("\n")
 
+    with fileinput.input("results_seq_types_v2.1.txt",
+                         inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print(is_current_date())
+            else:
+                print(entry, end="")
+
 
 def main():
     if not is_current_date():
         print("Results are up to date.")
     else:
         filter_results()
-        with fileinput.input("results_seq_types_v2.1.txt",
-                             inplace=True) as fio:
-            for entry in fio:
-                if "updated:" in entry:
-                    print(is_current_date())
-                else:
-                    print(entry, end="")
 
 
 if __name__ == "__main__":
