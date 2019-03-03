@@ -298,7 +298,7 @@ def get_pos_digits(sequence, seq_type):
     return output
 
 
-def get_generated_date():
+def get_generated_date_v2():
     """Get current date from updated string of
     results_v2.txt. Return a string of date
     """
@@ -321,7 +321,7 @@ def is_current_date():
     """
 
     with open("results_seq_types_v2.1.txt", "r") as fo:
-        fi_date = "updated: " + get_generated_date()
+        fi_date = "updated: " + get_generated_date_v2()
         fo_date = fo.readline().strip()
 
         if fi_date != fo_date:
