@@ -1,6 +1,54 @@
 updated: 03 sun mar 2019
 
 
+DATE GENERATED: 02 sat mar 2019
+time: 11am
+gap: 5
+common: ['5']
+results: ['538', '157']
+seq_type: diff_one(1), diff_two(1)
+combis:
+562
+592
+
+time: 11am
+gap: 16
+common: ['1']
+results: ['971', '156']
+seq_type: diff_one(1), diff_two(1)
+combis:
+156
+186
+
+time: 11am
+gap: 17
+common: ['6']
+results: ['683', '069']
+seq_type: diff_one(1), diff_two(1)
+combis:
+679
+609
+
+time: 4pm
+gap: 15
+common: ['3']
+results: ['535', '376']
+seq_type: diff_one(1), diff_two(1)
+combis:
+346
+376
+
+time: 9pm
+gap: 17
+common: ['5']
+results: ['145', '225']
+seq_type: diff_one(1), diff_two(1)
+combis:
+503
+533
+
+
+
 DATE GENERATED: 03 sun mar 2019
 time: 11am
 gap: 2

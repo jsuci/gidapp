@@ -2148,3 +2148,135 @@ seq: diff_one(1), diff_two(1)
 combis:
 067 (670 - 01 fri mar 2019 2)
 097
+
+------------------------
+CONFIRMED DEMO.PY
+DATE GENERATED: 30 wed jan 2019
+
+time: 9pm
+gap: 17
+common: ['8']
+results: ['385', '428', '468']
+seq_types:
+seq: diff_one(2)
+('3', '2', '4') <- ['1', '5']
+('5', '4', '6') <- ['3', '7']
+combis:
+813
+817
+853
+857 (7 days)
+
+
+DATE GENERATED: 23 sat feb 2019
+
+time: 11am
+gap: 1
+common: ['8']
+results: ['528', '806']
+seq_types:
+('5', '6') <- ['4', '7']
+('2', '0') <- ['1']
+combis:
+841
+871
+
+
+time: 4pm
+gap: 6
+common: ['9']
+results: ['934', '229']
+seq_types:
+('3', '2') <- ['1', '4']
+('4', '2') <- ['3']
+combis:
+913
+943
+
+
+time: 9pm
+gap: 5
+common: ['8']
+results: ['568', '480']
+seq: diff_one(1), diff_two(2)
+seq_types:
+('5', '4') <- ['3', '6']
+('6', '4') <- ['5']
+combis:
+835 (2 days)
+865
+
+
+DATE GENERATED: 28 thu feb 2019
+
+time: 11am
+gap: 1
+common: ['5']
+results: ['765', '538']
+seq_types:
+('7', '8') <- ['6', '9']
+('6', '8') <- ['7']
+combis:
+567
+597
+
+
+time: 11am
+gap: 4
+common: ['7']
+results: ['697', '157']
+seq_types:
+('6', '5') <- ['4', '7']
+('9', '1') <- ['0']
+combis:
+740
+770
+
+
+time: 11am
+gap: 8
+common: ['6']
+results: ['806', '616']
+seq_types:
+('0', '1') <- ['9', '2']
+('8', '6') <- ['7']
+combis:
+697
+627
+
+
+time: 4pm
+gap: 4
+common: ['1']
+results: ['112', '831']
+seq_types:
+('2', '3') <- ['1', '4']
+('1', '3') <- ['2']
+combis:
+112
+142
+
+
+time: 4pm
+gap: 7
+common: ['0']
+results: ['083', '076']
+seq_types:
+('8', '7') <- ['6', '9']
+('8', '6') <- ['7']
+combis:
+067 (1 day)
+097
+
+
+time: 9pm
+gap: 6
+common: ['7']
+results: ['705', '897']
+seq_types:
+('0', '9') <- ['9', '0']
+('0', '8') <- ['9']
+combis:
+799
+709
+
