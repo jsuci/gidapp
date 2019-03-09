@@ -2369,6 +2369,7 @@ DREAMGIRL:
     288
     798
     779
+
     809
     582
     502
@@ -2399,3 +2400,66 @@ BUKID:
     030
     303
     404
+
+-------------------------------
+filter: common(2)
+samples: 42 results
+matches: 2
+gap: <20
+
+gap: 2
+common: ['7', '0']
+results: ['780', '507'] (057)
+
+
+gap: 3
+common: ['1', '4']
+results: ['140', '941'] (154)
+
+gap: 17
+common: ['9', '5']
+results: ['895', '795'] (569)
+
+gap: 18
+common: ['1', '8']
+results: ['181', '831'] (861)
+
+gap: 5
+common: ['7', '5']
+results: ['750', '765'] (735)
+
+gap: 16
+common: ['7', '3']
+results: ['753', '327'] (735)
+
+gap: 10
+common: ['7', '5']
+results: ['753', '795'] (750)
+
+
+----------------------
+filter: common(2), diff_one(1)
+sample: 
+gap: <20
+
+
+gap: 15
+common: ['3', '8']
+results: ['368', '538'] (384, 2 draws)
+
+
+gap: 17
+common: ['1', '2']
+results: ['102', '121'] (192, 7 draws)
+
+
+gap: 14
+common: ['1', '2']
+results: ['102', '112'] (192, 10 draws)
+
+
+gap: 17
+common: ['9', '5']
+results: ['895', '795'] (569, 1 draw)
+
+
