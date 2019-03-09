@@ -2463,3 +2463,23 @@ common: ['9', '5']
 results: ['895', '795'] (569, 1 draw)
 
 
+----------------------------
+filter: common(2), diff_one(1)
+source: results_v2.txt
+matches: 2
+gap: <20
+
+DATE GENERATED: 06 wed mar 2019
+
+time: 4pm
+gap: 5
+common: ['1', '2']
+results: ['102', '121']
+seq_types:
+('0', '1') <- ['9', '2']
+combis:
+129 (192, 3 days)
+122
+
+*note: if 1-2 pair appeared and not the exact combi then
+discard that pair and proceed with the next
