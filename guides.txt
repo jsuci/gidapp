@@ -2349,7 +2349,7 @@ PAPEL:
     739
     098
     138
-    427
+    427*
     244
     972
     336
@@ -2483,3 +2483,11 @@ combis:
 
 *note: if 1-2 pair appeared and not the exact combi then
 discard that pair and proceed with the next
+
+---------------------
+PATTERN FOR GET_ONE DIGIT
+
+if there are more than one get_one digits then most likely
+they will form a pair like what happend at 
+
+10 sun mar 2019       724       421
