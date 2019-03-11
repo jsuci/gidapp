@@ -1,0 +1,16 @@
+time: 11am
+gap: 9
+common: ['7', '5']
+results: ['750', '157']
+combis:
+792
+592
+
+time: 11am
+gap: 9
+common: ['7', '5']
+results: ['750', '157']
+combis:
+792
+592
+

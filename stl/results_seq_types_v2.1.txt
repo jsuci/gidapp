@@ -1,4 +1,4 @@
-updated: 09 sat mar 2019
+updated: 10 sun mar 2019
 
 
 DATE GENERATED: 28 thu feb 2019 2
@@ -733,4 +733,70 @@ seq_type: diff_one(1), diff_two(1)
 combis:
 839
 869
+
+
+
+DATE GENERATED: 10 sun mar 2019
+time: 11am
+gap: 5
+common: ['7']
+results: ['927', '377']
+seq_type: diff_one(1), diff_two(1)
+combis:
+718
+748
+
+time: 11am
+gap: 15
+common: ['3']
+results: ['853', '403']
+seq_type: diff_one(1), diff_two(1)
+combis:
+339
+369
+
+time: 4pm
+gap: 3
+common: ['7']
+results: ['976', '837']
+seq_type: diff_one(1), diff_two(1)
+combis:
+777
+707
+
+time: 4pm
+gap: 19
+common: ['4']
+results: ['041', '426']
+seq_type: diff_one(1), diff_two(1)
+combis:
+401
+431
+
+time: 9pm
+gap: 2
+common: ['0']
+results: ['038', '002']
+seq_type: diff_one(1), diff_two(1)
+combis:
+019
+049
+
+time: 9pm
+gap: 8
+common: ['4']
+results: ['694', '247']
+seq_type: diff_one(1), diff_two(1)
+combis:
+458
+488
+
+time: 9pm
+gap: 16
+common: ['8']
+results: ['884', '803']
+seq_type: diff_one(1), diff_two(1)
+combis:
+829
+859
 

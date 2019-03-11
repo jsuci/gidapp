@@ -366,8 +366,8 @@ def export_results(time, gap, results, seq_types):
 
                 fo.write("combis:\n")
                 for combi in product(
-                    c_digits,
-                    *d_one_digits,
+                    *c_digits,
+                    d_one_digits,
                     # d_two_digits
                 ):
                     fo.write("{}\n".format("".join(combi)))
@@ -444,8 +444,8 @@ def filter_results():
 
                 print("combis:")
                 for combi in product(
-                    c_digits,
-                    *d_one_digits,
+                    *c_digits,
+                    d_one_digits,
                     # d_two_digits
                 ):
                     print("".join(combi))
