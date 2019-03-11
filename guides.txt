@@ -2505,3 +2505,14 @@ HOW TO GET PAIRS CONSISTENTLY
 1. using script_seq_types_v1.1.py generate pair of the current results
 
 2. wait 3 - 5 draws the pair will appear if not leave it
+
+3. fine tune your pairs by counting 6 draws backward and then finding all pairs one by one and if there is a common pair then pick that pair
+
+ex:
+80
+--
+07
+--
+21
+24, 27
+24
