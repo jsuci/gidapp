@@ -7,6 +7,7 @@ from itertools import *
 from re import *
 from pprint import *
 import fileinput
+from datetime import *
 
 
 def get_seq_types(results):
@@ -315,6 +316,19 @@ def get_generated_date_v2():
     return reverse_dates[0]
 
 
+def get_expected_date_v2():
+    gen_date = get_generated_date_v2().split(" ")
+    exp_date = (datetime.now().replace(day=int(gen_date[0])) +
+                timedelta(days=3))
+
+    day = exp_date.day
+    weekday = exp_date.strftime("%a").lower()
+    month = exp_date.strftime("%b").lower()
+    year = exp_date.year
+
+    return "{} {} {} {}".format(day, weekday, month, year)
+
+
 def is_current_date():
     """Get results_v2.txt current date and compare it to
     results_seq_types_v2.1.txt date. Return True if they
@@ -393,9 +407,11 @@ def filter_results():
             return False
 
     with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\nDATE GENERATED: {}\n".format(get_generated_date_v2()))
+        fo.write("\n\nDATE_GENERATED: {}\nDATE_EXPECTED: {}\n\n".format(
+            get_generated_date_v2(), get_expected_date_v2()))
 
-    print("DATE GENERATED: {}\n".format(get_generated_date_v2()))
+    print("DATE_GENERATED: {}\nDATE_EXPECTED: {}\n".format(
+        get_generated_date_v2(), get_expected_date_v2()))
 
     time_gap_results = get_gap_results_v2()
 
