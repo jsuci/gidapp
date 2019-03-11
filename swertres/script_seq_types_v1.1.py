@@ -166,7 +166,7 @@ def get_gap_results_v1():
     results = get_reverse_results_v1()
     gap_results = {}
 
-    for gap in range(1, 20):
+    for gap in range(1, 10):
         step = gap
         temp_results = []
 
@@ -298,7 +298,7 @@ def get_generated_date_v1():
 def get_expected_date_v1():
     gen_date = get_generated_date_v1().split(" ")
     exp_date = (datetime.now().replace(day=int(gen_date[0])) +
-                timedelta(days=3))
+                timedelta(days=2))
 
     day = exp_date.day
     weekday = exp_date.strftime("%a").lower()

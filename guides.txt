@@ -2353,7 +2353,7 @@ PAPEL:
     244
     972
     336
-    246
+    246*
     761
     798
     271
@@ -2491,3 +2491,17 @@ if there are more than one get_one digits then most likely
 they will form a pair like what happend at 
 
 10 sun mar 2019       724       421
+
+--------------------------
+11 mon mar 2019       624       638       270
+
+270 appeared and are in exact position where in
+the 2 and 7 are missing on their positions for
+more than 10 draws
+
+--------------------------
+HOW TO GET PAIRS CONSISTENTLY
+
+1. using script_seq_types_v1.1.py generate pair of the current results
+
+2. wait 3 - 5 draws the pair will appear if not leave it

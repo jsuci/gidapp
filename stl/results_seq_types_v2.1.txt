@@ -1,1 +1,22 @@
-updated: 10 sun mar 2019
+updated: 11 mon mar 2019
+
+
+DATE_GENERATED: 11 mon mar 2019
+DATE_EXPECTED: 14 thu mar 2019
+
+time: 4pm
+gap: 1
+common: ['7', '2']
+results: ['729', '702']
+combis:
+729
+720
+
+time: 4pm
+gap: 7
+common: ['4', '3']
+results: ['433', '342']
+combis:
+431
+434
+
