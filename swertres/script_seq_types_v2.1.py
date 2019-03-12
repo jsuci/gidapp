@@ -319,7 +319,7 @@ def get_generated_date_v2():
 def get_expected_date_v2():
     gen_date = get_generated_date_v2().split(" ")
     exp_date = (datetime.now().replace(day=int(gen_date[0])) +
-                timedelta(days=3))
+                timedelta(days=2))
 
     day = exp_date.day
     weekday = exp_date.strftime("%a").lower()
@@ -349,42 +349,42 @@ def export_results(time, gap, results, seq_types):
 
             if (
                 "common" in seq_types and
-                len(seq_types["common"]) == 2 and
-                "diff_one" in seq_types
+                len(seq_types["common"]) == 2
                 # "diff_one" in seq_types and
                 # len(seq_types["diff_one"]) == 1 and
                 # "diff_two" in seq_types and
                 # len(seq_types["diff_two"]) == 1
             ):
 
-                c_digits = []
-                d_one_digits = []
+                # c_digits = []
+                # d_one_digits = []
                 # d_two_digits = []
 
                 fo.write("time: {}\n".format(time))
                 fo.write("gap: {}\n".format(gap))
                 fo.write("common: {}\n".format(seq_types["common"]))
                 fo.write("results: {}\n".format(results))
+                fo.write("pair: {}".format("".join(seq_types["common"])))
                 # fo.write("seq_type: {}({}), {}({})\n".format(
                 #     "diff_one", len(seq_types["diff_one"]),
                 #     "diff_two", len(seq_types["diff_two"])))
 
-                for common in seq_types["common"]:
-                    c_digits.append(common)
+                # for common in seq_types["common"]:
+                #     c_digits.append(common)
 
-                for d_one in seq_types["diff_one"]:
-                    d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
+                # for d_one in seq_types["diff_one"]:
+                #     d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
 
                 # for d_two in seq_types["diff_two"]:
                 #     d_two_digits.extend(get_pos_digits(d_two, "diff_two"))
 
-                fo.write("combis:\n")
-                for combi in product(
-                    *c_digits,
-                    d_one_digits,
-                    # d_two_digits
-                ):
-                    fo.write("{}\n".format("".join(combi)))
+                # fo.write("combis:\n")
+                # for combi in product(
+                #     *c_digits,
+                #     d_one_digits,
+                #     # d_two_digits
+                # ):
+                #     fo.write("{}\n".format("".join(combi)))
 
                 fo.write("\n")
 
@@ -422,49 +422,49 @@ def filter_results():
             export_results(time, gap, results, seq_types)
 
             # Filter options currently set to:
-            # common(1), diff_one(1), diff_two(1)
+            # common(2)
             if (
                 "common" in seq_types and
-                len(seq_types["common"]) == 2 and
-                "diff_one" in seq_types
+                len(seq_types["common"]) == 2
                 # "diff_one" in seq_types and
                 # len(seq_types["diff_one"]) == 1 and
                 # "diff_two" in seq_types and
                 # len(seq_types["diff_two"]) == 1
             ):
 
-                c_digits = []
-                d_one_digits = []
+                # c_digits = []
+                # d_one_digits = []
                 # d_two_digits = []
 
                 print("time: {}".format(time))
                 print("gap: {}".format(gap))
                 print("common: {}".format(seq_types["common"]))
                 print("results: {}".format(results))
+                print("pair: {}".format("".join(seq_types["common"])))
                 # print("seq_type: {}({}), {}({})".format(
                 #     "diff_one", len(seq_types["diff_one"]),
                 #     "diff_two", len(seq_types["diff_two"])))
 
-                for common in seq_types["common"]:
-                    c_digits.append(common)
+                # for common in seq_types["common"]:
+                #     c_digits.append(common)
 
-                for d_one in seq_types["diff_one"]:
-                    print("{} <- {}".format(
-                        d_one, get_pos_digits(d_one, "diff_one")))
-                    d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
+                # for d_one in seq_types["diff_one"]:
+                #     print("{} <- {}".format(
+                #         d_one, get_pos_digits(d_one, "diff_one")))
+                #     d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
 
                 # for d_two in seq_types["diff_two"]:
                 #     print("{} <- {}".format(
                 #         d_two, get_pos_digits(d_two, "diff_two")))
                 #     d_two_digits.extend(get_pos_digits(d_two, "diff_two"))
 
-                print("combis:")
-                for combi in product(
-                    *c_digits,
-                    d_one_digits,
-                    # d_two_digits
-                ):
-                    print("".join(combi))
+                # print("combis:")
+                # for combi in product(
+                #     *c_digits,
+                #     d_one_digits,
+                #     # d_two_digits
+                # ):
+                #     print("".join(combi))
 
                 print("\n")
 

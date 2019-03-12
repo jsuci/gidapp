@@ -1,32 +1,11 @@
 updated: 11 mon mar 2019
 
 
-DATE_GENERATED: 08 fri mar 2019
-DATE_EXPECTED: 11 mon mar 2019
-
-time: 11am
-gap: 5
-common: ['3', '5']
-results: ['735', '538']
-combis:
-356
-359
-
-
-
-DATE_GENERATED: 10 sun mar 2019
+DATE_GENERATED: 11 mon mar 2019
 DATE_EXPECTED: 13 wed mar 2019
 
-time: 11am
-gap: 9
-common: ['7', '5']
-results: ['750', '157']
-combis:
-759
-752
-
-
-
-DATE_GENERATED: 11 mon mar 2019
-DATE_EXPECTED: 14 thu mar 2019
-
+time: 9pm
+gap: 2
+common: ['0', '5']
+results: ['057', '005']
+pair: 05

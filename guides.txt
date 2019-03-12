@@ -2358,7 +2358,7 @@ PAPEL:
     798
     271
     956
-
+    961
     319
     268
 
@@ -2516,3 +2516,14 @@ ex:
 21
 24, 27
 24
+
+--------------------------
+GUIDES ON USING seq_types_v1.1 and seq_types_v2.1
+
+seq_types_v1.1
+1. go back 6 draws on results_v1.txt and run seq_types_v1.1
+on each of the results until you reach the current one. pick
+pair that has common. due date of pairs is around 1-2 days
+
+seq_types_v2.1
+1. run seq_types_v2.1 and get pairs from it. pairs generated using this script last for 3 draws or 1 day only. this script must be used in conjuction with seq_types_v2.1
