@@ -1,16 +1,28 @@
-updated: 12 tue mar 2019 0
+updated: 13 wed mar 2019 2
 
 
-DATE_GENERATED: 12 tue mar 2019 0
-DATE_EXPECTED: 14 thu mar 2019 0
+DATE_GENERATED: 13 wed mar 2019 1
+DATE_EXPECTED: 13 fri mar 2019 1
 
-gap: 4
-common: ['6', '2']
-results: ['562', '628']
-pair: 62
+gap: 5
+common: ['7', '0']
+results: ['270', '057']
+pair: 70
+
+
+gap: 6
+common: ['6', '8']
+results: ['638', '628']
+pair: 68
+
 
 gap: 7
-common: ['0', '7']
-results: ['057', '087']
-pair: 07
+common: ['6', '2']
+results: ['624', '726']
+pair: 62
+
+
+DATE_GENERATED: 13 wed mar 2019 2
+DATE_EXPECTED: 13 wed mar 2019 2
+#_OF_DRAWS: 3 - 4 draws
 

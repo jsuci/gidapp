@@ -5,6 +5,7 @@ echo "PROCESSING SW3:"
 cd /sdcard/Download/gidapp/swertres
 echo
 echo "SEQ_TYPES Pattern"
+python script_seq_types_v1.1.py
 python script_seq_types_v2.1.py
 echo
 echo "Fetching Results:"
@@ -23,6 +24,7 @@ echo "PROCESSING STL:"
 cd /sdcard/Download/gidapp/stl
 echo
 echo "SEQ_TYPES Pattern"
+python script_seq_types_v1.1.py
 python script_seq_types_v2.1.py
 echo
 echo "Fetching Results:"

@@ -317,7 +317,7 @@ def get_generated_date_v2():
 def get_expected_date_v2():
     gen_date = get_generated_date_v2().split(" ")
     exp_date = (datetime.now().replace(day=int(gen_date[0])) +
-                timedelta(days=3))
+                timedelta(days=0))
 
     day = exp_date.day
     weekday = exp_date.strftime("%a").lower()
@@ -469,10 +469,10 @@ if __name__ == "__main__":
 script_seq_types_v1.1
 """
 
+# import fileinput
 # from itertools import *
 # from re import *
 # from pprint import *
-# import fileinput
 # from datetime import *
 
 

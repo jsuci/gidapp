@@ -319,7 +319,7 @@ def get_generated_date_v2():
 def get_expected_date_v2():
     gen_date = get_generated_date_v2().split(" ")
     exp_date = (datetime.now().replace(day=int(gen_date[0])) +
-                timedelta(days=2))
+                timedelta(days=0))
 
     day = exp_date.day
     weekday = exp_date.strftime("%a").lower()
@@ -343,50 +343,58 @@ def is_current_date():
             return fi_date
 
 
-def export_results(time, gap, results, seq_types):
+def export_results():
+    """After getting the get_gap_results_v2 filter
+    the results by its seq_type, common etc
+    """
+
+    def is_pure_diff_one(results, d_one_seq):
+        filter_res = []
+        for res_c, result in enumerate(results):
+            for seq in d_one_seq:
+                result = result.replace(seq[res_c], "", 1)
+            filter_res.append(result)
+
+        if len(set(filter_res)) == 1:
+            return True
+        else:
+            return False
 
     with open("results_seq_types_v2.1.txt", "a") as fo:
+        fo.write("\n\nDATE_GENERATED: {}\n".format(
+            get_generated_date_v2()))
+        fo.write("DATE_EXPECTEDL {}\n".format(
+            get_expected_date_v2()))
+        fo.write("DRAWS: 3 - 4 draws\n")
 
-            if (
-                "common" in seq_types and
-                len(seq_types["common"]) == 2
-                # "diff_one" in seq_types and
-                # len(seq_types["diff_one"]) == 1 and
-                # "diff_two" in seq_types and
-                # len(seq_types["diff_two"]) == 1
-            ):
+        time_gap_results = get_gap_results_v2()
 
-                # c_digits = []
-                # d_one_digits = []
-                # d_two_digits = []
+        for time, gap_results in time_gap_results.items():
+            for gap, results in gap_results.items():
+                seq_types = get_seq_types(results)
 
-                fo.write("time: {}\n".format(time))
-                fo.write("gap: {}\n".format(gap))
-                fo.write("common: {}\n".format(seq_types["common"]))
-                fo.write("results: {}\n".format(results))
-                fo.write("pair: {}".format("".join(seq_types["common"])))
-                # fo.write("seq_type: {}({}), {}({})\n".format(
-                #     "diff_one", len(seq_types["diff_one"]),
-                #     "diff_two", len(seq_types["diff_two"])))
+                # Filter options currently set to:
+                # common(2)
+                if (
+                    "common" in seq_types and
+                    len(seq_types["common"]) == 2
+                ):
 
-                # for common in seq_types["common"]:
-                #     c_digits.append(common)
+                    fo.write("time: {}\n".format(time))
+                    fo.write("gap: {}\n".format(gap))
+                    fo.write("common: {}\n".format(seq_types["common"]))
+                    fo.write("results: {}\n".format(results))
+                    fo.write("pair: {}\n".format("".join(seq_types["common"])))
 
-                # for d_one in seq_types["diff_one"]:
-                #     d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
+                    fo.write("\n\n")
 
-                # for d_two in seq_types["diff_two"]:
-                #     d_two_digits.extend(get_pos_digits(d_two, "diff_two"))
-
-                # fo.write("combis:\n")
-                # for combi in product(
-                #     *c_digits,
-                #     d_one_digits,
-                #     # d_two_digits
-                # ):
-                #     fo.write("{}\n".format("".join(combi)))
-
-                fo.write("\n")
+    with fileinput.input("results_seq_types_v2.1.txt",
+                         inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print(is_current_date())
+            else:
+                print(entry, end="")
 
 
 def filter_results():
@@ -406,20 +414,17 @@ def filter_results():
         else:
             return False
 
-    with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\n\nDATE_GENERATED: {}\nDATE_EXPECTED: {}\n\n".format(
-            get_generated_date_v2(), get_expected_date_v2()))
-
-    print("DATE_GENERATED: {}\nDATE_EXPECTED: {}\n".format(
-        get_generated_date_v2(), get_expected_date_v2()))
+    print("DATE_GENERATED: {}".format(
+        get_generated_date_v2()))
+    print("DATE_EXPECTED: {}".format(
+        get_expected_date_v2()))
+    print("DRAWS: 3 - 4 draws")
 
     time_gap_results = get_gap_results_v2()
 
     for time, gap_results in time_gap_results.items():
         for gap, results in gap_results.items():
             seq_types = get_seq_types(results)
-
-            export_results(time, gap, results, seq_types)
 
             # Filter options currently set to:
             # common(2)
@@ -468,20 +473,14 @@ def filter_results():
 
                 print("\n")
 
-    with fileinput.input("results_seq_types_v2.1.txt",
-                         inplace=True) as fio:
-        for entry in fio:
-            if "updated:" in entry:
-                print(is_current_date())
-            else:
-                print(entry, end="")
-
 
 def main():
+    filter_results()
+
     if not is_current_date():
         print("Results are up to date.")
     else:
-        filter_results()
+        export_results()
 
 
 if __name__ == "__main__":
