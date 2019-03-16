@@ -1,4 +1,4 @@
-updated: 13 wed mar 2019
+updated: 15 fri mar 2019
 
 
 DATE_GENERATED: 11 mon mar 2019
@@ -72,4 +72,63 @@ gap: 1
 common: ['0', '2']
 results: ['502', '920']
 pair: 02
+
+
+
+DATE_GENERATED: 14 thu mar 2019
+DATE_EXPECTEDL 14 thu mar 2019
+DRAWS: 3 - 4 draws
+time: 4pm
+gap: 3
+common: ['7', '9']
+results: ['709', '976']
+pair: 79
+
+
+time: 9pm
+gap: 4
+common: ['2', '0']
+results: ['920', '002']
+pair: 20
+
+
+
+
+DATE_GENERATED: 15 fri mar 2019
+DATE_EXPECTEDL 15 fri mar 2019
+DRAWS: 3 - 4 draws
+time: 4pm
+gap: 6
+common: ['8', '5']
+results: ['815', '485']
+pair: 85
+
+
+time: 4pm
+gap: 9
+common: ['2', '3']
+results: ['273', '342']
+pair: 23
+
+
+time: 9pm
+gap: 5
+common: ['2', '0']
+results: ['920', '202']
+pair: 20
+
+
+time: 9pm
+gap: 6
+common: ['6', '9']
+results: ['695', '694']
+pair: 69
+
+
+time: 9pm
+gap: 7
+common: ['3', '8']
+results: ['038', '388']
+pair: 38
+
 

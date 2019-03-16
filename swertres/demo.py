@@ -422,15 +422,17 @@ def filter_results():
             # common(1), diff_one(1), diff_two(1)
             if (
                 "common" in seq_types and
-                len(seq_types["common"]) == 2
+                len(seq_types["common"]) == 1 and
+                "diff_one" in seq_types and
+                len(seq_types["diff_one"])
             ):
 
-                # d_one_digits = []
+                d_one_digits = []
                 # d_two_digits = []
-                # c_digits = []
+                c_digits = []
 
-                # for common in seq_types["common"]:
-                #     c_digits.append(common)
+                for common in seq_types["common"]:
+                    c_digits.append(common)
 
                 print("time: {}".format(time))
                 print("gap: {}".format(gap))
@@ -438,20 +440,20 @@ def filter_results():
                 print("results: {}".format(results))
                 print("pair: {}".format("".join(seq_types["common"])))
 
-                # print("seq_types:")
-                # for d_one in seq_types["diff_one"]:
-                #     print("{} <- {}".format(
-                #         d_one, get_pos_digits(d_one, "diff_one")))
-                #     d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
+                print("seq_types:")
+                for d_one in seq_types["diff_one"]:
+                    print("{} <- {}".format(
+                        d_one, get_pos_digits(d_one, "diff_one")))
+                    d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
 
                 # for d_two in seq_types["diff_two"]:
                 #     print("{} <- {}".format(
                 #         d_two, get_pos_digits(d_two, "diff_two")))
                 #     d_two_digits.append(get_pos_digits(d_two, "diff_two"))
 
-                # print("combis:")
-                # for combi in product(*c_digits, d_one_digits):
-                #     print("".join(combi))
+                print("combis:")
+                for combi in product(c_digits, *d_one_digits):
+                    print("".join(combi))
 
                 print("\n")
 
