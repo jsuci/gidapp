@@ -2536,3 +2536,39 @@ pair that has common. due date of pairs is around 1-2 days
 
 seq_types_v2.1
 1. run seq_types_v2.1 and get pairs from it. pairs generated using this script last for 3 draws or 1 day only. this script must be used in conjuction with seq_types_v2.1
+
+----------------------------
+MARCH MAINTAIN
+
+DREAMGIRL:
+374
+274
+814
+894
+101
+111
+
+
+EL SAL:
+257
+
+---------------------------------
+filter: common(1), diff_one(2)
+source: results_v1.txt
+matches: 3
+gap: <20
+script: script_seq_types_v1.1
+
+DATE_GENERATED: 15 fri mar 2019 0
+gap: 3
+common: ['6']
+results:
+671 (61 - 7)
+926 (62 - 9)
+638 (63 - 8)
+??? (60/64 - 0/6)
+
+600 <- 16 sat mar 2019 2
+606
+640
+646

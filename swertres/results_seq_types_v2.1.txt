@@ -1,1 +1,138 @@
-updated: 15 fri mar 2019
+updated: 19 tue mar 2019
+
+
+DATE_GENERATED: 15 fri mar 2019
+DATE_EXPECTEDL 15 fri mar 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 1
+common: ['6', '7']
+results: ['671', '657']
+pair: 67
+
+
+time: 11am
+gap: 7
+common: ['8', '4']
+results: ['384', '884']
+pair: 84
+
+
+time: 9pm
+gap: 1
+common: ['9', '6']
+results: ['961', '926']
+pair: 96
+
+
+time: 9pm
+gap: 5
+common: ['5', '2']
+results: ['562', '529']
+pair: 52
+
+
+time: 9pm
+gap: 8
+common: ['0', '7']
+results: ['507', '087']
+pair: 07
+
+
+
+
+DATE_GENERATED: 16 sat mar 2019
+DATE_EXPECTEDL 16 sat mar 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 3
+common: ['6', '8']
+results: ['683', '628']
+pair: 68
+
+
+time: 4pm
+gap: 6
+common: ['4', '1']
+results: ['421', '401']
+pair: 41
+
+
+time: 4pm
+gap: 7
+common: ['1', '2']
+results: ['192', '102']
+pair: 12
+
+
+time: 9pm
+gap: 1
+common: ['8', '9']
+results: ['389', '928']
+pair: 89
+
+
+time: 9pm
+gap: 7
+common: ['0', '7']
+results: ['057', '670']
+pair: 07
+
+
+
+
+DATE_GENERATED: 17 sun mar 2019
+DATE_EXPECTEDL 17 sun mar 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 4
+common: ['8', '3']
+results: ['683', '384']
+pair: 83
+
+
+
+
+DATE_GENERATED: 18 mon mar 2019
+DATE_EXPECTEDL 18 mon mar 2019
+DRAWS: 3 - 4 draws
+time: 4pm
+gap: 8
+common: ['2', '1']
+results: ['421', '102']
+pair: 21
+
+
+time: 9pm
+gap: 6
+common: ['9', '6']
+results: ['926', '569']
+pair: 96
+
+
+
+
+DATE_GENERATED: 19 tue mar 2019
+DATE_EXPECTEDL 19 tue mar 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 6
+common: ['6', '3']
+results: ['683', '163']
+pair: 63
+
+
+time: 4pm
+gap: 6
+common: ['5', '4']
+results: ['554', '154']
+pair: 54
+
+
+time: 9pm
+gap: 7
+common: ['9', '2']
+results: ['926', '529']
+pair: 92
+
+
