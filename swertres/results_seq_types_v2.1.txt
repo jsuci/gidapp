@@ -1,4 +1,4 @@
-updated: 19 tue mar 2019
+updated: 21 thu mar 2019
 
 
 DATE_GENERATED: 15 fri mar 2019
@@ -134,5 +134,64 @@ gap: 7
 common: ['9', '2']
 results: ['926', '529']
 pair: 92
+
+
+
+
+DATE_GENERATED: 20 wed mar 2019
+DATE_EXPECTEDL 20 wed mar 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 8
+common: ['5', '7']
+results: ['657', '735']
+pair: 57
+
+
+time: 9pm
+gap: 9
+common: ['7', '0']
+results: ['270', '670']
+pair: 70
+
+
+
+
+DATE_GENERATED: 21 thu mar 2019
+DATE_EXPECTEDL 21 thu mar 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 7
+common: ['6', '1']
+results: ['671', '163']
+pair: 61
+
+
+time: 11am
+gap: 8
+common: ['6', '8']
+results: ['683', '861']
+pair: 68
+
+
+time: 4pm
+gap: 8
+common: ['5', '4']
+results: ['554', '546']
+pair: 54
+
+
+time: 9pm
+gap: 8
+common: ['9', '2']
+results: ['928', '529']
+pair: 92
+
+
+time: 9pm
+gap: 9
+common: ['9', '6']
+results: ['926', '369']
+pair: 96
 
 

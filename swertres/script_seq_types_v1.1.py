@@ -341,13 +341,14 @@ def export_results():
             return False
 
     with open("results_seq_types_v1.1.txt", "a") as fo:
-        fo.write("\n\nDATE_GENERATED: {}\n".format(
-            get_generated_date_v1()))
-        fo.write("DATE_EXPECTED: {}\n".format(
-            get_expected_date_v1()))
-        fo.write("DRAWS: 3 - 4 draws\n\n")
+        # fo.write("\n\nDATE_GENERATED: {}\n".format(
+        #     get_generated_date_v1()))
+        # fo.write("DATE_EXPECTED: {}\n".format(
+        #     get_expected_date_v1()))
+        # fo.write("DRAWS: 3 - 4 draws\n\n")
 
         gap_results = get_gap_results_v1()
+        pair_results = []
 
         for gap, results in gap_results.items():
             seq_types = get_seq_types(results)
@@ -358,13 +359,16 @@ def export_results():
                 "common" in seq_types and
                 len(seq_types["common"]) == 2
             ):
+                pair_results.append("".join(seq_types["common"]))
 
-                fo.write("gap: {}\n".format(gap))
-                fo.write("common: {}\n".format(seq_types["common"]))
-                fo.write("results: {}\n".format(results))
-                fo.write("pair: {}\n".format("".join(seq_types["common"])))
+                # fo.write("gap: {}\n".format(gap))
+                # fo.write("common: {}\n".format(seq_types["common"]))
+                # fo.write("results: {}\n".format(results))
+                # fo.write("pair: {}\n".format("".join(seq_types["common"])))
 
-                fo.write("\n\n")
+                # fo.write("\n\n")
+
+        fo.write("{}\n".format(", ".join(pair_results)))
 
     with fileinput.input("results_seq_types_v1.1.txt",
                          inplace=True) as fio:

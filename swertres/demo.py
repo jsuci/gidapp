@@ -851,7 +851,7 @@ def filter_results():
             "common" in seq_types and
             len(seq_types["common"]) == 1 and
             "diff_one" in seq_types and
-            len(seq_types["diff_one"]) == 2
+            len(seq_types["diff_one"]) >= 1
         ):
 
             # d_one_digits = []

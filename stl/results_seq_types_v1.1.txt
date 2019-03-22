@@ -1,4 +1,4 @@
-updated: 19 tue mar 2019 2
+updated: 22 fri mar 2019 0
 
 
 DATE_GENERATED: 11 mon mar 2019 1
@@ -303,5 +303,65 @@ gap: 8
 common: ['4', '8']
 results: ['248', '854']
 pair: 48
+
+
+
+
+DATE_GENERATED: 20 wed mar 2019 0
+DATE_EXPECTED: 20 wed mar 2019 0
+DRAWS: 3 - 4 draws
+
+
+
+DATE_GENERATED: 20 wed mar 2019 1
+DATE_EXPECTED: 20 wed mar 2019 1
+DRAWS: 3 - 4 draws
+
+gap: 5
+common: ['8', '7']
+results: ['870', '387']
+pair: 87
+
+
+
+
+DATE_GENERATED: 20 wed mar 2019 2
+DATE_EXPECTED: 20 wed mar 2019 2
+DRAWS: 3 - 4 draws
+
+gap: 1
+common: ['5', '4']
+results: ['504', '475']
+pair: 54
+
+
+
+
+DATE_GENERATED: 21 thu mar 2019 1
+DATE_EXPECTED: 21 thu mar 2019 1
+DRAWS: 3 - 4 draws
+
+
+
+DATE_GENERATED: 21 thu mar 2019 2
+DATE_EXPECTED: 21 thu mar 2019 2
+DRAWS: 3 - 4 draws
+
+
+
+DATE_GENERATED: 22 fri mar 2019 0
+DATE_EXPECTED: 22 fri mar 2019 0
+DRAWS: 3 - 4 draws
+
+gap: 6
+common: ['3', '8']
+results: ['358', '283']
+pair: 38
+
+
+gap: 8
+common: ['5', '0']
+results: ['502', '053']
+pair: 50
 
 
