@@ -6,6 +6,7 @@ cd /sdcard/Download/gidapp/swertres
 echo
 echo "SEQ_TYPES Pattern"
 python script_common_v1.1.py
+python script_common_v1.2.py
 python script_common_v2.1.py
 python script_diff_one_v1.1.py
 echo
@@ -26,6 +27,7 @@ cd /sdcard/Download/gidapp/stl
 echo
 echo "SEQ_TYPES Pattern"
 python script_common_v1.1.py
+python script_common_v1.2.py
 python script_common_v2.1.py
 python script_diff_one_v1.1.py
 echo
