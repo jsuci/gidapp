@@ -323,22 +323,23 @@ def is_current_date():
             return fi_date
 
 
+def is_pure_diff_one(results, d_one_seq):
+    filter_res = []
+    for res_c, result in enumerate(results):
+        for seq in d_one_seq:
+            result = result.replace(seq[res_c], "", 1)
+        filter_res.append(result)
+
+    if len(set(filter_res)) == 1:
+        return True
+    else:
+        return False
+
+
 def export_results():
     """After getting the get_gap_results_v1 filter
     the results by its seq_type, common etc
     """
-
-    def is_pure_diff_one(results, d_one_seq):
-        filter_res = []
-        for res_c, result in enumerate(results):
-            for seq in d_one_seq:
-                result = result.replace(seq[res_c], "", 1)
-            filter_res.append(result)
-
-        if len(set(filter_res)) == 1:
-            return True
-        else:
-            return False
 
     with open("results_common_v1.1.txt", "a") as fo:
         # fo.write("\n\nDATE_GENERATED: {}\n".format(
@@ -383,18 +384,6 @@ def filter_results():
     """After getting the get_gap_results_v1 filter
     the results by its seq_type, common etc
     """
-
-    def is_pure_diff_one(results, d_one_seq):
-        filter_res = []
-        for res_c, result in enumerate(results):
-            for seq in d_one_seq:
-                result = result.replace(seq[res_c], "", 1)
-            filter_res.append(result)
-
-        if len(set(filter_res)) == 1:
-            return True
-        else:
-            return False
 
     print("DATE_GENERATED: {}".format(
         get_generated_date_v1()))

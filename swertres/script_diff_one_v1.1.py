@@ -1,12 +1,7 @@
-"""
-Given a list of gap results taken from results_v2.txt
-determine and filter the results base on its seq_types
-"""
-
+import fileinput
 from itertools import *
 from re import *
 from pprint import *
-import fileinput
 from datetime import *
 
 
@@ -166,12 +161,12 @@ def get_gap_results_v1():
     results = get_reverse_results_v1()
     gap_results = {}
 
-    for gap in range(1, 10):
+    for gap in range(1, 20):
         step = gap
         temp_results = []
 
         for count, result in enumerate(results):
-            if step == count and len(temp_results) != 2:
+            if step == count and len(temp_results) != 3:
                 temp_results.append(result)
                 step += (gap + 1)
 
@@ -311,11 +306,11 @@ def get_expected_date_v1():
 
 def is_current_date():
     """Get results_v2.txt current date and compare it to
-    results_common_v1.1.txt date. Return True if they
+    results_seq_types_v2.1.txt date. Return True if they
     are the same and False if not
     """
 
-    with open("results_common_v1.1.txt", "r") as fo:
+    with open("results_diff_one_v1.1.txt", "r") as fo:
         fi_date = "updated: " + get_generated_date_v1()
         fo_date = fo.readline().strip()
 
@@ -341,12 +336,13 @@ def export_results():
     the results by its seq_type, common etc
     """
 
-    with open("results_common_v1.1.txt", "a") as fo:
-        # fo.write("\n\nDATE_GENERATED: {}\n".format(
-        #     get_generated_date_v1()))
-        # fo.write("DATE_EXPECTED: {}\n".format(
-        #     get_expected_date_v1()))
-        # fo.write("DRAWS: 3 - 4 draws\n\n")
+    with open("results_diff_one_v1.1.txt", "a") as fo:
+
+        fo.write("DATE_GENERATED: {}\n".format(
+            get_generated_date_v1()))
+        fo.write("DATE_EXPECTED: {}\n".format(
+            get_expected_date_v1()))
+        fo.write("DRAWS: 1 - 2 draws\n")
 
         gap_results = get_gap_results_v1()
         pair_results = []
@@ -358,20 +354,21 @@ def export_results():
             # common(2)
             if (
                 "common" in seq_types and
-                len(seq_types["common"]) == 2
+                len(seq_types["common"]) == 1 and
+                "diff_one" in seq_types and
+                len(seq_types["diff_one"]) >= 1
             ):
-                pair_results.append("".join(seq_types["common"]))
+                fo.write("gap: {}\n".format(gap))
+                fo.write("common: {}\n".format(seq_types["common"]))
+                fo.write("results:\n")
+                for res in results:
+                    fo.write("{}\n".format(res))
 
-                # fo.write("gap: {}\n".format(gap))
-                # fo.write("common: {}\n".format(seq_types["common"]))
-                # fo.write("results: {}\n".format(results))
-                # fo.write("pair: {}\n".format("".join(seq_types["common"])))
-
-                # fo.write("\n\n")
+                fo.write("\n")
 
         fo.write("{}\n".format(", ".join(pair_results)))
 
-    with fileinput.input("results_common_v1.1.txt",
+    with fileinput.input("results_diff_one_v1.1.txt",
                          inplace=True) as fio:
         for entry in fio:
             if "updated:" in entry:
@@ -389,7 +386,7 @@ def filter_results():
         get_generated_date_v1()))
     print("DATE_EXPECTED: {}".format(
         get_expected_date_v1()))
-    print("DRAWS: 3 - 4 draws\n")
+    print("DRAWS: 1 - 2 draws\n")
 
     gap_results = get_gap_results_v1()
 
@@ -400,13 +397,16 @@ def filter_results():
         # common(2)
         if (
             "common" in seq_types and
-            len(seq_types["common"]) == 2
+            len(seq_types["common"]) == 1 and
+            "diff_one" in seq_types and
+            len(seq_types["diff_one"]) >= 1
         ):
 
             print("gap: {}".format(gap))
             print("common: {}".format(seq_types["common"]))
-            print("results: {}".format(results))
-            print("pair: {}".format("".join(seq_types["common"])))
+            print("results:")
+            for res in results:
+                print(res)
 
             print("\n")
 
@@ -422,4 +422,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
