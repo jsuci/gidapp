@@ -311,11 +311,11 @@ def get_expected_date_v1():
 
 def is_current_date():
     """Get results_v2.txt current date and compare it to
-    results_seq_types_v2.1.txt date. Return True if they
+    results_common_v1.1.txt date. Return True if they
     are the same and False if not
     """
 
-    with open("results_seq_types_v1.1.txt", "r") as fo:
+    with open("results_common_v1.1.txt", "r") as fo:
         fi_date = "updated: " + get_generated_date_v1()
         fo_date = fo.readline().strip()
 
@@ -340,7 +340,7 @@ def export_results():
         else:
             return False
 
-    with open("results_seq_types_v1.1.txt", "a") as fo:
+    with open("results_common_v1.1.txt", "a") as fo:
         # fo.write("\n\nDATE_GENERATED: {}\n".format(
         #     get_generated_date_v1()))
         # fo.write("DATE_EXPECTED: {}\n".format(
@@ -370,7 +370,7 @@ def export_results():
 
         fo.write("{}\n".format(", ".join(pair_results)))
 
-    with fileinput.input("results_seq_types_v1.1.txt",
+    with fileinput.input("results_common_v1.1.txt",
                          inplace=True) as fio:
         for entry in fio:
             if "updated:" in entry:

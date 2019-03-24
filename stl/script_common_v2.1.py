@@ -331,11 +331,11 @@ def get_expected_date_v2():
 
 def is_current_date():
     """Get results_v2.txt current date and compare it to
-    results_seq_types_v2.1.txt date. Return True if they
+    results_common_v2.1.txt date. Return True if they
     are the same and False if not
     """
 
-    with open("results_seq_types_v2.1.txt", "r") as fo:
+    with open("results_common_v2.1.txt", "r") as fo:
         fi_date = "updated: " + get_generated_date_v2()
         fo_date = fo.readline().strip()
 
@@ -360,14 +360,15 @@ def export_results():
         else:
             return False
 
-    with open("results_seq_types_v2.1.txt", "a") as fo:
-        fo.write("\n\nDATE_GENERATED: {}\n".format(
-            get_generated_date_v2()))
-        fo.write("DATE_EXPECTEDL {}\n".format(
-            get_expected_date_v2()))
-        fo.write("DRAWS: 3 - 4 draws\n")
+    with open("results_common_v2.1.txt", "a") as fo:
+        # fo.write("\n\nDATE_GENERATED: {}\n".format(
+        #     get_generated_date_v2()))
+        # fo.write("DATE_EXPECTEDL {}\n".format(
+        #     get_expected_date_v2()))
+        # fo.write("DRAWS: 3 - 4 draws\n")
 
         time_gap_results = get_gap_results_v2()
+        pair_results = []
 
         for time, gap_results in time_gap_results.items():
             for gap, results in gap_results.items():
@@ -379,16 +380,20 @@ def export_results():
                     "common" in seq_types and
                     len(seq_types["common"]) == 2
                 ):
+                    pair_results.append("".join(seq_types["common"]))
 
-                    fo.write("time: {}\n".format(time))
-                    fo.write("gap: {}\n".format(gap))
-                    fo.write("common: {}\n".format(seq_types["common"]))
-                    fo.write("results: {}\n".format(results))
-                    fo.write("pair: {}\n".format("".join(seq_types["common"])))
+                    # fo.write("time: {}\n".format(time))
+                    # fo.write("gap: {}\n".format(gap))
+                    # fo.write("common: {}\n".format(seq_types["common"]))
+                    # fo.write("results: {}\n".format(results))
+                    # fo.write("pair: {}\n".format(
+                    #     "".join(seq_types["common"])))
 
-                    fo.write("\n\n")
+                    # fo.write("\n\n")
 
-    with fileinput.input("results_seq_types_v2.1.txt",
+        fo.write("{}\n".format(", ".join(pair_results)))
+
+    with fileinput.input("results_common_v2.1.txt",
                          inplace=True) as fio:
         for entry in fio:
             if "updated:" in entry:
