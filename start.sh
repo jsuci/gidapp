@@ -8,7 +8,6 @@ echo "SEQ_TYPES Pattern"
 python script_common_v1.1.py
 python script_common_v1.2.py
 python script_common_v2.1.py
-python script_diff_one_v1.1.py
 echo
 echo "Fetching Results:"
 python sw3_results_v1.py
@@ -29,7 +28,6 @@ echo "SEQ_TYPES Pattern"
 python script_common_v1.1.py
 python script_common_v1.2.py
 python script_common_v2.1.py
-python script_diff_one_v1.1.py
 echo
 echo "Fetching Results:"
 python stl_results_v1.py
