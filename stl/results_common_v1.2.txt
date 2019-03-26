@@ -1,7 +1,259 @@
-updated: 24 sun mar 2019 2
+updated: 26 tue mar 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
 DATE_EXPECTED: 24 sun mar 2019 2
 DRAWS: 1 - 2 draws
+
+
+
+DATE_GENERATED: 25 mon mar 2019 0
+DATE_EXPECTED: 25 mon mar 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['7']
+results: ['407', '742', '817']
+407
+742
+817
+
+
+gap: 3
+common: ['2']
+results: ['742', '862', '124']
+742
+862
+124
+
+
+gap: 10
+common: ['7']
+results: ['676', '794', '877']
+676
+794
+877
+
+
+gap: 11
+common: ['1']
+results: ['124', '199', '881']
+124
+199
+881
+
+
+gap: 13
+common: ['7']
+results: ['711', '782', '709']
+711
+782
+709
+
+
+
+
+DATE_GENERATED: 25 mon mar 2019 1
+DATE_EXPECTED: 25 mon mar 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['139', '843', '039']
+139
+843
+039
+
+
+gap: 4
+common: ['7']
+results: ['742', '337', '711']
+742
+337
+711
+
+
+gap: 12
+common: ['2']
+results: ['124', '248', '502']
+124
+248
+502
+
+
+gap: 16
+common: ['8']
+results: ['358', '877', '038']
+358
+877
+038
+
+
+
+
+DATE_GENERATED: 25 mon mar 2019 2
+DATE_EXPECTED: 25 mon mar 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['7']
+results: ['817', '711', '794']
+817
+711
+794
+
+
+gap: 9
+common: ['2']
+results: ['862', '502', '782']
+862
+502
+782
+
+
+gap: 17
+common: ['5']
+results: ['358', '854', '005']
+358
+854
+005
+
+
+gap: 19
+common: ['2']
+results: ['502', '502', '492']
+502
+502
+492
+
+
+
+
+DATE_GENERATED: 26 tue mar 2019 0
+DATE_EXPECTED: 26 tue mar 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['632', '139', '843']
+632
+139
+843
+
+
+gap: 3
+common: ['3']
+results: ['139', '039', '337']
+139
+039
+337
+
+
+gap: 4
+common: ['4']
+results: ['407', '094', '124']
+407
+094
+124
+
+
+gap: 11
+common: ['7']
+results: ['337', '170', '877']
+337
+170
+877
+
+
+gap: 12
+common: ['8']
+results: ['258', '283', '881']
+258
+283
+881
+
+
+
+
+DATE_GENERATED: 26 tue mar 2019 1
+DATE_EXPECTED: 26 tue mar 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['2']
+results: ['226', '742', '862']
+226
+742
+862
+
+
+gap: 9
+common: ['8']
+results: ['817', '358', '387']
+817
+358
+387
+
+
+gap: 11
+common: ['8']
+results: ['862', '870', '875']
+862
+870
+875
+
+
+gap: 12
+common: ['7']
+results: ['337', '794', '527']
+337
+794
+527
+
+
+gap: 15
+common: ['2']
+results: ['124', '782', '920']
+124
+782
+920
+
+
+gap: 16
+common: ['6']
+results: ['616', '236', '695']
+616
+236
+695
+
+
+
+
+DATE_GENERATED: 26 tue mar 2019 2
+DATE_EXPECTED: 26 tue mar 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 10
+common: ['7']
+results: ['817', '475', '782']
+817
+475
+782
+
+
+gap: 11
+common: ['0']
+results: ['094', '900', '024']
+094
+900
+024
+
+
+gap: 14
+common: ['2']
+results: ['258', '248', '132']
+258
+248
+132
+
 
