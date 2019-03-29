@@ -2930,3 +2930,66 @@ results: ['733', '876', '742']
 73-3
 76-8
 74-2
+
+
+23-6 (263 27 wed mar 2019 4pm)
+24-3
+25-4
+26-7
+
+--------------------------------
+NEW GUIDE ON FINDING M10 NUMBERS
+
+1. pick a common pair from script_common_v1.1.py
+2. using search_result_v2.1.py pick combinations from
+previous years using the pair you have obtained from
+script_common_v1.1.py
+
+---------------------------------
+MARCH PAIR COMBIS
+63
+356
+366
+
+62
+126
+
+73
+377
+
+75
+577
+457
+
+74
+478
+457
+
+64
+146
+469
+046
+
+---------------------------
+test script_search_v1.2.py
+
+25
+225
+
+28
+248
+238
+
+13
+138
+134
+133
+
+15
+015-
+155-
+156*
+
+{'145': 1, '015': 1, '157': 2, '155': 1, '125': 1} (feb 2019)
+{'': 2, '015': 2, '155': 2, '': 1, '156': 2} (mar 2018)
+{'': 2, '125': 1, '': 1, '135': 1} (mar 2019)
