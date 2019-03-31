@@ -1,4 +1,4 @@
-updated: 29 fri mar 2019 1
+updated: 31 sun mar 2019 1
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -597,5 +597,135 @@ results: ['968', '481', '389']
 968
 481
 389
+
+
+
+
+DATE_GENERATED: 30 sat mar 2019 2
+DATE_EXPECTED: 30 sat mar 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['6']
+results: ['768', '627', '968']
+768
+627
+968
+
+
+gap: 11
+common: ['2']
+results: ['627', '234', '742']
+627
+234
+742
+
+
+gap: 13
+common: ['9']
+results: ['393', '960', '921']
+393
+960
+921
+
+
+gap: 15
+common: ['1']
+results: ['617', '481', '041']
+617
+481
+041
+
+
+
+
+DATE_GENERATED: 31 sun mar 2019 0
+DATE_EXPECTED: 31 sun mar 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['2']
+results: ['121', '263', '927']
+121
+263
+927
+
+
+gap: 9
+common: ['6']
+results: ['606', '236', '876']
+606
+236
+876
+
+
+gap: 12
+common: ['7']
+results: ['627', '764', '710']
+627
+764
+710
+
+
+gap: 15
+common: ['5']
+results: ['357', '538', '557']
+357
+538
+557
+
+
+gap: 16
+common: ['7']
+results: ['617', '257', '276']
+617
+257
+276
+
+
+gap: 19
+common: ['3']
+results: ['236', '379', '638']
+236
+379
+638
+
+
+
+
+DATE_GENERATED: 31 sun mar 2019 1
+DATE_EXPECTED: 31 sun mar 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['2']
+results: ['121', '627', '236']
+121
+627
+236
+
+
+gap: 12
+common: ['2']
+results: ['263', '234', '425']
+263
+234
+425
+
+
+gap: 14
+common: ['6']
+results: ['629', '960', '600']
+629
+960
+600
+
+
+gap: 18
+common: ['2']
+results: ['927', '742', '926']
+927
+742
+926
 
 
