@@ -1,13 +1,29 @@
-"""
-Provided a month_year(str) and a pair(str)
-determine count the results that contain
-that pair
-"""
-
+from datetime import *
 from itertools import *
 from re import *
-from pprint import *
-from datetime import *
+
+
+def gen_pairs():
+    pairs = []
+    for first_d in range(0, 10):
+        for second_d in range(first_d, 10):
+            pairs.append("{}{}".format(first_d, second_d))
+
+    return pairs
+
+
+def gen_month(year, month):
+    date_today = date.today()
+    date_before = date(year, month, 1)
+    date_list = []
+
+    while date_before <= date_today:
+        date_list.append(date_before.strftime("%b %Y").lower())
+
+        date_before += timedelta(days=32)
+        date_before = date_before.replace(day=1)
+
+    return date_list
 
 
 def check_pair(res, pair):
@@ -42,7 +58,8 @@ def filter_result(month_year, pair):
 
 
 def main():
-    filter_result("apr 2018", "11")
+    for month in gen_month(2019, 1)[:-1]:
+        filter_result(month, "02")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-updated: 31 sun mar 2019 1
+updated: 02 tue apr 2019 1
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -547,5 +547,201 @@ results: ['796', '799', '938']
 796
 799
 938
+
+
+
+
+DATE_GENERATED: 31 sun mar 2019 2
+DATE_EXPECTED: 31 sun mar 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['1']
+results: ['871', '139', '139']
+871
+139
+139
+
+
+gap: 14
+common: ['8']
+results: ['481', '258', '248']
+481
+258
+248
+
+
+
+
+DATE_GENERATED: 01 mon apr 2019 0
+DATE_EXPECTED: 1 mon apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['8']
+results: ['871', '481', '843']
+871
+481
+843
+
+
+gap: 10
+common: ['1']
+results: ['341', '139', '124']
+341
+139
+124
+
+
+
+
+DATE_GENERATED: 01 mon apr 2019 1
+DATE_EXPECTED: 1 mon apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 10
+common: ['6']
+results: ['606', '226', '676']
+606
+226
+676
+
+
+gap: 12
+common: ['7']
+results: ['799', '742', '475']
+799
+742
+475
+
+
+gap: 14
+common: ['8']
+results: ['584', '862', '283']
+584
+862
+283
+
+
+gap: 18
+common: ['5']
+results: ['265', '358', '527']
+265
+358
+527
+
+
+
+
+DATE_GENERATED: 01 mon apr 2019 2
+DATE_EXPECTED: 1 mon apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['1']
+results: ['100', '871', '541']
+100
+871
+541
+
+
+gap: 12
+common: ['3']
+results: ['341', '843', '358']
+341
+843
+358
+
+
+gap: 13
+common: ['9']
+results: ['799', '039', '900']
+799
+039
+900
+
+
+gap: 14
+common: ['4']
+results: ['541', '094', '794']
+541
+094
+794
+
+
+gap: 19
+common: ['5']
+results: ['265', '475', '540']
+265
+475
+540
+
+
+
+
+DATE_GENERATED: 02 tue apr 2019 0
+DATE_EXPECTED: 2 tue apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['3']
+results: ['838', '139', '843']
+838
+139
+843
+
+
+gap: 12
+common: ['0']
+results: ['606', '407', '504']
+606
+407
+504
+
+
+gap: 14
+common: ['7']
+results: ['799', '817', '170']
+799
+817
+170
+
+
+gap: 16
+common: ['5']
+results: ['584', '258', '053']
+584
+258
+053
+
+
+gap: 19
+common: ['8']
+results: ['938', '358', '881']
+938
+358
+881
+
+
+
+
+DATE_GENERATED: 02 tue apr 2019 1
+DATE_EXPECTED: 2 tue apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['4']
+results: ['420', '584', '407']
+420
+584
+407
+
+
+gap: 10
+common: ['6']
+results: ['796', '265', '862']
+796
+265
+862
 
 
