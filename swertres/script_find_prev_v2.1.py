@@ -59,7 +59,7 @@ def filter_result(month_year, pair):
 
 def main():
     for month in gen_month(2019, 1)[:-1]:
-        filter_result(month, "02")
+        filter_result(month, "45")
 
 
 if __name__ == "__main__":

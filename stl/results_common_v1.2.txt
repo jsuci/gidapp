@@ -1,4 +1,4 @@
-updated: 02 tue apr 2019 1
+updated: 04 thu apr 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -743,5 +743,231 @@ results: ['796', '265', '862']
 796
 265
 862
+
+
+
+
+DATE_GENERATED: 02 tue apr 2019 2
+DATE_EXPECTED: 2 tue apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['1']
+results: ['100', '341', '361']
+100
+341
+361
+
+
+gap: 18
+common: ['4']
+results: ['584', '124', '024']
+584
+124
+024
+
+
+
+
+DATE_GENERATED: 03 wed apr 2019 0
+DATE_EXPECTED: 3 wed apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['6']
+results: ['286', '396', '564']
+286
+396
+564
+
+
+gap: 15
+common: ['0']
+results: ['606', '039', '170']
+606
+039
+170
+
+
+
+
+DATE_GENERATED: 03 wed apr 2019 1
+DATE_EXPECTED: 3 wed apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['038', '635', '838']
+038
+635
+838
+
+
+gap: 10
+common: ['3']
+results: ['483', '139', '039']
+483
+139
+039
+
+
+gap: 14
+common: ['7']
+results: ['871', '407', '475']
+871
+407
+475
+
+
+
+
+DATE_GENERATED: 03 wed apr 2019 2
+DATE_EXPECTED: 3 wed apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['6']
+results: ['786', '606', '361']
+786
+606
+361
+
+
+gap: 11
+common: ['4']
+results: ['483', '481', '094']
+483
+481
+094
+
+
+gap: 12
+common: ['2']
+results: ['420', '265', '258']
+420
+265
+258
+
+
+gap: 16
+common: ['9']
+results: ['905', '039', '794']
+905
+039
+794
+
+
+
+
+DATE_GENERATED: 04 thu apr 2019 0
+DATE_EXPECTED: 4 thu apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['8']
+results: ['286', '786', '838']
+286
+786
+838
+
+
+gap: 8
+common: ['5']
+results: ['564', '905', '265']
+564
+905
+265
+
+
+gap: 11
+common: ['1']
+results: ['100', '139', '817']
+100
+139
+817
+
+
+gap: 12
+common: ['3']
+results: ['483', '938', '337']
+483
+938
+337
+
+
+gap: 16
+common: ['7']
+results: ['871', '742', '170']
+871
+742
+170
+
+
+
+
+DATE_GENERATED: 04 thu apr 2019 1
+DATE_EXPECTED: 4 thu apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['3']
+results: ['635', '483', '341']
+635
+483
+341
+
+
+gap: 8
+common: ['8']
+results: ['838', '871', '938']
+838
+871
+938
+
+
+gap: 9
+common: ['6']
+results: ['564', '606', '632']
+564
+606
+632
+
+
+gap: 10
+common: ['7']
+results: ['786', '799', '407']
+786
+799
+407
+
+
+
+
+DATE_GENERATED: 04 thu apr 2019 2
+DATE_EXPECTED: 4 thu apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['3']
+results: ['391', '838', '483']
+391
+838
+483
+
+
+gap: 17
+common: ['7']
+results: ['796', '742', '794']
+796
+742
+794
+
+
+gap: 18
+common: ['8']
+results: ['871', '817', '248']
+871
+817
+248
 
 
