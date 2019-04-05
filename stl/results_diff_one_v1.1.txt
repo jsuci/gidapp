@@ -1,2 +1,36 @@
-updated: 24 sun mar 2019 2
+updated: 05 fri apr 2019 2
+
+DATE_GENERATED: 05 fri apr 2019 1
+DATE_EXPECTED: 05 fri apr 2019 1
+DRAWS: 1 - 2 draws
+gap: 4
+common: ['5']
+results:
+252
+635
+105
+
+DATE_GENERATED: 05 fri apr 2019 2
+DATE_EXPECTED: 05 fri apr 2019 2
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['8']
+results:
+286
+838
+481
+
+gap: 14
+common: ['8']
+results:
+786
+481
+258
+
+gap: 18
+common: ['4']
+results:
+420
+843
+794
 

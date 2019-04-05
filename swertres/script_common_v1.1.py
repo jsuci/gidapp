@@ -296,17 +296,17 @@ def get_generated_date_v1():
 
 
 def get_expected_date_v1():
-    gen_date = get_generated_date_v1().split(" ")
-    exp_date = (datetime.now().replace(day=int(gen_date[0])) +
-                timedelta(days=0))
+    gen_date = datetime.strptime(
+        get_generated_date_v1()[:-2], "%d %a %b %Y")
+    exp_date = gen_date + timedelta(days=0)
 
-    day = exp_date.day
+    day = exp_date.strftime("%d")
     weekday = exp_date.strftime("%a").lower()
     month = exp_date.strftime("%b").lower()
     year = exp_date.year
 
     return "{} {} {} {} {}".format(
-        day, weekday, month, year, gen_date[-1])
+        day, weekday, month, year, get_generated_date_v1()[-1])
 
 
 def is_current_date():

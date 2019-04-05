@@ -1,31 +1,53 @@
-updated: 25 mon mar 2019 1
+updated: 05 fri apr 2019 2
 
-DATE_GENERATED: 24 sun mar 2019 2
-DATE_EXPECTED: 24 sun mar 2019 2
+DATE_GENERATED: 05 fri apr 2019 0
+DATE_EXPECTED: 5 fri apr 2019 0
 DRAWS: 1 - 2 draws
-gap: 5
-common: ['2']
+gap: 1
+common: ['0']
 results:
-234
-227
-742
+560
+104
+054
 
-gap: 12
+DATE_GENERATED: 05 fri apr 2019 1
+DATE_EXPECTED: 05 fri apr 2019 1
+DRAWS: 1 - 2 draws
+gap: 7
 common: ['5']
 results:
+015
+955
+315
+
+gap: 15
+common: ['5']
+results:
+955
+357
 538
-556
-657
 
+gap: 18
+common: ['2']
+results:
+299
+702
+215
 
-DATE_GENERATED: 25 mon mar 2019 1
-DATE_EXPECTED: 25 mon mar 2019 1
+DATE_GENERATED: 05 fri apr 2019 2
+DATE_EXPECTED: 05 fri apr 2019 2
 DRAWS: 1 - 2 draws
-gap: 10
+gap: 2
 common: ['1']
 results:
-581
-710
-961
+138
+104
+015
 
+gap: 3
+common: ['0']
+results:
+560
+054
+107
 

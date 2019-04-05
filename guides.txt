@@ -3036,3 +3036,10 @@ JAN TO MAR CONSITENT COMBI
 
 ** appears on JAN to MAR and APR 2018
 * appears on JAN to MAR only
+
+-----------------------------
+HOW TO SPOT WINNING NUMBERS #2
+
+1. use results_filter_excel to find possible pairs
+2. get previous year of same month results
+3. use script_search_result_v2.1.py to find combinations that closely match date results on step #2

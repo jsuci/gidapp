@@ -1,7 +1,12 @@
-import fileinput
+"""
+Given a list of gap results taken from results_v2.txt
+determine and filter the results base on its seq_types
+"""
+
 from itertools import *
 from re import *
 from pprint import *
+import fileinput
 from datetime import *
 
 
@@ -139,38 +144,53 @@ def get_seq_types(results):
     return seq_type_results
 
 
-def get_gap_results_v1():
+def get_gap_results_v2():
 
-    def get_reverse_results_v1():
+    def get_reverse_results_v2():
         """Given all the results from results_v2.txt
-        return a list containing results in this
-        reverse order.
+        return a dictionary containing time results
+        in this format
 
-        ['123', ...]
+        {"11am": ['123', ...], "4pm": ['456', ...]..}
         """
 
         reverse = []
+        time_results = {}
 
-        with open("results_v1.txt", "r") as fi:
+        with open("results_v2.txt", "r") as fi:
             for entry in islice(fi, 2, None):
                 entry = entry.strip()
                 reverse.insert(0, entry)
 
-        return reverse
+        for r_entry in reverse:
+            results = split(r"\s{2,}", r_entry)[1:]
+            if len(results) == 3:
+                time_results.setdefault("11am", [])
+                time_results.setdefault("4pm", [])
+                time_results.setdefault("9pm", [])
 
-    results = get_reverse_results_v1()
+                time_results["11am"].append(results[0])
+                time_results["4pm"].append(results[1])
+                time_results["9pm"].append(results[2])
+
+        return time_results
+
+    time_results = get_reverse_results_v2()
     gap_results = {}
 
-    for gap in range(1, 20):
-        step = gap
-        temp_results = []
+    for time, results in time_results.items():
+        for gap in range(1, 10):
+            step = gap
+            temp_results = []
 
-        for count, result in enumerate(results):
-            if step == count and len(temp_results) != 3:
-                temp_results.append(result)
-                step += (gap + 1)
+            for count, result in enumerate(results):
+                if step == count and len(temp_results) != 3:
+                    temp_results.append(result)
 
-            gap_results.setdefault(gap, temp_results)
+                    step += (gap + 1)
+
+            gap_results.setdefault(time, {})
+            gap_results[time].setdefault(gap, temp_results)
 
     return gap_results
 
@@ -279,20 +299,26 @@ def get_pos_digits(sequence, seq_type):
     return output
 
 
-def get_generated_date_v1():
+def get_generated_date_v2():
     """Get current date from updated string of
     results_v2.txt. Return a string of date
     """
 
-    with open("results_v1.txt") as fi:
-        date = fi.readline().strip().replace("updated: ", "")
+    reverse_dates = []
 
-    return date
+    with open("results_v2.txt") as fi:
+        for entry in islice(fi, 2, None):
+            entry = split(r"\s{2,}", entry.strip())
+            if len(entry) == 4:
+                date = entry[0]
+                reverse_dates.insert(0, date)
+
+    return reverse_dates[0]
 
 
-def get_expected_date_v1():
+def get_expected_date_v2():
     gen_date = datetime.strptime(
-        get_generated_date_v1()[:-2], "%d %a %b %Y")
+        get_generated_date_v2(), "%d %a %b %Y")
     exp_date = gen_date + timedelta(days=0)
 
     day = exp_date.strftime("%d")
@@ -300,18 +326,17 @@ def get_expected_date_v1():
     month = exp_date.strftime("%b").lower()
     year = exp_date.year
 
-    return "{} {} {} {} {}".format(
-        day, weekday, month, year, get_generated_date_v1()[-1])
+    return "{} {} {} {}".format(day, weekday, month, year)
 
 
 def is_current_date():
     """Get results_v2.txt current date and compare it to
-    results_seq_types_v2.1.txt date. Return True if they
+    results_common_v2.1.txt date. Return True if they
     are the same and False if not
     """
 
-    with open("results_diff_one_v1.1.txt", "r") as fo:
-        fi_date = "updated: " + get_generated_date_v1()
+    with open("results_diff_one_v2.1.txt", "r") as fo:
+        fi_date = "updated: " + get_generated_date_v2()
         fo_date = fo.readline().strip()
 
         if fi_date != fo_date:
@@ -332,20 +357,64 @@ def is_pure_diff_one(results, d_one_seq):
 
 
 def export_results():
-    """After getting the get_gap_results_v1 filter
+    """After getting the get_gap_results_v2 filter
     the results by its seq_type, common etc
     """
 
-    with open("results_diff_one_v1.1.txt", "a") as fo:
-
+    with open("results_diff_one_v2.1.txt", "a") as fo:
         fo.write("DATE_GENERATED: {}\n".format(
-            get_generated_date_v1()))
+            get_generated_date_v2()))
         fo.write("DATE_EXPECTED: {}\n".format(
-            get_expected_date_v1()))
-        fo.write("DRAWS: 1 - 2 draws\n")
+            get_expected_date_v2()))
+        fo.write("DRAWS: 3 - 4 draws\n")
 
-        gap_results = get_gap_results_v1()
+        time_gap_results = get_gap_results_v2()
 
+        for time, gap_results in time_gap_results.items():
+            for gap, results in gap_results.items():
+                seq_types = get_seq_types(results)
+
+                # Filter options currently set to:
+                # common(2)
+                if (
+                    "common" in seq_types and
+                    len(seq_types["common"]) == 1 and
+                    "diff_one" in seq_types and
+                    len(seq_types["diff_one"]) >= 1
+                ):
+
+                    fo.write("time: {}\n".format(time))
+                    fo.write("gap: {}\n".format(gap))
+                    fo.write("common: {}\n".format(seq_types["common"]))
+                    fo.write("results:\n")
+                    for res in results:
+                        fo.write(res + "\n")
+
+                    fo.write("\n")
+
+    with fileinput.input("results_diff_one_v2.1.txt",
+                         inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print(is_current_date())
+            else:
+                print(entry, end="")
+
+
+def filter_results():
+    """After getting the get_gap_results_v2 filter
+    the results by its seq_type, common etc
+    """
+
+    print("DATE_GENERATED: {}".format(
+        get_generated_date_v2()))
+    print("DATE_EXPECTED: {}".format(
+        get_expected_date_v2()))
+    print("DRAWS: 3 - 4 draws\n")
+
+    time_gap_results = get_gap_results_v2()
+
+    for time, gap_results in time_gap_results.items():
         for gap, results in gap_results.items():
             seq_types = get_seq_types(results)
 
@@ -357,55 +426,15 @@ def export_results():
                 "diff_one" in seq_types and
                 len(seq_types["diff_one"]) >= 1
             ):
-                fo.write("gap: {}\n".format(gap))
-                fo.write("common: {}\n".format(seq_types["common"]))
-                fo.write("results:\n")
+
+                print("time: {}".format(time))
+                print("gap: {}".format(gap))
+                print("common: {}".format(seq_types["common"]))
+                print("results:")
                 for res in results:
-                    fo.write("{}\n".format(res))
+                    print(res)
 
-                fo.write("\n")
-
-    with fileinput.input("results_diff_one_v1.1.txt",
-                         inplace=True) as fio:
-        for entry in fio:
-            if "updated:" in entry:
-                print(is_current_date())
-            else:
-                print(entry, end="")
-
-
-def filter_results():
-    """After getting the get_gap_results_v1 filter
-    the results by its seq_type, common etc
-    """
-
-    print("DATE_GENERATED: {}".format(
-        get_generated_date_v1()))
-    print("DATE_EXPECTED: {}".format(
-        get_expected_date_v1()))
-    print("DRAWS: 1 - 2 draws\n")
-
-    gap_results = get_gap_results_v1()
-
-    for gap, results in gap_results.items():
-        seq_types = get_seq_types(results)
-
-        # Filter options currently set to:
-        # common(2)
-        if (
-            "common" in seq_types and
-            len(seq_types["common"]) == 1 and
-            "diff_one" in seq_types and
-            len(seq_types["diff_one"]) >= 1
-        ):
-
-            print("gap: {}".format(gap))
-            print("common: {}".format(seq_types["common"]))
-            print("results:")
-            for res in results:
-                print(res)
-
-            print("\n")
+                print("\n")
 
 
 def main():
