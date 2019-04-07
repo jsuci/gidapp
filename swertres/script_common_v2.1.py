@@ -184,7 +184,7 @@ def get_gap_results_v2():
             temp_results = []
 
             for count, result in enumerate(results):
-                if step == count and len(temp_results) != 2:
+                if step == count and len(temp_results) != 3:
                     temp_results.append(result)
 
                     step += (gap + 1)
@@ -362,14 +362,13 @@ def export_results():
     """
 
     with open("results_common_v2.1.txt", "a") as fo:
-        # fo.write("\n\nDATE_GENERATED: {}\n".format(
-        #     get_generated_date_v2()))
-        # fo.write("DATE_EXPECTEDL {}\n".format(
-        #     get_expected_date_v2()))
-        # fo.write("DRAWS: 3 - 4 draws\n")
+        fo.write("\nDATE_GENERATED: {}\n".format(
+            get_generated_date_v2()))
+        fo.write("DATE_EXPECTEDL {}\n".format(
+            get_expected_date_v2()))
+        fo.write("DRAWS: 3 - 4 draws\n")
 
         time_gap_results = get_gap_results_v2()
-        pair_results = []
 
         for time, gap_results in time_gap_results.items():
             for gap, results in gap_results.items():
@@ -379,20 +378,15 @@ def export_results():
                 # common(2)
                 if (
                     "common" in seq_types and
-                    len(seq_types["common"]) == 2
+                    len(seq_types["common"]) == 1
                 ):
-                    pair_results.append("".join(seq_types["common"]))
-
-                    # fo.write("time: {}\n".format(time))
-                    # fo.write("gap: {}\n".format(gap))
-                    # fo.write("common: {}\n".format(seq_types["common"]))
-                    # fo.write("results: {}\n".format(results))
-                    # fo.write("pair: {}\n".format(
-                    #     "".join(seq_types["common"])))
-
-                    # fo.write("\n\n")
-
-        fo.write("{}\n".format(", ".join(pair_results)))
+                    fo.write("time: {}\n".format(time))
+                    fo.write("gap: {}\n".format(gap))
+                    fo.write("common: {}\n".format(seq_types["common"]))
+                    fo.write("results: {}\n".format(results))
+                    for res in results:
+                        fo.write(res + "\n")
+                    fo.write("\n")
 
     with fileinput.input("results_common_v2.1.txt",
                          inplace=True) as fio:
@@ -424,47 +418,15 @@ def filter_results():
             # common(2)
             if (
                 "common" in seq_types and
-                len(seq_types["common"]) == 2
-                # "diff_one" in seq_types and
-                # len(seq_types["diff_one"]) == 1 and
-                # "diff_two" in seq_types and
-                # len(seq_types["diff_two"]) == 1
+                len(seq_types["common"]) == 1
             ):
-
-                # c_digits = []
-                # d_one_digits = []
-                # d_two_digits = []
 
                 print("time: {}".format(time))
                 print("gap: {}".format(gap))
                 print("common: {}".format(seq_types["common"]))
                 print("results: {}".format(results))
-                print("pair: {}".format("".join(seq_types["common"])))
-                # print("seq_type: {}({}), {}({})".format(
-                #     "diff_one", len(seq_types["diff_one"]),
-                #     "diff_two", len(seq_types["diff_two"])))
-
-                # for common in seq_types["common"]:
-                #     c_digits.append(common)
-
-                # for d_one in seq_types["diff_one"]:
-                #     print("{} <- {}".format(
-                #         d_one, get_pos_digits(d_one, "diff_one")))
-                #     d_one_digits.extend(get_pos_digits(d_one, "diff_one"))
-
-                # for d_two in seq_types["diff_two"]:
-                #     print("{} <- {}".format(
-                #         d_two, get_pos_digits(d_two, "diff_two")))
-                #     d_two_digits.extend(get_pos_digits(d_two, "diff_two"))
-
-                # print("combis:")
-                # for combi in product(
-                #     *c_digits,
-                #     d_one_digits,
-                #     # d_two_digits
-                # ):
-                #     print("".join(combi))
-
+                for res in results:
+                    print(res)
                 print("\n")
 
 

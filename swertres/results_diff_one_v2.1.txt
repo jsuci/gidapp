@@ -1,4 +1,4 @@
-updated: 05 fri apr 2019
+updated: 06 sat apr 2019
 
 DATE_GENERATED: 04 thu apr 2019
 DATE_EXPECTED: 04 thu apr 2019
@@ -7,9 +7,9 @@ time: 11am
 gap: 4
 common: ['7']
 results:
-487
-357
-227
+74-8
+73-5
+72-2
 
 DATE_GENERATED: 05 fri apr 2019
 DATE_EXPECTED: 05 fri apr 2019
@@ -18,7 +18,42 @@ time: 9pm
 gap: 8
 common: ['5']
 results:
-315
-583
-562
+(54/50)
+51-3
+53-8
+52-6
 
+DATE_GENERATED: 06 sat apr 2019
+DATE_EXPECTED: 06 sat apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 7
+common: ['1']
+results:
+(16/10)
+19-5
+18-5
+17-6
+
+time: 4pm
+gap: 6
+common: ['5']
+results:
+(57/51)
+59-5
+50-9
+58-2
+
+time: 9pm
+gap: 2
+common: ['6']
+results:
+(63/67)
+65-0
+66-3
+64-8
+
+(66/62)
+65-0
+63-6
+64-8

@@ -3040,6 +3040,51 @@ JAN TO MAR CONSITENT COMBI
 -----------------------------
 HOW TO SPOT WINNING NUMBERS #2
 
-1. use results_filter_excel to find possible pairs
+1. use results_filter_excel to find possible pairs via get one from previous menthod
 2. get previous year of same month results
 3. use script_search_result_v2.1.py to find combinations that closely match date results on step #2
+
+-------------------------------
+HOW TO SPOT WINNING NUMBERS #3
+
+1. using script_count_missing get the highest missing result
+
+DATE_GENERATED: 04 thu apr 2019 2 from results_v2.txt
+0 <-  4     0 - -
+1 <-  5     - 1 -
+2 <- 35     - - 2 <-
+3 <- 21     3 - -
+4 <- 14     4 - -
+5 <-  5     - - 5
+6 <- 11     - - 6
+7 <- 12     - 7 -
+8 <- 20     - - 8
+9 <- 16     - 9 -
+
+2. remove other digits that has same position with highest missing
+
+0 <-  4     0 - -
+1 <-  5     - 1 -
+2 <- 35     - - 2 <-
+3 <- 21     3 - -
+4 <- 14     4 - -
+7 <- 12     - 7 -
+9 <- 16     - 9 -
+
+3. generate possible combinatiosn from the remaining digits
+
+012
+072
+092
+
+312
+372
+392
+
+412
+472
+492
+
+4. wait for 2 to 3 draws for results to appear
+
+05 fri apr 2019       138       100       ((702))
