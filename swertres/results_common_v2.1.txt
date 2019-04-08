@@ -1,4 +1,4 @@
-updated: 06 sat apr 2019
+updated: 07 sun apr 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -42,4 +42,40 @@ results: ['436', '764', '961']
 436
 764
 961
+
+
+DATE_GENERATED: 07 sun apr 2019
+DATE_EXPECTEDL 07 sun apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 2
+common: ['1']
+results: ['138', '107', '159']
+138
+107
+159
+
+time: 11am
+gap: 5
+common: ['7']
+results: ['107', '627', '227']
+107
+627
+227
+
+time: 11am
+gap: 7
+common: ['4']
+results: ['487', '234', '041']
+487
+234
+041
+
+time: 9pm
+gap: 8
+common: ['6']
+results: ['436', '960', '926']
+436
+960
+926
 

@@ -1,4 +1,4 @@
-updated: 07 sun apr 2019 0
+updated: 08 mon apr 2019 0
 
 DATE_GENERATED: 05 fri apr 2019 0
 DATE_EXPECTED: 5 fri apr 2019 0
@@ -84,3 +84,26 @@ results:
 627
 876
 
+DATE_GENERATED: 07 sun apr 2019 1
+DATE_EXPECTED: 07 sun apr 2019 1
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['6']
+results:
+560
+663
+846
+
+DATE_GENERATED: 07 sun apr 2019 2
+DATE_EXPECTED: 07 sun apr 2019 2
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['1']
+results:
+138
+107
+159
+
+DATE_GENERATED: 08 mon apr 2019 0
+DATE_EXPECTED: 08 mon apr 2019 0
+DRAWS: 1 - 2 draws

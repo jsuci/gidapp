@@ -1,4 +1,4 @@
-updated: 06 sat apr 2019
+updated: 07 sun apr 2019
 
 DATE_GENERATED: 04 thu apr 2019
 DATE_EXPECTED: 04 thu apr 2019
@@ -7,6 +7,7 @@ time: 11am
 gap: 4
 common: ['7']
 results:
+(75/71)
 74-8
 73-5
 72-2
@@ -57,3 +58,20 @@ results:
 65-0
 63-6
 64-8
+
+DATE_GENERATED: 07 sun apr 2019
+DATE_EXPECTED: 07 sun apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 2
+common: ['1']
+results:
+(16/10)
+18-3
+17-0
+19-5
+
+(17/11)(1)
+18-3
+10-7
+19-5
