@@ -1,4 +1,4 @@
-updated: 08 mon apr 2019 0
+updated: 10 wed apr 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -1533,5 +1533,131 @@ results: ['015', '315', '106']
 015
 315
 106
+
+
+
+
+DATE_GENERATED: 08 mon apr 2019 1
+DATE_EXPECTED: 08 mon apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 10
+common: ['3']
+results: ['138', '833', '315']
+138
+833
+315
+
+
+
+
+DATE_GENERATED: 08 mon apr 2019 2
+DATE_EXPECTED: 08 mon apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['8']
+results: ['854', '801', '886']
+854
+801
+886
+
+
+
+
+DATE_GENERATED: 09 tue apr 2019 1
+DATE_EXPECTED: 09 tue apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 14
+common: ['6']
+results: ['560', '436', '617']
+560
+436
+617
+
+
+gap: 18
+common: ['0']
+results: ['054', '606', '960']
+054
+606
+960
+
+
+
+
+DATE_GENERATED: 09 tue apr 2019 2
+DATE_EXPECTED: 09 tue apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 14
+common: ['6']
+results: ['560', '436', '617']
+560
+436
+617
+
+
+gap: 18
+common: ['0']
+results: ['054', '606', '960']
+054
+606
+960
+
+
+
+
+DATE_GENERATED: 10 wed apr 2019 0
+DATE_EXPECTED: 10 wed apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['943', '837', '013']
+943
+837
+013
+
+
+gap: 2
+common: ['3']
+results: ['173', '013', '338']
+173
+013
+338
+
+
+gap: 8
+common: ['8']
+results: ['338', '189', '833']
+338
+189
+833
+
+
+gap: 16
+common: ['5']
+results: ['560', '159', '905']
+560
+159
+905
+
+
+gap: 17
+common: ['1']
+results: ['189', '121', '106']
+189
+121
+106
+
+
+gap: 18
+common: ['1']
+results: ['104', '315', '154']
+104
+315
+154
 
 

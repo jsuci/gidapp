@@ -1,4 +1,4 @@
-updated: 07 sun apr 2019
+updated: 09 tue apr 2019
 
 DATE_GENERATED: 04 thu apr 2019
 DATE_EXPECTED: 04 thu apr 2019
@@ -75,3 +75,71 @@ results:
 18-3
 10-7
 19-5
+
+DATE_GENERATED: 08 mon apr 2019
+DATE_EXPECTED: 08 mon apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 6
+common: ['7']
+results:
+(73/70)
+71-0
+73-5
+72-4
+
+time: 11am
+gap: 8
+common: ['8']
+results:
+(83/87)
+84-7
+85-1
+86-3
+
+(82/86)
+84-7
+85-1
+83-6
+
+
+time: 4pm
+gap: 2
+common: ['5']
+results:
+(57/51)
+58-4
+50-4
+59-5
+
+time: 4pm
+gap: 4
+common: ['9']
+results:
+(96/90)(1)
+98-1
+99-2
+97-2
+
+
+DATE_GENERATED: 09 tue apr 2019
+DATE_EXPECTED: 09 tue apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 3
+common: ['7']
+results:
+(77/71)
+799
+701
+786
+
+time: 4pm
+gap: 5
+common: ['1']
+results:
+(18/12)
+198
+112
+106
+

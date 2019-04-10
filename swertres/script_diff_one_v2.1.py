@@ -362,7 +362,7 @@ def export_results():
     """
 
     with open("results_diff_one_v2.1.txt", "a") as fo:
-        fo.write("DATE_GENERATED: {}\n".format(
+        fo.write("\nDATE_GENERATED: {}\n".format(
             get_generated_date_v2()))
         fo.write("DATE_EXPECTED: {}\n".format(
             get_expected_date_v2()))
