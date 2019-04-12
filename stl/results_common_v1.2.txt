@@ -1,4 +1,4 @@
-updated: 09 tue apr 2019 2
+updated: 12 fri apr 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -1431,5 +1431,119 @@ results: ['263', '838', '139']
 263
 838
 139
+
+
+
+
+DATE_GENERATED: 10 wed apr 2019 0
+DATE_EXPECTED: 10 wed apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['3']
+results: ['360', '693', '391']
+360
+693
+391
+
+
+gap: 7
+common: ['6']
+results: ['636', '658', '635']
+636
+658
+635
+
+
+gap: 19
+common: ['4']
+results: ['474', '541', '124']
+474
+541
+124
+
+
+
+
+DATE_GENERATED: 10 wed apr 2019 1
+DATE_EXPECTED: 10 wed apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 2
+common: ['3']
+results: ['423', '355', '636']
+423
+355
+636
+
+
+gap: 4
+common: ['3']
+results: ['385', '413', '693']
+385
+413
+693
+
+
+gap: 8
+common: ['3']
+results: ['636', '263', '838']
+636
+263
+838
+
+
+gap: 15
+common: ['3']
+results: ['238', '483', '632']
+238
+483
+632
+
+
+
+
+DATE_GENERATED: 12 fri apr 2019 0
+DATE_EXPECTED: 12 fri apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['3']
+results: ['243', '385', '413']
+243
+385
+413
+
+
+gap: 6
+common: ['3']
+results: ['315', '636', '238']
+315
+636
+238
+
+
+gap: 9
+common: ['3']
+results: ['385', '693', '635']
+385
+693
+635
+
+
+gap: 10
+common: ['5']
+results: ['355', '658', '564']
+355
+658
+564
+
+
+gap: 11
+common: ['1']
+results: ['918', '515', '100']
+918
+515
+100
 
 

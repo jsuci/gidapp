@@ -1,4 +1,4 @@
-updated: 09 tue apr 2019
+updated: 11 thu apr 2019
 
 DATE_GENERATED: 04 thu apr 2019
 DATE_EXPECTED: 04 thu apr 2019
@@ -89,4 +89,31 @@ results:
 038
 481
 358
+
+DATE_GENERATED: 11 thu apr 2019
+DATE_EXPECTED: 11 thu apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 1
+common: ['3']
+results:
+315
+360
+039
+
+time: 11am
+gap: 2
+common: ['3']
+results:
+385
+039
+038
+
+time: 11am
+gap: 5
+common: ['3']
+results:
+039
+483
+139
 

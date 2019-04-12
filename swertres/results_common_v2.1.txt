@@ -1,4 +1,4 @@
-updated: 09 tue apr 2019
+updated: 11 thu apr 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -198,4 +198,32 @@ results: ['071', '960', '270']
 071
 960
 270
+
+
+DATE_GENERATED: 11 thu apr 2019
+DATE_EXPECTEDL 11 thu apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 6
+common: ['8']
+results: ['138', '768', '581']
+138
+768
+581
+
+time: 4pm
+gap: 6
+common: ['1']
+results: ['100', '121', '154']
+100
+121
+154
+
+time: 9pm
+gap: 3
+common: ['0']
+results: ['020', '560', '071']
+020
+560
+071
 

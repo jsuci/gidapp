@@ -22,7 +22,7 @@ def get_results():
 
 
 def export_to_excel():
-    results = get_results()
+    results = get_results()[-100:]
 
     wb = Workbook()
     sheet = wb.active
@@ -49,7 +49,7 @@ def export_to_excel():
         selectedCell.value = num
 
         digit_fill = PatternFill(
-            fill_type="solid", fgColor=str(randint(100000, 999999)))
+            fill_type="solid", fgColor=str(randint(696969, 778899)))
 
         for rowCount, result in enumerate(results, start=2):
             for colCount, digit in enumerate(result):
@@ -60,7 +60,11 @@ def export_to_excel():
                 sheet.cell(
                     rowCount, colCount + header_start).value = int(digit)
 
-                if int(digit) == num:
+                # if str(num) in result:
+                #     sheet.cell(
+                #         rowCount, colCount + header_start).fill = digit_fill
+
+                if num == int(digit):
                     sheet.cell(
                         rowCount, colCount + header_start).fill = digit_fill
 

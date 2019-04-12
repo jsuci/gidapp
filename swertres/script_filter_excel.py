@@ -22,7 +22,7 @@ def get_results():
 
 
 def export_to_excel():
-    results = get_results()
+    results = get_results()[-100:]
 
     wb = Workbook()
     sheet = wb.active
