@@ -61,11 +61,20 @@ def count_missing_digit(digit):
 
 
 def all_missing_digit():
+    all_missing = []
+
     for i in range(10):
+        all_missing.append(
+            count_missing_digit(str(i)))
+
+    sorted_missing = sorted(
+        all_missing, key=(lambda x: x[2]), reverse=True)
+
+    for entry in sorted_missing:
         print("{} <- {:2}\t\t{}".format(
-            count_missing_digit(str(i))[0],
-            count_missing_digit(str(i))[2],
-            count_missing_digit(str(i))[3]))
+            entry[0],
+            entry[2],
+            entry[3]))
 
 
 def main():
