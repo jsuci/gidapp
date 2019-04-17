@@ -3137,3 +3137,19 @@ ANOTHER FIRST THREE HIGHEST POSITION ON THEIR RESPECTIVE POSITIONS
 [Finished in 0.6s]
 
 result: 524 (11am result keep generating until it will come out)
+
+-------------------------------
+GET PAIRS USING COUNT_MISSING
+
+1. using count_missing get the first top 3 results
+and then make pairs out of it
+
+ex. 
+5 <- 30     - 5 -
+6 <- 29     6 - -
+1 <- 25     1 - -
+
+pairs: 56, 51, 16
+
+2. after getting possible pairs go to search_result_v2.1.py
+and key in each pair and decide what combi to pick

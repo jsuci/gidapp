@@ -1,4 +1,4 @@
-updated: 15 mon apr 2019
+updated: 17 wed apr 2019
 
 DATE_GENERATED: 04 thu apr 2019
 DATE_EXPECTED: 04 thu apr 2019
@@ -157,4 +157,50 @@ results:
 918
 100
 817
+
+DATE_GENERATED: 16 tue apr 2019
+DATE_EXPECTED: 16 tue apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 8
+common: ['6']
+results:
+360
+796
+616
+
+time: 9pm
+gap: 4
+common: ['6']
+results:
+679
+636
+286
+
+time: 9pm
+gap: 6
+common: ['4']
+results:
+243
+474
+584
+
+DATE_GENERATED: 17 wed apr 2019
+DATE_EXPECTED: 17 wed apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 2
+common: ['5']
+results:
+405
+355
+385
+
+time: 11am
+gap: 8
+common: ['8']
+results:
+385
+483
+258
 
