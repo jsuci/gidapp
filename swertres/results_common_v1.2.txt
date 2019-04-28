@@ -1,4 +1,4 @@
-updated: 23 tue apr 2019 2
+updated: 28 sun apr 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -2281,5 +2281,507 @@ results: ['585', '338', '886']
 585
 338
 886
+
+
+
+
+DATE_GENERATED: 24 wed apr 2019 0
+DATE_EXPECTED: 24 wed apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 9
+common: ['8']
+results: ['863', '585', '087']
+863
+585
+087
+
+
+gap: 10
+common: ['7']
+results: ['739', '907', '173']
+739
+907
+173
+
+
+gap: 11
+common: ['1']
+results: ['214', '310', '013']
+214
+310
+013
+
+
+gap: 14
+common: ['0']
+results: ['570', '087', '100']
+570
+087
+100
+
+
+
+
+DATE_GENERATED: 24 wed apr 2019 1
+DATE_EXPECTED: 24 wed apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['0']
+results: ['006', '540', '240']
+006
+540
+240
+
+
+gap: 7
+common: ['7']
+results: ['179', '570', '847']
+179
+570
+847
+
+
+gap: 13
+common: ['4']
+results: ['064', '046', '424']
+064
+046
+424
+
+
+gap: 14
+common: ['0']
+results: ['240', '019', '702']
+240
+019
+702
+
+
+gap: 15
+common: ['5']
+results: ['570', '524', '560']
+570
+524
+560
+
+
+
+
+DATE_GENERATED: 24 wed apr 2019 2
+DATE_EXPECTED: 24 wed apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['7']
+results: ['179', '272', '741']
+179
+272
+741
+
+
+gap: 10
+common: ['5']
+results: ['540', '585', '524']
+540
+585
+524
+
+
+
+
+DATE_GENERATED: 25 thu apr 2019 0
+DATE_EXPECTED: 25 thu apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['383', '393', '363']
+383
+393
+363
+
+
+gap: 14
+common: ['4']
+results: ['214', '046', '854']
+214
+046
+854
+
+
+gap: 15
+common: ['0']
+results: ['064', '019', '100']
+064
+019
+100
+
+
+
+
+DATE_GENERATED: 25 thu apr 2019 1
+DATE_EXPECTED: 25 thu apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['9']
+results: ['393', '897', '739']
+393
+897
+739
+
+
+gap: 8
+common: ['4']
+results: ['487', '240', '847']
+487
+240
+847
+
+
+gap: 9
+common: ['7']
+results: ['897', '272', '704']
+897
+272
+704
+
+
+gap: 12
+common: ['0']
+results: ['540', '907', '020']
+540
+907
+020
+
+
+gap: 16
+common: ['0']
+results: ['064', '087', '560']
+064
+087
+560
+
+
+gap: 18
+common: ['7']
+results: ['570', '837', '744']
+570
+837
+744
+
+
+
+
+DATE_GENERATED: 25 thu apr 2019 2
+DATE_EXPECTED: 25 thu apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['613', '383', '393']
+613
+383
+393
+
+
+gap: 4
+common: ['8']
+results: ['087', '487', '863']
+087
+487
+863
+
+
+gap: 8
+common: ['0']
+results: ['006', '064', '907']
+006
+064
+907
+
+
+gap: 9
+common: ['7']
+results: ['487', '570', '741']
+487
+570
+741
+
+
+gap: 10
+common: ['8']
+results: ['897', '448', '890']
+897
+448
+890
+
+
+gap: 16
+common: ['1']
+results: ['214', '019', '138']
+214
+019
+138
+
+
+gap: 17
+common: ['4']
+results: ['064', '524', '104']
+064
+524
+104
+
+
+gap: 19
+common: ['0']
+results: ['570', '020', '107']
+570
+020
+107
+
+
+
+
+DATE_GENERATED: 26 fri apr 2019 0
+DATE_EXPECTED: 26 fri apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 9
+common: ['0']
+results: ['006', '240', '310']
+006
+240
+310
+
+
+gap: 18
+common: ['4']
+results: ['064', '943', '054']
+064
+943
+054
+
+
+
+
+DATE_GENERATED: 26 fri apr 2019 1
+DATE_EXPECTED: 26 fri apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 10
+common: ['0']
+results: ['006', '570', '704']
+006
+570
+704
+
+
+gap: 15
+common: ['4']
+results: ['540', '741', '424']
+540
+741
+424
+
+
+
+
+DATE_GENERATED: 26 fri apr 2019 2
+DATE_EXPECTED: 26 fri apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['0']
+results: ['890', '087', '006']
+890
+087
+006
+
+
+gap: 5
+common: ['6']
+results: ['176', '006', '863']
+176
+006
+863
+
+
+gap: 7
+common: ['7']
+results: ['087', '571', '272']
+087
+571
+272
+
+
+gap: 13
+common: ['8']
+results: ['897', '585', '837']
+897
+585
+837
+
+
+gap: 14
+common: ['7']
+results: ['179', '907', '627']
+179
+907
+627
+
+
+gap: 17
+common: ['8']
+results: ['863', '890', '138']
+863
+890
+138
+
+
+
+
+DATE_GENERATED: 27 sat apr 2019 2
+DATE_EXPECTED: 27 sat apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['7']
+results: ['176', '179', '272']
+176
+179
+272
+
+
+gap: 10
+common: ['7']
+results: ['087', '739', '907']
+087
+739
+907
+
+
+gap: 17
+common: ['7']
+results: ['179', '741', '997']
+179
+741
+997
+
+
+gap: 19
+common: ['0']
+results: ['540', '019', '104']
+540
+019
+104
+
+
+
+
+DATE_GENERATED: 28 sun apr 2019 0
+DATE_EXPECTED: 28 sun apr 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['5']
+results: ['580', '495', '356']
+580
+495
+356
+
+
+gap: 10
+common: ['8']
+results: ['383', '863', '826']
+383
+863
+826
+
+
+gap: 14
+common: ['3']
+results: ['363', '335', '173']
+363
+335
+173
+
+
+
+
+DATE_GENERATED: 28 sun apr 2019 1
+DATE_EXPECTED: 28 sun apr 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 12
+common: ['0']
+results: ['087', '064', '704']
+087
+064
+704
+
+
+gap: 16
+common: ['6']
+results: ['006', '826', '656']
+006
+826
+656
+
+
+gap: 17
+common: ['4']
+results: ['487', '847', '424']
+487
+847
+424
+
+
+gap: 18
+common: ['7']
+results: ['897', '741', '702']
+897
+741
+702
+
+
+
+
+DATE_GENERATED: 28 sun apr 2019 2
+DATE_EXPECTED: 28 sun apr 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['6']
+results: ['356', '962', '863']
+356
+962
+863
+
+
+gap: 8
+common: ['6']
+results: ['162', '006', '064']
+162
+006
+064
+
+
+gap: 10
+common: ['1']
+results: ['613', '571', '515']
+613
+571
+515
+
+
+gap: 13
+common: ['0']
+results: ['087', '240', '890']
+087
+240
+890
 
 

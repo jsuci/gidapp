@@ -1,4 +1,4 @@
-updated: 23 tue apr 2019 2
+updated: 28 sun apr 2019 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -513,3 +513,8 @@ updated: 23 tue apr 2019 2
 17 wed apr 2019       899       928       589
 22 mon apr 2019       560       453       665
 23 tue apr 2019       375       673       256
+24 wed apr 2019       112       644       731
+25 thu apr 2019       455       938       502
+26 fri apr 2019       202       356       548
+27 sat apr 2019       893       566       187
+28 sun apr 2019       386       308       998

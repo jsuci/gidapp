@@ -3150,8 +3150,30 @@ ex.
 1 <- 25     1 - -
 
 pairs: 56, 51, 16
+positions:
+56
+65_
+_56
+
+51
+15_
+_51
+
+61
+61_
+6_1
+
+16_
+1_6
 
 2. after getting possible pairs go to search_result_v2.1.py
 and key in each pair and decide what combi to pick
 
 3. take note that the first 3 top results fluctuate. if that occurs then switch pairs and reset the 6 draws count
+
+--------------------------------
+FINDING THE EXACT DIGIT
+
+1. use count_missing to get pairs
+2. using search_result key in the pairs generated from step
+3. look for result that appeard 2 and does not appeared already on current results
