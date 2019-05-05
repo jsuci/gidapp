@@ -3177,3 +3177,31 @@ FINDING THE EXACT DIGIT
 1. use count_missing to get pairs
 2. using search_result key in the pairs generated from step
 3. look for result that appeard 2 and does not appeared already on current results
+
+---------------------------
+DATE GENERATED: 30 tue apr 2019 9pm
+EXPECTED: 9 draws max
+
+2 <- 43     - 2 -
+7 <- 33     7 - -
+0 <- 26     - 0 -
+
+((27))
+{'127': 1, '257': 1, '279': 2, '278': 1, '247': 1}
+72_
+_27
+7_2
+
+
+((20))
+{'026': 1, '025': 2, '002': 1}
+_20
+02_
+20_
+_02
+
+((70))
+{'079': 1, '017': 1, '007': 1}
+70_
+7_0
+_07

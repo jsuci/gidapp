@@ -2,6 +2,7 @@ from itertools import *
 from re import *
 from pprint import *
 from datetime import *
+from fileinput import *
 
 
 def get_reverse_results_v2():
@@ -32,6 +33,37 @@ def get_reverse_results_v2():
             time_results["9pm"].append(results[2])
 
     return time_results
+
+
+def get_generated_date_v2():
+    """Get current date from updated string of
+    results_v2.txt. Return a string of date
+    """
+
+    reverse_dates = []
+
+    with open("results_v2.txt") as fi:
+        for entry in islice(fi, 2, None):
+            entry = split(r"\s{2,}", entry.strip())
+            if len(entry) == 4:
+                date = entry[0]
+                reverse_dates.insert(0, date)
+
+    return reverse_dates[0]
+
+
+def is_current_date():
+    """Get results_v2.txt current date and compare it to
+    results_common_v2.1.txt date. Return True if they
+    are the same and False if not
+    """
+
+    with open("results_count_missing_v2.1.txt", "r") as fo:
+        fi_date = "updated: " + get_generated_date_v2()
+        fo_date = fo.readline().strip()
+
+        if fi_date != fo_date:
+            return fi_date
 
 
 def count_missing_digit(results, digit):
@@ -83,7 +115,42 @@ def count_missing_digit(results, digit):
     return final_result
 
 
-def main():
+def export_results():
+
+    with open("results_count_missing_v2.1.txt", "a") as fo:
+        fo.write("DATE GENERATED: {}\n".format(
+            get_generated_date_v2()))
+
+        for time, results in get_reverse_results_v2().items():
+
+            fo.write("{}\n".format(time))
+
+            all_missing = []
+            for digit in range(0, 10):
+                all_missing.append(
+                    count_missing_digit(results, digit))
+
+            sorted_missing = sorted(
+                all_missing, key=(lambda x: x[2]), reverse=True)
+
+            for entry in sorted_missing:
+                fo.write("{} <- {:2}\t\t{}\n".format(
+                    entry[0],
+                    entry[2],
+                    entry[3]))
+
+            fo.write("\n\n")
+
+    with input("results_count_missing_v2.1.txt", inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print(is_current_date())
+            else:
+                print(entry, end="")
+
+
+def all_missing_digits():
+
     for time, results in get_reverse_results_v2().items():
 
         print(time)
@@ -103,6 +170,13 @@ def main():
                 entry[3]))
 
         print("\n")
+
+
+def main():
+    all_missing_digits()
+
+    if is_current_date():
+        export_results()
 
 
 if __name__ == "__main__":

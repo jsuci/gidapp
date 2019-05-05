@@ -1,4 +1,4 @@
-updated: 28 sun apr 2019
+updated: 05 sun may 2019
 
 DATE_GENERATED: 04 thu apr 2019
 DATE_EXPECTED: 04 thu apr 2019
@@ -289,3 +289,144 @@ results:
 DATE_GENERATED: 28 sun apr 2019
 DATE_EXPECTED: 28 sun apr 2019
 DRAWS: 3 - 4 draws
+DATE_GENERATED: 29 mon apr 2019
+DATE_EXPECTED: 29 mon apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 6
+common: ['5']
+results:
+375
+355
+658
+
+time: 4pm
+gap: 8
+common: ['8']
+results:
+928
+918
+838
+
+DATE_GENERATED: 30 tue apr 2019
+DATE_EXPECTED: 30 tue apr 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 5
+common: ['5']
+results:
+455
+405
+385
+
+time: 4pm
+gap: 5
+common: ['8']
+results:
+938
+118
+892
+
+time: 9pm
+gap: 5
+common: ['2']
+results:
+502
+427
+423
+
+DATE_GENERATED: 01 wed may 2019
+DATE_EXPECTED: 01 wed may 2019
+DRAWS: 3 - 4 draws
+time: 4pm
+gap: 1
+common: ['3']
+results:
+037
+308
+356
+
+DATE_GENERATED: 02 thu may 2019
+DATE_EXPECTED: 02 thu may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 6
+common: ['0']
+results:
+202
+405
+360
+
+time: 11am
+gap: 7
+common: ['5']
+results:
+455
+542
+658
+
+time: 9pm
+gap: 9
+common: ['2']
+results:
+256
+423
+420
+
+DATE_GENERATED: 03 fri may 2019
+DATE_EXPECTED: 03 fri may 2019
+DRAWS: 3 - 4 draws
+time: 4pm
+gap: 2
+common: ['3']
+results:
+713
+308
+938
+
+time: 4pm
+gap: 3
+common: ['3']
+results:
+037
+356
+453
+
+time: 4pm
+gap: 8
+common: ['9']
+results:
+938
+219
+391
+
+DATE_GENERATED: 04 sat may 2019
+DATE_EXPECTED: 04 sat may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 1
+common: ['0']
+results:
+507
+760
+058
+
+time: 4pm
+gap: 6
+common: ['8']
+results:
+308
+928
+818
+
+DATE_GENERATED: 05 sun may 2019
+DATE_EXPECTED: 05 sun may 2019
+DRAWS: 3 - 4 draws
+time: 4pm
+gap: 6
+common: ['5']
+results:
+574
+453
+595
+

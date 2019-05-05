@@ -1,4 +1,4 @@
-updated: 28 sun apr 2019 2
+updated: 05 sun may 2019 2
 
 DATE_GENERATED: 05 fri apr 2019 0
 DATE_EXPECTED: 5 fri apr 2019 0
@@ -524,4 +524,216 @@ results:
 613
 571
 515
+
+DATE_GENERATED: 29 mon apr 2019 0
+DATE_EXPECTED: 29 mon apr 2019 0
+DRAWS: 1 - 2 draws
+DATE_GENERATED: 29 mon apr 2019 1
+DATE_EXPECTED: 29 mon apr 2019 1
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['9']
+results:
+959
+962
+739
+
+gap: 19
+common: ['0']
+results:
+006
+310
+702
+
+DATE_GENERATED: 29 mon apr 2019 2
+DATE_EXPECTED: 29 mon apr 2019 2
+DRAWS: 1 - 2 draws
+gap: 11
+common: ['1']
+results:
+162
+179
+515
+
+DATE_GENERATED: 30 tue apr 2019 0
+DATE_EXPECTED: 30 tue apr 2019 0
+DRAWS: 1 - 2 draws
+DATE_GENERATED: 30 tue apr 2019 1
+DATE_EXPECTED: 30 tue apr 2019 1
+DRAWS: 1 - 2 draws
+gap: 2
+common: ['0']
+results:
+083
+460
+580
+
+DATE_GENERATED: 30 tue apr 2019 2
+DATE_EXPECTED: 30 tue apr 2019 2
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['8']
+results:
+580
+087
+863
+
+gap: 17
+common: ['7']
+results:
+176
+272
+837
+
+DATE_GENERATED: 01 wed may 2019 1
+DATE_EXPECTED: 01 wed may 2019 1
+DRAWS: 1 - 2 draws
+gap: 7
+common: ['6']
+results:
+261
+356
+962
+
+DATE_GENERATED: 01 wed may 2019 2
+DATE_EXPECTED: 01 wed may 2019 2
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['6']
+results:
+261
+162
+006
+
+DATE_GENERATED: 02 thu may 2019 0
+DATE_EXPECTED: 02 thu may 2019 0
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['8']
+results:
+580
+087
+863
+
+gap: 17
+common: ['7']
+results:
+176
+272
+837
+
+DATE_GENERATED: 02 thu may 2019 1
+DATE_EXPECTED: 02 thu may 2019 1
+DRAWS: 1 - 2 draws
+gap: 7
+common: ['6']
+results:
+460
+162
+363
+
+gap: 16
+common: ['0']
+results:
+890
+064
+087
+
+DATE_GENERATED: 02 thu may 2019 2
+DATE_EXPECTED: 02 thu may 2019 2
+DRAWS: 1 - 2 draws
+gap: 7
+common: ['6']
+results:
+261
+356
+962
+
+DATE_GENERATED: 03 fri may 2019 2
+DATE_EXPECTED: 03 fri may 2019 2
+DRAWS: 1 - 2 draws
+gap: 4
+common: ['0']
+results:
+604
+036
+580
+
+DATE_GENERATED: 04 sat may 2019 1
+DATE_EXPECTED: 04 sat may 2019 1
+DRAWS: 1 - 2 draws
+gap: 3
+common: ['6']
+results:
+716
+967
+036
+
+gap: 7
+common: ['6']
+results:
+967
+690
+613
+
+DATE_GENERATED: 04 sat may 2019 2
+DATE_EXPECTED: 04 sat may 2019 2
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['9']
+results:
+294
+495
+962
+
+DATE_GENERATED: 05 sun may 2019 0
+DATE_EXPECTED: 05 sun may 2019 0
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['6']
+results:
+261
+162
+006
+
+DATE_GENERATED: 05 sun may 2019 1
+DATE_EXPECTED: 05 sun may 2019 1
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['6']
+results:
+657
+462
+613
+
+gap: 9
+common: ['0']
+results:
+604
+580
+087
+
+gap: 14
+common: ['0']
+results:
+036
+087
+570
+
+gap: 19
+common: ['8']
+results:
+580
+863
+087
+
+DATE_GENERATED: 05 sun may 2019 2
+DATE_EXPECTED: 05 sun may 2019 2
+DRAWS: 1 - 2 draws
+gap: 17
+common: ['4']
+results:
+460
+487
+847
 

@@ -1,4 +1,4 @@
-updated: 28 sun apr 2019 2
+updated: 05 sun may 2019 2
 
 DATE_GENERATED: 05 fri apr 2019 1
 DATE_EXPECTED: 05 fri apr 2019 1
@@ -533,4 +533,189 @@ results:
 256
 597
 385
+
+DATE_GENERATED: 29 mon apr 2019 0
+DATE_EXPECTED: 29 mon apr 2019 0
+DRAWS: 1 - 2 draws
+gap: 18
+common: ['7']
+results:
+375
+679
+770
+
+DATE_GENERATED: 29 mon apr 2019 1
+DATE_EXPECTED: 29 mon apr 2019 1
+DRAWS: 1 - 2 draws
+gap: 4
+common: ['3']
+results:
+386
+356
+731
+
+gap: 12
+common: ['9']
+results:
+938
+899
+679
+
+gap: 15
+common: ['4']
+results:
+644
+405
+423
+
+DATE_GENERATED: 30 tue apr 2019 0
+DATE_EXPECTED: 30 tue apr 2019 0
+DRAWS: 1 - 2 draws
+DATE_GENERATED: 30 tue apr 2019 1
+DATE_EXPECTED: 30 tue apr 2019 1
+DRAWS: 1 - 2 draws
+DATE_GENERATED: 30 tue apr 2019 2
+DATE_EXPECTED: 30 tue apr 2019 2
+DRAWS: 1 - 2 draws
+gap: 17
+common: ['5']
+results:
+455
+405
+385
+
+DATE_GENERATED: 01 wed may 2019 1
+DATE_EXPECTED: 01 wed may 2019 1
+DRAWS: 1 - 2 draws
+gap: 17
+common: ['2']
+results:
+502
+427
+423
+
+DATE_GENERATED: 01 wed may 2019 2
+DATE_EXPECTED: 01 wed may 2019 2
+DRAWS: 1 - 2 draws
+gap: 1
+common: ['1']
+results:
+713
+741
+126
+
+gap: 6
+common: ['5']
+results:
+645
+566
+455
+
+gap: 13
+common: ['6']
+results:
+566
+665
+761
+
+DATE_GENERATED: 02 thu may 2019 0
+DATE_EXPECTED: 02 thu may 2019 0
+DRAWS: 1 - 2 draws
+gap: 5
+common: ['3']
+results:
+037
+308
+356
+
+DATE_GENERATED: 02 thu may 2019 2
+DATE_EXPECTED: 02 thu may 2019 2
+DRAWS: 1 - 2 draws
+gap: 3
+common: ['0']
+results:
+920
+037
+058
+
+DATE_GENERATED: 03 fri may 2019 2
+DATE_EXPECTED: 03 fri may 2019 2
+DRAWS: 1 - 2 draws
+gap: 18
+common: ['8']
+results:
+187
+928
+338
+
+DATE_GENERATED: 04 sat may 2019 1
+DATE_EXPECTED: 04 sat may 2019 1
+DRAWS: 1 - 2 draws
+gap: 2
+common: ['2']
+results:
+299
+852
+920
+
+gap: 10
+common: ['6']
+results:
+760
+566
+256
+
+DATE_GENERATED: 04 sat may 2019 2
+DATE_EXPECTED: 04 sat may 2019 2
+DRAWS: 1 - 2 draws
+gap: 5
+common: ['0']
+results:
+507
+760
+058
+
+gap: 15
+common: ['4']
+results:
+645
+644
+405
+
+DATE_GENERATED: 05 sun may 2019 0
+DATE_EXPECTED: 05 sun may 2019 0
+DRAWS: 1 - 2 draws
+gap: 15
+common: ['1']
+results:
+126
+731
+118
+
+DATE_GENERATED: 05 sun may 2019 1
+DATE_EXPECTED: 05 sun may 2019 1
+DRAWS: 1 - 2 draws
+gap: 10
+common: ['3']
+results:
+372
+308
+731
+
+gap: 18
+common: ['7']
+results:
+574
+375
+679
+
+DATE_GENERATED: 05 sun may 2019 2
+DATE_EXPECTED: 05 sun may 2019 2
+DRAWS: 1 - 2 draws
+gap: 19
+common: ['5']
+results:
+574
+665
+355
 
