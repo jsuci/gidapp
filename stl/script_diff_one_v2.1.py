@@ -362,7 +362,7 @@ def export_results():
     """
 
     with open("results_diff_one_v2.1.txt", "a") as fo:
-        fo.write("DATE_GENERATED: {}\n".format(
+        fo.write("\nDATE_GENERATED: {}\n".format(
             get_generated_date_v2()))
         fo.write("DATE_EXPECTED: {}\n".format(
             get_expected_date_v2()))
@@ -380,7 +380,7 @@ def export_results():
                     "common" in seq_types and
                     len(seq_types["common"]) == 1 and
                     "diff_one" in seq_types and
-                    len(seq_types["diff_one"]) >= 1
+                    len(seq_types["diff_one"]) == 2
                 ):
 
                     fo.write("time: {}\n".format(time))
@@ -424,7 +424,7 @@ def filter_results():
                 "common" in seq_types and
                 len(seq_types["common"]) == 1 and
                 "diff_one" in seq_types and
-                len(seq_types["diff_one"]) >= 1
+                len(seq_types["diff_one"]) == 2
             ):
 
                 print("time: {}".format(time))
@@ -444,6 +444,8 @@ def main():
         print("Results are up to date.")
     else:
         export_results()
+
+    # print(get_seq_types(["257", "243", "261"]))
 
 
 if __name__ == "__main__":

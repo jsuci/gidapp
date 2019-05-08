@@ -380,7 +380,7 @@ def export_results():
                     "common" in seq_types and
                     len(seq_types["common"]) == 1 and
                     "diff_one" in seq_types and
-                    len(seq_types["diff_one"]) >= 1
+                    len(seq_types["diff_one"]) == 2
                 ):
 
                     fo.write("time: {}\n".format(time))
@@ -444,6 +444,8 @@ def main():
         print("Results are up to date.")
     else:
         export_results()
+
+    # print(get_seq_types(["257", "243", "261"]))
 
 
 if __name__ == "__main__":

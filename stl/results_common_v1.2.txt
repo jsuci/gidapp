@@ -1,4 +1,4 @@
-updated: 05 sun may 2019 2
+updated: 08 wed may 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3079,5 +3079,193 @@ results: ['574', '665', '355']
 574
 665
 355
+
+
+
+
+DATE_GENERATED: 06 mon may 2019 0
+DATE_EXPECTED: 06 mon may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['9']
+results: ['974', '299', '898']
+974
+299
+898
+
+
+gap: 9
+common: ['5']
+results: ['507', '645', '356']
+507
+645
+356
+
+
+gap: 10
+common: ['8']
+results: ['852', '058', '938']
+852
+058
+938
+
+
+gap: 12
+common: ['7']
+results: ['372', '187', '673']
+372
+187
+673
+
+
+gap: 18
+common: ['6']
+results: ['126', '256', '863']
+126
+256
+863
+
+
+
+
+DATE_GENERATED: 06 mon may 2019 1
+DATE_EXPECTED: 06 mon may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 10
+common: ['5']
+results: ['507', '574', '502']
+507
+574
+502
+
+
+gap: 19
+common: ['6']
+results: ['126', '673', '679']
+126
+673
+679
+
+
+
+
+DATE_GENERATED: 06 mon may 2019 2
+DATE_EXPECTED: 06 mon may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['7']
+results: ['974', '507', '760']
+974
+507
+760
+
+
+gap: 8
+common: ['6']
+results: ['603', '760', '386']
+603
+760
+386
+
+
+gap: 11
+common: ['5']
+results: ['507', '058', '455']
+507
+058
+455
+
+
+
+
+DATE_GENERATED: 07 tue may 2019 1
+DATE_EXPECTED: 07 tue may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 17
+common: ['2']
+results: ['920', '502', '427']
+920
+502
+427
+
+
+
+
+DATE_GENERATED: 07 tue may 2019 2
+DATE_EXPECTED: 07 tue may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['5']
+results: ['155', '335', '507']
+155
+335
+507
+
+
+gap: 6
+common: ['6']
+results: ['586', '116', '760']
+586
+116
+760
+
+
+gap: 9
+common: ['3']
+results: ['335', '713', '386']
+335
+713
+386
+
+
+gap: 15
+common: ['5']
+results: ['852', '566', '560']
+852
+566
+560
+
+
+gap: 16
+common: ['8']
+results: ['898', '548', '899']
+898
+548
+899
+
+
+gap: 17
+common: ['2']
+results: ['372', '202', '442']
+372
+202
+442
+
+
+
+
+DATE_GENERATED: 08 wed may 2019 0
+DATE_EXPECTED: 08 wed may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['8']
+results: ['867', '586', '848']
+867
+586
+848
+
+
+gap: 16
+common: ['8']
+results: ['852', '893', '928']
+852
+893
+928
 
 

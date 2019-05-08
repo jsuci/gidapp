@@ -1,4 +1,4 @@
-updated: 05 sun may 2019
+updated: 07 tue may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1071,4 +1071,124 @@ results: ['065', '959', '571']
 065
 959
 571
+
+
+DATE_GENERATED: 06 mon may 2019
+DATE_EXPECTEDL 06 mon may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 4
+common: ['9']
+results: ['967', '495', '179']
+967
+495
+179
+
+time: 4pm
+gap: 1
+common: ['1']
+results: ['190', '716', '110']
+190
+716
+110
+
+time: 4pm
+gap: 3
+common: ['6']
+results: ['716', '036', '613']
+716
+036
+613
+
+time: 9pm
+gap: 5
+common: ['0']
+results: ['065', '890', '240']
+065
+890
+240
+
+time: 9pm
+gap: 8
+common: ['4']
+results: ['460', '240', '424']
+460
+240
+424
+
+time: 9pm
+gap: 9
+common: ['8']
+results: ['580', '585', '801']
+580
+585
+801
+
+
+DATE_GENERATED: 07 tue may 2019
+DATE_EXPECTEDL 07 tue may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 1
+common: ['7']
+results: ['307', '725', '967']
+307
+725
+967
+
+time: 11am
+gap: 3
+common: ['2']
+results: ['725', '243', '162']
+725
+243
+162
+
+time: 11am
+gap: 5
+common: ['6']
+results: ['967', '162', '064']
+967
+162
+064
+
+time: 11am
+gap: 8
+common: ['6']
+results: ['261', '064', '623']
+261
+064
+623
+
+time: 4pm
+gap: 2
+common: ['0']
+results: ['190', '604', '036']
+190
+604
+036
+
+time: 4pm
+gap: 4
+common: ['6']
+results: ['716', '462', '363']
+716
+462
+363
+
+time: 9pm
+gap: 1
+common: ['7']
+results: ['796', '574', '657']
+796
+574
+657
+
+time: 9pm
+gap: 3
+common: ['5']
+results: ['574', '597', '959']
+574
+597
+959
 

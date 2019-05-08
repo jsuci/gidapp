@@ -1,4 +1,4 @@
-updated: 05 sun may 2019 2
+updated: 08 wed may 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3253,5 +3253,193 @@ results: ['690', '540', '019']
 690
 540
 019
+
+
+
+
+DATE_GENERATED: 06 mon may 2019 0
+DATE_EXPECTED: 06 mon may 2019 0
+DRAWS: 1 - 2 draws
+
+
+
+DATE_GENERATED: 06 mon may 2019 1
+DATE_EXPECTED: 06 mon may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 2
+common: ['4']
+results: ['184', '574', '214']
+184
+574
+214
+
+
+gap: 7
+common: ['2']
+results: ['725', '243', '288']
+725
+243
+288
+
+
+gap: 9
+common: ['6']
+results: ['716', '460', '613']
+716
+460
+613
+
+
+gap: 16
+common: ['3']
+results: ['083', '393', '335']
+083
+393
+335
+
+
+gap: 17
+common: ['6']
+results: ['036', '363', '826']
+036
+363
+826
+
+
+
+
+DATE_GENERATED: 06 mon may 2019 2
+DATE_EXPECTED: 06 mon may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['4']
+results: ['574', '604', '460']
+574
+604
+460
+
+
+gap: 14
+common: ['9']
+results: ['967', '890', '739']
+967
+890
+739
+
+
+
+
+DATE_GENERATED: 07 tue may 2019 1
+DATE_EXPECTED: 07 tue may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['4']
+results: ['184', '214', '294']
+184
+214
+294
+
+
+gap: 14
+common: ['5']
+results: ['657', '356', '540']
+657
+356
+540
+
+
+gap: 16
+common: ['7']
+results: ['967', '176', '570']
+967
+176
+570
+
+
+gap: 18
+common: ['2']
+results: ['243', '962', '826']
+243
+962
+826
+
+
+gap: 19
+common: ['0']
+results: ['083', '006', '310']
+083
+006
+310
+
+
+
+
+DATE_GENERATED: 07 tue may 2019 2
+DATE_EXPECTED: 07 tue may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['7']
+results: ['975', '574', '878']
+975
+574
+878
+
+
+gap: 5
+common: ['7']
+results: ['307', '725', '967']
+307
+725
+967
+
+
+gap: 10
+common: ['0']
+results: ['490', '036', '890']
+490
+036
+890
+
+
+
+
+DATE_GENERATED: 08 wed may 2019 0
+DATE_EXPECTED: 08 wed may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['5']
+results: ['705', '526', '975']
+705
+526
+975
+
+
+gap: 2
+common: ['9']
+results: ['391', '975', '190']
+391
+975
+190
+
+
+gap: 8
+common: ['0']
+results: ['190', '604', '690']
+190
+604
+690
+
+
+gap: 19
+common: ['9']
+results: ['294', '962', '907']
+294
+962
+907
 
 
