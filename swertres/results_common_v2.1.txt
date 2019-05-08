@@ -1,4 +1,4 @@
-updated: 07 tue may 2019
+updated: 08 wed may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1191,4 +1191,48 @@ results: ['574', '597', '959']
 574
 597
 959
+
+
+DATE_GENERATED: 08 wed may 2019
+DATE_EXPECTEDL 08 wed may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 3
+common: ['5']
+results: ['251', '853', '495']
+251
+853
+495
+
+time: 4pm
+gap: 1
+common: ['1']
+results: ['391', '190', '716']
+391
+190
+716
+
+time: 4pm
+gap: 4
+common: ['0']
+results: ['490', '036', '087']
+490
+036
+087
+
+time: 4pm
+gap: 9
+common: ['0']
+results: ['036', '570', '100']
+036
+570
+100
+
+time: 9pm
+gap: 9
+common: ['0']
+results: ['083', '240', '702']
+083
+240
+702
 

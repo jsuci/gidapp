@@ -1,5 +1,17 @@
-updated: 07 tue may 2019
+updated: 08 wed may 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
 DRAWS: 3 - 4 draws
+
+DATE_GENERATED: 08 wed may 2019
+DATE_EXPECTED: 08 wed may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 1
+common: ['7']
+results:
+867
+974
+507
+

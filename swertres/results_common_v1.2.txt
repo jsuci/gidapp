@@ -1,4 +1,4 @@
-updated: 08 wed may 2019 0
+updated: 08 wed may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3441,5 +3441,35 @@ results: ['294', '962', '907']
 294
 962
 907
+
+
+
+
+DATE_GENERATED: 08 wed may 2019 2
+DATE_EXPECTED: 08 wed may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['5']
+results: ['705', '975', '251']
+705
+975
+251
+
+
+gap: 6
+common: ['9']
+results: ['796', '490', '967']
+796
+490
+967
+
+
+gap: 10
+common: ['9']
+results: ['190', '294', '959']
+190
+294
+959
 
 
