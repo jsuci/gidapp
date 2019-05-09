@@ -1,4 +1,4 @@
-updated: 08 wed may 2019 2
+updated: 09 thu may 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3471,5 +3471,51 @@ results: ['190', '294', '959']
 190
 294
 959
+
+
+
+
+DATE_GENERATED: 09 thu may 2019 0
+DATE_EXPECTED: 09 thu may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['6']
+results: ['657', '462', '613']
+657
+462
+613
+
+
+gap: 9
+common: ['0']
+results: ['604', '580', '087']
+604
+580
+087
+
+
+gap: 14
+common: ['0']
+results: ['036', '087', '570']
+036
+087
+570
+
+
+gap: 16
+common: ['6']
+results: ['460', '006', '826']
+460
+006
+826
+
+
+gap: 19
+common: ['8']
+results: ['580', '863', '087']
+580
+863
+087
 
 

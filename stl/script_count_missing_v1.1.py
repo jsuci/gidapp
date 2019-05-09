@@ -125,6 +125,8 @@ def all_missing_digit():
             entry[2],
             entry[3]))
 
+    print("\n\n")
+
     if is_current_date():
         export_results(sorted_missing)
 
