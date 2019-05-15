@@ -1,4 +1,4 @@
-updated: 08 wed may 2019
+updated: 15 wed may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1235,4 +1235,40 @@ results: ['083', '240', '702']
 083
 240
 702
+
+
+DATE_GENERATED: 15 wed may 2019
+DATE_EXPECTEDL 15 wed may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 6
+common: ['6']
+results: ['469', '967', '176']
+469
+967
+176
+
+time: 4pm
+gap: 3
+common: ['4']
+results: ['491', '407', '490']
+491
+407
+490
+
+time: 9pm
+gap: 1
+common: ['3']
+results: ['553', '319', '335']
+553
+319
+335
+
+time: 9pm
+gap: 8
+common: ['0']
+results: ['705', '460', '240']
+705
+460
+240
 

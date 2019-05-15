@@ -1,4 +1,4 @@
-updated: 09 thu may 2019 0
+updated: 15 wed may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3319,5 +3319,27 @@ results: ['848', '574', '644']
 848
 574
 644
+
+
+
+
+DATE_GENERATED: 15 wed may 2019 2
+DATE_EXPECTED: 15 wed may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['4']
+results: ['104', '574', '401']
+104
+574
+401
+
+
+gap: 6
+common: ['3']
+results: ['753', '037', '513']
+753
+037
+513
 
 

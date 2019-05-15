@@ -1,4 +1,4 @@
-updated: 09 thu may 2019 0
+updated: 15 wed may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3517,5 +3517,35 @@ results: ['580', '863', '087']
 580
 863
 087
+
+
+
+
+DATE_GENERATED: 15 wed may 2019 2
+DATE_EXPECTED: 15 wed may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['3']
+results: ['553', '523', '223']
+553
+523
+223
+
+
+gap: 11
+common: ['3']
+results: ['223', '553', '335']
+223
+553
+335
+
+
+gap: 17
+common: ['5']
+results: ['185', '335', '574']
+185
+335
+574
 
 
