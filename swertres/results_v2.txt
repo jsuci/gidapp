@@ -1,4 +1,4 @@
-updated: 15 wed may 2019 2
+updated: 18 sat may 2019 2
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2285,3 +2285,6 @@ updated: 15 wed may 2019 2
 13 mon may 2019       247       523       774
 14 tue may 2019       427       377       553
 15 wed may 2019       103       561       837
+16 thu may 2019       607       524       483
+17 fri may 2019       764       914       661
+18 sat may 2019       004       584       918

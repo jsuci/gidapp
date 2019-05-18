@@ -1,4 +1,4 @@
-updated: 15 wed may 2019 2
+updated: 18 sat may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3341,5 +3341,227 @@ results: ['753', '037', '513']
 753
 037
 513
+
+
+
+
+DATE_GENERATED: 16 thu may 2019 1
+DATE_EXPECTED: 16 thu may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 2
+common: ['3']
+results: ['838', '329', '753']
+838
+329
+753
+
+
+gap: 5
+common: ['3']
+results: ['329', '317', '348']
+329
+317
+348
+
+
+gap: 7
+common: ['0']
+results: ['104', '037', '506']
+104
+037
+506
+
+
+gap: 8
+common: ['3']
+results: ['753', '348', '535']
+753
+348
+535
+
+
+
+
+DATE_GENERATED: 17 fri may 2019 2
+DATE_EXPECTED: 17 fri may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['4']
+results: ['545', '104', '574']
+545
+104
+574
+
+
+gap: 8
+common: ['5']
+results: ['851', '574', '513']
+851
+574
+513
+
+
+gap: 9
+common: ['3']
+results: ['329', '037', '593']
+329
+037
+593
+
+
+gap: 11
+common: ['0']
+results: ['104', '401', '209']
+104
+401
+209
+
+
+gap: 12
+common: ['7']
+results: ['753', '017', '974']
+753
+017
+974
+
+
+gap: 13
+common: ['6']
+results: ['616', '506', '603']
+616
+506
+603
+
+
+gap: 14
+common: ['5']
+results: ['756', '593', '507']
+756
+593
+507
+
+
+gap: 15
+common: ['7']
+results: ['317', '687', '372']
+317
+687
+372
+
+
+gap: 16
+common: ['6']
+results: ['625', '686', '760']
+625
+686
+760
+
+
+gap: 19
+common: ['3']
+results: ['037', '335', '386']
+037
+335
+386
+
+
+
+
+DATE_GENERATED: 18 sat may 2019 0
+DATE_EXPECTED: 18 sat may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['9']
+results: ['978', '969', '933']
+978
+969
+933
+
+
+gap: 4
+common: ['1']
+results: ['221', '851', '616']
+221
+851
+616
+
+
+gap: 14
+common: ['1']
+results: ['616', '819', '116']
+616
+819
+116
+
+
+gap: 16
+common: ['7']
+results: ['317', '867', '713']
+317
+867
+713
+
+
+gap: 18
+common: ['5']
+results: ['574', '586', '574']
+574
+586
+574
+
+
+
+
+DATE_GENERATED: 18 sat may 2019 1
+DATE_EXPECTED: 18 sat may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 9
+common: ['5']
+results: ['035', '574', '506']
+035
+574
+506
+
+
+
+
+DATE_GENERATED: 18 sat may 2019 2
+DATE_EXPECTED: 18 sat may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 11
+common: ['8']
+results: ['851', '585', '867']
+851
+585
+867
+
+
+gap: 12
+common: ['2']
+results: ['329', '277', '209']
+329
+277
+209
+
+
+gap: 18
+common: ['1']
+results: ['317', '155', '126']
+317
+155
+126
+
+
+gap: 19
+common: ['5']
+results: ['625', '586', '058']
+625
+586
+058
 
 

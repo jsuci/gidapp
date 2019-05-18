@@ -1,4 +1,4 @@
-updated: 15 wed may 2019 2
+updated: 18 sat may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3547,5 +3547,233 @@ results: ['185', '335', '574']
 185
 335
 574
+
+
+
+
+DATE_GENERATED: 16 thu may 2019 1
+DATE_EXPECTED: 16 thu may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['3']
+results: ['103', '523', '493']
+103
+523
+493
+
+
+gap: 5
+common: ['3']
+results: ['553', '319', '335']
+553
+319
+335
+
+
+gap: 9
+common: ['5']
+results: ['523', '185', '523']
+523
+185
+523
+
+
+gap: 13
+common: ['2']
+results: ['223', '427', '932']
+223
+427
+932
+
+
+gap: 19
+common: ['1']
+results: ['185', '185', '716']
+185
+185
+716
+
+
+
+
+DATE_GENERATED: 16 thu may 2019 2
+DATE_EXPECTED: 16 thu may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['7']
+results: ['837', '377', '247']
+837
+377
+247
+
+
+gap: 7
+common: ['3']
+results: ['377', '493', '837']
+377
+493
+837
+
+
+gap: 12
+common: ['3']
+results: ['319', '103', '335']
+319
+103
+335
+
+
+gap: 19
+common: ['1']
+results: ['916', '916', '214']
+916
+916
+214
+
+
+
+
+DATE_GENERATED: 17 fri may 2019 2
+DATE_EXPECTED: 17 fri may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['1']
+results: ['561', '319', '185']
+561
+319
+185
+
+
+gap: 8
+common: ['3']
+results: ['103', '223', '837']
+103
+223
+837
+
+
+gap: 13
+common: ['5']
+results: ['523', '561', '335']
+523
+561
+335
+
+
+gap: 19
+common: ['4']
+results: ['446', '446', '574']
+446
+446
+574
+
+
+
+
+DATE_GENERATED: 18 sat may 2019 0
+DATE_EXPECTED: 18 sat may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['7']
+results: ['764', '837', '377']
+764
+837
+377
+
+
+gap: 4
+common: ['3']
+results: ['483', '103', '523']
+483
+103
+523
+
+
+gap: 9
+common: ['3']
+results: ['103', '493', '103']
+103
+493
+103
+
+
+
+
+DATE_GENERATED: 18 sat may 2019 1
+DATE_EXPECTED: 18 sat may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['4']
+results: ['004', '914', '483']
+004
+914
+483
+
+
+gap: 5
+common: ['3']
+results: ['483', '553', '319']
+483
+553
+319
+
+
+gap: 6
+common: ['4']
+results: ['524', '427', '493']
+524
+427
+493
+
+
+gap: 15
+common: ['3']
+results: ['523', '553', '932']
+523
+553
+932
+
+
+gap: 17
+common: ['3']
+results: ['319', '523', '391']
+319
+523
+391
+
+
+gap: 18
+common: ['9']
+results: ['491', '319', '975']
+491
+319
+975
+
+
+
+
+DATE_GENERATED: 18 sat may 2019 2
+DATE_EXPECTED: 18 sat may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['3']
+results: ['483', '377', '223']
+483
+377
+223
+
+
+gap: 17
+common: ['7']
+results: ['247', '774', '705']
+247
+774
+705
 
 

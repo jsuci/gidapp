@@ -1,4 +1,4 @@
-updated: 15 wed may 2019 2
+updated: 18 sat may 2019 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -535,3 +535,6 @@ updated: 15 wed may 2019 2
 13 mon may 2019       756       616       753
 14 tue may 2019       104       311       329
 15 wed may 2019       851       035       838
+16 thu may 2019       545       933       221
+17 fri may 2019       969       805       978
+18 sat may 2019       164       272       660
