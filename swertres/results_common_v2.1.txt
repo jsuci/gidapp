@@ -1,4 +1,4 @@
-updated: 18 sat may 2019
+updated: 19 sun may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1244,9 +1244,9 @@ time: 11am
 gap: 6
 common: ['6']
 results: ['469', '967', '176']
-469
-967
-176
+694
+697
+617
 
 time: 4pm
 gap: 3
@@ -1387,4 +1387,70 @@ results: ['553', '885', '574']
 553
 588
 574
+
+
+DATE_GENERATED: 19 sun may 2019
+DATE_EXPECTEDL 19 sun may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 4
+common: ['1']
+results: ['103', '185', '251']
+10/13/14
+103
+185
+152
+
+time: 11am
+gap: 5
+common: ['7']
+results: ['427', '574', '967']
+73/77
+742
+754
+769
+
+time: 11am
+gap: 7
+common: ['2']
+results: ['223', '725', '162']
+
+223
+275
+216
+
+time: 11am
+gap: 8
+common: ['6']
+results: ['062', '967', '006']
+69/67
+602
+697
+600
+
+time: 4pm
+gap: 3
+common: ['4']
+results: ['524', '491', '407']
+43/49
+425
+419
+407
+
+time: 4pm
+gap: 4
+common: ['1']
+results: ['561', '916', '190']
+15
+156
+196
+190
+
+time: 4pm
+gap: 8
+common: ['6']
+results: ['446', '604', '363']
+644
+604
+633
 

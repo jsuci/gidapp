@@ -1,5 +1,6 @@
 import requests
 import fileinput
+from datetime import *
 from time import *
 from bs4 import BeautifulSoup as BS
 from itertools import *
@@ -86,16 +87,13 @@ def get_results(file_month, file_date, file_year):
     entries = soup.find_all("div", class_="result")
 
     for i, e in enumerate(entries):
-          # Sunday, February 10, 2019 format
-        web_date_list = e.h5.time.get_text().split(" ")
+        # Sunday, February 10, 2019 format
+        web_date_list = datetime.strptime(
+            e.h5.time.get("datetime"), "%Y-%m-%d")
 
         # date, day, month, year
-        web_date = "{:02} {} {} {}".format(
-            int(web_date_list[2].replace(",", "", 1)),
-            web_date_list[0][:3].lower(),
-            web_date_list[1][:3].lower(),
-            web_date_list[3].lower()
-        )
+        web_date = web_date_list.strftime("%d %a %b %Y").lower()
+
         web_results = [y.get_text() for y in e.select(
             "tbody > tr > td > span") if y.get_text() != "-"]
         web_date_results_time = (web_date, web_results, len(

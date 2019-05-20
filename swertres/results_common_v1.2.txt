@@ -1,4 +1,4 @@
-updated: 18 sat may 2019 2
+updated: 20 mon may 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -3775,5 +3775,95 @@ results: ['247', '774', '705']
 247
 774
 705
+
+
+
+
+DATE_GENERATED: 19 sun may 2019 1
+DATE_EXPECTED: 19 sun may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['1']
+results: ['914', '103', '319']
+914
+103
+319
+
+
+gap: 11
+common: ['3']
+results: ['837', '493', '377']
+837
+493
+377
+
+
+gap: 13
+common: ['1']
+results: ['103', '916', '491']
+103
+916
+491
+
+
+gap: 17
+common: ['7']
+results: ['774', '377', '407']
+774
+377
+407
+
+
+gap: 19
+common: ['7']
+results: ['247', '247', '975']
+247
+247
+975
+
+
+
+
+DATE_GENERATED: 19 sun may 2019 2
+DATE_EXPECTED: 19 sun may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 15
+common: ['3']
+results: ['553', '932', '335']
+553
+932
+335
+
+
+gap: 18
+common: ['7']
+results: ['774', '427', '705']
+774
+427
+705
+
+
+
+
+DATE_GENERATED: 20 mon may 2019 0
+DATE_EXPECTED: 20 mon may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['1']
+results: ['661', '103', '491']
+661
+103
+491
+
+
+gap: 18
+common: ['7']
+results: ['427', '377', '574']
+427
+377
+574
 
 

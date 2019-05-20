@@ -1,4 +1,4 @@
-updated: 18 sat may 2019 2
+updated: 20 mon may 2019 0
 
 DATE_GENERATED: 05 fri apr 2019 1
 DATE_EXPECTED: 05 fri apr 2019 1
@@ -865,4 +865,34 @@ results:
 317
 155
 126
+
+DATE_GENERATED: 19 sun may 2019 1
+DATE_EXPECTED: 19 sun may 2019 1
+DRAWS: 1 - 2 draws
+gap: 19
+common: ['5']
+results:
+756
+155
+645
+
+DATE_GENERATED: 19 sun may 2019 2
+DATE_EXPECTED: 19 sun may 2019 2
+DRAWS: 1 - 2 draws
+gap: 11
+common: ['5']
+results:
+545
+574
+593
+
+DATE_GENERATED: 20 mon may 2019 0
+DATE_EXPECTED: 20 mon may 2019 0
+DRAWS: 1 - 2 draws
+gap: 15
+common: ['8']
+results:
+851
+568
+848
 

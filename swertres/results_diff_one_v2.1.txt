@@ -1,4 +1,4 @@
-updated: 18 sat may 2019
+updated: 19 sun may 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
@@ -31,4 +31,8 @@ DRAWS: 3 - 4 draws
 
 DATE_GENERATED: 18 sat may 2019
 DATE_EXPECTED: 18 sat may 2019
+DRAWS: 3 - 4 draws
+
+DATE_GENERATED: 19 sun may 2019
+DATE_EXPECTED: 19 sun may 2019
 DRAWS: 3 - 4 draws
