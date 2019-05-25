@@ -179,7 +179,7 @@ def get_gap_results_v2():
     gap_results = {}
 
     for time, results in time_results.items():
-        for gap in range(1, 10):
+        for gap in range(1, 50):
             step = gap
             temp_results = []
 

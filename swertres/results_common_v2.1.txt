@@ -1,4 +1,4 @@
-updated: 19 sun may 2019
+updated: 24 fri may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1453,4 +1453,248 @@ results: ['446', '604', '363']
 644
 604
 633
+
+
+DATE_GENERATED: 20 mon may 2019
+DATE_EXPECTEDL 20 mon may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 3
+common: ['4']
+results: ['764', '247', '469']
+764
+247
+469
+
+time: 11am
+gap: 4
+common: ['0']
+results: ['607', '062', '307']
+607
+062
+307
+
+time: 11am
+gap: 6
+common: ['2']
+results: ['427', '526', '243']
+427
+526
+243
+
+time: 4pm
+gap: 1
+common: ['1']
+results: ['913', '914', '561']
+913
+914
+561
+
+time: 9pm
+gap: 6
+common: ['5']
+results: ['553', '705', '597']
+553
+705
+597
+
+
+DATE_GENERATED: 21 tue may 2019
+DATE_EXPECTEDL 21 tue may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 8
+common: ['7']
+results: ['247', '725', '176']
+247
+725
+176
+
+time: 4pm
+gap: 1
+common: ['5']
+results: ['675', '584', '524']
+675
+584
+524
+
+
+DATE_GENERATED: 22 wed may 2019
+DATE_EXPECTEDL 22 wed may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 3
+common: ['0']
+results: ['130', '103', '062']
+130
+103
+062
+
+time: 11am
+gap: 4
+common: ['4']
+results: ['004', '247', '574']
+004
+247
+574
+
+time: 11am
+gap: 6
+common: ['6']
+results: ['607', '469', '967']
+607
+469
+967
+
+time: 11am
+gap: 8
+common: ['2']
+results: ['427', '251', '162']
+427
+251
+162
+
+
+DATE_GENERATED: 23 thu may 2019
+DATE_EXPECTEDL 23 thu may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 2
+common: ['0']
+results: ['540', '004', '103']
+540
+004
+103
+
+time: 4pm
+gap: 1
+common: ['5']
+results: ['775', '675', '584']
+775
+675
+584
+
+time: 4pm
+gap: 2
+common: ['5']
+results: ['548', '584', '561']
+548
+584
+561
+
+time: 4pm
+gap: 4
+common: ['3']
+results: ['913', '377', '932']
+913
+377
+932
+
+time: 4pm
+gap: 6
+common: ['1']
+results: ['914', '916', '716']
+914
+916
+716
+
+time: 4pm
+gap: 7
+common: ['4']
+results: ['524', '407', '294']
+524
+407
+294
+
+time: 9pm
+gap: 1
+common: ['1']
+results: ['184', '115', '918']
+184
+115
+918
+
+time: 9pm
+gap: 5
+common: ['9']
+results: ['918', '319', '796']
+918
+319
+796
+
+
+DATE_GENERATED: 24 fri may 2019
+DATE_EXPECTEDL 24 fri may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 3
+common: ['4']
+results: ['540', '764', '247']
+540
+764
+247
+
+time: 11am
+gap: 8
+common: ['6']
+results: ['607', '526', '690']
+607
+526
+690
+
+time: 11am
+gap: 9
+common: ['1']
+results: ['103', '251', '176']
+103
+251
+176
+
+time: 4pm
+gap: 4
+common: ['6']
+results: ['675', '561', '916']
+675
+561
+916
+
+time: 4pm
+gap: 5
+common: ['3']
+results: ['913', '523', '391']
+913
+523
+391
+
+time: 4pm
+gap: 6
+common: ['4']
+results: ['584', '446', '490']
+584
+446
+490
+
+time: 4pm
+gap: 9
+common: ['1']
+results: ['561', '190', '613']
+561
+190
+613
+
+time: 9pm
+gap: 2
+common: ['8']
+results: ['184', '288', '483']
+184
+288
+483
+
+time: 9pm
+gap: 9
+common: ['8']
+results: ['837', '184', '890']
+837
+184
+890
 

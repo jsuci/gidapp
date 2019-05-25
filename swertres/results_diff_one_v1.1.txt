@@ -1,4 +1,4 @@
-updated: 20 mon may 2019 0
+updated: 25 sat may 2019 1
 
 DATE_GENERATED: 05 fri apr 2019 0
 DATE_EXPECTED: 5 fri apr 2019 0
@@ -916,4 +916,169 @@ results:
 427
 377
 574
+
+DATE_GENERATED: 21 tue may 2019 0
+DATE_EXPECTED: 21 tue may 2019 0
+DRAWS: 1 - 2 draws
+gap: 5
+common: ['1']
+results:
+913
+914
+561
+
+DATE_GENERATED: 21 tue may 2019 1
+DATE_EXPECTED: 21 tue may 2019 1
+DRAWS: 1 - 2 draws
+gap: 4
+common: ['8']
+results:
+389
+584
+483
+
+gap: 12
+common: ['4']
+results:
+914
+247
+407
+
+DATE_GENERATED: 21 tue may 2019 2
+DATE_EXPECTED: 21 tue may 2019 2
+DRAWS: 1 - 2 draws
+gap: 16
+common: ['5']
+results:
+524
+335
+574
+
+DATE_GENERATED: 22 wed may 2019 0
+DATE_EXPECTED: 22 wed may 2019 0
+DRAWS: 1 - 2 draws
+gap: 4
+common: ['1']
+results:
+115
+130
+914
+
+DATE_GENERATED: 22 wed may 2019 1
+DATE_EXPECTED: 22 wed may 2019 1
+DRAWS: 1 - 2 draws
+DATE_GENERATED: 22 wed may 2019 2
+DATE_EXPECTED: 22 wed may 2019 2
+DRAWS: 1 - 2 draws
+gap: 11
+common: ['0']
+results:
+130
+103
+062
+
+DATE_GENERATED: 23 thu may 2019 1
+DATE_EXPECTED: 23 thu may 2019 1
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['7']
+results:
+675
+764
+774
+
+DATE_GENERATED: 23 thu may 2019 2
+DATE_EXPECTED: 23 thu may 2019 2
+DRAWS: 1 - 2 draws
+gap: 3
+common: ['8']
+results:
+184
+548
+389
+
+gap: 8
+common: ['0']
+results:
+540
+004
+103
+
+DATE_GENERATED: 24 fri may 2019 0
+DATE_EXPECTED: 24 fri may 2019 0
+DRAWS: 1 - 2 draws
+gap: 5
+common: ['5']
+results:
+775
+675
+584
+
+DATE_GENERATED: 24 fri may 2019 1
+DATE_EXPECTED: 24 fri may 2019 1
+DRAWS: 1 - 2 draws
+gap: 16
+common: ['3']
+results:
+130
+523
+391
+
+DATE_GENERATED: 24 fri may 2019 2
+DATE_EXPECTED: 24 fri may 2019 2
+DRAWS: 1 - 2 draws
+gap: 6
+common: ['9']
+results:
+590
+309
+249
+
+DATE_GENERATED: 25 sat may 2019 0
+DATE_EXPECTED: 25 sat may 2019 0
+DRAWS: 1 - 2 draws
+gap: 3
+common: ['5']
+results:
+528
+590
+511
+
+gap: 4
+common: ['9']
+results:
+941
+099
+309
+
+gap: 6
+common: ['9']
+results:
+498
+791
+966
+
+gap: 7
+common: ['5']
+results:
+590
+508
+588
+
+gap: 13
+common: ['7']
+results:
+791
+187
+677
+
+DATE_GENERATED: 25 sat may 2019 1
+DATE_EXPECTED: 25 sat may 2019 1
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['7']
+results:
+708
+776
+675
 
