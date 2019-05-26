@@ -22,4 +22,10 @@ python script_filter_excel.py
 python script_count_missing_v1.1.py
 python script_count_missing_v2.1.py
 
+cd "C:\Users\0x1\Desktop\gidapp\swertres"
+python script_current_results.py
+
+cd "C:\Users\0x1\Desktop\gidapp\stl"
+python script_current_results.py
+
 timeout 10

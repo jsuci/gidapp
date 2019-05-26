@@ -1,4 +1,4 @@
-updated: 25 sat may 2019 1
+updated: 26 sun may 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4351,5 +4351,73 @@ results: ['791', '675', '703']
 791
 675
 703
+
+
+
+
+DATE_GENERATED: 25 sat may 2019 2
+DATE_EXPECTED: 25 sat may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['2']
+results: ['025', '233', '528']
+025
+233
+528
+
+
+gap: 7
+common: ['9']
+results: ['980', '791', '249']
+980
+791
+249
+
+
+gap: 16
+common: ['0']
+results: ['309', '606', '480']
+309
+606
+480
+
+
+gap: 18
+common: ['3']
+results: ['183', '352', '039']
+183
+352
+039
+
+
+
+
+DATE_GENERATED: 26 sun may 2019 0
+DATE_EXPECTED: 26 sun may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['935', '734', '936']
+935
+734
+936
+
+
+gap: 9
+common: ['8']
+results: ['498', '183', '830']
+498
+183
+830
+
+
+gap: 15
+common: ['5']
+results: ['475', '675', '245']
+475
+675
+245
 
 

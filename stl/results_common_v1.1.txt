@@ -1,4 +1,4 @@
-updated: 25 sat may 2019 1
+updated: 26 sun may 2019 0
 
 
 47
@@ -121,3 +121,5 @@ updated: 25 sat may 2019 1
 83
 08
 42, 23
+
+24, 21, 19

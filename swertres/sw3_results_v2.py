@@ -8,11 +8,17 @@ from datetime import *
 
 def fetch_html(mo, yr):
     headers = {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3163.100 Safari/537.36"
+        "user-agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/70.0.3163.100 Safari/537.36"
+        )
     }
 
-    year_month_url = "https://www.gidapp.com/lottery/philippines/pcso/suertres/month/{}-{}".format(
-        yr, mo)
+    year_month_url = (
+        "https://www.gidapp.com/lottery/philippines/"
+        "pcso/suertres/month/{}-{}".format(yr, mo)
+    )
 
     r = requests.get(year_month_url, headers=headers)
 

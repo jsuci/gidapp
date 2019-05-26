@@ -18,9 +18,6 @@ python sw3_results_v1.py
 python sw3_results_v2.py
 python script_filter_excel.py
 echo
-echo "Current Results:"
-python script_current_results.py
-echo
 echo
 echo
 echo
@@ -42,9 +39,15 @@ python stl_results_v1.py
 python stl_results_v2.py
 python script_filter_excel.py
 echo
-echo "Current Results:"
+echo
+echo "Current SW3 Results:"
+cd /sdcard/Download/gidapp/swertres
 python script_current_results.py
 echo
+echo
+echo "Current STL Results:"
+cd /sdcard/Download/gidapp/stl
+python script_current_results.py
 echo
 echo
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task

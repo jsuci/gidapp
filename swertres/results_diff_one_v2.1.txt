@@ -1,4 +1,4 @@
-updated: 24 fri may 2019
+updated: 25 sat may 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
@@ -61,7 +61,7 @@ time: 11am
 gap: 8
 common: ['2']
 results:
-72/32 (7)
+72/32 (7) - 727, 732
 427
 521
 621
@@ -78,8 +78,29 @@ time: 9pm
 gap: 2
 common: ['8']
 results:
-08/58 (8)
+08/58 (8) - 088, 588
 184
 288
 384
+
+
+DATE_GENERATED: 25 sat may 2019
+DATE_EXPECTED: 25 sat may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 18
+common: ['5']
+results:
+54/50 (8/4) - 548, 544, 508, 504
+526
+515
+537
+
+time: 4pm
+gap: 39
+common: ['0']
+results:
+031
+014
+028
 

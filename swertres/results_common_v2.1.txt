@@ -1,4 +1,4 @@
-updated: 24 fri may 2019
+updated: 25 sat may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1697,4 +1697,64 @@ results: ['837', '184', '890']
 837
 184
 890
+
+
+DATE_GENERATED: 25 sat may 2019
+DATE_EXPECTEDL 25 sat may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 1
+common: ['8']
+results: ['877', '843', '389']
+877
+843
+389
+
+time: 11am
+gap: 3
+common: ['4']
+results: ['843', '004', '427']
+843
+004
+427
+
+time: 11am
+gap: 4
+common: ['0']
+results: ['540', '607', '062']
+540
+607
+062
+
+time: 4pm
+gap: 1
+common: ['7']
+results: ['267', '775', '675']
+267
+775
+675
+
+time: 4pm
+gap: 4
+common: ['4']
+results: ['548', '524', '446']
+548
+524
+446
+
+time: 4pm
+gap: 5
+common: ['7']
+results: ['675', '377', '407']
+675
+377
+407
+
+time: 4pm
+gap: 9
+common: ['5']
+results: ['524', '975', '356']
+524
+975
+356
 

@@ -1,4 +1,4 @@
-updated: 25 sat may 2019 1
+updated: 26 sun may 2019 0
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4003,5 +4003,89 @@ results: ['464', '756', '686']
 464
 756
 686
+
+
+
+
+DATE_GENERATED: 25 sat may 2019 2
+DATE_EXPECTED: 25 sat may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 11
+common: ['1']
+results: ['183', '164', '104']
+183
+164
+104
+
+
+gap: 14
+common: ['5']
+results: ['357', '545', '585']
+357
+545
+585
+
+
+gap: 15
+common: ['0']
+results: ['083', '035', '401']
+083
+035
+401
+
+
+gap: 18
+common: ['6']
+results: ['609', '616', '867']
+609
+616
+867
+
+
+
+
+DATE_GENERATED: 26 sun may 2019 0
+DATE_EXPECTED: 26 sun may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['4']
+results: ['964', '442', '264']
+964
+442
+264
+
+
+gap: 3
+common: ['2']
+results: ['442', '233', '240']
+442
+233
+240
+
+
+gap: 10
+common: ['3']
+results: ['593', '838', '035']
+593
+838
+035
+
+
+gap: 17
+common: ['1']
+results: ['971', '311', '819']
+971
+311
+819
+
+
+gap: 18
+common: ['7']
+results: ['785', '753', '687']
+785
+753
+687
 
 
