@@ -1,4 +1,4 @@
-updated: 26 sun may 2019 0
+updated: 27 mon may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4419,5 +4419,195 @@ results: ['475', '675', '245']
 475
 675
 245
+
+
+
+
+DATE_GENERATED: 26 sun may 2019 1
+DATE_EXPECTED: 26 sun may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['7']
+results: ['734', '718', '017']
+734
+718
+017
+
+
+gap: 7
+common: ['8']
+results: ['877', '548', '918']
+877
+548
+918
+
+
+gap: 9
+common: ['8']
+results: ['718', '389', '483']
+718
+389
+483
+
+
+gap: 16
+common: ['5']
+results: ['540', '561', '885']
+540
+561
+885
+
+
+gap: 18
+common: ['7']
+results: ['675', '427', '705']
+675
+427
+705
+
+
+
+
+DATE_GENERATED: 26 sun may 2019 2
+DATE_EXPECTED: 26 sun may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['4']
+results: ['734', '485', '540']
+734
+485
+540
+
+
+gap: 12
+common: ['4']
+results: ['184', '584', '427']
+184
+584
+427
+
+
+gap: 16
+common: ['8']
+results: ['548', '837', '185']
+548
+837
+185
+
+
+
+
+DATE_GENERATED: 27 mon may 2019 0
+DATE_EXPECTED: 27 mon may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 2
+common: ['2']
+results: ['721', '025', '267']
+721
+025
+267
+
+
+gap: 7
+common: ['3']
+results: ['233', '843', '913']
+233
+843
+913
+
+
+gap: 11
+common: ['1']
+results: ['718', '913', '561']
+718
+913
+561
+
+
+gap: 15
+common: ['4']
+results: ['843', '483', '446']
+843
+483
+446
+
+
+
+
+DATE_GENERATED: 27 mon may 2019 1
+DATE_EXPECTED: 27 mon may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 2
+common: ['3']
+results: ['913', '935', '233']
+913
+935
+233
+
+
+gap: 6
+common: ['5']
+results: ['025', '485', '115']
+025
+485
+115
+
+
+gap: 13
+common: ['4']
+results: ['485', '584', '774']
+485
+584
+774
+
+
+gap: 14
+common: ['1']
+results: ['184', '661', '319']
+184
+661
+319
+
+
+
+
+DATE_GENERATED: 27 mon may 2019 2
+DATE_EXPECTED: 27 mon may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['3']
+results: ['350', '913', '030']
+350
+913
+030
+
+
+gap: 8
+common: ['3']
+results: ['734', '843', '130']
+734
+843
+130
+
+
+gap: 14
+common: ['4']
+results: ['485', '004', '247']
+485
+004
+247
+
+
+gap: 19
+common: ['5']
+results: ['548', '553', '574']
+548
+553
+574
 
 

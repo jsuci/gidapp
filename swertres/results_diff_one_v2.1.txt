@@ -1,4 +1,4 @@
-updated: 25 sat may 2019
+updated: 27 mon may 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
@@ -103,4 +103,52 @@ results:
 031
 014
 028
+
+
+DATE_GENERATED: 26 sun may 2019
+DATE_EXPECTED: 26 sun may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 30
+common: ['1']
+results:
+162
+581
+157
+
+
+DATE_GENERATED: 27 mon may 2019
+DATE_EXPECTED: 27 mon may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 25
+common: ['7']
+results:
+967
+107
+087
+
+time: 11am
+gap: 26
+common: ['8']
+results:
+853
+487
+861
+
+time: 4pm
+gap: 9
+common: ['4']
+results:
+584
+407
+462
+
+time: 9pm
+gap: 36
+common: ['7']
+results:
+571
+270
+037
 
