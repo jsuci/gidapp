@@ -1,4 +1,4 @@
-updated: 27 mon may 2019 2
+updated: 29 wed may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4609,5 +4609,219 @@ results: ['548', '553', '574']
 548
 553
 574
+
+
+
+
+DATE_GENERATED: 28 tue may 2019 0
+DATE_EXPECTED: 28 tue may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['7']
+results: ['721', '267', '775']
+721
+267
+775
+
+
+gap: 7
+common: ['5']
+results: ['935', '485', '675']
+935
+485
+675
+
+
+gap: 16
+common: ['4']
+results: ['184', '764', '446']
+184
+764
+446
+
+
+gap: 18
+common: ['3']
+results: ['843', '837', '932']
+843
+837
+932
+
+
+gap: 19
+common: ['0']
+results: ['017', '103', '407']
+017
+103
+407
+
+
+
+
+DATE_GENERATED: 28 tue may 2019 1
+DATE_EXPECTED: 28 tue may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['3']
+results: ['350', '030', '233']
+350
+030
+233
+
+
+gap: 4
+common: ['5']
+results: ['514', '025', '545']
+514
+025
+545
+
+
+gap: 6
+common: ['7']
+results: ['721', '877', '017']
+721
+877
+017
+
+
+gap: 16
+common: ['4']
+results: ['485', '914', '493']
+485
+914
+493
+
+
+
+
+DATE_GENERATED: 28 tue may 2019 2
+DATE_EXPECTED: 28 tue may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['7']
+results: ['557', '721', '734']
+557
+721
+734
+
+
+gap: 5
+common: ['4']
+results: ['514', '734', '485']
+514
+734
+485
+
+
+gap: 10
+common: ['0']
+results: ['025', '017', '004']
+025
+017
+004
+
+
+gap: 11
+common: ['4']
+results: ['734', '540', '764']
+734
+540
+764
+
+
+gap: 15
+common: ['4']
+results: ['545', '584', '247']
+545
+584
+247
+
+
+
+
+DATE_GENERATED: 29 wed may 2019 0
+DATE_EXPECTED: 29 wed may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 8
+common: ['7']
+results: ['721', '718', '675']
+721
+718
+675
+
+
+gap: 16
+common: ['4']
+results: ['545', '004', '491']
+545
+004
+491
+
+
+
+
+DATE_GENERATED: 29 wed may 2019 2
+DATE_EXPECTED: 29 wed may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['0']
+results: ['067', '350', '030']
+067
+350
+030
+
+
+gap: 4
+common: ['3']
+results: ['139', '913', '734']
+139
+913
+734
+
+
+gap: 6
+common: ['5']
+results: ['557', '025', '485']
+557
+025
+485
+
+
+gap: 7
+common: ['3']
+results: ['350', '233', '843']
+350
+233
+843
+
+
+gap: 10
+common: ['1']
+results: ['721', '184', '130']
+721
+184
+130
+
+
+gap: 14
+common: ['3']
+results: ['734', '389', '103']
+734
+389
+103
+
+
+gap: 19
+common: ['8']
+results: ['718', '483', '185']
+718
+483
+185
 
 

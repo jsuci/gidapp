@@ -1,4 +1,4 @@
-updated: 26 sun may 2019 0
+updated: 29 wed may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4087,5 +4087,201 @@ results: ['785', '753', '687']
 785
 753
 687
+
+
+
+
+DATE_GENERATED: 27 mon may 2019 2
+DATE_EXPECTED: 27 mon may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['7']
+results: ['700', '792', '775']
+700
+792
+775
+
+
+gap: 11
+common: ['5']
+results: ['251', '785', '545']
+251
+785
+545
+
+
+gap: 15
+common: ['5']
+results: ['593', '805', '574']
+593
+805
+574
+
+
+gap: 18
+common: ['3']
+results: ['312', '035', '513']
+312
+035
+513
+
+
+
+
+DATE_GENERATED: 28 tue may 2019 0
+DATE_EXPECTED: 28 tue may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['4']
+results: ['441', '964', '264']
+441
+964
+264
+
+
+gap: 5
+common: ['4']
+results: ['948', '264', '240']
+948
+264
+240
+
+
+gap: 9
+common: ['2']
+results: ['442', '312', '272']
+442
+312
+272
+
+
+gap: 13
+common: ['3']
+results: ['233', '838', '311']
+233
+838
+311
+
+
+gap: 19
+common: ['1']
+results: ['312', '851', '819']
+312
+851
+819
+
+
+
+
+DATE_GENERATED: 28 tue may 2019 1
+DATE_EXPECTED: 28 tue may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['7']
+results: ['072', '700', '792']
+072
+700
+792
+
+
+gap: 5
+common: ['9']
+results: ['792', '920', '593']
+792
+920
+593
+
+
+gap: 8
+common: ['9']
+results: ['964', '593', '609']
+964
+593
+609
+
+
+gap: 15
+common: ['1']
+results: ['195', '164', '317']
+195
+164
+317
+
+
+
+
+DATE_GENERATED: 28 tue may 2019 2
+DATE_EXPECTED: 28 tue may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['4']
+results: ['441', '442', '408']
+441
+442
+408
+
+
+
+
+DATE_GENERATED: 29 wed may 2019 0
+DATE_EXPECTED: 29 wed may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['0']
+results: ['049', '072', '700']
+049
+072
+700
+
+
+gap: 3
+common: ['7']
+results: ['072', '792', '076']
+072
+792
+076
+
+
+gap: 8
+common: ['9']
+results: ['948', '195', '971']
+948
+195
+971
+
+
+
+
+DATE_GENERATED: 29 wed may 2019 2
+DATE_EXPECTED: 29 wed may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['0']
+results: ['033', '076', '408']
+033
+076
+408
+
+
+gap: 16
+common: ['6']
+results: ['264', '660', '756']
+264
+660
+756
+
+
+gap: 19
+common: ['1']
+results: ['195', '221', '401']
+195
+221
+401
 
 

@@ -114,16 +114,11 @@ def result_gap():
     """Given two different date time strings, count how
     many results have gone by. Return an integer value"""
 
-    prev_dt, curr_dt = date_gap()
+    ((prev_date, prev_int),
+        (curr_date, curr_int)) = date_gap()
 
     multiplier = 3
-    prev_date, prev_int = [prev_dt[:-2], int(prev_dt[-1:])]
-    curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
-
-    time_diff = (
-        datetime.strptime(curr_date, "%d %a %b %Y") -
-        datetime.strptime(prev_date, "%d %a %b %Y")
-    ).days
+    time_diff = (curr_date - prev_date).days
 
     endpoints = (
         multiplier - (prev_int + 1) +
@@ -137,8 +132,8 @@ def result_gap():
 
 
 def date_gap():
-    """Return a tuple containing two date strings taken from
-    results_v1.txt and results_count_missing_v1.1.txt"""
+    """Return a list of tuple containing date object and an int value
+    taken from results_v1.txt and results_count_missing_v1.1.txt"""
 
     with open("results_count_missing_v1.1.txt", "r") as f1:
         prev_dt = f1.readline().strip().replace("updated: ", "")
@@ -146,41 +141,60 @@ def date_gap():
     with open("results_v1.txt", "r") as f2:
         curr_dt = f2.readline().strip().replace("updated: ", "")
 
-    return (prev_dt, curr_dt)
+    prev_date, prev_int = [prev_dt[:-2], int(prev_dt[-1:])]
+    curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
+
+    prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
+    curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
+
+    return [(prev_date, prev_int), (curr_date, curr_int)]
 
 
-def all_missing_digit(results):
-    all_missing = []
+def all_missing_digit():
 
-    for i in range(10):
-        all_missing.append(
-            count_missing_digit(results, str(i)))
+    for i in reversed(range(result_gap())):
+        results = get_reverse_result()[i:]
+        all_missing = []
 
-    sorted_missing = sorted(
-        all_missing, key=(lambda x: x[2]), reverse=True)
+        for i in range(10):
+            all_missing.append(
+                count_missing_digit(results, str(i)))
 
-    print("DATE GENERATED: ")
+        sorted_missing = sorted(
+            all_missing, key=(lambda x: x[2]), reverse=True)
 
-    for entry in sorted_missing:
-        print("{} <- {:2}\t\t{}".format(
-            entry[0],
-            entry[2],
-            entry[3]))
+        print("DATE GENERATED: {}\nRESULT: {}".format(
+            "", results[0]))
 
-    print("\n\n")
+        for entry in sorted_missing:
+            print("{} <- {:2}\t\t{}".format(
+                entry[0],
+                entry[2],
+                entry[3])
+            )
+
+        print("\n\n")
 
     # if is_current_date():
     #     export_results(sorted_missing)
 
 
 def main():
-    all_missing_digit(results)
+    all_missing_digit()
 
 
 if __name__ == "__main__":
     # main()
+    # print(result_gap())
 
-    for i in reversed(range(result_gap())):
-        results = get_reverse_result()[i:]
+    ((prev_date, prev_int),
+        (curr_date, curr_int)) = date_gap()
 
-        all_missing_digit(results)
+    # prev_date = prev_date.strftime("%d %a %b %Y")
+    # curr_date = curr_date.strftime("%d %a %b %Y")
+
+    while prev_date != curr_date:
+        if prev_int == 2:
+            prev_date += timedelta(days=1)
+
+        print(prev_date.strftime("%d %a %b %Y"))

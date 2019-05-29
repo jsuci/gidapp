@@ -1,4 +1,4 @@
-updated: 26 sun may 2019 0
+updated: 29 wed may 2019 2
 
 DATE_GENERATED: 05 fri apr 2019 1
 DATE_EXPECTED: 05 fri apr 2019 1
@@ -1052,4 +1052,71 @@ results:
 593
 838
 035
+
+DATE_GENERATED: 27 mon may 2019 2
+DATE_EXPECTED: 27 mon may 2019 2
+DRAWS: 1 - 2 draws
+gap: 15
+common: ['5']
+results:
+593
+805
+574
+
+gap: 18
+common: ['3']
+results:
+312
+035
+513
+
+DATE_GENERATED: 28 tue may 2019 0
+DATE_EXPECTED: 28 tue may 2019 0
+DRAWS: 1 - 2 draws
+gap: 9
+common: ['2']
+results:
+442
+312
+272
+
+DATE_GENERATED: 28 tue may 2019 1
+DATE_EXPECTED: 28 tue may 2019 1
+DRAWS: 1 - 2 draws
+gap: 8
+common: ['9']
+results:
+964
+593
+609
+
+gap: 15
+common: ['1']
+results:
+195
+164
+317
+
+DATE_GENERATED: 28 tue may 2019 2
+DATE_EXPECTED: 28 tue may 2019 2
+DRAWS: 1 - 2 draws
+gap: 5
+common: ['4']
+results:
+441
+442
+408
+
+DATE_GENERATED: 29 wed may 2019 0
+DATE_EXPECTED: 29 wed may 2019 0
+DRAWS: 1 - 2 draws
+DATE_GENERATED: 29 wed may 2019 2
+DATE_EXPECTED: 29 wed may 2019 2
+DRAWS: 1 - 2 draws
+gap: 16
+common: ['6']
+results:
+264
+660
+756
 
