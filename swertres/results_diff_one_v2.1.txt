@@ -1,4 +1,4 @@
-updated: 29 wed may 2019
+updated: 31 fri may 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
@@ -162,25 +162,28 @@ time: 11am
 gap: 14
 common: ['2']
 results:
-427
+23/28 (1)
+274
 261
-524
+254
 
 time: 4pm
 gap: 9
 common: ['3']
 results:
-913
-932
-036
+39/33
+391
+392
+360
 
 time: 9pm
 gap: 6
 common: ['8']
 results:
-184
+84/80 {7}
+814
 837
-428
+824
 
 
 DATE_GENERATED: 29 wed may 2019
@@ -190,7 +193,40 @@ time: 9pm
 gap: 14
 common: ['7']
 results:
-837
-597
+77/71 (2/6)
+783
+795
 704
+
+
+DATE_GENERATED: 30 thu may 2019
+DATE_EXPECTED: 30 thu may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 2
+common: ['4']
+results:
+469
+473
+483
+
+time: 9pm
+gap: 15
+common: ['3']
+results:
+837
+083
+943
+
+
+DATE_GENERATED: 31 fri may 2019
+DATE_EXPECTED: 31 fri may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 41
+common: ['4']
+results:
+064
+140
+924
 

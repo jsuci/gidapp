@@ -1,4 +1,4 @@
-updated: 29 wed may 2019 2
+updated: 31 fri may 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4823,5 +4823,225 @@ results: ['718', '483', '185']
 718
 483
 185
+
+
+
+
+DATE_GENERATED: 30 thu may 2019 0
+DATE_EXPECTED: 30 thu may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 7
+common: ['7']
+results: ['557', '734', '775']
+557
+734
+775
+
+
+gap: 9
+common: ['5']
+results: ['514', '545', '675']
+514
+545
+675
+
+
+gap: 13
+common: ['5']
+results: ['935', '540', '524']
+935
+540
+524
+
+
+gap: 14
+common: ['5']
+results: ['025', '675', '561']
+025
+675
+561
+
+
+gap: 16
+common: ['3']
+results: ['233', '130', '523']
+233
+130
+523
+
+
+
+
+DATE_GENERATED: 30 thu may 2019 1
+DATE_EXPECTED: 30 thu may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 1
+common: ['7']
+results: ['471', '702', '067']
+471
+702
+067
+
+
+gap: 2
+common: ['7']
+results: ['887', '067', '557']
+887
+067
+557
+
+
+gap: 4
+common: ['3']
+results: ['369', '350', '935']
+369
+350
+935
+
+
+gap: 11
+common: ['1']
+results: ['913', '184', '918']
+913
+184
+918
+
+
+
+
+DATE_GENERATED: 30 thu may 2019 2
+DATE_EXPECTED: 30 thu may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 6
+common: ['7']
+results: ['067', '721', '877']
+067
+721
+877
+
+
+gap: 8
+common: ['4']
+results: ['469', '734', '843']
+469
+734
+843
+
+
+gap: 13
+common: ['7']
+results: ['721', '017', '764']
+721
+017
+764
+
+
+gap: 14
+common: ['0']
+results: ['030', '540', '607']
+030
+540
+607
+
+
+gap: 16
+common: ['2']
+results: ['025', '288', '427']
+025
+288
+427
+
+
+gap: 19
+common: ['6']
+results: ['267', '661', '062']
+267
+661
+062
+
+
+
+
+DATE_GENERATED: 31 fri may 2019 0
+DATE_EXPECTED: 31 fri may 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['0']
+results: ['702', '350', '025']
+702
+350
+025
+
+
+gap: 10
+common: ['7']
+results: ['557', '877', '675']
+557
+877
+675
+
+
+gap: 12
+common: ['4']
+results: ['514', '184', '584']
+514
+184
+584
+
+
+gap: 16
+common: ['3']
+results: ['935', '389', '377']
+935
+389
+377
+
+
+
+
+DATE_GENERATED: 31 fri may 2019 1
+DATE_EXPECTED: 31 fri may 2019 1
+DRAWS: 1 - 2 draws
+
+gap: 4
+common: ['1']
+results: ['471', '139', '913']
+471
+139
+913
+
+
+gap: 19
+common: ['4']
+results: ['734', '584', '493']
+734
+584
+493
+
+
+
+
+DATE_GENERATED: 31 fri may 2019 2
+DATE_EXPECTED: 31 fri may 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 14
+common: ['4']
+results: ['514', '843', '764']
+514
+843
+764
+
+
+gap: 16
+common: ['1']
+results: ['721', '115', '103']
+721
+115
+103
 
 

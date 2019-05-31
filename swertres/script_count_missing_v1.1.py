@@ -152,31 +152,60 @@ def date_gap():
 
 def all_missing_digit():
 
-    for i in reversed(range(result_gap())):
-        results = get_reverse_result()[i:]
-        all_missing = []
+    with open("results_count_missing_v1.1.txt", "a") as fo:
 
-        for i in range(10):
-            all_missing.append(
-                count_missing_digit(results, str(i)))
+        ((prev_date, prev_int),
+            (curr_date, curr_int)) = date_gap()
 
-        sorted_missing = sorted(
-            all_missing, key=(lambda x: x[2]), reverse=True)
+        for i in reversed(range(result_gap())):
+            results = get_reverse_result()[i:]
+            all_missing = []
 
-        print("DATE GENERATED: {}\nRESULT: {}".format(
-            "", results[0]))
+            for i in range(10):
+                all_missing.append(
+                    count_missing_digit(results, str(i)))
 
-        for entry in sorted_missing:
-            print("{} <- {:2}\t\t{}".format(
-                entry[0],
-                entry[2],
-                entry[3])
-            )
+            if prev_int == 2:
+                prev_date += timedelta(days=1)
+                prev_int = 0
 
-        print("\n\n")
+            else:
+                prev_int += 1
 
-    # if is_current_date():
-    #     export_results(sorted_missing)
+            print("DATE GENERATED: {} {}".format(
+                prev_date.strftime("%d %a %b %Y"), prev_int))
+            print("RESULT: {}".format(results[0]))
+
+            fo.write("DATE GENERATED: {} {}\n".format(
+                prev_date.strftime("%d %a %b %Y"), prev_int))
+            fo.write("RESULT: {}\n".format(results[0]))
+
+            sorted_missing = sorted(
+                all_missing, key=(lambda x: x[2]), reverse=True)
+
+            for entry in sorted_missing:
+                print("{} <- {:2}\t\t{}".format(
+                    entry[0],
+                    entry[2],
+                    entry[3])
+                )
+
+                fo.write("{} <- {:2}\t\t{}\n".format(
+                    entry[0],
+                    entry[2],
+                    entry[3])
+                )
+
+            print("\n\n")
+            fo.write("\n\n")
+
+    with input("results_count_missing_v1.1.txt", inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print("updated: {} {}".format(
+                    curr_date.strftime("%d %a %b %Y"), curr_int))
+            else:
+                print(entry, end="")
 
 
 def main():
@@ -184,17 +213,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # main()
-    # print(result_gap())
-
-    ((prev_date, prev_int),
-        (curr_date, curr_int)) = date_gap()
-
-    # prev_date = prev_date.strftime("%d %a %b %Y")
-    # curr_date = curr_date.strftime("%d %a %b %Y")
-
-    while prev_date != curr_date:
-        if prev_int == 2:
-            prev_date += timedelta(days=1)
-
-        print(prev_date.strftime("%d %a %b %Y"))
+    main()

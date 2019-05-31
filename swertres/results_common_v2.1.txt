@@ -1,4 +1,4 @@
-updated: 29 wed may 2019
+updated: 31 fri may 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -1965,4 +1965,92 @@ results: ['115', '335', '597']
 115
 335
 597
+
+
+DATE_GENERATED: 30 thu may 2019
+DATE_EXPECTEDL 30 thu may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 2
+common: ['4']
+results: ['469', '734', '843']
+469
+734
+843
+
+time: 11am
+gap: 4
+common: ['0']
+results: ['030', '540', '607']
+030
+540
+607
+
+time: 4pm
+gap: 1
+common: ['0']
+results: ['702', '350', '025']
+702
+350
+025
+
+time: 4pm
+gap: 7
+common: ['1']
+results: ['718', '561', '391']
+718
+561
+391
+
+time: 9pm
+gap: 8
+common: ['4']
+results: ['184', '774', '574']
+184
+774
+574
+
+
+DATE_GENERATED: 31 fri may 2019
+DATE_EXPECTEDL 31 fri may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 4
+common: ['4']
+results: ['514', '843', '764']
+514
+843
+764
+
+time: 11am
+gap: 7
+common: ['7']
+results: ['877', '607', '574']
+877
+607
+574
+
+time: 4pm
+gap: 2
+common: ['7']
+results: ['702', '721', '718']
+702
+721
+718
+
+time: 4pm
+gap: 5
+common: ['7']
+results: ['721', '675', '377']
+721
+675
+377
+
+time: 9pm
+gap: 6
+common: ['9']
+results: ['935', '918', '493']
+935
+918
+493
 

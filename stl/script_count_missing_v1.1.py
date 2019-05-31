@@ -5,29 +5,29 @@ from datetime import *
 from fileinput import *
 
 
-def get_generated_date_v1():
-    """Get current date from updated string of
-    results_v2.txt. Return a string of date
-    """
+# def get_generated_date_v1():
+#     """Get current date from updated string of
+#     results_v2.txt. Return a string of date
+#     """
 
-    with open("results_v1.txt") as fi:
-        date = fi.readline().strip().replace("updated: ", "")
+#     with open("results_v1.txt") as fi:
+#         date = fi.readline().strip().replace("updated: ", "")
 
-    return date
+#     return date
 
 
-def is_current_date():
-    """Get results_v2.txt current date and compare it to
-    results_common_v2.1.txt date. Return True if they
-    are the same and False if not
-    """
+# def is_current_date():
+#     """Get results_v2.txt current date and compare it to
+#     results_common_v2.1.txt date. Return True if they
+#     are the same and False if not
+#     """
 
-    with open("results_count_missing_v1.1.txt", "r") as fo:
-        fi_date = "updated: " + get_generated_date_v1()
-        fo_date = fo.readline().strip()
+#     with open("results_count_missing_v1.1.txt", "r") as fo:
+#         fi_date = "updated: " + get_generated_date_v1()
+#         fo_date = fo.readline().strip()
 
-        if fi_date != fo_date:
-            return fi_date
+#         if fi_date != fo_date:
+#             return fi_date
 
 
 def get_reverse_result():
@@ -40,13 +40,13 @@ def get_reverse_result():
     return results
 
 
-def count_missing_digit(digit):
+def count_missing_digit(results, digit):
     """Given a str digit determine the longest missing
     position of that digit. Return a list containing
     digit, {position: missing_count}, "0 _ _")
     """
 
-    results = get_reverse_result()
+    # results = get_reverse_result()
     first_count = 0
     second_count = 0
     third_count = 0
@@ -86,20 +86,21 @@ def count_missing_digit(digit):
             break
 
     final_result.extend([highest_count, highest_format])
+
     return final_result
 
 
 def export_results(sorted_missing):
 
     with open("results_count_missing_v1.1.txt", "a") as fo:
-        fo.write("DATE GENERATED: {}\n".format(get_generated_date_v1()))
+        fo.write("\nDATE GENERATED: {}\n".format(get_generated_date_v1()))
         for entry in sorted_missing:
             fo.write("{} <- {:2}\t\t{}\n".format(
                 entry[0],
                 entry[2],
                 entry[3]))
 
-        fo.write("\n\n")
+        fo.write("\n")
 
     with input("results_count_missing_v1.1.txt", inplace=True) as fio:
         for entry in fio:
@@ -109,26 +110,102 @@ def export_results(sorted_missing):
                 print(entry, end="")
 
 
+def result_gap():
+    """Given two different date time strings, count how
+    many results have gone by. Return an integer value"""
+
+    ((prev_date, prev_int),
+        (curr_date, curr_int)) = date_gap()
+
+    multiplier = 3
+    time_diff = (curr_date - prev_date).days
+
+    endpoints = (
+        multiplier - (prev_int + 1) +
+        (curr_int + 1)
+    )
+
+    if time_diff != 1:
+        return (time_diff - 1) * multiplier + endpoints
+    else:
+        return endpoints
+
+
+def date_gap():
+    """Return a list of tuple containing date object and an int value
+    taken from results_v1.txt and results_count_missing_v1.1.txt"""
+
+    with open("results_count_missing_v1.1.txt", "r") as f1:
+        prev_dt = f1.readline().strip().replace("updated: ", "")
+
+    with open("results_v1.txt", "r") as f2:
+        curr_dt = f2.readline().strip().replace("updated: ", "")
+
+    prev_date, prev_int = [prev_dt[:-2], int(prev_dt[-1:])]
+    curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
+
+    prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
+    curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
+
+    return [(prev_date, prev_int), (curr_date, curr_int)]
+
+
 def all_missing_digit():
-    all_missing = []
 
-    for i in range(10):
-        all_missing.append(
-            count_missing_digit(str(i)))
+    with open("results_count_missing_v1.1.txt", "a") as fo:
 
-    sorted_missing = sorted(
-        all_missing, key=(lambda x: x[2]), reverse=True)
+        ((prev_date, prev_int),
+            (curr_date, curr_int)) = date_gap()
 
-    for entry in sorted_missing:
-        print("{} <- {:2}\t\t{}".format(
-            entry[0],
-            entry[2],
-            entry[3]))
+        for i in reversed(range(result_gap())):
+            results = get_reverse_result()[i:]
+            all_missing = []
 
-    print("\n\n")
+            for i in range(10):
+                all_missing.append(
+                    count_missing_digit(results, str(i)))
 
-    if is_current_date():
-        export_results(sorted_missing)
+            if prev_int == 2:
+                prev_date += timedelta(days=1)
+                prev_int = 0
+
+            else:
+                prev_int += 1
+
+            print("DATE GENERATED: {} {}".format(
+                prev_date.strftime("%d %a %b %Y"), prev_int))
+            print("RESULT: {}".format(results[0]))
+
+            fo.write("DATE GENERATED: {} {}\n".format(
+                prev_date.strftime("%d %a %b %Y"), prev_int))
+            fo.write("RESULT: {}\n".format(results[0]))
+
+            sorted_missing = sorted(
+                all_missing, key=(lambda x: x[2]), reverse=True)
+
+            for entry in sorted_missing:
+                print("{} <- {:2}\t\t{}".format(
+                    entry[0],
+                    entry[2],
+                    entry[3])
+                )
+
+                fo.write("{} <- {:2}\t\t{}\n".format(
+                    entry[0],
+                    entry[2],
+                    entry[3])
+                )
+
+            print("\n\n")
+            fo.write("\n\n")
+
+    with input("results_count_missing_v1.1.txt", inplace=True) as fio:
+        for entry in fio:
+            if "updated:" in entry:
+                print("updated: {} {}".format(
+                    curr_date.strftime("%d %a %b %Y"), curr_int))
+            else:
+                print(entry, end="")
 
 
 def main():

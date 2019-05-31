@@ -1,4 +1,4 @@
-updated: 29 wed may 2019
+updated: 31 fri may 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
@@ -122,4 +122,28 @@ results:
 741
 584
 564
+
+
+DATE_GENERATED: 30 thu may 2019
+DATE_EXPECTED: 30 thu may 2019
+DRAWS: 3 - 4 draws
+
+DATE_GENERATED: 31 fri may 2019
+DATE_EXPECTED: 31 fri may 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 8
+common: ['4']
+results:
+408
+104
+974
+
+time: 4pm
+gap: 40
+common: ['9']
+results:
+928
+976
+697
 
