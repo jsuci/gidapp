@@ -1,4 +1,4 @@
-updated: 31 fri may 2019 2
+updated: 01 sat jun 2019 2
 
 
 DATE_GENERATED: 24 sun mar 2019 2
@@ -4503,5 +4503,73 @@ results: ['964', '464', '756']
 964
 464
 756
+
+
+
+
+DATE_GENERATED: 01 sat jun 2019 0
+DATE_EXPECTED: 01 sat jun 2019 0
+DRAWS: 1 - 2 draws
+
+gap: 3
+common: ['4']
+results: ['747', '484', '648']
+747
+484
+648
+
+
+gap: 6
+common: ['0']
+results: ['041', '033', '076']
+041
+033
+076
+
+
+gap: 7
+common: ['4']
+results: ['484', '441', '264']
+484
+441
+264
+
+
+gap: 9
+common: ['4']
+results: ['429', '964', '240']
+429
+964
+240
+
+
+gap: 14
+common: ['0']
+results: ['700', '240', '805']
+700
+240
+805
+
+
+
+
+DATE_GENERATED: 01 sat jun 2019 2
+DATE_EXPECTED: 01 sat jun 2019 2
+DRAWS: 1 - 2 draws
+
+gap: 5
+common: ['4']
+results: ['747', '429', '441']
+747
+429
+441
+
+
+gap: 8
+common: ['1']
+results: ['041', '441', '251']
+041
+441
+251
 
 

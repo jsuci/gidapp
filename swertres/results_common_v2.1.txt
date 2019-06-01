@@ -1,4 +1,4 @@
-updated: 31 fri may 2019
+updated: 01 sat jun 2019
 
 DATE_GENERATED: 06 sat apr 2019
 DATE_EXPECTEDL 06 sat apr 2019
@@ -2053,4 +2053,64 @@ results: ['935', '918', '493']
 935
 918
 493
+
+
+DATE_GENERATED: 01 sat jun 2019
+DATE_EXPECTEDL 01 sat jun 2019
+DRAWS: 3 - 4 draws
+time: 11am
+gap: 4
+common: ['4']
+results: ['469', '485', '004']
+469
+485
+004
+
+time: 11am
+gap: 6
+common: ['3']
+results: ['030', '130', '223']
+030
+130
+223
+
+time: 11am
+gap: 7
+common: ['4']
+results: ['734', '764', '469']
+734
+764
+469
+
+time: 4pm
+gap: 5
+common: ['5']
+results: ['350', '548', '561']
+350
+548
+561
+
+time: 4pm
+gap: 6
+common: ['1']
+results: ['721', '913', '491']
+721
+913
+491
+
+time: 9pm
+gap: 5
+common: ['7']
+results: ['557', '017', '837']
+557
+017
+837
+
+time: 9pm
+gap: 9
+common: ['4']
+results: ['545', '774', '214']
+545
+774
+214
 

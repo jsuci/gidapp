@@ -1,4 +1,4 @@
-updated: 31 fri may 2019
+updated: 01 sat jun 2019
 
 DATE_GENERATED: 07 tue may 2019
 DATE_EXPECTED: 07 tue may 2019
@@ -226,7 +226,11 @@ time: 11am
 gap: 41
 common: ['4']
 results:
-064
-140
-924
+406
+410
+492
 
+
+DATE_GENERATED: 01 sat jun 2019
+DATE_EXPECTED: 01 sat jun 2019
+DRAWS: 3 - 4 draws

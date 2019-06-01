@@ -5,31 +5,6 @@ from datetime import *
 from fileinput import *
 
 
-# def get_generated_date_v1():
-#     """Get current date from updated string of
-#     results_v2.txt. Return a string of date
-#     """
-
-#     with open("results_v1.txt") as fi:
-#         date = fi.readline().strip().replace("updated: ", "")
-
-#     return date
-
-
-# def is_current_date():
-#     """Get results_v2.txt current date and compare it to
-#     results_common_v2.1.txt date. Return True if they
-#     are the same and False if not
-#     """
-
-#     with open("results_count_missing_v1.1.txt", "r") as fo:
-#         fi_date = "updated: " + get_generated_date_v1()
-#         fo_date = fo.readline().strip()
-
-#         if fi_date != fo_date:
-#             return fi_date
-
-
 def get_reverse_result():
     results = []
     with open("results_v1.txt", "r") as fi:
@@ -88,26 +63,6 @@ def count_missing_digit(results, digit):
     final_result.extend([highest_count, highest_format])
 
     return final_result
-
-
-def export_results(sorted_missing):
-
-    with open("results_count_missing_v1.1.txt", "a") as fo:
-        fo.write("\nDATE GENERATED: {}\n".format(get_generated_date_v1()))
-        for entry in sorted_missing:
-            fo.write("{} <- {:2}\t\t{}\n".format(
-                entry[0],
-                entry[2],
-                entry[3]))
-
-        fo.write("\n")
-
-    with input("results_count_missing_v1.1.txt", inplace=True) as fio:
-        for entry in fio:
-            if "updated:" in entry:
-                print(is_current_date())
-            else:
-                print(entry, end="")
 
 
 def result_gap():
