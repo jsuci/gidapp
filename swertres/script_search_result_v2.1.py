@@ -42,7 +42,7 @@ def filter_result(month_year, pair):
 
 
 def main():
-    filter_result("jun 2018", "34")
+    filter_result("jun 2018", "24")
 
 
 if __name__ == "__main__":

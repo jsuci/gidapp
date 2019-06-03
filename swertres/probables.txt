@@ -1,0 +1,100 @@
+PROBABLES:
+
+date: 26 Sun May 2019
+time: 4pm
+m10:
+051
+091
+
+
+date: 27 Mon May 2019
+time: 11am
+m10:
+402
+442
+
+246
+286
+
+time: 4pm
+m10:
+284
+224
+
+time: 9pm
+m10:
+819
+859
+
+time: 9pm
+m10:
+738
+778
+
+
+date: 28 Tue May 2019
+time: 11am
+m10:
+805
+845
+
+time: 9pm
+m10:
+807
+847
+
+
+date: 29 Wed May 2019
+time: 4pm
+m10:
+374
+314
+
+time: 9pm
+m10:
+772
+712
+
+776
+716
+
+
+date: 30 Thu May 2019
+time: 11am
+m10:
+459
+499
+
+time: 4pm
+m10:
+055
+095
+
+time: 9pm
+m10:
+795
+735
+
+
+date: 31 Fri May 2019
+time: 9pm
+m10:
+825
+865
+
+
+date: 01 Sat Jun 2019
+time: 11am
+m10:
+692
+632
+
+time: 4pm
+m10:
+117
+157
+
+time: 4pm
+m10:
+182
+122
