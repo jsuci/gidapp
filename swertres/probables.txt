@@ -1,42 +1,5 @@
 PROBABLES:
 
-date: 27 Mon May 2019
-time: 11am
-m10:
-402
-442
-
-246
-286
-
-time: 4pm
-m10:
-284
-224
-
-time: 9pm
-m10:
-819
-859
-
-time: 9pm
-m10:
-738
-778
-
-
-date: 28 Tue May 2019
-time: 11am
-m10:
-805
-845
-
-time: 9pm
-m10:
-807
-847
-
-
 date: 29 Wed May 2019
 time: 4pm
 m10:
@@ -103,3 +66,32 @@ time: 9pm
 m10:
 823
 863
+
+
+date: 04 Tue Jun 2019
+time: 11am
+m10:
+348
+388
+
+time: 4pm
+m10:
+577
+517
+
+
+date: 05 Wed Jun 2019
+time: 11am
+m10:
+841
+881
+
+time: 11am
+m10:
+372, 312
+376, 316
+
+time: 4pm
+m10:
+131, 171
+135, 175
