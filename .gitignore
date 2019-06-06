@@ -1,9 +1,2 @@
-guides.txt
-swertres/sum_digits_v2
-stl/sum_digits_v2
-swertres/pair_digits_v2
-stl/pair_digits_v2
-swertres/results_v1.txt
-swertres/results_v2.txt
-stl/results_v1.txt
-stl/results_v2.txt
+swertres/.vscode
+.vscode

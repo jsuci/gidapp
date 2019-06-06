@@ -1,8 +1,8 @@
-from itertools import *
-from re import *
-from pprint import *
 import fileinput
 from datetime import *
+from itertools import *
+from pprint import *
+from re import *
 
 
 def date_gap():
