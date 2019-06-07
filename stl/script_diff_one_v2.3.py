@@ -9,7 +9,7 @@ def date_gap():
     """Extract the date and time from results_v2.txt and
     results_diff_one_v2.2.txt and return a date-time object"""
 
-    with open("results_diff_one_v2.2.txt", "r") as f1:
+    with open("results_diff_one_v2.3.txt", "r") as f1:
         prev_dt = f1.readline().strip().replace("updated: ", "")
 
     with open("results_v2.txt", "r") as f2:
@@ -21,7 +21,7 @@ def date_gap():
     prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
     curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
 
-    if curr_int < 2:
+    if curr_int != 2:
         curr_date -= timedelta(days=1)
 
     return [prev_date, curr_date]
@@ -160,8 +160,8 @@ def seq_type(digits):
 
         # Filter diff_two
         if (
-            diff_one_count == 0 and
-            diff_two_count >= 1 and
+            diff_one_count == 1 and
+            diff_two_count == 1 and
             diff_none_count != 2
         ):
             return "diff_two"
@@ -287,6 +287,7 @@ def classify_results(results):
     do_seq = ""
     pairs = ""
 
+    # Process the first element of results
     for digit in results[0]:
         if digit in results[1] and digit in results[2]:
             common = digit
@@ -294,6 +295,7 @@ def classify_results(results):
                        for i in range(len(results))]
             break
 
+    # Process the second element of results
     for seq in product(*results):
         if seq_type(seq) == "diff_one":
             do_seq = seq
@@ -304,16 +306,19 @@ def classify_results(results):
                        for i in range(len(results))]
             break
 
-    if common and do_seq:
-        results = ["{}{}-{}".format(common, do_seq[i], x)
-                   for i, x in enumerate(results)]
 
-        return (results, pairs)
+    if common and do_seq:
+        if seq_type(results) != None:
+
+            results = ["{}{}-{}".format(common, do_seq[i], x)
+                   for i, x in enumerate(results)]
+                   
+            return (results, pairs)
 
 
 def find_diff_one():
 
-    with open("results_diff_one_v2.2.txt", "a") as fo:
+    with open("results_diff_one_v2.3.txt", "a") as fo:
 
         prev_date, curr_date = date_gap()
 
@@ -353,7 +358,7 @@ def find_diff_one():
             print("\n")
             fo.write("\n\n")
 
-    with fileinput.input("results_diff_one_v2.2.txt", inplace=True) as fio:
+    with fileinput.input("results_diff_one_v2.3.txt", inplace=True) as fio:
         for entry in fio:
             if "updated:" in entry:
                 print("updated: {}".format(
@@ -368,3 +373,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # print(seq_type(['1', '3', '4']))
