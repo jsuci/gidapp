@@ -3233,3 +3233,13 @@ DATE GENERATED: 07 tue may 2019
 
 02
 {'026': 1, '025': 2, '002': 1}
+---------------------------
+CONFIRMED RESULTS for script_diff_one_v2.2.txt
+date: 06 Thu Jun 2019
+time: 11am
+gap: 7
+pairs: ['40', '44'] (084 07 fri jun 2019 4pm)
+results:
+41-7
+43-8
+42-7
