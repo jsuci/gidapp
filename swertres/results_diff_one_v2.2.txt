@@ -1,4 +1,4 @@
-updated: 06 Thu Jun 2019
+updated: 07 Fri Jun 2019
 
 date: 02 Thu May 2019
 time: 11am
@@ -2769,6 +2769,97 @@ results:
 08-9
 07-5
 09-2
+
+
+
+date: 07 Fri Jun 2019
+time: 11am
+gap: 34
+pairs: ['70', '74']
+results:
+72-5
+73-5
+71-5
+
+time: 4pm
+gap: 4
+pairs: ['79', '73']
+results:
+71-3
+70-2
+72-6
+
+time: 4pm
+gap: 6
+pairs: ['57', '51']
+results:
+59-8
+50-2
+58-4
+
+time: 4pm
+gap: 10
+pairs: ['92', '96']
+results:
+93-1
+94-1
+95-7
+
+time: 4pm
+gap: 23
+pairs: ['58', '52']
+results:
+51-6
+50-4
+59-0
+
+time: 4pm
+gap: 24
+pairs: ['74', '78']
+results:
+77-3
+75-0
+76-8
+
+time: 4pm
+gap: 46
+pairs: ['84', '88']
+results:
+87-9
+86-3
+85-1
+
+time: 9pm
+gap: 1
+pairs: ['14', '18']
+results:
+16-0
+15-5
+17-9
+
+time: 9pm
+gap: 10
+pairs: ['68', '62']
+results:
+60-7
+61-6
+69-7
+
+time: 9pm
+gap: 27
+pairs: ['91', '95']
+results:
+94-3
+93-4
+92-6
+
+time: 9pm
+gap: 48
+pairs: ['78', '72']
+results:
+79-3
+70-8
+71-6
 
 
 
