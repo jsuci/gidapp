@@ -1,47 +1,4 @@
-updated: 07 Fri Jun 2019
-
-date: 26 Sun May 2019
-time: 11am
-gap: 3
-pairs: ['82', '86']
-results:
-84-0
-83-8
-85-1
-
-time: 11am
-gap: 15
-pairs: ['53', '57']
-results:
-55-8
-54-5
-56-8
-
-time: 4pm
-gap: 8
-pairs: ['79', '73']
-results:
-72-2
-71-0
-70-3
-
-time: 4pm
-gap: 42
-pairs: ['80', '84']
-results:
-81-8
-82-8
-83-0
-
-time: 9pm
-gap: 30
-pairs: ['84', '88']
-results:
-85-4
-86-2
-87-4
-
-
+updated: 08 Sat Jun 2019
 
 date: 27 Mon May 2019
 time: 11am
@@ -452,6 +409,33 @@ results:
 80-5
 89-3
 88-3
+
+
+
+date: 08 Sat Jun 2019
+time: 4pm
+gap: 43
+pairs: ['55', '59']
+results:
+56-3
+58-1
+57-4
+
+time: 9pm
+gap: 35
+pairs: ['30', '34']
+results:
+33-5
+32-6
+31-6
+
+time: 9pm
+gap: 43
+pairs: ['53', '57']
+results:
+54-8
+56-9
+55-6
 
 
 

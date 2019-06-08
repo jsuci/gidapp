@@ -179,10 +179,6 @@ def possible_digits(sequence, seq_type):
     """Given a list of sequence ['1', '2', '4'] and string
     of seq_type ("diff_one", "diff_two" etc.) return a list
     of possible digit(s).
-
-    ex.
-        ['9', '0']
-        ['1']
     """
 
     def plus_one(digit):
@@ -214,6 +210,9 @@ def possible_digits(sequence, seq_type):
             2: 1,
             1: 0
         }[digit]
+
+    def diff_zero_next(sequence):
+        return str(next(iter(set(sequence))))
 
     def diff_one_next(sequence):
 
@@ -266,15 +265,29 @@ def possible_digits(sequence, seq_type):
 
         return [str(between_digit)]
 
+    def has_double_next(sequence):
+
+        for digit in set(sequence):
+            if sequence.count(digit) != 2:
+                return str(digit)
+
     if seq_type == "diff_one":
         output = diff_one_next(sequence)
+
     elif (
         seq_type == "diff_two" or
         seq_type == "gap_one"
     ):
         output = diff_two_next(sequence)
+
+    elif seq_type == "has_double":
+        output = has_double_next(sequence)
+
+    elif seq_type == "diff_zero":
+        output = diff_zero_next(sequence)
+
     else:
-        print("invalid seq_type.")
+        output = "invalid seq_type"
 
     return output
 
@@ -286,6 +299,8 @@ def classify_results(results):
     common = ""
     do_seq = ""
     pairs = ""
+    end_digit = ""
+    all_combi = []
 
     # Process the first element of results
     for digit in results[0]:
@@ -309,16 +324,21 @@ def classify_results(results):
 
     if common and do_seq:
         if seq_type(results) != None:
+            end_digit = possible_digits(results, seq_type(results))
+
+            for combi in product(pairs, end_digit):
+                all_combi.append("".join(combi))
 
             results = ["{}{}-{}".format(common, do_seq[i], x)
                    for i, x in enumerate(results)]
                    
-            return (results, pairs)
+            return (results, pairs, all_combi)
 
 
 def find_diff_one():
 
-    with open("results_diff_one_v2.3.txt", "a") as fo:
+    with open("results_diff_one_v2.3.txt", "a") as fo, \
+         open("my_probables.txt", "a") as fp:
 
         prev_date, curr_date = date_gap()
 
@@ -327,7 +347,10 @@ def find_diff_one():
 
             print("date: {}".format(
                 prev_date.strftime("%d %a %b %Y")))
+
             fo.write("date: {}\n".format(
+                prev_date.strftime("%d %a %b %Y")))
+            fp.write("date: {}\n".format(
                 prev_date.strftime("%d %a %b %Y")))
 
             time_results = get_reverse_results(i)
@@ -336,7 +359,7 @@ def find_diff_one():
                 for gap, results in gap_results.items():
 
                     if classify_results(results):
-                        results, pairs = classify_results(results)
+                        results, pairs, all_combi = classify_results(results)
 
                         print("time: {}".format(time))
                         print("gap: {}".format(gap))
@@ -344,6 +367,7 @@ def find_diff_one():
                         print("results:")
 
                         fo.write("time: {}\n".format(time))
+                        fp.write("time: {}\n".format(time))
                         fo.write("gap: {}\n".format(gap))
                         fo.write("pairs: {}\n".format(pairs))
                         fo.write("results:\n")
@@ -352,11 +376,18 @@ def find_diff_one():
                             print(res)
                             fo.write("{}\n".format(res))
 
+                        for probables in all_combi:
+                            fp.write("{}\n".format(probables))
+                        
                         print("\n")
+
+                        fp.write("\n")
                         fo.write("\n")
 
             print("\n")
+
             fo.write("\n\n")
+            fp.write("\n\n")
 
     with fileinput.input("results_diff_one_v2.3.txt", inplace=True) as fio:
         for entry in fio:
@@ -373,4 +404,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # print(seq_type(['1', '3', '4']))
