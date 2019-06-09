@@ -239,3 +239,38 @@ time: 9pm
 
 
 
+date: 09 Sun Jun 2019
+time: 11am
+816
+856
+
+time: 11am
+741
+781
+
+time: 11am
+866
+806
+
+time: 11am
+786
+726
+
+time: 4pm
+771
+711
+
+time: 4pm
+635
+675
+
+time: 9pm
+448
+488
+
+time: 9pm
+827
+867
+
+
+

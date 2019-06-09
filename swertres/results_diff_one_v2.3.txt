@@ -1,4 +1,4 @@
-updated: 08 Sat Jun 2019
+updated: 09 Sun Jun 2019
 
 date: 28 Tue May 2019
 time: 11am
@@ -409,6 +409,17 @@ results:
 92-6
 91-4
 90-6
+
+
+
+date: 09 Sun Jun 2019
+time: 11am
+gap: 30
+pairs: ['12', '16']
+results:
+15-8
+13-8
+14-0
 
 
 
