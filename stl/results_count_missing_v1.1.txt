@@ -1,4 +1,4 @@
-updated: 08 Sat Jun 2019 2
+updated: 09 Sun Jun 2019 0
 
 DATE GENERATED: 01 Wed May 2019 1
 RESULT: 713
@@ -1622,5 +1622,19 @@ RESULT: 467
 1 <-  7		- - 1
 4 <-  5		- 4 -
 7 <-  4		- 7 -
+
+
+DATE GENERATED: 09 Sun Jun 2019 0
+RESULT: 194
+2 <- 33		- 2 -
+3 <- 28		3 - -
+6 <- 21		- - 6
+0 <- 20		0 - -
+5 <- 18		- - 5
+8 <- 15		- 8 -
+1 <-  8		- - 1
+9 <-  7		9 - -
+4 <-  6		- 4 -
+7 <-  5		- 7 -
 
 
