@@ -239,3 +239,26 @@ time: 11am
 
 
 
+date: 10 Mon Jun 2019
+time: 11am
+491
+431
+
+time: 4pm
+110
+150
+
+time: 4pm
+991
+931
+
+time: 9pm
+156
+196
+
+time: 9pm
+578
+518
+
+
+
