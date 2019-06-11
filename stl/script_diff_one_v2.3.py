@@ -338,7 +338,7 @@ def classify_results(results):
 def find_diff_one():
 
     with open("results_diff_one_v2.3.txt", "a") as fo, \
-         open("my_probables.txt", "a") as fp:
+         open("my_probables_v2.3.txt", "a") as fp:
 
         prev_date, curr_date = date_gap()
 
