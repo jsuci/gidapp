@@ -287,3 +287,37 @@ time: 9pm
 
 
 
+date: 11 Tue Jun 2019
+time: 11am
+716
+756
+
+time: 11am
+772
+712
+
+time: 9pm
+842
+882
+
+
+
+date: 12 Wed Jun 2019
+time: 11am
+568
+508
+
+time: 4pm
+618
+658
+
+time: 9pm
+833
+873
+
+time: 9pm
+802
+842
+
+
+
