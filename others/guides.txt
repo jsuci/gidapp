@@ -3236,6 +3236,7 @@ DATE GENERATED: 07 tue may 2019
 ---------------------------
 CONFIRMED RESULTS for script_diff_one_v2.2.txt
 
+# 1 WEEK AFTER COMBI PATTERN
 date: 06 Thu Jun 2019
 time: 11am
 gap: 7
@@ -3255,3 +3256,14 @@ results:
 95-7
 93-3
 94-3
+
+
+# 3 DAYS COMBI PATTERN
+date: 07 Fri Jun 2019
+time: 11am
+gap: 34
+pairs: ['70', '74'] (574 10 mon jun 2019 11am)
+results:
+72-5
+73-5
+71-5
