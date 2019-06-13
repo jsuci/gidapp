@@ -1,8 +1,8 @@
 import fileinput
-from datetime import *
-from itertools import *
-from pprint import *
-from re import *
+from datetime import datetime, timedelta
+from itertools import product, islice
+from pprint import pprint
+from re import split
 
 
 def date_gap():
@@ -297,9 +297,8 @@ def classify_results(results):
     a common_digit and has diff_one pattern"""
 
     common = ""
-    do_seq = ""
-    pairs = ""
-    end_digit = ""
+    all_sep_res = []
+    all_pairs = []
     all_combi = []
 
     # Process the first element of results
@@ -312,33 +311,42 @@ def classify_results(results):
 
     # Process the second element of results
     for seq in product(*results):
-        if seq_type(seq) == "diff_one":
-            do_seq = seq
-            p_digits = possible_digits(seq, "diff_one")
-            pairs = [x + y for x, y in product(common, p_digits)]
+        if seq_type(seq) == "diff_one" and common:
+            # results = ['45', '56', '67']
+            # common = 3
+            # seq = ('4', '5', '6')
 
-            results = [results[i].replace(seq[i], "", 1)
-                       for i in range(len(results))]
+            # all_pairs = ['33', '37', '34', '38']
+            pf_digits = possible_digits(seq, "diff_one")
+            pairs = [x + y for x, y in product(common, pf_digits)]
+            all_pairs.extend(pairs)
+
+            # all_sep_res = ['34-5', '35-6', ...]
+            rm_results = list(map(lambda x: x[1].replace(seq[x[0]], "", 1),
+                                  enumerate(results)))
+            sep_results = list(map(lambda x: "{}{}-{}".format(
+                               common, seq[x[0]], x[1]), enumerate(rm_results)))
+            all_sep_res.extend(sep_results)
+
+            # all_combi
+            if seq_type(rm_results) != None:
+                # pe_digits = [n] or pe_digits = [n, n + 1]
+                pe_digits = possible_digits(rm_results, seq_type(rm_results))
+                for combi in product(pairs, pe_digits):
+                    all_combi.append("".join(combi))
+
             break
 
-
-    if common and do_seq:
-        if seq_type(results) != None:
-            end_digit = possible_digits(results, seq_type(results))
-
-            for combi in product(pairs, end_digit):
-                all_combi.append("".join(combi))
-
-            results = ["{}{}-{}".format(common, do_seq[i], x)
-                   for i, x in enumerate(results)]
-                   
-            return (results, pairs, all_combi)
+    if all_combi:
+        return (all_sep_res, all_pairs, all_combi)
+    else:
+        return None
 
 
 def find_diff_one():
 
     with open("results_diff_one_v2.3.txt", "a") as fo, \
-         open("my_probables_v2.3.txt", "a") as fp:
+            open("my_probables_v2.3.txt", "a") as fp:
 
         prev_date, curr_date = date_gap()
 
@@ -378,7 +386,7 @@ def find_diff_one():
 
                         for probables in all_combi:
                             fp.write("{}\n".format(probables))
-                        
+
                         print("\n")
 
                         fp.write("\n")

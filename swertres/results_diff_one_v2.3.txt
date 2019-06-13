@@ -1,4 +1,4 @@
-updated: 12 Wed Jun 2019
+updated: 13 Thu Jun 2019
 
 date: 28 Tue May 2019
 time: 11am
@@ -549,6 +549,33 @@ results:
 08-3
 07-2
 09-2
+
+
+
+date: 13 Thu Jun 2019
+time: 11am
+gap: 3
+pairs: ['71', '75']
+results:
+74-5
+72-6
+73-8
+
+time: 11am
+gap: 20
+pairs: ['75', '79']
+results:
+77-8
+78-8
+76-2
+
+time: 11am
+gap: 23
+pairs: ['58', '52']
+results:
+50-4
+59-4
+51-9
 
 
 

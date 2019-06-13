@@ -1,4 +1,4 @@
-updated: 12 Wed Jun 2019
+updated: 13 Thu Jun 2019
 
 date: 27 Mon May 2019
 time: 11am
@@ -584,6 +584,33 @@ results:
 82-5
 83-2
 81-5
+
+
+
+date: 13 Thu Jun 2019
+time: 11am
+gap: 40
+pairs: ['33', '37']
+results:
+36-0
+35-8
+34-0
+
+time: 9pm
+gap: 28
+pairs: ['20', '24']
+results:
+21-2
+22-5
+23-5
+
+time: 9pm
+gap: 32
+pairs: ['38', '32']
+results:
+31-7
+39-6
+30-5
 
 
 
