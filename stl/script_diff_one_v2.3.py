@@ -322,14 +322,16 @@ def classify_results(results):
             all_pairs.extend(pairs)
 
             # all_sep_res = ['34-5', '35-6', ...]
-            rm_results = list(map(lambda x: x[1].replace(seq[x[0]], "", 1),
-                                  enumerate(results)))
+            rm_results = list(map(lambda x: x[1].replace(
+                seq[x[0]], "", 1), enumerate(results)))
+
             sep_results = list(map(lambda x: "{}{}-{}".format(
-                               common, seq[x[0]], x[1]), enumerate(rm_results)))
+                common, seq[x[0]], x[1]), enumerate(rm_results)))
+
             all_sep_res.extend(sep_results)
 
             # all_combi
-            if seq_type(rm_results) != None:
+            if seq_type(rm_results) is not None:
                 # pe_digits = [n] or pe_digits = [n, n + 1]
                 pe_digits = possible_digits(rm_results, seq_type(rm_results))
                 for combi in product(pairs, pe_digits):
