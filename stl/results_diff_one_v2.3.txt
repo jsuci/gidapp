@@ -1,4 +1,4 @@
-updated: 13 Thu Jun 2019
+updated: 14 Fri Jun 2019
 
 date: 27 Mon May 2019
 time: 11am
@@ -611,6 +611,25 @@ results:
 31-7
 39-6
 30-5
+
+
+
+date: 14 Fri Jun 2019
+time: 9pm
+gap: 6
+pairs: ['44', '48']
+results:
+47-6
+45-6
+46-9
+
+time: 9pm
+gap: 25
+pairs: ['39', '33']
+results:
+30-8
+31-7
+32-6
 
 
 

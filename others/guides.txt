@@ -3226,13 +3226,8 @@ DATE GENERATED: 07 tue may 2019
 428 - 08 wed may 2019 9pm result
 
 ---------------------------
-05-20-2019
-50
-{'059': 1, '045': 1, '056': 1, '025': 2, '058': 1}
-
-
-02
-{'026': 1, '025': 2, '002': 1}
+REGEX TO FIND PROBABLES FROM MISSING DIGITS
+^\d*([083])(?!\1)[083].*|0\d[83]|3\d[80]|8\d[30]
 ---------------------------
 CONFIRMED RESULTS for script_diff_one_v2.2.txt
 
@@ -3267,3 +3262,13 @@ results:
 72-5
 73-5
 71-5
+
+
+date: 12 Wed Jun 2019
+time: 11am
+gap: 29
+pairs: ['44', '48'] (482 14 fri jun 2019 9pm)
+results:
+47-2
+45-2
+46-2

@@ -1,4 +1,4 @@
-updated: 14 Fri Jun 2019 1
+updated: 14 Fri Jun 2019 2
 
 DATE GENERATED: 01 Wed May 2019 1
 RESULT: 110
@@ -1860,5 +1860,19 @@ RESULT: 512
 9 <-  7		- - 9
 1 <-  4		1 - -
 5 <-  2		- 5 -
+
+
+DATE GENERATED: 14 Fri Jun 2019 2
+RESULT: 482
+3 <- 57		- - 3
+0 <- 49		- 0 -
+8 <- 31		8 - -
+6 <- 26		- - 6
+7 <- 25		7 - -
+2 <- 23		2 - -
+4 <-  8		- 4 -
+9 <-  8		- - 9
+1 <-  5		1 - -
+5 <-  3		- 5 -
 
 
