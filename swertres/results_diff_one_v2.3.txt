@@ -1,4 +1,4 @@
-updated: 14 Fri Jun 2019
+updated: 15 Sat Jun 2019
 
 date: 28 Tue May 2019
 time: 11am
@@ -611,6 +611,17 @@ results:
 06-4
 05-7
 07-5
+
+
+
+date: 15 Sat Jun 2019
+time: 4pm
+gap: 46
+pairs: ['28', '22']
+results:
+29-4
+21-4
+20-8
 
 
 
