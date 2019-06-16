@@ -1,4 +1,4 @@
-updated: 15 Sat Jun 2019
+updated: 16 Sun Jun 2019
 
 date: 28 Tue May 2019
 time: 11am
@@ -622,6 +622,25 @@ results:
 29-4
 21-4
 20-8
+
+
+
+date: 16 Sun Jun 2019
+time: 9pm
+gap: 47
+pairs: ['57', '51']
+results:
+59-7
+50-7
+58-6
+
+time: 9pm
+gap: 48
+pairs: ['02', '06']
+results:
+03-8
+05-7
+04-8
 
 
 

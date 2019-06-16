@@ -370,3 +370,30 @@ time: 4pm
 
 
 
+date: 16 Sun Jun 2019
+time: 11am
+903
+943
+
+time: 9pm
+829
+869
+
+time: 9pm
+050
+090
+
+time: 9pm
+656
+696
+
+time: 9pm
+999
+939
+
+time: 9pm
+552
+592
+
+
+
