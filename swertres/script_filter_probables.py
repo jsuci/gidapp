@@ -64,11 +64,10 @@ def filter_probs(days, combi):
 
 
 def main():
-    # days = int(input("Enter how many days from the current result: "))
-    # combi = input("Enter count missing combinations: ")
+    days = int(input("Enter how many days from the current result: "))
+    combi = input("Enter count missing combinations: ")
 
-    # filter_probs(days, combi)
-    filter_probs(5, "260")
+    filter_probs(days, combi)
 
 
 if __name__ == "__main__":

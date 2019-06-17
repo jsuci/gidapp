@@ -360,3 +360,30 @@ time: 9pm
 
 
 
+date: 17 Mon Jun 2019
+time: 11am
+561
+501
+
+time: 4pm
+118
+158
+
+time: 9pm
+408
+448
+
+time: 9pm
+738
+778
+
+time: 9pm
+770
+710
+
+time: 9pm
+074
+014
+
+
+

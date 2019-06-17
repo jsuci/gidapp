@@ -1,4 +1,4 @@
-updated: 16 Sun Jun 2019
+updated: 17 Mon Jun 2019
 
 date: 28 Tue May 2019
 time: 11am
@@ -641,6 +641,57 @@ results:
 03-8
 05-7
 04-8
+
+
+
+date: 17 Mon Jun 2019
+time: 11am
+gap: 44
+pairs: ['56', '50']
+results:
+57-2
+59-2
+58-1
+
+time: 4pm
+gap: 4
+pairs: ['11', '15']
+results:
+14-9
+12-6
+13-7
+
+time: 9pm
+gap: 8
+pairs: ['40', '44']
+results:
+43-6
+42-6
+41-8
+
+time: 9pm
+gap: 20
+pairs: ['73', '77']
+results:
+76-0
+75-0
+74-8
+
+time: 9pm
+gap: 48
+pairs: ['77', '71']
+results:
+79-5
+78-0
+70-5
+
+time: 9pm
+gap: 49
+pairs: ['07', '01']
+results:
+08-3
+00-5
+09-6
 
 
 
