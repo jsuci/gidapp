@@ -387,3 +387,30 @@ time: 9pm
 
 
 
+date: 18 Tue Jun 2019
+time: 11am
+237
+277
+
+time: 11am
+853
+893
+
+time: 4pm
+116
+156
+
+time: 4pm
+920
+960
+
+time: 9pm
+545
+585
+
+time: 9pm
+587
+527
+
+
+

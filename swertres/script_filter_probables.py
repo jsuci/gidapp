@@ -7,24 +7,30 @@ def get_probables():
     {date: [probables]}"""
 
     dates = []
-    digits = []
+    digits = {}
     all_digits = []
+    time = ""
 
     with open("my_probables_v2.3.txt") as f1:
         for line in f1:
             entry = line.strip()
             check_date = search(r"(?<=date: )([0-9a-zA-Z ])+", entry)
             check_digits = search(r"^\d\d\d$", entry)
+            check_time = search(r"(?<=time: )(\d{1,2}(?:a|p)m)", entry)
+
+            if check_time:
+                time = check_time.group(0)
 
             if check_date:
                 dates.append(check_date.group(0))
 
                 if digits:
                     all_digits.append(digits)
-                    digits = []
+                    digits = {}
 
             if check_digits:
-                digits.append(check_digits.group(0))
+                digits.setdefault(time, [])
+                digits[time].append(check_digits.group(0))
 
         else:
             all_digits.append(digits)
@@ -56,11 +62,14 @@ def filter_probs(days, combi):
 
     date_probables = get_probables()[-days:]
 
-    for date, probs in date_probables:
-        probs_matches = list(filter(lambda x: digits_match(x, combi), probs))
+    for entry in date_probables:
+        date, time_probs = entry
 
-        if probs_matches:
-            print(date, probs_matches)
+        for time, probs in time_probs.items():
+            has_combi = list(filter(lambda x: digits_match(x, combi), probs))
+
+            if has_combi:
+                print(date, {time: has_combi})
 
 
 def main():

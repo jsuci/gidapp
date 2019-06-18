@@ -408,3 +408,26 @@ time: 9pm
 
 
 
+date: 18 Tue Jun 2019
+time: 11am
+726
+766
+
+time: 11am
+550
+590
+
+time: 4pm
+509
+549
+
+time: 9pm
+263
+203
+
+time: 9pm
+890
+830
+
+
+
