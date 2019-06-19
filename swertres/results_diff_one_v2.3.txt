@@ -1,4 +1,4 @@
-updated: 18 Tue Jun 2019
+updated: 19 Wed Jun 2019
 
 date: 28 Tue May 2019
 time: 11am
@@ -743,6 +743,17 @@ results:
 59-7
 50-7
 51-7
+
+
+
+date: 19 Wed Jun 2019
+time: 4pm
+gap: 5
+pairs: ['24', '28']
+results:
+25-1
+26-1
+27-4
 
 
 

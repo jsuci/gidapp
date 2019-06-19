@@ -1,4 +1,4 @@
-updated: 18 Tue Jun 2019
+updated: 19 Wed Jun 2019
 
 date: 27 Mon May 2019
 time: 11am
@@ -778,6 +778,17 @@ results:
 80-3
 81-0
 82-3
+
+
+
+date: 19 Wed Jun 2019
+time: 9pm
+gap: 47
+pairs: ['28', '22']
+results:
+29-9
+20-5
+21-9
 
 
 
