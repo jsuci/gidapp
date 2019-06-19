@@ -4,24 +4,24 @@ determine count the results that contain
 that pair
 """
 
-from itertools import *
-from re import *
-from pprint import *
-from datetime import *
+from re import split
 
 
-def check_pair(res, pair):
-    for pair_digit in pair:
-        if pair_digit in res:
-            res = res.replace(pair_digit, "", 1)
+def digits_match(res, combi):
+    """Returns True if the given res("123") does contain any pair
+    combiantions from combi("342")"""
 
-    if len(res) == 1:
+    for digit in combi:
+        if digit in res:
+            res = res.replace(digit, "", 1)
+
+    if len(res) == 1 or not res:
         return True
     else:
         return False
 
 
-def filter_result(month_year, pair):
+def filter_result(month_year, combi):
     all_results = []
     count_results = {}
 
@@ -33,7 +33,7 @@ def filter_result(month_year, pair):
                 all_results.extend(results)
 
     for res in all_results:
-        if check_pair(res, pair):
+        if digits_match(res, combi):
             sorted_res = "".join(sorted(res))
             count_results.setdefault(sorted_res, 0)
             count_results[sorted_res] += 1
@@ -42,7 +42,10 @@ def filter_result(month_year, pair):
 
 
 def main():
-    filter_result("jun 2018", "13")
+    month_year = input("Enter month_year(mmm yyyy): ")
+    combi = input("Enter count_missing combi: ")
+
+    filter_result(month_year, combi)
 
 
 if __name__ == "__main__":

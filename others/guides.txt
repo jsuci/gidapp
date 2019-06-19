@@ -3272,3 +3272,27 @@ results:
 47-2
 45-2
 46-2
+
+
+
+date: 18 Tue Jun 2019
+time: 9pm
+gap: 49
+pairs: ['58', '52'] (875 19 fri jun 2019 9pm)
+results:
+59-7
+50-7
+51-7
+------------------------
+CONFIRMED SOLID PATTERN FROM 2016 TO PRESENT
+script: script_diff_one_v2.3.py
+seq_type: common, diff_one, diff_zero
+sample:
+    date: 18 Tue Jun 2019
+    time: 9pm
+    gap: 49
+    pairs: ['58', '52'] (875 19 fri jun 2019 9pm)
+    results:
+    59-7
+    50-7
+    51-7
