@@ -49,7 +49,7 @@ def digits_match(res, combi):
         if digit in res:
             res = res.replace(digit, "", 1)
 
-    if len(res) == 1 or len(res) == 0:
+    if len(res) == 1 or not res:
         return True
     else:
         return False
