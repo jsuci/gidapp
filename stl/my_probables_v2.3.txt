@@ -438,3 +438,30 @@ time: 9pm
 
 
 
+date: 20 Thu Jun 2019
+time: 11am
+467
+407
+
+time: 4pm
+486
+426
+
+time: 4pm
+381
+321
+
+time: 4pm
+531
+571
+
+time: 4pm
+615
+655
+
+time: 9pm
+157
+197
+
+
+

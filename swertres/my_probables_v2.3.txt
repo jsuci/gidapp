@@ -421,3 +421,32 @@ time: 4pm
 
 
 
+date: 20 Thu Jun 2019
+time: 11am
+358
+398
+
+time: 11am
+122
+162
+
+time: 4pm
+243
+283
+
+time: 4pm
+784
+724
+
+time: 4pm
+023
+027
+063
+067
+
+time: 4pm
+940
+980
+
+
+
