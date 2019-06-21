@@ -1,4 +1,4 @@
-updated: 20 Thu Jun 2019
+updated: 21 Fri Jun 2019
 
 date: 27 Mon May 2019
 time: 11am
@@ -840,6 +840,41 @@ results:
 17-3
 18-7
 16-3
+
+
+
+date: 21 Fri Jun 2019
+time: 11am
+gap: 15
+pairs: ['72', '76']
+results:
+73-3
+75-3
+74-9
+
+time: 4pm
+gap: 17
+pairs: ['56', '50']
+results:
+59-4
+58-0
+57-4
+
+time: 9pm
+gap: 18
+pairs: ['81', '85']
+results:
+82-7
+83-8
+84-5
+
+time: 9pm
+gap: 49
+pairs: ['27', '21']
+results:
+29-9
+20-9
+28-7
 
 
 

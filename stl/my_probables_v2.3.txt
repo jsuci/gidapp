@@ -465,3 +465,22 @@ time: 9pm
 
 
 
+date: 21 Fri Jun 2019
+time: 11am
+729
+769
+
+time: 4pm
+560
+500
+
+time: 9pm
+816
+856
+
+time: 9pm
+277
+217
+
+
+
