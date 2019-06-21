@@ -6,35 +6,55 @@ from re import split
 
 
 def date_gap():
-    """Extract the date and time from results_v2.txt and
-    results_diff_one_v2.2.txt and return a date-time object"""
+    """
+    INPUT:
+    results_diff_one_v2.4.txt - get the previous date
+    results_v2.txt - get the current date
+
+    OUTPUT:
+    output - a list containing dates from previous date
+    up to the current date minus one
+    """
+
+    output = []
 
     with open("results_diff_one_v2.4.txt", "r") as f1:
         prev_dt = f1.readline().strip().replace("updated: ", "")
 
     with open("results_v2.txt", "r") as f2:
-        curr_dt = f2.readline().strip().replace("updated: ", "")
+        curr_dt = f2.readline().strip().replace("updated: ", "")[:-2]
 
-    prev_date = prev_dt
-    curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
+        for entry in islice(f2, 1, None):
+            entry = entry.strip()
+            date = split(r"\s{2,}", entry)[0]
 
-    prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
-    curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
+            if prev_dt == date:
+                output.append(date)
 
-    if curr_int != 2:
-        curr_date -= timedelta(days=1)
+            if curr_dt != date and len(output) >= 1:
+                if date not in output:
+                    output.append(date)
 
-    return [prev_date, curr_date]
+    # prev_date = prev_dt
+    # curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
+
+    # prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
+    # curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
+
+    # if curr_int != 2:
+    #     curr_date -= timedelta(days=1)
+
+    return output
 
 
-def result_gap():
-    """Given two date-time objects calculate the difference
-    in terms of days. Return an integer"""
+# def result_gap():
+#     """Given two date-time objects calculate the difference
+#     in terms of days. Return an integer"""
 
-    prev_dt, curr_dt = date_gap()
-    time_diff = curr_dt - prev_dt
+#     prev_dt, curr_dt = date_gap()
+#     time_diff = curr_dt - prev_dt
 
-    return time_diff.days
+#     return time_diff.days
 
 
 def get_reverse_results(index=0):
@@ -351,18 +371,14 @@ def find_diff_one():
     with open("results_diff_one_v2.4.txt", "a") as fo, \
             open("my_probables_v2.4.txt", "a") as fp:
 
-        prev_date, curr_date = date_gap()
+        curr_date = date_gap()[-1]
 
-        for i in reversed(range(result_gap())):
-            prev_date += timedelta(days=1)
+        for i, prev_date in enumerate(date_gap()):
 
-            print("date: {}".format(
-                prev_date.strftime("%d %a %b %Y")))
+            print("date: {}".format(prev_date))
 
-            fo.write("date: {}\n".format(
-                prev_date.strftime("%d %a %b %Y")))
-            fp.write("date: {}\n".format(
-                prev_date.strftime("%d %a %b %Y")))
+            fo.write("date: {}\n".format(prev_date))
+            fp.write("date: {}\n".format(prev_date))
 
             time_results = get_reverse_results(i)
 
@@ -403,8 +419,7 @@ def find_diff_one():
     with fileinput.input("results_diff_one_v2.4.txt", inplace=True) as fio:
         for entry in fio:
             if "updated:" in entry:
-                print("updated: {}".format(
-                    curr_date.strftime("%d %a %b %Y")))
+                print("updated: {}".format(curr_date))
             else:
                 print(entry, end="")
 
