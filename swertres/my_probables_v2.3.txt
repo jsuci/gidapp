@@ -1,34 +1,37 @@
 PROBABLES:
 
-date: 28 Tue May 2019
-time: 11am
-805
-845
-
-time: 4pm
-817
-857
-
-time: 4pm
-673
-613
-
-time: 9pm
-807
-847
-
-
-
 date: 29 Wed May 2019
+time: 11am
+994
+934
+
 time: 4pm
 374
 314
+
+time: 4pm
+062
+066
+002
+006
+
+time: 4pm
+480
+420
+
+time: 4pm
+194
+134
 
 time: 9pm
 772
 776
 712
 716
+
+time: 9pm
+016
+056
 
 
 
@@ -44,6 +47,14 @@ time: 4pm
 time: 9pm
 795
 735
+
+time: 9pm
+000
+040
+
+time: 9pm
+620
+660
 
 
 
@@ -87,6 +98,18 @@ time: 4pm
 182
 122
 
+time: 4pm
+762
+702
+
+time: 4pm
+274
+214
+
+time: 4pm
+419
+459
+
 
 
 date: 02 Sun Jun 2019
@@ -96,9 +119,25 @@ time: 11am
 451
 455
 
+time: 11am
+135
+175
+
+time: 11am
+743
+783
+
+time: 11am
+516
+556
+
 time: 4pm
 499
 439
+
+time: 4pm
+098
+038
 
 time: 9pm
 465
@@ -119,9 +158,37 @@ time: 11am
 027
 067
 
+time: 11am
+369
+309
+
+time: 11am
+682
+622
+
+time: 4pm
+306
+346
+
+time: 4pm
+359
+399
+
 time: 9pm
 823
 863
+
+time: 9pm
+882
+822
+
+time: 9pm
+363
+303
+
+time: 9pm
+280
+220
 
 
 
@@ -130,9 +197,17 @@ time: 11am
 348
 388
 
+time: 11am
+116
+156
+
 time: 4pm
 577
 517
+
+time: 4pm
+009
+049
 
 time: 9pm
 803
@@ -141,6 +216,10 @@ time: 9pm
 time: 9pm
 040
 080
+
+time: 9pm
+420
+460
 
 
 
@@ -155,15 +234,31 @@ time: 11am
 312
 316
 
+time: 11am
+156
+196
+
+time: 11am
+745
+785
+
 time: 4pm
 131
 135
 171
 175
 
+time: 4pm
+555
+595
+
 time: 9pm
 527
 567
+
+time: 9pm
+582
+522
 
 
 
@@ -176,13 +271,37 @@ time: 11am
 086
 026
 
+time: 11am
+637
+677
+
+time: 11am
+116
+156
+
 time: 4pm
 190
 130
 
+time: 4pm
+740
+780
+
+time: 4pm
+798
+738
+
 time: 9pm
 037
 077
+
+time: 9pm
+420
+460
+
+time: 9pm
+931
+971
 
 
 
@@ -191,9 +310,29 @@ time: 11am
 705
 745
 
+time: 11am
+388
+328
+
+time: 11am
+380
+320
+
 time: 4pm
 927
 967
+
+time: 4pm
+922
+962
+
+time: 4pm
+266
+206
+
+time: 4pm
+111
+151
 
 time: 9pm
 686
@@ -203,9 +342,37 @@ time: 9pm
 915
 955
 
+time: 9pm
+055
+095
+
+time: 9pm
+133
+173
+
+time: 9pm
+693
+633
+
+time: 9pm
+440
+480
+
 
 
 date: 08 Sat Jun 2019
+time: 11am
+611
+651
+
+time: 11am
+174
+114
+
+time: 11am
+649
+689
+
 time: 4pm
 788
 728
@@ -217,6 +384,24 @@ time: 4pm
 time: 4pm
 133
 173
+
+time: 4pm
+804
+844
+
+time: 4pm
+277
+271
+217
+211
+
+time: 4pm
+339
+379
+
+time: 4pm
+095
+035
 
 time: 9pm
 909
@@ -230,6 +415,16 @@ time: 9pm
 994
 934
 
+time: 9pm
+609
+649
+
+time: 9pm
+833
+837
+873
+877
+
 
 
 date: 09 Sun Jun 2019
@@ -237,12 +432,36 @@ time: 11am
 120
 160
 
+time: 4pm
+315
+355
+
+time: 4pm
+475
+415
+
+time: 4pm
+478
+418
+
+time: 9pm
+832
+872
+
+time: 9pm
+447
+487
+
 
 
 date: 10 Mon Jun 2019
 time: 11am
 491
 431
+
+time: 11am
+836
+876
 
 time: 4pm
 110
@@ -252,6 +471,18 @@ time: 4pm
 991
 931
 
+time: 4pm
+520
+560
+
+time: 4pm
+151
+191
+
+time: 4pm
+101
+141
+
 time: 9pm
 156
 196
@@ -259,6 +490,14 @@ time: 9pm
 time: 9pm
 578
 518
+
+time: 9pm
+145
+185
+
+time: 9pm
+586
+526
 
 
 
@@ -283,6 +522,10 @@ time: 4pm
 927
 967
 
+time: 4pm
+063
+003
+
 
 
 date: 12 Wed Jun 2019
@@ -294,9 +537,25 @@ time: 11am
 442
 482
 
+time: 11am
+126
+166
+
+time: 11am
+708
+748
+
+time: 11am
+806
+846
+
 time: 4pm
 375
 315
+
+time: 4pm
+362
+302
 
 time: 9pm
 544
@@ -321,12 +580,24 @@ time: 11am
 589
 529
 
+time: 11am
+551
+591
+
+time: 11am
+162
+102
+
 
 
 date: 14 Fri Jun 2019
 time: 4pm
 025
 065
+
+time: 4pm
+239
+279
 
 time: 9pm
 837
@@ -340,16 +611,74 @@ time: 9pm
 046
 086
 
+time: 9pm
+583
+523
+
+time: 9pm
+790
+730
+
 
 
 date: 15 Sat Jun 2019
+time: 11am
+422
+462
+
 time: 4pm
 288
 228
 
+time: 4pm
+995
+935
+
+time: 4pm
+797
+737
+
+time: 9pm
+594
+534
+
+time: 9pm
+693
+633
+
+time: 9pm
+597
+537
+
+time: 9pm
+585
+525
+
 
 
 date: 16 Sun Jun 2019
+time: 11am
+153
+193
+
+time: 11am
+022
+062
+
+time: 11am
+962
+902
+
+time: 11am
+242
+282
+
+time: 11am
+874
+878
+814
+818
+
 time: 9pm
 576
 516
@@ -358,12 +687,28 @@ time: 9pm
 027
 067
 
+time: 9pm
+642
+646
+682
+686
+
 
 
 date: 17 Mon Jun 2019
 time: 11am
 561
 501
+
+time: 11am
+669
+663
+609
+603
+
+time: 11am
+121
+161
 
 time: 4pm
 118
@@ -385,6 +730,14 @@ time: 9pm
 074
 014
 
+time: 9pm
+404
+444
+
+time: 9pm
+563
+503
+
 
 
 date: 18 Tue Jun 2019
@@ -396,6 +749,16 @@ time: 11am
 853
 893
 
+time: 11am
+443
+483
+
+time: 11am
+692
+696
+632
+636
+
 time: 4pm
 116
 156
@@ -403,6 +766,14 @@ time: 4pm
 time: 4pm
 920
 960
+
+time: 4pm
+019
+059
+
+time: 4pm
+717
+757
 
 time: 9pm
 545
@@ -412,12 +783,62 @@ time: 9pm
 587
 527
 
+time: 9pm
+036
+076
+
+time: 9pm
+971
+911
+
+time: 9pm
+880
+820
+
+time: 9pm
+686
+626
+
+time: 9pm
+342
+346
+382
+386
+
+time: 9pm
+552
+592
+
 
 
 date: 19 Wed Jun 2019
+time: 11am
+463
+403
+
 time: 4pm
 244
 284
+
+time: 4pm
+027
+067
+
+time: 4pm
+913
+953
+
+time: 4pm
+807
+847
+
+time: 9pm
+673
+613
+
+time: 9pm
+813
+853
 
 
 
@@ -429,6 +850,10 @@ time: 11am
 time: 11am
 122
 162
+
+time: 11am
+664
+604
 
 time: 4pm
 243
@@ -447,6 +872,26 @@ time: 4pm
 time: 4pm
 940
 980
+
+time: 4pm
+259
+299
+
+time: 4pm
+706
+746
+
+time: 4pm
+100
+140
+
+time: 9pm
+099
+039
+
+time: 9pm
+064
+004
 
 
 

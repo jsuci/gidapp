@@ -9,7 +9,7 @@ def date_gap():
     """Extract the date and time from results_v2.txt and
     results_diff_one_v2.2.txt and return a date-time object"""
 
-    with open("results_diff_one_v2.3.txt", "r") as f1:
+    with open("results_diff_one_v2.4.txt", "r") as f1:
         prev_dt = f1.readline().strip().replace("updated: ", "")
 
     with open("results_v2.txt", "r") as f2:
@@ -74,7 +74,7 @@ def get_gap_results(time_results):
     for time, results in time_results.items():
 
         # Control the amount of results here
-        for gap in range(1, 100):
+        for gap in range(1, 50):
             step = gap
             temp_results = []
 
@@ -311,7 +311,7 @@ def classify_results(results):
 
     # Process the second element of results
     for seq in product(*results):
-        if seq_type(seq) == "diff_one" and common:
+        if common and seq_type(seq) == "diff_one":
             # results = ['45', '56', '67']
             # common = 3
             # seq = ('4', '5', '6')
@@ -330,8 +330,9 @@ def classify_results(results):
 
             all_sep_res.extend(sep_results)
 
-            # all_combi
-            if seq_type(rm_results) is not None:
+            # Filter the remaining digits by seq_type() here
+            # all_combi = ['442', '482']
+            if seq_type(rm_results) == "diff_zero":
                 # pe_digits = [n] or pe_digits = [n, n + 1]
                 pe_digits = possible_digits(rm_results, seq_type(rm_results))
                 for combi in product(pairs, pe_digits):
@@ -347,8 +348,8 @@ def classify_results(results):
 
 def find_diff_one():
 
-    with open("results_diff_one_v2.3.txt", "a") as fo, \
-            open("my_probables_v2.3.txt", "a") as fp:
+    with open("results_diff_one_v2.4.txt", "a") as fo, \
+            open("my_probables_v2.4.txt", "a") as fp:
 
         prev_date, curr_date = date_gap()
 
@@ -399,7 +400,7 @@ def find_diff_one():
             fo.write("\n\n")
             fp.write("\n\n")
 
-    with fileinput.input("results_diff_one_v2.3.txt", inplace=True) as fio:
+    with fileinput.input("results_diff_one_v2.4.txt", inplace=True) as fio:
         for entry in fio:
             if "updated:" in entry:
                 print("updated: {}".format(
