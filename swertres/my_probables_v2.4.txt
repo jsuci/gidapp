@@ -1,5 +1,6365 @@
 PROBABLES:
 
+date: 03 thu jan 2013
+
+
+date: 04 fri jan 2013
+
+
+date: 05 sat jan 2013
+
+
+date: 06 sun jan 2013
+
+
+date: 07 mon jan 2013
+
+
+date: 08 tue jan 2013
+
+
+date: 09 wed jan 2013
+
+
+date: 10 thu jan 2013
+
+
+date: 11 fri jan 2013
+
+
+date: 12 sat jan 2013
+
+
+date: 13 sun jan 2013
+
+
+date: 14 mon jan 2013
+
+
+date: 15 tue jan 2013
+
+
+date: 16 wed jan 2013
+
+
+date: 17 thu jan 2013
+
+
+date: 18 fri jan 2013
+
+
+date: 19 sat jan 2013
+
+
+date: 20 sun jan 2013
+
+
+date: 21 mon jan 2013
+
+
+date: 22 tue jan 2013
+
+
+date: 23 wed jan 2013
+
+
+date: 24 thu jan 2013
+
+
+date: 25 fri jan 2013
+
+
+date: 26 sat jan 2013
+
+
+date: 27 sun jan 2013
+
+
+date: 28 mon jan 2013
+
+
+date: 29 tue jan 2013
+
+
+date: 30 wed jan 2013
+
+
+date: 31 thu jan 2013
+
+
+date: 01 fri feb 2013
+
+
+date: 02 sat feb 2013
+
+
+date: 03 sun feb 2013
+
+
+date: 04 mon feb 2013
+
+
+date: 05 tue feb 2013
+
+
+date: 06 wed feb 2013
+
+
+date: 07 thu feb 2013
+
+
+date: 08 fri feb 2013
+
+
+date: 09 sat feb 2013
+
+
+date: 10 sun feb 2013
+
+
+date: 11 mon feb 2013
+
+
+date: 12 tue feb 2013
+time: 4pm
+gap: 10
+440
+480
+
+
+
+date: 13 wed feb 2013
+
+
+date: 14 thu feb 2013
+
+
+date: 15 fri feb 2013
+
+
+date: 16 sat feb 2013
+
+
+date: 17 sun feb 2013
+
+
+date: 18 mon feb 2013
+
+
+date: 19 tue feb 2013
+
+
+date: 20 wed feb 2013
+
+
+date: 21 thu feb 2013
+
+
+date: 22 fri feb 2013
+
+
+date: 23 sat feb 2013
+
+
+date: 24 sun feb 2013
+
+
+date: 25 mon feb 2013
+
+
+date: 26 tue feb 2013
+
+
+date: 27 wed feb 2013
+
+
+date: 28 thu feb 2013
+
+
+date: 01 fri mar 2013
+
+
+date: 02 sat mar 2013
+
+
+date: 03 sun mar 2013
+
+
+date: 04 mon mar 2013
+
+
+date: 05 tue mar 2013
+
+
+date: 06 wed mar 2013
+
+
+date: 07 thu mar 2013
+
+
+date: 08 fri mar 2013
+
+
+date: 09 sat mar 2013
+
+
+date: 10 sun mar 2013
+
+
+date: 11 mon mar 2013
+
+
+date: 12 tue mar 2013
+
+
+date: 13 wed mar 2013
+
+
+date: 14 thu mar 2013
+
+
+date: 15 fri mar 2013
+
+
+date: 16 sat mar 2013
+
+
+date: 17 sun mar 2013
+
+
+date: 18 mon mar 2013
+
+
+date: 19 tue mar 2013
+
+
+date: 20 wed mar 2013
+
+
+date: 21 thu mar 2013
+
+
+date: 22 fri mar 2013
+
+
+date: 23 sat mar 2013
+
+
+date: 24 sun mar 2013
+
+
+date: 25 mon mar 2013
+
+
+date: 26 tue mar 2013
+
+
+date: 27 wed mar 2013
+
+
+date: 01 mon apr 2013
+
+
+date: 02 tue apr 2013
+
+
+date: 03 wed apr 2013
+
+
+date: 04 thu apr 2013
+
+
+date: 05 fri apr 2013
+
+
+date: 06 sat apr 2013
+
+
+date: 07 sun apr 2013
+
+
+date: 08 mon apr 2013
+
+
+date: 09 tue apr 2013
+
+
+date: 10 wed apr 2013
+
+
+date: 11 thu apr 2013
+
+
+date: 12 fri apr 2013
+
+
+date: 13 sat apr 2013
+
+
+date: 14 sun apr 2013
+
+
+date: 15 mon apr 2013
+
+
+date: 16 tue apr 2013
+
+
+date: 17 wed apr 2013
+
+
+date: 18 thu apr 2013
+
+
+date: 19 fri apr 2013
+
+
+date: 20 sat apr 2013
+
+
+date: 21 sun apr 2013
+
+
+date: 22 mon apr 2013
+
+
+date: 23 tue apr 2013
+
+
+date: 24 wed apr 2013
+
+
+date: 25 thu apr 2013
+
+
+date: 26 fri apr 2013
+
+
+date: 27 sat apr 2013
+
+
+date: 28 sun apr 2013
+
+
+date: 29 mon apr 2013
+
+
+date: 30 tue apr 2013
+
+
+date: 01 wed may 2013
+time: 4pm
+gap: 15
+774
+714
+
+
+
+date: 02 thu may 2013
+
+
+date: 03 fri may 2013
+
+
+date: 04 sat may 2013
+
+
+date: 05 sun may 2013
+
+
+date: 06 mon may 2013
+
+
+date: 07 tue may 2013
+time: 4pm
+gap: 15
+481
+421
+
+
+
+date: 08 wed may 2013
+time: 4pm
+gap: 3
+406
+446
+
+
+
+date: 09 thu may 2013
+
+
+date: 10 fri may 2013
+
+
+date: 11 sat may 2013
+
+
+date: 12 sun may 2013
+
+
+date: 13 mon may 2013
+
+
+date: 14 tue may 2013
+
+
+date: 15 wed may 2013
+
+
+date: 16 thu may 2013
+
+
+date: 17 fri may 2013
+
+
+date: 18 sat may 2013
+
+
+date: 19 sun may 2013
+
+
+date: 20 mon may 2013
+
+
+date: 21 tue may 2013
+
+
+date: 22 wed may 2013
+
+
+date: 23 thu may 2013
+
+
+date: 24 fri may 2013
+
+
+date: 25 sat may 2013
+
+
+date: 26 sun may 2013
+
+
+date: 27 mon may 2013
+
+
+date: 28 tue may 2013
+
+
+date: 29 wed may 2013
+
+
+date: 30 thu may 2013
+
+
+date: 31 fri may 2013
+
+
+date: 01 sat jun 2013
+
+
+date: 02 sun jun 2013
+
+
+date: 03 mon jun 2013
+
+
+date: 04 tue jun 2013
+
+
+date: 05 wed jun 2013
+
+
+date: 06 thu jun 2013
+
+
+date: 07 fri jun 2013
+
+
+date: 08 sat jun 2013
+
+
+date: 09 sun jun 2013
+
+
+date: 10 mon jun 2013
+
+
+date: 11 tue jun 2013
+
+
+date: 12 wed jun 2013
+
+
+date: 13 thu jun 2013
+
+
+date: 14 fri jun 2013
+
+
+date: 15 sat jun 2013
+
+
+date: 16 sun jun 2013
+
+
+date: 17 mon jun 2013
+
+
+date: 18 tue jun 2013
+
+
+date: 19 wed jun 2013
+
+
+date: 20 thu jun 2013
+
+
+date: 21 fri jun 2013
+
+
+date: 22 sat jun 2013
+
+
+date: 23 sun jun 2013
+
+
+date: 24 mon jun 2013
+
+
+date: 25 tue jun 2013
+
+
+date: 26 wed jun 2013
+
+
+date: 27 thu jun 2013
+time: 9pm
+gap: 2
+621
+661
+
+
+
+date: 28 fri jun 2013
+
+
+date: 29 sat jun 2013
+
+
+date: 30 sun jun 2013
+
+
+date: 01 mon jul 2013
+
+
+date: 02 tue jul 2013
+time: 4pm
+gap: 36
+806
+846
+
+
+
+date: 03 wed jul 2013
+
+
+date: 04 thu jul 2013
+
+
+date: 05 fri jul 2013
+
+
+date: 06 sat jul 2013
+
+
+date: 07 sun jul 2013
+
+
+date: 08 mon jul 2013
+
+
+date: 09 tue jul 2013
+
+
+date: 10 wed jul 2013
+
+
+date: 11 thu jul 2013
+time: 4pm
+gap: 37
+611
+651
+
+
+
+date: 12 fri jul 2013
+
+
+date: 13 sat jul 2013
+
+
+date: 14 sun jul 2013
+
+
+date: 15 mon jul 2013
+
+
+date: 16 tue jul 2013
+
+
+date: 17 wed jul 2013
+
+
+date: 18 thu jul 2013
+
+
+date: 19 fri jul 2013
+
+
+date: 20 sat jul 2013
+
+
+date: 21 sun jul 2013
+
+
+date: 22 mon jul 2013
+time: 9pm
+gap: 26
+895
+835
+
+
+
+date: 23 tue jul 2013
+
+
+date: 24 wed jul 2013
+
+
+date: 25 thu jul 2013
+
+
+date: 26 fri jul 2013
+
+
+date: 27 sat jul 2013
+time: 4pm
+gap: 53
+601
+641
+
+
+
+date: 28 sun jul 2013
+time: 9pm
+gap: 17
+477
+417
+
+
+
+date: 29 mon jul 2013
+
+
+date: 30 tue jul 2013
+
+
+date: 31 wed jul 2013
+
+
+date: 01 thu aug 2013
+
+
+date: 02 fri aug 2013
+
+
+date: 03 sat aug 2013
+time: 4pm
+gap: 36
+587
+527
+
+
+
+date: 04 sun aug 2013
+
+
+date: 05 mon aug 2013
+
+
+date: 06 tue aug 2013
+
+
+date: 07 wed aug 2013
+
+
+date: 08 thu aug 2013
+
+
+date: 09 fri aug 2013
+
+
+date: 10 sat aug 2013
+time: 11am
+gap: 36
+883
+823
+
+
+
+date: 11 sun aug 2013
+
+
+date: 12 mon aug 2013
+
+
+date: 13 tue aug 2013
+time: 11am
+gap: 39
+153
+193
+
+
+
+date: 14 wed aug 2013
+
+
+date: 15 thu aug 2013
+
+
+date: 16 fri aug 2013
+
+
+date: 17 sat aug 2013
+
+
+date: 18 sun aug 2013
+
+
+date: 19 mon aug 2013
+
+
+date: 20 tue aug 2013
+
+
+date: 21 wed aug 2013
+
+
+date: 22 thu aug 2013
+
+
+date: 23 fri aug 2013
+
+
+date: 24 sat aug 2013
+
+
+date: 25 sun aug 2013
+
+
+date: 26 mon aug 2013
+
+
+date: 27 tue aug 2013
+
+
+date: 28 wed aug 2013
+
+
+date: 29 thu aug 2013
+
+
+date: 30 fri aug 2013
+
+
+date: 31 sat aug 2013
+
+
+date: 01 sun sep 2013
+
+
+date: 02 mon sep 2013
+
+
+date: 03 tue sep 2013
+
+
+date: 04 wed sep 2013
+
+
+date: 05 thu sep 2013
+
+
+date: 06 fri sep 2013
+
+
+date: 07 sat sep 2013
+
+
+date: 08 sun sep 2013
+
+
+date: 09 mon sep 2013
+
+
+date: 10 tue sep 2013
+
+
+date: 11 wed sep 2013
+
+
+date: 12 thu sep 2013
+
+
+date: 13 fri sep 2013
+time: 9pm
+gap: 49
+165
+105
+
+
+
+date: 14 sat sep 2013
+
+
+date: 15 sun sep 2013
+
+
+date: 16 mon sep 2013
+
+
+date: 17 tue sep 2013
+
+
+date: 18 wed sep 2013
+
+
+date: 19 thu sep 2013
+
+
+date: 20 fri sep 2013
+time: 11am
+gap: 60
+866
+806
+
+
+
+date: 21 sat sep 2013
+
+
+date: 22 sun sep 2013
+
+
+date: 23 mon sep 2013
+time: 9pm
+gap: 81
+345
+385
+
+
+
+date: 24 tue sep 2013
+
+
+date: 25 wed sep 2013
+
+
+date: 26 thu sep 2013
+
+
+date: 27 fri sep 2013
+
+
+date: 28 sat sep 2013
+
+
+date: 29 sun sep 2013
+
+
+date: 30 mon sep 2013
+
+
+date: 01 tue oct 2013
+
+
+date: 02 wed oct 2013
+
+
+date: 03 thu oct 2013
+
+
+date: 04 fri oct 2013
+
+
+date: 05 sat oct 2013
+
+
+date: 06 sun oct 2013
+
+
+date: 07 mon oct 2013
+
+
+date: 08 tue oct 2013
+
+
+date: 09 wed oct 2013
+
+
+date: 10 thu oct 2013
+
+
+date: 11 fri oct 2013
+
+
+date: 12 sat oct 2013
+
+
+date: 13 sun oct 2013
+
+
+date: 14 mon oct 2013
+
+
+date: 15 tue oct 2013
+
+
+date: 16 wed oct 2013
+
+
+date: 17 thu oct 2013
+
+
+date: 18 fri oct 2013
+
+
+date: 19 sat oct 2013
+time: 9pm
+gap: 49
+776
+716
+
+
+
+date: 20 sun oct 2013
+
+
+date: 21 mon oct 2013
+
+
+date: 22 tue oct 2013
+
+
+date: 23 wed oct 2013
+
+
+date: 24 thu oct 2013
+
+
+date: 25 fri oct 2013
+
+
+date: 26 sat oct 2013
+
+
+date: 27 sun oct 2013
+
+
+date: 28 mon oct 2013
+
+
+date: 29 tue oct 2013
+time: 4pm
+gap: 89
+015
+055
+
+
+
+date: 30 wed oct 2013
+
+
+date: 31 thu oct 2013
+time: 9pm
+gap: 36
+357
+397
+
+
+
+date: 01 fri nov 2013
+
+
+date: 02 sat nov 2013
+
+
+date: 03 sun nov 2013
+
+
+date: 04 mon nov 2013
+
+
+date: 05 tue nov 2013
+time: 4pm
+gap: 24
+561
+501
+
+
+
+date: 06 wed nov 2013
+time: 11am
+gap: 22
+486
+426
+
+
+
+date: 07 thu nov 2013
+
+
+date: 08 fri nov 2013
+
+
+date: 09 sat nov 2013
+
+
+date: 10 sun nov 2013
+
+
+date: 11 mon nov 2013
+
+
+date: 12 tue nov 2013
+
+
+date: 13 wed nov 2013
+
+
+date: 14 thu nov 2013
+
+
+date: 15 fri nov 2013
+
+
+date: 16 sat nov 2013
+
+
+date: 17 sun nov 2013
+
+
+date: 18 mon nov 2013
+
+
+date: 19 tue nov 2013
+
+
+date: 20 wed nov 2013
+
+
+date: 21 thu nov 2013
+
+
+date: 22 fri nov 2013
+
+
+date: 23 sat nov 2013
+
+
+date: 24 sun nov 2013
+
+
+date: 25 mon nov 2013
+
+
+date: 26 tue nov 2013
+
+
+date: 27 wed nov 2013
+
+
+date: 28 thu nov 2013
+
+
+date: 29 fri nov 2013
+
+
+date: 30 sat nov 2013
+
+
+date: 01 sun dec 2013
+
+
+date: 02 mon dec 2013
+
+
+date: 03 tue dec 2013
+
+
+date: 04 wed dec 2013
+
+
+date: 05 thu dec 2013
+
+
+date: 06 fri dec 2013
+
+
+date: 07 sat dec 2013
+
+
+date: 08 sun dec 2013
+time: 4pm
+gap: 55
+331
+371
+
+
+
+date: 09 mon dec 2013
+
+
+date: 10 tue dec 2013
+
+
+date: 11 wed dec 2013
+time: 4pm
+gap: 5
+931
+971
+
+
+
+date: 12 thu dec 2013
+
+
+date: 13 fri dec 2013
+
+
+date: 14 sat dec 2013
+
+
+date: 15 sun dec 2013
+
+
+date: 16 mon dec 2013
+
+
+date: 17 tue dec 2013
+
+
+date: 18 wed dec 2013
+
+
+date: 19 thu dec 2013
+
+
+date: 20 fri dec 2013
+
+
+date: 21 sat dec 2013
+
+
+date: 22 sun dec 2013
+
+
+date: 23 mon dec 2013
+
+
+date: 24 tue dec 2013
+
+
+date: 26 thu dec 2013
+
+
+date: 27 fri dec 2013
+
+
+date: 28 sat dec 2013
+
+
+date: 29 sun dec 2013
+time: 9pm
+gap: 95
+487
+427
+
+
+
+date: 30 mon dec 2013
+
+
+date: 31 tue dec 2013
+
+
+date: 02 thu jan 2014
+
+
+date: 03 fri jan 2014
+
+
+date: 04 sat jan 2014
+
+
+date: 05 sun jan 2014
+
+
+date: 06 mon jan 2014
+
+
+date: 07 tue jan 2014
+
+
+date: 08 wed jan 2014
+
+
+date: 09 thu jan 2014
+
+
+date: 10 fri jan 2014
+
+
+date: 11 sat jan 2014
+
+
+date: 12 sun jan 2014
+
+
+date: 13 mon jan 2014
+
+
+date: 14 tue jan 2014
+
+
+date: 15 wed jan 2014
+
+
+date: 16 thu jan 2014
+
+
+date: 17 fri jan 2014
+
+
+date: 18 sat jan 2014
+
+
+date: 19 sun jan 2014
+
+
+date: 20 mon jan 2014
+
+
+date: 21 tue jan 2014
+
+
+date: 22 wed jan 2014
+
+
+date: 23 thu jan 2014
+
+
+date: 24 fri jan 2014
+time: 4pm
+gap: 23
+941
+981
+
+
+
+date: 25 sat jan 2014
+
+
+date: 26 sun jan 2014
+
+
+date: 27 mon jan 2014
+
+
+date: 28 tue jan 2014
+
+
+date: 29 wed jan 2014
+
+
+date: 30 thu jan 2014
+
+
+date: 31 fri jan 2014
+
+
+date: 01 sat feb 2014
+
+
+date: 02 sun feb 2014
+
+
+date: 03 mon feb 2014
+
+
+date: 04 tue feb 2014
+
+
+date: 05 wed feb 2014
+
+
+date: 06 thu feb 2014
+
+
+date: 07 fri feb 2014
+
+
+date: 08 sat feb 2014
+
+
+date: 09 sun feb 2014
+
+
+date: 10 mon feb 2014
+
+
+date: 11 tue feb 2014
+
+
+date: 12 wed feb 2014
+time: 11am
+gap: 89
+020
+060
+
+
+
+date: 13 thu feb 2014
+time: 11am
+gap: 61
+807
+847
+
+
+
+date: 14 fri feb 2014
+
+
+date: 15 sat feb 2014
+time: 9pm
+gap: 79
+531
+571
+
+
+
+date: 16 sun feb 2014
+
+
+date: 17 mon feb 2014
+time: 4pm
+gap: 97
+497
+437
+
+
+
+date: 18 tue feb 2014
+
+
+date: 19 wed feb 2014
+
+
+date: 20 thu feb 2014
+
+
+date: 21 fri feb 2014
+
+
+date: 22 sat feb 2014
+
+
+date: 23 sun feb 2014
+
+
+date: 24 mon feb 2014
+
+
+date: 25 tue feb 2014
+
+
+date: 26 wed feb 2014
+
+
+date: 27 thu feb 2014
+
+
+date: 28 fri feb 2014
+
+
+date: 01 sat mar 2014
+
+
+date: 02 sun mar 2014
+
+
+date: 03 mon mar 2014
+
+
+date: 04 tue mar 2014
+
+
+date: 05 wed mar 2014
+
+
+date: 06 thu mar 2014
+
+
+date: 07 fri mar 2014
+time: 4pm
+gap: 80
+308
+348
+
+
+
+date: 08 sat mar 2014
+
+
+date: 09 sun mar 2014
+
+
+date: 10 mon mar 2014
+time: 11am
+gap: 55
+486
+426
+
+time: 4pm
+gap: 51
+297
+237
+
+
+
+date: 11 tue mar 2014
+
+
+date: 12 wed mar 2014
+
+
+date: 13 thu mar 2014
+
+
+date: 14 fri mar 2014
+
+
+date: 15 sat mar 2014
+time: 9pm
+gap: 54
+840
+880
+
+
+
+date: 16 sun mar 2014
+
+
+date: 17 mon mar 2014
+
+
+date: 18 tue mar 2014
+
+
+date: 19 wed mar 2014
+
+
+date: 20 thu mar 2014
+time: 11am
+gap: 75
+395
+335
+
+
+
+date: 21 fri mar 2014
+
+
+date: 22 sat mar 2014
+
+
+date: 23 sun mar 2014
+
+
+date: 24 mon mar 2014
+
+
+date: 25 tue mar 2014
+
+
+date: 26 wed mar 2014
+
+
+date: 27 thu mar 2014
+time: 11am
+gap: 52
+341
+381
+
+
+
+date: 28 fri mar 2014
+time: 11am
+gap: 92
+629
+669
+
+
+
+date: 29 sat mar 2014
+
+
+date: 30 sun mar 2014
+
+
+date: 31 mon mar 2014
+
+
+date: 01 tue apr 2014
+
+
+date: 02 wed apr 2014
+
+
+date: 03 thu apr 2014
+
+
+date: 04 fri apr 2014
+
+
+date: 05 sat apr 2014
+
+
+date: 06 sun apr 2014
+time: 4pm
+gap: 75
+294
+234
+
+
+
+date: 07 mon apr 2014
+
+
+date: 08 tue apr 2014
+time: 4pm
+gap: 8
+827
+867
+
+
+
+date: 09 wed apr 2014
+time: 11am
+gap: 89
+606
+646
+
+
+
+date: 10 thu apr 2014
+
+
+date: 11 fri apr 2014
+
+
+date: 12 sat apr 2014
+
+
+date: 13 sun apr 2014
+
+
+date: 14 mon apr 2014
+
+
+date: 15 tue apr 2014
+
+
+date: 16 wed apr 2014
+
+
+date: 21 mon apr 2014
+
+
+date: 22 tue apr 2014
+
+
+date: 23 wed apr 2014
+
+
+date: 24 thu apr 2014
+
+
+date: 25 fri apr 2014
+
+
+date: 26 sat apr 2014
+
+
+date: 27 sun apr 2014
+
+
+date: 28 mon apr 2014
+time: 4pm
+gap: 24
+477
+417
+
+
+
+date: 29 tue apr 2014
+time: 4pm
+gap: 82
+387
+327
+
+
+
+date: 30 wed apr 2014
+
+
+date: 01 thu may 2014
+
+
+date: 02 fri may 2014
+
+
+date: 03 sat may 2014
+
+
+date: 04 sun may 2014
+
+
+date: 05 mon may 2014
+time: 9pm
+gap: 2
+261
+201
+
+
+
+date: 06 tue may 2014
+
+
+date: 07 wed may 2014
+
+
+date: 08 thu may 2014
+
+
+date: 09 fri may 2014
+time: 11am
+gap: 53
+689
+629
+
+time: 4pm
+gap: 17
+728
+768
+
+
+
+date: 10 sat may 2014
+
+
+date: 11 sun may 2014
+
+
+date: 12 mon may 2014
+
+
+date: 13 tue may 2014
+
+
+date: 14 wed may 2014
+
+
+date: 15 thu may 2014
+
+
+date: 16 fri may 2014
+
+
+date: 17 sat may 2014
+
+
+date: 18 sun may 2014
+
+
+date: 19 mon may 2014
+
+
+date: 20 tue may 2014
+
+
+date: 21 wed may 2014
+
+
+date: 22 thu may 2014
+
+
+date: 23 fri may 2014
+time: 9pm
+gap: 7
+271
+211
+
+
+
+date: 24 sat may 2014
+
+
+date: 25 sun may 2014
+
+
+date: 26 mon may 2014
+time: 4pm
+gap: 94
+139
+179
+
+
+
+date: 27 tue may 2014
+
+
+date: 28 wed may 2014
+
+
+date: 29 thu may 2014
+
+
+date: 30 fri may 2014
+
+
+date: 31 sat may 2014
+time: 11am
+gap: 19
+548
+588
+
+
+
+date: 01 sun jun 2014
+
+
+date: 02 mon jun 2014
+
+
+date: 03 tue jun 2014
+
+
+date: 04 wed jun 2014
+
+
+date: 05 thu jun 2014
+
+
+date: 06 fri jun 2014
+
+
+date: 07 sat jun 2014
+
+
+date: 08 sun jun 2014
+time: 11am
+gap: 75
+395
+335
+
+
+
+date: 09 mon jun 2014
+
+
+date: 10 tue jun 2014
+
+
+date: 11 wed jun 2014
+
+
+date: 12 thu jun 2014
+
+
+date: 13 fri jun 2014
+
+
+date: 14 sat jun 2014
+
+
+date: 15 sun jun 2014
+
+
+date: 16 mon jun 2014
+
+
+date: 17 tue jun 2014
+
+
+date: 18 wed jun 2014
+
+
+date: 19 thu jun 2014
+
+
+date: 20 fri jun 2014
+
+
+date: 21 sat jun 2014
+
+
+date: 22 sun jun 2014
+
+
+date: 23 mon jun 2014
+
+
+date: 24 tue jun 2014
+
+
+date: 25 wed jun 2014
+
+
+date: 26 thu jun 2014
+
+
+date: 27 fri jun 2014
+time: 11am
+gap: 43
+806
+846
+
+
+
+date: 28 sat jun 2014
+
+
+date: 29 sun jun 2014
+
+
+date: 30 mon jun 2014
+
+
+date: 01 tue jul 2014
+
+
+date: 02 wed jul 2014
+
+
+date: 03 thu jul 2014
+
+
+date: 04 fri jul 2014
+
+
+date: 05 sat jul 2014
+
+
+date: 06 sun jul 2014
+
+
+date: 07 mon jul 2014
+
+
+date: 08 tue jul 2014
+
+
+date: 09 wed jul 2014
+time: 9pm
+gap: 47
+677
+617
+
+
+
+date: 10 thu jul 2014
+
+
+date: 11 fri jul 2014
+
+
+date: 12 sat jul 2014
+time: 11am
+gap: 25
+493
+433
+
+
+
+date: 13 sun jul 2014
+
+
+date: 14 mon jul 2014
+
+
+date: 15 tue jul 2014
+
+
+date: 16 wed jul 2014
+
+
+date: 17 thu jul 2014
+
+
+date: 18 fri jul 2014
+
+
+date: 19 sat jul 2014
+time: 11am
+gap: 4
+926
+966
+
+
+
+date: 20 sun jul 2014
+
+
+date: 21 mon jul 2014
+time: 11am
+gap: 67
+673
+613
+
+
+
+date: 22 tue jul 2014
+
+
+date: 23 wed jul 2014
+
+
+date: 24 thu jul 2014
+
+
+date: 25 fri jul 2014
+
+
+date: 26 sat jul 2014
+
+
+date: 27 sun jul 2014
+
+
+date: 28 mon jul 2014
+
+
+date: 29 tue jul 2014
+
+
+date: 30 wed jul 2014
+
+
+date: 31 thu jul 2014
+
+
+date: 01 fri aug 2014
+
+
+date: 02 sat aug 2014
+
+
+date: 03 sun aug 2014
+
+
+date: 04 mon aug 2014
+time: 4pm
+gap: 60
+593
+533
+
+
+
+date: 05 tue aug 2014
+time: 4pm
+gap: 22
+679
+619
+
+
+
+date: 06 wed aug 2014
+
+
+date: 07 thu aug 2014
+
+
+date: 08 fri aug 2014
+
+
+date: 09 sat aug 2014
+
+
+date: 10 sun aug 2014
+
+
+date: 11 mon aug 2014
+
+
+date: 12 tue aug 2014
+
+
+date: 13 wed aug 2014
+time: 4pm
+gap: 33
+688
+628
+
+
+
+date: 14 thu aug 2014
+
+
+date: 15 fri aug 2014
+
+
+date: 16 sat aug 2014
+
+
+date: 17 sun aug 2014
+
+
+date: 18 mon aug 2014
+
+
+date: 19 tue aug 2014
+
+
+date: 20 wed aug 2014
+time: 9pm
+gap: 82
+249
+289
+
+
+
+date: 21 thu aug 2014
+
+
+date: 22 fri aug 2014
+
+
+date: 23 sat aug 2014
+
+
+date: 24 sun aug 2014
+time: 9pm
+gap: 45
+372
+312
+
+
+
+date: 25 mon aug 2014
+
+
+date: 26 tue aug 2014
+time: 9pm
+gap: 62
+756
+796
+
+
+
+date: 27 wed aug 2014
+
+
+date: 28 thu aug 2014
+
+
+date: 29 fri aug 2014
+
+
+date: 30 sat aug 2014
+
+
+date: 31 sun aug 2014
+
+
+date: 01 mon sep 2014
+
+
+date: 02 tue sep 2014
+
+
+date: 03 wed sep 2014
+
+
+date: 04 thu sep 2014
+
+
+date: 05 fri sep 2014
+
+
+date: 06 sat sep 2014
+
+
+date: 07 sun sep 2014
+
+
+date: 08 mon sep 2014
+
+
+date: 09 tue sep 2014
+
+
+date: 10 wed sep 2014
+
+
+date: 11 thu sep 2014
+
+
+date: 12 fri sep 2014
+
+
+date: 13 sat sep 2014
+
+
+date: 14 sun sep 2014
+
+
+date: 15 mon sep 2014
+
+
+date: 16 tue sep 2014
+
+
+date: 17 wed sep 2014
+
+
+date: 18 thu sep 2014
+
+
+date: 19 fri sep 2014
+
+
+date: 20 sat sep 2014
+
+
+date: 21 sun sep 2014
+
+
+date: 22 mon sep 2014
+
+
+date: 23 tue sep 2014
+
+
+date: 24 wed sep 2014
+
+
+date: 25 thu sep 2014
+
+
+date: 26 fri sep 2014
+
+
+date: 27 sat sep 2014
+
+
+date: 28 sun sep 2014
+
+
+date: 29 mon sep 2014
+
+
+date: 30 tue sep 2014
+
+
+date: 01 wed oct 2014
+time: 9pm
+gap: 70
+850
+890
+
+
+
+date: 02 thu oct 2014
+
+
+date: 03 fri oct 2014
+time: 9pm
+gap: 59
+236
+276
+
+
+
+date: 04 sat oct 2014
+
+
+date: 05 sun oct 2014
+
+
+date: 06 mon oct 2014
+
+
+date: 07 tue oct 2014
+
+
+date: 08 wed oct 2014
+
+
+date: 09 thu oct 2014
+
+
+date: 10 fri oct 2014
+
+
+date: 11 sat oct 2014
+
+
+date: 12 sun oct 2014
+time: 9pm
+gap: 67
+942
+982
+
+
+
+date: 13 mon oct 2014
+
+
+date: 14 tue oct 2014
+
+
+date: 15 wed oct 2014
+
+
+date: 16 thu oct 2014
+
+
+date: 17 fri oct 2014
+
+
+date: 18 sat oct 2014
+
+
+date: 19 sun oct 2014
+time: 9pm
+gap: 5
+174
+114
+
+
+
+date: 20 mon oct 2014
+
+
+date: 21 tue oct 2014
+
+
+date: 22 wed oct 2014
+
+
+date: 23 thu oct 2014
+
+
+date: 24 fri oct 2014
+
+
+date: 25 sat oct 2014
+
+
+date: 26 sun oct 2014
+
+
+date: 27 mon oct 2014
+
+
+date: 28 tue oct 2014
+
+
+date: 29 wed oct 2014
+
+
+date: 30 thu oct 2014
+
+
+date: 31 fri oct 2014
+
+
+date: 01 sat nov 2014
+
+
+date: 02 sun nov 2014
+
+
+date: 03 mon nov 2014
+
+
+date: 04 tue nov 2014
+
+
+date: 05 wed nov 2014
+time: 11am
+gap: 55
+114
+154
+
+
+
+date: 06 thu nov 2014
+
+
+date: 07 fri nov 2014
+
+
+date: 08 sat nov 2014
+
+
+date: 09 sun nov 2014
+
+
+date: 10 mon nov 2014
+
+
+date: 11 tue nov 2014
+
+
+date: 12 wed nov 2014
+
+
+date: 13 thu nov 2014
+time: 9pm
+gap: 99
+287
+227
+
+
+
+date: 14 fri nov 2014
+
+
+date: 15 sat nov 2014
+
+
+date: 16 sun nov 2014
+time: 11am
+gap: 22
+196
+136
+
+
+
+date: 17 mon nov 2014
+time: 9pm
+gap: 69
+158
+198
+
+
+
+date: 18 tue nov 2014
+
+
+date: 19 wed nov 2014
+
+
+date: 20 thu nov 2014
+
+
+date: 21 fri nov 2014
+time: 9pm
+gap: 75
+253
+293
+
+
+
+date: 22 sat nov 2014
+time: 9pm
+gap: 8
+700
+740
+
+
+
+date: 23 sun nov 2014
+
+
+date: 24 mon nov 2014
+
+
+date: 25 tue nov 2014
+
+
+date: 26 wed nov 2014
+
+
+date: 27 thu nov 2014
+
+
+date: 28 fri nov 2014
+time: 9pm
+gap: 65
+345
+385
+
+
+
+date: 29 sat nov 2014
+
+
+date: 30 sun nov 2014
+
+
+date: 01 mon dec 2014
+
+
+date: 02 tue dec 2014
+
+
+date: 03 wed dec 2014
+
+
+date: 04 thu dec 2014
+time: 9pm
+gap: 35
+517
+557
+
+
+
+date: 05 fri dec 2014
+
+
+date: 06 sat dec 2014
+
+
+date: 07 sun dec 2014
+
+
+date: 08 mon dec 2014
+
+
+date: 09 tue dec 2014
+
+
+date: 10 wed dec 2014
+
+
+date: 11 thu dec 2014
+
+
+date: 12 fri dec 2014
+time: 11am
+gap: 72
+392
+332
+
+
+
+date: 13 sat dec 2014
+time: 9pm
+gap: 62
+820
+860
+
+
+
+date: 14 sun dec 2014
+time: 4pm
+gap: 46
+831
+871
+
+time: 9pm
+gap: 35
+340
+380
+
+
+
+date: 15 mon dec 2014
+
+
+date: 16 tue dec 2014
+
+
+date: 17 wed dec 2014
+
+
+date: 18 thu dec 2014
+
+
+date: 19 fri dec 2014
+time: 4pm
+gap: 44
+726
+766
+
+
+
+date: 20 sat dec 2014
+
+
+date: 21 sun dec 2014
+
+
+date: 22 mon dec 2014
+
+
+date: 23 tue dec 2014
+
+
+date: 24 wed dec 2014
+
+
+date: 26 fri dec 2014
+
+
+date: 27 sat dec 2014
+
+
+date: 28 sun dec 2014
+
+
+date: 29 mon dec 2014
+
+
+date: 30 tue dec 2014
+
+
+date: 31 wed dec 2014
+
+
+date: 02 fri jan 2015
+
+
+date: 03 sat jan 2015
+
+
+date: 04 sun jan 2015
+
+
+date: 05 mon jan 2015
+
+
+date: 06 tue jan 2015
+
+
+date: 07 wed jan 2015
+
+
+date: 08 thu jan 2015
+
+
+date: 09 fri jan 2015
+
+
+date: 10 sat jan 2015
+
+
+date: 11 sun jan 2015
+
+
+date: 12 mon jan 2015
+
+
+date: 13 tue jan 2015
+
+
+date: 14 wed jan 2015
+time: 11am
+gap: 13
+364
+304
+
+
+
+date: 15 thu jan 2015
+
+
+date: 16 fri jan 2015
+
+
+date: 17 sat jan 2015
+
+
+date: 18 sun jan 2015
+
+
+date: 19 mon jan 2015
+
+
+date: 20 tue jan 2015
+
+
+date: 21 wed jan 2015
+
+
+date: 22 thu jan 2015
+
+
+date: 23 fri jan 2015
+
+
+date: 24 sat jan 2015
+
+
+date: 25 sun jan 2015
+
+
+date: 26 mon jan 2015
+
+
+date: 27 tue jan 2015
+
+
+date: 28 wed jan 2015
+time: 9pm
+gap: 64
+341
+381
+
+
+
+date: 29 thu jan 2015
+time: 4pm
+gap: 1
+901
+941
+
+
+
+date: 30 fri jan 2015
+
+
+date: 31 sat jan 2015
+
+
+date: 01 sun feb 2015
+
+
+date: 02 mon feb 2015
+time: 9pm
+gap: 35
+840
+880
+
+
+
+date: 03 tue feb 2015
+
+
+date: 04 wed feb 2015
+
+
+date: 05 thu feb 2015
+time: 9pm
+gap: 28
+023
+063
+
+
+
+date: 06 fri feb 2015
+
+
+date: 07 sat feb 2015
+
+
+date: 08 sun feb 2015
+
+
+date: 09 mon feb 2015
+
+
+date: 10 tue feb 2015
+
+
+date: 11 wed feb 2015
+time: 9pm
+gap: 7
+120
+160
+
+
+
+date: 12 thu feb 2015
+
+
+date: 13 fri feb 2015
+
+
+date: 14 sat feb 2015
+
+
+date: 15 sun feb 2015
+
+
+date: 16 mon feb 2015
+time: 11am
+gap: 90
+573
+513
+
+
+
+date: 17 tue feb 2015
+
+
+date: 18 wed feb 2015
+
+
+date: 19 thu feb 2015
+
+
+date: 20 fri feb 2015
+
+
+date: 21 sat feb 2015
+
+
+date: 22 sun feb 2015
+
+
+date: 23 mon feb 2015
+
+
+date: 24 tue feb 2015
+
+
+date: 25 wed feb 2015
+
+
+date: 26 thu feb 2015
+
+
+date: 27 fri feb 2015
+
+
+date: 28 sat feb 2015
+
+
+date: 01 sun mar 2015
+
+
+date: 02 mon mar 2015
+
+
+date: 03 tue mar 2015
+
+
+date: 04 wed mar 2015
+
+
+date: 05 thu mar 2015
+
+
+date: 06 fri mar 2015
+time: 4pm
+gap: 42
+027
+067
+
+
+
+date: 07 sat mar 2015
+
+
+date: 08 sun mar 2015
+
+
+date: 09 mon mar 2015
+
+
+date: 10 tue mar 2015
+
+
+date: 11 wed mar 2015
+
+
+date: 12 thu mar 2015
+
+
+date: 13 fri mar 2015
+
+
+date: 14 sat mar 2015
+
+
+date: 15 sun mar 2015
+
+
+date: 16 mon mar 2015
+
+
+date: 17 tue mar 2015
+
+
+date: 18 wed mar 2015
+
+
+date: 19 thu mar 2015
+
+
+date: 20 fri mar 2015
+
+
+date: 21 sat mar 2015
+
+
+date: 22 sun mar 2015
+
+
+date: 23 mon mar 2015
+
+
+date: 24 tue mar 2015
+
+
+date: 25 wed mar 2015
+
+
+date: 26 thu mar 2015
+
+
+date: 27 fri mar 2015
+
+
+date: 28 sat mar 2015
+
+
+date: 29 sun mar 2015
+
+
+date: 30 mon mar 2015
+
+
+date: 31 tue mar 2015
+
+
+date: 01 wed apr 2015
+
+
+date: 06 mon apr 2015
+
+
+date: 07 tue apr 2015
+
+
+date: 08 wed apr 2015
+
+
+date: 09 thu apr 2015
+
+
+date: 10 fri apr 2015
+
+
+date: 11 sat apr 2015
+
+
+date: 12 sun apr 2015
+time: 9pm
+gap: 74
+943
+983
+
+
+
+date: 13 mon apr 2015
+
+
+date: 14 tue apr 2015
+
+
+date: 15 wed apr 2015
+
+
+date: 16 thu apr 2015
+
+
+date: 17 fri apr 2015
+
+
+date: 18 sat apr 2015
+
+
+date: 19 sun apr 2015
+
+
+date: 20 mon apr 2015
+
+
+date: 21 tue apr 2015
+
+
+date: 22 wed apr 2015
+
+
+date: 23 thu apr 2015
+
+
+date: 24 fri apr 2015
+
+
+date: 25 sat apr 2015
+
+
+date: 26 sun apr 2015
+
+
+date: 27 mon apr 2015
+
+
+date: 28 tue apr 2015
+
+
+date: 29 wed apr 2015
+
+
+date: 30 thu apr 2015
+
+
+date: 01 fri may 2015
+
+
+date: 02 sat may 2015
+
+
+date: 03 sun may 2015
+
+
+date: 04 mon may 2015
+time: 11am
+gap: 11
+219
+259
+
+
+
+date: 05 tue may 2015
+
+
+date: 06 wed may 2015
+
+
+date: 07 thu may 2015
+
+
+date: 08 fri may 2015
+
+
+date: 09 sat may 2015
+
+
+date: 10 sun may 2015
+
+
+date: 11 mon may 2015
+
+
+date: 12 tue may 2015
+
+
+date: 13 wed may 2015
+
+
+date: 14 thu may 2015
+
+
+date: 15 fri may 2015
+
+
+date: 16 sat may 2015
+
+
+date: 17 sun may 2015
+
+
+date: 18 mon may 2015
+time: 11am
+gap: 93
+393
+333
+
+
+
+date: 19 tue may 2015
+time: 11am
+gap: 37
+542
+582
+
+
+
+date: 20 wed may 2015
+
+
+date: 21 thu may 2015
+time: 4pm
+gap: 80
+469
+409
+
+
+
+date: 22 fri may 2015
+
+
+date: 23 sat may 2015
+
+
+date: 24 sun may 2015
+
+
+date: 25 mon may 2015
+
+
+date: 26 tue may 2015
+
+
+date: 27 wed may 2015
+time: 4pm
+gap: 37
+133
+173
+
+
+
+date: 28 thu may 2015
+
+
+date: 29 fri may 2015
+time: 4pm
+gap: 29
+850
+890
+
+
+
+date: 30 sat may 2015
+
+
+date: 31 sun may 2015
+
+
+date: 01 mon jun 2015
+
+
+date: 02 tue jun 2015
+
+
+date: 03 wed jun 2015
+
+
+date: 04 thu jun 2015
+
+
+date: 05 fri jun 2015
+
+
+date: 06 sat jun 2015
+
+
+date: 07 sun jun 2015
+
+
+date: 08 mon jun 2015
+
+
+date: 09 tue jun 2015
+
+
+date: 10 wed jun 2015
+
+
+date: 11 thu jun 2015
+
+
+date: 12 fri jun 2015
+
+
+date: 13 sat jun 2015
+
+
+date: 14 sun jun 2015
+
+
+date: 15 mon jun 2015
+
+
+date: 16 tue jun 2015
+
+
+date: 17 wed jun 2015
+
+
+date: 18 thu jun 2015
+
+
+date: 19 fri jun 2015
+
+
+date: 20 sat jun 2015
+
+
+date: 21 sun jun 2015
+
+
+date: 22 mon jun 2015
+
+
+date: 23 tue jun 2015
+
+
+date: 24 wed jun 2015
+
+
+date: 25 thu jun 2015
+
+
+date: 26 fri jun 2015
+
+
+date: 27 sat jun 2015
+
+
+date: 28 sun jun 2015
+
+
+date: 29 mon jun 2015
+
+
+date: 30 tue jun 2015
+
+
+date: 01 wed jul 2015
+
+
+date: 02 thu jul 2015
+
+
+date: 03 fri jul 2015
+time: 9pm
+gap: 2
+619
+659
+
+
+
+date: 04 sat jul 2015
+time: 4pm
+gap: 65
+876
+816
+
+
+
+date: 05 sun jul 2015
+
+
+date: 06 mon jul 2015
+
+
+date: 07 tue jul 2015
+
+
+date: 08 wed jul 2015
+
+
+date: 09 thu jul 2015
+
+
+date: 10 fri jul 2015
+
+
+date: 11 sat jul 2015
+
+
+date: 12 sun jul 2015
+
+
+date: 13 mon jul 2015
+
+
+date: 14 tue jul 2015
+
+
+date: 15 wed jul 2015
+
+
+date: 16 thu jul 2015
+
+
+date: 17 fri jul 2015
+
+
+date: 18 sat jul 2015
+
+
+date: 19 sun jul 2015
+
+
+date: 20 mon jul 2015
+time: 4pm
+gap: 32
+170
+110
+
+
+
+date: 21 tue jul 2015
+
+
+date: 22 wed jul 2015
+
+
+date: 23 thu jul 2015
+
+
+date: 24 fri jul 2015
+time: 11am
+gap: 52
+577
+517
+
+
+
+date: 25 sat jul 2015
+
+
+date: 26 sun jul 2015
+
+
+date: 27 mon jul 2015
+
+
+date: 28 tue jul 2015
+
+
+date: 29 wed jul 2015
+
+
+date: 30 thu jul 2015
+
+
+date: 31 fri jul 2015
+
+
+date: 01 sat aug 2015
+
+
+date: 02 sun aug 2015
+
+
+date: 03 mon aug 2015
+
+
+date: 04 tue aug 2015
+
+
+date: 05 wed aug 2015
+
+
+date: 06 thu aug 2015
+
+
+date: 07 fri aug 2015
+
+
+date: 08 sat aug 2015
+
+
+date: 09 sun aug 2015
+
+
+date: 10 mon aug 2015
+time: 9pm
+gap: 54
+247
+287
+
+
+
+date: 11 tue aug 2015
+
+
+date: 12 wed aug 2015
+
+
+date: 13 thu aug 2015
+
+
+date: 14 fri aug 2015
+time: 4pm
+gap: 97
+915
+955
+
+
+
+date: 15 sat aug 2015
+time: 4pm
+gap: 35
+876
+816
+
+
+
+date: 16 sun aug 2015
+
+
+date: 17 mon aug 2015
+
+
+date: 18 tue aug 2015
+
+
+date: 19 wed aug 2015
+
+
+date: 20 thu aug 2015
+
+
+date: 21 fri aug 2015
+
+
+date: 22 sat aug 2015
+
+
+date: 23 sun aug 2015
+
+
+date: 24 mon aug 2015
+
+
+date: 25 tue aug 2015
+
+
+date: 26 wed aug 2015
+time: 11am
+gap: 28
+576
+516
+
+
+
+date: 27 thu aug 2015
+
+
+date: 28 fri aug 2015
+
+
+date: 29 sat aug 2015
+time: 4pm
+gap: 38
+800
+840
+
+
+
+date: 30 sun aug 2015
+time: 11am
+gap: 94
+075
+015
+
+
+
+date: 31 mon aug 2015
+
+
+date: 01 tue sep 2015
+
+
+date: 02 wed sep 2015
+
+
+date: 03 thu sep 2015
+
+
+date: 04 fri sep 2015
+
+
+date: 05 sat sep 2015
+
+
+date: 06 sun sep 2015
+
+
+date: 07 mon sep 2015
+
+
+date: 08 tue sep 2015
+
+
+date: 09 wed sep 2015
+
+
+date: 10 thu sep 2015
+
+
+date: 11 fri sep 2015
+
+
+date: 12 sat sep 2015
+
+
+date: 13 sun sep 2015
+
+
+date: 14 mon sep 2015
+
+
+date: 15 tue sep 2015
+
+
+date: 16 wed sep 2015
+
+
+date: 17 thu sep 2015
+
+
+date: 18 fri sep 2015
+
+
+date: 19 sat sep 2015
+
+
+date: 20 sun sep 2015
+
+
+date: 21 mon sep 2015
+
+
+date: 22 tue sep 2015
+
+
+date: 23 wed sep 2015
+
+
+date: 24 thu sep 2015
+
+
+date: 25 fri sep 2015
+
+
+date: 26 sat sep 2015
+
+
+date: 27 sun sep 2015
+
+
+date: 28 mon sep 2015
+
+
+date: 29 tue sep 2015
+
+
+date: 30 wed sep 2015
+
+
+date: 01 thu oct 2015
+
+
+date: 02 fri oct 2015
+
+
+date: 03 sat oct 2015
+
+
+date: 04 sun oct 2015
+
+
+date: 05 mon oct 2015
+
+
+date: 06 tue oct 2015
+
+
+date: 07 wed oct 2015
+
+
+date: 08 thu oct 2015
+
+
+date: 09 fri oct 2015
+
+
+date: 10 sat oct 2015
+
+
+date: 11 sun oct 2015
+
+
+date: 12 mon oct 2015
+
+
+date: 13 tue oct 2015
+
+
+date: 14 wed oct 2015
+
+
+date: 15 thu oct 2015
+
+
+date: 16 fri oct 2015
+
+
+date: 17 sat oct 2015
+
+
+date: 18 sun oct 2015
+
+
+date: 19 mon oct 2015
+
+
+date: 20 tue oct 2015
+
+
+date: 21 wed oct 2015
+
+
+date: 22 thu oct 2015
+
+
+date: 23 fri oct 2015
+
+
+date: 24 sat oct 2015
+
+
+date: 25 sun oct 2015
+
+
+date: 26 mon oct 2015
+
+
+date: 27 tue oct 2015
+
+
+date: 28 wed oct 2015
+
+
+date: 29 thu oct 2015
+
+
+date: 30 fri oct 2015
+
+
+date: 31 sat oct 2015
+
+
+date: 01 sun nov 2015
+
+
+date: 02 mon nov 2015
+
+
+date: 03 tue nov 2015
+
+
+date: 04 wed nov 2015
+
+
+date: 05 thu nov 2015
+
+
+date: 06 fri nov 2015
+
+
+date: 07 sat nov 2015
+
+
+date: 08 sun nov 2015
+
+
+date: 09 mon nov 2015
+
+
+date: 10 tue nov 2015
+
+
+date: 11 wed nov 2015
+
+
+date: 12 thu nov 2015
+time: 11am
+gap: 65
+671
+611
+
+
+
+date: 13 fri nov 2015
+
+
+date: 14 sat nov 2015
+
+
+date: 15 sun nov 2015
+
+
+date: 16 mon nov 2015
+
+
+date: 17 tue nov 2015
+
+
+date: 18 wed nov 2015
+
+
+date: 19 thu nov 2015
+
+
+date: 20 fri nov 2015
+
+
+date: 21 sat nov 2015
+
+
+date: 22 sun nov 2015
+
+
+date: 23 mon nov 2015
+
+
+date: 24 tue nov 2015
+
+
+date: 25 wed nov 2015
+
+
+date: 26 thu nov 2015
+
+
+date: 27 fri nov 2015
+time: 9pm
+gap: 6
+261
+201
+
+
+
+date: 28 sat nov 2015
+
+
+date: 29 sun nov 2015
+
+
+date: 30 mon nov 2015
+
+
+date: 01 tue dec 2015
+
+
+date: 02 wed dec 2015
+time: 9pm
+gap: 31
+014
+054
+
+
+
+date: 03 thu dec 2015
+
+
+date: 04 fri dec 2015
+
+
+date: 05 sat dec 2015
+
+
+date: 06 sun dec 2015
+
+
+date: 07 mon dec 2015
+
+
+date: 08 tue dec 2015
+
+
+date: 09 wed dec 2015
+time: 11am
+gap: 3
+582
+522
+
+
+
+date: 10 thu dec 2015
+
+
+date: 11 fri dec 2015
+
+
+date: 12 sat dec 2015
+
+
+date: 13 sun dec 2015
+
+
+date: 14 mon dec 2015
+
+
+date: 15 tue dec 2015
+
+
+date: 16 wed dec 2015
+
+
+date: 17 thu dec 2015
+
+
+date: 18 fri dec 2015
+time: 11am
+gap: 74
+874
+814
+
+
+
+date: 19 sat dec 2015
+
+
+date: 20 sun dec 2015
+
+
+date: 21 mon dec 2015
+
+
+date: 22 tue dec 2015
+
+
+date: 23 wed dec 2015
+
+
+date: 24 thu dec 2015
+
+
+date: 26 sat dec 2015
+
+
+date: 27 sun dec 2015
+
+
+date: 28 mon dec 2015
+time: 9pm
+gap: 26
+591
+531
+
+
+
+date: 29 tue dec 2015
+
+
+date: 30 wed dec 2015
+
+
+date: 31 thu dec 2015
+
+
+date: 02 sat jan 2016
+
+
+date: 03 sun jan 2016
+
+
+date: 04 mon jan 2016
+
+
+date: 05 tue jan 2016
+
+
+date: 06 wed jan 2016
+
+
+date: 07 thu jan 2016
+
+
+date: 08 fri jan 2016
+
+
+date: 09 sat jan 2016
+
+
+date: 10 sun jan 2016
+
+
+date: 11 mon jan 2016
+
+
+date: 12 tue jan 2016
+
+
+date: 13 wed jan 2016
+
+
+date: 14 thu jan 2016
+
+
+date: 15 fri jan 2016
+
+
+date: 16 sat jan 2016
+
+
+date: 17 sun jan 2016
+
+
+date: 18 mon jan 2016
+
+
+date: 19 tue jan 2016
+
+
+date: 20 wed jan 2016
+
+
+date: 21 thu jan 2016
+
+
+date: 22 fri jan 2016
+
+
+date: 23 sat jan 2016
+
+
+date: 24 sun jan 2016
+
+
+date: 25 mon jan 2016
+
+
+date: 26 tue jan 2016
+
+
+date: 27 wed jan 2016
+
+
+date: 28 thu jan 2016
+
+
+date: 29 fri jan 2016
+
+
+date: 30 sat jan 2016
+
+
+date: 31 sun jan 2016
+
+
+date: 01 mon feb 2016
+
+
+date: 02 tue feb 2016
+
+
+date: 03 wed feb 2016
+
+
+date: 04 thu feb 2016
+
+
+date: 05 fri feb 2016
+
+
+date: 06 sat feb 2016
+time: 11am
+gap: 84
+685
+625
+
+
+
+date: 07 sun feb 2016
+time: 9pm
+gap: 74
+250
+290
+
+
+
+date: 08 mon feb 2016
+
+
+date: 09 tue feb 2016
+
+
+date: 10 wed feb 2016
+
+
+date: 11 thu feb 2016
+
+
+date: 12 fri feb 2016
+
+
+date: 13 sat feb 2016
+
+
+date: 14 sun feb 2016
+
+
+date: 15 mon feb 2016
+
+
+date: 16 tue feb 2016
+
+
+date: 17 wed feb 2016
+
+
+date: 18 thu feb 2016
+time: 9pm
+gap: 36
+139
+179
+
+
+
+date: 19 fri feb 2016
+
+
+date: 20 sat feb 2016
+
+
+date: 21 sun feb 2016
+
+
+date: 22 mon feb 2016
+
+
+date: 23 tue feb 2016
+
+
+date: 24 wed feb 2016
+
+
+date: 25 thu feb 2016
+
+
+date: 26 fri feb 2016
+
+
+date: 27 sat feb 2016
+
+
+date: 28 sun feb 2016
+
+
+date: 29 mon feb 2016
+
+
+date: 01 tue mar 2016
+
+
+date: 02 wed mar 2016
+
+
+date: 03 thu mar 2016
+
+
+date: 04 fri mar 2016
+
+
+date: 05 sat mar 2016
+
+
+date: 06 sun mar 2016
+
+
+date: 07 mon mar 2016
+
+
+date: 08 tue mar 2016
+
+
+date: 09 wed mar 2016
+
+
+date: 10 thu mar 2016
+
+
+date: 11 fri mar 2016
+
+
+date: 12 sat mar 2016
+
+
+date: 13 sun mar 2016
+
+
+date: 14 mon mar 2016
+
+
+date: 15 tue mar 2016
+
+
+date: 16 wed mar 2016
+time: 4pm
+gap: 8
+911
+951
+
+
+
+date: 17 thu mar 2016
+
+
+date: 18 fri mar 2016
+time: 4pm
+gap: 57
+064
+004
+
+
+
+date: 19 sat mar 2016
+
+
+date: 20 sun mar 2016
+
+
+date: 21 mon mar 2016
+time: 4pm
+gap: 84
+889
+829
+
+
+
+date: 22 tue mar 2016
+
+
+date: 23 wed mar 2016
+time: 11am
+gap: 90
+198
+138
+
+
+
+date: 28 mon mar 2016
+
+
+date: 29 tue mar 2016
+
+
+date: 30 wed mar 2016
+
+
+date: 31 thu mar 2016
+
+
+date: 01 fri apr 2016
+
+
+date: 02 sat apr 2016
+time: 9pm
+gap: 48
+283
+223
+
+time: 9pm
+gap: 65
+621
+661
+
+
+
+date: 03 sun apr 2016
+
+
+date: 04 mon apr 2016
+
+
+date: 05 tue apr 2016
+time: 4pm
+gap: 72
+407
+447
+
+
+
+date: 06 wed apr 2016
+
+
+date: 07 thu apr 2016
+
+
+date: 08 fri apr 2016
+
+
+date: 09 sat apr 2016
+
+
+date: 10 sun apr 2016
+
+
+date: 11 mon apr 2016
+
+
+date: 12 tue apr 2016
+
+
+date: 13 wed apr 2016
+
+
+date: 14 thu apr 2016
+
+
+date: 15 fri apr 2016
+
+
+date: 16 sat apr 2016
+
+
+date: 17 sun apr 2016
+
+
+date: 18 mon apr 2016
+
+
+date: 19 tue apr 2016
+time: 9pm
+gap: 68
+506
+546
+
+
+
+date: 20 wed apr 2016
+
+
+date: 21 thu apr 2016
+
+
+date: 22 fri apr 2016
+
+
+date: 23 sat apr 2016
+
+
+date: 24 sun apr 2016
+
+
+date: 25 mon apr 2016
+
+
+date: 26 tue apr 2016
+
+
+date: 27 wed apr 2016
+
+
+date: 28 thu apr 2016
+
+
+date: 29 fri apr 2016
+time: 11am
+gap: 32
+139
+179
+
+
+
+date: 30 sat apr 2016
+time: 11am
+gap: 25
+011
+051
+
+
+
+date: 01 sun may 2016
+time: 9pm
+gap: 88
+049
+089
+
+
+
+date: 02 mon may 2016
+
+
+date: 03 tue may 2016
+
+
+date: 04 wed may 2016
+
+
+date: 05 thu may 2016
+
+
+date: 06 fri may 2016
+time: 4pm
+gap: 10
+902
+942
+
+time: 4pm
+gap: 17
+495
+435
+
+
+
+date: 07 sat may 2016
+
+
+date: 08 sun may 2016
+
+
+date: 09 mon may 2016
+
+
+date: 10 tue may 2016
+
+
+date: 11 wed may 2016
+
+
+date: 12 thu may 2016
+
+
+date: 13 fri may 2016
+
+
+date: 14 sat may 2016
+time: 11am
+gap: 24
+859
+899
+
+
+
+date: 15 sun may 2016
+
+
+date: 16 mon may 2016
+time: 9pm
+gap: 41
+216
+256
+
+
+
+date: 17 tue may 2016
+
+
+date: 18 wed may 2016
+
+
+date: 19 thu may 2016
+
+
+date: 20 fri may 2016
+
+
+date: 21 sat may 2016
+
+
+date: 22 sun may 2016
+
+
+date: 23 mon may 2016
+
+
+date: 24 tue may 2016
+
+
+date: 25 wed may 2016
+
+
+date: 26 thu may 2016
+
+
+date: 27 fri may 2016
+
+
+date: 28 sat may 2016
+time: 11am
+gap: 28
+365
+305
+
+
+
+date: 29 sun may 2016
+time: 4pm
+gap: 10
+794
+734
+
+
+
+date: 30 mon may 2016
+
+
+date: 31 tue may 2016
+
+
+date: 01 wed jun 2016
+
+
+date: 02 thu jun 2016
+
+
+date: 03 fri jun 2016
+
+
+date: 04 sat jun 2016
+
+
+date: 05 sun jun 2016
+
+
+date: 06 mon jun 2016
+
+
+date: 07 tue jun 2016
+
+
+date: 08 wed jun 2016
+
+
+date: 09 thu jun 2016
+
+
+date: 10 fri jun 2016
+
+
+date: 11 sat jun 2016
+time: 4pm
+gap: 8
+254
+294
+
+
+
+date: 12 sun jun 2016
+
+
+date: 13 mon jun 2016
+
+
+date: 14 tue jun 2016
+
+
+date: 15 wed jun 2016
+time: 4pm
+gap: 68
+839
+879
+
+
+
+date: 16 thu jun 2016
+
+
+date: 17 fri jun 2016
+
+
+date: 18 sat jun 2016
+
+
+date: 19 sun jun 2016
+time: 11am
+gap: 9
+610
+650
+
+
+
+date: 20 mon jun 2016
+
+
+date: 21 tue jun 2016
+
+
+date: 22 wed jun 2016
+
+
+date: 23 thu jun 2016
+
+
+date: 24 fri jun 2016
+
+
+date: 25 sat jun 2016
+
+
+date: 26 sun jun 2016
+time: 9pm
+gap: 16
+057
+097
+
+
+
+date: 27 mon jun 2016
+time: 11am
+gap: 63
+237
+277
+
+
+
+date: 28 tue jun 2016
+
+
+date: 29 wed jun 2016
+
+
+date: 30 thu jun 2016
+
+
+date: 01 fri jul 2016
+
+
+date: 02 sat jul 2016
+
+
+date: 03 sun jul 2016
+
+
+date: 04 mon jul 2016
+
+
+date: 05 tue jul 2016
+
+
+date: 06 wed jul 2016
+
+
+date: 07 thu jul 2016
+
+
+date: 08 fri jul 2016
+
+
+date: 09 sat jul 2016
+
+
+date: 10 sun jul 2016
+
+
+date: 11 mon jul 2016
+
+
+date: 12 tue jul 2016
+
+
+date: 13 wed jul 2016
+time: 11am
+gap: 37
+018
+058
+
+
+
+date: 14 thu jul 2016
+
+
+date: 15 fri jul 2016
+
+
+date: 16 sat jul 2016
+
+
+date: 17 sun jul 2016
+
+
+date: 18 mon jul 2016
+
+
+date: 19 tue jul 2016
+
+
+date: 20 wed jul 2016
+
+
+date: 21 thu jul 2016
+
+
+date: 22 fri jul 2016
+
+
+date: 23 sat jul 2016
+
+
+date: 24 sun jul 2016
+
+
+date: 25 mon jul 2016
+time: 11am
+gap: 41
+883
+823
+
+
+
+date: 26 tue jul 2016
+
+
+date: 27 wed jul 2016
+
+
+date: 28 thu jul 2016
+
+
+date: 29 fri jul 2016
+
+
+date: 30 sat jul 2016
+
+
+date: 31 sun jul 2016
+
+
+date: 01 mon aug 2016
+
+
+date: 02 tue aug 2016
+
+
+date: 03 wed aug 2016
+
+
+date: 04 thu aug 2016
+
+
+date: 05 fri aug 2016
+
+
+date: 06 sat aug 2016
+
+
+date: 07 sun aug 2016
+
+
+date: 08 mon aug 2016
+
+
+date: 09 tue aug 2016
+
+
+date: 10 wed aug 2016
+
+
+date: 11 thu aug 2016
+
+
+date: 12 fri aug 2016
+
+
+date: 13 sat aug 2016
+
+
+date: 14 sun aug 2016
+time: 11am
+gap: 54
+933
+973
+
+
+
+date: 15 mon aug 2016
+
+
+date: 16 tue aug 2016
+
+
+date: 17 wed aug 2016
+
+
+date: 18 thu aug 2016
+
+
+date: 19 fri aug 2016
+time: 11am
+gap: 40
+695
+635
+
+
+
+date: 20 sat aug 2016
+
+
+date: 21 sun aug 2016
+
+
+date: 22 mon aug 2016
+
+
+date: 23 tue aug 2016
+
+
+date: 24 wed aug 2016
+
+
+date: 25 thu aug 2016
+
+
+date: 26 fri aug 2016
+
+
+date: 27 sat aug 2016
+
+
+date: 28 sun aug 2016
+
+
+date: 29 mon aug 2016
+
+
+date: 30 tue aug 2016
+
+
+date: 31 wed aug 2016
+
+
+date: 01 thu sep 2016
+
+
+date: 02 fri sep 2016
+
+
+date: 03 sat sep 2016
+
+
+date: 04 sun sep 2016
+
+
+date: 05 mon sep 2016
+
+
+date: 06 tue sep 2016
+
+
+date: 07 wed sep 2016
+
+
+date: 08 thu sep 2016
+
+
+date: 09 fri sep 2016
+
+
+date: 10 sat sep 2016
+
+
+date: 11 sun sep 2016
+time: 4pm
+gap: 63
+861
+801
+
+
+
+date: 12 mon sep 2016
+
+
+date: 13 tue sep 2016
+
+
+date: 14 wed sep 2016
+
+
+date: 15 thu sep 2016
+
+
+date: 16 fri sep 2016
+time: 11am
+gap: 50
+485
+425
+
+
+
+date: 17 sat sep 2016
+
+
+date: 18 sun sep 2016
+
+
+date: 19 mon sep 2016
+time: 11am
+gap: 47
+830
+870
+
+
+
+date: 20 tue sep 2016
+
+
+date: 21 wed sep 2016
+
+
+date: 22 thu sep 2016
+
+
+date: 23 fri sep 2016
+
+
+date: 24 sat sep 2016
+
+
+date: 25 sun sep 2016
+
+
+date: 26 mon sep 2016
+time: 11am
+gap: 41
+908
+948
+
+
+
+date: 27 tue sep 2016
+
+
+date: 28 wed sep 2016
+
+
+date: 29 thu sep 2016
+
+
+date: 30 fri sep 2016
+
+
+date: 01 sat oct 2016
+
+
+date: 02 sun oct 2016
+
+
+date: 03 mon oct 2016
+
+
+date: 04 tue oct 2016
+
+
+date: 05 wed oct 2016
+
+
+date: 06 thu oct 2016
+
+
+date: 07 fri oct 2016
+
+
+date: 08 sat oct 2016
+
+
+date: 09 sun oct 2016
+
+
+date: 10 mon oct 2016
+
+
+date: 11 tue oct 2016
+
+
+date: 12 wed oct 2016
+
+
+date: 13 thu oct 2016
+
+
+date: 14 fri oct 2016
+time: 9pm
+gap: 11
+287
+227
+
+
+
+date: 15 sat oct 2016
+
+
+date: 16 sun oct 2016
+
+
+date: 17 mon oct 2016
+
+
+date: 18 tue oct 2016
+
+
+date: 19 wed oct 2016
+
+
+date: 20 thu oct 2016
+
+
+date: 21 fri oct 2016
+
+
+date: 22 sat oct 2016
+
+
+date: 23 sun oct 2016
+
+
+date: 24 mon oct 2016
+
+
+date: 25 tue oct 2016
+
+
+date: 26 wed oct 2016
+
+
+date: 27 thu oct 2016
+
+
+date: 28 fri oct 2016
+
+
+date: 29 sat oct 2016
+
+
+date: 30 sun oct 2016
+
+
+date: 31 mon oct 2016
+
+
+date: 01 tue nov 2016
+
+
+date: 02 wed nov 2016
+time: 11am
+gap: 1
+395
+335
+
+
+
+date: 03 thu nov 2016
+
+
+date: 04 fri nov 2016
+
+
+date: 05 sat nov 2016
+
+
+date: 06 sun nov 2016
+
+
+date: 07 mon nov 2016
+
+
+date: 08 tue nov 2016
+time: 9pm
+gap: 6
+853
+893
+
+
+
+date: 09 wed nov 2016
+
+
+date: 10 thu nov 2016
+
+
+date: 11 fri nov 2016
+
+
+date: 12 sat nov 2016
+time: 11am
+gap: 94
+759
+799
+
+
+
+date: 13 sun nov 2016
+
+
+date: 14 mon nov 2016
+
+
+date: 15 tue nov 2016
+
+
+date: 16 wed nov 2016
+
+
+date: 17 thu nov 2016
+
+
+date: 18 fri nov 2016
+
+
+date: 19 sat nov 2016
+time: 4pm
+gap: 20
+265
+205
+
+
+
+date: 20 sun nov 2016
+
+
+date: 21 mon nov 2016
+time: 4pm
+gap: 20
+863
+803
+
+
+
+date: 22 tue nov 2016
+
+
+date: 23 wed nov 2016
+time: 4pm
+gap: 55
+806
+846
+
+
+
+date: 24 thu nov 2016
+
+
+date: 25 fri nov 2016
+
+
+date: 26 sat nov 2016
+
+
+date: 27 sun nov 2016
+
+
+date: 28 mon nov 2016
+
+
+date: 29 tue nov 2016
+
+
+date: 30 wed nov 2016
+
+
+date: 01 thu dec 2016
+time: 11am
+gap: 74
+908
+948
+
+
+
+date: 02 fri dec 2016
+
+
+date: 03 sat dec 2016
+time: 11am
+gap: 18
+007
+047
+
+
+
+date: 04 sun dec 2016
+
+
+date: 05 mon dec 2016
+
+
+date: 06 tue dec 2016
+
+
+date: 07 wed dec 2016
+
+
+date: 08 thu dec 2016
+
+
+date: 09 fri dec 2016
+
+
+date: 10 sat dec 2016
+
+
+date: 11 sun dec 2016
+time: 11am
+gap: 48
+609
+649
+
+
+
+date: 12 mon dec 2016
+
+
+date: 13 tue dec 2016
+
+
+date: 14 wed dec 2016
+
+
+date: 15 thu dec 2016
+
+
+date: 16 fri dec 2016
+
+
+date: 17 sat dec 2016
+
+
+date: 18 sun dec 2016
+
+
+date: 19 mon dec 2016
+
+
+date: 20 tue dec 2016
+
+
+date: 21 wed dec 2016
+
+
+date: 22 thu dec 2016
+
+
+date: 23 fri dec 2016
+
+
+date: 24 sat dec 2016
+
+
+date: 26 mon dec 2016
+
+
+date: 27 tue dec 2016
+
+
+date: 28 wed dec 2016
+
+
+date: 29 thu dec 2016
+
+
+date: 30 fri dec 2016
+
+
+date: 31 sat dec 2016
+
+
+date: 02 mon jan 2017
+
+
+date: 03 tue jan 2017
+
+
+date: 04 wed jan 2017
+
+
+date: 05 thu jan 2017
+
+
+date: 06 fri jan 2017
+time: 11am
+gap: 32
+744
+784
+
+
+
+date: 07 sat jan 2017
+
+
+date: 08 sun jan 2017
+
+
+date: 09 mon jan 2017
+
+
+date: 10 tue jan 2017
+
+
+date: 11 wed jan 2017
+
+
+date: 12 thu jan 2017
+
+
+date: 13 fri jan 2017
+
+
+date: 14 sat jan 2017
+
+
+date: 15 sun jan 2017
+
+
+date: 16 mon jan 2017
+
+
+date: 17 tue jan 2017
+
+
+date: 18 wed jan 2017
+
+
+date: 19 thu jan 2017
+
+
+date: 20 fri jan 2017
+
+
+date: 21 sat jan 2017
+time: 9pm
+gap: 4
+985
+925
+
+
+
+date: 22 sun jan 2017
+
+
+date: 23 mon jan 2017
+
+
+date: 24 tue jan 2017
+time: 4pm
+gap: 99
+976
+916
+
+
+
+date: 25 wed jan 2017
+
+
+date: 26 thu jan 2017
+
+
+date: 27 fri jan 2017
+
+
+date: 28 sat jan 2017
+
+
+date: 29 sun jan 2017
+
+
+date: 30 mon jan 2017
+
+
+date: 31 tue jan 2017
+time: 11am
+gap: 48
+609
+649
+
+
+
+date: 01 wed feb 2017
+
+
+date: 02 thu feb 2017
+
+
+date: 03 fri feb 2017
+
+
+date: 04 sat feb 2017
+
+
+date: 05 sun feb 2017
+
+
+date: 06 mon feb 2017
+
+
+date: 07 tue feb 2017
+time: 4pm
+gap: 30
+497
+437
+
+
+
+date: 08 wed feb 2017
+
+
+date: 09 thu feb 2017
+
+
+date: 10 fri feb 2017
+
+
+date: 11 sat feb 2017
+
+
+date: 12 sun feb 2017
+
+
+date: 13 mon feb 2017
+
+
+date: 14 tue feb 2017
+
+
+date: 15 wed feb 2017
+
+
+date: 16 thu feb 2017
+
+
+date: 17 fri feb 2017
+
+
+date: 18 sat feb 2017
+
+
+date: 19 sun feb 2017
+
+
+date: 20 mon feb 2017
+
+
+date: 21 tue feb 2017
+
+
+date: 22 wed feb 2017
+
+
+date: 23 thu feb 2017
+
+
+date: 24 fri feb 2017
+
+
+date: 25 sat feb 2017
+
+
+date: 26 sun feb 2017
+
+
+date: 27 mon feb 2017
+time: 4pm
+gap: 88
+776
+716
+
+
+
+date: 28 tue feb 2017
+time: 9pm
+gap: 1
+038
+078
+
+
+
+date: 01 wed mar 2017
+
+
+date: 02 thu mar 2017
+
+
+date: 03 fri mar 2017
+
+
+date: 04 sat mar 2017
+
+
+date: 05 sun mar 2017
+
+
+date: 06 mon mar 2017
+
+
+date: 07 tue mar 2017
+
+
+date: 08 wed mar 2017
+
+
+date: 09 thu mar 2017
+
+
+date: 10 fri mar 2017
+
+
+date: 11 sat mar 2017
+time: 4pm
+gap: 62
+237
+277
+
+
+
+date: 12 sun mar 2017
+
+
+date: 13 mon mar 2017
+
+
+date: 14 tue mar 2017
+
+
+date: 15 wed mar 2017
+
+
+date: 16 thu mar 2017
+
+
+date: 17 fri mar 2017
+
+
+date: 18 sat mar 2017
+time: 11am
+gap: 45
+511
+551
+
+
+
+date: 19 sun mar 2017
+
+
+date: 20 mon mar 2017
+
+
+date: 21 tue mar 2017
+
+
+date: 22 wed mar 2017
+
+
+date: 23 thu mar 2017
+
+
+date: 24 fri mar 2017
+
+
+date: 25 sat mar 2017
+
+
+date: 26 sun mar 2017
+
+
+date: 27 mon mar 2017
+
+
+date: 28 tue mar 2017
+time: 11am
+gap: 92
+609
+649
+
+
+
+date: 29 wed mar 2017
+
+
+date: 30 thu mar 2017
+
+
+date: 31 fri mar 2017
+
+
+date: 01 sat apr 2017
+
+
+date: 02 sun apr 2017
+
+
+date: 03 mon apr 2017
+
+
+date: 04 tue apr 2017
+
+
+date: 05 wed apr 2017
+
+
+date: 06 thu apr 2017
+
+
+date: 07 fri apr 2017
+time: 4pm
+gap: 67
+962
+902
+
+
+
+date: 08 sat apr 2017
+
+
+date: 09 sun apr 2017
+time: 11am
+gap: 41
+466
+406
+
+
+
+date: 10 mon apr 2017
+
+
+date: 11 tue apr 2017
+
+
+date: 12 wed apr 2017
+
+
+date: 17 mon apr 2017
+
+
+date: 18 tue apr 2017
+
+
+date: 19 wed apr 2017
+
+
+date: 20 thu apr 2017
+
+
+date: 21 fri apr 2017
+
+
+date: 22 sat apr 2017
+
+
+date: 23 sun apr 2017
+
+
+date: 24 mon apr 2017
+
+
+date: 25 tue apr 2017
+
+
+date: 26 wed apr 2017
+
+
+date: 27 thu apr 2017
+
+
+date: 28 fri apr 2017
+time: 9pm
+gap: 19
+638
+678
+
+
+
+date: 29 sat apr 2017
+
+
+date: 30 sun apr 2017
+
+
+date: 01 mon may 2017
+
+
+date: 02 tue may 2017
+
+
+date: 03 wed may 2017
+
+
+date: 04 thu may 2017
+
+
+date: 05 fri may 2017
+
+
+date: 06 sat may 2017
+
+
+date: 07 sun may 2017
+
+
+date: 08 mon may 2017
+
+
+date: 09 tue may 2017
+
+
+date: 10 wed may 2017
+
+
+date: 11 thu may 2017
+
+
+date: 12 fri may 2017
+
+
+date: 13 sat may 2017
+
+
+date: 14 sun may 2017
+
+
+date: 15 mon may 2017
+
+
+date: 16 tue may 2017
+
+
+date: 17 wed may 2017
+
+
+date: 18 thu may 2017
+
+
+date: 19 fri may 2017
+
+
+date: 20 sat may 2017
+
+
+date: 21 sun may 2017
+
+
+date: 22 mon may 2017
+
+
+date: 23 tue may 2017
+
+
+date: 24 wed may 2017
+
+
+date: 25 thu may 2017
+
+
+date: 26 fri may 2017
+
+
+date: 27 sat may 2017
+time: 9pm
+gap: 54
+336
+376
+
+
+
+date: 28 sun may 2017
+
+
+date: 29 mon may 2017
+
+
+date: 30 tue may 2017
+
+
+date: 31 wed may 2017
+
+
+date: 01 thu jun 2017
+time: 4pm
+gap: 47
+920
+960
+
+
+
+date: 02 fri jun 2017
+
+
+date: 03 sat jun 2017
+
+
+date: 04 sun jun 2017
+
+
+date: 05 mon jun 2017
+time: 9pm
+gap: 5
+498
+438
+
+
+
+date: 06 tue jun 2017
+
+
+date: 07 wed jun 2017
+
+
+date: 08 thu jun 2017
+
+
+date: 09 fri jun 2017
+
+
+date: 10 sat jun 2017
+
+
+date: 11 sun jun 2017
+
+
+date: 12 mon jun 2017
+
+
+date: 13 tue jun 2017
+time: 11am
+gap: 73
+966
+906
+
+time: 9pm
+gap: 38
+228
+268
+
+
+
+date: 14 wed jun 2017
+
+
+date: 15 thu jun 2017
+
+
+date: 16 fri jun 2017
+
+
+date: 17 sat jun 2017
+time: 4pm
+gap: 3
+734
+774
+
+
+
+date: 18 sun jun 2017
+
+
+date: 19 mon jun 2017
+
+
+date: 20 tue jun 2017
+
+
+date: 21 wed jun 2017
+
+
+date: 22 thu jun 2017
+
+
+date: 23 fri jun 2017
+
+
+date: 24 sat jun 2017
+
+
+date: 25 sun jun 2017
+
+
+date: 26 mon jun 2017
+
+
+date: 27 tue jun 2017
+
+
+date: 28 wed jun 2017
+
+
+date: 29 thu jun 2017
+
+
+date: 30 fri jun 2017
+
+
+date: 01 sat jul 2017
+
+
+date: 02 sun jul 2017
+
+
+date: 03 mon jul 2017
+time: 9pm
+gap: 74
+281
+221
+
+
+
+date: 04 tue jul 2017
+
+
+date: 05 wed jul 2017
+
+
+date: 06 thu jul 2017
+time: 11am
+gap: 55
+916
+956
+
+
+
+date: 07 fri jul 2017
+
+
+date: 08 sat jul 2017
+time: 9pm
+gap: 14
+884
+824
+
+
+
+date: 09 sun jul 2017
+
+
+date: 10 mon jul 2017
+
+
+date: 11 tue jul 2017
+time: 11am
+gap: 38
+932
+972
+
+
+
+date: 12 wed jul 2017
+
+
+date: 13 thu jul 2017
+
+
+date: 14 fri jul 2017
+
+
+date: 15 sat jul 2017
+
+
+date: 16 sun jul 2017
+
+
+date: 17 mon jul 2017
+
+
+date: 18 tue jul 2017
+
+
+date: 19 wed jul 2017
+
+
+date: 20 thu jul 2017
+
+
+date: 21 fri jul 2017
+
+
+date: 22 sat jul 2017
+
+
+date: 23 sun jul 2017
+
+
+date: 24 mon jul 2017
+
+
+date: 25 tue jul 2017
+
+
+date: 26 wed jul 2017
+
+
+date: 27 thu jul 2017
+
+
+date: 28 fri jul 2017
+
+
+date: 29 sat jul 2017
+time: 11am
+gap: 77
+362
+302
+
+
+
+date: 30 sun jul 2017
+
+
+date: 31 mon jul 2017
+
+
+date: 01 tue aug 2017
+
+
+date: 02 wed aug 2017
+
+
+date: 03 thu aug 2017
+
+
+date: 04 fri aug 2017
+
+
+date: 05 sat aug 2017
+
+
+date: 06 sun aug 2017
+
+
+date: 07 mon aug 2017
+
+
+date: 08 tue aug 2017
+
+
+date: 09 wed aug 2017
+
+
+date: 10 thu aug 2017
+
+
+date: 11 fri aug 2017
+
+
+date: 12 sat aug 2017
+
+
+date: 13 sun aug 2017
+time: 11am
+gap: 67
+283
+223
+
+
+
+date: 14 mon aug 2017
+
+
+date: 15 tue aug 2017
+
+
+date: 16 wed aug 2017
+time: 11am
+gap: 12
+771
+711
+
+
+
+date: 17 thu aug 2017
+
+
+date: 18 fri aug 2017
+
+
+date: 19 sat aug 2017
+
+
+date: 20 sun aug 2017
+
+
+date: 21 mon aug 2017
+
+
+date: 22 tue aug 2017
+
+
+date: 23 wed aug 2017
+
+
+date: 24 thu aug 2017
+time: 4pm
+gap: 12
+190
+130
+
+
+
+date: 25 fri aug 2017
+
+
+date: 26 sat aug 2017
+
+
+date: 27 sun aug 2017
+
+
+date: 28 mon aug 2017
+
+
+date: 29 tue aug 2017
+
+
+date: 30 wed aug 2017
+
+
+date: 31 thu aug 2017
+
+
+date: 01 fri sep 2017
+
+
+date: 02 sat sep 2017
+
+
+date: 03 sun sep 2017
+
+
+date: 04 mon sep 2017
+
+
+date: 05 tue sep 2017
+
+
+date: 06 wed sep 2017
+
+
+date: 07 thu sep 2017
+
+
+date: 08 fri sep 2017
+
+
+date: 09 sat sep 2017
+
+
+date: 10 sun sep 2017
+
+
+date: 11 mon sep 2017
+
+
+date: 12 tue sep 2017
+
+
+date: 13 wed sep 2017
+
+
+date: 14 thu sep 2017
+
+
+date: 15 fri sep 2017
+
+
+date: 16 sat sep 2017
+
+
+date: 17 sun sep 2017
+
+
+date: 18 mon sep 2017
+
+
+date: 19 tue sep 2017
+
+
+date: 20 wed sep 2017
+
+
+date: 21 thu sep 2017
+
+
+date: 22 fri sep 2017
+
+
+date: 23 sat sep 2017
+
+
+date: 24 sun sep 2017
+
+
+date: 25 mon sep 2017
+
+
+date: 26 tue sep 2017
+
+
+date: 27 wed sep 2017
+
+
+date: 28 thu sep 2017
+
+
+date: 29 fri sep 2017
+
+
+date: 30 sat sep 2017
+
+
+date: 01 sun oct 2017
+
+
+date: 02 mon oct 2017
+
+
+date: 03 tue oct 2017
+time: 4pm
+gap: 99
+427
+467
+
+
+
+date: 04 wed oct 2017
+
+
+date: 05 thu oct 2017
+
+
+date: 06 fri oct 2017
+
+
+date: 07 sat oct 2017
+time: 9pm
+gap: 27
+917
+957
+
+
+
+date: 08 sun oct 2017
+
+
+date: 09 mon oct 2017
+
+
+date: 10 tue oct 2017
+
+
+date: 11 wed oct 2017
+
+
+date: 12 thu oct 2017
+time: 4pm
+gap: 88
+398
+338
+
+
+
+date: 13 fri oct 2017
+
+
+date: 14 sat oct 2017
+time: 11am
+gap: 85
+710
+750
+
+
+
+date: 15 sun oct 2017
+
+
+date: 16 mon oct 2017
+
+
+date: 17 tue oct 2017
+
+
+date: 18 wed oct 2017
+
+
+date: 19 thu oct 2017
+
+
+date: 20 fri oct 2017
+time: 11am
+gap: 91
+340
+380
+
+
+
+date: 21 sat oct 2017
+
+
+date: 22 sun oct 2017
+
+
+date: 23 mon oct 2017
+
+
+date: 24 tue oct 2017
+
+
+date: 25 wed oct 2017
+
+
+date: 26 thu oct 2017
+
+
+date: 27 fri oct 2017
+
+
+date: 28 sat oct 2017
+
+
+date: 29 sun oct 2017
+
+
+date: 30 mon oct 2017
+
+
+date: 31 tue oct 2017
+
+
+date: 01 wed nov 2017
+
+
+date: 02 thu nov 2017
+
+
+date: 03 fri nov 2017
+
+
+date: 04 sat nov 2017
+
+
+date: 05 sun nov 2017
+time: 11am
+gap: 41
+172
+112
+
+
+
+date: 06 mon nov 2017
+
+
+date: 07 tue nov 2017
+
+
+date: 08 wed nov 2017
+
+
+date: 09 thu nov 2017
+
+
+date: 10 fri nov 2017
+
+
+date: 11 sat nov 2017
+
+
+date: 12 sun nov 2017
+
+
+date: 13 mon nov 2017
+
+
+date: 14 tue nov 2017
+
+
+date: 15 wed nov 2017
+
+
+date: 16 thu nov 2017
+
+
+date: 17 fri nov 2017
+
+
+date: 18 sat nov 2017
+
+
+date: 19 sun nov 2017
+time: 11am
+gap: 77
+283
+223
+
+
+
+date: 20 mon nov 2017
+time: 9pm
+gap: 70
+671
+611
+
+
+
+date: 21 tue nov 2017
+
+
+date: 22 wed nov 2017
+
+
+date: 23 thu nov 2017
+
+
+date: 24 fri nov 2017
+
+
+date: 25 sat nov 2017
+
+
+date: 26 sun nov 2017
+
+
+date: 27 mon nov 2017
+
+
+date: 28 tue nov 2017
+time: 11am
+gap: 24
+497
+437
+
+
+
+date: 29 wed nov 2017
+time: 9pm
+gap: 62
+821
+861
+
+
+
+date: 30 thu nov 2017
+
+
+date: 01 fri dec 2017
+
+
+date: 02 sat dec 2017
+
+
+date: 03 sun dec 2017
+
+
+date: 04 mon dec 2017
+time: 11am
+gap: 97
+916
+956
+
+time: 4pm
+gap: 51
+268
+208
+
+
+
+date: 05 tue dec 2017
+
+
+date: 06 wed dec 2017
+time: 11am
+gap: 95
+361
+301
+
+time: 4pm
+gap: 39
+387
+327
+
+
+
+date: 07 thu dec 2017
+
+
+date: 08 fri dec 2017
+
+
+date: 09 sat dec 2017
+
+
+date: 10 sun dec 2017
+
+
+date: 11 mon dec 2017
+time: 9pm
+gap: 51
+318
+358
+
+
+
+date: 12 tue dec 2017
+
+
+date: 13 wed dec 2017
+
+
+date: 14 thu dec 2017
+
+
+date: 15 fri dec 2017
+
+
+date: 16 sat dec 2017
+
+
+date: 17 sun dec 2017
+time: 4pm
+gap: 47
+351
+391
+
+
+
+date: 18 mon dec 2017
+time: 9pm
+gap: 98
+159
+199
+
+
+
+date: 19 tue dec 2017
+
+
+date: 20 wed dec 2017
+
+
+date: 21 thu dec 2017
+time: 11am
+gap: 61
+574
+514
+
+
+
+date: 22 fri dec 2017
+
+
+date: 23 sat dec 2017
+
+
+date: 24 sun dec 2017
+
+
+date: 26 tue dec 2017
+
+
+date: 27 wed dec 2017
+
+
+date: 28 thu dec 2017
+
+
+date: 29 fri dec 2017
+
+
+date: 30 sat dec 2017
+
+
+date: 31 sun dec 2017
+
+
 date: 02 tue jan 2018
 
 
@@ -10,6 +6370,9 @@ date: 04 thu jan 2018
 
 
 date: 05 fri jan 2018
+
+
+date: 06 sat jan 2018
 time: 4pm
 gap: 59
 565
@@ -17,13 +6380,13 @@ gap: 59
 
 
 
-date: 06 sat jan 2018
-
-
 date: 07 sun jan 2018
 
 
 date: 08 mon jan 2018
+
+
+date: 09 tue jan 2018
 time: 4pm
 gap: 63
 556
@@ -31,18 +6394,15 @@ gap: 63
 
 
 
-date: 09 tue jan 2018
-
-
 date: 10 wed jan 2018
+
+
+date: 11 thu jan 2018
 time: 9pm
 gap: 76
 773
 713
 
-
-
-date: 11 thu jan 2018
 
 
 date: 12 fri jan 2018
@@ -121,14 +6481,14 @@ date: 05 mon feb 2018
 
 
 date: 06 tue feb 2018
+
+
+date: 07 wed feb 2018
 time: 11am
 gap: 76
 006
 046
 
-
-
-date: 07 wed feb 2018
 
 
 date: 08 thu feb 2018
@@ -192,14 +6552,14 @@ date: 27 tue feb 2018
 
 
 date: 28 wed feb 2018
+
+
+date: 01 thu mar 2018
 time: 11am
 gap: 29
 695
 635
 
-
-
-date: 01 thu mar 2018
 
 
 date: 02 fri mar 2018
@@ -224,14 +6584,14 @@ date: 08 thu mar 2018
 
 
 date: 09 fri mar 2018
+
+
+date: 10 sat mar 2018
 time: 4pm
 gap: 20
 280
 220
 
-
-
-date: 10 sat mar 2018
 
 
 date: 11 sun mar 2018
@@ -268,6 +6628,9 @@ date: 21 wed mar 2018
 
 
 date: 22 thu mar 2018
+
+
+date: 23 fri mar 2018
 time: 9pm
 gap: 95
 996
@@ -275,21 +6638,18 @@ gap: 95
 
 
 
-date: 23 fri mar 2018
-
-
 date: 24 sat mar 2018
 
 
 date: 25 sun mar 2018
+
+
+date: 26 mon mar 2018
 time: 11am
 gap: 13
 709
 749
 
-
-
-date: 26 mon mar 2018
 
 
 date: 27 tue mar 2018
@@ -299,14 +6659,14 @@ date: 28 wed mar 2018
 
 
 date: 02 mon apr 2018
+
+
+date: 03 tue apr 2018
 time: 9pm
 gap: 52
 812
 852
 
-
-
-date: 03 tue apr 2018
 
 
 date: 04 wed apr 2018
@@ -319,14 +6679,14 @@ date: 06 fri apr 2018
 
 
 date: 07 sat apr 2018
+
+
+date: 08 sun apr 2018
 time: 11am
 gap: 57
 171
 111
 
-
-
-date: 08 sun apr 2018
 
 
 date: 09 mon apr 2018
@@ -378,6 +6738,9 @@ date: 24 tue apr 2018
 
 
 date: 25 wed apr 2018
+
+
+date: 26 thu apr 2018
 time: 11am
 gap: 46
 583
@@ -385,21 +6748,18 @@ gap: 46
 
 
 
-date: 26 thu apr 2018
-
-
 date: 27 fri apr 2018
 
 
 date: 28 sat apr 2018
+
+
+date: 29 sun apr 2018
 time: 4pm
 gap: 9
 685
 625
 
-
-
-date: 29 sun apr 2018
 
 
 date: 30 mon apr 2018
@@ -433,14 +6793,14 @@ date: 09 wed may 2018
 
 
 date: 10 thu may 2018
+
+
+date: 11 fri may 2018
 time: 9pm
 gap: 9
 365
 305
 
-
-
-date: 11 fri may 2018
 
 
 date: 12 sat may 2018
@@ -480,6 +6840,9 @@ date: 23 wed may 2018
 
 
 date: 24 thu may 2018
+
+
+date: 25 fri may 2018
 time: 9pm
 gap: 77
 398
@@ -487,18 +6850,15 @@ gap: 77
 
 
 
-date: 25 fri may 2018
-
-
 date: 26 sat may 2018
+
+
+date: 27 sun may 2018
 time: 9pm
 gap: 69
 149
 189
 
-
-
-date: 27 sun may 2018
 
 
 date: 28 mon may 2018
@@ -511,14 +6871,14 @@ date: 30 wed may 2018
 
 
 date: 31 thu may 2018
+
+
+date: 01 fri jun 2018
 time: 4pm
 gap: 66
 719
 759
 
-
-
-date: 01 fri jun 2018
 
 
 date: 02 sat jun 2018
@@ -555,6 +6915,9 @@ date: 12 tue jun 2018
 
 
 date: 13 wed jun 2018
+
+
+date: 14 thu jun 2018
 time: 4pm
 gap: 72
 469
@@ -562,7 +6925,7 @@ gap: 72
 
 
 
-date: 14 thu jun 2018
+date: 15 fri jun 2018
 time: 11am
 gap: 7
 478
@@ -570,13 +6933,13 @@ gap: 7
 
 
 
-date: 15 fri jun 2018
-
-
 date: 16 sat jun 2018
 
 
 date: 17 sun jun 2018
+
+
+date: 18 mon jun 2018
 time: 9pm
 gap: 76
 350
@@ -584,15 +6947,12 @@ gap: 76
 
 
 
-date: 18 mon jun 2018
+date: 19 tue jun 2018
 time: 4pm
 gap: 30
 696
 636
 
-
-
-date: 19 tue jun 2018
 
 
 date: 20 wed jun 2018
@@ -611,6 +6971,9 @@ date: 24 sun jun 2018
 
 
 date: 25 mon jun 2018
+
+
+date: 26 tue jun 2018
 time: 11am
 gap: 63
 872
@@ -618,15 +6981,12 @@ gap: 63
 
 
 
-date: 26 tue jun 2018
+date: 27 wed jun 2018
 time: 9pm
 gap: 94
 349
 389
 
-
-
-date: 27 wed jun 2018
 
 
 date: 28 thu jun 2018
@@ -672,14 +7032,14 @@ date: 11 wed jul 2018
 
 
 date: 12 thu jul 2018
+
+
+date: 13 fri jul 2018
 time: 11am
 gap: 93
 550
 590
 
-
-
-date: 13 fri jul 2018
 
 
 date: 14 sat jul 2018
@@ -704,14 +7064,14 @@ date: 20 fri jul 2018
 
 
 date: 21 sat jul 2018
+
+
+date: 22 sun jul 2018
 time: 11am
 gap: 22
 905
 945
 
-
-
-date: 22 sun jul 2018
 
 
 date: 23 mon jul 2018
@@ -763,14 +7123,14 @@ date: 07 tue aug 2018
 
 
 date: 08 wed aug 2018
+
+
+date: 09 thu aug 2018
 time: 4pm
 gap: 21
 248
 288
 
-
-
-date: 09 thu aug 2018
 
 
 date: 10 fri aug 2018
@@ -828,14 +7188,14 @@ date: 27 mon aug 2018
 
 
 date: 28 tue aug 2018
+
+
+date: 29 wed aug 2018
 time: 4pm
 gap: 56
 055
 095
 
-
-
-date: 29 wed aug 2018
 
 
 date: 30 thu aug 2018
@@ -974,6 +7334,9 @@ date: 13 sat oct 2018
 
 
 date: 14 sun oct 2018
+
+
+date: 15 mon oct 2018
 time: 11am
 gap: 90
 093
@@ -981,21 +7344,18 @@ gap: 90
 
 
 
-date: 15 mon oct 2018
-
-
 date: 16 tue oct 2018
 
 
 date: 17 wed oct 2018
+
+
+date: 18 thu oct 2018
 time: 11am
 gap: 77
 455
 495
 
-
-
-date: 18 thu oct 2018
 
 
 date: 19 fri oct 2018
@@ -1014,14 +7374,14 @@ date: 23 tue oct 2018
 
 
 date: 24 wed oct 2018
+
+
+date: 25 thu oct 2018
 time: 9pm
 gap: 98
 881
 821
 
-
-
-date: 25 thu oct 2018
 
 
 date: 26 fri oct 2018
@@ -1037,6 +7397,9 @@ date: 29 mon oct 2018
 
 
 date: 30 tue oct 2018
+
+
+date: 31 wed oct 2018
 time: 11am
 gap: 61
 365
@@ -1049,15 +7412,12 @@ gap: 66
 
 
 
-date: 31 wed oct 2018
+date: 01 thu nov 2018
 time: 9pm
 gap: 58
 471
 411
 
-
-
-date: 01 thu nov 2018
 
 
 date: 02 fri nov 2018
@@ -1127,14 +7487,14 @@ date: 23 fri nov 2018
 
 
 date: 24 sat nov 2018
+
+
+date: 25 sun nov 2018
 time: 9pm
 gap: 14
 448
 488
 
-
-
-date: 25 sun nov 2018
 
 
 date: 26 mon nov 2018
@@ -1144,6 +7504,9 @@ date: 27 tue nov 2018
 
 
 date: 28 wed nov 2018
+
+
+date: 29 thu nov 2018
 time: 9pm
 gap: 12
 341
@@ -1151,13 +7514,13 @@ gap: 12
 
 
 
-date: 29 thu nov 2018
-
-
 date: 30 fri nov 2018
 
 
 date: 01 sat dec 2018
+
+
+date: 02 sun dec 2018
 time: 11am
 gap: 18
 786
@@ -1173,9 +7536,6 @@ gap: 83
 440
 480
 
-
-
-date: 02 sun dec 2018
 
 
 date: 03 mon dec 2018
@@ -1197,14 +7557,14 @@ date: 08 sat dec 2018
 
 
 date: 09 sun dec 2018
+
+
+date: 10 mon dec 2018
 time: 11am
 gap: 4
 984
 924
 
-
-
-date: 10 mon dec 2018
 
 
 date: 11 tue dec 2018
@@ -1232,14 +7592,14 @@ date: 18 tue dec 2018
 
 
 date: 19 wed dec 2018
+
+
+date: 20 thu dec 2018
 time: 9pm
 gap: 59
 115
 155
 
-
-
-date: 20 thu dec 2018
 
 
 date: 21 fri dec 2018
@@ -1255,14 +7615,14 @@ date: 24 mon dec 2018
 
 
 date: 26 wed dec 2018
+
+
+date: 27 thu dec 2018
 time: 9pm
 gap: 42
 932
 972
 
-
-
-date: 27 thu dec 2018
 
 
 date: 28 fri dec 2018
@@ -1272,14 +7632,14 @@ date: 29 sat dec 2018
 
 
 date: 30 sun dec 2018
+
+
+date: 31 mon dec 2018
 time: 9pm
 gap: 94
 295
 235
 
-
-
-date: 31 mon dec 2018
 
 
 date: 02 wed jan 2019
@@ -1337,14 +7697,14 @@ date: 19 sat jan 2019
 
 
 date: 20 sun jan 2019
+
+
+date: 21 mon jan 2019
 time: 11am
 gap: 81
 559
 599
 
-
-
-date: 21 mon jan 2019
 
 
 date: 22 tue jan 2019
@@ -1363,6 +7723,9 @@ date: 26 sat jan 2019
 
 
 date: 27 sun jan 2019
+
+
+date: 28 mon jan 2019
 time: 4pm
 gap: 21
 485
@@ -1370,18 +7733,15 @@ gap: 21
 
 
 
-date: 28 mon jan 2019
-
-
 date: 29 tue jan 2019
+
+
+date: 30 wed jan 2019
 time: 11am
 gap: 8
 922
 962
 
-
-
-date: 30 wed jan 2019
 
 
 date: 31 thu jan 2019
@@ -1421,6 +7781,9 @@ date: 11 mon feb 2019
 
 
 date: 12 tue feb 2019
+
+
+date: 13 wed feb 2019
 time: 9pm
 gap: 47
 033
@@ -1433,9 +7796,6 @@ gap: 52
 
 
 
-date: 13 wed feb 2019
-
-
 date: 14 thu feb 2019
 
 
@@ -1443,6 +7803,9 @@ date: 15 fri feb 2019
 
 
 date: 16 sat feb 2019
+
+
+date: 17 sun feb 2019
 time: 4pm
 gap: 18
 716
@@ -1450,10 +7813,10 @@ gap: 18
 
 
 
-date: 17 sun feb 2019
-
-
 date: 18 mon feb 2019
+
+
+date: 19 tue feb 2019
 time: 4pm
 gap: 21
 584
@@ -1464,9 +7827,6 @@ gap: 96
 764
 704
 
-
-
-date: 19 tue feb 2019
 
 
 date: 20 wed feb 2019
@@ -1497,14 +7857,14 @@ date: 28 thu feb 2019
 
 
 date: 01 fri mar 2019
+
+
+date: 02 sat mar 2019
 time: 4pm
 gap: 29
 442
 482
 
-
-
-date: 02 sat mar 2019
 
 
 date: 03 sun mar 2019
@@ -1526,14 +7886,14 @@ date: 08 fri mar 2019
 
 
 date: 09 sat mar 2019
+
+
+date: 10 sun mar 2019
 time: 9pm
 gap: 5
 559
 599
 
-
-
-date: 10 sun mar 2019
 
 
 date: 11 mon mar 2019
@@ -1594,6 +7954,9 @@ date: 29 fri mar 2019
 
 
 date: 30 sat mar 2019
+
+
+date: 31 sun mar 2019
 time: 9pm
 gap: 76
 817
@@ -1601,15 +7964,12 @@ gap: 76
 
 
 
-date: 31 sun mar 2019
+date: 01 mon apr 2019
 time: 9pm
 gap: 40
 675
 615
 
-
-
-date: 01 mon apr 2019
 
 
 date: 02 tue apr 2019
@@ -1619,6 +7979,9 @@ date: 03 wed apr 2019
 
 
 date: 04 thu apr 2019
+
+
+date: 05 fri apr 2019
 time: 11am
 gap: 75
 761
@@ -1626,15 +7989,12 @@ gap: 75
 
 
 
-date: 05 fri apr 2019
+date: 06 sat apr 2019
 time: 9pm
 gap: 11
 609
 649
 
-
-
-date: 06 sat apr 2019
 
 
 date: 07 sun apr 2019
@@ -1665,6 +8025,9 @@ date: 15 mon apr 2019
 
 
 date: 16 tue apr 2019
+
+
+date: 17 wed apr 2019
 time: 11am
 gap: 28
 597
@@ -1675,9 +8038,6 @@ gap: 34
 986
 926
 
-
-
-date: 17 wed apr 2019
 
 
 date: 22 mon apr 2019
@@ -1816,14 +8176,14 @@ date: 05 wed jun 2019
 
 
 date: 06 thu jun 2019
+
+
+date: 07 fri jun 2019
 time: 11am
 gap: 34
 705
 745
 
-
-
-date: 07 fri jun 2019
 
 
 date: 08 sat jun 2019
@@ -1836,6 +8196,9 @@ date: 10 mon jun 2019
 
 
 date: 11 tue jun 2019
+
+
+date: 12 wed jun 2019
 time: 11am
 gap: 29
 442
@@ -1843,15 +8206,12 @@ gap: 29
 
 
 
-date: 12 wed jun 2019
+date: 13 thu jun 2019
 time: 11am
 gap: 79
 551
 591
 
-
-
-date: 13 thu jun 2019
 
 
 date: 14 fri jun 2019
@@ -1864,14 +8224,14 @@ date: 16 sun jun 2019
 
 
 date: 17 mon jun 2019
+
+
+date: 18 tue jun 2019
 time: 9pm
 gap: 49
 587
 527
 
-
-
-date: 18 tue jun 2019
 
 
 date: 19 wed jun 2019
@@ -1880,1883 +8240,17 @@ date: 19 wed jun 2019
 date: 20 thu jun 2019
 
 
-date: 02 tue jan 2018
+date: 21 fri jun 2019
 
 
-date: 03 wed jan 2018
+date: 22 sat jun 2019
 
 
-date: 04 thu jan 2018
-
-
-date: 05 fri jan 2018
-time: 4pm
-gap: 59
-565
-505
-
-
-
-date: 06 sat jan 2018
-
-
-date: 07 sun jan 2018
-
-
-date: 08 mon jan 2018
-time: 4pm
-gap: 63
-556
-596
-
-
-
-date: 09 tue jan 2018
-
-
-date: 10 wed jan 2018
-time: 9pm
-gap: 76
-773
-713
-
-
-
-date: 11 thu jan 2018
-
-
-date: 12 fri jan 2018
-
-
-date: 13 sat jan 2018
-
-
-date: 14 sun jan 2018
-
-
-date: 15 mon jan 2018
-
-
-date: 16 tue jan 2018
-
-
-date: 17 wed jan 2018
-
-
-date: 18 thu jan 2018
-
-
-date: 19 fri jan 2018
-
-
-date: 20 sat jan 2018
-
-
-date: 21 sun jan 2018
-
-
-date: 22 mon jan 2018
-
-
-date: 23 tue jan 2018
-
-
-date: 24 wed jan 2018
-
-
-date: 25 thu jan 2018
-
-
-date: 26 fri jan 2018
-
-
-date: 27 sat jan 2018
-
-
-date: 28 sun jan 2018
-
-
-date: 29 mon jan 2018
-
-
-date: 30 tue jan 2018
-
-
-date: 31 wed jan 2018
-
-
-date: 01 thu feb 2018
-
-
-date: 02 fri feb 2018
-
-
-date: 03 sat feb 2018
-
-
-date: 04 sun feb 2018
-
-
-date: 05 mon feb 2018
-
-
-date: 06 tue feb 2018
+date: 23 sun jun 2019
 time: 11am
-gap: 76
-006
-046
+gap: 87
+042
+082
 
-
-
-date: 07 wed feb 2018
-
-
-date: 08 thu feb 2018
-
-
-date: 09 fri feb 2018
-
-
-date: 10 sat feb 2018
-
-
-date: 11 sun feb 2018
-
-
-date: 12 mon feb 2018
-
-
-date: 13 tue feb 2018
-
-
-date: 14 wed feb 2018
-
-
-date: 15 thu feb 2018
-
-
-date: 16 fri feb 2018
-
-
-date: 17 sat feb 2018
-
-
-date: 18 sun feb 2018
-
-
-date: 19 mon feb 2018
-
-
-date: 20 tue feb 2018
-
-
-date: 21 wed feb 2018
-
-
-date: 22 thu feb 2018
-
-
-date: 23 fri feb 2018
-
-
-date: 24 sat feb 2018
-
-
-date: 25 sun feb 2018
-
-
-date: 26 mon feb 2018
-
-
-date: 27 tue feb 2018
-
-
-date: 28 wed feb 2018
-time: 11am
-gap: 29
-695
-635
-
-
-
-date: 01 thu mar 2018
-
-
-date: 02 fri mar 2018
-
-
-date: 03 sat mar 2018
-
-
-date: 04 sun mar 2018
-
-
-date: 05 mon mar 2018
-
-
-date: 06 tue mar 2018
-
-
-date: 07 wed mar 2018
-
-
-date: 08 thu mar 2018
-
-
-date: 09 fri mar 2018
-time: 4pm
-gap: 20
-280
-220
-
-
-
-date: 10 sat mar 2018
-
-
-date: 11 sun mar 2018
-
-
-date: 12 mon mar 2018
-
-
-date: 13 tue mar 2018
-
-
-date: 14 wed mar 2018
-
-
-date: 15 thu mar 2018
-
-
-date: 16 fri mar 2018
-
-
-date: 17 sat mar 2018
-
-
-date: 18 sun mar 2018
-
-
-date: 19 mon mar 2018
-
-
-date: 20 tue mar 2018
-
-
-date: 21 wed mar 2018
-
-
-date: 22 thu mar 2018
-time: 9pm
-gap: 95
-996
-936
-
-
-
-date: 23 fri mar 2018
-
-
-date: 24 sat mar 2018
-
-
-date: 25 sun mar 2018
-time: 11am
-gap: 13
-709
-749
-
-
-
-date: 26 mon mar 2018
-
-
-date: 27 tue mar 2018
-
-
-date: 28 wed mar 2018
-
-
-date: 02 mon apr 2018
-time: 9pm
-gap: 52
-812
-852
-
-
-
-date: 03 tue apr 2018
-
-
-date: 04 wed apr 2018
-
-
-date: 05 thu apr 2018
-
-
-date: 06 fri apr 2018
-
-
-date: 07 sat apr 2018
-time: 11am
-gap: 57
-171
-111
-
-
-
-date: 08 sun apr 2018
-
-
-date: 09 mon apr 2018
-
-
-date: 10 tue apr 2018
-
-
-date: 11 wed apr 2018
-
-
-date: 12 thu apr 2018
-
-
-date: 13 fri apr 2018
-
-
-date: 14 sat apr 2018
-
-
-date: 15 sun apr 2018
-
-
-date: 16 mon apr 2018
-
-
-date: 17 tue apr 2018
-
-
-date: 18 wed apr 2018
-
-
-date: 19 thu apr 2018
-
-
-date: 20 fri apr 2018
-
-
-date: 21 sat apr 2018
-
-
-date: 22 sun apr 2018
-
-
-date: 23 mon apr 2018
-
-
-date: 24 tue apr 2018
-
-
-date: 25 wed apr 2018
-time: 11am
-gap: 46
-583
-523
-
-
-
-date: 26 thu apr 2018
-
-
-date: 27 fri apr 2018
-
-
-date: 28 sat apr 2018
-time: 4pm
-gap: 9
-685
-625
-
-
-
-date: 29 sun apr 2018
-
-
-date: 30 mon apr 2018
-
-
-date: 01 tue may 2018
-
-
-date: 02 wed may 2018
-
-
-date: 03 thu may 2018
-
-
-date: 04 fri may 2018
-
-
-date: 05 sat may 2018
-
-
-date: 06 sun may 2018
-
-
-date: 07 mon may 2018
-
-
-date: 08 tue may 2018
-
-
-date: 09 wed may 2018
-
-
-date: 10 thu may 2018
-time: 9pm
-gap: 9
-365
-305
-
-
-
-date: 11 fri may 2018
-
-
-date: 12 sat may 2018
-
-
-date: 13 sun may 2018
-
-
-date: 14 mon may 2018
-
-
-date: 15 tue may 2018
-
-
-date: 16 wed may 2018
-
-
-date: 17 thu may 2018
-
-
-date: 18 fri may 2018
-
-
-date: 19 sat may 2018
-
-
-date: 20 sun may 2018
-
-
-date: 21 mon may 2018
-
-
-date: 22 tue may 2018
-
-
-date: 23 wed may 2018
-
-
-date: 24 thu may 2018
-time: 9pm
-gap: 77
-398
-338
-
-
-
-date: 25 fri may 2018
-
-
-date: 26 sat may 2018
-time: 9pm
-gap: 69
-149
-189
-
-
-
-date: 27 sun may 2018
-
-
-date: 28 mon may 2018
-
-
-date: 29 tue may 2018
-
-
-date: 30 wed may 2018
-
-
-date: 31 thu may 2018
-time: 4pm
-gap: 66
-719
-759
-
-
-
-date: 01 fri jun 2018
-
-
-date: 02 sat jun 2018
-
-
-date: 03 sun jun 2018
-
-
-date: 04 mon jun 2018
-
-
-date: 05 tue jun 2018
-
-
-date: 06 wed jun 2018
-
-
-date: 07 thu jun 2018
-
-
-date: 08 fri jun 2018
-
-
-date: 09 sat jun 2018
-
-
-date: 10 sun jun 2018
-
-
-date: 11 mon jun 2018
-
-
-date: 12 tue jun 2018
-
-
-date: 13 wed jun 2018
-time: 4pm
-gap: 72
-469
-409
-
-
-
-date: 14 thu jun 2018
-time: 11am
-gap: 7
-478
-418
-
-
-
-date: 15 fri jun 2018
-
-
-date: 16 sat jun 2018
-
-
-date: 17 sun jun 2018
-time: 9pm
-gap: 76
-350
-390
-
-
-
-date: 18 mon jun 2018
-time: 4pm
-gap: 30
-696
-636
-
-
-
-date: 19 tue jun 2018
-
-
-date: 20 wed jun 2018
-
-
-date: 21 thu jun 2018
-
-
-date: 22 fri jun 2018
-
-
-date: 23 sat jun 2018
-
-
-date: 24 sun jun 2018
-
-
-date: 25 mon jun 2018
-time: 11am
-gap: 63
-872
-812
-
-
-
-date: 26 tue jun 2018
-time: 9pm
-gap: 94
-349
-389
-
-
-
-date: 27 wed jun 2018
-
-
-date: 28 thu jun 2018
-
-
-date: 29 fri jun 2018
-
-
-date: 30 sat jun 2018
-
-
-date: 01 sun jul 2018
-
-
-date: 02 mon jul 2018
-
-
-date: 03 tue jul 2018
-
-
-date: 04 wed jul 2018
-
-
-date: 05 thu jul 2018
-
-
-date: 06 fri jul 2018
-
-
-date: 07 sat jul 2018
-
-
-date: 08 sun jul 2018
-
-
-date: 09 mon jul 2018
-
-
-date: 10 tue jul 2018
-
-
-date: 11 wed jul 2018
-
-
-date: 12 thu jul 2018
-time: 11am
-gap: 93
-550
-590
-
-
-
-date: 13 fri jul 2018
-
-
-date: 14 sat jul 2018
-
-
-date: 15 sun jul 2018
-
-
-date: 16 mon jul 2018
-
-
-date: 17 tue jul 2018
-
-
-date: 18 wed jul 2018
-
-
-date: 19 thu jul 2018
-
-
-date: 20 fri jul 2018
-
-
-date: 21 sat jul 2018
-time: 11am
-gap: 22
-905
-945
-
-
-
-date: 22 sun jul 2018
-
-
-date: 23 mon jul 2018
-
-
-date: 24 tue jul 2018
-
-
-date: 25 wed jul 2018
-
-
-date: 26 thu jul 2018
-
-
-date: 27 fri jul 2018
-
-
-date: 28 sat jul 2018
-
-
-date: 29 sun jul 2018
-
-
-date: 30 mon jul 2018
-
-
-date: 31 tue jul 2018
-
-
-date: 01 wed aug 2018
-
-
-date: 02 thu aug 2018
-
-
-date: 03 fri aug 2018
-
-
-date: 04 sat aug 2018
-
-
-date: 05 sun aug 2018
-
-
-date: 06 mon aug 2018
-
-
-date: 07 tue aug 2018
-
-
-date: 08 wed aug 2018
-time: 4pm
-gap: 21
-248
-288
-
-
-
-date: 09 thu aug 2018
-
-
-date: 10 fri aug 2018
-
-
-date: 11 sat aug 2018
-
-
-date: 12 sun aug 2018
-
-
-date: 13 mon aug 2018
-
-
-date: 14 tue aug 2018
-
-
-date: 15 wed aug 2018
-
-
-date: 16 thu aug 2018
-
-
-date: 17 fri aug 2018
-
-
-date: 18 sat aug 2018
-
-
-date: 19 sun aug 2018
-
-
-date: 20 mon aug 2018
-
-
-date: 21 tue aug 2018
-
-
-date: 22 wed aug 2018
-
-
-date: 23 thu aug 2018
-
-
-date: 24 fri aug 2018
-
-
-date: 25 sat aug 2018
-
-
-date: 26 sun aug 2018
-
-
-date: 27 mon aug 2018
-
-
-date: 28 tue aug 2018
-time: 4pm
-gap: 56
-055
-095
-
-
-
-date: 29 wed aug 2018
-
-
-date: 30 thu aug 2018
-
-
-date: 31 fri aug 2018
-
-
-date: 01 sat sep 2018
-
-
-date: 02 sun sep 2018
-
-
-date: 03 mon sep 2018
-
-
-date: 04 tue sep 2018
-
-
-date: 05 wed sep 2018
-
-
-date: 06 thu sep 2018
-
-
-date: 07 fri sep 2018
-
-
-date: 08 sat sep 2018
-
-
-date: 09 sun sep 2018
-
-
-date: 10 mon sep 2018
-
-
-date: 11 tue sep 2018
-
-
-date: 12 wed sep 2018
-
-
-date: 13 thu sep 2018
-
-
-date: 14 fri sep 2018
-
-
-date: 15 sat sep 2018
-
-
-date: 16 sun sep 2018
-
-
-date: 17 mon sep 2018
-
-
-date: 18 tue sep 2018
-
-
-date: 19 wed sep 2018
-
-
-date: 20 thu sep 2018
-
-
-date: 21 fri sep 2018
-
-
-date: 22 sat sep 2018
-
-
-date: 23 sun sep 2018
-
-
-date: 24 mon sep 2018
-
-
-date: 25 tue sep 2018
-
-
-date: 26 wed sep 2018
-
-
-date: 27 thu sep 2018
-
-
-date: 28 fri sep 2018
-
-
-date: 29 sat sep 2018
-
-
-date: 30 sun sep 2018
-
-
-date: 01 mon oct 2018
-
-
-date: 02 tue oct 2018
-
-
-date: 03 wed oct 2018
-
-
-date: 04 thu oct 2018
-
-
-date: 05 fri oct 2018
-
-
-date: 06 sat oct 2018
-
-
-date: 07 sun oct 2018
-
-
-date: 08 mon oct 2018
-
-
-date: 09 tue oct 2018
-
-
-date: 10 wed oct 2018
-
-
-date: 11 thu oct 2018
-
-
-date: 12 fri oct 2018
-
-
-date: 13 sat oct 2018
-
-
-date: 14 sun oct 2018
-time: 11am
-gap: 90
-093
-033
-
-
-
-date: 15 mon oct 2018
-
-
-date: 16 tue oct 2018
-
-
-date: 17 wed oct 2018
-time: 11am
-gap: 77
-455
-495
-
-
-
-date: 18 thu oct 2018
-
-
-date: 19 fri oct 2018
-
-
-date: 20 sat oct 2018
-
-
-date: 21 sun oct 2018
-
-
-date: 22 mon oct 2018
-
-
-date: 23 tue oct 2018
-
-
-date: 24 wed oct 2018
-time: 9pm
-gap: 98
-881
-821
-
-
-
-date: 25 thu oct 2018
-
-
-date: 26 fri oct 2018
-
-
-date: 27 sat oct 2018
-
-
-date: 28 sun oct 2018
-
-
-date: 29 mon oct 2018
-
-
-date: 30 tue oct 2018
-time: 11am
-gap: 61
-365
-305
-
-time: 9pm
-gap: 66
-604
-644
-
-
-
-date: 31 wed oct 2018
-time: 9pm
-gap: 58
-471
-411
-
-
-
-date: 01 thu nov 2018
-
-
-date: 02 fri nov 2018
-
-
-date: 03 sat nov 2018
-
-
-date: 04 sun nov 2018
-
-
-date: 05 mon nov 2018
-
-
-date: 06 tue nov 2018
-
-
-date: 07 wed nov 2018
-
-
-date: 08 thu nov 2018
-
-
-date: 09 fri nov 2018
-
-
-date: 10 sat nov 2018
-
-
-date: 11 sun nov 2018
-
-
-date: 12 mon nov 2018
-
-
-date: 13 tue nov 2018
-
-
-date: 14 wed nov 2018
-
-
-date: 15 thu nov 2018
-
-
-date: 16 fri nov 2018
-
-
-date: 17 sat nov 2018
-
-
-date: 18 sun nov 2018
-
-
-date: 19 mon nov 2018
-
-
-date: 20 tue nov 2018
-
-
-date: 21 wed nov 2018
-
-
-date: 22 thu nov 2018
-
-
-date: 23 fri nov 2018
-
-
-date: 24 sat nov 2018
-time: 9pm
-gap: 14
-448
-488
-
-
-
-date: 25 sun nov 2018
-
-
-date: 26 mon nov 2018
-
-
-date: 27 tue nov 2018
-
-
-date: 28 wed nov 2018
-time: 9pm
-gap: 12
-341
-381
-
-
-
-date: 29 thu nov 2018
-
-
-date: 30 fri nov 2018
-
-
-date: 01 sat dec 2018
-time: 11am
-gap: 18
-786
-726
-
-time: 9pm
-gap: 24
-006
-046
-
-time: 9pm
-gap: 83
-440
-480
-
-
-
-date: 02 sun dec 2018
-
-
-date: 03 mon dec 2018
-
-
-date: 04 tue dec 2018
-
-
-date: 05 wed dec 2018
-
-
-date: 06 thu dec 2018
-
-
-date: 07 fri dec 2018
-
-
-date: 08 sat dec 2018
-
-
-date: 09 sun dec 2018
-time: 11am
-gap: 4
-984
-924
-
-
-
-date: 10 mon dec 2018
-
-
-date: 11 tue dec 2018
-
-
-date: 12 wed dec 2018
-
-
-date: 13 thu dec 2018
-
-
-date: 14 fri dec 2018
-
-
-date: 15 sat dec 2018
-
-
-date: 16 sun dec 2018
-
-
-date: 17 mon dec 2018
-
-
-date: 18 tue dec 2018
-
-
-date: 19 wed dec 2018
-time: 9pm
-gap: 59
-115
-155
-
-
-
-date: 20 thu dec 2018
-
-
-date: 21 fri dec 2018
-
-
-date: 22 sat dec 2018
-
-
-date: 23 sun dec 2018
-
-
-date: 24 mon dec 2018
-
-
-date: 26 wed dec 2018
-time: 9pm
-gap: 42
-932
-972
-
-
-
-date: 27 thu dec 2018
-
-
-date: 28 fri dec 2018
-
-
-date: 29 sat dec 2018
-
-
-date: 30 sun dec 2018
-time: 9pm
-gap: 94
-295
-235
-
-
-
-date: 31 mon dec 2018
-
-
-date: 02 wed jan 2019
-
-
-date: 03 thu jan 2019
-
-
-date: 04 fri jan 2019
-
-
-date: 05 sat jan 2019
-
-
-date: 06 sun jan 2019
-
-
-date: 07 mon jan 2019
-
-
-date: 08 tue jan 2019
-
-
-date: 09 wed jan 2019
-
-
-date: 10 thu jan 2019
-
-
-date: 11 fri jan 2019
-
-
-date: 12 sat jan 2019
-
-
-date: 13 sun jan 2019
-
-
-date: 14 mon jan 2019
-
-
-date: 15 tue jan 2019
-
-
-date: 16 wed jan 2019
-
-
-date: 17 thu jan 2019
-
-
-date: 18 fri jan 2019
-
-
-date: 19 sat jan 2019
-
-
-date: 20 sun jan 2019
-time: 11am
-gap: 81
-559
-599
-
-
-
-date: 21 mon jan 2019
-
-
-date: 22 tue jan 2019
-
-
-date: 23 wed jan 2019
-
-
-date: 24 thu jan 2019
-
-
-date: 25 fri jan 2019
-
-
-date: 26 sat jan 2019
-
-
-date: 27 sun jan 2019
-time: 4pm
-gap: 21
-485
-425
-
-
-
-date: 28 mon jan 2019
-
-
-date: 29 tue jan 2019
-time: 11am
-gap: 8
-922
-962
-
-
-
-date: 30 wed jan 2019
-
-
-date: 31 thu jan 2019
-
-
-date: 01 fri feb 2019
-
-
-date: 02 sat feb 2019
-
-
-date: 03 sun feb 2019
-
-
-date: 04 mon feb 2019
-
-
-date: 05 tue feb 2019
-
-
-date: 06 wed feb 2019
-
-
-date: 07 thu feb 2019
-
-
-date: 08 fri feb 2019
-
-
-date: 09 sat feb 2019
-
-
-date: 10 sun feb 2019
-
-
-date: 11 mon feb 2019
-
-
-date: 12 tue feb 2019
-time: 9pm
-gap: 47
-033
-073
-
-time: 9pm
-gap: 52
-586
-526
-
-
-
-date: 13 wed feb 2019
-
-
-date: 14 thu feb 2019
-
-
-date: 15 fri feb 2019
-
-
-date: 16 sat feb 2019
-time: 4pm
-gap: 18
-716
-756
-
-
-
-date: 17 sun feb 2019
-
-
-date: 18 mon feb 2019
-time: 4pm
-gap: 21
-584
-524
-
-time: 4pm
-gap: 96
-764
-704
-
-
-
-date: 19 tue feb 2019
-
-
-date: 20 wed feb 2019
-
-
-date: 21 thu feb 2019
-
-
-date: 22 fri feb 2019
-
-
-date: 23 sat feb 2019
-
-
-date: 24 sun feb 2019
-
-
-date: 25 mon feb 2019
-
-
-date: 26 tue feb 2019
-
-
-date: 27 wed feb 2019
-
-
-date: 28 thu feb 2019
-
-
-date: 01 fri mar 2019
-time: 4pm
-gap: 29
-442
-482
-
-
-
-date: 02 sat mar 2019
-
-
-date: 03 sun mar 2019
-
-
-date: 04 mon mar 2019
-
-
-date: 05 tue mar 2019
-
-
-date: 06 wed mar 2019
-
-
-date: 07 thu mar 2019
-
-
-date: 08 fri mar 2019
-
-
-date: 09 sat mar 2019
-time: 9pm
-gap: 5
-559
-599
-
-
-
-date: 10 sun mar 2019
-
-
-date: 11 mon mar 2019
-
-
-date: 12 tue mar 2019
-
-
-date: 13 wed mar 2019
-
-
-date: 14 thu mar 2019
-
-
-date: 15 fri mar 2019
-
-
-date: 16 sat mar 2019
-
-
-date: 17 sun mar 2019
-
-
-date: 18 mon mar 2019
-
-
-date: 19 tue mar 2019
-
-
-date: 20 wed mar 2019
-
-
-date: 21 thu mar 2019
-
-
-date: 22 fri mar 2019
-
-
-date: 23 sat mar 2019
-
-
-date: 24 sun mar 2019
-
-
-date: 25 mon mar 2019
-
-
-date: 26 tue mar 2019
-
-
-date: 27 wed mar 2019
-
-
-date: 28 thu mar 2019
-
-
-date: 29 fri mar 2019
-
-
-date: 30 sat mar 2019
-time: 9pm
-gap: 76
-817
-857
-
-
-
-date: 31 sun mar 2019
-time: 9pm
-gap: 40
-675
-615
-
-
-
-date: 01 mon apr 2019
-
-
-date: 02 tue apr 2019
-
-
-date: 03 wed apr 2019
-
-
-date: 04 thu apr 2019
-time: 11am
-gap: 75
-761
-701
-
-
-
-date: 05 fri apr 2019
-time: 9pm
-gap: 11
-609
-649
-
-
-
-date: 06 sat apr 2019
-
-
-date: 07 sun apr 2019
-
-
-date: 08 mon apr 2019
-
-
-date: 09 tue apr 2019
-
-
-date: 10 wed apr 2019
-
-
-date: 11 thu apr 2019
-
-
-date: 12 fri apr 2019
-
-
-date: 13 sat apr 2019
-
-
-date: 14 sun apr 2019
-
-
-date: 15 mon apr 2019
-
-
-date: 16 tue apr 2019
-time: 11am
-gap: 28
-597
-537
-
-time: 9pm
-gap: 34
-986
-926
-
-
-
-date: 17 wed apr 2019
-
-
-date: 22 mon apr 2019
-
-
-date: 23 tue apr 2019
-
-
-date: 24 wed apr 2019
-
-
-date: 25 thu apr 2019
-
-
-date: 26 fri apr 2019
-
-
-date: 27 sat apr 2019
-
-
-date: 28 sun apr 2019
-
-
-date: 29 mon apr 2019
-
-
-date: 30 tue apr 2019
-
-
-date: 01 wed may 2019
-
-
-date: 02 thu may 2019
-
-
-date: 03 fri may 2019
-
-
-date: 04 sat may 2019
-
-
-date: 05 sun may 2019
-
-
-date: 06 mon may 2019
-
-
-date: 07 tue may 2019
-
-
-date: 08 wed may 2019
-
-
-date: 09 thu may 2019
-
-
-date: 10 fri may 2019
-
-
-date: 11 sat may 2019
-
-
-date: 12 sun may 2019
-
-
-date: 13 mon may 2019
-
-
-date: 14 tue may 2019
-
-
-date: 15 wed may 2019
-
-
-date: 16 thu may 2019
-
-
-date: 17 fri may 2019
-
-
-date: 18 sat may 2019
-
-
-date: 19 sun may 2019
-
-
-date: 20 mon may 2019
-
-
-date: 21 tue may 2019
-
-
-date: 22 wed may 2019
-
-
-date: 23 thu may 2019
-
-
-date: 24 fri may 2019
-
-
-date: 25 sat may 2019
-
-
-date: 26 sun may 2019
-
-
-date: 27 mon may 2019
-
-
-date: 28 tue may 2019
-
-
-date: 29 wed may 2019
-
-
-date: 30 thu may 2019
-
-
-date: 31 fri may 2019
-
-
-date: 01 sat jun 2019
-
-
-date: 02 sun jun 2019
-
-
-date: 03 mon jun 2019
-
-
-date: 04 tue jun 2019
-
-
-date: 05 wed jun 2019
-
-
-date: 06 thu jun 2019
-time: 11am
-gap: 34
-705
-745
-
-
-
-date: 07 fri jun 2019
-
-
-date: 08 sat jun 2019
-
-
-date: 09 sun jun 2019
-
-
-date: 10 mon jun 2019
-
-
-date: 11 tue jun 2019
-time: 11am
-gap: 29
-442
-482
-
-
-
-date: 12 wed jun 2019
-time: 11am
-gap: 79
-551
-591
-
-
-
-date: 13 thu jun 2019
-
-
-date: 14 fri jun 2019
-
-
-date: 15 sat jun 2019
-
-
-date: 16 sun jun 2019
-
-
-date: 17 mon jun 2019
-time: 9pm
-gap: 49
-587
-527
-
-
-
-date: 18 tue jun 2019
-
-
-date: 19 wed jun 2019
-
-
-date: 20 thu jun 2019
 
 

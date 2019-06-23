@@ -6,63 +6,84 @@ from re import split
 
 
 def date_gap():
-    """Extract the date and time from results_v2.txt and
-    results_diff_one_v2.2.txt and return a date-time object"""
+    """
+    INPUT:
+    results_diff_one_v2.3.txt - get the previous date
+    results_v2.txt - get the current date
 
-    with open("results_diff_one_v2.3.txt", "r") as f1:
-        prev_dt = f1.readline().strip().replace("updated: ", "")
-
-    with open("results_v2.txt", "r") as f2:
-        curr_dt = f2.readline().strip().replace("updated: ", "")
-
-    prev_date = prev_dt
-    curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
-
-    prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
-    curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
-
-    if curr_int != 2:
-        curr_date -= timedelta(days=1)
-
-    return [prev_date, curr_date]
-
-
-def result_gap():
-    """Given two date-time objects calculate the difference
-    in terms of days. Return an integer"""
-
-    prev_dt, curr_dt = date_gap()
-    time_diff = curr_dt - prev_dt
-
-    return time_diff.days
-
-
-def get_reverse_results(index=0):
-    """Given all the results from results_v2.txt
-    return a dictionary containing time results
-    in this format
-
-    {"11am": ['123', ...], "4pm": ['456', ...]..}
+    OUTPUT:
+    output - a list containing dates from prev_dt to
+    curr_dt
+    ex.
+        ["02 tue jan 2018"..."22 sat jun 2019"]
     """
 
-    reverse = []
+    output = []
+    found = False
+
+    with open("results_diff_one_v2.3.txt", "r") as f1, \
+            open("results_v2.txt", "r") as f2:
+
+        prev_date = f1.readline().strip().replace("updated: ", "", 1)
+
+        for entry in islice(f2, 1, None):
+            entry = entry.strip()
+            date = split(r"\s{2,}", entry)
+
+            if prev_date == date[0]:
+                found = True
+                continue
+
+            if len(date) == 4 and (found or len(output) >= 1):
+                output.append(date[0])
+
+    return output
+
+
+def get_time_results(prev_date):
+    """
+    INPUT:
+    prev_date - a string taken from date_gap()
+    ex.
+        ("02 tue jan 2018")
+
+    OUTPUT:
+    time_results - a dictionary of time and results
+    ex.
+        {"11am": ['123', ...], "4pm": ['456', ...]..}
+    """
+
     time_results = {}
 
     with open("results_v2.txt", "r") as fi:
+
         for entry in islice(fi, 2, None):
             entry = entry.strip()
-            reverse.insert(0, entry)
+            results = split(r"\s{2,}", entry)
+            date = results[0]
 
-    for r_entry in reverse[index:]:
-        results = split(r"\s{2,}", r_entry)[1:]
-        if len(results) == 3:
-            time_results.setdefault("11am", [])
-            time_results.setdefault("4pm", [])
-            time_results.setdefault("9pm", [])
+            if prev_date == date and len(results) == 4:
+                time_results.setdefault("11am", [])
+                time_results.setdefault("4pm", [])
+                time_results.setdefault("9pm", [])
 
-            time_results["11am"].append(results[0])
-            time_results["4pm"].append(results[1])
-            time_results["9pm"].append(results[2])
+                time_results["11am"].append(results[1])
+                time_results["4pm"].append(results[2])
+                time_results["9pm"].append(results[3])
+
+                break
+
+            elif prev_date != date and len(results) == 4:
+                time_results.setdefault("11am", [])
+                time_results.setdefault("4pm", [])
+                time_results.setdefault("9pm", [])
+
+                time_results["11am"].append(results[1])
+                time_results["4pm"].append(results[2])
+                time_results["9pm"].append(results[3])
+
+            else:
+                pass
 
     return time_results
 
@@ -78,14 +99,20 @@ def get_gap_results(time_results):
             step = gap
             temp_results = []
 
-            for count, result in enumerate(results):
+            for count, result in enumerate(reversed(results)):
                 if step == count and len(temp_results) != 3:
                     temp_results.append(result)
 
                     step += (gap + 1)
 
-            gap_results.setdefault(time, {})
-            gap_results[time].setdefault(gap, temp_results)
+                if len(temp_results) == 3:
+                    break
+
+            if len(temp_results) < 3:
+                break
+            else:
+                gap_results.setdefault(time, {})
+                gap_results[time].setdefault(gap, temp_results)
 
     return gap_results
 
@@ -293,8 +320,16 @@ def possible_digits(sequence, seq_type):
 
 
 def classify_results(results):
-    """Given a list of results determine if all the result contains
-    a common_digit and has diff_one pattern"""
+    """
+    INPUT:
+    results - a list of gap_results
+    ex.
+        ["651", "226", "824"]
+
+    OUTPUT:
+    (all_sep_res, all_pairs, all_combi) - a tuple containing
+    all the results, pairs and combinations
+    """
 
     common = ""
     all_sep_res = []
@@ -311,7 +346,7 @@ def classify_results(results):
 
     # Process the second element of results
     for seq in product(*results):
-        if seq_type(seq) == "diff_one" and common:
+        if common and seq_type(seq) == "diff_one":
             # results = ['45', '56', '67']
             # common = 3
             # seq = ('4', '5', '6')
@@ -330,9 +365,9 @@ def classify_results(results):
 
             all_sep_res.extend(sep_results)
 
-            # all_combi
+            # Filter the remaining digits by seq_type() here
+            # all_combi = ['442', '482']
             if seq_type(rm_results) is not None:
-                # pe_digits = [n] or pe_digits = [n, n + 1]
                 pe_digits = possible_digits(rm_results, seq_type(rm_results))
                 for combi in product(pairs, pe_digits):
                     all_combi.append("".join(combi))
@@ -350,25 +385,19 @@ def find_diff_one():
     with open("results_diff_one_v2.3.txt", "a") as fo, \
             open("my_probables_v2.3.txt", "a") as fp:
 
-        prev_date, curr_date = date_gap()
+        for prev_date in date_gap():
 
-        for i in reversed(range(result_gap())):
-            prev_date += timedelta(days=1)
+            print("date: {}".format(prev_date))
 
-            print("date: {}".format(
-                prev_date.strftime("%d %a %b %Y")))
+            fo.write("date: {}\n".format(prev_date))
+            fp.write("date: {}\n".format(prev_date))
 
-            fo.write("date: {}\n".format(
-                prev_date.strftime("%d %a %b %Y")))
-            fp.write("date: {}\n".format(
-                prev_date.strftime("%d %a %b %Y")))
-
-            time_results = get_reverse_results(i)
+            time_results = get_time_results(prev_date)
 
             for time, gap_results in get_gap_results(time_results).items():
                 for gap, results in gap_results.items():
 
-                    if classify_results(results):
+                    if results and classify_results(results) is not None:
                         results, pairs, all_combi = classify_results(results)
 
                         print("time: {}".format(time))
@@ -379,6 +408,7 @@ def find_diff_one():
                         fo.write("time: {}\n".format(time))
                         fp.write("time: {}\n".format(time))
                         fo.write("gap: {}\n".format(gap))
+                        fp.write("gap: {}\n".format(gap))
                         fo.write("pairs: {}\n".format(pairs))
                         fo.write("results:\n")
 
@@ -399,13 +429,13 @@ def find_diff_one():
             fo.write("\n\n")
             fp.write("\n\n")
 
-    with fileinput.input("results_diff_one_v2.3.txt", inplace=True) as fio:
-        for entry in fio:
-            if "updated:" in entry:
-                print("updated: {}".format(
-                    curr_date.strftime("%d %a %b %Y")))
-            else:
-                print(entry, end="")
+    if date_gap():
+        with fileinput.input("results_diff_one_v2.3.txt", inplace=True) as fio:
+            for entry in fio:
+                if "updated:" in entry:
+                    print("updated: {}".format(date_gap()[-1]))
+                else:
+                    print(entry, end="")
 
 
 def main():

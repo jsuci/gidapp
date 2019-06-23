@@ -1,13 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "swertres"
-		},
-		{
 			"path": "stl"
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "swertres"
 		}
 	]
 }

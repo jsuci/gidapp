@@ -1,0 +1,4176 @@
+updated: 23 sun jun 2019
+
+date: 16 thu nov 2017
+
+
+date: 17 fri nov 2017
+
+
+date: 18 sat nov 2017
+
+
+date: 19 sun nov 2017
+
+
+date: 20 mon nov 2017
+
+
+date: 21 tue nov 2017
+
+
+date: 22 wed nov 2017
+
+
+date: 23 thu nov 2017
+
+
+date: 24 fri nov 2017
+
+
+date: 25 sat nov 2017
+
+
+date: 26 sun nov 2017
+
+
+date: 27 mon nov 2017
+
+
+date: 28 tue nov 2017
+
+
+date: 29 wed nov 2017
+
+
+date: 30 thu nov 2017
+
+
+date: 01 fri dec 2017
+
+
+date: 02 sat dec 2017
+
+
+date: 03 sun dec 2017
+
+
+date: 04 mon dec 2017
+
+
+date: 05 tue dec 2017
+
+
+date: 06 wed dec 2017
+
+
+date: 07 thu dec 2017
+
+
+date: 08 fri dec 2017
+
+
+date: 09 sat dec 2017
+
+
+date: 10 sun dec 2017
+
+
+date: 11 mon dec 2017
+
+
+date: 12 tue dec 2017
+
+
+date: 13 wed dec 2017
+
+
+date: 14 thu dec 2017
+
+
+date: 15 fri dec 2017
+
+
+date: 16 sat dec 2017
+
+
+date: 17 sun dec 2017
+
+
+date: 18 mon dec 2017
+
+
+date: 19 tue dec 2017
+
+
+date: 20 wed dec 2017
+
+
+date: 21 thu dec 2017
+
+
+date: 22 fri dec 2017
+
+
+date: 23 sat dec 2017
+
+
+date: 24 sun dec 2017
+
+
+date: 26 tue dec 2017
+time: 9pm
+gap: 2
+pairs: ['48', '42']
+results:
+40-7
+41-7
+49-7
+
+
+
+date: 27 wed dec 2017
+
+
+date: 28 thu dec 2017
+
+
+date: 29 fri dec 2017
+
+
+date: 30 sat dec 2017
+
+
+date: 31 sun dec 2017
+
+
+date: 02 tue jan 2018
+
+
+date: 03 wed jan 2018
+
+
+date: 04 thu jan 2018
+
+
+date: 05 fri jan 2018
+
+
+date: 06 sat jan 2018
+
+
+date: 07 sun jan 2018
+
+
+date: 08 mon jan 2018
+
+
+date: 09 tue jan 2018
+
+
+date: 10 wed jan 2018
+
+
+date: 11 thu jan 2018
+
+
+date: 12 fri jan 2018
+
+
+date: 13 sat jan 2018
+
+
+date: 14 sun jan 2018
+
+
+date: 15 mon jan 2018
+
+
+date: 16 tue jan 2018
+
+
+date: 17 wed jan 2018
+
+
+date: 18 thu jan 2018
+
+
+date: 19 fri jan 2018
+
+
+date: 20 sat jan 2018
+
+
+date: 21 sun jan 2018
+
+
+date: 22 mon jan 2018
+
+
+date: 23 tue jan 2018
+
+
+date: 24 wed jan 2018
+
+
+date: 25 thu jan 2018
+
+
+date: 26 fri jan 2018
+
+
+date: 27 sat jan 2018
+
+
+date: 28 sun jan 2018
+
+
+date: 29 mon jan 2018
+
+
+date: 30 tue jan 2018
+
+
+date: 31 wed jan 2018
+
+
+date: 01 thu feb 2018
+
+
+date: 02 fri feb 2018
+time: 9pm
+gap: 7
+pairs: ['25', '29']
+results:
+26-5
+28-5
+27-5
+
+
+
+date: 03 sat feb 2018
+
+
+date: 04 sun feb 2018
+
+
+date: 05 mon feb 2018
+
+
+date: 06 tue feb 2018
+
+
+date: 07 wed feb 2018
+
+
+date: 08 thu feb 2018
+
+
+date: 09 fri feb 2018
+
+
+date: 10 sat feb 2018
+time: 4pm
+gap: 12
+pairs: ['61', '65']
+results:
+64-9
+63-9
+62-9
+
+
+
+date: 11 sun feb 2018
+
+
+date: 12 mon feb 2018
+
+
+date: 13 tue feb 2018
+
+
+date: 14 wed feb 2018
+
+
+date: 15 thu feb 2018
+
+
+date: 16 fri feb 2018
+
+
+date: 17 sat feb 2018
+time: 9pm
+gap: 12
+pairs: ['26', '20']
+results:
+29-5
+28-5
+27-5
+
+
+
+date: 18 sun feb 2018
+
+
+date: 19 mon feb 2018
+
+
+date: 20 tue feb 2018
+
+
+date: 21 wed feb 2018
+
+
+date: 22 thu feb 2018
+
+
+date: 23 fri feb 2018
+
+
+date: 24 sat feb 2018
+
+
+date: 25 sun feb 2018
+
+
+date: 26 mon feb 2018
+
+
+date: 27 tue feb 2018
+
+
+date: 28 wed feb 2018
+
+
+date: 01 thu mar 2018
+
+
+date: 02 fri mar 2018
+
+
+date: 03 sat mar 2018
+
+
+date: 04 sun mar 2018
+
+
+date: 05 mon mar 2018
+
+
+date: 06 tue mar 2018
+
+
+date: 07 wed mar 2018
+
+
+date: 08 thu mar 2018
+
+
+date: 09 fri mar 2018
+
+
+date: 10 sat mar 2018
+
+
+date: 11 sun mar 2018
+
+
+date: 12 mon mar 2018
+
+
+date: 13 tue mar 2018
+
+
+date: 14 wed mar 2018
+
+
+date: 15 thu mar 2018
+
+
+date: 16 fri mar 2018
+
+
+date: 17 sat mar 2018
+
+
+date: 18 sun mar 2018
+
+
+date: 19 mon mar 2018
+
+
+date: 20 tue mar 2018
+
+
+date: 21 wed mar 2018
+
+
+date: 22 thu mar 2018
+
+
+date: 23 fri mar 2018
+
+
+date: 24 sat mar 2018
+
+
+date: 25 sun mar 2018
+
+
+date: 26 mon mar 2018
+
+
+date: 27 tue mar 2018
+
+
+date: 28 wed mar 2018
+
+
+date: 02 mon apr 2018
+
+
+date: 03 tue apr 2018
+
+
+date: 04 wed apr 2018
+
+
+date: 05 thu apr 2018
+
+
+date: 06 fri apr 2018
+
+
+date: 07 sat apr 2018
+
+
+date: 08 sun apr 2018
+
+
+date: 09 mon apr 2018
+
+
+date: 10 tue apr 2018
+
+
+date: 11 wed apr 2018
+time: 9pm
+gap: 3
+pairs: ['13', '17']
+results:
+15-8
+16-8
+14-8
+
+
+
+date: 12 thu apr 2018
+
+
+date: 13 fri apr 2018
+
+
+date: 14 sat apr 2018
+
+
+date: 15 sun apr 2018
+
+
+date: 16 mon apr 2018
+
+
+date: 17 tue apr 2018
+
+
+date: 18 wed apr 2018
+
+
+date: 19 thu apr 2018
+time: 11am
+gap: 6
+pairs: ['78', '72']
+results:
+71-8
+79-8
+70-8
+
+
+
+date: 20 fri apr 2018
+
+
+date: 21 sat apr 2018
+
+
+date: 22 sun apr 2018
+
+
+date: 23 mon apr 2018
+
+
+date: 24 tue apr 2018
+
+
+date: 25 wed apr 2018
+
+
+date: 26 thu apr 2018
+
+
+date: 27 fri apr 2018
+
+
+date: 28 sat apr 2018
+
+
+date: 29 sun apr 2018
+
+
+date: 30 mon apr 2018
+
+
+date: 01 tue may 2018
+
+
+date: 02 wed may 2018
+
+
+date: 03 thu may 2018
+
+
+date: 04 fri may 2018
+
+
+date: 05 sat may 2018
+
+
+date: 06 sun may 2018
+
+
+date: 07 mon may 2018
+
+
+date: 08 tue may 2018
+
+
+date: 09 wed may 2018
+
+
+date: 10 thu may 2018
+
+
+date: 11 fri may 2018
+
+
+date: 12 sat may 2018
+
+
+date: 13 sun may 2018
+
+
+date: 14 mon may 2018
+
+
+date: 15 tue may 2018
+
+
+date: 16 wed may 2018
+
+
+date: 17 thu may 2018
+
+
+date: 18 fri may 2018
+
+
+date: 19 sat may 2018
+
+
+date: 20 sun may 2018
+
+
+date: 21 mon may 2018
+
+
+date: 22 tue may 2018
+
+
+date: 23 wed may 2018
+
+
+date: 24 thu may 2018
+
+
+date: 25 fri may 2018
+
+
+date: 26 sat may 2018
+
+
+date: 27 sun may 2018
+
+
+date: 28 mon may 2018
+
+
+date: 29 tue may 2018
+
+
+date: 30 wed may 2018
+
+
+date: 31 thu may 2018
+
+
+date: 01 fri jun 2018
+
+
+date: 02 sat jun 2018
+
+
+date: 03 sun jun 2018
+
+
+date: 04 mon jun 2018
+time: 9pm
+gap: 52
+pairs: ['83', '87']
+results:
+84-1
+86-1
+85-1
+
+
+
+date: 05 tue jun 2018
+
+
+date: 06 wed jun 2018
+
+
+date: 07 thu jun 2018
+
+
+date: 08 fri jun 2018
+
+
+date: 09 sat jun 2018
+time: 11am
+gap: 39
+pairs: ['47', '41']
+results:
+49-2
+40-2
+48-2
+
+
+
+date: 10 sun jun 2018
+
+
+date: 11 mon jun 2018
+
+
+date: 12 tue jun 2018
+
+
+date: 13 wed jun 2018
+
+
+date: 14 thu jun 2018
+
+
+date: 15 fri jun 2018
+
+
+date: 16 sat jun 2018
+
+
+date: 17 sun jun 2018
+
+
+date: 18 mon jun 2018
+
+
+date: 19 tue jun 2018
+
+
+date: 20 wed jun 2018
+
+
+date: 21 thu jun 2018
+
+
+date: 22 fri jun 2018
+
+
+date: 23 sat jun 2018
+
+
+date: 24 sun jun 2018
+
+
+date: 25 mon jun 2018
+
+
+date: 26 tue jun 2018
+
+
+date: 27 wed jun 2018
+
+
+date: 28 thu jun 2018
+
+
+date: 29 fri jun 2018
+time: 9pm
+gap: 64
+pairs: ['93', '97']
+results:
+96-5
+95-5
+94-5
+
+
+
+date: 30 sat jun 2018
+
+
+date: 01 sun jul 2018
+
+
+date: 02 mon jul 2018
+
+
+date: 03 tue jul 2018
+
+
+date: 04 wed jul 2018
+
+
+date: 05 thu jul 2018
+
+
+date: 06 fri jul 2018
+
+
+date: 07 sat jul 2018
+
+
+date: 08 sun jul 2018
+
+
+date: 09 mon jul 2018
+
+
+date: 10 tue jul 2018
+
+
+date: 11 wed jul 2018
+time: 9pm
+gap: 55
+pairs: ['83', '87']
+results:
+85-3
+84-3
+86-3
+
+
+
+date: 12 thu jul 2018
+
+
+date: 13 fri jul 2018
+
+
+date: 14 sat jul 2018
+
+
+date: 15 sun jul 2018
+
+
+date: 16 mon jul 2018
+
+
+date: 17 tue jul 2018
+
+
+date: 18 wed jul 2018
+
+
+date: 19 thu jul 2018
+
+
+date: 20 fri jul 2018
+
+
+date: 21 sat jul 2018
+
+
+date: 22 sun jul 2018
+time: 9pm
+gap: 65
+pairs: ['25', '29']
+results:
+27-3
+26-3
+28-3
+
+
+
+date: 23 mon jul 2018
+
+
+date: 24 tue jul 2018
+
+
+date: 25 wed jul 2018
+
+
+date: 26 thu jul 2018
+
+
+date: 27 fri jul 2018
+
+
+date: 28 sat jul 2018
+
+
+date: 29 sun jul 2018
+
+
+date: 30 mon jul 2018
+
+
+date: 31 tue jul 2018
+
+
+date: 01 wed aug 2018
+
+
+date: 02 thu aug 2018
+
+
+date: 03 fri aug 2018
+
+
+date: 04 sat aug 2018
+
+
+date: 05 sun aug 2018
+
+
+date: 06 mon aug 2018
+
+
+date: 07 tue aug 2018
+
+
+date: 08 wed aug 2018
+
+
+date: 09 thu aug 2018
+
+
+date: 10 fri aug 2018
+
+
+date: 11 sat aug 2018
+
+
+date: 12 sun aug 2018
+
+
+date: 13 mon aug 2018
+time: 4pm
+gap: 60
+pairs: ['39', '33']
+results:
+30-1
+31-1
+32-1
+
+
+
+date: 14 tue aug 2018
+
+
+date: 15 wed aug 2018
+
+
+date: 16 thu aug 2018
+
+
+date: 17 fri aug 2018
+
+
+date: 18 sat aug 2018
+time: 9pm
+gap: 43
+pairs: ['79', '73']
+results:
+70-5
+71-5
+72-5
+
+
+
+date: 19 sun aug 2018
+
+
+date: 20 mon aug 2018
+
+
+date: 21 tue aug 2018
+
+
+date: 22 wed aug 2018
+
+
+date: 23 thu aug 2018
+
+
+date: 24 fri aug 2018
+
+
+date: 25 sat aug 2018
+
+
+date: 26 sun aug 2018
+
+
+date: 27 mon aug 2018
+time: 11am
+gap: 2
+pairs: ['94', '98']
+results:
+95-3
+97-3
+96-3
+
+
+
+date: 28 tue aug 2018
+
+
+date: 29 wed aug 2018
+
+
+date: 30 thu aug 2018
+
+
+date: 31 fri aug 2018
+
+
+date: 01 sat sep 2018
+
+
+date: 02 sun sep 2018
+
+
+date: 03 mon sep 2018
+
+
+date: 04 tue sep 2018
+
+
+date: 05 wed sep 2018
+
+
+date: 06 thu sep 2018
+
+
+date: 07 fri sep 2018
+
+
+date: 08 sat sep 2018
+
+
+date: 09 sun sep 2018
+
+
+date: 10 mon sep 2018
+
+
+date: 11 tue sep 2018
+
+
+date: 12 wed sep 2018
+
+
+date: 13 thu sep 2018
+
+
+date: 14 fri sep 2018
+
+
+date: 15 sat sep 2018
+
+
+date: 16 sun sep 2018
+
+
+date: 17 mon sep 2018
+
+
+date: 18 tue sep 2018
+
+
+date: 19 wed sep 2018
+
+
+date: 20 thu sep 2018
+
+
+date: 21 fri sep 2018
+time: 9pm
+gap: 48
+pairs: ['35', '39']
+results:
+37-1
+38-1
+36-1
+
+
+
+date: 22 sat sep 2018
+
+
+date: 23 sun sep 2018
+
+
+date: 24 mon sep 2018
+
+
+date: 25 tue sep 2018
+
+
+date: 26 wed sep 2018
+
+
+date: 27 thu sep 2018
+
+
+date: 28 fri sep 2018
+
+
+date: 29 sat sep 2018
+
+
+date: 30 sun sep 2018
+
+
+date: 01 mon oct 2018
+
+
+date: 02 tue oct 2018
+
+
+date: 03 wed oct 2018
+
+
+date: 04 thu oct 2018
+
+
+date: 05 fri oct 2018
+
+
+date: 06 sat oct 2018
+
+
+date: 07 sun oct 2018
+
+
+date: 08 mon oct 2018
+time: 11am
+gap: 9
+pairs: ['72', '76']
+results:
+73-2
+75-2
+74-2
+
+
+
+date: 09 tue oct 2018
+
+
+date: 10 wed oct 2018
+
+
+date: 11 thu oct 2018
+
+
+date: 12 fri oct 2018
+
+
+date: 13 sat oct 2018
+
+
+date: 14 sun oct 2018
+
+
+date: 15 mon oct 2018
+
+
+date: 16 tue oct 2018
+
+
+date: 17 wed oct 2018
+
+
+date: 18 thu oct 2018
+
+
+date: 19 fri oct 2018
+
+
+date: 20 sat oct 2018
+
+
+date: 21 sun oct 2018
+time: 11am
+gap: 59
+pairs: ['42', '46']
+results:
+45-7
+43-7
+44-7
+
+
+
+date: 22 mon oct 2018
+time: 9pm
+gap: 65
+pairs: ['82', '86']
+results:
+83-1
+84-1
+85-1
+
+
+
+date: 23 tue oct 2018
+
+
+date: 24 wed oct 2018
+
+
+date: 25 thu oct 2018
+
+
+date: 26 fri oct 2018
+
+
+date: 27 sat oct 2018
+
+
+date: 28 sun oct 2018
+
+
+date: 29 mon oct 2018
+
+
+date: 30 tue oct 2018
+
+
+date: 31 wed oct 2018
+
+
+date: 01 thu nov 2018
+
+
+date: 02 fri nov 2018
+
+
+date: 03 sat nov 2018
+
+
+date: 04 sun nov 2018
+
+
+date: 05 mon nov 2018
+
+
+date: 06 tue nov 2018
+
+
+date: 07 wed nov 2018
+time: 9pm
+gap: 98
+pairs: ['35', '39']
+results:
+37-1
+38-1
+36-1
+
+
+
+date: 08 thu nov 2018
+
+
+date: 09 fri nov 2018
+
+
+date: 10 sat nov 2018
+
+
+date: 11 sun nov 2018
+
+
+date: 12 mon nov 2018
+time: 9pm
+gap: 26
+pairs: ['03', '07']
+results:
+05-3
+04-3
+06-3
+
+
+
+date: 13 tue nov 2018
+
+
+date: 14 wed nov 2018
+
+
+date: 15 thu nov 2018
+
+
+date: 16 fri nov 2018
+
+
+date: 17 sat nov 2018
+
+
+date: 18 sun nov 2018
+
+
+date: 19 mon nov 2018
+
+
+date: 20 tue nov 2018
+
+
+date: 21 wed nov 2018
+
+
+date: 22 thu nov 2018
+
+
+date: 23 fri nov 2018
+
+
+date: 24 sat nov 2018
+
+
+date: 25 sun nov 2018
+
+
+date: 26 mon nov 2018
+
+
+date: 27 tue nov 2018
+time: 11am
+gap: 6
+pairs: ['84', '88']
+results:
+85-1
+87-1
+86-1
+
+
+
+date: 28 wed nov 2018
+
+
+date: 29 thu nov 2018
+
+
+date: 30 fri nov 2018
+
+
+date: 01 sat dec 2018
+
+
+date: 02 sun dec 2018
+
+
+date: 03 mon dec 2018
+
+
+date: 04 tue dec 2018
+time: 11am
+gap: 49
+pairs: ['39', '33']
+results:
+30-9
+31-9
+32-9
+
+
+
+date: 05 wed dec 2018
+
+
+date: 06 thu dec 2018
+time: 9pm
+gap: 96
+pairs: ['69', '63']
+results:
+60-8
+62-8
+61-8
+
+
+
+date: 07 fri dec 2018
+
+
+date: 08 sat dec 2018
+
+
+date: 09 sun dec 2018
+
+
+date: 10 mon dec 2018
+
+
+date: 11 tue dec 2018
+
+
+date: 12 wed dec 2018
+
+
+date: 13 thu dec 2018
+
+
+date: 14 fri dec 2018
+
+
+date: 15 sat dec 2018
+
+
+date: 16 sun dec 2018
+
+
+date: 17 mon dec 2018
+
+
+date: 18 tue dec 2018
+
+
+date: 19 wed dec 2018
+time: 4pm
+gap: 76
+pairs: ['19', '13']
+results:
+12-6
+10-6
+11-6
+
+
+
+date: 20 thu dec 2018
+
+
+date: 21 fri dec 2018
+
+
+date: 22 sat dec 2018
+
+
+date: 23 sun dec 2018
+
+
+date: 24 mon dec 2018
+
+
+date: 26 wed dec 2018
+
+
+date: 27 thu dec 2018
+
+
+date: 28 fri dec 2018
+time: 9pm
+gap: 23
+pairs: ['04', '08']
+results:
+07-3
+06-3
+05-3
+
+
+
+date: 29 sat dec 2018
+
+
+date: 30 sun dec 2018
+
+
+date: 31 mon dec 2018
+
+
+date: 02 wed jan 2019
+
+
+date: 03 thu jan 2019
+
+
+date: 04 fri jan 2019
+
+
+date: 05 sat jan 2019
+time: 4pm
+gap: 49
+pairs: ['14', '18']
+results:
+17-2
+16-2
+15-2
+
+
+
+date: 06 sun jan 2019
+
+
+date: 07 mon jan 2019
+
+
+date: 08 tue jan 2019
+
+
+date: 09 wed jan 2019
+
+
+date: 10 thu jan 2019
+
+
+date: 11 fri jan 2019
+
+
+date: 12 sat jan 2019
+
+
+date: 13 sun jan 2019
+
+
+date: 14 mon jan 2019
+
+
+date: 15 tue jan 2019
+time: 4pm
+gap: 50
+pairs: ['13', '17']
+results:
+14-2
+16-2
+15-2
+
+
+
+date: 16 wed jan 2019
+time: 11am
+gap: 97
+pairs: ['07', '01']
+results:
+08-6
+00-6
+09-6
+
+
+
+date: 17 thu jan 2019
+
+
+date: 18 fri jan 2019
+
+
+date: 19 sat jan 2019
+
+
+date: 20 sun jan 2019
+
+
+date: 21 mon jan 2019
+
+
+date: 22 tue jan 2019
+
+
+date: 23 wed jan 2019
+
+
+date: 24 thu jan 2019
+
+
+date: 25 fri jan 2019
+
+
+date: 26 sat jan 2019
+
+
+date: 27 sun jan 2019
+
+
+date: 28 mon jan 2019
+
+
+date: 29 tue jan 2019
+
+
+date: 30 wed jan 2019
+
+
+date: 31 thu jan 2019
+
+
+date: 01 fri feb 2019
+
+
+date: 02 sat feb 2019
+
+
+date: 03 sun feb 2019
+
+
+date: 04 mon feb 2019
+
+
+date: 05 tue feb 2019
+time: 9pm
+gap: 45
+pairs: ['67', '61']
+results:
+68-3
+69-3
+60-3
+
+
+
+date: 06 wed feb 2019
+
+
+date: 07 thu feb 2019
+time: 11am
+gap: 63
+pairs: ['97', '91']
+results:
+98-1
+99-1
+90-1
+
+
+
+date: 08 fri feb 2019
+time: 11am
+gap: 80
+pairs: ['99', '93']
+results:
+92-4
+90-4
+91-4
+
+time: 9pm
+gap: 64
+pairs: ['01', '05']
+results:
+03-7
+02-7
+04-7
+
+
+
+date: 09 sat feb 2019
+
+
+date: 10 sun feb 2019
+time: 4pm
+gap: 82
+pairs: ['93', '97']
+results:
+95-6
+94-6
+96-6
+
+
+
+date: 11 mon feb 2019
+
+
+date: 12 tue feb 2019
+
+
+date: 13 wed feb 2019
+
+
+date: 14 thu feb 2019
+
+
+date: 15 fri feb 2019
+
+
+date: 16 sat feb 2019
+
+
+date: 17 sun feb 2019
+
+
+date: 18 mon feb 2019
+
+
+date: 19 tue feb 2019
+
+
+date: 20 wed feb 2019
+
+
+date: 21 thu feb 2019
+
+
+date: 22 fri feb 2019
+
+
+date: 23 sat feb 2019
+
+
+date: 24 sun feb 2019
+
+
+date: 25 mon feb 2019
+
+
+date: 26 tue feb 2019
+
+
+date: 27 wed feb 2019
+
+
+date: 28 thu feb 2019
+
+
+date: 01 fri mar 2019
+
+
+date: 02 sat mar 2019
+time: 11am
+gap: 67
+pairs: ['06', '00']
+results:
+07-3
+09-3
+08-3
+
+
+
+date: 03 sun mar 2019
+
+
+date: 04 mon mar 2019
+
+
+date: 05 tue mar 2019
+
+
+date: 06 wed mar 2019
+
+
+date: 07 thu mar 2019
+
+
+date: 08 fri mar 2019
+
+
+date: 09 sat mar 2019
+time: 9pm
+gap: 9
+pairs: ['82', '86']
+results:
+83-8
+84-8
+85-8
+
+
+
+date: 10 sun mar 2019
+
+
+date: 11 mon mar 2019
+
+
+date: 12 tue mar 2019
+
+
+date: 13 wed mar 2019
+
+
+date: 14 thu mar 2019
+
+
+date: 15 fri mar 2019
+
+
+date: 16 sat mar 2019
+
+
+date: 17 sun mar 2019
+
+
+date: 18 mon mar 2019
+
+
+date: 19 tue mar 2019
+
+
+date: 20 wed mar 2019
+
+
+date: 21 thu mar 2019
+
+
+date: 22 fri mar 2019
+
+
+date: 23 sat mar 2019
+
+
+date: 24 sun mar 2019
+
+
+date: 25 mon mar 2019
+
+
+date: 26 tue mar 2019
+
+
+date: 27 wed mar 2019
+
+
+date: 28 thu mar 2019
+time: 9pm
+gap: 37
+pairs: ['82', '86']
+results:
+84-7
+83-7
+85-7
+
+
+
+date: 29 fri mar 2019
+
+
+date: 30 sat mar 2019
+
+
+date: 31 sun mar 2019
+
+
+date: 01 mon apr 2019
+
+
+date: 02 tue apr 2019
+
+
+date: 03 wed apr 2019
+
+
+date: 04 thu apr 2019
+time: 11am
+gap: 60
+pairs: ['61', '65']
+results:
+64-8
+62-8
+63-8
+
+
+
+date: 05 fri apr 2019
+
+
+date: 06 sat apr 2019
+
+
+date: 07 sun apr 2019
+
+
+date: 08 mon apr 2019
+
+
+date: 09 tue apr 2019
+
+
+date: 10 wed apr 2019
+
+
+date: 11 thu apr 2019
+time: 4pm
+gap: 51
+pairs: ['49', '43']
+results:
+40-1
+42-1
+41-1
+
+
+
+date: 12 fri apr 2019
+
+
+date: 13 sat apr 2019
+
+
+date: 14 sun apr 2019
+date: 16 thu nov 2017
+
+
+date: 17 fri nov 2017
+
+
+date: 18 sat nov 2017
+
+
+date: 19 sun nov 2017
+
+
+date: 20 mon nov 2017
+
+
+date: 21 tue nov 2017
+
+
+date: 22 wed nov 2017
+
+
+date: 23 thu nov 2017
+
+
+date: 24 fri nov 2017
+
+
+date: 25 sat nov 2017
+
+
+date: 26 sun nov 2017
+
+
+date: 27 mon nov 2017
+
+
+date: 28 tue nov 2017
+
+
+date: 29 wed nov 2017
+
+
+date: 30 thu nov 2017
+
+
+date: 01 fri dec 2017
+
+
+date: 02 sat dec 2017
+
+
+date: 03 sun dec 2017
+
+
+date: 04 mon dec 2017
+
+
+date: 05 tue dec 2017
+
+
+date: 06 wed dec 2017
+
+
+date: 07 thu dec 2017
+
+
+date: 08 fri dec 2017
+
+
+date: 09 sat dec 2017
+
+
+date: 10 sun dec 2017
+
+
+date: 11 mon dec 2017
+
+
+date: 12 tue dec 2017
+
+
+date: 13 wed dec 2017
+
+
+date: 14 thu dec 2017
+
+
+date: 15 fri dec 2017
+
+
+date: 16 sat dec 2017
+
+
+date: 17 sun dec 2017
+
+
+date: 18 mon dec 2017
+
+
+date: 19 tue dec 2017
+
+
+date: 20 wed dec 2017
+
+
+date: 21 thu dec 2017
+
+
+date: 22 fri dec 2017
+
+
+date: 23 sat dec 2017
+
+
+date: 24 sun dec 2017
+
+
+date: 26 tue dec 2017
+time: 9pm
+gap: 2
+pairs: ['48', '42']
+results:
+40-7
+41-7
+49-7
+
+
+
+date: 27 wed dec 2017
+
+
+date: 28 thu dec 2017
+
+
+date: 29 fri dec 2017
+
+
+date: 30 sat dec 2017
+
+
+date: 31 sun dec 2017
+
+
+date: 02 tue jan 2018
+
+
+date: 03 wed jan 2018
+
+
+date: 04 thu jan 2018
+
+
+date: 05 fri jan 2018
+
+
+date: 06 sat jan 2018
+
+
+date: 07 sun jan 2018
+
+
+date: 08 mon jan 2018
+
+
+date: 09 tue jan 2018
+
+
+date: 10 wed jan 2018
+
+
+date: 11 thu jan 2018
+
+
+date: 12 fri jan 2018
+
+
+date: 13 sat jan 2018
+
+
+date: 14 sun jan 2018
+
+
+date: 15 mon jan 2018
+
+
+date: 16 tue jan 2018
+
+
+date: 17 wed jan 2018
+
+
+date: 18 thu jan 2018
+
+
+date: 19 fri jan 2018
+
+
+date: 20 sat jan 2018
+
+
+date: 21 sun jan 2018
+
+
+date: 22 mon jan 2018
+
+
+date: 23 tue jan 2018
+
+
+date: 24 wed jan 2018
+
+
+date: 25 thu jan 2018
+
+
+date: 26 fri jan 2018
+
+
+date: 27 sat jan 2018
+
+
+date: 28 sun jan 2018
+
+
+date: 29 mon jan 2018
+
+
+date: 30 tue jan 2018
+
+
+date: 31 wed jan 2018
+
+
+date: 01 thu feb 2018
+
+
+date: 02 fri feb 2018
+time: 9pm
+gap: 7
+pairs: ['25', '29']
+results:
+26-5
+28-5
+27-5
+
+
+
+date: 03 sat feb 2018
+
+
+date: 04 sun feb 2018
+
+
+date: 05 mon feb 2018
+
+
+date: 06 tue feb 2018
+
+
+date: 07 wed feb 2018
+
+
+date: 08 thu feb 2018
+
+
+date: 09 fri feb 2018
+
+
+date: 10 sat feb 2018
+time: 4pm
+gap: 12
+pairs: ['61', '65']
+results:
+64-9
+63-9
+62-9
+
+
+
+date: 11 sun feb 2018
+
+
+date: 12 mon feb 2018
+
+
+date: 13 tue feb 2018
+
+
+date: 14 wed feb 2018
+
+
+date: 15 thu feb 2018
+
+
+date: 16 fri feb 2018
+
+
+date: 17 sat feb 2018
+time: 9pm
+gap: 12
+pairs: ['26', '20']
+results:
+29-5
+28-5
+27-5
+
+
+
+date: 18 sun feb 2018
+
+
+date: 19 mon feb 2018
+
+
+date: 20 tue feb 2018
+
+
+date: 21 wed feb 2018
+
+
+date: 22 thu feb 2018
+
+
+date: 23 fri feb 2018
+
+
+date: 24 sat feb 2018
+
+
+date: 25 sun feb 2018
+
+
+date: 26 mon feb 2018
+
+
+date: 27 tue feb 2018
+
+
+date: 28 wed feb 2018
+
+
+date: 01 thu mar 2018
+
+
+date: 02 fri mar 2018
+
+
+date: 03 sat mar 2018
+
+
+date: 04 sun mar 2018
+
+
+date: 05 mon mar 2018
+
+
+date: 06 tue mar 2018
+
+
+date: 07 wed mar 2018
+
+
+date: 08 thu mar 2018
+
+
+date: 09 fri mar 2018
+
+
+date: 10 sat mar 2018
+
+
+date: 11 sun mar 2018
+
+
+date: 12 mon mar 2018
+
+
+date: 13 tue mar 2018
+
+
+date: 14 wed mar 2018
+
+
+date: 15 thu mar 2018
+
+
+date: 16 fri mar 2018
+
+
+date: 17 sat mar 2018
+
+
+date: 18 sun mar 2018
+
+
+date: 19 mon mar 2018
+
+
+date: 20 tue mar 2018
+
+
+date: 21 wed mar 2018
+
+
+date: 22 thu mar 2018
+
+
+date: 23 fri mar 2018
+
+
+date: 24 sat mar 2018
+
+
+date: 25 sun mar 2018
+
+
+date: 26 mon mar 2018
+
+
+date: 27 tue mar 2018
+
+
+date: 28 wed mar 2018
+
+
+date: 02 mon apr 2018
+
+
+date: 03 tue apr 2018
+
+
+date: 04 wed apr 2018
+
+
+date: 05 thu apr 2018
+
+
+date: 06 fri apr 2018
+
+
+date: 07 sat apr 2018
+
+
+date: 08 sun apr 2018
+
+
+date: 09 mon apr 2018
+
+
+date: 10 tue apr 2018
+
+
+date: 11 wed apr 2018
+time: 9pm
+gap: 3
+pairs: ['13', '17']
+results:
+15-8
+16-8
+14-8
+
+
+
+date: 12 thu apr 2018
+
+
+date: 13 fri apr 2018
+
+
+date: 14 sat apr 2018
+
+
+date: 15 sun apr 2018
+
+
+date: 16 mon apr 2018
+
+
+date: 17 tue apr 2018
+
+
+date: 18 wed apr 2018
+
+
+date: 19 thu apr 2018
+time: 11am
+gap: 6
+pairs: ['78', '72']
+results:
+71-8
+79-8
+70-8
+
+
+
+date: 20 fri apr 2018
+
+
+date: 21 sat apr 2018
+
+
+date: 22 sun apr 2018
+
+
+date: 23 mon apr 2018
+
+
+date: 24 tue apr 2018
+
+
+date: 25 wed apr 2018
+
+
+date: 26 thu apr 2018
+
+
+date: 27 fri apr 2018
+
+
+date: 28 sat apr 2018
+
+
+date: 29 sun apr 2018
+
+
+date: 30 mon apr 2018
+
+
+date: 01 tue may 2018
+
+
+date: 02 wed may 2018
+
+
+date: 03 thu may 2018
+
+
+date: 04 fri may 2018
+
+
+date: 05 sat may 2018
+
+
+date: 06 sun may 2018
+
+
+date: 07 mon may 2018
+
+
+date: 08 tue may 2018
+
+
+date: 09 wed may 2018
+
+
+date: 10 thu may 2018
+
+
+date: 11 fri may 2018
+
+
+date: 12 sat may 2018
+
+
+date: 13 sun may 2018
+
+
+date: 14 mon may 2018
+
+
+date: 15 tue may 2018
+
+
+date: 16 wed may 2018
+
+
+date: 17 thu may 2018
+
+
+date: 18 fri may 2018
+
+
+date: 19 sat may 2018
+
+
+date: 20 sun may 2018
+
+
+date: 21 mon may 2018
+
+
+date: 22 tue may 2018
+
+
+date: 23 wed may 2018
+
+
+date: 24 thu may 2018
+
+
+date: 25 fri may 2018
+
+
+date: 26 sat may 2018
+
+
+date: 27 sun may 2018
+
+
+date: 28 mon may 2018
+
+
+date: 29 tue may 2018
+
+
+date: 30 wed may 2018
+
+
+date: 31 thu may 2018
+
+
+date: 01 fri jun 2018
+
+
+date: 02 sat jun 2018
+
+
+date: 03 sun jun 2018
+
+
+date: 04 mon jun 2018
+time: 9pm
+gap: 52
+pairs: ['83', '87']
+results:
+84-1
+86-1
+85-1
+
+
+
+date: 05 tue jun 2018
+
+
+date: 06 wed jun 2018
+
+
+date: 07 thu jun 2018
+
+
+date: 08 fri jun 2018
+
+
+date: 09 sat jun 2018
+time: 11am
+gap: 39
+pairs: ['47', '41']
+results:
+49-2
+40-2
+48-2
+
+
+
+date: 10 sun jun 2018
+
+
+date: 11 mon jun 2018
+
+
+date: 12 tue jun 2018
+
+
+date: 13 wed jun 2018
+
+
+date: 14 thu jun 2018
+
+
+date: 15 fri jun 2018
+
+
+date: 16 sat jun 2018
+
+
+date: 17 sun jun 2018
+
+
+date: 18 mon jun 2018
+
+
+date: 19 tue jun 2018
+
+
+date: 20 wed jun 2018
+
+
+date: 21 thu jun 2018
+
+
+date: 22 fri jun 2018
+
+
+date: 23 sat jun 2018
+
+
+date: 24 sun jun 2018
+
+
+date: 25 mon jun 2018
+
+
+date: 26 tue jun 2018
+
+
+date: 27 wed jun 2018
+
+
+date: 28 thu jun 2018
+
+
+date: 29 fri jun 2018
+time: 9pm
+gap: 64
+pairs: ['93', '97']
+results:
+96-5
+95-5
+94-5
+
+
+
+date: 30 sat jun 2018
+
+
+date: 01 sun jul 2018
+
+
+date: 02 mon jul 2018
+
+
+date: 03 tue jul 2018
+
+
+date: 04 wed jul 2018
+
+
+date: 05 thu jul 2018
+
+
+date: 06 fri jul 2018
+
+
+date: 07 sat jul 2018
+
+
+date: 08 sun jul 2018
+
+
+date: 09 mon jul 2018
+
+
+date: 10 tue jul 2018
+
+
+date: 11 wed jul 2018
+time: 9pm
+gap: 55
+pairs: ['83', '87']
+results:
+85-3
+84-3
+86-3
+
+
+
+date: 12 thu jul 2018
+
+
+date: 13 fri jul 2018
+
+
+date: 14 sat jul 2018
+
+
+date: 15 sun jul 2018
+
+
+date: 16 mon jul 2018
+
+
+date: 17 tue jul 2018
+
+
+date: 18 wed jul 2018
+
+
+date: 19 thu jul 2018
+
+
+date: 20 fri jul 2018
+
+
+date: 21 sat jul 2018
+
+
+date: 22 sun jul 2018
+time: 9pm
+gap: 65
+pairs: ['25', '29']
+results:
+27-3
+26-3
+28-3
+
+
+
+date: 23 mon jul 2018
+
+
+date: 24 tue jul 2018
+
+
+date: 25 wed jul 2018
+
+
+date: 26 thu jul 2018
+
+
+date: 27 fri jul 2018
+
+
+date: 28 sat jul 2018
+
+
+date: 29 sun jul 2018
+
+
+date: 30 mon jul 2018
+
+
+date: 31 tue jul 2018
+
+
+date: 01 wed aug 2018
+
+
+date: 02 thu aug 2018
+
+
+date: 03 fri aug 2018
+
+
+date: 04 sat aug 2018
+
+
+date: 05 sun aug 2018
+
+
+date: 06 mon aug 2018
+
+
+date: 07 tue aug 2018
+
+
+date: 08 wed aug 2018
+
+
+date: 09 thu aug 2018
+
+
+date: 10 fri aug 2018
+
+
+date: 11 sat aug 2018
+
+
+date: 12 sun aug 2018
+
+
+date: 13 mon aug 2018
+time: 4pm
+gap: 60
+pairs: ['39', '33']
+results:
+30-1
+31-1
+32-1
+
+
+
+date: 14 tue aug 2018
+
+
+date: 15 wed aug 2018
+
+
+date: 16 thu aug 2018
+
+
+date: 17 fri aug 2018
+
+
+date: 18 sat aug 2018
+time: 9pm
+gap: 43
+pairs: ['79', '73']
+results:
+70-5
+
+
+date: 15 mon apr 2019
+
+
+date: 16 tue apr 2019
+
+
+date: 17 wed apr 2019
+
+
+date: 22 mon apr 2019
+
+
+date: 23 tue apr 2019
+
+
+date: 24 wed apr 2019
+
+
+date: 25 thu apr 2019
+time: 11am
+gap: 10
+pairs: ['32', '36']
+results:
+33-8
+34-8
+35-8
+
+
+
+date: 26 fri apr 2019
+
+
+date: 27 sat apr 2019
+
+
+date: 28 sun apr 2019
+
+
+date: 29 mon apr 2019
+
+
+date: 30 tue apr 2019
+time: 9pm
+gap: 54
+pairs: ['57', '51']
+results:
+50-3
+58-3
+59-3
+
+
+
+date: 01 wed may 2019
+
+
+date: 02 thu may 2019
+
+
+date: 03 fri may 2019
+
+
+date: 04 sat may 2019
+
+
+date: 05 sun may 2019
+
+
+date: 06 mon may 2019
+
+
+date: 07 tue may 2019
+
+
+date: 08 wed may 2019
+
+
+date: 09 thu may 2019
+
+
+date: 10 fri may 2019
+
+
+date: 11 sat may 2019
+
+
+date: 12 sun may 2019
+
+
+date: 13 mon may 2019
+
+
+date: 14 tue may 2019
+
+
+date: 15 wed may 2019
+
+
+date: 16 thu may 2019
+
+
+date: 17 fri may 2019
+
+
+date: 18 sat may 2019
+time: 4pm
+gap: 84
+pairs: ['49', '43']
+results:
+40-1
+42-1
+41-1
+
+
+
+date: 19 sun may 2019
+
+
+date: 20 mon may 2019
+
+
+date: 21 tue may 2019
+
+
+date: 22 wed may 2019
+
+
+date: 23 thu may 2019
+
+
+date: 24 fri may 2019
+time: 9pm
+gap: 33
+pairs: ['56', '50']
+results:
+59-8
+57-8
+58-8
+
+
+
+date: 25 sat may 2019
+
+
+date: 26 sun may 2019
+
+
+date: 27 mon may 2019
+
+
+date: 28 tue may 2019
+time: 9pm
+gap: 63
+pairs: ['83', '87']
+results:
+86-2
+85-2
+84-2
+
+
+
+date: 29 wed may 2019
+
+
+date: 30 thu may 2019
+
+
+date: 31 fri may 2019
+time: 11am
+gap: 61
+pairs: ['82', '86']
+results:
+84-1
+83-1
+85-1
+
+
+
+date: 01 sat jun 2019
+
+
+date: 02 sun jun 2019
+
+
+date: 03 mon jun 2019
+
+
+date: 04 tue jun 2019
+
+
+date: 05 wed jun 2019
+
+
+date: 06 thu jun 2019
+
+
+date: 07 fri jun 2019
+
+
+date: 08 sat jun 2019
+
+
+date: 09 sun jun 2019
+
+
+date: 10 mon jun 2019
+
+
+date: 11 tue jun 2019
+
+
+date: 12 wed jun 2019
+time: 4pm
+gap: 73
+pairs: ['12', '16']
+results:
+13-9
+14-9
+15-9
+
+
+
+date: 13 thu jun 2019
+
+
+date: 14 fri jun 2019
+
+
+date: 15 sat jun 2019
+
+
+date: 16 sun jun 2019
+
+
+date: 17 mon jun 2019
+
+
+date: 18 tue jun 2019
+
+
+date: 19 wed jun 2019
+
+
+date: 20 thu jun 2019
+
+
+date: 21 fri jun 2019
+
+
+date: 22 sat jun 2019
+time: 11am
+gap: 80
+pairs: ['76', '70']
+results:
+79-6
+78-6
+77-6
+
+
+
+date: 23 sun jun 2019
+
+
+71-5
+72-5
+
+
+
+date: 19 sun aug 2018
+
+
+date: 20 mon aug 2018
+
+
+date: 21 tue aug 2018
+
+
+date: 22 wed aug 2018
+
+
+date: 23 thu aug 2018
+
+
+date: 24 fri aug 2018
+
+
+date: 25 sat aug 2018
+
+
+date: 26 sun aug 2018
+
+
+date: 27 mon aug 2018
+time: 11am
+gap: 2
+pairs: ['94', '98']
+results:
+95-3
+97-3
+96-3
+
+
+
+date: 28 tue aug 2018
+
+
+date: 29 wed aug 2018
+
+
+date: 30 thu aug 2018
+
+
+date: 31 fri aug 2018
+
+
+date: 01 sat sep 2018
+
+
+date: 02 sun sep 2018
+
+
+date: 03 mon sep 2018
+
+
+date: 04 tue sep 2018
+
+
+date: 05 wed sep 2018
+
+
+date: 06 thu sep 2018
+
+
+date: 07 fri sep 2018
+
+
+date: 08 sat sep 2018
+
+
+date: 09 sun sep 2018
+
+
+date: 10 mon sep 2018
+
+
+date: 11 tue sep 2018
+
+
+date: 12 wed sep 2018
+
+
+date: 13 thu sep 2018
+
+
+date: 14 fri sep 2018
+
+
+date: 15 sat sep 2018
+
+
+date: 16 sun sep 2018
+
+
+date: 17 mon sep 2018
+
+
+date: 18 tue sep 2018
+
+
+date: 19 wed sep 2018
+
+
+date: 20 thu sep 2018
+
+
+date: 21 fri sep 2018
+time: 9pm
+gap: 48
+pairs: ['35', '39']
+results:
+37-1
+38-1
+36-1
+
+
+
+date: 22 sat sep 2018
+
+
+date: 23 sun sep 2018
+
+
+date: 24 mon sep 2018
+
+
+date: 25 tue sep 2018
+
+
+date: 26 wed sep 2018
+
+
+date: 27 thu sep 2018
+
+
+date: 28 fri sep 2018
+
+
+date: 29 sat sep 2018
+
+
+date: 30 sun sep 2018
+
+
+date: 01 mon oct 2018
+
+
+date: 02 tue oct 2018
+
+
+date: 03 wed oct 2018
+
+
+date: 04 thu oct 2018
+
+
+date: 05 fri oct 2018
+
+
+date: 06 sat oct 2018
+
+
+date: 07 sun oct 2018
+
+
+date: 08 mon oct 2018
+time: 11am
+gap: 9
+pairs: ['72', '76']
+results:
+73-2
+75-2
+74-2
+
+
+
+date: 09 tue oct 2018
+
+
+date: 10 wed oct 2018
+
+
+date: 11 thu oct 2018
+
+
+date: 12 fri oct 2018
+
+
+date: 13 sat oct 2018
+
+
+date: 14 sun oct 2018
+
+
+date: 15 mon oct 2018
+
+
+date: 16 tue oct 2018
+
+
+date: 17 wed oct 2018
+
+
+date: 18 thu oct 2018
+
+
+date: 19 fri oct 2018
+
+
+date: 20 sat oct 2018
+
+
+date: 21 sun oct 2018
+time: 11am
+gap: 59
+pairs: ['42', '46']
+results:
+45-7
+43-7
+44-7
+
+
+
+date: 22 mon oct 2018
+time: 9pm
+gap: 65
+pairs: ['82', '86']
+results:
+83-1
+84-1
+85-1
+
+
+
+date: 23 tue oct 2018
+
+
+date: 24 wed oct 2018
+
+
+date: 25 thu oct 2018
+
+
+date: 26 fri oct 2018
+
+
+date: 27 sat oct 2018
+
+
+date: 28 sun oct 2018
+
+
+date: 29 mon oct 2018
+
+
+date: 30 tue oct 2018
+
+
+date: 31 wed oct 2018
+
+
+date: 01 thu nov 2018
+
+
+date: 02 fri nov 2018
+
+
+date: 03 sat nov 2018
+
+
+date: 04 sun nov 2018
+
+
+date: 05 mon nov 2018
+
+
+date: 06 tue nov 2018
+
+
+date: 07 wed nov 2018
+time: 9pm
+gap: 98
+pairs: ['35', '39']
+results:
+37-1
+38-1
+36-1
+
+
+
+date: 08 thu nov 2018
+
+
+date: 09 fri nov 2018
+
+
+date: 10 sat nov 2018
+
+
+date: 11 sun nov 2018
+
+
+date: 12 mon nov 2018
+time: 9pm
+gap: 26
+pairs: ['03', '07']
+results:
+05-3
+04-3
+06-3
+
+
+
+date: 13 tue nov 2018
+
+
+date: 14 wed nov 2018
+
+
+date: 15 thu nov 2018
+
+
+date: 16 fri nov 2018
+
+
+date: 17 sat nov 2018
+
+
+date: 18 sun nov 2018
+
+
+date: 19 mon nov 2018
+
+
+date: 20 tue nov 2018
+
+
+date: 21 wed nov 2018
+
+
+date: 22 thu nov 2018
+
+
+date: 23 fri nov 2018
+
+
+date: 24 sat nov 2018
+
+
+date: 25 sun nov 2018
+
+
+date: 26 mon nov 2018
+
+
+date: 27 tue nov 2018
+time: 11am
+gap: 6
+pairs: ['84', '88']
+results:
+85-1
+87-1
+86-1
+
+
+
+date: 28 wed nov 2018
+
+
+date: 29 thu nov 2018
+
+
+date: 30 fri nov 2018
+
+
+date: 01 sat dec 2018
+
+
+date: 02 sun dec 2018
+
+
+date: 03 mon dec 2018
+
+
+date: 04 tue dec 2018
+time: 11am
+gap: 49
+pairs: ['39', '33']
+results:
+30-9
+31-9
+32-9
+
+
+
+date: 05 wed dec 2018
+
+
+date: 06 thu dec 2018
+time: 9pm
+gap: 96
+pairs: ['69', '63']
+results:
+60-8
+62-8
+61-8
+
+
+
+date: 07 fri dec 2018
+
+
+date: 08 sat dec 2018
+
+
+date: 09 sun dec 2018
+
+
+date: 10 mon dec 2018
+
+
+date: 11 tue dec 2018
+
+
+date: 12 wed dec 2018
+
+
+date: 13 thu dec 2018
+
+
+date: 14 fri dec 2018
+
+
+date: 15 sat dec 2018
+
+
+date: 16 sun dec 2018
+
+
+date: 17 mon dec 2018
+
+
+date: 18 tue dec 2018
+
+
+date: 19 wed dec 2018
+time: 4pm
+gap: 76
+pairs: ['19', '13']
+results:
+12-6
+10-6
+11-6
+
+
+
+date: 20 thu dec 2018
+
+
+date: 21 fri dec 2018
+
+
+date: 22 sat dec 2018
+
+
+date: 23 sun dec 2018
+
+
+date: 24 mon dec 2018
+
+
+date: 26 wed dec 2018
+
+
+date: 27 thu dec 2018
+
+
+date: 28 fri dec 2018
+time: 9pm
+gap: 23
+pairs: ['04', '08']
+results:
+07-3
+06-3
+05-3
+
+
+
+date: 29 sat dec 2018
+
+
+date: 30 sun dec 2018
+
+
+date: 31 mon dec 2018
+
+
+date: 02 wed jan 2019
+
+
+date: 03 thu jan 2019
+
+
+date: 04 fri jan 2019
+
+
+date: 05 sat jan 2019
+time: 4pm
+gap: 49
+pairs: ['14', '18']
+results:
+17-2
+16-2
+15-2
+
+
+
+date: 06 sun jan 2019
+
+
+date: 07 mon jan 2019
+
+
+date: 08 tue jan 2019
+
+
+date: 09 wed jan 2019
+
+
+date: 10 thu jan 2019
+
+
+date: 11 fri jan 2019
+
+
+date: 12 sat jan 2019
+
+
+date: 13 sun jan 2019
+
+
+date: 14 mon jan 2019
+
+
+date: 15 tue jan 2019
+time: 4pm
+gap: 50
+pairs: ['13', '17']
+results:
+14-2
+16-2
+15-2
+
+
+
+date: 16 wed jan 2019
+time: 11am
+gap: 97
+pairs: ['07', '01']
+results:
+08-6
+00-6
+09-6
+
+
+
+date: 17 thu jan 2019
+
+
+date: 18 fri jan 2019
+
+
+date: 19 sat jan 2019
+
+
+date: 20 sun jan 2019
+
+
+date: 21 mon jan 2019
+
+
+date: 22 tue jan 2019
+
+
+date: 23 wed jan 2019
+
+
+date: 24 thu jan 2019
+
+
+date: 25 fri jan 2019
+
+
+date: 26 sat jan 2019
+
+
+date: 27 sun jan 2019
+
+
+date: 28 mon jan 2019
+
+
+date: 29 tue jan 2019
+
+
+date: 30 wed jan 2019
+
+
+date: 31 thu jan 2019
+
+
+date: 01 fri feb 2019
+
+
+date: 02 sat feb 2019
+
+
+date: 03 sun feb 2019
+
+
+date: 04 mon feb 2019
+
+
+date: 05 tue feb 2019
+time: 9pm
+gap: 45
+pairs: ['67', '61']
+results:
+68-3
+69-3
+60-3
+
+
+
+date: 06 wed feb 2019
+
+
+date: 07 thu feb 2019
+time: 11am
+gap: 63
+pairs: ['97', '91']
+results:
+98-1
+99-1
+90-1
+
+
+
+date: 08 fri feb 2019
+time: 11am
+gap: 80
+pairs: ['99', '93']
+results:
+92-4
+90-4
+91-4
+
+time: 9pm
+gap: 64
+pairs: ['01', '05']
+results:
+03-7
+02-7
+04-7
+
+
+
+date: 09 sat feb 2019
+
+
+date: 10 sun feb 2019
+time: 4pm
+gap: 82
+pairs: ['93', '97']
+results:
+95-6
+94-6
+96-6
+
+
+
+date: 11 mon feb 2019
+
+
+date: 12 tue feb 2019
+
+
+date: 13 wed feb 2019
+
+
+date: 14 thu feb 2019
+
+
+date: 15 fri feb 2019
+
+
+date: 16 sat feb 2019
+
+
+date: 17 sun feb 2019
+
+
+date: 18 mon feb 2019
+
+
+date: 19 tue feb 2019
+
+
+date: 20 wed feb 2019
+
+
+date: 21 thu feb 2019
+
+
+date: 22 fri feb 2019
+
+
+date: 23 sat feb 2019
+
+
+date: 24 sun feb 2019
+
+
+date: 25 mon feb 2019
+
+
+date: 26 tue feb 2019
+
+
+date: 27 wed feb 2019
+
+
+date: 28 thu feb 2019
+
+
+date: 01 fri mar 2019
+
+
+date: 02 sat mar 2019
+time: 11am
+gap: 67
+pairs: ['06', '00']
+results:
+07-3
+09-3
+08-3
+
+
+
+date: 03 sun mar 2019
+
+
+date: 04 mon mar 2019
+
+
+date: 05 tue mar 2019
+
+
+date: 06 wed mar 2019
+
+
+date: 07 thu mar 2019
+
+
+date: 08 fri mar 2019
+
+
+date: 09 sat mar 2019
+time: 9pm
+gap: 9
+pairs: ['82', '86']
+results:
+83-8
+84-8
+85-8
+
+
+
+date: 10 sun mar 2019
+
+
+date: 11 mon mar 2019
+
+
+date: 12 tue mar 2019
+
+
+date: 13 wed mar 2019
+
+
+date: 14 thu mar 2019
+
+
+date: 15 fri mar 2019
+
+
+date: 16 sat mar 2019
+
+
+date: 17 sun mar 2019
+
+
+date: 18 mon mar 2019
+
+
+date: 19 tue mar 2019
+
+
+date: 20 wed mar 2019
+
+
+date: 21 thu mar 2019
+
+
+date: 22 fri mar 2019
+
+
+date: 23 sat mar 2019
+
+
+date: 24 sun mar 2019
+
+
+date: 25 mon mar 2019
+
+
+date: 26 tue mar 2019
+
+
+date: 27 wed mar 2019
+
+
+date: 28 thu mar 2019
+time: 9pm
+gap: 37
+pairs: ['82', '86']
+results:
+84-7
+83-7
+85-7
+
+
+
+date: 29 fri mar 2019
+
+
+date: 30 sat mar 2019
+
+
+date: 31 sun mar 2019
+
+
+date: 01 mon apr 2019
+
+
+date: 02 tue apr 2019
+
+
+date: 03 wed apr 2019
+
+
+date: 04 thu apr 2019
+time: 11am
+gap: 60
+pairs: ['61', '65']
+results:
+64-8
+62-8
+63-8
+
+
+
+date: 05 fri apr 2019
+
+
+date: 06 sat apr 2019
+
+
+date: 07 sun apr 2019
+
+
+date: 08 mon apr 2019
+
+
+date: 09 tue apr 2019
+
+
+date: 10 wed apr 2019
+
+
+date: 11 thu apr 2019
+time: 4pm
+gap: 51
+pairs: ['49', '43']
+results:
+40-1
+42-1
+41-1
+
+
+
+date: 12 fri apr 2019
+
+
+date: 13 sat apr 2019
+
+
+date: 14 sun apr 2019
+
+
+date: 15 mon apr 2019
+
+
+date: 16 tue apr 2019
+
+
+date: 17 wed apr 2019
+
+
+date: 22 mon apr 2019
+
+
+date: 23 tue apr 2019
+
+
+date: 24 wed apr 2019
+
+
+date: 25 thu apr 2019
+time: 11am
+gap: 10
+pairs: ['32', '36']
+results:
+33-8
+34-8
+35-8
+
+
+
+date: 26 fri apr 2019
+
+
+date: 27 sat apr 2019
+
+
+date: 28 sun apr 2019
+
+
+date: 29 mon apr 2019
+
+
+date: 30 tue apr 2019
+time: 9pm
+gap: 54
+pairs: ['57', '51']
+results:
+50-3
+58-3
+59-3
+
+
+
+date: 01 wed may 2019
+
+
+date: 02 thu may 2019
+
+
+date: 03 fri may 2019
+
+
+date: 04 sat may 2019
+
+
+date: 05 sun may 2019
+
+
+date: 06 mon may 2019
+
+
+date: 07 tue may 2019
+
+
+date: 08 wed may 2019
+
+
+date: 09 thu may 2019
+
+
+date: 10 fri may 2019
+
+
+date: 11 sat may 2019
+
+
+date: 12 sun may 2019
+
+
+date: 13 mon may 2019
+
+
+date: 14 tue may 2019
+
+
+date: 15 wed may 2019
+
+
+date: 16 thu may 2019
+
+
+date: 17 fri may 2019
+
+
+date: 18 sat may 2019
+time: 4pm
+gap: 84
+pairs: ['49', '43']
+results:
+40-1
+42-1
+41-1
+
+
+
+date: 19 sun may 2019
+
+
+date: 20 mon may 2019
+
+
+date: 21 tue may 2019
+
+
+date: 22 wed may 2019
+
+
+date: 23 thu may 2019
+
+
+date: 24 fri may 2019
+time: 9pm
+gap: 33
+pairs: ['56', '50']
+results:
+59-8
+57-8
+58-8
+
+
+
+date: 25 sat may 2019
+
+
+date: 26 sun may 2019
+
+
+date: 27 mon may 2019
+
+
+date: 28 tue may 2019
+time: 9pm
+gap: 63
+pairs: ['83', '87']
+results:
+86-2
+85-2
+84-2
+
+
+
+date: 29 wed may 2019
+
+
+date: 30 thu may 2019
+
+
+date: 31 fri may 2019
+time: 11am
+gap: 61
+pairs: ['82', '86']
+results:
+84-1
+83-1
+85-1
+
+
+
+date: 01 sat jun 2019
+
+
+date: 02 sun jun 2019
+
+
+date: 03 mon jun 2019
+
+
+date: 04 tue jun 2019
+
+
+date: 05 wed jun 2019
+
+
+date: 06 thu jun 2019
+
+
+date: 07 fri jun 2019
+
+
+date: 08 sat jun 2019
+
+
+date: 09 sun jun 2019
+
+
+date: 10 mon jun 2019
+
+
+date: 11 tue jun 2019
+
+
+date: 12 wed jun 2019
+time: 4pm
+gap: 73
+pairs: ['12', '16']
+results:
+13-9
+14-9
+15-9
+
+
+
+date: 13 thu jun 2019
+
+
+date: 14 fri jun 2019
+
+
+date: 15 sat jun 2019
+
+
+date: 16 sun jun 2019
+
+
+date: 17 mon jun 2019
+
+
+date: 18 tue jun 2019
+
+
+date: 19 wed jun 2019
+
+
+date: 20 thu jun 2019
+
+
+date: 21 fri jun 2019
+
+
+date: 22 sat jun 2019
+time: 11am
+gap: 80
+pairs: ['76', '70']
+results:
+79-6
+78-6
+77-6
+
+
+
+date: 23 sun jun 2019
+
+
