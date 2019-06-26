@@ -1,4 +1,4 @@
-updated: 23 sun jun 2019
+updated: 26 wed jun 2019
 
 date: 03 thu jan 2013
 
@@ -81486,6 +81486,95 @@ results:
 10-5
 19-7
 18-4
+
+
+
+date: 24 mon jun 2019
+time: 4pm
+gap: 3
+pairs: ['18', '12']
+results:
+11-4
+10-2
+19-4
+
+time: 4pm
+gap: 36
+pairs: ['37', '31']
+results:
+39-1
+30-1
+38-6
+
+
+
+date: 25 tue jun 2019
+time: 11am
+gap: 5
+pairs: ['15', '19']
+results:
+18-8
+16-5
+17-8
+
+time: 11am
+gap: 36
+pairs: ['36', '30']
+results:
+39-8
+38-7
+37-5
+
+time: 4pm
+gap: 28
+pairs: ['39', '33']
+results:
+31-9
+30-6
+32-6
+
+time: 9pm
+gap: 42
+pairs: ['52', '56']
+results:
+55-3
+53-1
+54-1
+
+
+
+date: 26 wed jun 2019
+time: 11am
+gap: 20
+pairs: ['79', '73']
+results:
+72-6
+70-6
+71-6
+
+time: 11am
+gap: 29
+pairs: ['67', '61']
+results:
+69-4
+60-9
+68-9
+
+time: 4pm
+gap: 6
+pairs: ['46', '40']
+results:
+48-9
+49-1
+47-2
+
+time: 9pm
+gap: 6
+pairs: ['13', '17']
+results:
+14-0
+15-0
+16-0
 
 
 

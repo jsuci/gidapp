@@ -55018,3 +55018,62 @@ gap: 10
 
 
 
+date: 24 mon jun 2019
+time: 4pm
+gap: 3
+182
+122
+
+time: 4pm
+gap: 36
+376
+316
+
+
+
+date: 25 tue jun 2019
+time: 11am
+gap: 5
+155
+195
+
+time: 11am
+gap: 36
+366
+306
+
+time: 4pm
+gap: 28
+399
+339
+
+time: 9pm
+gap: 42
+523
+563
+
+
+
+date: 26 wed jun 2019
+time: 11am
+gap: 20
+796
+736
+
+time: 11am
+gap: 29
+674
+614
+
+time: 4pm
+gap: 6
+460
+400
+
+time: 9pm
+gap: 6
+130
+170
+
+
+

@@ -1,4 +1,4 @@
-updated: 23 sun jun 2019
+updated: 26 wed jun 2019
 
 date: 03 thu jan 2013
 
@@ -9022,6 +9022,31 @@ results:
 07-2
 06-2
 05-2
+
+
+
+date: 24 mon jun 2019
+
+
+date: 25 tue jun 2019
+
+
+date: 26 wed jun 2019
+time: 11am
+gap: 20
+pairs: ['79', '73']
+results:
+72-6
+70-6
+71-6
+
+time: 9pm
+gap: 6
+pairs: ['13', '17']
+results:
+14-0
+15-0
+16-0
 
 
 

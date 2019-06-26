@@ -12712,3 +12712,72 @@ gap: 18
 
 
 
+date: 24 mon jun 2019
+time: 4pm
+gap: 1
+772
+712
+
+time: 4pm
+gap: 4
+167
+107
+
+time: 4pm
+gap: 47
+973
+913
+
+time: 9pm
+gap: 25
+343
+383
+
+
+
+date: 25 tue jun 2019
+time: 4pm
+gap: 17
+159
+199
+
+time: 9pm
+gap: 14
+393
+333
+
+time: 9pm
+gap: 24
+524
+564
+
+time: 9pm
+gap: 47
+845
+885
+
+
+
+date: 26 wed jun 2019
+time: 4pm
+gap: 18
+783
+723
+
+time: 4pm
+gap: 37
+167
+107
+
+time: 9pm
+gap: 36
+212
+252
+
+time: 9pm
+gap: 45
+389
+329
+
+
+

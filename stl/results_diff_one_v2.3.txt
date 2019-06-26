@@ -1,4 +1,4 @@
-updated: 23 sun jun 2019
+updated: 26 wed jun 2019
 
 date: 16 thu nov 2017
 
@@ -18764,6 +18764,111 @@ results:
 96-1
 97-8
 98-9
+
+
+
+date: 24 mon jun 2019
+time: 4pm
+gap: 1
+pairs: ['77', '71']
+results:
+78-4
+70-4
+79-2
+
+time: 4pm
+gap: 4
+pairs: ['16', '10']
+results:
+19-8
+17-6
+18-5
+
+time: 4pm
+gap: 47
+pairs: ['97', '91']
+results:
+98-1
+99-1
+90-3
+
+time: 9pm
+gap: 25
+pairs: ['34', '38']
+results:
+37-2
+35-3
+36-2
+
+
+
+date: 25 tue jun 2019
+time: 4pm
+gap: 17
+pairs: ['15', '19']
+results:
+17-0
+18-8
+16-1
+
+time: 9pm
+gap: 14
+pairs: ['39', '33']
+results:
+32-7
+30-3
+31-7
+
+time: 9pm
+gap: 24
+pairs: ['52', '56']
+results:
+54-6
+53-5
+55-3
+
+time: 9pm
+gap: 47
+pairs: ['84', '88']
+results:
+86-5
+87-0
+85-0
+
+
+
+date: 26 wed jun 2019
+time: 4pm
+gap: 18
+pairs: ['78', '72']
+results:
+70-1
+79-1
+71-3
+
+time: 4pm
+gap: 37
+pairs: ['16', '10']
+results:
+17-9
+19-8
+18-6
+
+time: 9pm
+gap: 36
+pairs: ['21', '25']
+results:
+23-1
+24-3
+22-0
+
+time: 9pm
+gap: 45
+pairs: ['38', '32']
+results:
+31-7
+39-0
+30-8
 
 
 
