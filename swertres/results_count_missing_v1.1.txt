@@ -1,7 +1,7 @@
-updated: 11 Thu Jul 2019 2
+updated: 13 sat jul 2019 2
 
-DATE GENERATED: 01 Wed May 2019 1
-RESULT: 110
+date: 01 wed may 2019 1
+result: 110
 2 <- 42		- 2 -
 7 <- 32		7 - -
 3 <- 15		3 - -
@@ -14,8 +14,8 @@ RESULT: 110
 1 <-  7		- - 1
 
 
-DATE GENERATED: 01 Wed May 2019 2
-RESULT: 065
+date: 01 wed may 2019 2
+result: 065
 2 <- 43		- 2 -
 7 <- 33		7 - -
 3 <- 16		3 - -
@@ -28,8 +28,8 @@ RESULT: 065
 5 <-  3		5 - -
 
 
-DATE GENERATED: 02 Thu May 2019 0
-RESULT: 967
+date: 02 thu may 2019 0
+result: 967
 2 <- 44		- 2 -
 7 <- 34		7 - -
 3 <- 17		3 - -
@@ -42,8 +42,8 @@ RESULT: 967
 5 <-  4		5 - -
 
 
-DATE GENERATED: 02 Thu May 2019 1
-RESULT: 604
+date: 02 thu may 2019 1
+result: 604
 2 <- 45		- 2 -
 7 <- 35		7 - -
 3 <- 18		3 - -
@@ -56,8 +56,8 @@ RESULT: 604
 0 <-  3		- - 0
 
 
-DATE GENERATED: 02 Thu May 2019 2
-RESULT: 657
+date: 02 thu may 2019 2
+result: 657
 2 <- 46		- 2 -
 7 <- 36		7 - -
 3 <- 19		3 - -
@@ -70,8 +70,8 @@ RESULT: 657
 0 <-  4		- - 0
 
 
-DATE GENERATED: 03 Fri May 2019 0
-RESULT: 878
+date: 03 fri may 2019 0
+result: 878
 2 <- 47		- 2 -
 7 <- 37		7 - -
 3 <- 20		3 - -
@@ -84,8 +84,8 @@ RESULT: 878
 0 <-  5		- - 0
 
 
-DATE GENERATED: 03 Fri May 2019 1
-RESULT: 716
+date: 03 fri may 2019 1
+result: 716
 2 <- 48		- 2 -
 3 <- 21		3 - -
 9 <- 20		- - 9
@@ -98,8 +98,8 @@ RESULT: 716
 7 <-  2		- - 7
 
 
-DATE GENERATED: 03 Fri May 2019 2
-RESULT: 214
+date: 03 fri may 2019 2
+result: 214
 2 <- 49		- 2 -
 3 <- 22		3 - -
 9 <- 21		- - 9
@@ -112,8 +112,8 @@ RESULT: 214
 7 <-  3		- - 7
 
 
-DATE GENERATED: 04 Sat May 2019 0
-RESULT: 725
+date: 04 sat may 2019 0
+result: 725
 3 <- 23		3 - -
 9 <- 22		- - 9
 2 <- 17		- - 2
@@ -126,8 +126,8 @@ RESULT: 725
 7 <-  4		- - 7
 
 
-DATE GENERATED: 04 Sat May 2019 1
-RESULT: 490
+date: 04 sat may 2019 1
+result: 490
 3 <- 24		3 - -
 9 <- 23		- - 9
 2 <- 18		- - 2
@@ -140,8 +140,8 @@ RESULT: 490
 7 <-  5		- - 7
 
 
-DATE GENERATED: 04 Sat May 2019 2
-RESULT: 574
+date: 04 sat may 2019 2
+result: 574
 3 <- 25		3 - -
 9 <- 24		- - 9
 2 <- 19		- - 2
@@ -154,8 +154,8 @@ RESULT: 574
 7 <-  6		- - 7
 
 
-DATE GENERATED: 05 Sun May 2019 0
-RESULT: 251
+date: 05 sun may 2019 0
+result: 251
 3 <- 26		3 - -
 9 <- 25		- - 9
 2 <- 20		- - 2
@@ -168,8 +168,8 @@ RESULT: 251
 5 <-  3		- - 5
 
 
-DATE GENERATED: 05 Sun May 2019 1
-RESULT: 190
+date: 05 sun may 2019 1
+result: 190
 3 <- 27		3 - -
 9 <- 26		- - 9
 2 <- 21		- - 2
@@ -182,8 +182,8 @@ RESULT: 190
 5 <-  4		- - 5
 
 
-DATE GENERATED: 05 Sun May 2019 2
-RESULT: 184
+date: 05 sun may 2019 2
+result: 184
 3 <- 28		3 - -
 9 <- 27		- - 9
 2 <- 22		- - 2
@@ -196,8 +196,8 @@ RESULT: 184
 5 <-  5		- - 5
 
 
-DATE GENERATED: 06 Mon May 2019 0
-RESULT: 307
+date: 06 mon may 2019 0
+result: 307
 9 <- 28		- - 9
 2 <- 23		- - 2
 3 <- 20		- 3 -
@@ -210,8 +210,8 @@ RESULT: 307
 7 <-  6		7 - -
 
 
-DATE GENERATED: 06 Mon May 2019 1
-RESULT: 975
+date: 06 mon may 2019 1
+result: 975
 9 <- 29		- - 9
 2 <- 24		- - 2
 3 <- 21		- 3 -
@@ -224,8 +224,8 @@ RESULT: 975
 5 <-  5		5 - -
 
 
-DATE GENERATED: 06 Mon May 2019 2
-RESULT: 796
+date: 06 mon may 2019 2
+result: 796
 9 <- 30		- - 9
 2 <- 25		- - 2
 3 <- 22		- 3 -
@@ -238,8 +238,8 @@ RESULT: 796
 7 <-  2		- - 7
 
 
-DATE GENERATED: 07 Tue May 2019 0
-RESULT: 526
+date: 07 tue may 2019 0
+result: 526
 9 <- 31		- - 9
 2 <- 26		- - 2
 3 <- 23		- 3 -
@@ -252,8 +252,8 @@ RESULT: 526
 7 <-  3		- - 7
 
 
-DATE GENERATED: 07 Tue May 2019 1
-RESULT: 391
+date: 07 tue may 2019 1
+result: 391
 9 <- 32		- - 9
 2 <- 27		- - 2
 3 <- 24		- 3 -
@@ -266,8 +266,8 @@ RESULT: 391
 7 <-  4		- - 7
 
 
-DATE GENERATED: 07 Tue May 2019 2
-RESULT: 705
+date: 07 tue may 2019 2
+result: 705
 9 <- 33		- - 9
 2 <- 28		- - 2
 3 <- 25		- 3 -
@@ -280,8 +280,8 @@ RESULT: 705
 7 <-  5		- - 7
 
 
-DATE GENERATED: 08 Wed May 2019 0
-RESULT: 574
+date: 08 wed may 2019 0
+result: 574
 9 <- 34		- - 9
 2 <- 29		- - 2
 3 <- 26		- 3 -
@@ -294,8 +294,8 @@ RESULT: 574
 7 <-  6		- - 7
 
 
-DATE GENERATED: 08 Wed May 2019 1
-RESULT: 407
+date: 08 wed may 2019 1
+result: 407
 9 <- 35		- - 9
 2 <- 30		- - 2
 3 <- 27		- 3 -
@@ -308,8 +308,8 @@ RESULT: 407
 7 <-  2		7 - -
 
 
-DATE GENERATED: 08 Wed May 2019 2
-RESULT: 428
+date: 08 wed may 2019 2
+result: 428
 9 <- 36		- - 9
 2 <- 31		- - 2
 3 <- 28		- 3 -
@@ -322,8 +322,8 @@ RESULT: 428
 7 <-  3		7 - -
 
 
-DATE GENERATED: 09 Thu May 2019 0
-RESULT: 469
+date: 09 thu may 2019 0
+result: 469
 2 <- 32		- - 2
 3 <- 29		- 3 -
 4 <- 27		- 4 -
@@ -336,8 +336,8 @@ RESULT: 469
 7 <-  4		7 - -
 
 
-DATE GENERATED: 09 Thu May 2019 1
-RESULT: 932
+date: 09 thu may 2019 1
+result: 932
 4 <- 28		- 4 -
 3 <- 25		- - 3
 0 <- 23		0 - -
@@ -350,8 +350,8 @@ RESULT: 932
 7 <-  5		7 - -
 
 
-DATE GENERATED: 09 Thu May 2019 2
-RESULT: 885
+date: 09 thu may 2019 2
+result: 885
 4 <- 29		- 4 -
 3 <- 26		- - 3
 0 <- 24		0 - -
@@ -364,8 +364,8 @@ RESULT: 885
 8 <-  3		- - 8
 
 
-DATE GENERATED: 10 Fri May 2019 0
-RESULT: 185
+date: 10 fri may 2019 0
+result: 185
 4 <- 30		- 4 -
 3 <- 27		- - 3
 0 <- 25		0 - -
@@ -378,8 +378,8 @@ RESULT: 185
 8 <-  4		- - 8
 
 
-DATE GENERATED: 10 Fri May 2019 1
-RESULT: 916
+date: 10 fri may 2019 1
+result: 916
 4 <- 31		- 4 -
 3 <- 28		- - 3
 0 <- 26		0 - -
@@ -392,8 +392,8 @@ RESULT: 916
 8 <-  5		- - 8
 
 
-DATE GENERATED: 10 Fri May 2019 2
-RESULT: 335
+date: 10 fri may 2019 2
+result: 335
 4 <- 32		- 4 -
 3 <- 29		- - 3
 0 <- 27		0 - -
@@ -406,8 +406,8 @@ RESULT: 335
 8 <-  6		- - 8
 
 
-DATE GENERATED: 11 Sat May 2019 0
-RESULT: 062
+date: 11 sat may 2019 0
+result: 062
 4 <- 33		- 4 -
 3 <- 30		- - 3
 6 <- 25		6 - -
@@ -420,8 +420,8 @@ RESULT: 062
 8 <-  7		- - 8
 
 
-DATE GENERATED: 11 Sat May 2019 1
-RESULT: 446
+date: 11 sat may 2019 1
+result: 446
 3 <- 31		- - 3
 6 <- 26		6 - -
 2 <- 19		2 - -
@@ -434,8 +434,8 @@ RESULT: 446
 8 <-  8		- - 8
 
 
-DATE GENERATED: 11 Sat May 2019 2
-RESULT: 493
+date: 11 sat may 2019 2
+result: 493
 6 <- 27		6 - -
 2 <- 20		2 - -
 5 <- 20		- 5 -
@@ -448,8 +448,8 @@ RESULT: 493
 3 <-  3		3 - -
 
 
-DATE GENERATED: 12 Sun May 2019 0
-RESULT: 223
+date: 12 sun may 2019 0
+result: 223
 6 <- 28		6 - -
 5 <- 21		- 5 -
 0 <- 20		- - 0
@@ -462,8 +462,8 @@ RESULT: 223
 2 <-  3		- - 2
 
 
-DATE GENERATED: 12 Sun May 2019 1
-RESULT: 491
+date: 12 sun may 2019 1
+result: 491
 6 <- 29		6 - -
 5 <- 22		- 5 -
 0 <- 21		- - 0
@@ -476,8 +476,8 @@ RESULT: 491
 2 <-  4		- - 2
 
 
-DATE GENERATED: 12 Sun May 2019 2
-RESULT: 319
+date: 12 sun may 2019 2
+result: 319
 6 <- 30		6 - -
 5 <- 23		- 5 -
 0 <- 22		- - 0
@@ -490,8 +490,8 @@ RESULT: 319
 2 <-  5		- - 2
 
 
-DATE GENERATED: 13 Mon May 2019 0
-RESULT: 247
+date: 13 mon may 2019 0
+result: 247
 6 <- 31		6 - -
 5 <- 24		- 5 -
 0 <- 23		- - 0
@@ -504,8 +504,8 @@ RESULT: 247
 2 <-  6		- - 2
 
 
-DATE GENERATED: 13 Mon May 2019 1
-RESULT: 523
+date: 13 mon may 2019 1
+result: 523
 6 <- 32		6 - -
 5 <- 25		- 5 -
 0 <- 24		- - 0
@@ -518,8 +518,8 @@ RESULT: 523
 2 <-  7		- - 2
 
 
-DATE GENERATED: 13 Mon May 2019 2
-RESULT: 774
+date: 13 mon may 2019 2
+result: 774
 6 <- 33		6 - -
 5 <- 26		- 5 -
 0 <- 25		- - 0
@@ -532,8 +532,8 @@ RESULT: 774
 7 <-  2		- - 7
 
 
-DATE GENERATED: 14 Tue May 2019 0
-RESULT: 427
+date: 14 tue may 2019 0
+result: 427
 6 <- 34		6 - -
 5 <- 27		- 5 -
 0 <- 26		- - 0
@@ -546,8 +546,8 @@ RESULT: 427
 7 <-  1		7 - -
 
 
-DATE GENERATED: 14 Tue May 2019 1
-RESULT: 377
+date: 14 tue may 2019 1
+result: 377
 6 <- 35		6 - -
 5 <- 28		- 5 -
 0 <- 27		- - 0
@@ -560,8 +560,8 @@ RESULT: 377
 7 <-  2		7 - -
 
 
-DATE GENERATED: 14 Tue May 2019 2
-RESULT: 553
+date: 14 tue may 2019 2
+result: 553
 6 <- 36		6 - -
 0 <- 28		- - 0
 8 <- 18		- - 8
@@ -574,8 +574,8 @@ RESULT: 553
 7 <-  3		7 - -
 
 
-DATE GENERATED: 15 Wed May 2019 0
-RESULT: 103
+date: 15 wed may 2019 0
+result: 103
 6 <- 37		6 - -
 0 <- 29		- - 0
 8 <- 19		- - 8
@@ -588,8 +588,8 @@ RESULT: 103
 7 <-  4		7 - -
 
 
-DATE GENERATED: 15 Wed May 2019 1
-RESULT: 561
+date: 15 wed may 2019 1
+result: 561
 6 <- 38		6 - -
 0 <- 30		- - 0
 8 <- 20		- - 8
@@ -602,8 +602,8 @@ RESULT: 561
 7 <-  5		7 - -
 
 
-DATE GENERATED: 15 Wed May 2019 2
-RESULT: 837
+date: 15 wed may 2019 2
+result: 837
 6 <- 39		6 - -
 0 <- 31		- - 0
 8 <- 21		- - 8
@@ -616,8 +616,8 @@ RESULT: 837
 3 <-  4		3 - -
 
 
-DATE GENERATED: 16 Thu May 2019 0
-RESULT: 607
+date: 16 thu may 2019 0
+result: 607
 0 <- 32		- - 0
 8 <- 22		- - 8
 9 <- 17		9 - -
@@ -630,8 +630,8 @@ RESULT: 607
 3 <-  5		3 - -
 
 
-DATE GENERATED: 16 Thu May 2019 1
-RESULT: 524
+date: 16 thu may 2019 1
+result: 524
 0 <- 33		- - 0
 8 <- 23		- - 8
 9 <- 18		9 - -
@@ -644,8 +644,8 @@ RESULT: 524
 3 <-  6		3 - -
 
 
-DATE GENERATED: 16 Thu May 2019 2
-RESULT: 483
+date: 16 thu may 2019 2
+result: 483
 0 <- 34		- - 0
 8 <- 24		- - 8
 9 <- 19		9 - -
@@ -658,8 +658,8 @@ RESULT: 483
 3 <-  7		3 - -
 
 
-DATE GENERATED: 17 Fri May 2019 0
-RESULT: 764
+date: 17 fri may 2019 0
+result: 764
 0 <- 35		- - 0
 8 <- 25		- - 8
 9 <- 20		9 - -
@@ -672,8 +672,8 @@ RESULT: 764
 7 <-  8		- 7 -
 
 
-DATE GENERATED: 17 Fri May 2019 1
-RESULT: 914
+date: 17 fri may 2019 1
+result: 914
 0 <- 36		- - 0
 8 <- 26		- - 8
 5 <- 20		- - 5
@@ -686,8 +686,8 @@ RESULT: 914
 1 <-  7		1 - -
 
 
-DATE GENERATED: 17 Fri May 2019 2
-RESULT: 661
+date: 17 fri may 2019 2
+result: 661
 0 <- 37		- - 0
 8 <- 27		- - 8
 5 <- 21		- - 5
@@ -700,8 +700,8 @@ RESULT: 661
 1 <-  8		1 - -
 
 
-DATE GENERATED: 18 Sat May 2019 0
-RESULT: 004
+date: 18 sat may 2019 0
+result: 004
 0 <- 38		- - 0
 8 <- 28		- - 8
 5 <- 22		- - 5
@@ -714,8 +714,8 @@ RESULT: 004
 1 <-  9		1 - -
 
 
-DATE GENERATED: 18 Sat May 2019 1
-RESULT: 584
+date: 18 sat may 2019 1
+result: 584
 0 <- 39		- - 0
 8 <- 29		- - 8
 5 <- 23		- - 5
@@ -728,8 +728,8 @@ RESULT: 584
 1 <- 10		1 - -
 
 
-DATE GENERATED: 18 Sat May 2019 2
-RESULT: 918
+date: 18 sat may 2019 2
+result: 918
 0 <- 40		- - 0
 5 <- 24		- - 5
 2 <- 23		- - 2
@@ -742,8 +742,8 @@ RESULT: 918
 8 <-  9		8 - -
 
 
-DATE GENERATED: 19 Sun May 2019 0
-RESULT: 130
+date: 19 sun may 2019 0
+result: 130
 5 <- 25		- - 5
 2 <- 24		- - 2
 6 <- 23		- - 6
@@ -756,8 +756,8 @@ RESULT: 130
 0 <-  3		0 - -
 
 
-DATE GENERATED: 19 Sun May 2019 1
-RESULT: 913
+date: 19 sun may 2019 1
+result: 913
 5 <- 26		- - 5
 2 <- 25		- - 2
 6 <- 24		- - 6
@@ -770,8 +770,8 @@ RESULT: 913
 0 <-  4		0 - -
 
 
-DATE GENERATED: 19 Sun May 2019 2
-RESULT: 288
+date: 19 sun may 2019 2
+result: 288
 5 <- 27		- - 5
 2 <- 26		- - 2
 6 <- 25		- - 6
@@ -784,8 +784,8 @@ RESULT: 288
 0 <-  5		0 - -
 
 
-DATE GENERATED: 20 Mon May 2019 0
-RESULT: 389
+date: 20 mon may 2019 0
+result: 389
 5 <- 28		- - 5
 2 <- 27		- - 2
 6 <- 26		- - 6
@@ -798,8 +798,8 @@ RESULT: 389
 3 <-  3		- 3 -
 
 
-DATE GENERATED: 20 Mon May 2019 1
-RESULT: 675
+date: 20 mon may 2019 1
+result: 675
 2 <- 28		- - 2
 6 <- 27		- - 6
 9 <- 24		- 9 -
@@ -812,8 +812,8 @@ RESULT: 675
 3 <-  4		- 3 -
 
 
-DATE GENERATED: 20 Mon May 2019 2
-RESULT: 115
+date: 20 mon may 2019 2
+result: 115
 2 <- 29		- - 2
 6 <- 28		- - 6
 9 <- 25		- 9 -
@@ -826,8 +826,8 @@ RESULT: 115
 3 <-  5		- 3 -
 
 
-DATE GENERATED: 21 Tue May 2019 0
-RESULT: 540
+date: 21 tue may 2019 0
+result: 540
 2 <- 30		- - 2
 6 <- 29		- - 6
 9 <- 26		- 9 -
@@ -840,8 +840,8 @@ RESULT: 540
 3 <-  6		- 3 -
 
 
-DATE GENERATED: 21 Tue May 2019 1
-RESULT: 548
+date: 21 tue may 2019 1
+result: 548
 2 <- 31		- - 2
 6 <- 30		- - 6
 9 <- 27		- 9 -
@@ -854,8 +854,8 @@ RESULT: 548
 3 <-  7		- 3 -
 
 
-DATE GENERATED: 21 Tue May 2019 2
-RESULT: 017
+date: 21 tue may 2019 2
+result: 017
 2 <- 32		- - 2
 6 <- 31		- - 6
 9 <- 28		- 9 -
@@ -868,8 +868,8 @@ RESULT: 017
 3 <-  8		- 3 -
 
 
-DATE GENERATED: 22 Wed May 2019 0
-RESULT: 843
+date: 22 wed may 2019 0
+result: 843
 2 <- 33		- - 2
 6 <- 32		- - 6
 9 <- 29		- 9 -
@@ -882,8 +882,8 @@ RESULT: 843
 8 <-  6		- 8 -
 
 
-DATE GENERATED: 22 Wed May 2019 1
-RESULT: 775
+date: 22 wed may 2019 1
+result: 775
 2 <- 34		- - 2
 6 <- 33		- - 6
 9 <- 30		- 9 -
@@ -896,8 +896,8 @@ RESULT: 775
 7 <-  2		- - 7
 
 
-DATE GENERATED: 22 Wed May 2019 2
-RESULT: 184
+date: 22 wed may 2019 2
+result: 184
 2 <- 35		- - 2
 6 <- 34		- - 6
 9 <- 31		- 9 -
@@ -910,8 +910,8 @@ RESULT: 184
 7 <-  3		- - 7
 
 
-DATE GENERATED: 23 Thu May 2019 0
-RESULT: 485
+date: 23 thu may 2019 0
+result: 485
 2 <- 36		- - 2
 6 <- 35		- - 6
 9 <- 32		- 9 -
@@ -924,8 +924,8 @@ RESULT: 485
 4 <-  3		- 4 -
 
 
-DATE GENERATED: 23 Thu May 2019 1
-RESULT: 718
+date: 23 thu may 2019 1
+result: 718
 2 <- 37		- - 2
 6 <- 36		- - 6
 9 <- 33		- 9 -
@@ -938,8 +938,8 @@ RESULT: 718
 8 <-  4		8 - -
 
 
-DATE GENERATED: 23 Thu May 2019 2
-RESULT: 545
+date: 23 thu may 2019 2
+result: 545
 2 <- 38		- - 2
 6 <- 37		- - 6
 9 <- 34		- 9 -
@@ -952,8 +952,8 @@ RESULT: 545
 4 <-  3		- - 4
 
 
-DATE GENERATED: 24 Fri May 2019 0
-RESULT: 877
+date: 24 fri may 2019 0
+result: 877
 2 <- 39		- - 2
 6 <- 38		- - 6
 9 <- 35		- 9 -
@@ -966,8 +966,8 @@ RESULT: 877
 7 <-  2		7 - -
 
 
-DATE GENERATED: 24 Fri May 2019 1
-RESULT: 267
+date: 24 fri may 2019 1
+result: 267
 2 <- 40		- - 2
 6 <- 39		- - 6
 9 <- 36		- 9 -
@@ -980,8 +980,8 @@ RESULT: 267
 7 <-  3		7 - -
 
 
-DATE GENERATED: 24 Fri May 2019 2
-RESULT: 233
+date: 24 fri may 2019 2
+result: 233
 2 <- 41		- - 2
 6 <- 40		- - 6
 9 <- 37		- 9 -
@@ -994,8 +994,8 @@ RESULT: 233
 7 <-  4		7 - -
 
 
-DATE GENERATED: 25 Sat May 2019 0
-RESULT: 734
+date: 25 sat may 2019 0
+result: 734
 2 <- 42		- - 2
 6 <- 41		- - 6
 9 <- 38		- 9 -
@@ -1008,8 +1008,8 @@ RESULT: 734
 7 <-  3		- 7 -
 
 
-DATE GENERATED: 25 Sat May 2019 1
-RESULT: 025
+date: 25 sat may 2019 1
+result: 025
 2 <- 43		- - 2
 6 <- 42		- - 6
 9 <- 39		- 9 -
@@ -1022,8 +1022,8 @@ RESULT: 025
 7 <-  4		- 7 -
 
 
-DATE GENERATED: 25 Sat May 2019 2
-RESULT: 935
+date: 25 sat may 2019 2
+result: 935
 2 <- 44		- - 2
 6 <- 43		- - 6
 9 <- 40		- 9 -
@@ -1036,8 +1036,8 @@ RESULT: 935
 7 <-  5		- 7 -
 
 
-DATE GENERATED: 26 Sun May 2019 0
-RESULT: 030
+date: 26 sun may 2019 0
+result: 030
 2 <- 45		- - 2
 6 <- 44		- - 6
 9 <- 41		- 9 -
@@ -1050,8 +1050,8 @@ RESULT: 030
 7 <-  6		- 7 -
 
 
-DATE GENERATED: 26 Sun May 2019 1
-RESULT: 721
+date: 26 sun may 2019 1
+result: 721
 2 <- 46		- - 2
 6 <- 45		- - 6
 9 <- 42		- 9 -
@@ -1064,8 +1064,8 @@ RESULT: 721
 7 <-  7		- 7 -
 
 
-DATE GENERATED: 26 Sun May 2019 2
-RESULT: 913
+date: 26 sun may 2019 2
+result: 913
 2 <- 47		- - 2
 6 <- 46		- - 6
 9 <- 43		- 9 -
@@ -1078,8 +1078,8 @@ RESULT: 913
 7 <-  8		- 7 -
 
 
-DATE GENERATED: 27 Mon May 2019 0
-RESULT: 514
+date: 27 mon may 2019 0
+result: 514
 2 <- 48		- - 2
 6 <- 47		- - 6
 9 <- 44		- 9 -
@@ -1092,8 +1092,8 @@ RESULT: 514
 7 <-  9		- 7 -
 
 
-DATE GENERATED: 27 Mon May 2019 1
-RESULT: 350
+date: 27 mon may 2019 1
+result: 350
 2 <- 49		- - 2
 6 <- 48		- - 6
 9 <- 45		- 9 -
@@ -1106,8 +1106,8 @@ RESULT: 350
 3 <-  4		- 3 -
 
 
-DATE GENERATED: 27 Mon May 2019 2
-RESULT: 557
+date: 27 mon may 2019 2
+result: 557
 2 <- 50		- - 2
 6 <- 49		- - 6
 9 <- 46		- 9 -
@@ -1120,8 +1120,8 @@ RESULT: 557
 3 <-  5		- 3 -
 
 
-DATE GENERATED: 28 Tue May 2019 0
-RESULT: 469
+date: 28 tue may 2019 0
+result: 469
 2 <- 51		- - 2
 6 <- 50		- - 6
 9 <- 47		- 9 -
@@ -1134,8 +1134,8 @@ RESULT: 469
 3 <-  6		- 3 -
 
 
-DATE GENERATED: 28 Tue May 2019 1
-RESULT: 139
+date: 28 tue may 2019 1
+result: 139
 2 <- 52		- - 2
 6 <- 51		- - 6
 9 <- 48		- 9 -
@@ -1148,8 +1148,8 @@ RESULT: 139
 3 <-  5		- - 3
 
 
-DATE GENERATED: 28 Tue May 2019 2
-RESULT: 067
+date: 28 tue may 2019 2
+result: 067
 2 <- 53		- - 2
 6 <- 52		- - 6
 9 <- 49		- 9 -
@@ -1162,8 +1162,8 @@ RESULT: 067
 3 <-  6		- - 3
 
 
-DATE GENERATED: 29 Wed May 2019 0
-RESULT: 369
+date: 29 wed may 2019 0
+result: 369
 2 <- 54		- - 2
 6 <- 53		- - 6
 9 <- 50		- 9 -
@@ -1176,8 +1176,8 @@ RESULT: 369
 3 <-  7		- - 3
 
 
-DATE GENERATED: 29 Wed May 2019 1
-RESULT: 702
+date: 29 wed may 2019 1
+result: 702
 6 <- 54		- - 6
 9 <- 51		- 9 -
 8 <- 19		- 8 -
@@ -1190,8 +1190,8 @@ RESULT: 702
 0 <-  6		- - 0
 
 
-DATE GENERATED: 29 Wed May 2019 2
-RESULT: 887
+date: 29 wed may 2019 2
+result: 887
 6 <- 55		- - 6
 9 <- 52		- 9 -
 8 <- 19		- - 8
@@ -1204,8 +1204,8 @@ RESULT: 887
 0 <-  7		- - 0
 
 
-DATE GENERATED: 30 Thu May 2019 0
-RESULT: 471
+date: 30 thu may 2019 0
+result: 471
 6 <- 56		- - 6
 9 <- 53		- 9 -
 8 <- 20		- - 8
@@ -1218,8 +1218,8 @@ RESULT: 471
 7 <-  2		7 - -
 
 
-DATE GENERATED: 30 Thu May 2019 1
-RESULT: 922
+date: 30 thu may 2019 1
+result: 922
 6 <- 57		- - 6
 9 <- 54		- 9 -
 8 <- 21		- - 8
@@ -1232,8 +1232,8 @@ RESULT: 922
 7 <-  3		7 - -
 
 
-DATE GENERATED: 30 Thu May 2019 2
-RESULT: 155
+date: 30 thu may 2019 2
+result: 155
 6 <- 58		- - 6
 9 <- 55		- 9 -
 8 <- 22		- - 8
@@ -1246,8 +1246,8 @@ RESULT: 155
 7 <-  4		7 - -
 
 
-DATE GENERATED: 31 Fri May 2019 0
-RESULT: 552
+date: 31 fri may 2019 0
+result: 552
 6 <- 59		- - 6
 9 <- 56		- 9 -
 8 <- 23		- - 8
@@ -1260,8 +1260,8 @@ RESULT: 552
 5 <-  1		- - 5
 
 
-DATE GENERATED: 31 Fri May 2019 1
-RESULT: 986
+date: 31 fri may 2019 1
+result: 986
 9 <- 57		- 9 -
 6 <- 33		6 - -
 8 <- 24		- - 8
@@ -1274,8 +1274,8 @@ RESULT: 986
 5 <-  2		- - 5
 
 
-DATE GENERATED: 31 Fri May 2019 2
-RESULT: 426
+date: 31 fri may 2019 2
+result: 426
 9 <- 58		- 9 -
 6 <- 34		6 - -
 8 <- 25		- - 8
@@ -1288,8 +1288,8 @@ RESULT: 426
 5 <-  3		- - 5
 
 
-DATE GENERATED: 01 Sat Jun 2019 0
-RESULT: 152
+date: 01 sat jun 2019 0
+result: 152
 9 <- 59		- 9 -
 6 <- 35		6 - -
 8 <- 26		- - 8
@@ -1302,8 +1302,8 @@ RESULT: 152
 5 <-  4		- - 5
 
 
-DATE GENERATED: 01 Sat Jun 2019 1
-RESULT: 598
+date: 01 sat jun 2019 1
+result: 598
 6 <- 36		6 - -
 4 <- 26		- 4 -
 2 <- 23		2 - -
@@ -1316,8 +1316,8 @@ RESULT: 598
 5 <-  5		- - 5
 
 
-DATE GENERATED: 01 Sat Jun 2019 2
-RESULT: 639
+date: 01 sat jun 2019 2
+result: 639
 4 <- 27		- 4 -
 2 <- 24		2 - -
 3 <- 18		- - 3
@@ -1330,8 +1330,8 @@ RESULT: 639
 9 <-  4		9 - -
 
 
-DATE GENERATED: 02 Sun Jun 2019 0
-RESULT: 378
+date: 02 sun jun 2019 0
+result: 378
 4 <- 28		- 4 -
 2 <- 25		2 - -
 3 <- 19		- - 3
@@ -1344,8 +1344,8 @@ RESULT: 378
 9 <-  5		9 - -
 
 
-DATE GENERATED: 02 Sun Jun 2019 1
-RESULT: 724
+date: 02 sun jun 2019 1
+result: 724
 4 <- 29		- 4 -
 2 <- 26		2 - -
 3 <- 20		- - 3
@@ -1358,8 +1358,8 @@ RESULT: 724
 9 <-  6		9 - -
 
 
-DATE GENERATED: 02 Sun Jun 2019 2
-RESULT: 197
+date: 02 sun jun 2019 2
+result: 197
 4 <- 30		- 4 -
 2 <- 27		2 - -
 3 <- 21		- - 3
@@ -1372,8 +1372,8 @@ RESULT: 197
 7 <-  2		- 7 -
 
 
-DATE GENERATED: 03 Mon Jun 2019 0
-RESULT: 076
+date: 03 mon jun 2019 0
+result: 076
 4 <- 31		- 4 -
 2 <- 28		2 - -
 3 <- 22		- - 3
@@ -1386,8 +1386,8 @@ RESULT: 076
 7 <-  2		7 - -
 
 
-DATE GENERATED: 03 Mon Jun 2019 1
-RESULT: 731
+date: 03 mon jun 2019 1
+result: 731
 4 <- 32		- 4 -
 2 <- 29		2 - -
 3 <- 23		- - 3
@@ -1400,8 +1400,8 @@ RESULT: 731
 7 <-  2		- - 7
 
 
-DATE GENERATED: 03 Mon Jun 2019 2
-RESULT: 886
+date: 03 mon jun 2019 2
+result: 886
 4 <- 33		- 4 -
 2 <- 30		2 - -
 3 <- 24		- - 3
@@ -1414,8 +1414,8 @@ RESULT: 886
 7 <-  3		- - 7
 
 
-DATE GENERATED: 04 Tue Jun 2019 0
-RESULT: 886
+date: 04 tue jun 2019 0
+result: 886
 4 <- 34		- 4 -
 2 <- 31		2 - -
 3 <- 25		- - 3
@@ -1428,8 +1428,8 @@ RESULT: 886
 7 <-  4		- - 7
 
 
-DATE GENERATED: 04 Tue Jun 2019 1
-RESULT: 856
+date: 04 tue jun 2019 1
+result: 856
 4 <- 35		- 4 -
 2 <- 32		2 - -
 3 <- 26		- - 3
@@ -1442,8 +1442,8 @@ RESULT: 856
 7 <-  5		- - 7
 
 
-DATE GENERATED: 04 Tue Jun 2019 2
-RESULT: 155
+date: 04 tue jun 2019 2
+result: 155
 4 <- 36		- 4 -
 2 <- 33		2 - -
 3 <- 27		- - 3
@@ -1456,8 +1456,8 @@ RESULT: 155
 7 <-  6		- - 7
 
 
-DATE GENERATED: 05 Wed Jun 2019 0
-RESULT: 255
+date: 05 wed jun 2019 0
+result: 255
 4 <- 37		- 4 -
 3 <- 28		- - 3
 1 <- 27		- 1 -
@@ -1470,8 +1470,8 @@ RESULT: 255
 7 <-  7		- - 7
 
 
-DATE GENERATED: 05 Wed Jun 2019 1
-RESULT: 446
+date: 05 wed jun 2019 1
+result: 446
 3 <- 29		- - 3
 1 <- 28		- 1 -
 0 <- 27		- - 0
@@ -1484,8 +1484,8 @@ RESULT: 446
 7 <-  8		- - 7
 
 
-DATE GENERATED: 05 Wed Jun 2019 2
-RESULT: 262
+date: 05 wed jun 2019 2
+result: 262
 3 <- 30		- - 3
 1 <- 29		- 1 -
 0 <- 28		- - 0
@@ -1498,8 +1498,8 @@ RESULT: 262
 7 <-  9		- - 7
 
 
-DATE GENERATED: 06 Thu Jun 2019 0
-RESULT: 726
+date: 06 thu jun 2019 0
+result: 726
 3 <- 31		- - 3
 1 <- 30		- 1 -
 0 <- 29		- - 0
@@ -1512,8 +1512,8 @@ RESULT: 726
 2 <-  1		2 - -
 
 
-DATE GENERATED: 06 Thu Jun 2019 1
-RESULT: 724
+date: 06 thu jun 2019 1
+result: 724
 3 <- 32		- - 3
 1 <- 31		- 1 -
 0 <- 30		- - 0
@@ -1526,8 +1526,8 @@ RESULT: 724
 2 <-  2		2 - -
 
 
-DATE GENERATED: 06 Thu Jun 2019 2
-RESULT: 160
+date: 06 thu jun 2019 2
+result: 160
 3 <- 33		- - 3
 1 <- 32		- 1 -
 0 <- 25		- 0 -
@@ -1540,8 +1540,8 @@ RESULT: 160
 2 <-  3		2 - -
 
 
-DATE GENERATED: 07 Fri Jun 2019 0
-RESULT: 292
+date: 07 fri jun 2019 0
+result: 292
 3 <- 34		- - 3
 1 <- 33		- 1 -
 0 <- 26		- 0 -
@@ -1554,8 +1554,8 @@ RESULT: 292
 2 <-  2		- 2 -
 
 
-DATE GENERATED: 07 Fri Jun 2019 1
-RESULT: 084
+date: 07 fri jun 2019 1
+result: 084
 3 <- 35		- - 3
 1 <- 34		- 1 -
 0 <- 27		- 0 -
@@ -1568,8 +1568,8 @@ RESULT: 084
 2 <-  3		- 2 -
 
 
-DATE GENERATED: 07 Fri Jun 2019 2
-RESULT: 980
+date: 07 fri jun 2019 2
+result: 980
 3 <- 36		- - 3
 1 <- 35		- 1 -
 0 <- 28		- 0 -
@@ -1582,8 +1582,8 @@ RESULT: 980
 2 <-  4		- 2 -
 
 
-DATE GENERATED: 08 Sat Jun 2019 0
-RESULT: 178
+date: 08 sat jun 2019 0
+result: 178
 3 <- 37		- - 3
 1 <- 36		- 1 -
 0 <- 29		- 0 -
@@ -1596,8 +1596,8 @@ RESULT: 178
 2 <-  5		- 2 -
 
 
-DATE GENERATED: 08 Sat Jun 2019 1
-RESULT: 162
+date: 08 sat jun 2019 1
+result: 162
 3 <- 38		- - 3
 1 <- 37		- 1 -
 0 <- 30		- 0 -
@@ -1610,8 +1610,8 @@ RESULT: 162
 2 <-  6		- 2 -
 
 
-DATE GENERATED: 08 Sat Jun 2019 2
-RESULT: 055
+date: 08 sat jun 2019 2
+result: 055
 3 <- 39		- - 3
 1 <- 38		- 1 -
 0 <- 31		- 0 -
@@ -1624,8 +1624,8 @@ RESULT: 055
 2 <-  7		- 2 -
 
 
-DATE GENERATED: 09 Sun Jun 2019 0
-RESULT: 070
+date: 09 sun jun 2019 0
+result: 070
 3 <- 40		- - 3
 1 <- 39		- 1 -
 0 <- 32		- 0 -
@@ -1638,8 +1638,8 @@ RESULT: 070
 2 <-  8		- 2 -
 
 
-DATE GENERATED: 09 Sun Jun 2019 1
-RESULT: 359
+date: 09 sun jun 2019 1
+result: 359
 3 <- 41		- - 3
 1 <- 40		- 1 -
 0 <- 33		- 0 -
@@ -1652,8 +1652,8 @@ RESULT: 359
 9 <-  7		- 9 -
 
 
-DATE GENERATED: 09 Sun Jun 2019 2
-RESULT: 634
+date: 09 sun jun 2019 2
+result: 634
 3 <- 42		- - 3
 1 <- 41		- 1 -
 0 <- 34		- 0 -
@@ -1666,8 +1666,8 @@ RESULT: 634
 9 <-  8		- 9 -
 
 
-DATE GENERATED: 10 Mon Jun 2019 0
-RESULT: 574
+date: 10 mon jun 2019 0
+result: 574
 3 <- 43		- - 3
 1 <- 42		- 1 -
 0 <- 35		- 0 -
@@ -1680,8 +1680,8 @@ RESULT: 574
 5 <-  4		- - 5
 
 
-DATE GENERATED: 10 Mon Jun 2019 1
-RESULT: 661
+date: 10 mon jun 2019 1
+result: 661
 3 <- 44		- - 3
 1 <- 43		- 1 -
 0 <- 36		- 0 -
@@ -1694,8 +1694,8 @@ RESULT: 661
 5 <-  5		- - 5
 
 
-DATE GENERATED: 10 Mon Jun 2019 2
-RESULT: 028
+date: 10 mon jun 2019 2
+result: 028
 3 <- 45		- - 3
 1 <- 44		- 1 -
 0 <- 37		- 0 -
@@ -1708,8 +1708,8 @@ RESULT: 028
 5 <-  6		- - 5
 
 
-DATE GENERATED: 11 Tue Jun 2019 0
-RESULT: 049
+date: 11 tue jun 2019 0
+result: 049
 3 <- 46		- - 3
 1 <- 45		- 1 -
 0 <- 38		- 0 -
@@ -1722,8 +1722,8 @@ RESULT: 049
 5 <-  7		- - 5
 
 
-DATE GENERATED: 11 Tue Jun 2019 1
-RESULT: 048
+date: 11 tue jun 2019 1
+result: 048
 3 <- 47		- - 3
 1 <- 46		- 1 -
 0 <- 39		- 0 -
@@ -1736,8 +1736,8 @@ RESULT: 048
 5 <-  8		- - 5
 
 
-DATE GENERATED: 11 Tue Jun 2019 2
-RESULT: 054
+date: 11 tue jun 2019 2
+result: 054
 3 <- 48		- - 3
 1 <- 47		- 1 -
 0 <- 40		- 0 -
@@ -1750,8 +1750,8 @@ RESULT: 054
 5 <-  9		- - 5
 
 
-DATE GENERATED: 12 Wed Jun 2019 0
-RESULT: 349
+date: 12 wed jun 2019 0
+result: 349
 3 <- 49		- - 3
 1 <- 48		- 1 -
 0 <- 41		- 0 -
@@ -1764,8 +1764,8 @@ RESULT: 349
 5 <- 10		- - 5
 
 
-DATE GENERATED: 12 Wed Jun 2019 1
-RESULT: 927
+date: 12 wed jun 2019 1
+result: 927
 3 <- 50		- - 3
 1 <- 49		- 1 -
 0 <- 42		- 0 -
@@ -1778,8 +1778,8 @@ RESULT: 927
 5 <- 11		- - 5
 
 
-DATE GENERATED: 12 Wed Jun 2019 2
-RESULT: 061
+date: 12 wed jun 2019 2
+result: 061
 3 <- 51		- - 3
 1 <- 50		- 1 -
 0 <- 43		- 0 -
@@ -1792,8 +1792,8 @@ RESULT: 061
 5 <- 12		- - 5
 
 
-DATE GENERATED: 13 Thu Jun 2019 0
-RESULT: 134
+date: 13 thu jun 2019 0
+result: 134
 3 <- 52		- - 3
 1 <- 51		- 1 -
 0 <- 44		- 0 -
@@ -1806,8 +1806,8 @@ RESULT: 134
 5 <- 13		- - 5
 
 
-DATE GENERATED: 13 Thu Jun 2019 1
-RESULT: 491
+date: 13 thu jun 2019 1
+result: 491
 3 <- 53		- - 3
 1 <- 52		- 1 -
 0 <- 45		- 0 -
@@ -1820,8 +1820,8 @@ RESULT: 491
 9 <-  4		- - 9
 
 
-DATE GENERATED: 13 Thu Jun 2019 2
-RESULT: 051
+date: 13 thu jun 2019 2
+result: 051
 3 <- 54		- - 3
 1 <- 53		- 1 -
 0 <- 46		- 0 -
@@ -1834,8 +1834,8 @@ RESULT: 051
 9 <-  5		- - 9
 
 
-DATE GENERATED: 14 Fri Jun 2019 0
-RESULT: 615
+date: 14 fri jun 2019 0
+result: 615
 3 <- 55		- - 3
 0 <- 47		- 0 -
 8 <- 29		8 - -
@@ -1848,8 +1848,8 @@ RESULT: 615
 1 <-  3		1 - -
 
 
-DATE GENERATED: 14 Fri Jun 2019 1
-RESULT: 512
+date: 14 fri jun 2019 1
+result: 512
 3 <- 56		- - 3
 0 <- 48		- 0 -
 8 <- 30		8 - -
@@ -1862,8 +1862,8 @@ RESULT: 512
 5 <-  2		- 5 -
 
 
-DATE GENERATED: 14 Fri Jun 2019 2
-RESULT: 482
+date: 14 fri jun 2019 2
+result: 482
 3 <- 57		- - 3
 0 <- 49		- 0 -
 8 <- 31		8 - -
@@ -1876,8 +1876,8 @@ RESULT: 482
 5 <-  3		- 5 -
 
 
-DATE GENERATED: 15 Sat Jun 2019 0
-RESULT: 754
+date: 15 sat jun 2019 0
+result: 754
 3 <- 58		- - 3
 0 <- 50		- 0 -
 8 <- 32		8 - -
@@ -1890,8 +1890,8 @@ RESULT: 754
 5 <-  3		- - 5
 
 
-DATE GENERATED: 15 Sat Jun 2019 1
-RESULT: 502
+date: 15 sat jun 2019 1
+result: 502
 3 <- 59		- - 3
 8 <- 33		8 - -
 6 <- 28		- - 6
@@ -1904,8 +1904,8 @@ RESULT: 502
 5 <-  4		- - 5
 
 
-DATE GENERATED: 15 Sat Jun 2019 2
-RESULT: 071
+date: 15 sat jun 2019 2
+result: 071
 3 <- 60		- - 3
 8 <- 34		8 - -
 6 <- 29		- - 6
@@ -1918,8 +1918,8 @@ RESULT: 071
 5 <-  5		- - 5
 
 
-DATE GENERATED: 16 Sun Jun 2019 0
-RESULT: 849
+date: 16 sun jun 2019 0
+result: 849
 3 <- 61		- - 3
 6 <- 30		- - 6
 2 <- 27		2 - -
@@ -1932,8 +1932,8 @@ RESULT: 849
 4 <-  4		4 - -
 
 
-DATE GENERATED: 16 Sun Jun 2019 1
-RESULT: 303
+date: 16 sun jun 2019 1
+result: 303
 6 <- 31		- - 6
 2 <- 28		2 - -
 0 <- 22		- - 0
@@ -1946,8 +1946,8 @@ RESULT: 303
 4 <-  5		4 - -
 
 
-DATE GENERATED: 16 Sun Jun 2019 2
-RESULT: 542
+date: 16 sun jun 2019 2
+result: 542
 6 <- 32		- - 6
 2 <- 29		2 - -
 0 <- 23		- - 0
@@ -1960,8 +1960,8 @@ RESULT: 542
 4 <-  6		4 - -
 
 
-DATE GENERATED: 17 Mon Jun 2019 0
-RESULT: 664
+date: 17 mon jun 2019 0
+result: 664
 6 <- 33		- - 6
 2 <- 30		2 - -
 0 <- 24		- - 0
@@ -1974,8 +1974,8 @@ RESULT: 664
 4 <-  7		4 - -
 
 
-DATE GENERATED: 17 Mon Jun 2019 1
-RESULT: 201
+date: 17 mon jun 2019 1
+result: 201
 6 <- 34		- - 6
 0 <- 25		- - 0
 8 <- 18		- - 8
@@ -1988,8 +1988,8 @@ RESULT: 201
 4 <-  8		4 - -
 
 
-DATE GENERATED: 17 Mon Jun 2019 2
-RESULT: 338
+date: 17 mon jun 2019 2
+result: 338
 6 <- 35		- - 6
 0 <- 26		- - 0
 2 <- 16		- 2 -
@@ -2002,8 +2002,8 @@ RESULT: 338
 3 <-  4		- - 3
 
 
-DATE GENERATED: 18 Tue Jun 2019 0
-RESULT: 792
+date: 18 tue jun 2019 0
+result: 792
 6 <- 36		- - 6
 0 <- 27		- - 0
 2 <- 17		- 2 -
@@ -2016,8 +2016,8 @@ RESULT: 792
 3 <-  5		- - 3
 
 
-DATE GENERATED: 18 Tue Jun 2019 1
-RESULT: 694
+date: 18 tue jun 2019 1
+result: 694
 6 <- 37		- - 6
 0 <- 28		- - 0
 2 <- 18		- 2 -
@@ -2030,8 +2030,8 @@ RESULT: 694
 3 <-  6		- - 3
 
 
-DATE GENERATED: 18 Tue Jun 2019 2
-RESULT: 875
+date: 18 tue jun 2019 2
+result: 875
 6 <- 38		- - 6
 0 <- 29		- - 0
 2 <- 19		- 2 -
@@ -2044,8 +2044,8 @@ RESULT: 875
 3 <-  7		- - 3
 
 
-DATE GENERATED: 19 Wed Jun 2019 0
-RESULT: 381
+date: 19 wed jun 2019 0
+result: 381
 6 <- 39		- - 6
 0 <- 30		- - 0
 2 <- 20		- 2 -
@@ -2058,8 +2058,8 @@ RESULT: 381
 8 <-  4		- - 8
 
 
-DATE GENERATED: 19 Wed Jun 2019 1
-RESULT: 826
+date: 19 wed jun 2019 1
+result: 826
 0 <- 31		- - 0
 7 <- 21		- - 7
 9 <- 21		9 - -
@@ -2072,8 +2072,8 @@ RESULT: 826
 8 <-  5		- - 8
 
 
-DATE GENERATED: 19 Wed Jun 2019 2
-RESULT: 911
+date: 19 wed jun 2019 2
+result: 911
 0 <- 32		- - 0
 7 <- 22		- - 7
 1 <- 20		1 - -
@@ -2086,8 +2086,8 @@ RESULT: 911
 8 <-  6		- - 8
 
 
-DATE GENERATED: 20 Thu Jun 2019 0
-RESULT: 188
+date: 20 thu jun 2019 0
+result: 188
 0 <- 33		- - 0
 7 <- 23		- - 7
 4 <- 16		4 - -
@@ -2100,8 +2100,8 @@ RESULT: 188
 1 <-  1		- 1 -
 
 
-DATE GENERATED: 20 Thu Jun 2019 1
-RESULT: 489
+date: 20 thu jun 2019 1
+result: 489
 0 <- 34		- - 0
 7 <- 24		- - 7
 5 <- 16		- 5 -
@@ -2114,8 +2114,8 @@ RESULT: 489
 1 <-  2		- 1 -
 
 
-DATE GENERATED: 20 Thu Jun 2019 2
-RESULT: 104
+date: 20 thu jun 2019 2
+result: 104
 0 <- 35		- - 0
 7 <- 25		- - 7
 5 <- 17		- 5 -
@@ -2128,8 +2128,8 @@ RESULT: 104
 1 <-  3		- 1 -
 
 
-DATE GENERATED: 21 Fri Jun 2019 0
-RESULT: 305
+date: 21 fri jun 2019 0
+result: 305
 0 <- 36		- - 0
 7 <- 26		- - 7
 5 <- 18		- 5 -
@@ -2142,8 +2142,8 @@ RESULT: 305
 1 <-  4		- 1 -
 
 
-DATE GENERATED: 21 Fri Jun 2019 1
-RESULT: 114
+date: 21 fri jun 2019 1
+result: 114
 0 <- 37		- - 0
 7 <- 27		- - 7
 5 <- 19		- 5 -
@@ -2156,8 +2156,8 @@ RESULT: 114
 1 <-  5		- - 1
 
 
-DATE GENERATED: 21 Fri Jun 2019 2
-RESULT: 691
+date: 21 fri jun 2019 2
+result: 691
 0 <- 38		- - 0
 7 <- 28		- - 7
 5 <- 20		- 5 -
@@ -2170,8 +2170,8 @@ RESULT: 691
 1 <-  1		1 - -
 
 
-DATE GENERATED: 22 Sat Jun 2019 0
-RESULT: 861
+date: 22 sat jun 2019 0
+result: 861
 0 <- 39		- - 0
 7 <- 29		- - 7
 5 <- 21		- 5 -
@@ -2184,8 +2184,8 @@ RESULT: 861
 1 <-  2		1 - -
 
 
-DATE GENERATED: 22 Sat Jun 2019 1
-RESULT: 116
+date: 22 sat jun 2019 1
+result: 116
 0 <- 40		- - 0
 7 <- 30		- - 7
 5 <- 22		- 5 -
@@ -2198,8 +2198,8 @@ RESULT: 116
 1 <-  1		- - 1
 
 
-DATE GENERATED: 22 Sat Jun 2019 2
-RESULT: 241
+date: 22 sat jun 2019 2
+result: 241
 0 <- 41		- - 0
 7 <- 31		- - 7
 5 <- 23		- 5 -
@@ -2212,8 +2212,8 @@ RESULT: 241
 1 <-  1		1 - -
 
 
-DATE GENERATED: 23 Sun Jun 2019 0
-RESULT: 364
+date: 23 sun jun 2019 0
+result: 364
 0 <- 42		- - 0
 7 <- 32		- - 7
 5 <- 24		- 5 -
@@ -2226,8 +2226,8 @@ RESULT: 364
 1 <-  2		1 - -
 
 
-DATE GENERATED: 23 Sun Jun 2019 1
-RESULT: 518
+date: 23 sun jun 2019 1
+result: 518
 0 <- 43		- - 0
 7 <- 33		- - 7
 5 <- 25		- 5 -
@@ -2240,8 +2240,8 @@ RESULT: 518
 1 <-  3		1 - -
 
 
-DATE GENERATED: 23 Sun Jun 2019 2
-RESULT: 734
+date: 23 sun jun 2019 2
+result: 734
 0 <- 44		- - 0
 7 <- 34		- - 7
 5 <- 26		- 5 -
@@ -2254,8 +2254,8 @@ RESULT: 734
 1 <-  4		1 - -
 
 
-DATE GENERATED: 24 Mon Jun 2019 0
-RESULT: 199
+date: 24 mon jun 2019 0
+result: 199
 0 <- 45		- - 0
 7 <- 35		- - 7
 5 <- 27		- 5 -
@@ -2268,8 +2268,8 @@ RESULT: 199
 1 <-  4		- - 1
 
 
-DATE GENERATED: 24 Mon Jun 2019 1
-RESULT: 707
+date: 24 mon jun 2019 1
+result: 707
 0 <- 46		- - 0
 5 <- 28		- 5 -
 3 <- 24		- - 3
@@ -2282,8 +2282,8 @@ RESULT: 707
 1 <-  5		- - 1
 
 
-DATE GENERATED: 24 Mon Jun 2019 2
-RESULT: 720
+date: 24 mon jun 2019 2
+result: 720
 5 <- 29		- 5 -
 0 <- 27		0 - -
 3 <- 25		- - 3
@@ -2296,8 +2296,8 @@ RESULT: 720
 1 <-  6		- - 1
 
 
-DATE GENERATED: 25 Tue Jun 2019 0
-RESULT: 966
+date: 25 tue jun 2019 0
+result: 966
 5 <- 30		- 5 -
 0 <- 28		0 - -
 3 <- 26		- - 3
@@ -2310,8 +2310,8 @@ RESULT: 966
 9 <-  3		- 9 -
 
 
-DATE GENERATED: 25 Tue Jun 2019 1
-RESULT: 653
+date: 25 tue jun 2019 1
+result: 653
 0 <- 29		0 - -
 2 <- 22		- - 2
 7 <- 20		- 7 -
@@ -2324,8 +2324,8 @@ RESULT: 653
 6 <-  1		- 6 -
 
 
-DATE GENERATED: 25 Tue Jun 2019 2
-RESULT: 695
+date: 25 tue jun 2019 2
+result: 695
 0 <- 30		0 - -
 2 <- 23		- - 2
 7 <- 21		- 7 -
@@ -2338,8 +2338,8 @@ RESULT: 695
 6 <-  2		- 6 -
 
 
-DATE GENERATED: 26 Wed Jun 2019 0
-RESULT: 807
+date: 26 wed jun 2019 0
+result: 807
 0 <- 31		0 - -
 2 <- 24		- - 2
 7 <- 22		- 7 -
@@ -2352,8 +2352,8 @@ RESULT: 807
 6 <-  3		- 6 -
 
 
-DATE GENERATED: 26 Wed Jun 2019 1
-RESULT: 670
+date: 26 wed jun 2019 1
+result: 670
 0 <- 32		0 - -
 2 <- 25		- - 2
 4 <- 18		4 - -
@@ -2366,8 +2366,8 @@ RESULT: 670
 6 <-  4		- 6 -
 
 
-DATE GENERATED: 26 Wed Jun 2019 2
-RESULT: 170
+date: 26 wed jun 2019 2
+result: 170
 0 <- 33		0 - -
 2 <- 26		- - 2
 4 <- 19		4 - -
@@ -2380,8 +2380,8 @@ RESULT: 170
 6 <-  5		- 6 -
 
 
-DATE GENERATED: 27 Thu Jun 2019 0
-RESULT: 520
+date: 27 thu jun 2019 0
+result: 520
 0 <- 34		0 - -
 2 <- 27		- - 2
 4 <- 20		4 - -
@@ -2394,8 +2394,8 @@ RESULT: 520
 5 <-  5		- 5 -
 
 
-DATE GENERATED: 27 Thu Jun 2019 1
-RESULT: 467
+date: 27 thu jun 2019 1
+result: 467
 0 <- 35		0 - -
 2 <- 28		- - 2
 8 <- 21		- 8 -
@@ -2408,8 +2408,8 @@ RESULT: 467
 5 <-  6		- 5 -
 
 
-DATE GENERATED: 27 Thu Jun 2019 2
-RESULT: 755
+date: 27 thu jun 2019 2
+result: 755
 0 <- 36		0 - -
 2 <- 29		- - 2
 8 <- 22		- 8 -
@@ -2422,8 +2422,8 @@ RESULT: 755
 5 <-  2		5 - -
 
 
-DATE GENERATED: 28 Fri Jun 2019 0
-RESULT: 893
+date: 28 fri jun 2019 0
+result: 893
 0 <- 37		0 - -
 2 <- 30		- - 2
 8 <- 23		- 8 -
@@ -2436,8 +2436,8 @@ RESULT: 893
 5 <-  3		5 - -
 
 
-DATE GENERATED: 28 Fri Jun 2019 1
-RESULT: 691
+date: 28 fri jun 2019 1
+result: 691
 0 <- 38		0 - -
 2 <- 31		- - 2
 8 <- 24		- 8 -
@@ -2450,8 +2450,8 @@ RESULT: 691
 5 <-  4		5 - -
 
 
-DATE GENERATED: 28 Fri Jun 2019 2
-RESULT: 518
+date: 28 fri jun 2019 2
+result: 518
 0 <- 39		0 - -
 2 <- 32		- - 2
 8 <- 25		- 8 -
@@ -2464,8 +2464,8 @@ RESULT: 518
 5 <-  3		- 5 -
 
 
-DATE GENERATED: 29 Sat Jun 2019 0
-RESULT: 194
+date: 29 sat jun 2019 0
+result: 194
 0 <- 40		0 - -
 2 <- 33		- - 2
 8 <- 26		- 8 -
@@ -2478,8 +2478,8 @@ RESULT: 194
 1 <-  2		- - 1
 
 
-DATE GENERATED: 29 Sat Jun 2019 1
-RESULT: 472
+date: 29 sat jun 2019 1
+result: 472
 0 <- 41		0 - -
 8 <- 27		- 8 -
 2 <- 20		2 - -
@@ -2492,8 +2492,8 @@ RESULT: 472
 1 <-  3		- - 1
 
 
-DATE GENERATED: 29 Sat Jun 2019 2
-RESULT: 482
+date: 29 sat jun 2019 2
+result: 482
 0 <- 42		0 - -
 2 <- 21		2 - -
 4 <- 21		- 4 -
@@ -2506,8 +2506,8 @@ RESULT: 482
 1 <-  4		- - 1
 
 
-DATE GENERATED: 30 Sun Jun 2019 0
-RESULT: 756
+date: 30 sun jun 2019 0
+result: 756
 0 <- 43		0 - -
 2 <- 22		2 - -
 4 <- 22		- 4 -
@@ -2520,8 +2520,8 @@ RESULT: 756
 1 <-  5		- - 1
 
 
-DATE GENERATED: 30 Sun Jun 2019 1
-RESULT: 854
+date: 30 sun jun 2019 1
+result: 854
 0 <- 44		0 - -
 2 <- 23		2 - -
 4 <- 23		- 4 -
@@ -2534,8 +2534,8 @@ RESULT: 854
 8 <-  5		- - 8
 
 
-DATE GENERATED: 30 Sun Jun 2019 2
-RESULT: 835
+date: 30 sun jun 2019 2
+result: 835
 0 <- 45		0 - -
 2 <- 24		2 - -
 4 <- 24		- 4 -
@@ -2548,8 +2548,8 @@ RESULT: 835
 8 <-  6		- - 8
 
 
-DATE GENERATED: 01 Mon Jul 2019 0
-RESULT: 189
+date: 01 mon jul 2019 0
+result: 189
 0 <- 46		0 - -
 2 <- 25		2 - -
 4 <- 25		- 4 -
@@ -2562,8 +2562,8 @@ RESULT: 189
 8 <-  7		- - 8
 
 
-DATE GENERATED: 01 Mon Jul 2019 1
-RESULT: 303
+date: 01 mon jul 2019 1
+result: 303
 0 <- 47		0 - -
 2 <- 26		2 - -
 4 <- 26		- 4 -
@@ -2576,8 +2576,8 @@ RESULT: 303
 3 <-  2		- 3 -
 
 
-DATE GENERATED: 01 Mon Jul 2019 2
-RESULT: 310
+date: 01 mon jul 2019 2
+result: 310
 0 <- 48		0 - -
 2 <- 27		2 - -
 4 <- 27		- 4 -
@@ -2590,8 +2590,8 @@ RESULT: 310
 3 <-  3		- 3 -
 
 
-DATE GENERATED: 02 Tue Jul 2019 0
-RESULT: 158
+date: 02 tue jul 2019 0
+result: 158
 0 <- 49		0 - -
 2 <- 28		2 - -
 4 <- 28		- 4 -
@@ -2604,8 +2604,8 @@ RESULT: 158
 8 <-  4		8 - -
 
 
-DATE GENERATED: 02 Tue Jul 2019 1
-RESULT: 996
+date: 02 tue jul 2019 1
+result: 996
 0 <- 50		0 - -
 2 <- 29		2 - -
 4 <- 29		- 4 -
@@ -2618,8 +2618,8 @@ RESULT: 996
 9 <-  4		- - 9
 
 
-DATE GENERATED: 02 Tue Jul 2019 2
-RESULT: 563
+date: 02 tue jul 2019 2
+result: 563
 0 <- 51		0 - -
 2 <- 30		2 - -
 4 <- 30		- 4 -
@@ -2632,8 +2632,8 @@ RESULT: 563
 9 <-  5		- - 9
 
 
-DATE GENERATED: 03 Wed Jul 2019 0
-RESULT: 349
+date: 03 wed jul 2019 0
+result: 349
 0 <- 52		0 - -
 2 <- 31		2 - -
 7 <- 17		- - 7
@@ -2646,8 +2646,8 @@ RESULT: 349
 9 <-  2		9 - -
 
 
-DATE GENERATED: 03 Wed Jul 2019 1
-RESULT: 352
+date: 03 wed jul 2019 1
+result: 352
 0 <- 53		0 - -
 2 <- 32		2 - -
 7 <- 18		- - 7
@@ -2660,8 +2660,8 @@ RESULT: 352
 9 <-  3		9 - -
 
 
-DATE GENERATED: 03 Wed Jul 2019 2
-RESULT: 174
+date: 03 wed jul 2019 2
+result: 174
 0 <- 54		0 - -
 2 <- 33		2 - -
 7 <- 19		- - 7
@@ -2674,8 +2674,8 @@ RESULT: 174
 9 <-  4		9 - -
 
 
-DATE GENERATED: 04 Thu Jul 2019 0
-RESULT: 424
+date: 04 thu jul 2019 0
+result: 424
 0 <- 55		0 - -
 2 <- 34		2 - -
 7 <- 20		- - 7
@@ -2688,8 +2688,8 @@ RESULT: 424
 4 <-  3		- 4 -
 
 
-DATE GENERATED: 04 Thu Jul 2019 1
-RESULT: 781
+date: 04 thu jul 2019 1
+result: 781
 0 <- 56		0 - -
 2 <- 35		2 - -
 7 <- 21		- - 7
@@ -2702,8 +2702,8 @@ RESULT: 781
 4 <-  4		- 4 -
 
 
-DATE GENERATED: 04 Thu Jul 2019 2
-RESULT: 931
+date: 04 thu jul 2019 2
+result: 931
 0 <- 57		0 - -
 2 <- 36		2 - -
 7 <- 22		- - 7
@@ -2716,8 +2716,8 @@ RESULT: 931
 4 <-  5		- 4 -
 
 
-DATE GENERATED: 05 Fri Jul 2019 0
-RESULT: 501
+date: 05 fri jul 2019 0
+result: 501
 0 <- 58		0 - -
 2 <- 37		2 - -
 7 <- 23		- - 7
@@ -2730,8 +2730,8 @@ RESULT: 501
 4 <-  6		- 4 -
 
 
-DATE GENERATED: 05 Fri Jul 2019 1
-RESULT: 121
+date: 05 fri jul 2019 1
+result: 121
 0 <- 59		0 - -
 2 <- 38		2 - -
 7 <- 24		- - 7
@@ -2744,8 +2744,8 @@ RESULT: 121
 4 <-  7		- 4 -
 
 
-DATE GENERATED: 05 Fri Jul 2019 2
-RESULT: 678
+date: 05 fri jul 2019 2
+result: 678
 0 <- 60		0 - -
 2 <- 39		2 - -
 7 <- 25		- - 7
@@ -2758,8 +2758,8 @@ RESULT: 678
 4 <-  8		- 4 -
 
 
-DATE GENERATED: 06 Sat Jul 2019 0
-RESULT: 780
+date: 06 sat jul 2019 0
+result: 780
 0 <- 61		0 - -
 2 <- 40		2 - -
 7 <- 26		- - 7
@@ -2772,8 +2772,8 @@ RESULT: 780
 4 <-  9		- 4 -
 
 
-DATE GENERATED: 06 Sat Jul 2019 1
-RESULT: 422
+date: 06 sat jul 2019 1
+result: 422
 0 <- 62		0 - -
 2 <- 41		2 - -
 7 <- 27		- - 7
@@ -2786,8 +2786,8 @@ RESULT: 422
 4 <- 10		- 4 -
 
 
-DATE GENERATED: 06 Sat Jul 2019 2
-RESULT: 217
+date: 06 sat jul 2019 2
+result: 217
 0 <- 63		0 - -
 5 <- 18		- - 5
 8 <- 18		8 - -
@@ -2800,8 +2800,8 @@ RESULT: 217
 2 <-  1		- 2 -
 
 
-DATE GENERATED: 07 Sun Jul 2019 0
-RESULT: 428
+date: 07 sun jul 2019 0
+result: 428
 0 <- 64		0 - -
 5 <- 19		- - 5
 8 <- 19		8 - -
@@ -2814,8 +2814,8 @@ RESULT: 428
 2 <-  2		- - 2
 
 
-DATE GENERATED: 07 Sun Jul 2019 1
-RESULT: 044
+date: 07 sun jul 2019 1
+result: 044
 5 <- 20		- - 5
 8 <- 20		8 - -
 6 <- 15		- - 6
@@ -2828,8 +2828,8 @@ RESULT: 044
 4 <-  1		4 - -
 
 
-DATE GENERATED: 07 Sun Jul 2019 2
-RESULT: 007
+date: 07 sun jul 2019 2
+result: 007
 5 <- 21		- - 5
 8 <- 21		8 - -
 6 <- 16		- - 6
@@ -2842,8 +2842,8 @@ RESULT: 007
 4 <-  2		4 - -
 
 
-DATE GENERATED: 08 Mon Jul 2019 0
-RESULT: 259
+date: 08 mon jul 2019 0
+result: 259
 5 <- 22		- - 5
 8 <- 22		8 - -
 6 <- 17		- - 6
@@ -2856,8 +2856,8 @@ RESULT: 259
 4 <-  3		4 - -
 
 
-DATE GENERATED: 08 Mon Jul 2019 1
-RESULT: 845
+date: 08 mon jul 2019 1
+result: 845
 6 <- 18		- - 6
 9 <- 18		- 9 -
 3 <- 17		- - 3
@@ -2870,8 +2870,8 @@ RESULT: 845
 4 <-  4		4 - -
 
 
-DATE GENERATED: 08 Mon Jul 2019 2
-RESULT: 109
+date: 08 mon jul 2019 2
+result: 109
 6 <- 19		- - 6
 9 <- 19		- 9 -
 3 <- 18		- - 3
@@ -2884,8 +2884,8 @@ RESULT: 109
 4 <-  5		4 - -
 
 
-DATE GENERATED: 09 Tue Jul 2019 0
-RESULT: 131
+date: 09 tue jul 2019 0
+result: 131
 6 <- 20		- - 6
 9 <- 20		- 9 -
 3 <- 19		- - 3
@@ -2898,8 +2898,8 @@ RESULT: 131
 4 <-  6		4 - -
 
 
-DATE GENERATED: 09 Tue Jul 2019 1
-RESULT: 079
+date: 09 tue jul 2019 1
+result: 079
 6 <- 21		- - 6
 9 <- 21		- 9 -
 3 <- 20		- - 3
@@ -2912,8 +2912,8 @@ RESULT: 079
 4 <-  7		4 - -
 
 
-DATE GENERATED: 09 Tue Jul 2019 2
-RESULT: 660
+date: 09 tue jul 2019 2
+result: 660
 6 <- 22		- - 6
 9 <- 22		- 9 -
 3 <- 21		- - 3
@@ -2926,8 +2926,8 @@ RESULT: 660
 0 <-  3		- 0 -
 
 
-DATE GENERATED: 10 Wed Jul 2019 0
-RESULT: 179
+date: 10 wed jul 2019 0
+result: 179
 6 <- 23		- - 6
 9 <- 23		- 9 -
 3 <- 22		- - 3
@@ -2940,8 +2940,8 @@ RESULT: 179
 0 <-  4		- 0 -
 
 
-DATE GENERATED: 10 Wed Jul 2019 1
-RESULT: 223
+date: 10 wed jul 2019 1
+result: 223
 6 <- 24		- - 6
 9 <- 24		- 9 -
 3 <- 21		3 - -
@@ -2954,8 +2954,8 @@ RESULT: 223
 0 <-  5		- 0 -
 
 
-DATE GENERATED: 10 Wed Jul 2019 2
-RESULT: 951
+date: 10 wed jul 2019 2
+result: 951
 6 <- 25		- - 6
 9 <- 25		- 9 -
 3 <- 22		3 - -
@@ -2968,8 +2968,8 @@ RESULT: 951
 0 <-  6		- 0 -
 
 
-DATE GENERATED: 11 Thu Jul 2019 0
-RESULT: 254
+date: 11 thu jul 2019 0
+result: 254
 6 <- 26		- - 6
 9 <- 26		- 9 -
 3 <- 23		3 - -
@@ -2982,8 +2982,8 @@ RESULT: 254
 0 <-  7		- 0 -
 
 
-DATE GENERATED: 11 Thu Jul 2019 1
-RESULT: 515
+date: 11 thu jul 2019 1
+result: 515
 6 <- 27		- - 6
 9 <- 27		- 9 -
 3 <- 24		3 - -
@@ -2996,8 +2996,8 @@ RESULT: 515
 5 <-  1		- 5 -
 
 
-DATE GENERATED: 11 Thu Jul 2019 2
-RESULT: 005
+date: 11 thu jul 2019 2
+result: 005
 6 <- 28		- - 6
 9 <- 28		- 9 -
 3 <- 25		3 - -
@@ -3008,5 +3008,103 @@ RESULT: 005
 0 <-  6		- - 0
 1 <-  5		1 - -
 5 <-  2		- 5 -
+
+
+date: 12 fri jul 2019 0
+result: 875
+6 <- 29		- - 6
+9 <- 29		- 9 -
+3 <- 26		3 - -
+7 <- 18		7 - -
+8 <- 18		- 8 -
+2 <- 17		- - 2
+4 <- 15		4 - -
+0 <-  7		- - 0
+1 <-  6		1 - -
+5 <-  3		- 5 -
+
+
+date: 12 fri jul 2019 1
+result: 818
+6 <- 30		- - 6
+9 <- 30		- 9 -
+3 <- 27		3 - -
+7 <- 19		7 - -
+8 <- 19		- 8 -
+2 <- 18		- - 2
+4 <- 16		4 - -
+0 <-  8		- - 0
+1 <-  7		1 - -
+5 <-  4		- 5 -
+
+
+date: 12 fri jul 2019 2
+result: 716
+9 <- 31		- 9 -
+3 <- 28		3 - -
+8 <- 20		- 8 -
+2 <- 19		- - 2
+4 <- 17		4 - -
+7 <- 15		- - 7
+0 <-  9		- - 0
+6 <-  9		6 - -
+1 <-  8		1 - -
+5 <-  5		- 5 -
+
+
+date: 13 sat jul 2019 0
+result: 804
+9 <- 32		- 9 -
+3 <- 29		3 - -
+8 <- 21		- 8 -
+2 <- 20		- - 2
+4 <- 18		4 - -
+7 <- 16		- - 7
+0 <- 10		- - 0
+6 <- 10		6 - -
+1 <-  9		1 - -
+5 <-  6		- 5 -
+
+
+date: 13 sat jul 2019 1
+result: 282
+9 <- 33		- 9 -
+3 <- 30		3 - -
+4 <- 19		4 - -
+7 <- 17		- - 7
+0 <- 11		- - 0
+6 <- 11		6 - -
+1 <- 10		1 - -
+2 <-  9		- 2 -
+5 <-  7		- 5 -
+8 <-  3		- - 8
+
+
+date: 13 sat jul 2019 1
+result: 282
+9 <- 33		- 9 -
+3 <- 30		3 - -
+4 <- 19		4 - -
+7 <- 17		- - 7
+0 <- 11		- - 0
+6 <- 11		6 - -
+1 <- 10		1 - -
+2 <-  9		- 2 -
+5 <-  7		- 5 -
+8 <-  3		- - 8
+
+
+date: 13 sat jul 2019 2
+result: 165
+9 <- 34		- 9 -
+3 <- 31		3 - -
+4 <- 20		4 - -
+7 <- 18		- - 7
+0 <- 12		- - 0
+6 <- 12		6 - -
+2 <- 10		- 2 -
+1 <-  9		- - 1
+5 <-  8		- 5 -
+8 <-  4		- - 8
 
 

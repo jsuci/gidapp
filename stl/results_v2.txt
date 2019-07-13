@@ -1,4 +1,4 @@
-updated: 11 thu jul 2019 2
+updated: 13 sat jul 2019 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -592,3 +592,5 @@ updated: 11 thu jul 2019 2
 09 tue jul 2019       986       271       056
 10 wed jul 2019       192       773       910
 11 thu jul 2019       072       548       171
+12 fri jul 2019       559       015       206
+13 sat jul 2019       178       477       630

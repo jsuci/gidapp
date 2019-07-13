@@ -13226,3 +13226,49 @@ gap: 40
 
 
 
+date: 12 fri jul 2019
+time: 9pm
+gap: 27
+056
+096
+
+time: 9pm
+gap: 31
+354
+394
+
+
+
+date: 13 sat jul 2019
+time: 11am
+gap: 20
+734
+774
+
+time: 11am
+gap: 22
+993
+933
+
+time: 11am
+gap: 34
+469
+409
+
+time: 4pm
+gap: 36
+114
+154
+
+time: 9pm
+gap: 10
+306
+346
+
+time: 9pm
+gap: 34
+534
+574
+
+
+

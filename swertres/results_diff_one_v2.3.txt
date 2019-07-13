@@ -1,4 +1,4 @@
-updated: 11 thu jul 2019
+updated: 13 sat jul 2019
 
 date: 03 thu jan 2013
 
@@ -82244,6 +82244,124 @@ results:
 57-5
 56-6
 58-6
+
+
+
+date: 12 fri jul 2019
+time: 11am
+gap: 15
+pairs: ['02', '06']
+results:
+05-2
+04-9
+03-0
+
+time: 11am
+gap: 34
+pairs: ['70', '74']
+results:
+71-8
+72-5
+73-5
+
+time: 11am
+gap: 36
+pairs: ['23', '27']
+results:
+26-7
+24-3
+25-7
+
+time: 11am
+gap: 47
+pairs: ['02', '06']
+results:
+03-0
+04-1
+05-1
+
+time: 4pm
+gap: 24
+pairs: ['61', '65']
+results:
+64-9
+62-7
+63-0
+
+time: 4pm
+gap: 36
+pairs: ['46', '40']
+results:
+47-2
+49-2
+48-1
+
+time: 4pm
+gap: 45
+pairs: ['37', '31']
+results:
+39-1
+30-1
+38-0
+
+time: 9pm
+gap: 1
+pairs: ['04', '08']
+results:
+05-0
+06-6
+07-0
+
+time: 9pm
+gap: 28
+pairs: ['82', '86']
+results:
+84-2
+83-4
+85-5
+
+time: 9pm
+gap: 41
+pairs: ['94', '98']
+results:
+96-3
+97-3
+95-6
+
+
+
+date: 13 sat jul 2019
+time: 11am
+gap: 7
+pairs: ['86', '80']
+results:
+87-0
+89-3
+88-1
+
+time: 11am
+gap: 22
+pairs: ['34', '38']
+results:
+35-0
+36-9
+37-0
+
+time: 4pm
+gap: 24
+pairs: ['27', '21']
+results:
+28-6
+20-5
+29-4
+
+time: 4pm
+gap: 41
+pairs: ['49', '43']
+results:
+42-7
+40-5
+41-5
 
 
 

@@ -3967,3 +3967,14 @@ date: 10 wed jul 2019
 date: 11 thu jul 2019
 
 
+date: 12 fri jul 2019
+
+
+date: 13 sat jul 2019
+time: 11am
+gap: 52
+153
+193
+
+
+

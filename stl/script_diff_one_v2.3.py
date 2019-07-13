@@ -1,7 +1,5 @@
 import fileinput
-from datetime import datetime, timedelta
 from itertools import product, islice
-from pprint import pprint
 from re import split
 
 

@@ -1,4 +1,4 @@
-updated: 11 thu jul 2019
+updated: 13 sat jul 2019
 
 date: 16 thu nov 2017
 
@@ -19522,6 +19522,76 @@ results:
 56-4
 58-9
 57-4
+
+
+
+date: 12 fri jul 2019
+time: 9pm
+gap: 27
+pairs: ['05', '09']
+results:
+07-1
+06-6
+08-1
+
+time: 9pm
+gap: 31
+pairs: ['35', '39']
+results:
+37-2
+38-4
+36-2
+
+
+
+date: 13 sat jul 2019
+time: 11am
+gap: 20
+pairs: ['73', '77']
+results:
+75-3
+76-2
+74-5
+
+time: 11am
+gap: 22
+pairs: ['99', '93']
+results:
+91-5
+92-4
+90-2
+
+time: 11am
+gap: 34
+pairs: ['46', '40']
+results:
+49-1
+47-9
+48-1
+
+time: 4pm
+gap: 36
+pairs: ['11', '15']
+results:
+14-7
+13-7
+12-4
+
+time: 9pm
+gap: 10
+pairs: ['30', '34']
+results:
+31-5
+33-8
+32-7
+
+time: 9pm
+gap: 34
+pairs: ['53', '57']
+results:
+55-4
+56-8
+54-8
 
 
 

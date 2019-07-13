@@ -55524,3 +55524,81 @@ gap: 45
 
 
 
+date: 12 fri jul 2019
+time: 11am
+gap: 15
+021
+061
+
+time: 11am
+gap: 34
+708
+748
+
+time: 11am
+gap: 36
+233
+273
+
+time: 11am
+gap: 47
+020
+060
+
+time: 4pm
+gap: 24
+618
+658
+
+time: 4pm
+gap: 36
+461
+401
+
+time: 4pm
+gap: 45
+370
+310
+
+time: 9pm
+gap: 1
+046
+086
+
+time: 9pm
+gap: 28
+823
+863
+
+time: 9pm
+gap: 41
+946
+986
+
+
+
+date: 13 sat jul 2019
+time: 11am
+gap: 7
+862
+802
+
+time: 11am
+gap: 22
+349
+389
+
+time: 4pm
+gap: 24
+273
+277
+213
+217
+
+time: 4pm
+gap: 41
+497
+437
+
+
+

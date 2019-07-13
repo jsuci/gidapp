@@ -1,27 +1,97 @@
-from itertools import *
-from re import *
-from pprint import *
-from datetime import *
-from fileinput import *
+from itertools import islice
+from re import split
+import fileinput
 
 
-def get_reverse_result():
-    results = []
-    with open("results_v1.txt", "r") as fi:
-        for entry in islice(fi, 2, None):
-            result = entry.strip()
-            results.insert(0, result)
+def date_gap():
+    """
+    INPUT:
+        prev_date - a string date (ex. 01 Wed May 2019 1) taken from
+        results_count_missing_v1.1.txt
 
-    return results
+        curr_date - a string date (ex. 12 fri jul 2019 1) taken from
+        results_v2.txt (results_v2.txt is used for more accurate date_gap
+        count)
 
-
-def count_missing_digit(results, digit):
-    """Given a str digit determine the longest missing
-    position of that digit. Return a list containing
-    digit, {position: missing_count}, "0 _ _")
+    OUTPUT:
+        output - a list of tuple (ex. [(01 Wed May 2019, 1), (01 Wed May
+        2019, 2), ...]) containing the date and int time
     """
 
-    # results = get_reverse_result()
+    output = []
+    found = False
+
+    with open("results_count_missing_v1.1.txt", "r") as f1, \
+            open("results_v2.txt", "r") as f2:
+
+        prev_date = f1.readline().strip().replace("updated: ", "")
+        p_date, p_int = [prev_date[:-2], int(prev_date[-1:])]
+
+        for entry in islice(f2, 1, None):
+            date_res = split(r"\s{2,}", entry.strip())
+            date = date_res[0]
+            len_results = len(date_res[1:])
+
+            if p_date == date:
+                found = True
+
+            if found:
+                for i in range(p_int, len_results):
+                    output.append((date, i))
+                    p_int = i
+
+                    if p_int == 2:
+                        p_int = 0
+
+    return output
+
+
+def get_time_results(prev_date):
+    """
+    INPUT:
+        prev_date - a tuple (ex. '10 wed jul 2019', 1) taken from date_gap()
+
+    OUTPUT:
+        output - a list of results (ex. ['123', '456', ...])
+    """
+
+    output = []
+    p_date = prev_date[0]
+    p_int = prev_date[1]
+
+    with open("results_v2.txt", "r") as fi:
+
+        for entry in islice(fi, 2, None):
+            entry = split(r"\s{2,}", entry.strip())
+            results = entry[1:]
+            date = entry[0]
+
+            if p_date == date:
+                for res in results[0:p_int + 1]:
+                    output.insert(0, res)
+
+                break
+
+            else:
+                for res in results:
+                    output.insert(0, res)
+
+    return output
+
+
+def count_missing_digit(all_results, digit):
+    """
+    INPUT:
+        all_results - a list of results (ex. ['473', '328'...005]) taken
+        from get_time_results(prev_date)
+
+        digit - a string int (ex. "1")
+
+    OUTPUT:
+        final_result - a list composed of string digit and a dictionary
+        (ex. ["0", {"first": 0, "second": 0, "third": 0}])
+    """
+
     first_count = 0
     second_count = 0
     third_count = 0
@@ -30,7 +100,7 @@ def count_missing_digit(results, digit):
 
     final_result = [digit, {"first": 0, "second": 0, "third": 0}]
 
-    for result in results:
+    for result in all_results:
         if digit != result[0]:
             first_count += 1
         else:
@@ -40,7 +110,7 @@ def count_missing_digit(results, digit):
                 highest_format = "{} - -".format(digit)
             break
 
-    for result in results:
+    for result in all_results:
         if digit != result[1]:
             second_count += 1
         else:
@@ -50,7 +120,7 @@ def count_missing_digit(results, digit):
                 highest_format = "- {} -".format(digit)
             break
 
-    for result in results:
+    for result in all_results:
         if digit != result[2]:
             third_count += 1
         else:
@@ -65,102 +135,45 @@ def count_missing_digit(results, digit):
     return final_result
 
 
-def result_gap():
-    """Given two different date time strings, count how
-    many results have gone by. Return an integer value"""
-
-    ((prev_date, prev_int),
-        (curr_date, curr_int)) = date_gap()
-
-    multiplier = 3
-    time_diff = (curr_date - prev_date).days
-
-    endpoints = (
-        multiplier - (prev_int + 1) +
-        (curr_int + 1)
-    )
-
-    if time_diff != 1:
-        return (time_diff - 1) * multiplier + endpoints
-    else:
-        return endpoints
-
-
-def date_gap():
-    """Return a list of tuple containing date object and an int value
-    taken from results_v1.txt and results_count_missing_v1.1.txt"""
-
-    with open("results_count_missing_v1.1.txt", "r") as f1:
-        prev_dt = f1.readline().strip().replace("updated: ", "")
-
-    with open("results_v1.txt", "r") as f2:
-        curr_dt = f2.readline().strip().replace("updated: ", "")
-
-    prev_date, prev_int = [prev_dt[:-2], int(prev_dt[-1:])]
-    curr_date, curr_int = [curr_dt[:-2], int(curr_dt[-1:])]
-
-    prev_date = datetime.strptime(prev_date, "%d %a %b %Y")
-    curr_date = datetime.strptime(curr_date, "%d %a %b %Y")
-
-    return [(prev_date, prev_int), (curr_date, curr_int)]
-
-
 def all_missing_digit():
+
+    result_gap = date_gap()
 
     with open("results_count_missing_v1.1.txt", "a") as fo:
 
-        ((prev_date, prev_int),
-            (curr_date, curr_int)) = date_gap()
+        for prev_date in result_gap:
+            print(f"date: {prev_date[0]} {prev_date[1]}")
+            fo.write(f"date: {prev_date[0]} {prev_date[1]}\n")
 
-        for i in reversed(range(result_gap())):
-            results = get_reverse_result()[i:]
+            time_results = get_time_results(prev_date)
+
+            print(f"result: {time_results[0]}")
+            fo.write(f"result: {time_results[0]}\n")
+
             all_missing = []
 
             for i in range(10):
-                all_missing.append(
-                    count_missing_digit(results, str(i)))
-
-            if prev_int == 2:
-                prev_date += timedelta(days=1)
-                prev_int = 0
-
-            else:
-                prev_int += 1
-
-            print("DATE GENERATED: {} {}".format(
-                prev_date.strftime("%d %a %b %Y"), prev_int))
-            print("RESULT: {}".format(results[0]))
-
-            fo.write("DATE GENERATED: {} {}\n".format(
-                prev_date.strftime("%d %a %b %Y"), prev_int))
-            fo.write("RESULT: {}\n".format(results[0]))
+                all_missing.append(count_missing_digit(
+                    time_results, str(i)))
 
             sorted_missing = sorted(
                 all_missing, key=(lambda x: x[2]), reverse=True)
 
             for entry in sorted_missing:
-                print("{} <- {:2}\t\t{}".format(
-                    entry[0],
-                    entry[2],
-                    entry[3])
-                )
-
-                fo.write("{} <- {:2}\t\t{}\n".format(
-                    entry[0],
-                    entry[2],
-                    entry[3])
-                )
+                print(f"{entry[0]} <- {entry[2]:2}\t\t{entry[3]}")
+                fo.write(f"{entry[0]} <- {entry[2]:2}\t\t{entry[3]}\n")
 
             print("\n\n")
             fo.write("\n\n")
 
-    with input("results_count_missing_v1.1.txt", inplace=True) as fio:
-        for entry in fio:
-            if "updated:" in entry:
-                print("updated: {} {}".format(
-                    curr_date.strftime("%d %a %b %Y"), curr_int))
-            else:
-                print(entry, end="")
+    if result_gap:
+        with fileinput.input(
+                "results_count_missing_v1.1.txt", inplace=True) as fio:
+            for entry in fio:
+                if "updated:" in entry:
+                    print(f"updated: {result_gap[-1][0]} {result_gap[-1][1]}")
+                else:
+                    print(entry, end="")
 
 
 def main():
