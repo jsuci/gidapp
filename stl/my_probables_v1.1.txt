@@ -1,0 +1,720 @@
+PROBABLES
+
+date: 01 wed may 2019 0
+
+
+date: 01 wed may 2019 1
+
+
+date: 01 wed may 2019 2
+
+
+date: 02 thu may 2019 0
+
+
+date: 02 thu may 2019 1
+
+
+date: 02 thu may 2019 2
+
+
+date: 03 fri may 2019 0
+
+
+date: 03 fri may 2019 1
+
+
+date: 03 fri may 2019 2
+
+
+date: 04 sat may 2019 0
+
+
+date: 04 sat may 2019 1
+
+
+date: 04 sat may 2019 2
+
+
+date: 05 sun may 2019 0
+
+
+date: 05 sun may 2019 1
+
+
+date: 05 sun may 2019 2
+
+
+date: 06 mon may 2019 0
+
+
+date: 06 mon may 2019 1
+
+
+date: 06 mon may 2019 2
+
+
+date: 07 tue may 2019 0
+
+
+date: 07 tue may 2019 1
+
+
+date: 07 tue may 2019 2
+
+
+date: 08 wed may 2019 0
+
+
+date: 08 wed may 2019 1
+
+
+date: 08 wed may 2019 2
+
+
+date: 09 thu may 2019 0
+
+
+date: 09 thu may 2019 1
+
+
+date: 09 thu may 2019 2
+gap: 63
+473
+413
+
+
+
+date: 10 fri may 2019 0
+
+
+date: 10 fri may 2019 1
+
+
+date: 10 fri may 2019 2
+
+
+date: 11 sat may 2019 0
+
+
+date: 11 sat may 2019 1
+
+
+date: 11 sat may 2019 2
+
+
+date: 12 sun may 2019 0
+
+
+date: 12 sun may 2019 1
+
+
+date: 12 sun may 2019 2
+
+
+date: 13 mon may 2019 0
+
+
+date: 13 mon may 2019 1
+
+
+date: 13 mon may 2019 2
+
+
+date: 14 tue may 2019 0
+
+
+date: 14 tue may 2019 1
+
+
+date: 14 tue may 2019 2
+
+
+date: 15 wed may 2019 0
+
+
+date: 15 wed may 2019 1
+
+
+date: 15 wed may 2019 2
+
+
+date: 16 thu may 2019 0
+
+
+date: 16 thu may 2019 1
+
+
+date: 16 thu may 2019 2
+
+
+date: 17 fri may 2019 0
+
+
+date: 17 fri may 2019 1
+
+
+date: 17 fri may 2019 2
+
+
+date: 18 sat may 2019 0
+
+
+date: 18 sat may 2019 1
+
+
+date: 18 sat may 2019 2
+
+
+date: 19 sun may 2019 0
+
+
+date: 19 sun may 2019 1
+
+
+date: 19 sun may 2019 2
+
+
+date: 20 mon may 2019 0
+
+
+date: 20 mon may 2019 1
+
+
+date: 20 mon may 2019 2
+
+
+date: 21 tue may 2019 0
+
+
+date: 21 tue may 2019 1
+
+
+date: 21 tue may 2019 2
+
+
+date: 22 wed may 2019 0
+
+
+date: 22 wed may 2019 1
+
+
+date: 22 wed may 2019 2
+
+
+date: 23 thu may 2019 0
+
+
+date: 23 thu may 2019 1
+
+
+date: 23 thu may 2019 2
+
+
+date: 24 fri may 2019 0
+
+
+date: 24 fri may 2019 1
+
+
+date: 24 fri may 2019 2
+gap: 58
+974
+914
+
+
+
+date: 25 sat may 2019 0
+gap: 69
+352
+392
+
+
+
+date: 25 sat may 2019 1
+
+
+date: 25 sat may 2019 2
+
+
+date: 26 sun may 2019 0
+
+
+date: 26 sun may 2019 1
+
+
+date: 26 sun may 2019 2
+
+
+date: 27 mon may 2019 0
+
+
+date: 27 mon may 2019 1
+
+
+date: 27 mon may 2019 2
+
+
+date: 28 tue may 2019 0
+
+
+date: 28 tue may 2019 1
+
+
+date: 28 tue may 2019 2
+
+
+date: 29 wed may 2019 0
+
+
+date: 29 wed may 2019 1
+
+
+date: 29 wed may 2019 2
+
+
+date: 30 thu may 2019 0
+
+
+date: 30 thu may 2019 1
+
+
+date: 30 thu may 2019 2
+
+
+date: 31 fri may 2019 0
+
+
+date: 31 fri may 2019 1
+
+
+date: 31 fri may 2019 2
+
+
+date: 01 sat jun 2019 0
+
+
+date: 01 sat jun 2019 1
+
+
+date: 01 sat jun 2019 2
+
+
+date: 02 sun jun 2019 0
+
+
+date: 02 sun jun 2019 1
+
+
+date: 02 sun jun 2019 2
+
+
+date: 03 mon jun 2019 0
+
+
+date: 03 mon jun 2019 1
+
+
+date: 03 mon jun 2019 2
+
+
+date: 04 tue jun 2019 0
+
+
+date: 04 tue jun 2019 1
+
+
+date: 04 tue jun 2019 2
+
+
+date: 05 wed jun 2019 0
+
+
+date: 05 wed jun 2019 1
+
+
+date: 05 wed jun 2019 2
+
+
+date: 06 thu jun 2019 0
+
+
+date: 06 thu jun 2019 1
+
+
+date: 06 thu jun 2019 2
+
+
+date: 07 fri jun 2019 0
+
+
+date: 07 fri jun 2019 1
+
+
+date: 07 fri jun 2019 2
+gap: 93
+533
+573
+
+
+
+date: 08 sat jun 2019 0
+
+
+date: 08 sat jun 2019 1
+
+
+date: 08 sat jun 2019 2
+
+
+date: 09 sun jun 2019 0
+
+
+date: 09 sun jun 2019 1
+
+
+date: 09 sun jun 2019 2
+gap: 60
+063
+003
+
+
+
+date: 10 mon jun 2019 0
+
+
+date: 10 mon jun 2019 1
+
+
+date: 10 mon jun 2019 2
+
+
+date: 11 tue jun 2019 0
+
+
+date: 11 tue jun 2019 1
+
+
+date: 11 tue jun 2019 2
+
+
+date: 12 wed jun 2019 0
+
+
+date: 12 wed jun 2019 1
+
+
+date: 12 wed jun 2019 2
+
+
+date: 13 thu jun 2019 0
+gap: 70
+873
+813
+
+
+
+date: 13 thu jun 2019 1
+
+
+date: 13 thu jun 2019 2
+
+
+date: 14 fri jun 2019 0
+
+
+date: 14 fri jun 2019 1
+
+
+date: 14 fri jun 2019 2
+
+
+date: 15 sat jun 2019 0
+
+
+date: 15 sat jun 2019 1
+
+
+date: 15 sat jun 2019 2
+
+
+date: 16 sun jun 2019 0
+
+
+date: 16 sun jun 2019 1
+
+
+date: 16 sun jun 2019 2
+
+
+date: 17 mon jun 2019 0
+
+
+date: 17 mon jun 2019 1
+
+
+date: 17 mon jun 2019 2
+
+
+date: 18 tue jun 2019 0
+gap: 49
+544
+584
+
+
+
+date: 18 tue jun 2019 1
+
+
+date: 18 tue jun 2019 2
+
+
+date: 19 wed jun 2019 0
+
+
+date: 19 wed jun 2019 1
+
+
+date: 19 wed jun 2019 2
+
+
+date: 20 thu jun 2019 0
+
+
+date: 20 thu jun 2019 1
+
+
+date: 20 thu jun 2019 2
+
+
+date: 21 fri jun 2019 0
+
+
+date: 21 fri jun 2019 1
+
+
+date: 21 fri jun 2019 2
+
+
+date: 22 sat jun 2019 0
+
+
+date: 22 sat jun 2019 1
+
+
+date: 22 sat jun 2019 2
+
+
+date: 23 sun jun 2019 0
+
+
+date: 23 sun jun 2019 1
+
+
+date: 23 sun jun 2019 2
+
+
+date: 24 mon jun 2019 0
+
+
+date: 24 mon jun 2019 1
+
+
+date: 24 mon jun 2019 2
+
+
+date: 25 tue jun 2019 0
+
+
+date: 25 tue jun 2019 1
+
+
+date: 25 tue jun 2019 2
+
+
+date: 26 wed jun 2019 0
+
+
+date: 26 wed jun 2019 1
+
+
+date: 26 wed jun 2019 2
+
+
+date: 27 thu jun 2019 0
+
+
+date: 27 thu jun 2019 1
+
+
+date: 27 thu jun 2019 2
+
+
+date: 28 fri jun 2019 0
+
+
+date: 28 fri jun 2019 1
+
+
+date: 28 fri jun 2019 2
+
+
+date: 29 sat jun 2019 0
+
+
+date: 29 sat jun 2019 1
+
+
+date: 29 sat jun 2019 2
+
+
+date: 30 sun jun 2019 0
+
+
+date: 30 sun jun 2019 1
+
+
+date: 30 sun jun 2019 2
+gap: 76
+823
+863
+
+
+
+date: 01 mon jul 2019 0
+
+
+date: 01 mon jul 2019 1
+
+
+date: 01 mon jul 2019 2
+
+
+date: 02 tue jul 2019 0
+
+
+date: 02 tue jul 2019 1
+gap: 40
+365
+305
+
+
+
+date: 02 tue jul 2019 2
+
+
+date: 03 wed jul 2019 0
+
+
+date: 03 wed jul 2019 1
+
+
+date: 03 wed jul 2019 2
+
+
+date: 04 thu jul 2019 0
+
+
+date: 04 thu jul 2019 1
+
+
+date: 04 thu jul 2019 2
+
+
+date: 05 fri jul 2019 0
+
+
+date: 05 fri jul 2019 1
+
+
+date: 05 fri jul 2019 2
+
+
+date: 06 sat jul 2019 0
+
+
+date: 06 sat jul 2019 1
+
+
+date: 06 sat jul 2019 2
+
+
+date: 07 sun jul 2019 0
+
+
+date: 07 sun jul 2019 1
+
+
+date: 07 sun jul 2019 2
+
+
+date: 08 mon jul 2019 0
+
+
+date: 08 mon jul 2019 1
+
+
+date: 08 mon jul 2019 2
+
+
+date: 09 tue jul 2019 0
+gap: 93
+543
+583
+
+
+
+date: 09 tue jul 2019 1
+
+
+date: 09 tue jul 2019 2
+
+
+date: 10 wed jul 2019 0
+
+
+date: 10 wed jul 2019 1
+
+
+date: 10 wed jul 2019 2
+
+
+date: 11 thu jul 2019 0
+
+
+date: 11 thu jul 2019 1
+
+
+date: 11 thu jul 2019 2
+
+
+date: 12 fri jul 2019 0
+
+
+date: 12 fri jul 2019 1
+
+
+date: 12 fri jul 2019 2
+
+
+date: 13 sat jul 2019 0
+
+
+date: 13 sat jul 2019 1
+
+
+date: 13 sat jul 2019 2
+
+
+date: 14 sun jul 2019 0
+
+
+date: 14 sun jul 2019 0
+
+
+date: 14 sun jul 2019 1
+
+
+date: 14 sun jul 2019 2
+
+

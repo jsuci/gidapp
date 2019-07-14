@@ -1,4 +1,4 @@
-updated: 13 sat jul 2019
+updated: 14 sun jul 2019
 
 date: 03 thu jan 2013
 
@@ -82362,6 +82362,41 @@ results:
 42-7
 40-5
 41-5
+
+
+
+date: 14 sun jul 2019
+time: 11am
+gap: 46
+pairs: ['66', '60']
+results:
+69-3
+67-2
+68-0
+
+time: 4pm
+gap: 25
+pairs: ['25', '29']
+results:
+28-6
+27-6
+26-4
+
+time: 4pm
+gap: 37
+pairs: ['46', '40']
+results:
+48-0
+49-2
+47-9
+
+time: 9pm
+gap: 42
+pairs: ['90', '94']
+results:
+91-7
+93-7
+92-5
 
 
 

@@ -1,9 +1,9 @@
 import requests
 import fileinput
-from time import *
+from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
-from datetime import *
+from datetime import datetime
 
 
 def fetch_html(mo, yr):
@@ -11,13 +11,13 @@ def fetch_html(mo, yr):
         "user-agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/70.0.3163.100 Safari/537.36"
+            "Chrome/75.0.3770.100 Safari/537.36"
         )
     }
 
     year_month_url = (
-        "https://www.gidapp.com/lottery/philippines/"
-        "pcso/suertres/month/{}-{}".format(yr, mo)
+        f"https://www.gidapp.com/lottery/philippines/"
+        f"pcso/suertres/month/{yr}-{mo}"
     )
 
     r = requests.get(year_month_url, headers=headers)
