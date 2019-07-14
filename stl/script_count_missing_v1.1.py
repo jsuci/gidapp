@@ -25,19 +25,23 @@ def date_gap():
             open("results_v2.txt", "r") as f2:
 
         prev_date = f1.readline().strip().replace("updated: ", "")
+        curr_date = f2.readline().strip().replace("updated: ", "")
         p_date, p_int = [prev_date[:-2], int(prev_date[-1:])]
 
         for entry in islice(f2, 1, None):
             date_res = split(r"\s{2,}", entry.strip())
-            date = date_res[0]
+            c_date = date_res[0]
             len_results = len(date_res[1:])
 
-            if p_date == date:
+            if prev_date == curr_date:
+                break
+
+            if p_date == c_date:
                 found = True
 
             if found:
                 for i in range(p_int, len_results):
-                    output.append((date, i))
+                    output.append((c_date, i))
                     p_int = i
 
                     if p_int == 2:
