@@ -4,6 +4,28 @@ from time import sleep
 from datetime import datetime
 from bs4 import BeautifulSoup as BS
 from itertools import islice
+from random import choice
+
+
+def rand_ua():
+    """
+    INPUT:
+        user_agents.txt - a text file containing all user-agent strings
+        from chrome and firefox
+
+    OUTPUT
+        output - a random user-agent string
+    """
+
+    non_rand = []
+
+    with open("../user_agents.txt") as file:
+        for line in file:
+            non_rand.append(line.strip())
+
+    output = choice(non_rand)
+
+    return output
 
 
 def fetch_html(mo, yr):

@@ -4,15 +4,35 @@ from datetime import datetime
 from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
+from random import choice
+
+
+def rand_ua():
+    """
+    INPUT:
+        user_agents.txt - a text file containing all user-agent strings
+        from chrome and firefox
+
+    OUTPUT
+        output - a random user-agent string
+    """
+
+    non_rand = []
+
+    with open("../user_agents.txt") as file:
+        for line in file:
+            non_rand.append(line.strip())
+
+    output = choice(non_rand)
+
+    return output
 
 
 def fetch_html(mo, yr):
     headers = {
-        "user-agent": (
-            "Mozilla/5.0 (Windows NT 10.0; WOW64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/72.0.3626.121 Safari/537.36"
-        )
+        "user-agent": rand_ua(),
+        "referer": "https://www.google.com/",
+        "upgrade-insecure-requests": "1"
     }
 
     year_month_url = (
