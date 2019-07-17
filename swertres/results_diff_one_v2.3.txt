@@ -1,4 +1,4 @@
-updated: 14 sun jul 2019
+updated: 16 tue jul 2019
 
 date: 03 thu jan 2013
 
@@ -82397,6 +82397,68 @@ results:
 91-7
 93-7
 92-5
+
+
+
+date: 15 mon jul 2019
+time: 11am
+gap: 35
+pairs: ['51', '55']
+results:
+54-7
+52-1
+53-7
+
+time: 4pm
+gap: 28
+pairs: ['11', '15']
+results:
+12-0
+13-9
+14-2
+
+time: 4pm
+gap: 44
+pairs: ['83', '87']
+results:
+85-9
+86-2
+84-0
+
+time: 9pm
+gap: 22
+pairs: ['45', '49']
+results:
+47-3
+46-2
+48-2
+
+
+
+date: 16 tue jul 2019
+time: 11am
+gap: 31
+pairs: ['73', '77']
+results:
+75-4
+74-2
+76-2
+
+time: 11am
+gap: 47
+pairs: ['73', '77']
+results:
+74-1
+76-2
+75-1
+
+time: 9pm
+gap: 3
+pairs: ['64', '68']
+results:
+65-1
+66-0
+67-8
 
 
 

@@ -55625,3 +55625,44 @@ gap: 42
 
 
 
+date: 15 mon jul 2019
+time: 11am
+gap: 35
+511
+551
+
+time: 4pm
+gap: 28
+111
+151
+
+time: 4pm
+gap: 44
+831
+871
+
+time: 9pm
+gap: 22
+453
+493
+
+
+
+date: 16 tue jul 2019
+time: 11am
+gap: 31
+734
+774
+
+time: 11am
+gap: 47
+732
+772
+
+time: 9pm
+gap: 3
+649
+689
+
+
+
