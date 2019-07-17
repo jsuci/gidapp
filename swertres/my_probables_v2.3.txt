@@ -55666,3 +55666,31 @@ gap: 3
 
 
 
+date: 17 wed jul 2019
+time: 11am
+gap: 7
+165
+105
+
+time: 4pm
+gap: 20
+447
+487
+
+time: 4pm
+gap: 30
+119
+159
+
+time: 4pm
+gap: 37
+144
+184
+
+time: 9pm
+gap: 18
+892
+832
+
+
+

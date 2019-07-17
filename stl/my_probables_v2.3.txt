@@ -13321,3 +13321,31 @@ gap: 28
 
 
 
+date: 17 wed jul 2019
+time: 11am
+gap: 2
+946
+986
+
+time: 4pm
+gap: 23
+665
+605
+
+time: 4pm
+gap: 47
+953
+993
+
+time: 9pm
+gap: 8
+675
+615
+
+time: 9pm
+gap: 16
+087
+027
+
+
+

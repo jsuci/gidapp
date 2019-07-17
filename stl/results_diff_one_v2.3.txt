@@ -1,4 +1,4 @@
-updated: 16 tue jul 2019
+updated: 17 wed jul 2019
 
 date: 16 thu nov 2017
 
@@ -19665,6 +19665,49 @@ results:
 96-1
 97-1
 98-2
+
+
+
+date: 17 wed jul 2019
+time: 11am
+gap: 2
+pairs: ['94', '98']
+results:
+97-7
+95-5
+96-8
+
+time: 4pm
+gap: 23
+pairs: ['66', '60']
+results:
+67-6
+69-4
+68-7
+
+time: 4pm
+gap: 47
+pairs: ['95', '99']
+results:
+96-4
+98-2
+97-1
+
+time: 9pm
+gap: 8
+pairs: ['67', '61']
+results:
+60-5
+68-2
+69-2
+
+time: 9pm
+gap: 16
+pairs: ['08', '02']
+results:
+01-4
+00-7
+09-4
 
 
 
