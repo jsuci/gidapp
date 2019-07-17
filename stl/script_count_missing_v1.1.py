@@ -47,7 +47,7 @@ def date_gap():
                     if p_int == 2:
                         p_int = 0
 
-    return output
+    return output[1:]
 
 
 def get_time_results(prev_date):

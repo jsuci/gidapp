@@ -1,8 +1,5 @@
 PROBABLES
 
-date: 01 wed may 2019 0
-
-
 date: 01 wed may 2019 1
 
 
@@ -689,13 +686,7 @@ date: 13 sat jul 2019 2
 date: 14 sun jul 2019 0
 
 
-date: 14 sun jul 2019 0
-
-
 date: 14 sun jul 2019 1
-
-
-date: 14 sun jul 2019 2
 
 
 date: 14 sun jul 2019 2
