@@ -1,4 +1,4 @@
-updated: 17 wed jul 2019
+updated: 18 thu jul 2019
 
 date: 03 thu jan 2013
 
@@ -82502,6 +82502,41 @@ results:
 82-4
 80-2
 81-4
+
+
+
+date: 18 thu jul 2019
+time: 11am
+gap: 5
+pairs: ['89', '83']
+results:
+80-4
+82-4
+81-9
+
+time: 11am
+gap: 8
+pairs: ['15', '19']
+results:
+17-9
+18-9
+16-8
+
+time: 4pm
+gap: 7
+pairs: ['50', '54']
+results:
+51-5
+52-3
+53-6
+
+time: 9pm
+gap: 8
+pairs: ['12', '16']
+results:
+15-9
+13-0
+14-2
 
 
 

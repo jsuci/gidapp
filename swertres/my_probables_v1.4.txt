@@ -1,4 +1,4 @@
-updated: 18 thu jul 2019 0
+PROBABLES
 
 date: 01 wed may 2019 1
 
@@ -76,13 +76,6 @@ date: 09 thu may 2019 1
 
 
 date: 09 thu may 2019 2
-gap: 63
-pairs: ['47', '41']
-results:
-40-3
-48-3
-49-3
-
 
 
 date: 10 fri may 2019 0
@@ -218,23 +211,9 @@ date: 24 fri may 2019 1
 
 
 date: 24 fri may 2019 2
-gap: 58
-pairs: ['97', '91']
-results:
-98-4
-99-4
-90-4
-
 
 
 date: 25 sat may 2019 0
-gap: 69
-pairs: ['35', '39']
-results:
-37-2
-36-2
-38-2
-
 
 
 date: 25 sat may 2019 1
@@ -358,13 +337,6 @@ date: 07 fri jun 2019 1
 
 
 date: 07 fri jun 2019 2
-gap: 93
-pairs: ['53', '57']
-results:
-55-3
-56-3
-54-3
-
 
 
 date: 08 sat jun 2019 0
@@ -383,13 +355,6 @@ date: 09 sun jun 2019 1
 
 
 date: 09 sun jun 2019 2
-gap: 60
-pairs: ['06', '00']
-results:
-08-3
-07-3
-09-3
-
 
 
 date: 10 mon jun 2019 0
@@ -417,16 +382,13 @@ date: 12 wed jun 2019 1
 
 
 date: 12 wed jun 2019 2
+gap: 89
+442
+482
+
 
 
 date: 13 thu jun 2019 0
-gap: 70
-pairs: ['87', '81']
-results:
-80-3
-89-3
-88-3
-
 
 
 date: 13 thu jun 2019 1
@@ -472,13 +434,6 @@ date: 17 mon jun 2019 2
 
 
 date: 18 tue jun 2019 0
-gap: 49
-pairs: ['54', '58']
-results:
-56-4
-55-4
-57-4
-
 
 
 date: 18 tue jun 2019 1
@@ -557,12 +512,20 @@ date: 26 wed jun 2019 1
 
 
 date: 26 wed jun 2019 2
+gap: 62
+796
+736
+
 
 
 date: 27 thu jun 2019 0
 
 
 date: 27 thu jun 2019 1
+gap: 20
+130
+170
+
 
 
 date: 27 thu jun 2019 2
@@ -593,13 +556,6 @@ date: 30 sun jun 2019 1
 
 
 date: 30 sun jun 2019 2
-gap: 76
-pairs: ['82', '86']
-results:
-85-3
-84-3
-83-3
-
 
 
 date: 01 mon jul 2019 0
@@ -615,13 +571,6 @@ date: 02 tue jul 2019 0
 
 
 date: 02 tue jul 2019 1
-gap: 40
-pairs: ['36', '30']
-results:
-37-5
-38-5
-39-5
-
 
 
 date: 02 tue jul 2019 2
@@ -682,13 +631,6 @@ date: 08 mon jul 2019 2
 
 
 date: 09 tue jul 2019 0
-gap: 93
-pairs: ['54', '58']
-results:
-57-3
-55-3
-56-3
-
 
 
 date: 09 tue jul 2019 1
@@ -704,6 +646,10 @@ date: 10 wed jul 2019 1
 
 
 date: 10 wed jul 2019 2
+gap: 4
+077
+017
+
 
 
 date: 11 thu jul 2019 0
@@ -716,6 +662,10 @@ date: 11 thu jul 2019 2
 
 
 date: 12 fri jul 2019 0
+gap: 45
+510
+550
+
 
 
 date: 12 fri jul 2019 1
@@ -770,5 +720,11 @@ date: 17 wed jul 2019 2
 
 
 date: 18 thu jul 2019 0
+
+
+date: 18 thu jul 2019 1
+
+
+date: 18 thu jul 2019 2
 
 

@@ -13349,3 +13349,33 @@ gap: 16
 
 
 
+date: 18 thu jul 2019
+time: 4pm
+gap: 13
+788
+728
+
+time: 4pm
+gap: 14
+915
+955
+
+time: 4pm
+gap: 25
+859
+899
+
+time: 4pm
+gap: 44
+467
+407
+
+time: 9pm
+gap: 42
+368
+362
+308
+302
+
+
+

@@ -1,0 +1,115 @@
+PROBABLES
+
+date: 14 sun jul 2019 0
+
+
+date: 14 sun jul 2019 1
+gap: 10
+496
+436
+
+
+
+date: 14 sun jul 2019 2
+
+
+date: 15 mon jul 2019 0
+gap: 3
+147
+187
+
+gap: 21
+509
+549
+
+gap: 34
+154
+194
+
+gap: 43
+825
+865
+
+
+
+date: 15 mon jul 2019 1
+gap: 4
+168
+108
+
+gap: 16
+166
+106
+
+
+
+date: 15 mon jul 2019 2
+
+
+date: 16 tue jul 2019 0
+
+
+date: 16 tue jul 2019 1
+
+
+date: 16 tue jul 2019 2
+
+
+date: 17 wed jul 2019 0
+
+
+date: 17 wed jul 2019 1
+gap: 11
+649
+689
+
+gap: 34
+051
+091
+
+
+
+date: 17 wed jul 2019 2
+gap: 4
+072
+012
+
+gap: 16
+162
+102
+
+gap: 23
+165
+105
+
+gap: 28
+825
+865
+
+
+
+date: 18 thu jul 2019 0
+gap: 18
+732
+772
+
+
+
+date: 18 thu jul 2019 1
+
+
+date: 18 thu jul 2019 2
+gap: 13
+031
+071
+
+gap: 17
+899
+839
+
+gap: 26
+158
+198
+
+
+
