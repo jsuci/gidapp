@@ -13397,3 +13397,28 @@ gap: 38
 
 
 
+date: 20 sat jul 2019
+time: 11am
+gap: 7
+787
+781
+727
+721
+
+time: 11am
+gap: 25
+016
+056
+
+time: 4pm
+gap: 30
+160
+100
+
+time: 9pm
+gap: 25
+344
+384
+
+
+

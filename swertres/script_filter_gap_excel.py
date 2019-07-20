@@ -64,18 +64,29 @@ def get_gap_results(num, step):
         return None
 
 
-def remove_existing_files():
+def move_existing_files():
     """
     INPUT:
         excel_files - a list of excel_files in pathlib format (ex.
         [PosixPath('pathlib.py'), PosixPath('setup.py'))
     """
 
-    excel_files = Path(".").glob("results_filter_gap_excel_*.xlsx")
+    prev_dir = Path("prev_excel")
+    prev_dir.mkdir(parents=True, exist_ok=True)
 
-    for excel_file in excel_files:
-        print(f"removing {excel_file}")
-        excel_file.unlink()
+    prev_files = prev_dir.glob("results_filter_gap_excel_*.xlsx")
+
+    for prev_file in prev_files:
+        print(f"removing {prev_file}")
+
+        prev_file.unlink()
+
+    curr_files = Path(".").glob("results_filter_gap_excel_*.xlsx")
+
+    for curr_file in curr_files:
+        print(f"moving {curr_file}")
+
+        curr_file.replace(prev_dir / curr_file)
 
 
 def filter_gap_excel():
@@ -89,7 +100,7 @@ def filter_gap_excel():
         marked digit with gap
     """
 
-    remove_existing_files()
+    move_existing_files()
 
     for num in range(0, 10):
 
@@ -106,7 +117,10 @@ def filter_gap_excel():
                     gap_res = v[1][-100:]
 
                     # Print results found
-                    print(f"{gap_num}, {gap_step}, {str(gap_res):.10}...")
+                    print(
+                        f"generating {gap_num}, {gap_step},"
+                        f"{str(gap_res):.10}..."
+                    )
 
                     # Excel styling options
                     digit_align = Alignment(
@@ -140,11 +154,7 @@ def filter_gap_excel():
                                 col_count
                             ).value = int(digit)
 
-                            if (
-                                match and
-                                gap_num == digit
-                                # digit not in found_digits
-                            ):
+                            if (match and gap_num == digit):
                                 # found_digits.append(digit)
                                 sheet.cell(
                                     row_count,

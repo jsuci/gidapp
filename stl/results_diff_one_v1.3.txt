@@ -1,4 +1,4 @@
-updated: 20 sat jul 2019 1
+updated: 20 sat jul 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -222,6 +222,30 @@ results:
 70-9
 79-2
 78-2
+
+
+
+date: 20 sat jul 2019 2
+gap: 19
+pairs: ['24', '28']
+results:
+25-9
+26-2
+27-9
+
+gap: 23
+pairs: ['78', '72']
+results:
+71-8
+70-9
+79-0
+
+gap: 33
+pairs: ['04', '08']
+results:
+06-5
+05-7
+07-7
 
 
 

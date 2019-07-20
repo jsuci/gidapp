@@ -160,3 +160,14 @@ gap: 46
 date: 20 sat jul 2019 1
 
 
+date: 20 sat jul 2019 2
+gap: 5
+454
+494
+
+gap: 40
+420
+460
+
+
+

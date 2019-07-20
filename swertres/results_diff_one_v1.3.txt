@@ -1,4 +1,4 @@
-updated: 20 sat jul 2019 1
+updated: 20 sat jul 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -233,5 +233,22 @@ results:
 
 
 date: 20 sat jul 2019 1
+
+
+date: 20 sat jul 2019 2
+gap: 5
+pairs: ['45', '49']
+results:
+47-2
+46-5
+48-3
+
+gap: 40
+pairs: ['42', '46']
+results:
+44-0
+43-7
+45-7
+
 
 
