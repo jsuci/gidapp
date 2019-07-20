@@ -1,4 +1,4 @@
-updated: 18 thu jul 2019
+updated: 19 fri jul 2019
 
 date: 16 thu nov 2017
 
@@ -19751,6 +19751,33 @@ results:
 39-9
 37-1
 38-0
+
+
+
+date: 19 fri jul 2019
+time: 11am
+gap: 46
+pairs: ['53', '57']
+results:
+56-0
+54-2
+55-3
+
+time: 4pm
+gap: 8
+pairs: ['44', '48']
+results:
+45-8
+46-7
+47-8
+
+time: 4pm
+gap: 38
+pairs: ['13', '17']
+results:
+15-2
+16-1
+14-2
 
 
 

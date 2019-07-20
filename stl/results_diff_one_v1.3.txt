@@ -1,4 +1,4 @@
-updated: 19 fri jul 2019 1
+updated: 20 sat jul 2019 1
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -199,6 +199,29 @@ results:
 97-0
 98-1
 96-1
+
+
+
+date: 19 fri jul 2019 2
+
+
+date: 20 sat jul 2019 0
+gap: 26
+pairs: ['44', '48']
+results:
+45-8
+46-7
+47-8
+
+
+
+date: 20 sat jul 2019 1
+gap: 46
+pairs: ['77', '71']
+results:
+70-9
+79-2
+78-2
 
 
 

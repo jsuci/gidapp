@@ -1,4 +1,4 @@
-updated: 19 fri jul 2019 1
+updated: 20 sat jul 2019 1
 
 date: 01 wed may 2019 1
 
@@ -754,5 +754,28 @@ results:
 98-6
 97-6
 
+
+
+date: 19 fri jul 2019 2
+gap: 49
+pairs: ['52', '56']
+results:
+53-2
+54-2
+55-2
+
+
+
+date: 20 sat jul 2019 0
+gap: 46
+pairs: ['36', '30']
+results:
+39-1
+38-1
+37-1
+
+
+
+date: 20 sat jul 2019 1
 
 

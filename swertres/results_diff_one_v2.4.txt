@@ -1,4 +1,4 @@
-updated: 18 thu jul 2019
+updated: 19 fri jul 2019
 
 date: 03 thu jan 2013
 
@@ -9161,5 +9161,16 @@ date: 17 wed jul 2019
 
 
 date: 18 thu jul 2019
+
+
+date: 19 fri jul 2019
+time: 11am
+gap: 99
+pairs: ['60', '64']
+results:
+63-2
+61-2
+62-2
+
 
 

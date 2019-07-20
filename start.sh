@@ -8,6 +8,7 @@ echo "Fetching Results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
 python script_filter_excel.py
+python script_filter_gap_excel.py
 echo
 echo
 echo "SEQ_TYPES Pattern"
@@ -27,6 +28,7 @@ echo "Fetching Results:"
 python stl_results_v1.py
 python stl_results_v2.py
 python script_filter_excel.py
+python script_filter_gap_excel.py
 echo
 echo
 echo "SEQ_TYPES Pattern"

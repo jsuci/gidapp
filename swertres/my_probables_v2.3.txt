@@ -55717,3 +55717,31 @@ gap: 8
 
 
 
+date: 19 fri jul 2019
+time: 11am
+gap: 5
+562
+502
+
+time: 11am
+gap: 17
+138
+178
+
+time: 11am
+gap: 26
+404
+444
+
+time: 4pm
+gap: 29
+478
+418
+
+time: 4pm
+gap: 31
+489
+429
+
+
+
