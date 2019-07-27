@@ -13422,3 +13422,101 @@ gap: 25
 
 
 
+date: 21 sun jul 2019
+time: 9pm
+gap: 7
+634
+674
+
+time: 9pm
+gap: 40
+260
+200
+
+time: 9pm
+gap: 45
+927
+967
+
+
+
+date: 22 mon jul 2019
+time: 11am
+gap: 11
+790
+730
+
+time: 9pm
+gap: 6
+044
+084
+
+time: 9pm
+gap: 40
+842
+882
+
+
+
+date: 23 tue jul 2019
+time: 4pm
+gap: 28
+060
+000
+
+time: 9pm
+gap: 3
+690
+630
+
+
+
+date: 24 wed jul 2019
+time: 4pm
+gap: 39
+146
+186
+
+time: 9pm
+gap: 21
+396
+336
+
+
+
+date: 25 thu jul 2019
+
+
+date: 26 fri jul 2019
+time: 11am
+gap: 12
+916
+956
+
+time: 11am
+gap: 44
+656
+696
+
+time: 4pm
+gap: 2
+500
+540
+
+time: 4pm
+gap: 49
+729
+769
+
+time: 9pm
+gap: 4
+000
+040
+
+time: 9pm
+gap: 13
+042
+082
+
+
+

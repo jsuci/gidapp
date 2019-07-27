@@ -55773,3 +55773,215 @@ gap: 3
 
 
 
+date: 21 sun jul 2019
+time: 11am
+gap: 9
+845
+885
+
+time: 11am
+gap: 15
+859
+899
+
+time: 11am
+gap: 30
+023
+027
+063
+067
+
+time: 11am
+gap: 37
+507
+547
+
+time: 4pm
+gap: 27
+047
+087
+
+time: 9pm
+gap: 6
+000
+040
+
+time: 9pm
+gap: 12
+046
+086
+
+time: 9pm
+gap: 13
+061
+001
+
+
+
+date: 22 mon jul 2019
+time: 11am
+gap: 1
+453
+493
+
+time: 11am
+gap: 7
+409
+449
+
+time: 11am
+gap: 10
+865
+805
+
+time: 11am
+gap: 37
+733
+773
+
+time: 11am
+gap: 47
+508
+548
+
+time: 4pm
+gap: 17
+282
+222
+
+time: 4pm
+gap: 32
+477
+417
+
+time: 9pm
+gap: 6
+643
+683
+
+
+
+date: 23 tue jul 2019
+time: 11am
+gap: 23
+736
+776
+
+time: 11am
+gap: 49
+870
+810
+
+time: 4pm
+gap: 32
+184
+124
+
+time: 9pm
+gap: 13
+149
+189
+
+time: 9pm
+gap: 20
+150
+190
+
+
+
+date: 24 wed jul 2019
+time: 11am
+gap: 1
+419
+459
+
+time: 11am
+gap: 11
+882
+822
+
+time: 4pm
+gap: 37
+186
+126
+
+time: 4pm
+gap: 44
+640
+644
+680
+684
+
+time: 9pm
+gap: 22
+631
+671
+
+time: 9pm
+gap: 43
+042
+082
+
+
+
+date: 25 thu jul 2019
+time: 11am
+gap: 9
+068
+008
+
+time: 11am
+gap: 15
+167
+107
+
+time: 11am
+gap: 21
+421
+461
+
+time: 11am
+gap: 47
+852
+892
+
+time: 4pm
+gap: 1
+788
+728
+
+time: 4pm
+gap: 8
+453
+493
+
+time: 4pm
+gap: 27
+669
+609
+
+time: 4pm
+gap: 34
+183
+123
+
+
+
+date: 26 fri jul 2019
+time: 11am
+gap: 1
+410
+450
+
+time: 11am
+gap: 11
+375
+315
+
+time: 9pm
+gap: 23
+451
+491
+
+
+

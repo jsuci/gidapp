@@ -3999,3 +3999,31 @@ date: 19 fri jul 2019
 date: 20 sat jul 2019
 
 
+date: 21 sun jul 2019
+
+
+date: 22 mon jul 2019
+
+
+date: 23 tue jul 2019
+time: 11am
+gap: 84
+116
+156
+
+time: 4pm
+gap: 66
+297
+237
+
+
+
+date: 24 wed jul 2019
+
+
+date: 25 thu jul 2019
+
+
+date: 26 fri jul 2019
+
+

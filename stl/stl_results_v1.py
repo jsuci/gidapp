@@ -1,10 +1,11 @@
-import requests
 import fileinput
-from datetime import datetime
 from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
+from datetime import datetime
 from random import choice
+from requests import get
+from secrets import token_urlsafe
 
 
 def rand_ua():
@@ -28,29 +29,33 @@ def rand_ua():
     return output
 
 
-def fetch_html(mo, yr):
+def fetch_html(month, year, date):
+    """
+    INPUT:
+        month - a 3 character string representation of month (ex. "jul", "mar")
+        year - a string year (ex. "2019", "2017")
+        date - an int date (ex. "12")
+
+    OUTPUT:
+        (r.text, r.status_code) - a tuple of html source (ex. "<html>...")
+        and status code (ex. 200)
+    """
+
     headers = {
+        "accept": "text/html",
+        "accept-language": "en-US,en;q=0.9",
         "user-agent": rand_ua(),
-        "referer": "https://www.google.com/",
-        "upgrade-insecure-requests": "1"
+        "referer": "https://www.google.com"
     }
 
     year_month_url = (
         f"https://www.gidapp.com/lottery/philippines/"
-        f"stl/swer3/month/{yr}-{mo}"
+        f"stl/swer3/month/{year}-{month}/{token_urlsafe(5)}"
     )
 
-    r = requests.get(year_month_url, headers=headers)
+    r = get(year_month_url, headers=headers)
 
-    return (r.content, r.status_code)
-
-
-def convert_month(data):
-    return {
-        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5,
-        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,
-        "nov": 11, "dec": 12
-    }[data]
+    return (r.text, r.status_code)
 
 
 def export_results(output, index, file_date, file_time):
@@ -62,16 +67,19 @@ def export_results(output, index, file_date, file_time):
 
     with open("results_v1.txt", "a") as fi:
         for date_results_time in islice(output, index, None):
-            date, results, time = date_results_time
+            web_date, results, time = date_results_time
 
             """Check if entries in file are identical to the ones
             on the web. If they are then skip and process the next
             entry.
             """
-            if date == file_date and time == file_time:
+
+            strf_web_date = web_date.strftime("%d %a %b %Y").lower()
+
+            if web_date == file_date and time == file_time:
                 continue
             else:
-                if date == file_date:
+                if web_date == file_date:
                     digit_index = file_time + 1
 
                     for digits in islice(results, digit_index, None):
@@ -82,7 +90,7 @@ def export_results(output, index, file_date, file_time):
                         fi.write("{}\n".format(digits))
                         print(digits)
 
-    return (date, time)
+    return (strf_web_date, time)
 
 
 def update_file_date_time(new_date, new_time):
@@ -108,20 +116,19 @@ def get_results(file_month, file_date, file_year):
     index = 0
     end_date = ""
 
-    content, status_code = fetch_html(file_month, file_year)
+    content, status_code = fetch_html(file_month, file_year, file_date)
     soup = BS(content, "html.parser")
     entries = soup.find_all("div", class_="result")
 
     for i, e in enumerate(entries):
-        # Sunday, February 10, 2019 format
-        web_date_list = datetime.strptime(
+        # <time datetime="2019-07-03">
+        web_date = datetime.strptime(
             e.h5.time.get("datetime"), "%Y-%m-%d")
-
-        # date, day, month, year
-        web_date = web_date_list.strftime("%d %a %b %Y").lower()
 
         web_results = [y.get_text() for y in e.select(
             "tbody > tr > td > span") if y.get_text() != "-"]
+
+        # A tuple of (datetime object, list, int)
         web_date_results_time = (web_date, web_results, len(
             web_results) - 1)
 
@@ -138,9 +145,10 @@ def get_results(file_month, file_date, file_year):
 def main():
     with open("results_v1.txt", "r") as fi:
         file_date_list = fi.readline().strip().split()
-        file_date = " ".join(file_date_list[1:5])
-        file_month = convert_month(file_date_list[3])
-        file_year = int(file_date_list[4])
+        file_date = datetime.strptime(
+            " ".join(file_date_list[1:5]), "%d %a %b %Y")
+        file_month = file_date.month
+        file_year = file_date.year
         file_time = int(file_date_list[5])
 
     while True:

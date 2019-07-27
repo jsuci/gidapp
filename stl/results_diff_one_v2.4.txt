@@ -1,4 +1,4 @@
-updated: 20 sat jul 2019
+updated: 26 fri jul 2019
 
 date: 16 thu nov 2017
 
@@ -4285,5 +4285,39 @@ date: 19 fri jul 2019
 
 
 date: 20 sat jul 2019
+
+
+date: 21 sun jul 2019
+
+
+date: 22 mon jul 2019
+
+
+date: 23 tue jul 2019
+time: 11am
+gap: 84
+pairs: ['11', '15']
+results:
+12-6
+13-6
+14-6
+
+time: 4pm
+gap: 66
+pairs: ['29', '23']
+results:
+22-7
+20-7
+21-7
+
+
+
+date: 24 wed jul 2019
+
+
+date: 25 thu jul 2019
+
+
+date: 26 fri jul 2019
 
 

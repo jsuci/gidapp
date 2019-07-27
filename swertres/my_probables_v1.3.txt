@@ -171,3 +171,187 @@ gap: 40
 
 
 
+date: 21 sun jul 2019 0
+gap: 20
+438
+478
+
+
+
+date: 21 sun jul 2019 1
+gap: 11
+696
+636
+
+
+
+date: 21 sun jul 2019 2
+gap: 29
+845
+885
+
+gap: 47
+859
+899
+
+
+
+date: 22 mon jul 2019 0
+
+
+date: 22 mon jul 2019 1
+gap: 20
+000
+040
+
+gap: 22
+410
+450
+
+gap: 38
+046
+086
+
+gap: 41
+061
+001
+
+
+
+date: 22 mon jul 2019 2
+gap: 5
+453
+493
+
+gap: 23
+409
+449
+
+gap: 30
+669
+609
+
+gap: 32
+865
+805
+
+gap: 36
+938
+978
+
+
+
+date: 23 tue jul 2019 0
+gap: 33
+844
+884
+
+
+
+date: 23 tue jul 2019 1
+gap: 20
+643
+683
+
+
+
+date: 23 tue jul 2019 2
+gap: 2
+419
+459
+
+gap: 10
+056
+096
+
+gap: 22
+179
+119
+
+
+
+date: 24 wed jul 2019 0
+gap: 43
+686
+626
+
+
+
+date: 24 wed jul 2019 1
+gap: 41
+149
+189
+
+
+
+date: 24 wed jul 2019 2
+gap: 5
+419
+459
+
+gap: 35
+882
+822
+
+gap: 40
+545
+585
+
+
+
+date: 25 thu jul 2019 0
+
+
+date: 25 thu jul 2019 1
+
+
+date: 25 thu jul 2019 2
+gap: 29
+068
+008
+
+gap: 47
+167
+107
+
+
+
+date: 26 fri jul 2019 0
+gap: 5
+788
+728
+
+gap: 26
+453
+493
+
+
+
+date: 26 fri jul 2019 1
+gap: 49
+147
+141
+187
+181
+
+
+
+date: 26 fri jul 2019 2
+gap: 5
+410
+450
+
+gap: 35
+375
+315
+
+gap: 42
+149
+189
+
+gap: 45
+038
+078
+
+
+
