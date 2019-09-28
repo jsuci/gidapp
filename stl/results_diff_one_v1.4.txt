@@ -1,4 +1,4 @@
-updated: 26 fri jul 2019 2
+updated: 28 sat sep 2019 2
 
 date: 01 wed may 2019 1
 
@@ -855,5 +855,264 @@ date: 26 fri jul 2019 1
 
 
 date: 26 fri jul 2019 2
+
+
+date: 01 sun sep 2019 0
+
+
+date: 01 sun sep 2019 1
+
+
+date: 01 sun sep 2019 2
+
+
+date: 02 mon sep 2019 0
+
+
+date: 02 mon sep 2019 1
+
+
+date: 02 mon sep 2019 2
+
+
+date: 03 tue sep 2019 0
+
+
+date: 03 tue sep 2019 1
+
+
+date: 03 tue sep 2019 2
+
+
+date: 04 wed sep 2019 0
+
+
+date: 04 wed sep 2019 1
+
+
+date: 04 wed sep 2019 2
+
+
+date: 05 thu sep 2019 0
+
+
+date: 05 thu sep 2019 1
+
+
+date: 05 thu sep 2019 2
+
+
+date: 06 fri sep 2019 0
+
+
+date: 06 fri sep 2019 1
+
+
+date: 06 fri sep 2019 2
+
+
+date: 07 sat sep 2019 0
+
+
+date: 07 sat sep 2019 1
+gap: 62
+pairs: ['27', '21']
+results:
+20-6
+29-6
+28-6
+
+
+
+date: 07 sat sep 2019 2
+
+
+date: 08 sun sep 2019 0
+
+
+date: 08 sun sep 2019 1
+
+
+date: 08 sun sep 2019 2
+
+
+date: 09 mon sep 2019 0
+
+
+date: 09 mon sep 2019 1
+
+
+date: 09 mon sep 2019 2
+
+
+date: 10 tue sep 2019 0
+
+
+date: 10 tue sep 2019 1
+
+
+date: 10 tue sep 2019 2
+
+
+date: 11 wed sep 2019 0
+
+
+date: 11 wed sep 2019 1
+
+
+date: 11 wed sep 2019 2
+
+
+date: 12 thu sep 2019 0
+
+
+date: 12 thu sep 2019 1
+
+
+date: 12 thu sep 2019 2
+
+
+date: 13 fri sep 2019 0
+
+
+date: 13 fri sep 2019 1
+
+
+date: 13 fri sep 2019 2
+
+
+date: 14 sat sep 2019 0
+
+
+date: 14 sat sep 2019 1
+
+
+date: 14 sat sep 2019 2
+
+
+date: 15 sun sep 2019 0
+
+
+date: 15 sun sep 2019 1
+
+
+date: 15 sun sep 2019 2
+
+
+date: 16 mon sep 2019 0
+
+
+date: 16 mon sep 2019 1
+
+
+date: 16 mon sep 2019 2
+
+
+date: 17 tue sep 2019 0
+
+
+date: 17 tue sep 2019 1
+
+
+date: 17 tue sep 2019 2
+
+
+date: 18 wed sep 2019 0
+
+
+date: 18 wed sep 2019 1
+
+
+date: 18 wed sep 2019 2
+
+
+date: 19 thu sep 2019 0
+
+
+date: 19 thu sep 2019 1
+
+
+date: 19 thu sep 2019 2
+
+
+date: 20 fri sep 2019 0
+
+
+date: 20 fri sep 2019 1
+
+
+date: 20 fri sep 2019 2
+
+
+date: 21 sat sep 2019 0
+
+
+date: 21 sat sep 2019 1
+
+
+date: 21 sat sep 2019 2
+
+
+date: 22 sun sep 2019 0
+
+
+date: 22 sun sep 2019 1
+
+
+date: 22 sun sep 2019 2
+
+
+date: 23 mon sep 2019 0
+
+
+date: 23 mon sep 2019 1
+
+
+date: 23 mon sep 2019 2
+
+
+date: 24 tue sep 2019 0
+
+
+date: 24 tue sep 2019 1
+
+
+date: 24 tue sep 2019 2
+
+
+date: 25 wed sep 2019 0
+
+
+date: 25 wed sep 2019 1
+
+
+date: 25 wed sep 2019 2
+
+
+date: 26 thu sep 2019 0
+
+
+date: 26 thu sep 2019 1
+
+
+date: 26 thu sep 2019 2
+
+
+date: 27 fri sep 2019 0
+
+
+date: 27 fri sep 2019 1
+
+
+date: 27 fri sep 2019 2
+
+
+date: 28 sat sep 2019 0
+
+
+date: 28 sat sep 2019 1
+
+
+date: 28 sat sep 2019 2
 
 

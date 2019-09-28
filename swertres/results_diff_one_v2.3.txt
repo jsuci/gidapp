@@ -1,4 +1,4 @@
-updated: 26 fri jul 2019
+updated: 28 sat sep 2019
 
 date: 03 thu jan 2013
 
@@ -82945,6 +82945,2518 @@ results:
 47-1
 46-3
 48-3
+
+
+
+date: 27 sat jul 2019
+time: 11am
+gap: 12
+pairs: ['82', '86']
+results:
+84-3
+85-1
+83-1
+
+time: 11am
+gap: 19
+pairs: ['94', '98']
+results:
+95-2
+97-2
+96-3
+
+time: 11am
+gap: 23
+pairs: ['43', '47']
+results:
+44-2
+45-7
+46-7
+
+time: 11am
+gap: 36
+pairs: ['02', '06']
+results:
+05-3
+03-1
+04-1
+
+time: 4pm
+gap: 39
+pairs: ['91', '95']
+results:
+94-6
+92-3
+93-3
+
+time: 4pm
+gap: 45
+pairs: ['26', '20']
+results:
+29-7
+28-8
+27-6
+
+time: 9pm
+gap: 44
+pairs: ['00', '04']
+results:
+01-5
+03-8
+02-7
+
+time: 9pm
+gap: 45
+pairs: ['04', '08']
+results:
+06-1
+05-8
+07-8
+
+
+
+date: 28 sun jul 2019
+time: 11am
+gap: 23
+pairs: ['08', '02']
+results:
+01-5
+09-4
+00-4
+
+time: 4pm
+gap: 1
+pairs: ['89', '83']
+results:
+80-2
+81-4
+82-5
+
+time: 4pm
+gap: 10
+pairs: ['03', '07']
+results:
+05-7
+04-4
+06-7
+
+time: 9pm
+gap: 18
+pairs: ['94', '98']
+results:
+95-1
+96-1
+97-1
+
+
+
+date: 29 mon jul 2019
+time: 11am
+gap: 48
+pairs: ['03', '07']
+results:
+04-9
+06-0
+05-7
+
+time: 9pm
+gap: 8
+pairs: ['73', '77']
+results:
+75-5
+76-1
+74-1
+
+time: 9pm
+gap: 27
+pairs: ['54', '58']
+results:
+56-3
+55-1
+57-0
+
+time: 9pm
+gap: 42
+pairs: ['82', '86']
+results:
+83-3
+84-1
+85-3
+
+
+
+date: 30 tue jul 2019
+time: 11am
+gap: 22
+pairs: ['56', '50']
+results:
+59-2
+57-4
+58-4
+
+time: 9pm
+gap: 8
+pairs: ['12', '16']
+results:
+14-8
+15-6
+13-9
+
+
+
+date: 31 wed jul 2019
+time: 11am
+gap: 24
+pairs: ['47', '41']
+results:
+48-2
+49-3
+40-0
+
+time: 4pm
+gap: 38
+pairs: ['55', '59']
+results:
+58-1
+56-1
+57-0
+
+time: 9pm
+gap: 33
+pairs: ['56', '50']
+results:
+58-1
+59-3
+57-1
+
+
+
+date: 01 thu aug 2019
+time: 11am
+gap: 9
+pairs: ['47', '41']
+results:
+40-3
+48-0
+49-3
+
+time: 11am
+gap: 28
+pairs: ['23', '27']
+results:
+24-4
+25-5
+26-5
+
+time: 11am
+gap: 30
+pairs: ['50', '54']
+results:
+51-8
+52-1
+53-8
+
+time: 4pm
+gap: 42
+pairs: ['48', '42']
+results:
+49-8
+40-7
+41-5
+
+time: 4pm
+gap: 48
+pairs: ['51', '55']
+results:
+52-1
+53-6
+54-6
+
+
+
+date: 02 fri aug 2019
+time: 4pm
+gap: 31
+pairs: ['67', '61']
+results:
+69-9
+68-9
+60-3
+
+time: 9pm
+gap: 14
+pairs: ['90', '94']
+results:
+92-7
+93-1
+91-1
+
+time: 9pm
+gap: 38
+pairs: ['68', '62']
+results:
+69-5
+61-6
+60-5
+
+
+
+date: 03 sat aug 2019
+time: 11am
+gap: 13
+pairs: ['41', '45']
+results:
+44-8
+42-8
+43-6
+
+
+
+date: 04 sun aug 2019
+time: 11am
+gap: 5
+pairs: ['16', '10']
+results:
+19-2
+17-2
+18-1
+
+time: 11am
+gap: 7
+pairs: ['73', '77']
+results:
+74-8
+76-0
+75-8
+
+time: 11am
+gap: 36
+pairs: ['46', '40']
+results:
+49-1
+48-5
+47-1
+
+time: 9pm
+gap: 32
+pairs: ['49', '43']
+results:
+41-7
+42-6
+40-6
+
+time: 9pm
+gap: 39
+pairs: ['15', '19']
+results:
+17-0
+16-6
+18-0
+
+
+
+date: 05 mon aug 2019
+time: 11am
+gap: 2
+pairs: ['81', '85']
+results:
+82-6
+83-9
+84-7
+
+time: 11am
+gap: 4
+pairs: ['41', '45']
+results:
+43-2
+44-4
+42-1
+
+time: 11am
+gap: 11
+pairs: ['89', '83']
+results:
+82-4
+80-4
+81-9
+
+time: 11am
+gap: 32
+pairs: ['23', '27']
+results:
+24-4
+25-1
+26-1
+
+time: 11am
+gap: 39
+pairs: ['09', '03']
+results:
+02-5
+00-4
+01-4
+
+time: 4pm
+gap: 43
+pairs: ['17', '11']
+results:
+18-5
+19-6
+10-6
+
+time: 4pm
+gap: 47
+pairs: ['61', '65']
+results:
+62-8
+64-0
+63-8
+
+time: 9pm
+gap: 32
+pairs: ['38', '32']
+results:
+31-9
+39-6
+30-8
+
+time: 9pm
+gap: 43
+pairs: ['32', '36']
+results:
+34-7
+35-3
+33-7
+
+time: 9pm
+gap: 48
+pairs: ['77', '71']
+results:
+78-5
+79-5
+70-8
+
+
+
+date: 06 tue aug 2019
+time: 11am
+gap: 11
+pairs: ['14', '18']
+results:
+16-5
+17-5
+15-8
+
+time: 11am
+gap: 13
+pairs: ['79', '73']
+results:
+72-1
+71-9
+70-8
+
+time: 11am
+gap: 31
+pairs: ['85', '89']
+results:
+87-0
+86-8
+88-7
+
+time: 11am
+gap: 39
+pairs: ['38', '32']
+results:
+39-8
+30-1
+31-8
+
+time: 11am
+gap: 48
+pairs: ['80', '84']
+results:
+81-3
+83-5
+82-6
+
+time: 9pm
+gap: 10
+pairs: ['77', '71']
+results:
+79-0
+70-6
+78-6
+
+
+
+date: 07 wed aug 2019
+time: 11am
+gap: 7
+pairs: ['37', '31']
+results:
+39-8
+30-4
+38-4
+
+time: 11am
+gap: 17
+pairs: ['46', '40']
+results:
+48-4
+49-3
+47-5
+
+time: 4pm
+gap: 14
+pairs: ['78', '72']
+results:
+71-8
+79-0
+70-7
+
+time: 4pm
+gap: 29
+pairs: ['94', '98']
+results:
+97-0
+95-3
+96-1
+
+time: 9pm
+gap: 16
+pairs: ['83', '87']
+results:
+84-1
+86-7
+85-7
+
+time: 9pm
+gap: 40
+pairs: ['17', '11']
+results:
+18-5
+19-8
+10-8
+
+
+
+date: 08 thu aug 2019
+time: 11am
+gap: 2
+pairs: ['81', '85']
+results:
+84-7
+82-6
+83-9
+
+time: 11am
+gap: 36
+pairs: ['48', '42']
+results:
+49-3
+41-5
+40-6
+
+time: 4pm
+gap: 16
+pairs: ['23', '27']
+results:
+25-8
+24-2
+26-8
+
+time: 4pm
+gap: 39
+pairs: ['82', '86']
+results:
+85-4
+84-5
+83-3
+
+
+
+date: 09 fri aug 2019
+time: 11am
+gap: 43
+pairs: ['23', '27']
+results:
+25-0
+24-7
+26-7
+
+time: 4pm
+gap: 10
+pairs: ['45', '49']
+results:
+47-5
+46-1
+48-5
+
+time: 9pm
+gap: 22
+pairs: ['94', '98']
+results:
+96-1
+95-6
+97-1
+
+
+
+date: 10 sat aug 2019
+time: 11am
+gap: 17
+pairs: ['78', '72']
+results:
+71-2
+70-8
+79-2
+
+time: 9pm
+gap: 2
+pairs: ['23', '27']
+results:
+25-0
+24-9
+26-1
+
+
+
+date: 11 sun aug 2019
+time: 11am
+gap: 17
+pairs: ['81', '85']
+results:
+82-4
+84-2
+83-1
+
+time: 11am
+gap: 19
+pairs: ['38', '32']
+results:
+30-4
+39-4
+31-4
+
+time: 11am
+gap: 35
+pairs: ['23', '27']
+results:
+24-8
+25-1
+26-1
+
+time: 11am
+gap: 45
+pairs: ['22', '26']
+results:
+25-0
+23-2
+24-3
+
+time: 4pm
+gap: 37
+pairs: ['11', '15']
+results:
+12-1
+13-9
+14-2
+
+time: 4pm
+gap: 42
+pairs: ['82', '86']
+results:
+85-4
+84-5
+83-3
+
+time: 4pm
+gap: 48
+pairs: ['74', '78']
+results:
+77-0
+75-9
+76-2
+
+time: 9pm
+gap: 37
+pairs: ['77', '71']
+results:
+78-6
+70-6
+79-3
+
+
+
+date: 12 mon aug 2019
+time: 11am
+gap: 2
+pairs: ['79', '73']
+results:
+70-1
+71-1
+72-8
+
+time: 11am
+gap: 46
+pairs: ['24', '28']
+results:
+25-0
+26-0
+27-2
+
+time: 4pm
+gap: 6
+pairs: ['51', '55']
+results:
+53-6
+54-7
+52-8
+
+time: 4pm
+gap: 23
+pairs: ['73', '77']
+results:
+75-0
+76-0
+74-2
+
+time: 9pm
+gap: 33
+pairs: ['13', '17']
+results:
+15-9
+16-0
+14-2
+
+
+
+date: 13 tue aug 2019
+time: 11am
+gap: 44
+pairs: ['64', '68']
+results:
+65-7
+67-0
+66-0
+
+time: 4pm
+gap: 2
+pairs: ['48', '42']
+results:
+40-1
+41-7
+49-1
+
+time: 4pm
+gap: 12
+pairs: ['49', '43']
+results:
+40-6
+41-6
+42-2
+
+time: 4pm
+gap: 25
+pairs: ['12', '16']
+results:
+14-6
+15-8
+13-9
+
+time: 4pm
+gap: 46
+pairs: ['13', '17']
+results:
+16-9
+14-9
+15-4
+
+time: 9pm
+gap: 8
+pairs: ['99', '93']
+results:
+92-4
+90-7
+91-6
+
+time: 9pm
+gap: 12
+pairs: ['79', '73']
+results:
+70-1
+72-9
+71-2
+
+
+
+date: 14 wed aug 2019
+time: 11am
+gap: 6
+pairs: ['40', '44']
+results:
+41-8
+43-2
+42-8
+
+time: 4pm
+gap: 6
+pairs: ['45', '49']
+results:
+47-1
+46-0
+48-1
+
+time: 4pm
+gap: 20
+pairs: ['16', '10']
+results:
+18-4
+17-8
+19-4
+
+time: 9pm
+gap: 11
+pairs: ['16', '10']
+results:
+17-5
+18-4
+19-5
+
+
+
+date: 15 thu aug 2019
+time: 11am
+gap: 2
+pairs: ['78', '72']
+results:
+79-0
+70-1
+71-1
+
+time: 11am
+gap: 35
+pairs: ['22', '26']
+results:
+24-5
+25-5
+23-4
+
+time: 4pm
+gap: 1
+pairs: ['86', '80']
+results:
+88-1
+87-0
+89-2
+
+time: 9pm
+gap: 21
+pairs: ['44', '48']
+results:
+46-8
+47-1
+45-0
+
+time: 9pm
+gap: 28
+pairs: ['18', '12']
+results:
+19-6
+11-9
+10-7
+
+
+
+date: 16 fri aug 2019
+time: 11am
+gap: 49
+pairs: ['91', '95']
+results:
+93-8
+94-6
+92-5
+
+time: 4pm
+gap: 6
+pairs: ['26', '20']
+results:
+29-8
+27-0
+28-0
+
+time: 4pm
+gap: 11
+pairs: ['16', '10']
+results:
+19-4
+17-8
+18-8
+
+time: 4pm
+gap: 38
+pairs: ['95', '99']
+results:
+97-0
+96-8
+98-7
+
+time: 4pm
+gap: 40
+pairs: ['02', '06']
+results:
+04-4
+05-3
+03-1
+
+time: 9pm
+gap: 18
+pairs: ['93', '97']
+results:
+94-9
+95-1
+96-1
+
+time: 9pm
+gap: 20
+pairs: ['78', '72']
+results:
+79-0
+71-2
+70-1
+
+time: 9pm
+gap: 33
+pairs: ['06', '00']
+results:
+09-3
+08-2
+07-5
+
+
+
+date: 17 sat aug 2019
+time: 11am
+gap: 20
+pairs: ['46', '40']
+results:
+47-8
+48-2
+49-8
+
+time: 9pm
+gap: 4
+pairs: ['50', '54']
+results:
+53-7
+52-0
+51-7
+
+time: 9pm
+gap: 10
+pairs: ['77', '71']
+results:
+78-6
+79-0
+70-6
+
+time: 9pm
+gap: 38
+pairs: ['90', '94']
+results:
+91-5
+93-6
+92-6
+
+
+
+date: 18 sun aug 2019
+time: 11am
+gap: 23
+pairs: ['14', '18']
+results:
+16-5
+15-8
+17-8
+
+time: 4pm
+gap: 36
+pairs: ['26', '20']
+results:
+28-2
+27-4
+29-4
+
+time: 9pm
+gap: 19
+pairs: ['17', '11']
+results:
+18-7
+19-5
+10-4
+
+
+
+date: 19 mon aug 2019
+time: 11am
+gap: 2
+pairs: ['02', '06']
+results:
+03-1
+04-5
+05-1
+
+time: 4pm
+gap: 35
+pairs: ['92', '96']
+results:
+93-3
+95-3
+94-0
+
+time: 4pm
+gap: 38
+pairs: ['15', '19']
+results:
+18-8
+17-3
+16-3
+
+time: 9pm
+gap: 16
+pairs: ['50', '54']
+results:
+51-7
+52-6
+53-8
+
+time: 9pm
+gap: 34
+pairs: ['04', '08']
+results:
+06-7
+05-4
+07-5
+
+time: 9pm
+gap: 37
+pairs: ['69', '63']
+results:
+61-5
+62-2
+60-4
+
+time: 9pm
+gap: 49
+pairs: ['37', '31']
+results:
+30-1
+39-1
+38-5
+
+
+
+date: 20 tue aug 2019
+time: 4pm
+gap: 46
+pairs: ['10', '14']
+results:
+12-1
+13-9
+11-2
+
+
+
+date: 21 wed aug 2019
+time: 11am
+gap: 36
+pairs: ['77', '71']
+results:
+79-0
+70-0
+78-8
+
+
+
+date: 22 thu aug 2019
+time: 11am
+gap: 45
+pairs: ['57', '51']
+results:
+59-2
+58-4
+50-1
+
+time: 4pm
+gap: 37
+pairs: ['19', '13']
+results:
+10-0
+12-6
+11-0
+
+time: 4pm
+gap: 39
+pairs: ['62', '66']
+results:
+64-0
+65-8
+63-1
+
+time: 9pm
+gap: 37
+pairs: ['04', '08']
+results:
+07-6
+05-5
+06-5
+
+time: 9pm
+gap: 48
+pairs: ['65', '69']
+results:
+68-7
+66-1
+67-1
+
+
+
+date: 23 fri aug 2019
+time: 11am
+gap: 15
+pairs: ['40', '44']
+results:
+41-8
+43-0
+42-8
+
+time: 11am
+gap: 20
+pairs: ['89', '83']
+results:
+82-6
+80-4
+81-6
+
+
+
+date: 24 sat aug 2019
+time: 11am
+gap: 27
+pairs: ['72', '76']
+results:
+74-8
+75-6
+73-8
+
+time: 11am
+gap: 35
+pairs: ['68', '62']
+results:
+60-7
+61-5
+69-4
+
+time: 11am
+gap: 47
+pairs: ['59', '53']
+results:
+52-9
+50-4
+51-9
+
+time: 4pm
+gap: 8
+pairs: ['56', '50']
+results:
+59-0
+58-9
+57-0
+
+time: 4pm
+gap: 41
+pairs: ['44', '48']
+results:
+46-0
+47-2
+45-0
+
+time: 9pm
+gap: 21
+pairs: ['13', '17']
+results:
+15-7
+16-7
+14-0
+
+time: 9pm
+gap: 33
+pairs: ['82', '86']
+results:
+84-1
+85-7
+83-7
+
+time: 9pm
+gap: 38
+pairs: ['54', '58']
+results:
+56-2
+55-0
+57-9
+
+
+
+date: 25 sun aug 2019
+time: 11am
+gap: 8
+pairs: ['11', '15']
+results:
+13-0
+14-8
+12-9
+
+time: 4pm
+gap: 33
+pairs: ['23', '27']
+results:
+25-8
+26-8
+24-5
+
+time: 4pm
+gap: 44
+pairs: ['16', '10']
+results:
+18-8
+19-3
+17-3
+
+time: 9pm
+gap: 20
+pairs: ['26', '20']
+results:
+29-4
+28-0
+27-0
+
+
+
+date: 26 mon aug 2019
+time: 4pm
+gap: 6
+pairs: ['33', '37']
+results:
+34-2
+35-2
+36-5
+
+time: 4pm
+gap: 11
+pairs: ['78', '72']
+results:
+71-3
+70-2
+79-5
+
+time: 9pm
+gap: 20
+pairs: ['67', '61']
+results:
+68-5
+60-7
+69-5
+
+
+
+date: 27 tue aug 2019
+time: 11am
+gap: 19
+pairs: ['46', '40']
+results:
+48-1
+47-2
+49-1
+
+time: 11am
+gap: 21
+pairs: ['45', '49']
+results:
+47-8
+48-3
+46-3
+
+time: 11am
+gap: 25
+pairs: ['49', '43']
+results:
+41-8
+42-8
+40-9
+
+time: 4pm
+gap: 9
+pairs: ['79', '73']
+results:
+72-6
+71-4
+70-5
+
+time: 9pm
+gap: 19
+pairs: ['27', '21']
+results:
+20-5
+29-7
+28-4
+
+time: 9pm
+gap: 28
+pairs: ['17', '11']
+results:
+18-7
+10-3
+19-7
+
+
+
+date: 28 wed aug 2019
+time: 9pm
+gap: 36
+pairs: ['51', '55']
+results:
+54-3
+52-4
+53-3
+
+
+
+date: 29 thu aug 2019
+time: 11am
+gap: 8
+pairs: ['85', '89']
+results:
+87-0
+88-0
+86-2
+
+time: 11am
+gap: 38
+pairs: ['11', '15']
+results:
+14-2
+13-4
+12-5
+
+time: 11am
+gap: 45
+pairs: ['40', '44']
+results:
+43-8
+41-7
+42-5
+
+time: 11am
+gap: 48
+pairs: ['84', '88']
+results:
+85-7
+87-7
+86-8
+
+time: 4pm
+gap: 39
+pairs: ['05', '09']
+results:
+07-3
+08-4
+06-4
+
+time: 9pm
+gap: 11
+pairs: ['63', '67']
+results:
+66-4
+65-8
+64-8
+
+time: 9pm
+gap: 39
+pairs: ['53', '57']
+results:
+55-7
+54-0
+56-7
+
+
+
+date: 30 fri aug 2019
+time: 11am
+gap: 27
+pairs: ['89', '83']
+results:
+82-6
+80-7
+81-7
+
+time: 11am
+gap: 47
+pairs: ['12', '16']
+results:
+15-7
+14-5
+13-8
+
+time: 4pm
+gap: 27
+pairs: ['29', '23']
+results:
+20-7
+22-4
+21-6
+
+time: 9pm
+gap: 33
+pairs: ['70', '74']
+results:
+73-8
+72-0
+71-0
+
+time: 9pm
+gap: 43
+pairs: ['14', '18']
+results:
+16-9
+15-5
+17-5
+
+
+
+date: 31 sat aug 2019
+time: 4pm
+gap: 26
+pairs: ['99', '93']
+results:
+91-4
+90-7
+92-7
+
+
+
+date: 01 sun sep 2019
+time: 11am
+gap: 24
+pairs: ['12', '16']
+results:
+14-8
+15-7
+13-8
+
+time: 11am
+gap: 27
+pairs: ['51', '55']
+results:
+53-6
+52-9
+54-7
+
+time: 11am
+gap: 32
+pairs: ['37', '31']
+results:
+39-8
+38-9
+30-0
+
+time: 11am
+gap: 39
+pairs: ['14', '18']
+results:
+17-2
+16-5
+15-2
+
+time: 11am
+gap: 46
+pairs: ['53', '57']
+results:
+56-4
+55-2
+54-2
+
+time: 4pm
+gap: 34
+pairs: ['74', '78']
+results:
+75-0
+77-0
+76-5
+
+time: 9pm
+gap: 26
+pairs: ['57', '51']
+results:
+58-6
+59-1
+50-1
+
+time: 9pm
+gap: 32
+pairs: ['17', '11']
+results:
+10-3
+18-5
+19-3
+
+time: 9pm
+gap: 39
+pairs: ['89', '83']
+results:
+80-9
+82-4
+81-4
+
+
+
+date: 02 mon sep 2019
+time: 11am
+gap: 2
+pairs: ['00', '04']
+results:
+03-4
+01-4
+02-8
+
+time: 11am
+gap: 4
+pairs: ['11', '15']
+results:
+14-3
+12-2
+13-2
+
+time: 11am
+gap: 31
+pairs: ['16', '10']
+results:
+18-4
+19-8
+17-4
+
+time: 4pm
+gap: 2
+pairs: ['69', '63']
+results:
+62-9
+61-0
+60-8
+
+time: 4pm
+gap: 6
+pairs: ['33', '37']
+results:
+36-9
+34-2
+35-2
+
+time: 4pm
+gap: 34
+pairs: ['55', '59']
+results:
+57-4
+56-3
+58-4
+
+time: 4pm
+gap: 40
+pairs: ['16', '10']
+results:
+18-7
+19-4
+17-6
+
+time: 9pm
+gap: 14
+pairs: ['61', '65']
+results:
+62-1
+63-6
+64-6
+
+time: 9pm
+gap: 20
+pairs: ['34', '38']
+results:
+37-5
+35-4
+36-5
+
+
+
+date: 03 tue sep 2019
+time: 11am
+gap: 8
+pairs: ['12', '16']
+results:
+15-7
+13-0
+14-8
+
+time: 11am
+gap: 13
+pairs: ['79', '73']
+results:
+70-8
+71-1
+72-1
+
+
+
+date: 04 wed sep 2019
+time: 11am
+gap: 39
+pairs: ['43', '47']
+results:
+44-4
+46-6
+45-7
+
+time: 4pm
+gap: 17
+pairs: ['25', '29']
+results:
+27-6
+26-6
+28-2
+
+time: 4pm
+gap: 35
+pairs: ['64', '68']
+results:
+66-2
+65-3
+67-5
+
+time: 9pm
+gap: 8
+pairs: ['63', '67']
+results:
+65-4
+66-4
+64-8
+
+time: 9pm
+gap: 27
+pairs: ['59', '53']
+results:
+52-0
+50-0
+51-0
+
+
+
+date: 05 thu sep 2019
+time: 11am
+gap: 23
+pairs: ['77', '71']
+results:
+79-0
+70-6
+78-0
+
+time: 11am
+gap: 48
+pairs: ['23', '27']
+results:
+24-7
+25-5
+26-7
+
+time: 9pm
+gap: 45
+pairs: ['13', '17']
+results:
+14-8
+16-0
+15-7
+
+
+
+date: 06 fri sep 2019
+time: 11am
+gap: 16
+pairs: ['89', '83']
+results:
+80-7
+82-7
+81-1
+
+time: 4pm
+gap: 13
+pairs: ['88', '82']
+results:
+81-0
+89-2
+80-2
+
+time: 4pm
+gap: 35
+pairs: ['75', '79']
+results:
+78-7
+76-4
+77-5
+
+time: 4pm
+gap: 43
+pairs: ['49', '43']
+results:
+41-8
+40-8
+42-6
+
+time: 9pm
+gap: 21
+pairs: ['44', '48']
+results:
+45-1
+46-8
+47-1
+
+time: 9pm
+gap: 31
+pairs: ['85', '89']
+results:
+86-5
+87-6
+88-6
+
+
+
+date: 07 sat sep 2019
+time: 9pm
+gap: 36
+pairs: ['19', '13']
+results:
+12-6
+10-7
+11-5
+
+
+
+date: 08 sun sep 2019
+time: 11am
+gap: 12
+pairs: ['42', '46']
+results:
+44-1
+45-0
+43-2
+
+time: 11am
+gap: 16
+pairs: ['77', '71']
+results:
+79-5
+78-4
+70-6
+
+time: 11am
+gap: 25
+pairs: ['44', '48']
+results:
+45-0
+47-2
+46-3
+
+time: 11am
+gap: 43
+pairs: ['41', '45']
+results:
+44-4
+43-1
+42-3
+
+time: 4pm
+gap: 1
+pairs: ['90', '94']
+results:
+93-2
+92-2
+91-5
+
+time: 9pm
+gap: 10
+pairs: ['65', '69']
+results:
+68-4
+66-4
+67-8
+
+time: 9pm
+gap: 14
+pairs: ['51', '55']
+results:
+52-9
+54-5
+53-9
+
+time: 9pm
+gap: 23
+pairs: ['40', '44']
+results:
+41-5
+43-5
+42-8
+
+
+
+date: 09 mon sep 2019
+time: 11am
+gap: 30
+pairs: ['78', '72']
+results:
+71-0
+79-1
+70-0
+
+time: 4pm
+gap: 33
+pairs: ['84', '88']
+results:
+85-9
+87-1
+86-9
+
+time: 4pm
+gap: 49
+pairs: ['72', '76']
+results:
+75-9
+74-2
+73-1
+
+time: 9pm
+gap: 10
+pairs: ['28', '22']
+results:
+29-7
+21-6
+20-5
+
+
+
+date: 10 tue sep 2019
+time: 11am
+gap: 39
+pairs: ['45', '49']
+results:
+48-1
+46-3
+47-2
+
+time: 4pm
+gap: 8
+pairs: ['15', '19']
+results:
+16-2
+18-0
+17-3
+
+time: 4pm
+gap: 43
+pairs: ['04', '08']
+results:
+07-5
+05-2
+06-4
+
+time: 4pm
+gap: 47
+pairs: ['49', '43']
+results:
+41-8
+40-8
+42-1
+
+time: 9pm
+gap: 3
+pairs: ['91', '95']
+results:
+93-7
+94-8
+92-7
+
+
+
+date: 11 wed sep 2019
+time: 11am
+gap: 31
+pairs: ['17', '11']
+results:
+10-5
+19-7
+18-7
+
+time: 4pm
+gap: 9
+pairs: ['23', '27']
+results:
+26-1
+24-1
+25-3
+
+time: 4pm
+gap: 10
+pairs: ['91', '95']
+results:
+94-9
+93-6
+92-8
+
+time: 4pm
+gap: 26
+pairs: ['58', '52']
+results:
+59-0
+50-7
+51-8
+
+time: 9pm
+gap: 6
+pairs: ['85', '89']
+results:
+88-7
+86-4
+87-6
+
+
+
+date: 12 thu sep 2019
+time: 4pm
+gap: 9
+pairs: ['17', '11']
+results:
+19-5
+10-8
+18-8
+
+time: 4pm
+gap: 39
+pairs: ['50', '54']
+results:
+51-3
+53-6
+52-4
+
+
+
+date: 13 fri sep 2019
+time: 11am
+gap: 41
+pairs: ['69', '63']
+results:
+62-8
+61-8
+60-2
+
+time: 4pm
+gap: 25
+pairs: ['15', '19']
+results:
+18-8
+17-8
+16-9
+
+
+
+date: 14 sat sep 2019
+time: 9pm
+gap: 31
+pairs: ['53', '57']
+results:
+55-0
+56-1
+54-0
+
+
+
+date: 15 sun sep 2019
+time: 11am
+gap: 12
+pairs: ['89', '83']
+results:
+82-5
+80-7
+81-4
+
+time: 11am
+gap: 33
+pairs: ['79', '73']
+results:
+70-9
+71-9
+72-6
+
+time: 11am
+gap: 42
+pairs: ['84', '88']
+results:
+87-2
+86-1
+85-1
+
+time: 4pm
+gap: 46
+pairs: ['23', '27']
+results:
+26-6
+25-1
+24-6
+
+
+
+date: 16 mon sep 2019
+time: 11am
+gap: 2
+pairs: ['56', '50']
+results:
+58-7
+59-0
+57-0
+
+time: 4pm
+gap: 2
+pairs: ['46', '40']
+results:
+48-9
+47-6
+49-7
+
+time: 4pm
+gap: 31
+pairs: ['92', '96']
+results:
+95-0
+93-3
+94-1
+
+time: 4pm
+gap: 41
+pairs: ['34', '38']
+results:
+35-6
+36-5
+37-7
+
+time: 4pm
+gap: 46
+pairs: ['02', '06']
+results:
+04-6
+05-2
+03-6
+
+time: 9pm
+gap: 30
+pairs: ['22', '26']
+results:
+23-3
+25-6
+24-5
+
+
+
+date: 17 tue sep 2019
+time: 9pm
+gap: 2
+pairs: ['73', '77']
+results:
+74-9
+76-0
+75-8
+
+time: 9pm
+gap: 7
+pairs: ['50', '54']
+results:
+53-8
+51-9
+52-9
+
+time: 9pm
+gap: 25
+pairs: ['35', '39']
+results:
+38-8
+37-8
+36-5
+
+
+
+date: 18 wed sep 2019
+time: 11am
+gap: 7
+pairs: ['56', '50']
+results:
+59-0
+58-2
+57-1
+
+time: 11am
+gap: 10
+pairs: ['02', '06']
+results:
+05-7
+04-1
+03-1
+
+time: 11am
+gap: 32
+pairs: ['37', '31']
+results:
+30-1
+38-4
+39-4
+
+time: 4pm
+gap: 4
+pairs: ['82', '86']
+results:
+84-9
+85-6
+83-8
+
+time: 9pm
+gap: 9
+pairs: ['77', '71']
+results:
+78-5
+79-2
+70-3
+
+time: 9pm
+gap: 22
+pairs: ['64', '68']
+results:
+65-4
+66-3
+67-1
+
+
+
+date: 19 thu sep 2019
+time: 11am
+gap: 5
+pairs: ['55', '59']
+results:
+58-7
+57-0
+56-0
+
+time: 4pm
+gap: 38
+pairs: ['79', '73']
+results:
+70-8
+71-8
+72-1
+
+time: 9pm
+gap: 15
+pairs: ['14', '18']
+results:
+15-2
+16-2
+17-5
+
+time: 9pm
+gap: 45
+pairs: ['49', '43']
+results:
+42-9
+40-1
+41-8
+
+
+
+date: 20 fri sep 2019
+time: 11am
+gap: 11
+pairs: ['09', '03']
+results:
+00-2
+01-4
+02-2
+
+time: 11am
+gap: 12
+pairs: ['78', '72']
+results:
+70-5
+71-5
+79-0
+
+time: 11am
+gap: 37
+pairs: ['49', '43']
+results:
+40-5
+42-8
+41-7
+
+time: 4pm
+gap: 17
+pairs: ['58', '52']
+results:
+51-9
+59-0
+50-7
+
+time: 4pm
+gap: 21
+pairs: ['44', '48']
+results:
+45-2
+47-1
+46-4
+
+
+
+date: 21 sat sep 2019
+time: 11am
+gap: 4
+pairs: ['89', '83']
+results:
+80-1
+81-1
+82-4
+
+time: 11am
+gap: 11
+pairs: ['11', '15']
+results:
+12-2
+14-3
+13-0
+
+time: 9pm
+gap: 4
+pairs: ['78', '72']
+results:
+71-5
+70-6
+79-3
+
+
+
+date: 22 sun sep 2019
+time: 11am
+gap: 25
+pairs: ['49', '43']
+results:
+40-1
+41-8
+42-8
+
+time: 9pm
+gap: 7
+pairs: ['71', '75']
+results:
+74-9
+73-9
+72-9
+
+time: 9pm
+gap: 43
+pairs: ['52', '56']
+results:
+54-5
+55-7
+53-5
+
+
+
+date: 23 mon sep 2019
+time: 11am
+gap: 15
+pairs: ['78', '72']
+results:
+70-5
+79-5
+71-1
+
+time: 11am
+gap: 32
+pairs: ['64', '68']
+results:
+65-4
+67-0
+66-4
+
+time: 4pm
+gap: 9
+pairs: ['87', '81']
+results:
+89-4
+88-3
+80-6
+
+time: 9pm
+gap: 9
+pairs: ['50', '54']
+results:
+53-1
+51-2
+52-9
+
+time: 9pm
+gap: 13
+pairs: ['55', '59']
+results:
+58-3
+56-4
+57-3
+
+time: 9pm
+gap: 17
+pairs: ['19', '13']
+results:
+11-4
+12-6
+10-7
+
+time: 9pm
+gap: 22
+pairs: ['61', '65']
+results:
+63-6
+64-8
+62-5
+
+time: 9pm
+gap: 48
+pairs: ['56', '50']
+results:
+58-6
+57-8
+59-7
+
+
+
+date: 24 tue sep 2019
+time: 11am
+gap: 1
+pairs: ['33', '37']
+results:
+34-0
+36-7
+35-0
+
+time: 11am
+gap: 11
+pairs: ['56', '50']
+results:
+58-7
+59-5
+57-4
+
+time: 11am
+gap: 41
+pairs: ['47', '41']
+results:
+40-5
+49-3
+48-3
+
+time: 4pm
+gap: 35
+pairs: ['32', '36']
+results:
+34-2
+33-9
+35-9
+
+time: 4pm
+gap: 38
+pairs: ['94', '98']
+results:
+95-8
+97-0
+96-8
+
+
+
+date: 25 wed sep 2019
+time: 11am
+gap: 27
+pairs: ['40', '44']
+results:
+41-3
+43-2
+42-4
+
+time: 11am
+gap: 32
+pairs: ['11', '15']
+results:
+12-2
+14-2
+13-8
+
+time: 4pm
+gap: 48
+pairs: ['48', '42']
+results:
+41-7
+49-8
+40-6
+
+time: 9pm
+gap: 16
+pairs: ['85', '89']
+results:
+87-5
+88-3
+86-5
+
+time: 9pm
+gap: 36
+pairs: ['06', '00']
+results:
+07-3
+09-3
+08-9
+
+
+
+date: 26 thu sep 2019
+time: 11am
+gap: 3
+pairs: ['33', '37']
+results:
+34-0
+35-0
+36-7
+
+time: 11am
+gap: 7
+pairs: ['57', '51']
+results:
+50-3
+59-0
+58-2
+
+time: 11am
+gap: 19
+pairs: ['25', '29']
+results:
+28-4
+27-3
+26-3
+
+time: 4pm
+gap: 31
+pairs: ['12', '16']
+results:
+13-2
+14-8
+15-8
+
+time: 4pm
+gap: 32
+pairs: ['83', '87']
+results:
+86-0
+85-2
+84-9
+
+time: 4pm
+gap: 34
+pairs: ['13', '17']
+results:
+14-2
+16-4
+15-2
+
+
+
+date: 27 fri sep 2019
+time: 11am
+gap: 37
+pairs: ['79', '73']
+results:
+70-8
+71-5
+72-6
+
+time: 4pm
+gap: 13
+pairs: ['93', '97']
+results:
+94-8
+96-2
+95-8
+
+time: 4pm
+gap: 26
+pairs: ['98', '92']
+results:
+99-4
+91-4
+90-7
+
+time: 9pm
+gap: 29
+pairs: ['84', '88']
+results:
+86-4
+87-1
+85-3
+
+
+
+date: 28 sat sep 2019
+time: 11am
+gap: 25
+pairs: ['89', '83']
+results:
+82-5
+81-4
+80-4
+
+time: 11am
+gap: 46
+pairs: ['04', '08']
+results:
+07-9
+05-2
+06-2
+
+time: 4pm
+gap: 1
+pairs: ['72', '76']
+results:
+74-5
+75-4
+73-5
+
+time: 9pm
+gap: 5
+pairs: ['72', '76']
+results:
+73-3
+75-1
+74-3
+
+time: 9pm
+gap: 38
+pairs: ['13', '17']
+results:
+14-6
+16-5
+15-5
 
 
 

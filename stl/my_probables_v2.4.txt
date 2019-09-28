@@ -4027,3 +4027,97 @@ date: 25 thu jul 2019
 date: 26 fri jul 2019
 
 
+date: 01 sun sep 2019
+
+
+date: 02 mon sep 2019
+
+
+date: 03 tue sep 2019
+
+
+date: 04 wed sep 2019
+
+
+date: 05 thu sep 2019
+
+
+date: 06 fri sep 2019
+time: 9pm
+gap: 20
+276
+216
+
+
+
+date: 07 sat sep 2019
+
+
+date: 08 sun sep 2019
+
+
+date: 09 mon sep 2019
+time: 9pm
+gap: 76
+873
+813
+
+
+
+date: 10 tue sep 2019
+
+
+date: 11 wed sep 2019
+
+
+date: 12 thu sep 2019
+
+
+date: 13 fri sep 2019
+
+
+date: 14 sat sep 2019
+
+
+date: 15 sun sep 2019
+
+
+date: 16 mon sep 2019
+
+
+date: 17 tue sep 2019
+
+
+date: 18 wed sep 2019
+
+
+date: 19 thu sep 2019
+
+
+date: 20 fri sep 2019
+
+
+date: 21 sat sep 2019
+
+
+date: 22 sun sep 2019
+
+
+date: 23 mon sep 2019
+
+
+date: 24 tue sep 2019
+
+
+date: 25 wed sep 2019
+
+
+date: 26 thu sep 2019
+
+
+date: 27 fri sep 2019
+
+
+date: 28 sat sep 2019
+
+

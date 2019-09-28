@@ -1,4 +1,4 @@
-updated: 26 fri jul 2019 2
+updated: 28 sat sep 2019 2
 
 date: 01 wed may 2019 1
 
@@ -841,5 +841,644 @@ date: 26 fri jul 2019 1
 
 
 date: 26 fri jul 2019 2
+
+
+date: 27 sat jul 2019 0
+
+
+date: 27 sat jul 2019 1
+
+
+date: 27 sat jul 2019 2
+
+
+date: 28 sun jul 2019 0
+
+
+date: 28 sun jul 2019 1
+
+
+date: 28 sun jul 2019 2
+
+
+date: 29 mon jul 2019 0
+
+
+date: 29 mon jul 2019 1
+gap: 56
+pairs: ['94', '98']
+results:
+95-1
+96-1
+97-1
+
+
+
+date: 29 mon jul 2019 2
+
+
+date: 30 tue jul 2019 0
+
+
+date: 30 tue jul 2019 1
+
+
+date: 30 tue jul 2019 2
+
+
+date: 31 wed jul 2019 0
+
+
+date: 31 wed jul 2019 1
+
+
+date: 31 wed jul 2019 2
+
+
+date: 01 thu aug 2019 0
+
+
+date: 01 thu aug 2019 1
+
+
+date: 01 thu aug 2019 2
+
+
+date: 02 fri aug 2019 0
+
+
+date: 02 fri aug 2019 1
+
+
+date: 02 fri aug 2019 2
+
+
+date: 03 sat aug 2019 0
+
+
+date: 03 sat aug 2019 1
+
+
+date: 03 sat aug 2019 2
+
+
+date: 04 sun aug 2019 0
+
+
+date: 04 sun aug 2019 1
+
+
+date: 04 sun aug 2019 2
+
+
+date: 05 mon aug 2019 0
+
+
+date: 05 mon aug 2019 1
+
+
+date: 05 mon aug 2019 2
+
+
+date: 06 tue aug 2019 0
+
+
+date: 06 tue aug 2019 1
+
+
+date: 06 tue aug 2019 2
+
+
+date: 07 wed aug 2019 0
+
+
+date: 07 wed aug 2019 1
+
+
+date: 07 wed aug 2019 2
+
+
+date: 08 thu aug 2019 0
+
+
+date: 08 thu aug 2019 1
+
+
+date: 08 thu aug 2019 2
+
+
+date: 09 fri aug 2019 0
+
+
+date: 09 fri aug 2019 1
+
+
+date: 09 fri aug 2019 2
+
+
+date: 10 sat aug 2019 0
+
+
+date: 10 sat aug 2019 1
+
+
+date: 10 sat aug 2019 2
+
+
+date: 11 sun aug 2019 0
+
+
+date: 11 sun aug 2019 1
+
+
+date: 11 sun aug 2019 2
+gap: 59
+pairs: ['38', '32']
+results:
+30-4
+39-4
+31-4
+
+
+
+date: 12 mon aug 2019 0
+
+
+date: 12 mon aug 2019 1
+
+
+date: 12 mon aug 2019 2
+
+
+date: 13 tue aug 2019 0
+
+
+date: 13 tue aug 2019 1
+
+
+date: 13 tue aug 2019 2
+
+
+date: 14 wed aug 2019 0
+
+
+date: 14 wed aug 2019 1
+
+
+date: 14 wed aug 2019 2
+
+
+date: 15 thu aug 2019 0
+
+
+date: 15 thu aug 2019 1
+
+
+date: 15 thu aug 2019 2
+
+
+date: 16 fri aug 2019 0
+
+
+date: 16 fri aug 2019 1
+
+
+date: 16 fri aug 2019 2
+
+
+date: 17 sat aug 2019 0
+
+
+date: 17 sat aug 2019 1
+
+
+date: 17 sat aug 2019 2
+
+
+date: 18 sun aug 2019 0
+
+
+date: 18 sun aug 2019 1
+
+
+date: 18 sun aug 2019 2
+
+
+date: 19 mon aug 2019 0
+
+
+date: 19 mon aug 2019 1
+
+
+date: 19 mon aug 2019 2
+
+
+date: 20 tue aug 2019 0
+
+
+date: 20 tue aug 2019 1
+
+
+date: 20 tue aug 2019 2
+
+
+date: 21 wed aug 2019 0
+
+
+date: 21 wed aug 2019 1
+
+
+date: 21 wed aug 2019 2
+
+
+date: 22 thu aug 2019 0
+
+
+date: 22 thu aug 2019 1
+
+
+date: 22 thu aug 2019 2
+
+
+date: 23 fri aug 2019 0
+gap: 7
+pairs: ['39', '33']
+results:
+30-7
+32-7
+31-7
+
+
+
+date: 23 fri aug 2019 1
+
+
+date: 23 fri aug 2019 2
+
+
+date: 24 sat aug 2019 0
+
+
+date: 24 sat aug 2019 1
+
+
+date: 24 sat aug 2019 2
+
+
+date: 25 sun aug 2019 0
+
+
+date: 25 sun aug 2019 1
+
+
+date: 25 sun aug 2019 2
+
+
+date: 26 mon aug 2019 0
+
+
+date: 26 mon aug 2019 1
+
+
+date: 26 mon aug 2019 2
+
+
+date: 27 tue aug 2019 0
+
+
+date: 27 tue aug 2019 1
+
+
+date: 27 tue aug 2019 2
+
+
+date: 28 wed aug 2019 0
+
+
+date: 28 wed aug 2019 1
+
+
+date: 28 wed aug 2019 2
+
+
+date: 29 thu aug 2019 0
+
+
+date: 29 thu aug 2019 1
+
+
+date: 29 thu aug 2019 2
+
+
+date: 30 fri aug 2019 0
+
+
+date: 30 fri aug 2019 1
+
+
+date: 30 fri aug 2019 2
+
+
+date: 31 sat aug 2019 0
+
+
+date: 31 sat aug 2019 1
+
+
+date: 31 sat aug 2019 2
+
+
+date: 01 sun sep 2019 0
+
+
+date: 01 sun sep 2019 1
+
+
+date: 01 sun sep 2019 2
+
+
+date: 02 mon sep 2019 0
+gap: 33
+pairs: ['44', '48']
+results:
+46-5
+45-5
+47-5
+
+
+
+date: 02 mon sep 2019 1
+
+
+date: 02 mon sep 2019 2
+
+
+date: 03 tue sep 2019 0
+
+
+date: 03 tue sep 2019 1
+
+
+date: 03 tue sep 2019 2
+gap: 25
+pairs: ['30', '34']
+results:
+31-2
+33-2
+32-2
+
+
+
+date: 04 wed sep 2019 0
+
+
+date: 04 wed sep 2019 1
+
+
+date: 04 wed sep 2019 2
+
+
+date: 05 thu sep 2019 0
+
+
+date: 05 thu sep 2019 1
+gap: 83
+pairs: ['59', '53']
+results:
+52-0
+50-0
+51-0
+
+
+
+date: 05 thu sep 2019 2
+
+
+date: 06 fri sep 2019 0
+
+
+date: 06 fri sep 2019 1
+
+
+date: 06 fri sep 2019 2
+
+
+date: 07 sat sep 2019 0
+
+
+date: 07 sat sep 2019 1
+
+
+date: 07 sat sep 2019 2
+
+
+date: 08 sun sep 2019 0
+
+
+date: 08 sun sep 2019 1
+
+
+date: 08 sun sep 2019 2
+
+
+date: 09 mon sep 2019 0
+
+
+date: 09 mon sep 2019 1
+
+
+date: 09 mon sep 2019 2
+
+
+date: 10 tue sep 2019 0
+
+
+date: 10 tue sep 2019 1
+
+
+date: 10 tue sep 2019 2
+
+
+date: 11 wed sep 2019 0
+
+
+date: 11 wed sep 2019 1
+
+
+date: 11 wed sep 2019 2
+
+
+date: 12 thu sep 2019 0
+
+
+date: 12 thu sep 2019 1
+
+
+date: 12 thu sep 2019 2
+
+
+date: 13 fri sep 2019 0
+
+
+date: 13 fri sep 2019 1
+
+
+date: 13 fri sep 2019 2
+
+
+date: 14 sat sep 2019 0
+
+
+date: 14 sat sep 2019 1
+
+
+date: 14 sat sep 2019 2
+
+
+date: 15 sun sep 2019 0
+
+
+date: 15 sun sep 2019 1
+
+
+date: 15 sun sep 2019 2
+
+
+date: 16 mon sep 2019 0
+
+
+date: 16 mon sep 2019 1
+
+
+date: 16 mon sep 2019 2
+
+
+date: 17 tue sep 2019 0
+
+
+date: 17 tue sep 2019 1
+
+
+date: 17 tue sep 2019 2
+
+
+date: 18 wed sep 2019 0
+
+
+date: 18 wed sep 2019 1
+
+
+date: 18 wed sep 2019 2
+
+
+date: 19 thu sep 2019 0
+
+
+date: 19 thu sep 2019 1
+
+
+date: 19 thu sep 2019 2
+
+
+date: 20 fri sep 2019 0
+
+
+date: 20 fri sep 2019 1
+
+
+date: 20 fri sep 2019 2
+gap: 51
+pairs: ['92', '96']
+results:
+94-8
+95-8
+93-8
+
+
+
+date: 21 sat sep 2019 0
+
+
+date: 21 sat sep 2019 1
+
+
+date: 21 sat sep 2019 2
+
+
+date: 22 sun sep 2019 0
+
+
+date: 22 sun sep 2019 1
+
+
+date: 22 sun sep 2019 2
+
+
+date: 23 mon sep 2019 0
+
+
+date: 23 mon sep 2019 1
+gap: 23
+pairs: ['71', '75']
+results:
+74-9
+73-9
+72-9
+
+
+
+date: 23 mon sep 2019 2
+
+
+date: 24 tue sep 2019 0
+
+
+date: 24 tue sep 2019 1
+
+
+date: 24 tue sep 2019 2
+
+
+date: 25 wed sep 2019 0
+
+
+date: 25 wed sep 2019 1
+
+
+date: 25 wed sep 2019 2
+gap: 22
+pairs: ['51', '55']
+results:
+54-8
+53-8
+52-8
+
+
+
+date: 26 thu sep 2019 0
+
+
+date: 26 thu sep 2019 1
+
+
+date: 26 thu sep 2019 2
+
+
+date: 27 fri sep 2019 0
+
+
+date: 27 fri sep 2019 1
+
+
+date: 27 fri sep 2019 2
+
+
+date: 28 sat sep 2019 0
+
+
+date: 28 sat sep 2019 1
+
+
+date: 28 sat sep 2019 2
 
 

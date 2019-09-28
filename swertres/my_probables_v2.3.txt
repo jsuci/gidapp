@@ -55985,3 +55985,1693 @@ gap: 23
 
 
 
+date: 27 sat jul 2019
+time: 11am
+gap: 12
+823
+863
+
+time: 11am
+gap: 19
+943
+983
+
+time: 11am
+gap: 23
+432
+472
+
+time: 11am
+gap: 36
+023
+063
+
+time: 4pm
+gap: 39
+916
+956
+
+time: 4pm
+gap: 45
+265
+269
+205
+209
+
+time: 9pm
+gap: 44
+006
+046
+
+time: 9pm
+gap: 45
+041
+081
+
+
+
+date: 28 sun jul 2019
+time: 11am
+gap: 23
+085
+025
+
+time: 4pm
+gap: 1
+893
+833
+
+time: 4pm
+gap: 10
+034
+074
+
+time: 9pm
+gap: 18
+941
+981
+
+
+
+date: 29 mon jul 2019
+time: 11am
+gap: 48
+038
+078
+
+time: 9pm
+gap: 8
+735
+775
+
+time: 9pm
+gap: 27
+542
+582
+
+time: 9pm
+gap: 42
+821
+861
+
+
+
+date: 30 tue jul 2019
+time: 11am
+gap: 22
+562
+502
+
+time: 9pm
+gap: 8
+127
+167
+
+
+
+date: 31 wed jul 2019
+time: 11am
+gap: 24
+471
+411
+
+time: 4pm
+gap: 38
+550
+590
+
+time: 9pm
+gap: 33
+563
+503
+
+
+
+date: 01 thu aug 2019
+time: 11am
+gap: 9
+470
+410
+
+time: 11am
+gap: 28
+234
+274
+
+time: 11am
+gap: 30
+501
+541
+
+time: 4pm
+gap: 42
+486
+426
+
+time: 4pm
+gap: 48
+511
+551
+
+
+
+date: 02 fri aug 2019
+time: 4pm
+gap: 31
+673
+613
+
+time: 9pm
+gap: 14
+907
+947
+
+time: 9pm
+gap: 38
+686
+626
+
+
+
+date: 03 sat aug 2019
+time: 11am
+gap: 13
+416
+456
+
+
+
+date: 04 sun aug 2019
+time: 11am
+gap: 5
+161
+101
+
+time: 11am
+gap: 7
+730
+770
+
+time: 11am
+gap: 36
+465
+405
+
+time: 9pm
+gap: 32
+497
+437
+
+time: 9pm
+gap: 39
+156
+196
+
+
+
+date: 05 mon aug 2019
+time: 11am
+gap: 2
+818
+858
+
+time: 11am
+gap: 4
+413
+453
+
+time: 11am
+gap: 11
+899
+839
+
+time: 11am
+gap: 32
+234
+274
+
+time: 11am
+gap: 39
+095
+035
+
+time: 4pm
+gap: 43
+175
+115
+
+time: 4pm
+gap: 47
+610
+650
+
+time: 9pm
+gap: 32
+387
+327
+
+time: 9pm
+gap: 43
+323
+363
+
+time: 9pm
+gap: 48
+778
+718
+
+
+
+date: 06 tue aug 2019
+time: 11am
+gap: 11
+148
+188
+
+time: 11am
+gap: 13
+790
+730
+
+time: 11am
+gap: 31
+859
+899
+
+time: 11am
+gap: 39
+381
+321
+
+time: 11am
+gap: 48
+804
+844
+
+time: 9pm
+gap: 10
+770
+710
+
+
+
+date: 07 wed aug 2019
+time: 11am
+gap: 7
+378
+318
+
+time: 11am
+gap: 17
+462
+466
+402
+406
+
+time: 4pm
+gap: 14
+789
+729
+
+time: 4pm
+gap: 29
+942
+982
+
+time: 9pm
+gap: 16
+831
+871
+
+time: 9pm
+gap: 40
+175
+115
+
+
+
+date: 08 thu aug 2019
+time: 11am
+gap: 2
+818
+858
+
+time: 11am
+gap: 36
+484
+424
+
+time: 4pm
+gap: 16
+232
+272
+
+time: 4pm
+gap: 39
+822
+826
+862
+866
+
+
+
+date: 09 fri aug 2019
+time: 11am
+gap: 43
+230
+270
+
+time: 4pm
+gap: 10
+451
+491
+
+time: 9pm
+gap: 22
+946
+986
+
+
+
+date: 10 sat aug 2019
+time: 11am
+gap: 17
+788
+728
+
+time: 9pm
+gap: 2
+238
+232
+278
+272
+
+
+
+date: 11 sun aug 2019
+time: 11am
+gap: 17
+813
+853
+
+time: 11am
+gap: 19
+384
+324
+
+time: 11am
+gap: 35
+238
+278
+
+time: 11am
+gap: 45
+221
+261
+
+time: 4pm
+gap: 37
+110
+150
+
+time: 4pm
+gap: 42
+822
+826
+862
+866
+
+time: 4pm
+gap: 48
+741
+781
+
+time: 9pm
+gap: 37
+773
+713
+
+
+
+date: 12 mon aug 2019
+time: 11am
+gap: 2
+798
+738
+
+time: 11am
+gap: 46
+242
+282
+
+time: 4pm
+gap: 6
+515
+519
+555
+559
+
+time: 4pm
+gap: 23
+732
+772
+
+time: 9pm
+gap: 33
+131
+171
+
+
+
+date: 13 tue aug 2019
+time: 11am
+gap: 44
+647
+687
+
+time: 4pm
+gap: 2
+487
+427
+
+time: 4pm
+gap: 12
+492
+432
+
+time: 4pm
+gap: 25
+127
+167
+
+time: 4pm
+gap: 46
+134
+174
+
+time: 9pm
+gap: 8
+995
+935
+
+time: 9pm
+gap: 12
+790
+730
+
+
+
+date: 14 wed aug 2019
+time: 11am
+gap: 6
+402
+442
+
+time: 4pm
+gap: 6
+450
+490
+
+time: 4pm
+gap: 20
+168
+108
+
+time: 9pm
+gap: 11
+164
+104
+
+
+
+date: 15 thu aug 2019
+time: 11am
+gap: 2
+780
+720
+
+time: 11am
+gap: 35
+224
+264
+
+time: 4pm
+gap: 1
+869
+863
+809
+803
+
+time: 9pm
+gap: 21
+449
+489
+
+time: 9pm
+gap: 28
+188
+128
+
+
+
+date: 16 fri aug 2019
+time: 11am
+gap: 49
+917
+957
+
+time: 4pm
+gap: 6
+268
+208
+
+time: 4pm
+gap: 11
+164
+104
+
+time: 4pm
+gap: 38
+959
+999
+
+time: 4pm
+gap: 40
+022
+062
+
+time: 9pm
+gap: 18
+939
+979
+
+time: 9pm
+gap: 20
+789
+783
+729
+723
+
+time: 9pm
+gap: 33
+064
+004
+
+
+
+date: 17 sat aug 2019
+time: 11am
+gap: 20
+462
+402
+
+time: 9pm
+gap: 4
+500
+540
+
+time: 9pm
+gap: 10
+770
+710
+
+time: 9pm
+gap: 38
+905
+945
+
+
+
+date: 18 sun aug 2019
+time: 11am
+gap: 23
+145
+185
+
+time: 4pm
+gap: 36
+262
+202
+
+time: 9pm
+gap: 19
+176
+116
+
+
+
+date: 19 mon aug 2019
+time: 11am
+gap: 2
+025
+065
+
+time: 4pm
+gap: 35
+920
+960
+
+time: 4pm
+gap: 38
+158
+198
+
+time: 9pm
+gap: 16
+505
+509
+545
+549
+
+time: 9pm
+gap: 34
+046
+086
+
+time: 9pm
+gap: 37
+693
+633
+
+time: 9pm
+gap: 49
+375
+315
+
+
+
+date: 20 tue aug 2019
+time: 4pm
+gap: 46
+100
+140
+
+
+
+date: 21 wed aug 2019
+time: 11am
+gap: 36
+778
+718
+
+
+
+date: 22 thu aug 2019
+time: 11am
+gap: 45
+573
+513
+
+time: 4pm
+gap: 37
+196
+136
+
+time: 4pm
+gap: 39
+629
+669
+
+time: 9pm
+gap: 37
+046
+086
+
+time: 9pm
+gap: 48
+657
+697
+
+
+
+date: 23 fri aug 2019
+time: 11am
+gap: 15
+400
+440
+
+time: 11am
+gap: 20
+894
+834
+
+
+
+date: 24 sat aug 2019
+time: 11am
+gap: 27
+726
+766
+
+time: 11am
+gap: 35
+686
+626
+
+time: 11am
+gap: 47
+594
+534
+
+time: 4pm
+gap: 8
+569
+509
+
+time: 4pm
+gap: 41
+442
+482
+
+time: 9pm
+gap: 21
+130
+170
+
+time: 9pm
+gap: 33
+821
+861
+
+time: 9pm
+gap: 38
+541
+581
+
+
+
+date: 25 sun aug 2019
+time: 11am
+gap: 8
+117
+111
+157
+151
+
+time: 4pm
+gap: 33
+235
+275
+
+time: 4pm
+gap: 44
+168
+108
+
+time: 9pm
+gap: 20
+264
+204
+
+
+
+date: 26 mon aug 2019
+time: 4pm
+gap: 6
+335
+375
+
+time: 4pm
+gap: 11
+784
+724
+
+time: 9pm
+gap: 20
+677
+617
+
+
+
+date: 27 tue aug 2019
+time: 11am
+gap: 19
+462
+402
+
+time: 11am
+gap: 21
+458
+498
+
+time: 11am
+gap: 25
+499
+439
+
+time: 4pm
+gap: 9
+793
+797
+733
+737
+
+time: 9pm
+gap: 19
+276
+216
+
+time: 9pm
+gap: 28
+173
+113
+
+
+
+date: 28 wed aug 2019
+time: 9pm
+gap: 36
+514
+554
+
+
+
+date: 29 thu aug 2019
+time: 11am
+gap: 8
+852
+892
+
+time: 11am
+gap: 38
+113
+153
+
+time: 11am
+gap: 45
+406
+446
+
+time: 11am
+gap: 48
+848
+888
+
+time: 4pm
+gap: 39
+053
+093
+
+time: 9pm
+gap: 11
+634
+674
+
+time: 9pm
+gap: 39
+530
+570
+
+
+
+date: 30 fri aug 2019
+time: 11am
+gap: 27
+896
+836
+
+time: 11am
+gap: 47
+126
+166
+
+time: 4pm
+gap: 27
+295
+235
+
+time: 9pm
+gap: 33
+708
+748
+
+time: 9pm
+gap: 43
+149
+189
+
+
+
+date: 31 sat aug 2019
+time: 4pm
+gap: 26
+994
+934
+
+
+
+date: 01 sun sep 2019
+time: 11am
+gap: 24
+127
+167
+
+time: 11am
+gap: 27
+518
+558
+
+time: 11am
+gap: 32
+377
+371
+317
+311
+
+time: 11am
+gap: 39
+145
+185
+
+time: 11am
+gap: 46
+534
+574
+
+time: 4pm
+gap: 34
+745
+785
+
+time: 9pm
+gap: 26
+576
+516
+
+time: 9pm
+gap: 32
+175
+115
+
+time: 9pm
+gap: 39
+899
+839
+
+
+
+date: 02 mon sep 2019
+time: 11am
+gap: 2
+008
+048
+
+time: 11am
+gap: 4
+113
+153
+
+time: 11am
+gap: 31
+168
+108
+
+time: 4pm
+gap: 2
+697
+691
+637
+631
+
+time: 4pm
+gap: 6
+339
+379
+
+time: 4pm
+gap: 34
+553
+593
+
+time: 4pm
+gap: 40
+165
+105
+
+time: 9pm
+gap: 14
+611
+651
+
+time: 9pm
+gap: 20
+344
+384
+
+
+
+date: 03 tue sep 2019
+time: 11am
+gap: 8
+129
+169
+
+time: 11am
+gap: 13
+798
+738
+
+
+
+date: 04 wed sep 2019
+time: 11am
+gap: 39
+435
+475
+
+time: 4pm
+gap: 17
+252
+292
+
+time: 4pm
+gap: 35
+644
+684
+
+time: 9pm
+gap: 8
+638
+678
+
+time: 9pm
+gap: 27
+590
+530
+
+
+
+date: 05 thu sep 2019
+time: 11am
+gap: 23
+776
+716
+
+time: 11am
+gap: 48
+235
+275
+
+time: 9pm
+gap: 45
+139
+179
+
+
+
+date: 06 fri sep 2019
+time: 11am
+gap: 16
+891
+831
+
+time: 4pm
+gap: 13
+880
+820
+
+time: 4pm
+gap: 35
+756
+796
+
+time: 4pm
+gap: 43
+496
+436
+
+time: 9pm
+gap: 21
+448
+488
+
+time: 9pm
+gap: 31
+855
+895
+
+
+
+date: 07 sat sep 2019
+time: 9pm
+gap: 36
+194
+198
+134
+138
+
+
+
+date: 08 sun sep 2019
+time: 11am
+gap: 12
+429
+423
+469
+463
+
+time: 11am
+gap: 16
+773
+777
+713
+717
+
+time: 11am
+gap: 25
+441
+481
+
+time: 11am
+gap: 43
+412
+452
+
+time: 4pm
+gap: 1
+905
+945
+
+time: 9pm
+gap: 10
+658
+698
+
+time: 9pm
+gap: 14
+515
+555
+
+time: 9pm
+gap: 23
+408
+448
+
+
+
+date: 09 mon sep 2019
+time: 11am
+gap: 30
+781
+721
+
+time: 4pm
+gap: 33
+841
+881
+
+time: 4pm
+gap: 49
+720
+760
+
+time: 9pm
+gap: 10
+284
+288
+224
+228
+
+
+
+date: 10 tue sep 2019
+time: 11am
+gap: 39
+450
+454
+490
+494
+
+time: 4pm
+gap: 8
+151
+191
+
+time: 4pm
+gap: 43
+043
+083
+
+time: 4pm
+gap: 47
+491
+431
+
+time: 9pm
+gap: 3
+918
+958
+
+
+
+date: 11 wed sep 2019
+time: 11am
+gap: 31
+175
+115
+
+time: 4pm
+gap: 9
+233
+273
+
+time: 4pm
+gap: 10
+917
+957
+
+time: 4pm
+gap: 26
+589
+529
+
+time: 9pm
+gap: 6
+855
+895
+
+
+
+date: 12 thu sep 2019
+time: 4pm
+gap: 9
+175
+115
+
+time: 4pm
+gap: 39
+505
+545
+
+
+
+date: 13 fri sep 2019
+time: 11am
+gap: 41
+692
+632
+
+time: 4pm
+gap: 25
+159
+199
+
+
+
+date: 14 sat sep 2019
+time: 9pm
+gap: 31
+531
+571
+
+
+
+date: 15 sun sep 2019
+time: 11am
+gap: 12
+896
+836
+
+time: 11am
+gap: 33
+796
+736
+
+time: 11am
+gap: 42
+842
+882
+
+time: 4pm
+gap: 46
+231
+271
+
+
+
+date: 16 mon sep 2019
+time: 11am
+gap: 2
+567
+507
+
+time: 4pm
+gap: 2
+468
+408
+
+time: 4pm
+gap: 31
+922
+962
+
+time: 4pm
+gap: 41
+344
+348
+384
+388
+
+time: 4pm
+gap: 46
+022
+062
+
+time: 9pm
+gap: 30
+224
+264
+
+
+
+date: 17 tue sep 2019
+time: 9pm
+gap: 2
+737
+731
+777
+771
+
+time: 9pm
+gap: 7
+508
+548
+
+time: 9pm
+gap: 25
+355
+395
+
+
+
+date: 18 wed sep 2019
+time: 11am
+gap: 7
+569
+563
+509
+503
+
+time: 11am
+gap: 10
+027
+067
+
+time: 11am
+gap: 32
+371
+311
+
+time: 4pm
+gap: 4
+827
+867
+
+time: 9pm
+gap: 9
+774
+714
+
+time: 9pm
+gap: 22
+642
+682
+
+
+
+date: 19 thu sep 2019
+time: 11am
+gap: 5
+557
+597
+
+time: 4pm
+gap: 38
+791
+731
+
+time: 9pm
+gap: 15
+145
+185
+
+time: 9pm
+gap: 45
+490
+430
+
+
+
+date: 20 fri sep 2019
+time: 11am
+gap: 11
+094
+034
+
+time: 11am
+gap: 12
+780
+720
+
+time: 11am
+gap: 37
+496
+436
+
+time: 4pm
+gap: 17
+588
+528
+
+time: 4pm
+gap: 21
+443
+483
+
+
+
+date: 21 sat sep 2019
+time: 11am
+gap: 4
+894
+834
+
+time: 11am
+gap: 11
+111
+151
+
+time: 9pm
+gap: 4
+784
+724
+
+
+
+date: 22 sun sep 2019
+time: 11am
+gap: 25
+491
+431
+
+time: 9pm
+gap: 7
+719
+759
+
+time: 9pm
+gap: 43
+527
+567
+
+
+
+date: 23 mon sep 2019
+time: 11am
+gap: 15
+781
+721
+
+time: 11am
+gap: 32
+640
+680
+
+time: 4pm
+gap: 9
+875
+815
+
+time: 9pm
+gap: 9
+500
+540
+
+time: 9pm
+gap: 13
+554
+594
+
+time: 9pm
+gap: 17
+195
+135
+
+time: 9pm
+gap: 22
+617
+657
+
+time: 9pm
+gap: 48
+565
+569
+505
+509
+
+
+
+date: 24 tue sep 2019
+time: 11am
+gap: 1
+337
+377
+
+time: 11am
+gap: 11
+566
+506
+
+time: 11am
+gap: 41
+475
+415
+
+time: 4pm
+gap: 35
+322
+362
+
+time: 4pm
+gap: 38
+940
+980
+
+
+
+date: 25 wed sep 2019
+time: 11am
+gap: 27
+401
+405
+441
+445
+
+time: 11am
+gap: 32
+118
+158
+
+time: 4pm
+gap: 48
+485
+489
+425
+429
+
+time: 9pm
+gap: 16
+853
+893
+
+time: 9pm
+gap: 36
+069
+009
+
+
+
+date: 26 thu sep 2019
+time: 11am
+gap: 3
+337
+377
+
+time: 11am
+gap: 7
+571
+511
+
+time: 11am
+gap: 19
+254
+294
+
+time: 4pm
+gap: 31
+122
+162
+
+time: 4pm
+gap: 32
+831
+871
+
+time: 4pm
+gap: 34
+134
+174
+
+
+
+date: 27 fri sep 2019
+time: 11am
+gap: 37
+797
+737
+
+time: 4pm
+gap: 13
+932
+972
+
+time: 4pm
+gap: 26
+987
+927
+
+time: 9pm
+gap: 29
+842
+882
+
+
+
+date: 28 sat sep 2019
+time: 11am
+gap: 25
+895
+835
+
+time: 11am
+gap: 46
+049
+089
+
+time: 4pm
+gap: 1
+724
+764
+
+time: 9pm
+gap: 5
+721
+761
+
+time: 9pm
+gap: 38
+136
+176
+
+
+

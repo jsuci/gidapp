@@ -1,4 +1,4 @@
-updated: 26 fri jul 2019
+updated: 28 sat sep 2019
 
 date: 03 thu jan 2013
 
@@ -9193,5 +9193,253 @@ date: 25 thu jul 2019
 
 
 date: 26 fri jul 2019
+
+
+date: 27 sat jul 2019
+
+
+date: 28 sun jul 2019
+time: 9pm
+gap: 18
+pairs: ['94', '98']
+results:
+95-1
+96-1
+97-1
+
+
+
+date: 29 mon jul 2019
+
+
+date: 30 tue jul 2019
+
+
+date: 31 wed jul 2019
+
+
+date: 01 thu aug 2019
+
+
+date: 02 fri aug 2019
+
+
+date: 03 sat aug 2019
+
+
+date: 04 sun aug 2019
+
+
+date: 05 mon aug 2019
+
+
+date: 06 tue aug 2019
+
+
+date: 07 wed aug 2019
+
+
+date: 08 thu aug 2019
+
+
+date: 09 fri aug 2019
+
+
+date: 10 sat aug 2019
+
+
+date: 11 sun aug 2019
+time: 11am
+gap: 19
+pairs: ['38', '32']
+results:
+30-4
+39-4
+31-4
+
+
+
+date: 12 mon aug 2019
+
+
+date: 13 tue aug 2019
+
+
+date: 14 wed aug 2019
+
+
+date: 15 thu aug 2019
+
+
+date: 16 fri aug 2019
+
+
+date: 17 sat aug 2019
+
+
+date: 18 sun aug 2019
+
+
+date: 19 mon aug 2019
+
+
+date: 20 tue aug 2019
+
+
+date: 21 wed aug 2019
+
+
+date: 22 thu aug 2019
+
+
+date: 23 fri aug 2019
+
+
+date: 24 sat aug 2019
+
+
+date: 25 sun aug 2019
+
+
+date: 26 mon aug 2019
+
+
+date: 27 tue aug 2019
+
+
+date: 28 wed aug 2019
+
+
+date: 29 thu aug 2019
+
+
+date: 30 fri aug 2019
+time: 9pm
+gap: 58
+pairs: ['16', '10']
+results:
+17-4
+18-4
+19-4
+
+
+
+date: 31 sat aug 2019
+
+
+date: 01 sun sep 2019
+
+
+date: 02 mon sep 2019
+
+
+date: 03 tue sep 2019
+
+
+date: 04 wed sep 2019
+time: 9pm
+gap: 27
+pairs: ['59', '53']
+results:
+52-0
+50-0
+51-0
+
+
+
+date: 05 thu sep 2019
+
+
+date: 06 fri sep 2019
+
+
+date: 07 sat sep 2019
+
+
+date: 08 sun sep 2019
+
+
+date: 09 mon sep 2019
+
+
+date: 10 tue sep 2019
+
+
+date: 11 wed sep 2019
+
+
+date: 12 thu sep 2019
+
+
+date: 13 fri sep 2019
+
+
+date: 14 sat sep 2019
+
+
+date: 15 sun sep 2019
+
+
+date: 16 mon sep 2019
+
+
+date: 17 tue sep 2019
+
+
+date: 18 wed sep 2019
+
+
+date: 19 thu sep 2019
+
+
+date: 20 fri sep 2019
+
+
+date: 21 sat sep 2019
+
+
+date: 22 sun sep 2019
+time: 9pm
+gap: 7
+pairs: ['71', '75']
+results:
+74-9
+73-9
+72-9
+
+
+
+date: 23 mon sep 2019
+time: 4pm
+gap: 77
+pairs: ['47', '41']
+results:
+48-5
+40-5
+49-5
+
+
+
+date: 24 tue sep 2019
+
+
+date: 25 wed sep 2019
+time: 4pm
+gap: 75
+pairs: ['89', '83']
+results:
+81-8
+82-8
+80-8
+
+
+
+date: 26 thu sep 2019
+
+
+date: 27 fri sep 2019
+
+
+date: 28 sat sep 2019
 
 

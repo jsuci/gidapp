@@ -1,4 +1,4 @@
-updated: 26 fri jul 2019 2
+updated: 28 sat sep 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -468,6 +468,1119 @@ results:
 06-3
 08-7
 07-7
+
+
+
+date: 01 sun sep 2019 0
+gap: 8
+pairs: ['50', '54']
+results:
+52-9
+53-9
+51-0
+
+gap: 22
+pairs: ['92', '96']
+results:
+94-4
+95-5
+93-7
+
+
+
+date: 01 sun sep 2019 1
+gap: 14
+pairs: ['00', '04']
+results:
+01-0
+03-6
+02-6
+
+gap: 15
+pairs: ['10', '14']
+results:
+13-9
+12-9
+11-7
+
+gap: 41
+pairs: ['04', '08']
+results:
+06-3
+05-0
+07-1
+
+
+
+date: 01 sun sep 2019 2
+gap: 13
+pairs: ['88', '82']
+results:
+81-2
+80-4
+89-4
+
+gap: 24
+pairs: ['46', '40']
+results:
+49-4
+48-5
+47-3
+
+
+
+date: 02 mon sep 2019 0
+gap: 13
+pairs: ['50', '54']
+results:
+53-9
+51-6
+52-9
+
+gap: 20
+pairs: ['91', '95']
+results:
+93-5
+92-5
+94-8
+
+gap: 49
+pairs: ['19', '13']
+results:
+11-7
+12-0
+10-7
+
+
+
+date: 02 mon sep 2019 1
+gap: 11
+pairs: ['79', '73']
+results:
+72-4
+71-6
+70-6
+
+gap: 23
+pairs: ['68', '62']
+results:
+61-7
+60-2
+69-7
+
+gap: 24
+pairs: ['52', '56']
+results:
+54-2
+55-9
+53-1
+
+gap: 47
+pairs: ['67', '61']
+results:
+60-2
+68-3
+69-2
+
+
+
+date: 02 mon sep 2019 2
+gap: 12
+pairs: ['22', '26']
+results:
+24-7
+25-4
+23-5
+
+gap: 28
+pairs: ['05', '09']
+results:
+07-5
+06-5
+08-2
+
+gap: 34
+pairs: ['33', '37']
+results:
+35-3
+34-2
+36-0
+
+gap: 42
+pairs: ['75', '79']
+results:
+76-5
+78-0
+77-0
+
+
+
+date: 03 tue sep 2019 0
+gap: 48
+pairs: ['84', '88']
+results:
+87-1
+86-3
+85-1
+
+
+
+date: 03 tue sep 2019 1
+gap: 18
+pairs: ['17', '11']
+results:
+18-2
+19-2
+10-9
+
+
+
+date: 03 tue sep 2019 2
+
+
+date: 04 wed sep 2019 0
+gap: 11
+pairs: ['12', '16']
+results:
+14-0
+13-9
+15-0
+
+gap: 17
+pairs: ['59', '53']
+results:
+52-9
+50-1
+51-0
+
+
+
+date: 04 wed sep 2019 1
+
+
+date: 04 wed sep 2019 2
+gap: 45
+pairs: ['89', '83']
+results:
+82-4
+80-7
+81-4
+
+
+
+date: 05 thu sep 2019 0
+
+
+date: 05 thu sep 2019 1
+
+
+date: 05 thu sep 2019 2
+gap: 13
+pairs: ['09', '03']
+results:
+02-0
+00-1
+01-9
+
+gap: 18
+pairs: ['78', '72']
+results:
+79-6
+70-5
+71-8
+
+
+
+date: 06 fri sep 2019 0
+gap: 33
+pairs: ['03', '07']
+results:
+04-5
+06-5
+05-7
+
+gap: 40
+pairs: ['06', '00']
+results:
+08-4
+09-7
+07-4
+
+gap: 46
+pairs: ['78', '72']
+results:
+70-6
+79-2
+71-6
+
+
+
+date: 06 fri sep 2019 1
+
+
+date: 06 fri sep 2019 2
+gap: 4
+pairs: ['16', '10']
+results:
+18-6
+17-6
+19-7
+
+
+
+date: 07 sat sep 2019 0
+gap: 1
+pairs: ['67', '61']
+results:
+69-1
+60-8
+68-1
+
+
+
+date: 07 sat sep 2019 1
+gap: 3
+pairs: ['75', '79']
+results:
+77-3
+78-3
+76-1
+
+gap: 29
+pairs: ['38', '32']
+results:
+39-5
+30-6
+31-5
+
+
+
+date: 07 sat sep 2019 2
+
+
+date: 08 sun sep 2019 0
+gap: 1
+pairs: ['71', '75']
+results:
+74-5
+72-8
+73-7
+
+gap: 11
+pairs: ['18', '12']
+results:
+11-4
+10-4
+19-3
+
+gap: 33
+pairs: ['78', '72']
+results:
+79-0
+71-1
+70-8
+
+
+
+date: 08 sun sep 2019 1
+gap: 49
+pairs: ['09', '03']
+results:
+01-9
+02-0
+00-7
+
+
+
+date: 08 sun sep 2019 2
+gap: 35
+pairs: ['79', '73']
+results:
+70-9
+72-0
+71-7
+
+gap: 41
+pairs: ['51', '55']
+results:
+54-0
+52-8
+53-7
+
+gap: 46
+pairs: ['58', '52']
+results:
+50-7
+51-3
+59-3
+
+
+
+date: 09 mon sep 2019 0
+gap: 3
+pairs: ['16', '10']
+results:
+17-9
+19-6
+18-6
+
+gap: 20
+pairs: ['50', '54']
+results:
+51-6
+53-9
+52-9
+
+
+
+date: 09 mon sep 2019 1
+
+
+date: 09 mon sep 2019 2
+gap: 18
+pairs: ['16', '10']
+results:
+17-6
+18-2
+19-2
+
+gap: 22
+pairs: ['15', '19']
+results:
+16-5
+17-6
+18-7
+
+gap: 34
+pairs: ['24', '28']
+results:
+25-9
+26-0
+27-9
+
+
+
+date: 10 tue sep 2019 0
+gap: 43
+pairs: ['55', '59']
+results:
+56-3
+58-2
+57-1
+
+
+
+date: 10 tue sep 2019 1
+
+
+date: 10 tue sep 2019 2
+gap: 5
+pairs: ['71', '75']
+results:
+74-9
+72-8
+73-8
+
+
+
+date: 11 wed sep 2019 0
+
+
+date: 11 wed sep 2019 1
+gap: 10
+pairs: ['18', '12']
+results:
+19-7
+11-4
+10-6
+
+
+
+date: 11 wed sep 2019 2
+gap: 9
+pairs: ['16', '10']
+results:
+19-8
+18-6
+17-9
+
+gap: 14
+pairs: ['77', '71']
+results:
+78-2
+79-1
+70-9
+
+
+
+date: 12 thu sep 2019 0
+gap: 37
+pairs: ['78', '72']
+results:
+79-6
+71-8
+70-8
+
+
+
+date: 12 thu sep 2019 1
+gap: 21
+pairs: ['67', '61']
+results:
+68-1
+69-1
+60-7
+
+gap: 36
+pairs: ['48', '42']
+results:
+40-1
+49-8
+41-0
+
+
+
+date: 12 thu sep 2019 2
+
+
+date: 13 fri sep 2019 0
+gap: 2
+pairs: ['80', '84']
+results:
+81-1
+83-2
+82-1
+
+gap: 29
+pairs: ['78', '72']
+results:
+79-2
+70-5
+71-2
+
+gap: 33
+pairs: ['78', '72']
+results:
+71-9
+70-6
+79-8
+
+gap: 36
+pairs: ['73', '77']
+results:
+74-4
+75-6
+76-4
+
+
+
+date: 13 fri sep 2019 1
+gap: 7
+pairs: ['13', '17']
+results:
+16-3
+15-8
+14-8
+
+gap: 38
+pairs: ['60', '64']
+results:
+61-0
+63-0
+62-8
+
+
+
+date: 13 fri sep 2019 2
+gap: 15
+pairs: ['95', '99']
+results:
+98-1
+97-2
+96-1
+
+
+
+date: 14 sat sep 2019 0
+gap: 31
+pairs: ['14', '18']
+results:
+17-6
+15-6
+16-8
+
+
+
+date: 14 sat sep 2019 1
+gap: 8
+pairs: ['88', '82']
+results:
+80-2
+89-1
+81-4
+
+gap: 16
+pairs: ['91', '95']
+results:
+94-7
+92-7
+93-5
+
+gap: 48
+pairs: ['93', '97']
+results:
+95-2
+94-1
+96-2
+
+
+
+date: 14 sat sep 2019 2
+gap: 42
+pairs: ['04', '08']
+results:
+06-1
+05-1
+07-4
+
+gap: 44
+pairs: ['71', '75']
+results:
+74-2
+72-0
+73-2
+
+gap: 46
+pairs: ['62', '66']
+results:
+64-3
+65-0
+63-0
+
+
+
+date: 15 sun sep 2019 0
+gap: 30
+pairs: ['75', '79']
+results:
+78-3
+76-1
+77-3
+
+gap: 49
+pairs: ['49', '43']
+results:
+42-7
+41-9
+40-7
+
+
+
+date: 15 sun sep 2019 1
+
+
+date: 15 sun sep 2019 2
+gap: 31
+pairs: ['16', '10']
+results:
+18-6
+17-6
+19-2
+
+
+
+date: 16 mon sep 2019 0
+gap: 35
+pairs: ['13', '17']
+results:
+14-1
+15-0
+16-3
+
+gap: 46
+pairs: ['00', '04']
+results:
+01-6
+02-7
+03-9
+
+
+
+date: 16 mon sep 2019 1
+
+
+date: 16 mon sep 2019 2
+gap: 28
+pairs: ['92', '96']
+results:
+93-3
+95-3
+94-8
+
+gap: 29
+pairs: ['79', '73']
+results:
+72-8
+70-9
+71-8
+
+
+
+date: 17 tue sep 2019 0
+gap: 1
+pairs: ['57', '51']
+results:
+58-3
+59-0
+50-2
+
+gap: 21
+pairs: ['91', '95']
+results:
+92-2
+94-5
+93-5
+
+
+
+date: 17 tue sep 2019 1
+gap: 6
+pairs: ['01', '05']
+results:
+02-5
+04-2
+03-5
+
+gap: 11
+pairs: ['40', '44']
+results:
+42-8
+43-4
+41-8
+
+
+
+date: 17 tue sep 2019 2
+gap: 1
+pairs: ['56', '50']
+results:
+57-3
+58-3
+59-0
+
+gap: 29
+pairs: ['95', '99']
+results:
+97-1
+96-1
+98-4
+
+
+
+date: 18 wed sep 2019 0
+gap: 39
+pairs: ['35', '39']
+results:
+38-7
+36-0
+37-9
+
+gap: 43
+pairs: ['78', '72']
+results:
+71-6
+79-7
+70-8
+
+gap: 44
+pairs: ['24', '28']
+results:
+27-9
+25-9
+26-7
+
+
+
+date: 18 wed sep 2019 1
+gap: 1
+pairs: ['56', '50']
+results:
+59-6
+57-3
+58-3
+
+gap: 38
+pairs: ['49', '43']
+results:
+41-8
+40-8
+42-3
+
+
+
+date: 18 wed sep 2019 2
+
+
+date: 19 thu sep 2019 0
+gap: 49
+pairs: ['92', '96']
+results:
+94-5
+95-5
+93-0
+
+
+
+date: 19 thu sep 2019 1
+gap: 20
+pairs: ['45', '49']
+results:
+46-3
+48-1
+47-2
+
+
+
+date: 19 thu sep 2019 2
+gap: 1
+pairs: ['68', '62']
+results:
+60-4
+61-6
+69-5
+
+gap: 28
+pairs: ['17', '11']
+results:
+18-2
+10-6
+19-2
+
+
+
+date: 20 fri sep 2019 0
+gap: 17
+pairs: ['15', '19']
+results:
+17-2
+18-5
+16-5
+
+
+
+date: 20 fri sep 2019 1
+gap: 1
+pairs: ['63', '67']
+results:
+65-1
+64-0
+66-1
+
+gap: 35
+pairs: ['17', '11']
+results:
+18-9
+10-0
+19-0
+
+
+
+date: 20 fri sep 2019 2
+gap: 34
+pairs: ['52', '56']
+results:
+54-3
+53-9
+55-9
+
+gap: 36
+pairs: ['90', '94']
+results:
+91-8
+93-1
+92-1
+
+
+
+date: 21 sat sep 2019 0
+
+
+date: 21 sat sep 2019 1
+gap: 4
+pairs: ['50', '54']
+results:
+51-6
+52-9
+53-8
+
+
+
+date: 21 sat sep 2019 2
+gap: 5
+pairs: ['58', '52']
+results:
+51-6
+59-6
+50-9
+
+gap: 23
+pairs: ['66', '60']
+results:
+67-2
+68-0
+69-1
+
+gap: 30
+pairs: ['27', '21']
+results:
+28-0
+20-0
+29-1
+
+
+
+date: 22 sun sep 2019 0
+gap: 11
+pairs: ['26', '20']
+results:
+29-5
+27-1
+28-1
+
+
+
+date: 22 sun sep 2019 1
+gap: 3
+pairs: ['63', '67']
+results:
+64-3
+65-1
+66-1
+
+gap: 36
+pairs: ['15', '19']
+results:
+18-2
+16-9
+17-1
+
+
+
+date: 22 sun sep 2019 2
+gap: 38
+pairs: ['99', '93']
+results:
+92-2
+90-7
+91-2
+
+
+
+date: 23 mon sep 2019 0
+gap: 29
+pairs: ['77', '71']
+results:
+78-4
+79-2
+70-5
+
+
+
+date: 23 mon sep 2019 1
+gap: 10
+pairs: ['62', '66']
+results:
+65-1
+63-3
+64-3
+
+
+
+date: 23 mon sep 2019 2
+gap: 5
+pairs: ['68', '62']
+results:
+60-3
+61-5
+69-5
+
+gap: 17
+pairs: ['67', '61']
+results:
+69-5
+68-6
+60-8
+
+
+
+date: 24 tue sep 2019 0
+gap: 30
+pairs: ['79', '73']
+results:
+72-6
+71-6
+70-5
+
+
+
+date: 24 tue sep 2019 1
+
+
+date: 24 tue sep 2019 2
+
+
+date: 25 wed sep 2019 0
+gap: 2
+pairs: ['17', '11']
+results:
+18-3
+19-2
+10-3
+
+gap: 24
+pairs: ['17', '11']
+results:
+19-4
+18-9
+10-4
+
+
+
+date: 25 wed sep 2019 1
+gap: 34
+pairs: ['69', '63']
+results:
+62-7
+61-5
+60-7
+
+
+
+date: 25 wed sep 2019 2
+gap: 42
+pairs: ['88', '82']
+results:
+80-2
+81-2
+89-6
+
+
+
+date: 26 thu sep 2019 0
+gap: 14
+pairs: ['31', '35']
+results:
+34-6
+33-6
+32-8
+
+
+
+date: 26 thu sep 2019 1
+gap: 28
+pairs: ['92', '96']
+results:
+94-1
+93-3
+95-3
+
+gap: 46
+pairs: ['33', '37']
+results:
+36-1
+35-9
+34-2
+
+
+
+date: 26 thu sep 2019 2
+
+
+date: 27 fri sep 2019 0
+gap: 41
+pairs: ['44', '48']
+results:
+47-8
+46-3
+45-8
+
+
+
+date: 27 fri sep 2019 1
+gap: 13
+pairs: ['22', '26']
+results:
+23-7
+25-9
+24-8
+
+gap: 27
+pairs: ['93', '97']
+results:
+95-2
+94-7
+96-7
+
+gap: 29
+pairs: ['56', '50']
+results:
+58-6
+57-4
+59-3
+
+
+
+date: 27 fri sep 2019 2
+gap: 29
+pairs: ['94', '98']
+results:
+95-6
+97-1
+96-1
+
+gap: 37
+pairs: ['51', '55']
+results:
+52-0
+54-9
+53-2
+
+
+
+date: 28 sat sep 2019 0
+
+
+date: 28 sat sep 2019 1
+gap: 5
+pairs: ['46', '40']
+results:
+49-7
+48-6
+47-8
+
+gap: 30
+pairs: ['90', '94']
+results:
+92-5
+91-7
+93-5
+
+
+
+date: 28 sat sep 2019 2
+gap: 11
+pairs: ['49', '43']
+results:
+42-9
+40-4
+41-9
+
+gap: 43
+pairs: ['78', '72']
+results:
+71-2
+79-6
+70-2
 
 
 

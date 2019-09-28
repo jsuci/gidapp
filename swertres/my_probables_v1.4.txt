@@ -816,3 +816,615 @@ date: 26 fri jul 2019 1
 date: 26 fri jul 2019 2
 
 
+date: 27 sat jul 2019 0
+
+
+date: 27 sat jul 2019 1
+
+
+date: 27 sat jul 2019 2
+
+
+date: 28 sun jul 2019 0
+
+
+date: 28 sun jul 2019 1
+
+
+date: 28 sun jul 2019 2
+
+
+date: 29 mon jul 2019 0
+
+
+date: 29 mon jul 2019 1
+gap: 56
+941
+981
+
+
+
+date: 29 mon jul 2019 2
+
+
+date: 30 tue jul 2019 0
+
+
+date: 30 tue jul 2019 1
+
+
+date: 30 tue jul 2019 2
+
+
+date: 31 wed jul 2019 0
+
+
+date: 31 wed jul 2019 1
+
+
+date: 31 wed jul 2019 2
+
+
+date: 01 thu aug 2019 0
+
+
+date: 01 thu aug 2019 1
+
+
+date: 01 thu aug 2019 2
+
+
+date: 02 fri aug 2019 0
+
+
+date: 02 fri aug 2019 1
+
+
+date: 02 fri aug 2019 2
+
+
+date: 03 sat aug 2019 0
+
+
+date: 03 sat aug 2019 1
+
+
+date: 03 sat aug 2019 2
+
+
+date: 04 sun aug 2019 0
+
+
+date: 04 sun aug 2019 1
+
+
+date: 04 sun aug 2019 2
+
+
+date: 05 mon aug 2019 0
+
+
+date: 05 mon aug 2019 1
+
+
+date: 05 mon aug 2019 2
+
+
+date: 06 tue aug 2019 0
+
+
+date: 06 tue aug 2019 1
+
+
+date: 06 tue aug 2019 2
+
+
+date: 07 wed aug 2019 0
+
+
+date: 07 wed aug 2019 1
+
+
+date: 07 wed aug 2019 2
+
+
+date: 08 thu aug 2019 0
+
+
+date: 08 thu aug 2019 1
+
+
+date: 08 thu aug 2019 2
+
+
+date: 09 fri aug 2019 0
+
+
+date: 09 fri aug 2019 1
+
+
+date: 09 fri aug 2019 2
+
+
+date: 10 sat aug 2019 0
+
+
+date: 10 sat aug 2019 1
+
+
+date: 10 sat aug 2019 2
+
+
+date: 11 sun aug 2019 0
+
+
+date: 11 sun aug 2019 1
+
+
+date: 11 sun aug 2019 2
+gap: 59
+384
+324
+
+
+
+date: 12 mon aug 2019 0
+
+
+date: 12 mon aug 2019 1
+
+
+date: 12 mon aug 2019 2
+
+
+date: 13 tue aug 2019 0
+
+
+date: 13 tue aug 2019 1
+
+
+date: 13 tue aug 2019 2
+
+
+date: 14 wed aug 2019 0
+
+
+date: 14 wed aug 2019 1
+
+
+date: 14 wed aug 2019 2
+
+
+date: 15 thu aug 2019 0
+
+
+date: 15 thu aug 2019 1
+
+
+date: 15 thu aug 2019 2
+
+
+date: 16 fri aug 2019 0
+
+
+date: 16 fri aug 2019 1
+
+
+date: 16 fri aug 2019 2
+
+
+date: 17 sat aug 2019 0
+
+
+date: 17 sat aug 2019 1
+
+
+date: 17 sat aug 2019 2
+
+
+date: 18 sun aug 2019 0
+
+
+date: 18 sun aug 2019 1
+
+
+date: 18 sun aug 2019 2
+
+
+date: 19 mon aug 2019 0
+
+
+date: 19 mon aug 2019 1
+
+
+date: 19 mon aug 2019 2
+
+
+date: 20 tue aug 2019 0
+
+
+date: 20 tue aug 2019 1
+
+
+date: 20 tue aug 2019 2
+
+
+date: 21 wed aug 2019 0
+
+
+date: 21 wed aug 2019 1
+
+
+date: 21 wed aug 2019 2
+
+
+date: 22 thu aug 2019 0
+
+
+date: 22 thu aug 2019 1
+
+
+date: 22 thu aug 2019 2
+
+
+date: 23 fri aug 2019 0
+gap: 7
+397
+337
+
+
+
+date: 23 fri aug 2019 1
+
+
+date: 23 fri aug 2019 2
+
+
+date: 24 sat aug 2019 0
+
+
+date: 24 sat aug 2019 1
+
+
+date: 24 sat aug 2019 2
+
+
+date: 25 sun aug 2019 0
+
+
+date: 25 sun aug 2019 1
+
+
+date: 25 sun aug 2019 2
+
+
+date: 26 mon aug 2019 0
+
+
+date: 26 mon aug 2019 1
+
+
+date: 26 mon aug 2019 2
+
+
+date: 27 tue aug 2019 0
+
+
+date: 27 tue aug 2019 1
+
+
+date: 27 tue aug 2019 2
+
+
+date: 28 wed aug 2019 0
+
+
+date: 28 wed aug 2019 1
+
+
+date: 28 wed aug 2019 2
+
+
+date: 29 thu aug 2019 0
+
+
+date: 29 thu aug 2019 1
+
+
+date: 29 thu aug 2019 2
+
+
+date: 30 fri aug 2019 0
+
+
+date: 30 fri aug 2019 1
+
+
+date: 30 fri aug 2019 2
+
+
+date: 31 sat aug 2019 0
+
+
+date: 31 sat aug 2019 1
+
+
+date: 31 sat aug 2019 2
+
+
+date: 01 sun sep 2019 0
+
+
+date: 01 sun sep 2019 1
+
+
+date: 01 sun sep 2019 2
+
+
+date: 02 mon sep 2019 0
+gap: 33
+445
+485
+
+
+
+date: 02 mon sep 2019 1
+
+
+date: 02 mon sep 2019 2
+
+
+date: 03 tue sep 2019 0
+
+
+date: 03 tue sep 2019 1
+
+
+date: 03 tue sep 2019 2
+gap: 25
+302
+342
+
+
+
+date: 04 wed sep 2019 0
+
+
+date: 04 wed sep 2019 1
+
+
+date: 04 wed sep 2019 2
+
+
+date: 05 thu sep 2019 0
+
+
+date: 05 thu sep 2019 1
+gap: 83
+590
+530
+
+
+
+date: 05 thu sep 2019 2
+
+
+date: 06 fri sep 2019 0
+
+
+date: 06 fri sep 2019 1
+
+
+date: 06 fri sep 2019 2
+
+
+date: 07 sat sep 2019 0
+
+
+date: 07 sat sep 2019 1
+
+
+date: 07 sat sep 2019 2
+
+
+date: 08 sun sep 2019 0
+
+
+date: 08 sun sep 2019 1
+
+
+date: 08 sun sep 2019 2
+
+
+date: 09 mon sep 2019 0
+
+
+date: 09 mon sep 2019 1
+
+
+date: 09 mon sep 2019 2
+
+
+date: 10 tue sep 2019 0
+
+
+date: 10 tue sep 2019 1
+
+
+date: 10 tue sep 2019 2
+
+
+date: 11 wed sep 2019 0
+
+
+date: 11 wed sep 2019 1
+
+
+date: 11 wed sep 2019 2
+
+
+date: 12 thu sep 2019 0
+
+
+date: 12 thu sep 2019 1
+
+
+date: 12 thu sep 2019 2
+
+
+date: 13 fri sep 2019 0
+
+
+date: 13 fri sep 2019 1
+
+
+date: 13 fri sep 2019 2
+
+
+date: 14 sat sep 2019 0
+
+
+date: 14 sat sep 2019 1
+
+
+date: 14 sat sep 2019 2
+
+
+date: 15 sun sep 2019 0
+
+
+date: 15 sun sep 2019 1
+
+
+date: 15 sun sep 2019 2
+
+
+date: 16 mon sep 2019 0
+
+
+date: 16 mon sep 2019 1
+
+
+date: 16 mon sep 2019 2
+
+
+date: 17 tue sep 2019 0
+
+
+date: 17 tue sep 2019 1
+
+
+date: 17 tue sep 2019 2
+
+
+date: 18 wed sep 2019 0
+
+
+date: 18 wed sep 2019 1
+
+
+date: 18 wed sep 2019 2
+
+
+date: 19 thu sep 2019 0
+
+
+date: 19 thu sep 2019 1
+
+
+date: 19 thu sep 2019 2
+
+
+date: 20 fri sep 2019 0
+
+
+date: 20 fri sep 2019 1
+
+
+date: 20 fri sep 2019 2
+gap: 51
+928
+968
+
+
+
+date: 21 sat sep 2019 0
+
+
+date: 21 sat sep 2019 1
+
+
+date: 21 sat sep 2019 2
+
+
+date: 22 sun sep 2019 0
+
+
+date: 22 sun sep 2019 1
+
+
+date: 22 sun sep 2019 2
+
+
+date: 23 mon sep 2019 0
+
+
+date: 23 mon sep 2019 1
+gap: 23
+719
+759
+
+
+
+date: 23 mon sep 2019 2
+
+
+date: 24 tue sep 2019 0
+
+
+date: 24 tue sep 2019 1
+
+
+date: 24 tue sep 2019 2
+
+
+date: 25 wed sep 2019 0
+
+
+date: 25 wed sep 2019 1
+
+
+date: 25 wed sep 2019 2
+gap: 22
+518
+558
+
+
+
+date: 26 thu sep 2019 0
+
+
+date: 26 thu sep 2019 1
+
+
+date: 26 thu sep 2019 2
+
+
+date: 27 fri sep 2019 0
+
+
+date: 27 fri sep 2019 1
+
+
+date: 27 fri sep 2019 2
+
+
+date: 28 sat sep 2019 0
+
+
+date: 28 sat sep 2019 1
+
+
+date: 28 sat sep 2019 2
+
+
