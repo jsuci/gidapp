@@ -1,13 +1,7 @@
-"""
-Get all results from results_v1.txt and transfer it
-to excel with some digits being filtered
-"""
-
-from openpyxl import *
-from openpyxl.utils import *
-from openpyxl.styles import *
-from itertools import *
-from random import *
+from openpyxl import Workbook
+from openpyxl.styles import Font, Alignment, PatternFill
+from itertools import islice
+from random import randint
 
 
 def get_results():
@@ -59,10 +53,6 @@ def export_to_excel():
                     rowCount, colCount + header_start).alignment = alignment
                 sheet.cell(
                     rowCount, colCount + header_start).value = int(digit)
-
-                # if str(num) in result:
-                #     sheet.cell(
-                #         rowCount, colCount + header_start).fill = digit_fill
 
                 if num == int(digit):
                     sheet.cell(
