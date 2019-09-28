@@ -1,8 +1,2 @@
-swertres/.vscode
-swertres/.xlsx
-swertres/prev_excel/.xlsx
-stl/.vscode
-stl/.xlsx
-stl/prev_excel/.xlsx
-.vscode
-.xlsx
+*.vscode
+*.xlsx
