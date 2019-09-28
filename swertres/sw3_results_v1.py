@@ -159,7 +159,7 @@ def main():
         output, curr_date, index, status_code = get_results(
             file_month, curr_date, file_year)
 
-        if status_code != 404:
+        if status_code == 200:
             new_date, new_time = export_results(
                 output, index, file_date, file_time)
 
@@ -172,6 +172,10 @@ def main():
                 file_month += 1
 
             sleep(5)
+
+        elif status_code == 500:
+            file_month += 1
+
         else:
             break
 

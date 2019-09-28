@@ -190,6 +190,10 @@ def main():
                 file_month += 1
 
             sleep(5)
+
+        elif status_code == 500:
+            file_month += 1
+
         else:
             break
 
