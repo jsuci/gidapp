@@ -3304,3 +3304,7 @@ sample:
     59-7
     50-7
     51-7
+
+--------------------------
+CURRENTLY OBSERVE PATTERNS AND SCRIPT
+1. follow my_probables_2.4.txt for swertres draws. only bet according to its draw time ex. 4pm or 9pm. Use this in combination with other script like script_filter_gap_excel.py to minimize bet cost

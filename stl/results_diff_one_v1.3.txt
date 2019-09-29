@@ -1,4 +1,4 @@
-updated: 28 sat sep 2019 2
+updated: 29 sun sep 2019 1
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -1581,6 +1581,26 @@ results:
 71-2
 79-6
 70-2
+
+
+
+date: 29 sun sep 2019 0
+gap: 32
+pairs: ['90', '94']
+results:
+92-5
+93-3
+91-3
+
+
+
+date: 29 sun sep 2019 1
+gap: 19
+pairs: ['31', '35']
+results:
+32-7
+33-6
+34-4
 
 
 

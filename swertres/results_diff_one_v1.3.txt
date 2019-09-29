@@ -1,4 +1,4 @@
-updated: 28 sat sep 2019 2
+updated: 29 sun sep 2019 1
 
 date: 14 sun jul 2019 0
 
@@ -3008,5 +3008,46 @@ results:
 
 
 date: 28 sat sep 2019 2
+
+
+date: 29 sun sep 2019 0
+gap: 5
+pairs: ['72', '76']
+results:
+74-5
+75-4
+73-5
+
+gap: 6
+pairs: ['77', '71']
+results:
+78-5
+79-2
+70-2
+
+gap: 33
+pairs: ['12', '16']
+results:
+15-9
+14-1
+13-2
+
+
+
+date: 29 sun sep 2019 1
+gap: 13
+pairs: ['76', '70']
+results:
+78-4
+77-1
+79-4
+
+gap: 17
+pairs: ['72', '76']
+results:
+73-3
+75-1
+74-3
+
 
 
