@@ -2,7 +2,7 @@
 
 clear
 echo "PROCESSING SW3:"
-cd /sdcard/Download/gidapp/swertres
+cd /sdcard/Download/repo/gidapp/swertres
 echo
 echo "Fetching Results:"
 python sw3_results_v1.py
@@ -22,7 +22,7 @@ echo
 echo
 echo
 echo "PROCESSING STL:"
-cd /sdcard/Download/gidapp/stl
+cd /sdcard/Download/repo/gidapp/stl
 echo
 echo "Fetching Results:"
 python stl_results_v1.py
@@ -40,12 +40,12 @@ python script_count_missing_v1.1.py
 echo
 echo
 echo "Current SW3 Results:"
-cd /sdcard/Download/gidapp/swertres
+cd /sdcard/Download/repo/gidapp/swertres
 python script_current_results.py
 echo
 echo
 echo "Current STL Results:"
-cd /sdcard/Download/gidapp/stl
+cd /sdcard/Download/repo/gidapp/stl
 python script_current_results.py
 echo
 echo
