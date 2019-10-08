@@ -1,4 +1,4 @@
-updated: 29 sun sep 2019 1
+updated: 06 sun oct 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -1602,5 +1602,288 @@ results:
 33-6
 34-4
 
+
+
+date: 29 sun sep 2019 2
+
+
+date: 30 mon sep 2019 0
+
+
+date: 30 mon sep 2019 1
+gap: 16
+pairs: ['47', '41']
+results:
+49-2
+40-6
+48-2
+
+gap: 41
+pairs: ['56', '50']
+results:
+58-3
+59-4
+57-6
+
+
+
+date: 30 mon sep 2019 2
+gap: 4
+pairs: ['55', '59']
+results:
+58-2
+56-2
+57-2
+
+gap: 48
+pairs: ['99', '93']
+results:
+90-4
+92-5
+91-4
+
+
+
+date: 01 tue oct 2019 0
+gap: 14
+pairs: ['62', '66']
+results:
+65-1
+64-3
+63-3
+
+
+
+date: 01 tue oct 2019 1
+gap: 17
+pairs: ['22', '26']
+results:
+23-8
+25-7
+24-8
+
+gap: 35
+pairs: ['51', '55']
+results:
+52-7
+54-7
+53-6
+
+
+
+date: 01 tue oct 2019 2
+
+
+date: 02 wed oct 2019 0
+gap: 2
+pairs: ['82', '86']
+results:
+83-4
+84-2
+85-2
+
+gap: 26
+pairs: ['16', '10']
+results:
+19-2
+17-2
+18-6
+
+
+
+date: 02 wed oct 2019 1
+
+
+date: 02 wed oct 2019 2
+
+
+date: 03 thu oct 2019 0
+gap: 33
+pairs: ['33', '37']
+results:
+36-0
+35-0
+34-6
+
+
+
+date: 03 thu oct 2019 1
+gap: 44
+pairs: ['64', '68']
+results:
+66-1
+67-1
+65-7
+
+gap: 46
+pairs: ['68', '62']
+results:
+69-5
+61-5
+60-2
+
+
+
+date: 03 thu oct 2019 2
+gap: 3
+pairs: ['41', '45']
+results:
+42-5
+43-8
+44-6
+
+gap: 47
+pairs: ['94', '98']
+results:
+96-5
+97-1
+95-5
+
+
+
+date: 04 fri oct 2019 0
+
+
+date: 04 fri oct 2019 1
+gap: 11
+pairs: ['47', '41']
+results:
+40-8
+49-7
+48-7
+
+gap: 27
+pairs: ['94', '98']
+results:
+97-2
+95-0
+96-1
+
+
+
+date: 04 fri oct 2019 2
+
+
+date: 05 sat oct 2019 0
+gap: 2
+pairs: ['14', '18']
+results:
+17-7
+16-4
+15-7
+
+gap: 8
+pairs: ['55', '59']
+results:
+57-1
+58-2
+56-1
+
+gap: 26
+pairs: ['55', '59']
+results:
+56-1
+57-3
+58-1
+
+gap: 30
+pairs: ['49', '43']
+results:
+42-9
+40-9
+41-1
+
+
+
+date: 05 sat oct 2019 1
+gap: 15
+pairs: ['26', '20']
+results:
+28-4
+29-4
+27-5
+
+gap: 23
+pairs: ['25', '29']
+results:
+26-5
+27-5
+28-0
+
+gap: 34
+pairs: ['15', '19']
+results:
+17-8
+18-1
+16-0
+
+
+
+date: 05 sat oct 2019 2
+gap: 5
+pairs: ['62', '66']
+results:
+65-3
+63-5
+64-4
+
+gap: 8
+pairs: ['44', '48']
+results:
+47-7
+46-4
+45-5
+
+gap: 24
+pairs: ['69', '63']
+results:
+62-5
+60-4
+61-3
+
+
+
+date: 06 sun oct 2019 0
+gap: 6
+pairs: ['55', '59']
+results:
+56-3
+57-2
+58-2
+
+gap: 24
+pairs: ['26', '20']
+results:
+29-4
+27-5
+28-3
+
+
+
+date: 06 sun oct 2019 1
+gap: 28
+pairs: ['52', '56']
+results:
+55-4
+53-7
+54-7
+
+gap: 40
+pairs: ['34', '38']
+results:
+37-2
+35-4
+36-5
+
+gap: 44
+pairs: ['68', '62']
+results:
+61-0
+69-1
+60-3
+
+
+
+date: 06 sun oct 2019 2
 
 

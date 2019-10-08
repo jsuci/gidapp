@@ -19,7 +19,7 @@ def date_gap():
     output = []
     found = False
 
-    with open("results_diff_one_v2.3.txt", "r") as f1, \
+    with open("results_diff_one_v2.3.1.txt", "r") as f1, \
             open("results_v2.txt", "r") as f2:
 
         prev_date = f1.readline().strip().replace("updated: ", "", 1)
@@ -103,15 +103,16 @@ def get_gap_results(time_results):
 
                     step += (gap + 1)
 
-                if len(temp_results) == 3:
+                if len(temp_results) == 2:
                     break
 
-            if len(temp_results) < 3:
+            if len(temp_results) < 2:
                 break
             else:
                 gap_results.setdefault(time, {})
                 gap_results[time].setdefault(gap, temp_results)
 
+    # print(gap_results)
     return gap_results
 
 
@@ -185,19 +186,21 @@ def seq_type(digits):
 
         # Filter diff_two
         if (
-            diff_one_count == 1 and
-            diff_two_count == 1 and
-            diff_none_count != 2
+            diff_two_count == 1 and diff_none_count != 2
         ):
             return "diff_two"
 
+        # Filter error_seq
+        if diff_none_count >= 2:
+            return "error_seq"
+
         # Filter gap_one
-        if (
-            diff_one_count != 0 and
-            diff_two_count == 1 and
-            diff_none_count != 2
-        ):
-            return "gap_one"
+        # if (
+        #     diff_one_count != 0 and
+        #     diff_two_count == 1 and
+        #     diff_none_count != 2
+        # ):
+        #     return "gap_one"
 
 
 def possible_digits(sequence, seq_type):
@@ -243,20 +246,18 @@ def possible_digits(sequence, seq_type):
 
         sort_entry = sorted([str(e) for e in sequence])
 
+        # Filter and fix 0 and 9 output for diff_one
+        # Hard coded length of values change as needed
         if (
-            '0' in sort_entry and
-            '1' in sort_entry and
-            '9' in sort_entry
+            '0' in sort_entry and '1' in sort_entry
         ):
-            start_digit = minus_one('9')
+            start_digit = minus_one('0')
             last_digit = plus_one('1')
 
         elif (
-            '0' in sort_entry and
-            '8' in sort_entry and
-            '9' in sort_entry
+            '0' in sort_entry and '9' in sort_entry
         ):
-            start_digit = minus_one('8')
+            start_digit = minus_one('9')
             last_digit = plus_one('0')
 
         else:
@@ -312,7 +313,7 @@ def possible_digits(sequence, seq_type):
         output = diff_zero_next(sequence)
 
     else:
-        output = "invalid seq_type"
+        output = []
 
     return output
 
@@ -334,9 +335,10 @@ def classify_results(results):
     all_pairs = []
     all_combi = []
 
-    # Process the first element of results
+    # Compare the first digit of the first result to the next digit
+    # of the next result
     for digit in results[0]:
-        if digit in results[1] and digit in results[2]:
+        if digit in results[1]:
             common = digit
             results = [results[i].replace(digit, "", 1)
                        for i in range(len(results))]
@@ -344,13 +346,13 @@ def classify_results(results):
 
     # Process the second element of results
     for seq in product(*results):
-        if common and seq_type(seq) == "diff_one":
+        if common and seq_type(seq) != "error_seq":
             # results = ['45', '56', '67']
             # common = 3
             # seq = ('4', '5', '6')
 
             # all_pairs = ['33', '37', '34', '38']
-            pf_digits = possible_digits(seq, "diff_one")
+            pf_digits = possible_digits(seq, seq_type(seq))
             pairs = [x + y for x, y in product(common, pf_digits)]
             all_pairs.extend(pairs)
 
@@ -380,8 +382,8 @@ def classify_results(results):
 
 def find_diff_one():
 
-    with open("results_diff_one_v2.3.txt", "a") as fo, \
-            open("my_probables_v2.3.txt", "a") as fp:
+    with open("results_diff_one_v2.3.1.txt", "a") as fo, \
+            open("my_probables_v2.3.1.txt", "a") as fp:
 
         for prev_date in date_gap():
 
@@ -401,6 +403,7 @@ def find_diff_one():
                         print("time: {}".format(time))
                         print("gap: {}".format(gap))
                         print("pairs: {}".format(pairs))
+                        print(f"combis: {all_combi}")
                         print("results:")
 
                         fo.write("time: {}\n".format(time))
@@ -408,6 +411,7 @@ def find_diff_one():
                         fo.write("gap: {}\n".format(gap))
                         fp.write("gap: {}\n".format(gap))
                         fo.write("pairs: {}\n".format(pairs))
+                        fo.write(f"combis: {all_combi}\n")
                         fo.write("results:\n")
 
                         for res in reversed(results):
@@ -428,7 +432,7 @@ def find_diff_one():
             fp.write("\n\n")
 
     if date_gap():
-        with fileinput.input("results_diff_one_v2.3.txt", inplace=True) as fio:
+        with fileinput.input("results_diff_one_v2.3.1.txt", inplace=True) as fio:
             for entry in fio:
                 if "updated:" in entry:
                     print("updated: {}".format(date_gap()[-1]))
@@ -438,6 +442,7 @@ def find_diff_one():
 
 def main():
     find_diff_one()
+    # print(classify_results(["894", "852"]))
 
 
 if __name__ == "__main__":

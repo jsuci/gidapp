@@ -1,4 +1,4 @@
-updated: 28 sat sep 2019
+updated: 06 sun oct 2019
 
 date: 03 thu jan 2013
 
@@ -9441,5 +9441,37 @@ date: 27 fri sep 2019
 
 
 date: 28 sat sep 2019
+
+
+date: 29 sun sep 2019
+time: 11am
+gap: 89
+pairs: ['16', '10']
+results:
+18-5
+19-5
+17-5
+
+
+
+date: 30 mon sep 2019
+
+
+date: 01 tue oct 2019
+
+
+date: 02 wed oct 2019
+
+
+date: 03 thu oct 2019
+
+
+date: 04 fri oct 2019
+
+
+date: 05 sat oct 2019
+
+
+date: 06 sun oct 2019
 
 

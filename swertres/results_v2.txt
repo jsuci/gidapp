@@ -1,4 +1,4 @@
-updated: 29 sun sep 2019 1
+updated: 06 sun oct 2019 2
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2421,4 +2421,11 @@ updated: 29 sun sep 2019 1
 26 thu sep 2019       103       333       681
 27 fri sep 2019       857       475       146
 28 sat sep 2019       951       671       232
-29 sun sep 2019       119       377
+29 sun sep 2019       119       377       773
+30 mon sep 2019       526       931       904
+01 tue oct 2019       467       103       732
+02 wed oct 2019       539       545       024
+03 thu oct 2019       548       484       664
+04 fri oct 2019       624       642       144
+05 sat oct 2019       214       483       599
+06 sun oct 2019       931       388       562

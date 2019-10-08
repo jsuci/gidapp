@@ -1102,3 +1102,201 @@ gap: 19
 
 
 
+date: 29 sun sep 2019 2
+
+
+date: 30 mon sep 2019 0
+
+
+date: 30 mon sep 2019 1
+gap: 16
+476
+416
+
+gap: 41
+565
+505
+
+
+
+date: 30 mon sep 2019 2
+gap: 4
+552
+592
+
+gap: 48
+995
+935
+
+
+
+date: 01 tue oct 2019 0
+gap: 14
+621
+661
+
+
+
+date: 01 tue oct 2019 1
+gap: 17
+227
+267
+
+gap: 35
+516
+556
+
+
+
+date: 01 tue oct 2019 2
+
+
+date: 02 wed oct 2019 0
+gap: 2
+824
+864
+
+gap: 26
+166
+106
+
+
+
+date: 02 wed oct 2019 1
+
+
+date: 02 wed oct 2019 2
+
+
+date: 03 thu oct 2019 0
+gap: 33
+336
+376
+
+
+
+date: 03 thu oct 2019 1
+gap: 44
+647
+687
+
+gap: 46
+682
+622
+
+
+
+date: 03 thu oct 2019 2
+gap: 3
+417
+457
+
+gap: 47
+941
+981
+
+
+
+date: 04 fri oct 2019 0
+
+
+date: 04 fri oct 2019 1
+gap: 11
+478
+418
+
+gap: 27
+949
+943
+989
+983
+
+
+
+date: 04 fri oct 2019 2
+
+
+date: 05 sat oct 2019 0
+gap: 2
+144
+184
+
+gap: 8
+552
+592
+
+gap: 26
+553
+593
+
+gap: 30
+491
+431
+
+
+
+date: 05 sat oct 2019 1
+gap: 15
+265
+205
+
+gap: 23
+250
+290
+
+gap: 34
+159
+199
+
+
+
+date: 05 sat oct 2019 2
+gap: 5
+622
+626
+662
+666
+
+gap: 8
+446
+486
+
+gap: 24
+692
+696
+632
+636
+
+
+
+date: 06 sun oct 2019 0
+gap: 6
+553
+593
+
+gap: 24
+262
+266
+202
+206
+
+
+
+date: 06 sun oct 2019 1
+gap: 28
+524
+564
+
+gap: 40
+343
+383
+
+gap: 44
+682
+622
+
+
+
+date: 06 sun oct 2019 2
+
+

@@ -410,7 +410,7 @@ def find_diff_one():
                         fo.write("pairs: {}\n".format(pairs))
                         fo.write("results:\n")
 
-                        for res in results:
+                        for res in reversed(results):
                             print(res)
                             fo.write("{}\n".format(res))
 
