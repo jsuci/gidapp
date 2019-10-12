@@ -1,4 +1,4 @@
-updated: 06 sun oct 2019 2
+updated: 12 sat oct 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -3388,5 +3388,220 @@ results:
 
 
 date: 06 sun oct 2019 2
+
+
+date: 07 mon oct 2019 0
+
+
+date: 07 mon oct 2019 1
+
+
+date: 07 mon oct 2019 2
+
+
+date: 08 tue oct 2019 0
+gap: 10
+pairs: ['43', '47']
+results:
+44-1
+46-7
+45-7
+
+
+
+date: 08 tue oct 2019 1
+gap: 42
+pairs: ['10', '14']
+results:
+13-2
+12-2
+11-0
+
+gap: 48
+pairs: ['01', '05']
+results:
+02-7
+04-1
+03-7
+
+
+
+date: 08 tue oct 2019 2
+gap: 44
+pairs: ['07', '01']
+results:
+09-1
+00-2
+08-2
+
+
+
+date: 09 wed oct 2019 0
+gap: 45
+pairs: ['17', '11']
+results:
+19-0
+18-1
+10-8
+
+
+
+date: 09 wed oct 2019 1
+gap: 23
+pairs: ['71', '75']
+results:
+72-3
+73-3
+74-9
+
+gap: 35
+pairs: ['45', '49']
+results:
+46-1
+47-9
+48-9
+
+
+
+date: 09 wed oct 2019 2
+gap: 38
+pairs: ['56', '50']
+results:
+58-7
+57-8
+59-5
+
+gap: 46
+pairs: ['10', '14']
+results:
+13-2
+11-8
+12-2
+
+
+
+date: 10 thu oct 2019 0
+gap: 24
+pairs: ['34', '38']
+results:
+35-9
+37-3
+36-9
+
+gap: 38
+pairs: ['46', '40']
+results:
+47-5
+48-9
+49-9
+
+gap: 45
+pairs: ['83', '87']
+results:
+84-7
+85-7
+86-0
+
+
+
+date: 10 thu oct 2019 1
+gap: 13
+pairs: ['17', '11']
+results:
+19-3
+10-3
+18-6
+
+gap: 32
+pairs: ['36', '30']
+results:
+37-7
+38-3
+39-7
+
+
+
+date: 10 thu oct 2019 2
+gap: 19
+pairs: ['60', '64']
+results:
+62-4
+61-4
+63-7
+
+
+
+date: 11 fri oct 2019 0
+gap: 6
+pairs: ['62', '66']
+results:
+63-4
+65-2
+64-2
+
+gap: 13
+pairs: ['51', '55']
+results:
+52-6
+53-9
+54-7
+
+
+
+date: 11 fri oct 2019 1
+gap: 24
+pairs: ['45', '49']
+results:
+48-4
+47-8
+46-8
+
+
+
+date: 11 fri oct 2019 2
+gap: 7
+pairs: ['22', '26']
+results:
+23-9
+25-6
+24-6
+
+gap: 14
+pairs: ['56', '50']
+results:
+58-8
+59-3
+57-8
+
+
+
+date: 12 sat oct 2019 0
+
+
+date: 12 sat oct 2019 1
+gap: 10
+pairs: ['35', '39']
+results:
+36-4
+38-4
+37-2
+
+
+
+date: 12 sat oct 2019 2
+gap: 14
+pairs: ['56', '50']
+results:
+57-4
+58-4
+59-1
+
+gap: 46
+pairs: ['42', '46']
+results:
+45-7
+43-7
+44-1
+
 
 

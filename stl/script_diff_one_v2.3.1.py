@@ -390,7 +390,8 @@ def find_diff_one():
 
             time_results = get_time_results(prev_date)
             total_combi = []
-            common_combi = {}
+            time_combi = {}
+            common_combi = set()
 
             for time, gap_results in get_gap_results(time_results).items():
                 for gap, results in gap_results.items():
@@ -398,27 +399,21 @@ def find_diff_one():
                     if results and classify_results(results) is not None:
                         results, pairs, all_combi = classify_results(results)
 
-                        # total_combi.extend(all_combi)
+                        time_combi.setdefault(time, [])
 
                         for combi in all_combi:
                             combi = "".join(sorted(combi))
 
-                            if combi not in total_combi:
-                                total_combi.append(combi)
-                            else:
-                                if combi not in common_combi:
-                                    common_combi[combi] = 2
-                                else:
-                                    common_combi[combi] += 1
+                            total_combi.append(combi)
+
+                            if combi not in time_combi[time]:
+                                time_combi[time].append(combi)
 
                         print("time: {}".format(time))
                         print("gap: {}".format(gap))
                         print("pairs: {}".format(pairs))
                         print(f"combis: {all_combi}")
                         print("results:")
-
-                        # fp.write("gap: {}\n".format(gap))
-                        # fp.write("time: {}\n".format(time))
 
                         fo.write("time: {}\n".format(time))
                         fo.write("gap: {}\n".format(gap))
@@ -430,40 +425,49 @@ def find_diff_one():
                             print(res)
                             fo.write("{}\n".format(res))
 
-                        # for probables in all_combi:
-                        #     fp.write("{}\n".format(probables))
-
                         print("\n")
                         fo.write("\n")
 
-            # For total_combi output
-            total_combi = sorted(total_combi)
+            for digits in total_combi:
+                if total_combi.count(digits) > 1:
+                    common_combi.add(f"{digits} ({total_combi.count(digits)})")
 
-            fp.write(f"total_combi:")
-            for count, probables in enumerate(total_combi):
-                if count % 5 == 0:
-                    fp.write(f"\n")
-                elif count == len(total_combi) - 1:
-                    fp.write(f"{probables}")
-                else:
-                    fp.write(f"{probables}, ")
+            # For total_combi output
+            # fp.write(f"total_combi:")
+            # for count, probables in enumerate(total_combi):
+            #     if count % 5 == 0:
+            #         fp.write(f"\n")
+            #     elif count == len(total_combi) - 1:
+            #         fp.write(f"{probables}")
+            #     else:
+            #         fp.write(f"{probables}, ")
+
+            # fp.write("\n\n")
+
+            # For time_combi output
+            fp.write("time_combi:\n")
+            for k, v in time_combi.items():
+                fp.write(f"{k}:")
+                for c, digits in enumerate(v):
+                    if c % 5 == 0:
+                        fp.write("\n")
+                    elif c == len(v) - 1:
+                        fp.write(f"{digits}\n\n")
+                    else:
+                        fp.write(f"{digits}, ")
 
             fp.write("\n\n")
 
             # For common_combi output
             fp.write("common_combi:")
-            c_count = 0
 
-            for key, value in common_combi.items():
-
-                if c_count % 3 == 0:
+            for count, probables in enumerate(common_combi):
+                if count % 3 == 0:
                     fp.write(f"\n")
-                if c_count == len(common_combi) - 1:
-                    fp.write(f"{key} ({value})")
+                elif count == len(common_combi) - 1:
+                    fp.write(f"{probables}")
                 else:
-                    fp.write(f"{key} ({value}), ")
-
-                c_count += 1
+                    fp.write(f"{probables}, ")
 
             print("\n")
             fo.write("\n\n")

@@ -1,4 +1,4 @@
-updated: 06 sun oct 2019
+updated: 12 sat oct 2019
 
 date: 17 fri nov 2017
 
@@ -21368,6 +21368,304 @@ results:
 47-0
 49-0
 48-2
+
+
+
+date: 07 mon oct 2019
+time: 11am
+gap: 5
+pairs: ['50', '54']
+results:
+51-6
+52-7
+53-6
+
+time: 11am
+gap: 28
+pairs: ['46', '40']
+results:
+48-8
+49-6
+47-9
+
+time: 11am
+gap: 32
+pairs: ['72', '76']
+results:
+75-7
+74-0
+73-8
+
+time: 11am
+gap: 39
+pairs: ['95', '99']
+results:
+97-4
+98-4
+96-1
+
+time: 11am
+gap: 43
+pairs: ['32', '36']
+results:
+35-7
+33-7
+34-6
+
+time: 4pm
+gap: 2
+pairs: ['50', '54']
+results:
+52-8
+51-7
+53-8
+
+time: 4pm
+gap: 22
+pairs: ['00', '04']
+results:
+03-9
+01-5
+02-5
+
+time: 4pm
+gap: 35
+pairs: ['55', '59']
+results:
+58-0
+57-1
+56-1
+
+time: 9pm
+gap: 7
+pairs: ['47', '41']
+results:
+49-0
+48-7
+40-8
+
+
+
+date: 08 tue oct 2019
+time: 11am
+gap: 36
+pairs: ['16', '10']
+results:
+18-5
+19-5
+17-9
+
+time: 11am
+gap: 37
+pairs: ['72', '76']
+results:
+75-4
+73-5
+74-4
+
+time: 4pm
+gap: 45
+pairs: ['77', '71']
+results:
+79-5
+78-0
+70-5
+
+time: 4pm
+gap: 46
+pairs: ['58', '52']
+results:
+59-5
+50-5
+51-0
+
+
+
+date: 09 wed oct 2019
+time: 11am
+gap: 8
+pairs: ['01', '05']
+results:
+02-4
+03-6
+04-6
+
+time: 11am
+gap: 15
+pairs: ['16', '10']
+results:
+19-0
+17-9
+18-7
+
+time: 11am
+gap: 43
+pairs: ['54', '58']
+results:
+55-4
+57-3
+56-4
+
+time: 11am
+gap: 48
+pairs: ['91', '95']
+results:
+93-0
+94-2
+92-1
+
+time: 4pm
+gap: 17
+pairs: ['12', '16']
+results:
+15-0
+14-1
+13-0
+
+time: 4pm
+gap: 29
+pairs: ['15', '19']
+results:
+17-2
+16-3
+18-2
+
+time: 4pm
+gap: 33
+pairs: ['74', '78']
+results:
+76-0
+75-0
+77-3
+
+
+
+date: 10 thu oct 2019
+time: 11am
+gap: 17
+pairs: ['70', '74']
+results:
+71-8
+73-8
+72-3
+
+time: 11am
+gap: 26
+pairs: ['75', '79']
+results:
+77-0
+78-1
+76-2
+
+time: 9pm
+gap: 22
+pairs: ['63', '67']
+results:
+64-4
+65-3
+66-1
+
+
+
+date: 11 fri oct 2019
+time: 11am
+gap: 17
+pairs: ['88', '82']
+results:
+89-4
+80-6
+81-7
+
+time: 11am
+gap: 38
+pairs: ['43', '47']
+results:
+45-7
+46-0
+44-9
+
+time: 4pm
+gap: 5
+pairs: ['80', '84']
+results:
+83-1
+82-4
+81-4
+
+time: 4pm
+gap: 29
+pairs: ['15', '19']
+results:
+17-0
+16-8
+18-1
+
+time: 4pm
+gap: 46
+pairs: ['92', '96']
+results:
+95-7
+94-5
+93-5
+
+time: 9pm
+gap: 23
+pairs: ['65', '69']
+results:
+68-3
+67-1
+66-1
+
+
+
+date: 12 sat oct 2019
+time: 11am
+gap: 1
+pairs: ['64', '68']
+results:
+66-5
+67-0
+65-0
+
+time: 11am
+gap: 24
+pairs: ['68', '62']
+results:
+60-3
+61-5
+69-5
+
+time: 11am
+gap: 47
+pairs: ['53', '57']
+results:
+55-3
+56-0
+54-0
+
+time: 9pm
+gap: 1
+pairs: ['33', '37']
+results:
+36-0
+34-5
+35-5
+
+time: 9pm
+gap: 9
+pairs: ['26', '20']
+results:
+28-4
+29-1
+27-4
+
+time: 9pm
+gap: 25
+pairs: ['67', '61']
+results:
+69-2
+60-3
+68-5
 
 
 

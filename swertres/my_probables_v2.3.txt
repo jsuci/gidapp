@@ -121871,3 +121871,173 @@ gap: 47
 
 
 
+date: 07 mon oct 2019
+time: 9pm
+gap: 48
+340
+380
+
+
+
+date: 08 tue oct 2019
+time: 11am
+gap: 14
+071
+011
+
+time: 11am
+gap: 20
+186
+126
+
+time: 4pm
+gap: 35
+560
+500
+
+time: 9pm
+gap: 7
+719
+759
+
+time: 9pm
+gap: 11
+451
+491
+
+time: 9pm
+gap: 24
+387
+327
+
+time: 9pm
+gap: 35
+463
+403
+
+
+
+date: 09 wed oct 2019
+time: 11am
+gap: 12
+566
+506
+
+time: 11am
+gap: 39
+482
+422
+
+time: 4pm
+gap: 12
+465
+405
+
+time: 4pm
+gap: 25
+864
+804
+
+time: 4pm
+gap: 39
+947
+987
+
+time: 9pm
+gap: 10
+363
+303
+
+time: 9pm
+gap: 23
+852
+892
+
+time: 9pm
+gap: 41
+674
+614
+
+time: 9pm
+gap: 45
+905
+945
+
+time: 9pm
+gap: 46
+164
+104
+
+
+
+date: 10 thu oct 2019
+time: 11am
+gap: 40
+429
+469
+
+time: 4pm
+gap: 28
+179
+119
+
+time: 4pm
+gap: 41
+497
+437
+
+time: 9pm
+gap: 28
+044
+048
+084
+088
+
+
+
+date: 11 fri oct 2019
+time: 11am
+gap: 4
+563
+503
+
+time: 11am
+gap: 33
+552
+592
+
+time: 4pm
+gap: 19
+242
+282
+
+time: 4pm
+gap: 39
+148
+188
+
+time: 9pm
+gap: 49
+361
+301
+
+
+
+date: 12 sat oct 2019
+time: 11am
+gap: 4
+561
+501
+
+time: 4pm
+gap: 3
+373
+313
+
+time: 4pm
+gap: 40
+240
+280
+
+
+
