@@ -271,14 +271,12 @@ def possible_digits(sequence, seq_type):
         sort_entry = sorted([str(e) for e in sequence])
 
         if (
-            '1' in sort_entry and
-            '9' in sort_entry
+            '1' in sort_entry and '9' in sort_entry
         ):
             between_digit = plus_one('9')
 
         elif (
-            '0' in sort_entry and
-            '8' in sort_entry
+            '0' in sort_entry and '8' in sort_entry
         ):
             between_digit = plus_one('8')
 
@@ -301,8 +299,7 @@ def possible_digits(sequence, seq_type):
         output = diff_one_next(sequence)
 
     elif (
-        seq_type == "diff_two" or
-        seq_type == "gap_one"
+        seq_type == "diff_two" or seq_type == "gap_one"
     ):
         output = diff_two_next(sequence)
 
@@ -388,11 +385,12 @@ def find_diff_one():
         for prev_date in date_gap():
 
             print("date: {}".format(prev_date))
-
             fo.write("date: {}\n".format(prev_date))
             fp.write("date: {}\n".format(prev_date))
 
             time_results = get_time_results(prev_date)
+            total_combi = []
+            common_combi = {}
 
             for time, gap_results in get_gap_results(time_results).items():
                 for gap, results in gap_results.items():
@@ -400,16 +398,30 @@ def find_diff_one():
                     if results and classify_results(results) is not None:
                         results, pairs, all_combi = classify_results(results)
 
+                        # total_combi.extend(all_combi)
+
+                        for combi in all_combi:
+                            combi = "".join(sorted(combi))
+
+                            if combi not in total_combi:
+                                total_combi.append(combi)
+                            else:
+                                if combi not in common_combi:
+                                    common_combi[combi] = 2
+                                else:
+                                    common_combi[combi] += 1
+
                         print("time: {}".format(time))
                         print("gap: {}".format(gap))
                         print("pairs: {}".format(pairs))
                         print(f"combis: {all_combi}")
                         print("results:")
 
+                        # fp.write("gap: {}\n".format(gap))
+                        # fp.write("time: {}\n".format(time))
+
                         fo.write("time: {}\n".format(time))
-                        fp.write("time: {}\n".format(time))
                         fo.write("gap: {}\n".format(gap))
-                        fp.write("gap: {}\n".format(gap))
                         fo.write("pairs: {}\n".format(pairs))
                         fo.write(f"combis: {all_combi}\n")
                         fo.write("results:\n")
@@ -418,21 +430,48 @@ def find_diff_one():
                             print(res)
                             fo.write("{}\n".format(res))
 
-                        for probables in all_combi:
-                            fp.write("{}\n".format(probables))
+                        # for probables in all_combi:
+                        #     fp.write("{}\n".format(probables))
 
                         print("\n")
-
-                        fp.write("\n")
                         fo.write("\n")
 
-            print("\n")
+            # For total_combi output
+            total_combi = sorted(total_combi)
 
-            fo.write("\n\n")
+            fp.write(f"total_combi:")
+            for count, probables in enumerate(total_combi):
+                if count % 5 == 0:
+                    fp.write(f"\n")
+                elif count == len(total_combi) - 1:
+                    fp.write(f"{probables}")
+                else:
+                    fp.write(f"{probables}, ")
+
             fp.write("\n\n")
 
+            # For common_combi output
+            fp.write("common_combi:")
+            c_count = 0
+
+            for key, value in common_combi.items():
+
+                if c_count % 3 == 0:
+                    fp.write(f"\n")
+                if c_count == len(common_combi) - 1:
+                    fp.write(f"{key} ({value})")
+                else:
+                    fp.write(f"{key} ({value}), ")
+
+                c_count += 1
+
+            print("\n")
+            fo.write("\n\n")
+            fp.write("\n\n\n\n")
+
     if date_gap():
-        with fileinput.input("results_diff_one_v2.3.1.txt", inplace=True) as fio:
+        with fileinput.input("results_diff_one_v2.3.1.txt",
+                             inplace=True) as fio:
             for entry in fio:
                 if "updated:" in entry:
                     print("updated: {}".format(date_gap()[-1]))

@@ -15,6 +15,7 @@ echo "SEQ_TYPES Pattern"
 python script_diff_one_v1.3.py
 python script_diff_one_v1.4.py
 python script_diff_one_v2.3.py
+python script_diff_one_v2.3.1.py
 python script_diff_one_v2.4.py
 python script_count_missing_v1.1.py
 echo
@@ -35,6 +36,7 @@ echo "SEQ_TYPES Pattern"
 python script_diff_one_v1.3.py
 python script_diff_one_v1.4.py
 python script_diff_one_v2.3.py
+python script_diff_one_v2.3.1.py
 python script_diff_one_v2.4.py
 python script_count_missing_v1.1.py
 echo
