@@ -1,4 +1,4 @@
-updated: 16 wed oct 2019 2
+updated: 17 thu oct 2019 0
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -653,3 +653,4 @@ updated: 16 wed oct 2019 2
 14 mon oct 2019       645       559       666
 15 tue oct 2019       685       146       722
 16 wed oct 2019       472       976       075
+17 thu oct 2019       316

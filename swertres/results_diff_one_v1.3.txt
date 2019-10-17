@@ -1,4 +1,4 @@
-updated: 16 wed oct 2019 2
+updated: 17 thu oct 2019 0
 
 date: 14 sun jul 2019 0
 
@@ -3834,6 +3834,23 @@ results:
 16-3
 14-3
 15-4
+
+
+
+date: 17 thu oct 2019 0
+gap: 18
+pairs: ['13', '17']
+results:
+15-4
+14-4
+16-7
+
+gap: 34
+pairs: ['98', '92']
+results:
+99-5
+90-1
+91-1
 
 
 
