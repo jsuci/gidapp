@@ -403,7 +403,8 @@ def find_diff_one():
             time_results = get_time_results(prev_date)
             total_combi = []
             time_combi = {}
-            one_two_combi = []
+            one_combi = []
+            two_combi = []
             common_combi = set()
 
             for time, gap_results in get_gap_results(time_results).items():
@@ -418,9 +419,11 @@ def find_diff_one():
                         for combi in all_combi:
                             combi = "".join(sorted(combi))
 
-                            if len(all_combi) == 1 or len(all_combi) == 2:
-                                if combi not in one_two_combi:
-                                    one_two_combi.append(combi)
+                            if len(all_combi) == 1 and combi not in one_combi:
+                                one_combi.append(combi)
+
+                            if len(all_combi) == 2 and combi not in two_combi:
+                                two_combi.append(combi)
 
                             total_combi.append(combi)
                             time_combi[time].append(combi)
@@ -454,16 +457,21 @@ def find_diff_one():
                 fp.write(f"\n{k}:")
                 trim_results(fp, v)
 
-            fp.write("\n\n")
+            fp.write("\n")
 
             # For common_combi output
             fp.write("common_combi:")
             trim_results(fp, common_combi)
 
-            fp.write("\n\n")
+            fp.write("\n")
 
-            fp.write("one_two_combi:")
-            trim_results(fp, sorted(one_two_combi))
+            fp.write("one_combi:")
+            trim_results(fp, sorted(one_combi))
+
+            fp.write("\n")
+
+            fp.write("two_combi:")
+            trim_results(fp, sorted(two_combi))
 
             print("\n")
             fo.write("\n\n")

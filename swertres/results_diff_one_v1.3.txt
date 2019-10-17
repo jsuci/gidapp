@@ -1,4 +1,4 @@
-updated: 17 thu oct 2019 0
+updated: 17 thu oct 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -3851,6 +3851,40 @@ results:
 99-5
 90-1
 91-1
+
+
+
+date: 17 thu oct 2019 1
+gap: 9
+pairs: ['50', '54']
+results:
+53-1
+51-4
+52-2
+
+gap: 47
+pairs: ['71', '75']
+results:
+73-2
+74-9
+72-9
+
+
+
+date: 17 thu oct 2019 2
+gap: 15
+pairs: ['36', '30']
+results:
+37-2
+38-4
+39-5
+
+gap: 49
+pairs: ['12', '16']
+results:
+13-0
+15-3
+14-3
 
 
 

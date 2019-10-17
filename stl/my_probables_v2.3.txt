@@ -72446,3 +72446,43 @@ gap: 40
 
 
 
+date: 17 thu oct 2019
+time: 11am
+gap: 22
+994
+934
+
+time: 4pm
+gap: 5
+494
+434
+
+time: 4pm
+gap: 25
+373
+313
+
+time: 4pm
+gap: 34
+726
+720
+766
+760
+
+time: 4pm
+gap: 43
+135
+175
+
+time: 4pm
+gap: 44
+719
+759
+
+time: 9pm
+gap: 35
+326
+366
+
+
+

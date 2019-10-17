@@ -1,4 +1,4 @@
-updated: 16 wed oct 2019
+updated: 17 thu oct 2019
 
 date: 04 fri jan 2013
 
@@ -86092,6 +86092,33 @@ results:
 72-9
 74-9
 73-2
+
+
+
+date: 17 thu oct 2019
+time: 9pm
+gap: 20
+pairs: ['13', '17']
+results:
+15-4
+14-1
+16-4
+
+time: 9pm
+gap: 36
+pairs: ['46', '40']
+results:
+48-2
+49-2
+47-3
+
+time: 9pm
+gap: 45
+pairs: ['94', '98']
+results:
+97-1
+96-1
+95-1
 
 
 

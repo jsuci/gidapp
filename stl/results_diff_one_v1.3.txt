@@ -1,4 +1,4 @@
-updated: 17 thu oct 2019 0
+updated: 17 thu oct 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -2362,6 +2362,33 @@ results:
 37-4
 36-0
 35-4
+
+
+
+date: 17 thu oct 2019 1
+gap: 12
+pairs: ['73', '77']
+results:
+75-3
+76-0
+74-3
+
+gap: 34
+pairs: ['35', '39']
+results:
+37-2
+38-1
+36-4
+
+
+
+date: 17 thu oct 2019 2
+gap: 13
+pairs: ['35', '39']
+results:
+37-5
+38-0
+36-5
 
 
 
