@@ -379,6 +379,18 @@ def classify_results(results):
 
 def find_diff_one():
 
+    def trim_results(fp, results):
+        for count, digits in enumerate(results):
+            if count == len(results) - 1:
+                if count % 3 == 0:
+                    fp.write(f"\n{digits}\n\n")
+                else:
+                    fp.write(f"{digits}\n\n")
+            elif count % 3 == 0:
+                fp.write(f"\n{digits}, ")
+            else:
+                fp.write(f"{digits}, ")
+
     with open("results_diff_one_v2.3.1.txt", "a") as fo, \
             open("my_probables_v2.3.1.txt", "a") as fp:
 
@@ -394,20 +406,19 @@ def find_diff_one():
             common_combi = set()
 
             for time, gap_results in get_gap_results(time_results).items():
+
+                time_combi.setdefault(time, [])
+
                 for gap, results in gap_results.items():
 
                     if results and classify_results(results) is not None:
                         results, pairs, all_combi = classify_results(results)
 
-                        time_combi.setdefault(time, [])
-
                         for combi in all_combi:
                             combi = "".join(sorted(combi))
 
                             total_combi.append(combi)
-
-                            if combi not in time_combi[time]:
-                                time_combi[time].append(combi)
+                            time_combi[time].append(combi)
 
                         print("time: {}".format(time))
                         print("gap: {}".format(gap))
@@ -428,50 +439,25 @@ def find_diff_one():
                         print("\n")
                         fo.write("\n")
 
-            for digits in total_combi:
-                if total_combi.count(digits) > 1:
-                    common_combi.add(f"{digits} ({total_combi.count(digits)})")
+            for combis in total_combi:
+                if total_combi.count(combis) > 1:
+                    common_combi.add(
+                        f"{combis} ({total_combi.count(combis)})")
 
-            # For total_combi output
-            # fp.write(f"total_combi:")
-            # for count, probables in enumerate(total_combi):
-            #     if count % 5 == 0:
-            #         fp.write(f"\n")
-            #     elif count == len(total_combi) - 1:
-            #         fp.write(f"{probables}")
-            #     else:
-            #         fp.write(f"{probables}, ")
-
-            # fp.write("\n\n")
-
-            # For time_combi output
-            fp.write("time_combi:\n")
+            fp.write("time_combi:")
             for k, v in time_combi.items():
-                fp.write(f"{k}:")
-                for c, digits in enumerate(v):
-                    if c % 5 == 0:
-                        fp.write("\n")
-                    elif c == len(v) - 1:
-                        fp.write(f"{digits}\n\n")
-                    else:
-                        fp.write(f"{digits}, ")
+                fp.write(f"\n{k}:")
+                trim_results(fp, v)
 
             fp.write("\n\n")
 
             # For common_combi output
             fp.write("common_combi:")
-
-            for count, probables in enumerate(common_combi):
-                if count % 3 == 0:
-                    fp.write(f"\n")
-                elif count == len(common_combi) - 1:
-                    fp.write(f"{probables}")
-                else:
-                    fp.write(f"{probables}, ")
+            trim_results(fp, common_combi)
 
             print("\n")
             fo.write("\n\n")
-            fp.write("\n\n\n\n")
+            fp.write("\n\n")
 
     if date_gap():
         with fileinput.input("results_diff_one_v2.3.1.txt",
@@ -485,7 +471,6 @@ def find_diff_one():
 
 def main():
     find_diff_one()
-    # print(classify_results(["894", "852"]))
 
 
 if __name__ == "__main__":

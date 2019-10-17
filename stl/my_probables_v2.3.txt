@@ -72331,3 +72331,118 @@ gap: 25
 
 
 
+date: 13 sun oct 2019
+time: 11am
+gap: 40
+922
+926
+962
+966
+
+time: 4pm
+gap: 8
+551
+591
+
+time: 4pm
+gap: 18
+719
+759
+
+time: 4pm
+gap: 35
+577
+517
+
+time: 4pm
+gap: 40
+952
+992
+
+time: 9pm
+gap: 49
+650
+654
+690
+694
+
+
+
+date: 14 mon oct 2019
+time: 11am
+gap: 1
+044
+048
+084
+088
+
+time: 9pm
+gap: 34
+021
+061
+
+time: 9pm
+gap: 49
+536
+576
+
+
+
+date: 15 tue oct 2019
+time: 11am
+gap: 22
+711
+715
+751
+755
+
+time: 11am
+gap: 25
+622
+662
+
+time: 9pm
+gap: 15
+462
+402
+
+time: 9pm
+gap: 48
+933
+973
+
+
+
+date: 16 wed oct 2019
+time: 11am
+gap: 1
+556
+596
+
+time: 11am
+gap: 32
+247
+287
+
+time: 11am
+gap: 41
+367
+307
+
+time: 4pm
+gap: 3
+551
+591
+
+time: 4pm
+gap: 6
+131
+171
+
+time: 9pm
+gap: 40
+605
+645
+
+
+

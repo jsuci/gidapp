@@ -1,4 +1,4 @@
-updated: 12 sat oct 2019 2
+updated: 16 wed oct 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -3602,6 +3602,238 @@ results:
 45-7
 43-7
 44-1
+
+
+
+date: 13 sun oct 2019 0
+gap: 11
+pairs: ['37', '31']
+results:
+39-2
+38-4
+30-1
+
+gap: 37
+pairs: ['99', '93']
+results:
+90-4
+91-5
+92-2
+
+
+
+date: 13 sun oct 2019 1
+gap: 24
+pairs: ['82', '86']
+results:
+84-3
+85-7
+83-3
+
+
+
+date: 13 sun oct 2019 2
+
+
+date: 14 mon oct 2019 0
+gap: 16
+pairs: ['56', '50']
+results:
+59-5
+58-4
+57-4
+
+gap: 18
+pairs: ['72', '76']
+results:
+74-5
+73-2
+75-4
+
+
+
+date: 14 mon oct 2019 1
+gap: 34
+pairs: ['55', '59']
+results:
+58-4
+56-8
+57-8
+
+gap: 46
+pairs: ['90', '94']
+results:
+91-1
+93-0
+92-2
+
+
+
+date: 14 mon oct 2019 2
+gap: 4
+pairs: ['82', '86']
+results:
+84-1
+85-6
+83-6
+
+gap: 49
+pairs: ['73', '77']
+results:
+76-1
+74-3
+75-1
+
+
+
+date: 15 tue oct 2019 0
+gap: 12
+pairs: ['53', '57']
+results:
+54-1
+56-2
+55-4
+
+gap: 19
+pairs: ['52', '56']
+results:
+55-9
+53-9
+54-7
+
+gap: 25
+pairs: ['59', '53']
+results:
+52-6
+51-9
+50-7
+
+gap: 35
+pairs: ['83', '87']
+results:
+84-4
+86-5
+85-6
+
+gap: 36
+pairs: ['47', '41']
+results:
+48-5
+40-8
+49-7
+
+gap: 43
+pairs: ['98', '92']
+results:
+90-4
+91-3
+99-4
+
+gap: 44
+pairs: ['90', '94']
+results:
+91-3
+93-6
+92-6
+
+
+
+date: 15 tue oct 2019 1
+gap: 14
+pairs: ['98', '92']
+results:
+91-7
+99-5
+90-4
+
+gap: 38
+pairs: ['49', '43']
+results:
+40-2
+42-0
+41-1
+
+gap: 40
+pairs: ['51', '55']
+results:
+53-9
+54-8
+52-1
+
+gap: 49
+pairs: ['18', '12']
+results:
+11-9
+19-1
+10-1
+
+
+
+date: 15 tue oct 2019 2
+gap: 12
+pairs: ['82', '86']
+results:
+85-6
+83-4
+84-5
+
+gap: 29
+pairs: ['38', '32']
+results:
+39-1
+30-1
+31-9
+
+gap: 42
+pairs: ['26', '20']
+results:
+27-3
+29-5
+28-5
+
+
+
+date: 16 wed oct 2019 0
+gap: 10
+pairs: ['35', '39']
+results:
+37-2
+36-4
+38-4
+
+
+
+date: 16 wed oct 2019 1
+gap: 18
+pairs: ['49', '43']
+results:
+40-1
+42-6
+41-6
+
+gap: 20
+pairs: ['28', '22']
+results:
+29-3
+20-4
+21-4
+
+gap: 43
+pairs: ['50', '54']
+results:
+53-9
+52-9
+51-9
+
+
+
+date: 16 wed oct 2019 2
+gap: 5
+pairs: ['13', '17']
+results:
+16-3
+14-3
+15-4
 
 
 

@@ -1,4 +1,4 @@
-updated: 12 sat oct 2019
+updated: 16 wed oct 2019
 
 date: 04 fri jan 2013
 
@@ -85944,6 +85944,154 @@ results:
 27-9
 25-8
 26-1
+
+
+
+date: 13 sun oct 2019
+time: 9pm
+gap: 22
+pairs: ['63', '67']
+results:
+65-8
+64-8
+66-0
+
+
+
+date: 14 mon oct 2019
+time: 11am
+gap: 45
+pairs: ['45', '49']
+results:
+47-1
+48-3
+46-3
+
+time: 4pm
+gap: 11
+pairs: ['83', '87']
+results:
+85-6
+86-5
+84-4
+
+time: 4pm
+gap: 14
+pairs: ['90', '94']
+results:
+92-6
+93-6
+91-3
+
+time: 4pm
+gap: 17
+pairs: ['55', '59']
+results:
+56-6
+58-6
+57-4
+
+time: 4pm
+gap: 36
+pairs: ['77', '71']
+results:
+70-6
+78-7
+79-4
+
+time: 9pm
+gap: 4
+pairs: ['98', '92']
+results:
+90-4
+99-5
+91-7
+
+time: 9pm
+gap: 12
+pairs: ['49', '43']
+results:
+41-1
+42-0
+40-2
+
+time: 9pm
+gap: 36
+pairs: ['15', '19']
+results:
+17-0
+16-2
+18-1
+
+time: 9pm
+gap: 38
+pairs: ['48', '42']
+results:
+40-1
+49-9
+41-1
+
+
+
+date: 15 tue oct 2019
+time: 11am
+gap: 9
+pairs: ['38', '32']
+results:
+31-9
+30-1
+39-1
+
+time: 11am
+gap: 16
+pairs: ['16', '10']
+results:
+17-5
+18-1
+19-1
+
+time: 11am
+gap: 29
+pairs: ['18', '12']
+results:
+11-8
+10-3
+19-3
+
+time: 9pm
+gap: 6
+pairs: ['28', '22']
+results:
+21-4
+20-4
+29-3
+
+
+
+date: 16 wed oct 2019
+time: 11am
+gap: 1
+pairs: ['13', '17']
+results:
+15-4
+14-3
+16-3
+
+time: 11am
+gap: 46
+pairs: ['37', '31']
+results:
+39-6
+38-4
+30-4
+
+time: 9pm
+gap: 15
+pairs: ['71', '75']
+results:
+72-9
+74-9
+73-2
 
 
 

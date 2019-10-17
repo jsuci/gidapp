@@ -1,4 +1,4 @@
-updated: 12 sat oct 2019
+updated: 16 wed oct 2019
 
 date: 03 thu jan 2013
 
@@ -9499,5 +9499,25 @@ date: 11 fri oct 2019
 
 
 date: 12 sat oct 2019
+
+
+date: 13 sun oct 2019
+
+
+date: 14 mon oct 2019
+
+
+date: 15 tue oct 2019
+
+
+date: 16 wed oct 2019
+time: 9pm
+gap: 63
+pairs: ['53', '57']
+results:
+55-0
+54-0
+56-0
+
 
 

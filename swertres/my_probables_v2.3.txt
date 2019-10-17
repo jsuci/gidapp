@@ -122041,3 +122041,106 @@ gap: 40
 
 
 
+date: 13 sun oct 2019
+time: 9pm
+gap: 22
+630
+670
+
+
+
+date: 14 mon oct 2019
+time: 11am
+gap: 45
+451
+491
+
+time: 4pm
+gap: 11
+833
+837
+873
+877
+
+time: 4pm
+gap: 14
+903
+943
+
+time: 4pm
+gap: 17
+554
+594
+
+time: 4pm
+gap: 36
+775
+715
+
+time: 9pm
+gap: 4
+986
+926
+
+time: 9pm
+gap: 12
+499
+493
+439
+433
+
+time: 9pm
+gap: 36
+159
+153
+199
+193
+
+time: 9pm
+gap: 38
+489
+429
+
+
+
+date: 15 tue oct 2019
+time: 11am
+gap: 9
+389
+329
+
+time: 11am
+gap: 16
+165
+105
+
+time: 11am
+gap: 29
+188
+128
+
+time: 9pm
+gap: 6
+283
+223
+
+
+
+date: 16 wed oct 2019
+time: 11am
+gap: 1
+134
+174
+
+time: 11am
+gap: 46
+376
+316
+
+time: 9pm
+gap: 15
+712
+752
+
+
+
