@@ -1,4 +1,4 @@
-updated: 17 thu oct 2019 2
+updated: 18 fri oct 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -2389,6 +2389,78 @@ results:
 37-5
 38-0
 36-5
+
+
+
+date: 18 fri oct 2019 0
+gap: 9
+pairs: ['53', '57']
+results:
+56-8
+55-3
+54-3
+
+gap: 17
+pairs: ['49', '43']
+results:
+40-4
+41-8
+42-8
+
+gap: 36
+pairs: ['26', '20']
+results:
+27-3
+29-1
+28-3
+
+gap: 48
+pairs: ['32', '36']
+results:
+35-6
+33-2
+34-6
+
+
+
+date: 18 fri oct 2019 1
+gap: 12
+pairs: ['58', '52']
+results:
+59-5
+51-2
+50-4
+
+gap: 42
+pairs: ['15', '19']
+results:
+17-7
+16-5
+18-4
+
+
+
+date: 18 fri oct 2019 2
+gap: 7
+pairs: ['67', '61']
+results:
+69-7
+68-8
+60-5
+
+gap: 37
+pairs: ['11', '15']
+results:
+14-8
+12-9
+13-6
+
+gap: 43
+pairs: ['70', '74']
+results:
+71-7
+72-5
+73-8
 
 
 

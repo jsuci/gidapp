@@ -122162,3 +122162,35 @@ gap: 45
 
 
 
+date: 18 fri oct 2019
+time: 11am
+gap: 2
+338
+378
+
+time: 11am
+gap: 42
+470
+474
+410
+414
+
+time: 4pm
+gap: 8
+017
+057
+
+time: 4pm
+gap: 17
+398
+392
+338
+332
+
+time: 9pm
+gap: 22
+886
+826
+
+
+

@@ -1,4 +1,4 @@
-updated: 17 thu oct 2019
+updated: 18 fri oct 2019
 
 date: 17 fri nov 2017
 
@@ -21889,6 +21889,49 @@ results:
 33-0
 35-0
 34-6
+
+
+
+date: 18 fri oct 2019
+time: 11am
+gap: 17
+pairs: ['03', '07']
+results:
+05-4
+04-2
+06-4
+
+time: 11am
+gap: 23
+pairs: ['41', '45']
+results:
+43-7
+44-7
+42-9
+
+time: 11am
+gap: 37
+pairs: ['15', '19']
+results:
+18-3
+17-7
+16-3
+
+time: 4pm
+gap: 13
+pairs: ['32', '36']
+results:
+33-9
+34-6
+35-8
+
+time: 4pm
+gap: 35
+pairs: ['85', '89']
+results:
+86-4
+88-7
+87-4
 
 
 

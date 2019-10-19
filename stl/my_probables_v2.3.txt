@@ -72486,3 +72486,31 @@ gap: 35
 
 
 
+date: 18 fri oct 2019
+time: 11am
+gap: 17
+032
+072
+
+time: 11am
+gap: 23
+419
+459
+
+time: 11am
+gap: 37
+157
+197
+
+time: 4pm
+gap: 13
+327
+367
+
+time: 4pm
+gap: 35
+857
+897
+
+
+
