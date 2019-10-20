@@ -1,4 +1,4 @@
-updated: 18 fri oct 2019 2
+updated: 20 sun oct 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -3930,5 +3930,58 @@ results:
 37-7
 38-7
 
+
+
+date: 19 sat oct 2019 0
+gap: 26
+pairs: ['01', '05']
+results:
+04-1
+03-1
+02-7
+
+
+
+date: 19 sat oct 2019 1
+gap: 9
+pairs: ['31', '35']
+results:
+33-2
+34-1
+32-9
+
+gap: 22
+pairs: ['60', '64']
+results:
+63-4
+62-4
+61-8
+
+
+
+date: 19 sat oct 2019 2
+gap: 1
+pairs: ['25', '29']
+results:
+27-1
+26-6
+28-6
+
+gap: 16
+pairs: ['52', '56']
+results:
+53-1
+55-9
+54-8
+
+
+
+date: 20 sun oct 2019 0
+
+
+date: 20 sun oct 2019 1
+
+
+date: 20 sun oct 2019 2
 
 

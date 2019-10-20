@@ -1,4 +1,4 @@
-updated: 18 fri oct 2019
+updated: 20 sun oct 2019
 
 date: 04 fri jan 2013
 
@@ -86162,6 +86162,76 @@ results:
 80-4
 89-4
 81-6
+
+
+
+date: 19 sat oct 2019
+time: 11am
+gap: 32
+pairs: ['89', '83']
+results:
+80-4
+82-0
+81-0
+
+time: 4pm
+gap: 18
+pairs: ['17', '11']
+results:
+18-0
+19-1
+10-3
+
+time: 4pm
+gap: 20
+pairs: ['71', '75']
+results:
+72-6
+74-9
+73-7
+
+time: 4pm
+gap: 42
+pairs: ['91', '95']
+results:
+94-1
+92-9
+93-2
+
+time: 9pm
+gap: 30
+pairs: ['28', '22']
+results:
+29-7
+21-6
+20-4
+
+
+
+date: 20 sun oct 2019
+time: 11am
+gap: 38
+pairs: ['89', '83']
+results:
+80-7
+82-7
+81-1
+
+time: 4pm
+gap: 16
+pairs: ['23', '27']
+results:
+26-9
+25-9
+24-6
+
+time: 9pm
+gap: 4
+pairs: ['55', '59']
+results:
+56-2
+58-6
+57-6
 
 
 

@@ -72514,3 +72514,106 @@ gap: 35
 
 
 
+date: 19 sat oct 2019
+time: 11am
+gap: 17
+617
+657
+
+time: 11am
+gap: 18
+639
+679
+
+time: 4pm
+gap: 13
+120
+160
+
+time: 4pm
+gap: 26
+902
+942
+
+time: 4pm
+gap: 31
+590
+530
+
+time: 4pm
+gap: 36
+456
+450
+496
+490
+
+time: 9pm
+gap: 23
+934
+974
+
+time: 9pm
+gap: 31
+686
+626
+
+
+
+date: 20 sun oct 2019
+time: 11am
+gap: 6
+635
+675
+
+time: 11am
+gap: 9
+036
+076
+
+time: 11am
+gap: 20
+454
+494
+
+time: 11am
+gap: 28
+621
+661
+
+time: 11am
+gap: 37
+286
+226
+
+time: 11am
+gap: 44
+048
+088
+
+time: 4pm
+gap: 5
+134
+174
+
+time: 4pm
+gap: 19
+315
+355
+
+time: 4pm
+gap: 26
+801
+841
+
+time: 9pm
+gap: 33
+671
+611
+
+time: 9pm
+gap: 35
+317
+357
+
+
+

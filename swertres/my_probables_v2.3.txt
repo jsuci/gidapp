@@ -122194,3 +122194,49 @@ gap: 22
 
 
 
+date: 19 sat oct 2019
+time: 11am
+gap: 32
+894
+834
+
+time: 4pm
+gap: 18
+172
+112
+
+time: 4pm
+gap: 20
+718
+758
+
+time: 4pm
+gap: 42
+910
+950
+
+time: 9pm
+gap: 30
+285
+225
+
+
+
+date: 20 sun oct 2019
+time: 11am
+gap: 38
+891
+831
+
+time: 4pm
+gap: 16
+236
+276
+
+time: 9pm
+gap: 4
+552
+592
+
+
+
