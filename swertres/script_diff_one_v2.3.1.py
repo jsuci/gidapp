@@ -452,6 +452,8 @@ def find_diff_one():
                     common_combi.add(
                         f"{combis} ({total_combi.count(combis)})")
 
+            total_combi = sorted(set(total_combi))
+
             # For time_combi output
             fp.write("time_combi:")
             for k, v in time_combi.items():
@@ -480,11 +482,11 @@ def find_diff_one():
 
             # For total_combi output
             fp.write("total_combi:")
-            trim_results(fp, set(sorted(total_combi)))
+            trim_results(fp, total_combi)
 
             # For total_combi output to file
             with open("total_combi_all.txt", "w") as fq:
-                for e in set(sorted(total_combi)):
+                for e in total_combi:
                     fq.write(f"{e}\n")
 
             print("\n")
