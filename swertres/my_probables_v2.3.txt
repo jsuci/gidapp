@@ -122240,3 +122240,212 @@ gap: 4
 
 
 
+date: 21 mon oct 2019
+time: 11am
+gap: 3
+617
+657
+
+time: 4pm
+gap: 41
+449
+489
+
+
+
+date: 22 tue oct 2019
+time: 11am
+gap: 31
+713
+717
+753
+757
+
+time: 11am
+gap: 38
+829
+869
+
+time: 4pm
+gap: 1
+715
+755
+
+time: 4pm
+gap: 41
+654
+694
+
+
+
+date: 23 wed oct 2019
+time: 11am
+gap: 27
+391
+331
+
+time: 11am
+gap: 35
+997
+937
+
+time: 4pm
+gap: 5
+856
+896
+
+time: 9pm
+gap: 5
+243
+283
+
+
+
+date: 24 thu oct 2019
+time: 11am
+gap: 10
+464
+468
+404
+408
+
+time: 11am
+gap: 21
+560
+500
+
+time: 11am
+gap: 28
+119
+159
+
+time: 4pm
+gap: 47
+399
+339
+
+time: 9pm
+gap: 11
+220
+260
+
+
+
+date: 25 fri oct 2019
+time: 11am
+gap: 5
+444
+448
+484
+488
+
+time: 11am
+gap: 9
+385
+325
+
+time: 11am
+gap: 40
+649
+689
+
+
+
+date: 26 sat oct 2019
+time: 11am
+gap: 34
+720
+760
+
+time: 11am
+gap: 38
+160
+100
+
+time: 11am
+gap: 39
+178
+118
+
+time: 9pm
+gap: 6
+244
+284
+
+time: 9pm
+gap: 7
+635
+639
+675
+679
+
+time: 9pm
+gap: 42
+131
+171
+
+
+
+date: 27 sun oct 2019
+time: 11am
+gap: 7
+622
+662
+
+time: 11am
+gap: 12
+386
+326
+
+time: 4pm
+gap: 8
+117
+157
+
+time: 4pm
+gap: 19
+423
+463
+
+time: 4pm
+gap: 27
+116
+156
+
+time: 4pm
+gap: 43
+479
+419
+
+time: 9pm
+gap: 1
+284
+224
+
+time: 9pm
+gap: 17
+149
+189
+
+time: 9pm
+gap: 25
+499
+439
+
+time: 9pm
+gap: 27
+995
+935
+
+time: 9pm
+gap: 38
+499
+439
+
+time: 9pm
+gap: 39
+826
+866
+
+
+

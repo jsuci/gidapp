@@ -1,4 +1,4 @@
-updated: 20 sun oct 2019 2
+updated: 27 sun oct 2019 2
 
 date: 01 wed may 2019 1
 
@@ -1685,5 +1685,75 @@ date: 20 sun oct 2019 1
 
 
 date: 20 sun oct 2019 2
+
+
+date: 21 mon oct 2019 0
+
+
+date: 21 mon oct 2019 1
+
+
+date: 21 mon oct 2019 2
+
+
+date: 22 tue oct 2019 0
+
+
+date: 22 tue oct 2019 1
+
+
+date: 22 tue oct 2019 2
+
+
+date: 23 wed oct 2019 0
+
+
+date: 23 wed oct 2019 1
+
+
+date: 23 wed oct 2019 2
+
+
+date: 24 thu oct 2019 0
+
+
+date: 24 thu oct 2019 1
+
+
+date: 24 thu oct 2019 2
+
+
+date: 25 fri oct 2019 0
+
+
+date: 25 fri oct 2019 1
+
+
+date: 25 fri oct 2019 2
+
+
+date: 26 sat oct 2019 0
+
+
+date: 26 sat oct 2019 1
+
+
+date: 26 sat oct 2019 2
+
+
+date: 27 sun oct 2019 0
+gap: 7
+pairs: ['16', '10']
+results:
+18-2
+19-2
+17-2
+
+
+
+date: 27 sun oct 2019 1
+
+
+date: 27 sun oct 2019 2
 
 

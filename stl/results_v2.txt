@@ -1,4 +1,4 @@
-updated: 20 sun oct 2019 2
+updated: 27 sun oct 2019 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -657,3 +657,10 @@ updated: 20 sun oct 2019 2
 18 fri oct 2019       114       366       410
 19 sat oct 2019       873       189       846
 20 sun oct 2019       994       930       670
+21 mon oct 2019       420       384       984
+22 tue oct 2019       625       739       574
+23 wed oct 2019       294       642       433
+24 thu oct 2019       093       443       249
+25 fri oct 2019       064       373       331
+26 sat oct 2019       180       207       775
+27 sun oct 2019       947       729       123
