@@ -1697,3 +1697,28 @@ date: 27 sun oct 2019 1
 date: 27 sun oct 2019 2
 
 
+date: 28 mon oct 2019 0
+
+
+date: 28 mon oct 2019 1
+
+
+date: 28 mon oct 2019 2
+
+
+date: 29 tue oct 2019 0
+
+
+date: 29 tue oct 2019 1
+
+
+date: 29 tue oct 2019 2
+
+
+date: 30 wed oct 2019 0
+gap: 73
+579
+519
+
+
+

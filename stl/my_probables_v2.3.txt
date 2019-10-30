@@ -72824,3 +72824,49 @@ gap: 45
 
 
 
+date: 28 mon oct 2019
+time: 11am
+gap: 26
+355
+395
+
+time: 4pm
+gap: 32
+540
+580
+
+time: 9pm
+gap: 1
+313
+353
+
+time: 9pm
+gap: 5
+323
+363
+
+time: 9pm
+gap: 9
+443
+483
+
+time: 9pm
+gap: 23
+017
+057
+
+
+
+date: 29 tue oct 2019
+time: 4pm
+gap: 24
+811
+851
+
+time: 4pm
+gap: 25
+156
+196
+
+
+

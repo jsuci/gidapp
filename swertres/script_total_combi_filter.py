@@ -16,7 +16,7 @@ def get_user_pairs():
         return []
 
 
-def filter_total_combi():
+def filter_pairs():
     results = get_total_combi()
     pairs = get_user_pairs()
 
@@ -33,6 +33,40 @@ def filter_total_combi():
         for e in sorted(output):
             print(f"{e}")
             fo.write(f"{e}\n")
+
+
+def filter_digits():
+    results = get_total_combi()
+    digits = input("Enter a 3-digit combination: ")
+
+    output = []
+
+    for res in results:
+        count = 0
+
+        for digit in set(digits):
+            if digit in set(res):
+                count += 1
+
+        if count == 1:
+            output.append(res)
+
+    with open("total_combo_filtered.txt", "w") as fo:
+        for e in sorted(output):
+            print(f"{e}")
+            fo.write(f"{e}\n")
+
+
+def filter_total_combi():
+    user_select = input(
+        "Type \"0\" to filter by pairs. Type \"1\" to filter by combi: ")
+
+    if user_select == "0":
+        filter_pairs()
+    elif user_select == "1":
+        filter_digits()
+    else:
+        print("Invalid Option")
 
 
 def main():

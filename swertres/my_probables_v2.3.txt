@@ -122449,3 +122449,59 @@ gap: 39
 
 
 
+date: 28 mon oct 2019
+time: 11am
+gap: 7
+409
+449
+
+time: 11am
+gap: 32
+110
+150
+
+time: 11am
+gap: 44
+827
+867
+
+time: 4pm
+gap: 22
+377
+317
+
+time: 4pm
+gap: 42
+107
+147
+
+
+
+date: 29 tue oct 2019
+time: 11am
+gap: 2
+995
+935
+
+time: 11am
+gap: 22
+554
+594
+
+time: 11am
+gap: 24
+293
+233
+
+time: 4pm
+gap: 40
+731
+771
+
+time: 9pm
+gap: 11
+249
+289
+
+
+

@@ -1925,3 +1925,72 @@ gap: 24
 
 
 
+date: 28 mon oct 2019 0
+gap: 39
+566
+506
+
+gap: 44
+725
+765
+
+
+
+date: 28 mon oct 2019 1
+gap: 39
+633
+673
+
+gap: 40
+834
+874
+
+
+
+date: 28 mon oct 2019 2
+
+
+date: 29 tue oct 2019 0
+gap: 6
+914
+954
+
+gap: 34
+306
+346
+
+gap: 39
+440
+480
+
+
+
+date: 29 tue oct 2019 1
+gap: 5
+313
+353
+
+gap: 17
+323
+363
+
+gap: 29
+443
+483
+
+
+
+date: 29 tue oct 2019 2
+
+
+date: 30 wed oct 2019 0
+gap: 22
+555
+595
+
+gap: 42
+725
+765
+
+
+

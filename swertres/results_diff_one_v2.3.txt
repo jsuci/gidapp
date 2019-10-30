@@ -1,4 +1,4 @@
-updated: 27 sun oct 2019
+updated: 29 tue oct 2019
 
 date: 04 fri jan 2013
 
@@ -86541,6 +86541,92 @@ results:
 85-3
 84-6
 83-3
+
+
+
+date: 28 mon oct 2019
+time: 11am
+gap: 7
+pairs: ['40', '44']
+results:
+42-1
+43-1
+41-9
+
+time: 11am
+gap: 32
+pairs: ['11', '15']
+results:
+14-2
+12-2
+13-0
+
+time: 11am
+gap: 44
+pairs: ['82', '86']
+results:
+84-9
+83-9
+85-7
+
+time: 4pm
+gap: 22
+pairs: ['37', '31']
+results:
+39-6
+30-9
+38-8
+
+time: 4pm
+gap: 42
+pairs: ['10', '14']
+results:
+11-6
+13-5
+12-8
+
+
+
+date: 29 tue oct 2019
+time: 11am
+gap: 2
+pairs: ['99', '93']
+results:
+91-4
+92-3
+90-6
+
+time: 11am
+gap: 22
+pairs: ['55', '59']
+results:
+56-4
+57-8
+58-8
+
+time: 11am
+gap: 24
+pairs: ['29', '23']
+results:
+20-2
+22-1
+21-4
+
+time: 4pm
+gap: 40
+pairs: ['73', '77']
+results:
+74-2
+76-9
+75-0
+
+time: 9pm
+gap: 11
+pairs: ['24', '28']
+results:
+27-9
+25-6
+26-6
 
 
 
