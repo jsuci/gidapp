@@ -36,7 +36,7 @@ def filter_pairs():
             fo.write(f"{e}\n")
 
 
-def filter_digits():
+def filter_one_digit():
     results = get_total_combi()
     digits = input("Enter a 3-digit combination: ")
 
@@ -58,7 +58,7 @@ def filter_digits():
             fo.write(f"{e}\n")
 
 
-def filter_pair_combi():
+def filter_two_digits():
     results = get_total_combi()
     digits = input("Enter a 3-digit combination: ")
 
@@ -80,17 +80,43 @@ def filter_pair_combi():
             fo.write(f"{e}\n")
 
 
+def no_filter_digit():
+    results = get_total_combi()
+    digits = input("Enter a 3-digit combination: ")
+
+    output = []
+
+    for res in results:
+        count = 0
+
+        for digit in set(digits):
+            if digit in set(res):
+                count += 1
+
+        if count == 0:
+            output.append(res)
+
+    with open("total_combo_filtered.txt", "w") as fo:
+        for e in sorted(output):
+            print(f"{e}")
+            fo.write(f"{e}\n")
+
+
 def filter_total_combi():
     user_select = input(
-        "Type \"0\" to filter by custom pairs. Type \"1\" to filter by combi. "
-        "Type \"2\" to filter by digit pairs: ")
+        "Type \"0\" to match given custom pairs.\n"
+        "Type \"1\" to match atleast 1 digit from given combi.\n"
+        "Type \"2\" to match atleast 2 digit from given combi.\n"
+        "Type \"3\" to not match any digit from given combi: ")
 
     if user_select == "0":
         filter_pairs()
     elif user_select == "1":
-        filter_digits()
+        filter_one_digit()
     elif user_select == "2":
-        filter_pair_combi()
+        filter_two_digits()
+    elif user_select == "3":
+        no_filter_digit()
     else:
         print("Invalid Option")
 
