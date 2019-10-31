@@ -1,31 +1,30 @@
+from itertools import combinations
+
 
 def get_total_combi():
     with open("total_combi_all.txt", "r") as fo:
         return sorted(map(lambda x: x.strip(), fo))
 
 
-def get_user_pairs():
-    pairs = input("Enter pairs separated by comma or space: ")
-
-    if " " in pairs and "," in pairs:
-        return pairs.replace(" ", "").split(",")
-    elif "," in pairs:
-        return pairs.split(",")
-    elif " " in pairs:
-        return pairs.split(" ")
-    else:
-        return []
-
-
 def filter_pairs():
     results = get_total_combi()
-    pairs = get_user_pairs()
+    combis = input("Enter a list of combinations: ")
 
     output = []
+    all_pairs = []
+
+    combis = combis.split(" ")
+
+    for combi in combis:
+        pairs = (list(map(lambda x: "".join(sorted(x)),
+                          combinations(combi, 2))))
+        all_pairs.extend(pairs)
+
+    all_pairs = set(all_pairs)
 
     for res in results:
         s_res = "".join(sorted(res))
-        for pair in pairs:
+        for pair in all_pairs:
             s_pair = "".join(sorted(pair))
             if s_pair in s_res:
                 output.append(res)
@@ -46,8 +45,8 @@ def filter_one_digit():
         count = 0
 
         for digit in set(digits):
-            if digit in set(res):
-                count += 1
+            if digit in res:
+                count += res.count(digit)
 
         if count == 1:
             output.append(res)
@@ -69,7 +68,7 @@ def filter_two_digits():
 
         for digit in set(digits):
             if digit in set(res):
-                count += 1
+                count += res.count(digit)
 
         if count == 2:
             output.append(res)
@@ -91,7 +90,7 @@ def no_filter_digit():
 
         for digit in set(digits):
             if digit in set(res):
-                count += 1
+                count += res.count(digit)
 
         if count == 0:
             output.append(res)
@@ -104,7 +103,7 @@ def no_filter_digit():
 
 def filter_total_combi():
     user_select = input(
-        "Type \"0\" to match given custom pairs.\n"
+        "Type \"0\" to match pairs from given combinations.\n"
         "Type \"1\" to match atleast 1 digit from given combi.\n"
         "Type \"2\" to match atleast 2 digit from given combi.\n"
         "Type \"3\" to not match any digit from given combi: ")
