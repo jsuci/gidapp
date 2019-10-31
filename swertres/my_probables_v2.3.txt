@@ -122505,3 +122505,26 @@ gap: 11
 
 
 
+date: 30 wed oct 2019
+time: 11am
+gap: 20
+339
+379
+
+time: 4pm
+gap: 18
+355
+395
+
+time: 9pm
+gap: 28
+479
+419
+
+time: 9pm
+gap: 34
+668
+608
+
+
+

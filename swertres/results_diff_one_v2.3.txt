@@ -1,4 +1,4 @@
-updated: 29 tue oct 2019
+updated: 30 wed oct 2019
 
 date: 04 fri jan 2013
 
@@ -86627,6 +86627,41 @@ results:
 27-9
 25-6
 26-6
+
+
+
+date: 30 wed oct 2019
+time: 11am
+gap: 20
+pairs: ['33', '37']
+results:
+34-1
+35-0
+36-8
+
+time: 4pm
+gap: 18
+pairs: ['35', '39']
+results:
+38-8
+37-5
+36-8
+
+time: 9pm
+gap: 28
+pairs: ['47', '41']
+results:
+49-2
+48-9
+40-2
+
+time: 9pm
+gap: 34
+pairs: ['66', '60']
+results:
+69-1
+67-8
+68-1
 
 
 

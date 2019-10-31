@@ -72870,3 +72870,23 @@ gap: 25
 
 
 
+date: 30 wed oct 2019
+time: 11am
+gap: 31
+984
+988
+924
+928
+
+time: 4pm
+gap: 22
+504
+544
+
+time: 9pm
+gap: 26
+735
+775
+
+
+

@@ -1,4 +1,4 @@
-updated: 30 wed oct 2019 0
+updated: 31 thu oct 2019 1
 
 date: 14 sun jul 2019 0
 
@@ -4396,5 +4396,45 @@ results:
 
 
 date: 30 wed oct 2019 0
+
+
+date: 30 wed oct 2019 1
+gap: 9
+pairs: ['21', '25']
+results:
+22-9
+23-9
+24-5
+
+gap: 35
+pairs: ['24', '28']
+results:
+26-6
+25-6
+27-9
+
+
+
+date: 30 wed oct 2019 2
+
+
+date: 31 thu oct 2019 0
+gap: 6
+pairs: ['23', '27']
+results:
+25-9
+24-9
+26-2
+
+gap: 15
+pairs: ['23', '27']
+results:
+25-5
+24-5
+26-1
+
+
+
+date: 31 thu oct 2019 1
 
 
