@@ -1,3 +1,4 @@
+
 def get_total_combi():
     with open("total_combi_all.txt", "r") as fo:
         return sorted(map(lambda x: x.strip(), fo))
@@ -57,14 +58,39 @@ def filter_digits():
             fo.write(f"{e}\n")
 
 
+def filter_pair_combi():
+    results = get_total_combi()
+    digits = input("Enter a 3-digit combination: ")
+
+    output = []
+
+    for res in results:
+        count = 0
+
+        for digit in set(digits):
+            if digit in set(res):
+                count += 1
+
+        if count == 2:
+            output.append(res)
+
+    with open("total_combo_filtered.txt", "w") as fo:
+        for e in sorted(output):
+            print(f"{e}")
+            fo.write(f"{e}\n")
+
+
 def filter_total_combi():
     user_select = input(
-        "Type \"0\" to filter by pairs. Type \"1\" to filter by combi: ")
+        "Type \"0\" to filter by custom pairs. Type \"1\" to filter by combi. "
+        "Type \"2\" to filter by digit pairs: ")
 
     if user_select == "0":
         filter_pairs()
     elif user_select == "1":
         filter_digits()
+    elif user_select == "2":
+        filter_pair_combi()
     else:
         print("Invalid Option")
 
