@@ -1,4 +1,4 @@
-updated: 30 wed oct 2019
+updated: 31 thu oct 2019
 
 date: 17 fri nov 2017
 
@@ -22496,6 +22496,57 @@ results:
 76-6
 75-4
 74-3
+
+
+
+date: 31 thu oct 2019
+time: 11am
+gap: 3
+pairs: ['92', '96']
+results:
+94-9
+93-0
+95-9
+
+time: 11am
+gap: 25
+pairs: ['20', '24']
+results:
+21-9
+22-9
+23-7
+
+time: 4pm
+gap: 45
+pairs: ['35', '39']
+results:
+37-0
+38-3
+36-3
+
+time: 9pm
+gap: 15
+pairs: ['06', '00']
+results:
+09-4
+08-4
+07-5
+
+time: 9pm
+gap: 23
+pairs: ['06', '00']
+results:
+07-6
+09-4
+08-3
+
+time: 9pm
+gap: 28
+pairs: ['40', '44']
+results:
+41-0
+43-8
+42-7
 
 
 

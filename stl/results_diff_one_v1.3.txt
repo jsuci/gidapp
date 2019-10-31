@@ -1,4 +1,4 @@
-updated: 31 thu oct 2019 1
+updated: 31 thu oct 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -2995,6 +2995,23 @@ results:
 47-2
 48-2
 49-0
+
+
+
+date: 31 thu oct 2019 2
+gap: 11
+pairs: ['92', '96']
+results:
+95-9
+93-0
+94-9
+
+gap: 30
+pairs: ['47', '41']
+results:
+48-9
+49-9
+40-6
 
 
 

@@ -122528,3 +122528,28 @@ gap: 34
 
 
 
+date: 31 thu oct 2019
+time: 11am
+gap: 28
+443
+483
+
+time: 4pm
+gap: 44
+247
+241
+287
+281
+
+time: 9pm
+gap: 10
+708
+748
+
+time: 9pm
+gap: 36
+136
+176
+
+
+

@@ -72890,3 +72890,36 @@ gap: 26
 
 
 
+date: 31 thu oct 2019
+time: 11am
+gap: 3
+920
+960
+
+time: 11am
+gap: 25
+207
+247
+
+time: 4pm
+gap: 45
+350
+390
+
+time: 9pm
+gap: 15
+065
+005
+
+time: 9pm
+gap: 23
+065
+005
+
+time: 9pm
+gap: 28
+409
+449
+
+
+
