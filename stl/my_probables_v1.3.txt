@@ -2085,3 +2085,27 @@ date: 01 fri nov 2019 2
 date: 02 sat nov 2019 0
 
 
+date: 02 sat nov 2019 1
+gap: 8
+282
+286
+222
+226
+
+gap: 24
+352
+392
+
+gap: 40
+460
+400
+
+gap: 43
+706
+746
+
+
+
+date: 02 sat nov 2019 2
+
+

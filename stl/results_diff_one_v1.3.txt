@@ -1,4 +1,4 @@
-updated: 02 sat nov 2019 0
+updated: 02 sat nov 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -3060,5 +3060,39 @@ date: 01 fri nov 2019 2
 
 
 date: 02 sat nov 2019 0
+
+
+date: 02 sat nov 2019 1
+gap: 8
+pairs: ['28', '22']
+results:
+20-5
+21-3
+29-4
+
+gap: 24
+pairs: ['35', '39']
+results:
+37-3
+36-1
+38-0
+
+gap: 40
+pairs: ['46', '40']
+results:
+49-9
+48-1
+47-8
+
+gap: 43
+pairs: ['70', '74']
+results:
+73-8
+71-7
+72-5
+
+
+
+date: 02 sat nov 2019 2
 
 

@@ -6,21 +6,50 @@ def get_total_combi():
         return sorted(map(lambda x: x.strip(), fo))
 
 
-def filter_pairs():
-    results = get_total_combi()
-    combis = input("Enter a list of combinations: ")
+def filter_zero(results):
+    digits = set(input("Enter series of digits (eg. 1234): "))
+    output = []
+
+    for res in results:
+        matches = set()
+
+        for digit in digits:
+            if digit in set(res):
+                matches.add(digit)
+
+        if len(matches) == 0:
+            output.append(res)
+
+    return output
+
+
+def filter_one(results):
+    digits = set(input("Enter series of digits (eg. 1234): "))
+    output = []
+
+    for res in results:
+        matches = set()
+
+        for digit in digits:
+            if digit in res:
+                matches.add(digit)
+
+        if len(matches) == 1:
+            output.append(res)
+
+    return output
+
+
+def filter_pair(results):
+    combis = input("Enter a list of combi (eg. 123 456 789): ").split(" ")
 
     output = []
-    all_pairs = []
-
-    combis = combis.split(" ")
+    all_pairs = set()
 
     for combi in combis:
         pairs = (list(map(lambda x: "".join(sorted(x)),
                           combinations(combi, 2))))
-        all_pairs.extend(pairs)
-
-    all_pairs = set(all_pairs)
+        all_pairs.update(pairs)
 
     for res in results:
         s_res = "".join(sorted(res))
@@ -29,119 +58,41 @@ def filter_pairs():
             if s_pair in s_res:
                 output.append(res)
 
-    with open("total_combo_filtered.txt", "w") as fo:
-        for e in sorted(output):
-            print(f"{e}")
-            fo.write(f"{e}\n")
-
-
-def filter_one_digit():
-    results = get_total_combi()
-    digits = set(input("Enter a 3-digit combination: "))
-
-    output_one = []
-    output_two = []
-
-    for res in results:
-        count = []
-
-        for digit in digits:
-            if digit in res:
-                count.append(digit)
-
-        if len(set(count)) == 1:
-            output_one.append(res)
-
-    print(output_one)
-
-    filter_more = input("Filter further? y/n: ")
-
-    if filter_more == "y":
-        digits = set(input("Enter a 3-digit combination: "))
-
-        for res in output_one:
-            count = []
-
-            for digit in digits:
-                if digit in res:
-                    count.append(digit)
-
-            if len(set(count)) == 1:
-                output_two.append(res)
-
-        with open("total_combo_filtered.txt", "w") as fo:
-            for e in sorted(output_two):
-                print(f"{e}")
-                fo.write(f"{e}\n")
-
-    else:
-        with open("total_combo_filtered.txt", "w") as fo:
-            for e in sorted(output_one):
-                print(f"{e}")
-                fo.write(f"{e}\n")
-
-
-def filter_two_digits():
-    results = get_total_combi()
-    digits = input("Enter a 3-digit combination: ")
-
-    output = []
-
-    for res in results:
-        count = 0
-
-        for digit in set(digits):
-            if digit in set(res):
-                count += res.count(digit)
-
-        if count == 2:
-            output.append(res)
-
-    with open("total_combo_filtered.txt", "w") as fo:
-        for e in sorted(output):
-            print(f"{e}")
-            fo.write(f"{e}\n")
-
-
-def no_filter_digit():
-    results = get_total_combi()
-    digits = input("Enter a 3-digit combination: ")
-
-    output = []
-
-    for res in results:
-        count = 0
-
-        for digit in set(digits):
-            if digit in set(res):
-                count += res.count(digit)
-
-        if count == 0:
-            output.append(res)
-
-    with open("total_combo_filtered.txt", "w") as fo:
-        for e in sorted(output):
-            print(f"{e}")
-            fo.write(f"{e}\n")
+    return output
 
 
 def filter_total_combi():
-    user_select = input(
-        "Type \"0\" to match pairs from given combinations.\n"
-        "Type \"1\" to match atleast 1 digit from given combi.\n"
-        "Type \"2\" to match atleast 2 digit from given combi.\n"
-        "Type \"3\" to not match any digit from given combi: ")
+    user_quit = "n"
+    current_results = get_total_combi()
 
-    if user_select == "0":
-        filter_pairs()
-    elif user_select == "1":
-        filter_one_digit()
-    elif user_select == "2":
-        filter_two_digits()
-    elif user_select == "3":
-        no_filter_digit()
-    else:
-        print("Invalid Option")
+    while user_quit != "y":
+        user_select = input(
+            "Type \"0\" to match 0 digit from given digits (eg. 1234).\n"
+            "Type \"1\" to match 1 digit from given digits (eg. 1234).\n"
+            "Type \"2\" to match by pair from given combi (eg. 123 456 789): ")
+
+        print("\n")
+
+        if user_select == "0":
+            current_results = filter_zero(current_results)
+        elif user_select == "1":
+            current_results = filter_one(current_results)
+        elif user_select == "2":
+            current_results = filter_pair(current_results)
+        else:
+            print("Invalid option")
+
+        print(f"\n{current_results}\n")
+
+        user_quit = input("Done filtering? (y/n): ")
+
+        print("\n")
+
+    with open("total_combo_filtered.txt", "w") as fo:
+        print("Exporting to file...")
+        for e in sorted(current_results):
+            print(f"{e}")
+            fo.write(f"{e}\n")
 
 
 def main():

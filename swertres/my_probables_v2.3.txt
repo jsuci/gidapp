@@ -122571,3 +122571,50 @@ gap: 43
 
 
 
+date: 02 sat nov 2019
+time: 11am
+gap: 4
+227
+267
+
+time: 11am
+gap: 29
+612
+616
+652
+656
+
+time: 11am
+gap: 47
+902
+942
+
+time: 4pm
+gap: 28
+450
+454
+490
+494
+
+time: 4pm
+gap: 42
+666
+606
+
+time: 9pm
+gap: 1
+426
+466
+
+time: 9pm
+gap: 2
+429
+469
+
+time: 9pm
+gap: 40
+721
+761
+
+
+
