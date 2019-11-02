@@ -57,7 +57,7 @@ def filter_one_digit():
     filter_more = input("Filter further? y/n: ")
 
     if filter_more == "y":
-        digits = input("Enter a 3-digit combination: ")
+        digits = set(input("Enter a 3-digit combination: "))
 
         for res in output_one:
             count = []
