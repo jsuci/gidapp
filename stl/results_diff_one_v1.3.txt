@@ -1,4 +1,4 @@
-updated: 31 thu oct 2019 2
+updated: 02 sat nov 2019 0
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -3013,5 +3013,52 @@ results:
 49-9
 40-6
 
+
+
+date: 01 fri nov 2019 0
+gap: 4
+pairs: ['28', '22']
+results:
+20-5
+21-7
+29-7
+
+gap: 15
+pairs: ['95', '99']
+results:
+97-4
+98-4
+96-7
+
+gap: 46
+pairs: ['04', '08']
+results:
+07-5
+06-4
+05-2
+
+
+
+date: 01 fri nov 2019 1
+gap: 19
+pairs: ['17', '11']
+results:
+10-8
+18-9
+19-9
+
+gap: 47
+pairs: ['06', '00']
+results:
+07-5
+08-4
+09-4
+
+
+
+date: 01 fri nov 2019 2
+
+
+date: 02 sat nov 2019 0
 
 

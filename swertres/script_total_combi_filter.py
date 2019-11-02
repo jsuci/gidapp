@@ -37,24 +37,48 @@ def filter_pairs():
 
 def filter_one_digit():
     results = get_total_combi()
-    digits = input("Enter a 3-digit combination: ")
+    digits = set(input("Enter a 3-digit combination: "))
 
-    output = []
+    output_one = []
+    output_two = []
 
     for res in results:
-        count = 0
+        count = []
 
-        for digit in set(digits):
+        for digit in digits:
             if digit in res:
-                count += res.count(digit)
+                count.append(digit)
 
-        if count == 1:
-            output.append(res)
+        if len(set(count)) == 1:
+            output_one.append(res)
 
-    with open("total_combo_filtered.txt", "w") as fo:
-        for e in sorted(output):
-            print(f"{e}")
-            fo.write(f"{e}\n")
+    print(output_one)
+
+    filter_more = input("Filter further? y/n: ")
+
+    if filter_more == "y":
+        digits = input("Enter a 3-digit combination: ")
+
+        for res in output_one:
+            count = []
+
+            for digit in digits:
+                if digit in res:
+                    count.append(digit)
+
+            if len(set(count)) == 1:
+                output_two.append(res)
+
+        with open("total_combo_filtered.txt", "w") as fo:
+            for e in sorted(output_two):
+                print(f"{e}")
+                fo.write(f"{e}\n")
+
+    else:
+        with open("total_combo_filtered.txt", "w") as fo:
+            for e in sorted(output_one):
+                print(f"{e}")
+                fo.write(f"{e}\n")
 
 
 def filter_two_digits():

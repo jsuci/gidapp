@@ -72923,3 +72923,40 @@ gap: 28
 
 
 
+date: 01 fri nov 2019
+time: 11am
+gap: 20
+417
+457
+
+time: 4pm
+gap: 31
+458
+498
+
+time: 4pm
+gap: 36
+140
+180
+
+time: 4pm
+gap: 49
+717
+711
+757
+751
+
+time: 9pm
+gap: 2
+282
+286
+222
+226
+
+time: 9pm
+gap: 49
+408
+448
+
+
+

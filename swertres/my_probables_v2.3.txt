@@ -122553,3 +122553,21 @@ gap: 36
 
 
 
+date: 01 fri nov 2019
+time: 11am
+gap: 22
+806
+846
+
+time: 4pm
+gap: 14
+837
+877
+
+time: 4pm
+gap: 43
+552
+592
+
+
+

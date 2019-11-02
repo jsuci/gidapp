@@ -2053,3 +2053,35 @@ gap: 30
 
 
 
+date: 01 fri nov 2019 0
+gap: 4
+285
+225
+
+gap: 15
+957
+997
+
+gap: 46
+043
+083
+
+
+
+date: 01 fri nov 2019 1
+gap: 19
+178
+118
+
+gap: 47
+065
+005
+
+
+
+date: 01 fri nov 2019 2
+
+
+date: 02 sat nov 2019 0
+
+
