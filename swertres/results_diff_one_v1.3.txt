@@ -1,4 +1,4 @@
-updated: 02 sat nov 2019 2
+updated: 05 tue nov 2019 0
 
 date: 14 sun jul 2019 0
 
@@ -4561,6 +4561,111 @@ results:
 38-4
 37-5
 36-4
+
+
+
+date: 03 sun nov 2019 0
+gap: 18
+pairs: ['28', '22']
+results:
+29-9
+20-7
+21-6
+
+
+
+date: 03 sun nov 2019 1
+gap: 5
+pairs: ['42', '46']
+results:
+43-7
+44-6
+45-7
+
+gap: 8
+pairs: ['42', '46']
+results:
+44-0
+45-7
+43-8
+
+
+
+date: 03 sun nov 2019 2
+gap: 33
+pairs: ['66', '60']
+results:
+69-3
+68-3
+67-4
+
+
+
+date: 04 mon nov 2019 0
+
+
+date: 04 mon nov 2019 1
+gap: 2
+pairs: ['72', '76']
+results:
+73-3
+75-6
+74-3
+
+gap: 14
+pairs: ['41', '45']
+results:
+44-6
+43-8
+42-5
+
+gap: 45
+pairs: ['49', '43']
+results:
+41-4
+42-1
+40-2
+
+
+
+date: 04 mon nov 2019 2
+gap: 5
+pairs: ['49', '43']
+results:
+40-5
+42-4
+41-7
+
+gap: 21
+pairs: ['73', '77']
+results:
+75-4
+74-1
+76-4
+
+gap: 37
+pairs: ['14', '18']
+results:
+16-0
+17-9
+15-9
+
+
+
+date: 05 tue nov 2019 0
+gap: 1
+pairs: ['16', '10']
+results:
+17-3
+19-2
+18-2
+
+gap: 22
+pairs: ['46', '40']
+results:
+47-5
+49-1
+48-1
 
 
 

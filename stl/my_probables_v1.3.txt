@@ -2109,3 +2109,64 @@ gap: 43
 date: 02 sat nov 2019 2
 
 
+date: 03 sun nov 2019 0
+gap: 21
+475
+415
+
+
+
+date: 03 sun nov 2019 1
+
+
+date: 03 sun nov 2019 2
+gap: 12
+245
+285
+
+gap: 43
+029
+069
+
+
+
+date: 04 mon nov 2019 0
+gap: 1
+718
+758
+
+gap: 23
+963
+903
+
+
+
+date: 04 mon nov 2019 1
+gap: 17
+329
+369
+
+gap: 19
+709
+749
+
+
+
+date: 04 mon nov 2019 2
+gap: 11
+927
+921
+967
+961
+
+gap: 43
+373
+377
+313
+317
+
+
+
+date: 05 tue nov 2019 0
+
+

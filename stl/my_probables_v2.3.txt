@@ -72978,3 +72978,51 @@ gap: 46
 
 
 
+date: 03 sun nov 2019
+time: 11am
+gap: 22
+420
+460
+
+time: 4pm
+gap: 7
+963
+903
+
+time: 4pm
+gap: 21
+335
+375
+
+time: 9pm
+gap: 5
+329
+369
+
+time: 9pm
+gap: 26
+009
+049
+
+time: 9pm
+gap: 48
+844
+884
+
+
+
+date: 04 mon nov 2019
+time: 11am
+gap: 3
+927
+921
+967
+961
+
+time: 11am
+gap: 32
+716
+756
+
+
+

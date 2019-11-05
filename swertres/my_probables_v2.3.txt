@@ -122618,3 +122618,56 @@ gap: 40
 
 
 
+date: 03 sun nov 2019
+time: 11am
+gap: 30
+236
+276
+
+time: 9pm
+gap: 4
+417
+457
+
+time: 9pm
+gap: 35
+708
+748
+
+
+
+date: 04 mon nov 2019
+time: 11am
+gap: 1
+496
+436
+
+time: 11am
+gap: 19
+123
+163
+
+time: 4pm
+gap: 31
+692
+632
+
+time: 9pm
+gap: 24
+837
+877
+
+time: 9pm
+gap: 27
+565
+505
+
+time: 9pm
+gap: 45
+479
+473
+419
+413
+
+
+

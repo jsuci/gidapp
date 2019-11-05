@@ -3124,3 +3124,72 @@ gap: 24
 
 
 
+date: 03 sun nov 2019 0
+gap: 18
+288
+228
+
+
+
+date: 03 sun nov 2019 1
+gap: 5
+426
+466
+
+gap: 8
+429
+469
+
+
+
+date: 03 sun nov 2019 2
+gap: 33
+664
+604
+
+
+
+date: 04 mon nov 2019 0
+
+
+date: 04 mon nov 2019 1
+gap: 2
+726
+766
+
+gap: 14
+417
+457
+
+gap: 45
+493
+433
+
+
+
+date: 04 mon nov 2019 2
+gap: 5
+496
+436
+
+gap: 21
+731
+771
+
+gap: 37
+140
+180
+
+
+
+date: 05 tue nov 2019 0
+gap: 1
+163
+103
+
+gap: 22
+465
+405
+
+
+
