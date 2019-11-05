@@ -1,4 +1,4 @@
-updated: 04 mon nov 2019
+updated: 05 tue nov 2019
 
 date: 04 fri jan 2013
 
@@ -86869,6 +86869,33 @@ results:
 40-1
 49-2
 48-0
+
+
+
+date: 05 tue nov 2019
+time: 11am
+gap: 43
+pairs: ['00', '04']
+results:
+02-5
+01-7
+03-4
+
+time: 9pm
+gap: 14
+pairs: ['29', '23']
+results:
+21-6
+22-5
+20-8
+
+time: 9pm
+gap: 44
+pairs: ['24', '28']
+results:
+27-0
+25-0
+26-1
 
 
 

@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019 0
+updated: 05 tue nov 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -3178,5 +3178,25 @@ results:
 
 
 date: 05 tue nov 2019 0
+
+
+date: 05 tue nov 2019 1
+gap: 2
+pairs: ['75', '79']
+results:
+77-2
+78-3
+76-1
+
+
+
+date: 05 tue nov 2019 2
+gap: 35
+pairs: ['03', '07']
+results:
+06-4
+05-7
+04-6
+
 
 

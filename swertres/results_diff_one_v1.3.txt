@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019 0
+updated: 05 tue nov 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -4667,5 +4667,32 @@ results:
 49-1
 48-1
 
+
+
+date: 05 tue nov 2019 1
+gap: 15
+pairs: ['53', '57']
+results:
+56-4
+55-2
+54-2
+
+gap: 46
+pairs: ['47', '41']
+results:
+49-1
+48-3
+40-2
+
+gap: 49
+pairs: ['43', '47']
+results:
+45-6
+44-8
+46-8
+
+
+
+date: 05 tue nov 2019 2
 
 

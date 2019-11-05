@@ -1,4 +1,5 @@
-echo "Installing files and dependencies..."
+#!/bin/bash
+
 apt update
 apt upgrade
 pkg install python

@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/env bash
+#!/bin/bash
 
 clear
 echo "PROCESSING SW3:"

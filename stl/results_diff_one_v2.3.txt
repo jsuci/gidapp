@@ -1,4 +1,4 @@
-updated: 04 mon nov 2019
+updated: 05 tue nov 2019
 
 date: 17 fri nov 2017
 
@@ -22695,6 +22695,33 @@ results:
 73-5
 72-4
 74-7
+
+
+
+date: 05 tue nov 2019
+time: 11am
+gap: 11
+pairs: ['03', '07']
+results:
+04-6
+05-7
+06-4
+
+time: 4pm
+gap: 4
+pairs: ['70', '74']
+results:
+73-9
+72-9
+71-7
+
+time: 4pm
+gap: 11
+pairs: ['32', '36']
+results:
+34-8
+35-7
+33-7
 
 
 

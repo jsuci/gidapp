@@ -73026,3 +73026,21 @@ gap: 32
 
 
 
+date: 05 tue nov 2019
+time: 11am
+gap: 11
+035
+075
+
+time: 4pm
+gap: 4
+707
+747
+
+time: 4pm
+gap: 11
+328
+368
+
+
+

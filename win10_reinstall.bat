@@ -1,3 +1,4 @@
+echo "Installing files and dependencies..."
 pip install requests
 pip install bs4
 pip install openpyxl
