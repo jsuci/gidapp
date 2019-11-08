@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019 2
+updated: 08 fri nov 2019 0
 
 date: 01 wed may 2019 1
 
@@ -1470,5 +1470,40 @@ date: 05 tue nov 2019 1
 
 
 date: 05 tue nov 2019 2
+
+
+date: 06 wed nov 2019 0
+
+
+date: 06 wed nov 2019 1
+
+
+date: 06 wed nov 2019 2
+gap: 79
+pairs: ['97', '91']
+results:
+99-4
+90-4
+98-4
+
+
+
+date: 07 thu nov 2019 0
+
+
+date: 07 thu nov 2019 1
+
+
+date: 07 thu nov 2019 2
+gap: 74
+pairs: ['62', '66']
+results:
+65-4
+64-4
+63-4
+
+
+
+date: 08 fri nov 2019 0
 
 

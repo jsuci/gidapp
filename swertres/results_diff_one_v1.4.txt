@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019 2
+updated: 07 thu nov 2019 2
 
 date: 01 wed may 2019 1
 
@@ -1843,5 +1843,30 @@ date: 05 tue nov 2019 1
 
 
 date: 05 tue nov 2019 2
+
+
+date: 06 wed nov 2019 0
+
+
+date: 06 wed nov 2019 1
+
+
+date: 06 wed nov 2019 2
+gap: 72
+pairs: ['79', '73']
+results:
+72-5
+70-5
+71-5
+
+
+
+date: 07 thu nov 2019 0
+
+
+date: 07 thu nov 2019 1
+
+
+date: 07 thu nov 2019 2
 
 

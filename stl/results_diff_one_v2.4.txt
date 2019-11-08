@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019
+updated: 07 thu nov 2019
 
 date: 16 thu nov 2017
 
@@ -4573,5 +4573,19 @@ date: 04 mon nov 2019
 
 
 date: 05 tue nov 2019
+
+
+date: 06 wed nov 2019
+
+
+date: 07 thu nov 2019
+time: 11am
+gap: 24
+pairs: ['62', '66']
+results:
+65-4
+64-4
+63-4
+
 
 

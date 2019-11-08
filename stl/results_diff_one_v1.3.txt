@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019 2
+updated: 08 fri nov 2019 0
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -3198,5 +3198,61 @@ results:
 05-7
 04-6
 
+
+
+date: 06 wed nov 2019 0
+gap: 14
+pairs: ['70', '74']
+results:
+71-7
+72-9
+73-9
+
+gap: 35
+pairs: ['32', '36']
+results:
+33-7
+35-7
+34-8
+
+
+
+date: 06 wed nov 2019 1
+gap: 19
+pairs: ['33', '37']
+results:
+36-4
+34-4
+35-3
+
+
+
+date: 06 wed nov 2019 2
+
+
+date: 07 thu nov 2019 0
+
+
+date: 07 thu nov 2019 1
+
+
+date: 07 thu nov 2019 2
+gap: 26
+pairs: ['00', '04']
+results:
+01-8
+02-4
+03-4
+
+gap: 45
+pairs: ['31', '35']
+results:
+33-4
+34-5
+32-7
+
+
+
+date: 08 fri nov 2019 0
 
 

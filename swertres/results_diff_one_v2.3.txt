@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019
+updated: 07 thu nov 2019
 
 date: 04 fri jan 2013
 
@@ -86896,6 +86896,92 @@ results:
 27-0
 25-0
 26-1
+
+
+
+date: 06 wed nov 2019
+time: 11am
+gap: 1
+pairs: ['42', '46']
+results:
+44-2
+45-0
+43-9
+
+time: 11am
+gap: 47
+pairs: ['81', '85']
+results:
+84-9
+82-6
+83-7
+
+time: 11am
+gap: 48
+pairs: ['39', '33']
+results:
+31-4
+32-4
+30-5
+
+
+
+date: 07 thu nov 2019
+time: 11am
+gap: 10
+pairs: ['90', '94']
+results:
+91-3
+93-9
+92-9
+
+time: 11am
+gap: 34
+pairs: ['60', '64']
+results:
+61-5
+63-4
+62-4
+
+time: 11am
+gap: 44
+pairs: ['06', '00']
+results:
+08-7
+07-1
+09-1
+
+time: 4pm
+gap: 1
+pairs: ['79', '73']
+results:
+72-7
+70-4
+71-6
+
+time: 4pm
+gap: 12
+pairs: ['11', '15']
+results:
+13-9
+14-8
+12-9
+
+time: 4pm
+gap: 16
+pairs: ['82', '86']
+results:
+84-5
+83-4
+85-5
+
+time: 9pm
+gap: 49
+pairs: ['02', '06']
+results:
+05-4
+03-1
+04-2
 
 
 

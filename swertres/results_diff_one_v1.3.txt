@@ -1,4 +1,4 @@
-updated: 05 tue nov 2019 2
+updated: 07 thu nov 2019 2
 
 date: 14 sun jul 2019 0
 
@@ -4694,5 +4694,65 @@ results:
 
 
 date: 05 tue nov 2019 2
+
+
+date: 06 wed nov 2019 0
+
+
+date: 06 wed nov 2019 1
+gap: 44
+pairs: ['29', '23']
+results:
+20-8
+22-5
+21-6
+
+
+
+date: 06 wed nov 2019 2
+gap: 5
+pairs: ['42', '46']
+results:
+43-9
+45-0
+44-2
+
+
+
+date: 07 thu nov 2019 0
+
+
+date: 07 thu nov 2019 1
+gap: 15
+pairs: ['26', '20']
+results:
+27-7
+29-9
+28-0
+
+
+
+date: 07 thu nov 2019 2
+gap: 31
+pairs: ['84', '88']
+results:
+87-9
+86-1
+85-8
+
+gap: 32
+pairs: ['90', '94']
+results:
+92-9
+93-9
+91-3
+
+gap: 42
+pairs: ['11', '15']
+results:
+12-8
+14-0
+13-0
+
 
 

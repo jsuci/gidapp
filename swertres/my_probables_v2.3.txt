@@ -122689,3 +122689,59 @@ gap: 44
 
 
 
+date: 06 wed nov 2019
+time: 11am
+gap: 1
+421
+461
+
+time: 11am
+gap: 47
+818
+858
+
+time: 11am
+gap: 48
+395
+335
+
+
+
+date: 07 thu nov 2019
+time: 11am
+gap: 10
+903
+943
+
+time: 11am
+gap: 34
+605
+645
+
+time: 11am
+gap: 44
+067
+007
+
+time: 4pm
+gap: 1
+795
+735
+
+time: 4pm
+gap: 12
+118
+158
+
+time: 4pm
+gap: 16
+824
+864
+
+time: 9pm
+gap: 49
+023
+063
+
+
+

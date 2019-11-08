@@ -73044,3 +73044,59 @@ gap: 11
 
 
 
+date: 06 wed nov 2019
+time: 11am
+gap: 24
+587
+527
+
+time: 11am
+gap: 31
+711
+751
+
+time: 4pm
+gap: 44
+901
+941
+
+time: 9pm
+gap: 34
+712
+752
+
+
+
+date: 07 thu nov 2019
+time: 11am
+gap: 8
+008
+048
+
+time: 11am
+gap: 22
+714
+754
+
+time: 11am
+gap: 24
+624
+664
+
+time: 11am
+gap: 37
+694
+634
+
+time: 4pm
+gap: 39
+505
+545
+
+time: 9pm
+gap: 11
+211
+251
+
+
+

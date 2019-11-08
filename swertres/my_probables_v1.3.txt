@@ -3213,3 +3213,45 @@ gap: 49
 date: 05 tue nov 2019 2
 
 
+date: 06 wed nov 2019 0
+
+
+date: 06 wed nov 2019 1
+gap: 44
+297
+237
+
+
+
+date: 06 wed nov 2019 2
+gap: 5
+421
+461
+
+
+
+date: 07 thu nov 2019 0
+
+
+date: 07 thu nov 2019 1
+gap: 15
+268
+208
+
+
+
+date: 07 thu nov 2019 2
+gap: 31
+840
+880
+
+gap: 32
+903
+943
+
+gap: 42
+118
+158
+
+
+
