@@ -1,4 +1,4 @@
-updated: 08 fri nov 2019
+updated: 09 sat nov 2019
 
 date: 17 fri nov 2017
 
@@ -22859,6 +22859,25 @@ results:
 74-3
 75-0
 76-2
+
+
+
+date: 09 sat nov 2019
+time: 11am
+gap: 11
+pairs: ['10', '14']
+results:
+11-5
+13-6
+12-7
+
+time: 11am
+gap: 31
+pairs: ['77', '71']
+results:
+79-2
+78-2
+70-6
 
 
 

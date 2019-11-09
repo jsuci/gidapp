@@ -122773,3 +122773,28 @@ gap: 49
 
 
 
+date: 09 sat nov 2019
+time: 4pm
+gap: 35
+405
+445
+
+time: 9pm
+gap: 15
+361
+365
+301
+305
+
+time: 9pm
+gap: 19
+711
+751
+
+time: 9pm
+gap: 46
+286
+226
+
+
+
