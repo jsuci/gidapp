@@ -487,7 +487,8 @@ def find_diff_one():
             # For total_combi output to file
             with open("total_combi_all.txt", "w") as fq:
                 for e in total_combi:
-                    fq.write(f"{e}\n")
+                    sum_e = sum(map(lambda x: int(x), e))
+                    fq.write(f"{e} ({sum_e})\n")
 
             print("\n")
             fo.write("\n\n")
