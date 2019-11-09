@@ -73100,3 +73100,36 @@ gap: 11
 
 
 
+date: 08 fri nov 2019
+time: 11am
+gap: 28
+677
+617
+
+time: 11am
+gap: 37
+636
+676
+
+time: 4pm
+gap: 16
+498
+438
+
+time: 4pm
+gap: 29
+108
+148
+
+time: 9pm
+gap: 5
+717
+757
+
+time: 9pm
+gap: 11
+731
+771
+
+
+

@@ -122745,3 +122745,31 @@ gap: 49
 
 
 
+date: 08 fri nov 2019
+time: 11am
+gap: 4
+118
+158
+
+time: 11am
+gap: 6
+227
+267
+
+time: 4pm
+gap: 27
+826
+866
+
+time: 9pm
+gap: 41
+207
+247
+
+time: 9pm
+gap: 49
+054
+094
+
+
+

@@ -1,4 +1,4 @@
-updated: 07 thu nov 2019
+updated: 08 fri nov 2019
 
 date: 04 fri jan 2013
 
@@ -86982,6 +86982,49 @@ results:
 05-4
 03-1
 04-2
+
+
+
+date: 08 fri nov 2019
+time: 11am
+gap: 4
+pairs: ['11', '15']
+results:
+13-0
+14-7
+12-9
+
+time: 11am
+gap: 6
+pairs: ['22', '26']
+results:
+24-7
+25-5
+23-5
+
+time: 4pm
+gap: 27
+pairs: ['82', '86']
+results:
+85-9
+84-9
+83-6
+
+time: 9pm
+gap: 41
+pairs: ['20', '24']
+results:
+21-7
+23-3
+22-3
+
+time: 9pm
+gap: 49
+pairs: ['05', '09']
+results:
+06-1
+07-1
+08-4
 
 
 

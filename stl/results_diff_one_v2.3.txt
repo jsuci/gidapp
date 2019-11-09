@@ -1,4 +1,4 @@
-updated: 07 thu nov 2019
+updated: 08 fri nov 2019
 
 date: 17 fri nov 2017
 
@@ -22808,6 +22808,57 @@ results:
 24-7
 22-7
 23-1
+
+
+
+date: 08 fri nov 2019
+time: 11am
+gap: 28
+pairs: ['67', '61']
+results:
+69-8
+68-6
+60-5
+
+time: 11am
+gap: 37
+pairs: ['63', '67']
+results:
+66-6
+64-3
+65-3
+
+time: 4pm
+gap: 16
+pairs: ['49', '43']
+results:
+40-6
+41-8
+42-6
+
+time: 4pm
+gap: 29
+pairs: ['10', '14']
+results:
+13-6
+12-8
+11-6
+
+time: 9pm
+gap: 5
+pairs: ['71', '75']
+results:
+74-5
+72-6
+73-8
+
+time: 9pm
+gap: 11
+pairs: ['73', '77']
+results:
+74-3
+75-0
+76-2
 
 
 

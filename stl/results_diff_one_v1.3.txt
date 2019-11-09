@@ -1,4 +1,4 @@
-updated: 08 fri nov 2019 0
+updated: 08 fri nov 2019 2
 
 date: 14 sun jul 2019 1
 gap: 16
@@ -3254,5 +3254,32 @@ results:
 
 
 date: 08 fri nov 2019 0
+
+
+date: 08 fri nov 2019 1
+gap: 16
+pairs: ['71', '75']
+results:
+72-9
+73-9
+74-5
+
+gap: 28
+pairs: ['00', '04']
+results:
+01-8
+03-9
+02-1
+
+gap: 35
+pairs: ['21', '25']
+results:
+23-1
+22-7
+24-7
+
+
+
+date: 08 fri nov 2019 2
 
 
