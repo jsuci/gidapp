@@ -62,26 +62,27 @@ def filter_pair(results):
 
 
 def filter_sum(results):
-    usum = input("Enter integer sum (eg. 00 - 27): ")
+    usum = input("Enter integer sum (eg. 00 - 27): ").split(" ")
     output = []
 
-    for res_sum in results:
-        res = res_sum[0]
-        rsum = res_sum[1]
-        trantab = rsum.maketrans({"(": None, ")": None})
-        rsum = rsum.translate(trantab)
+    for digits in usum:
+        for res_sum in results:
+            res = res_sum[0]
+            rsum = res_sum[1]
+            trantab = rsum.maketrans({"(": None, ")": None})
+            rsum = rsum.translate(trantab)
 
-        if rsum == usum:
-            output.append(res_sum)
+            if rsum == digits:
+                output.append(res_sum)
 
     return output
 
 
 def filter_total_combi():
-    user_quit = "n"
+    user_quit = "y"
     current_results = get_total_combi()
 
-    while user_quit != "y":
+    while user_quit != "n":
         user_select = input(
             "Type \"0\" to match 0 digit from given digits (eg. 1234).\n"
             "Type \"1\" to match 1 digit from given digits (eg. 1234).\n"
@@ -103,7 +104,7 @@ def filter_total_combi():
 
         print(f"\n{current_results}\n")
 
-        user_quit = input("Done filtering? (y/n): ")
+        user_quit = input("Continue filtering? (y/n): ")
 
         print("\n")
 
