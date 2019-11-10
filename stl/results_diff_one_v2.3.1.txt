@@ -1,4 +1,4 @@
-updated: 09 sat nov 2019
+updated: 10 sun nov 2019
 
 date: 11 wed sep 2019
 time: 11am
@@ -16354,6 +16354,337 @@ combis: ['183', '113']
 results:
 10-4
 19-2
+
+
+
+date: 10 sun nov 2019
+time: 11am
+gap: 4
+pairs: ['40']
+combis: ['407']
+results:
+49-8
+41-6
+
+time: 11am
+gap: 6
+pairs: ['94', '97']
+combis: ['949', '979']
+results:
+95-9
+96-9
+
+time: 11am
+gap: 8
+pairs: ['08']
+combis: ['081', '084']
+results:
+09-3
+07-2
+
+time: 11am
+gap: 17
+pairs: ['31']
+combis: ['318']
+results:
+32-7
+30-9
+
+time: 11am
+gap: 19
+pairs: ['61', '64']
+combis: ['615', '645']
+results:
+63-5
+62-5
+
+time: 11am
+gap: 24
+pairs: ['39', '32']
+combis: ['396', '326']
+results:
+30-6
+31-6
+
+time: 11am
+gap: 26
+pairs: ['67', '60']
+combis: ['675', '605']
+results:
+69-5
+68-5
+
+time: 11am
+gap: 28
+pairs: ['74', '77']
+combis: ['741', '771']
+results:
+76-2
+75-0
+
+time: 11am
+gap: 33
+pairs: ['71']
+combis: ['718', '711']
+results:
+72-9
+70-0
+
+time: 11am
+gap: 35
+pairs: ['72', '75']
+combis: ['722', '752']
+results:
+74-2
+73-2
+
+time: 11am
+gap: 36
+pairs: ['14', '17']
+combis: ['140', '170']
+results:
+16-9
+15-1
+
+time: 11am
+gap: 37
+pairs: ['65']
+combis: ['652', '655']
+results:
+65-4
+65-3
+
+time: 11am
+gap: 43
+pairs: ['93']
+combis: ['930', '933']
+results:
+92-1
+94-2
+
+time: 11am
+gap: 47
+pairs: ['79']
+combis: ['792']
+results:
+70-3
+78-1
+
+time: 11am
+gap: 49
+pairs: ['05', '08']
+combis: ['052', '055', '082', '085']
+results:
+07-4
+06-3
+
+time: 4pm
+gap: 3
+pairs: ['62', '65']
+combis: ['627', '657']
+results:
+64-8
+63-6
+
+time: 4pm
+gap: 9
+pairs: ['72']
+combis: ['728']
+results:
+73-9
+71-7
+
+time: 4pm
+gap: 12
+pairs: ['66']
+combis: ['668', '661']
+results:
+67-9
+65-0
+
+time: 4pm
+gap: 13
+pairs: ['94']
+combis: ['946']
+results:
+95-5
+93-7
+
+time: 4pm
+gap: 16
+pairs: ['36']
+combis: ['362', '365']
+results:
+35-4
+37-3
+
+time: 4pm
+gap: 20
+pairs: ['82', '85']
+combis: ['823', '853']
+results:
+84-2
+83-4
+
+time: 4pm
+gap: 24
+pairs: ['09', '02']
+combis: ['093', '023']
+results:
+01-3
+00-3
+
+time: 4pm
+gap: 25
+pairs: ['98']
+combis: ['985']
+results:
+99-4
+97-6
+
+time: 4pm
+gap: 35
+pairs: ['19']
+combis: ['194']
+results:
+10-4
+18-4
+
+time: 4pm
+gap: 36
+pairs: ['51', '54']
+combis: ['517', '510', '547', '540']
+results:
+52-9
+53-8
+
+time: 4pm
+gap: 38
+pairs: ['40', '43']
+combis: ['404', '407', '434', '437']
+results:
+42-5
+41-6
+
+time: 4pm
+gap: 41
+pairs: ['27', '20']
+combis: ['273', '276', '203', '206']
+results:
+29-5
+28-4
+
+time: 4pm
+gap: 42
+pairs: ['59']
+combis: ['590', '593']
+results:
+50-1
+58-2
+
+time: 4pm
+gap: 44
+pairs: ['67', '60']
+combis: ['670', '600']
+results:
+68-1
+69-9
+
+time: 4pm
+gap: 45
+pairs: ['61']
+combis: ['614']
+results:
+61-3
+61-5
+
+time: 4pm
+gap: 46
+pairs: ['97']
+combis: ['971', '974']
+results:
+97-3
+97-2
+
+time: 9pm
+gap: 6
+pairs: ['75', '78']
+combis: ['752', '782']
+results:
+76-2
+77-2
+
+time: 9pm
+gap: 7
+pairs: ['74']
+combis: ['746', '749']
+results:
+75-7
+73-8
+
+time: 9pm
+gap: 11
+pairs: ['03', '06']
+combis: ['030', '033', '060', '063']
+results:
+04-1
+05-2
+
+time: 9pm
+gap: 17
+pairs: ['91', '94']
+combis: ['913', '916', '943', '946']
+results:
+93-5
+92-4
+
+time: 9pm
+gap: 20
+pairs: ['88', '81']
+combis: ['884', '814']
+results:
+80-4
+89-4
+
+time: 9pm
+gap: 22
+pairs: ['47', '40']
+combis: ['475', '478', '405', '408']
+results:
+49-7
+48-6
+
+time: 9pm
+gap: 36
+pairs: ['41']
+combis: ['416']
+results:
+42-7
+40-5
+
+time: 9pm
+gap: 38
+pairs: ['70', '73']
+combis: ['705', '735']
+results:
+71-6
+72-4
+
+time: 9pm
+gap: 40
+pairs: ['74', '77']
+combis: ['741', '771']
+results:
+76-0
+75-2
+
+time: 9pm
+gap: 43
+pairs: ['09']
+combis: ['090']
+results:
+09-1
+09-9
 
 
 

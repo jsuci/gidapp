@@ -1,4 +1,4 @@
-updated: 09 sat nov 2019
+updated: 10 sun nov 2019
 
 date: 11 wed sep 2019
 time: 11am
@@ -15481,6 +15481,209 @@ combis: ['268', '261']
 results:
 25-0
 27-9
+
+
+
+date: 10 sun nov 2019
+time: 11am
+gap: 2
+pairs: ['33', '36']
+combis: ['330', '360']
+results:
+34-9
+35-1
+
+time: 11am
+gap: 5
+pairs: ['42']
+combis: ['428']
+results:
+41-7
+43-9
+
+time: 11am
+gap: 6
+pairs: ['20']
+combis: ['209']
+results:
+29-9
+21-9
+
+time: 11am
+gap: 7
+pairs: ['51']
+combis: ['513', '516']
+results:
+52-5
+50-4
+
+time: 11am
+gap: 12
+pairs: ['51', '54']
+combis: ['510', '540']
+results:
+53-1
+52-9
+
+time: 11am
+gap: 17
+pairs: ['93']
+combis: ['930', '933']
+results:
+93-1
+93-2
+
+time: 11am
+gap: 24
+pairs: ['92', '95']
+combis: ['928', '958']
+results:
+94-7
+93-9
+
+time: 11am
+gap: 33
+pairs: ['45', '48']
+combis: ['454', '484']
+results:
+46-3
+47-5
+
+time: 11am
+gap: 34
+pairs: ['57']
+combis: ['579']
+results:
+56-0
+58-8
+
+time: 11am
+gap: 36
+pairs: ['11', '14']
+combis: ['114', '144']
+results:
+13-4
+12-4
+
+time: 11am
+gap: 37
+pairs: ['45']
+combis: ['450', '453']
+results:
+44-1
+46-2
+
+time: 11am
+gap: 42
+pairs: ['12']
+combis: ['128', '121']
+results:
+13-0
+11-9
+
+time: 11am
+gap: 45
+pairs: ['10']
+combis: ['104']
+results:
+10-5
+10-3
+
+time: 11am
+gap: 47
+pairs: ['19', '12']
+combis: ['198', '128']
+results:
+11-7
+10-9
+
+time: 4pm
+gap: 2
+pairs: ['66', '69']
+combis: ['668', '698']
+results:
+67-7
+68-9
+
+time: 4pm
+gap: 7
+pairs: ['27', '20']
+combis: ['271', '201']
+results:
+29-1
+28-1
+
+time: 4pm
+gap: 9
+pairs: ['83', '86']
+combis: ['835', '865']
+results:
+85-5
+84-5
+
+time: 4pm
+gap: 20
+pairs: ['18']
+combis: ['182', '185']
+results:
+19-3
+17-4
+
+time: 4pm
+gap: 28
+pairs: ['80']
+combis: ['804']
+results:
+89-4
+81-4
+
+time: 4pm
+gap: 36
+pairs: ['48']
+combis: ['483']
+results:
+48-3
+48-3
+
+time: 4pm
+gap: 49
+pairs: ['72']
+combis: ['720']
+results:
+72-0
+72-0
+
+time: 9pm
+gap: 11
+pairs: ['65']
+combis: ['653']
+results:
+66-2
+64-4
+
+time: 9pm
+gap: 20
+pairs: ['03']
+combis: ['038']
+results:
+04-9
+02-7
+
+time: 9pm
+gap: 21
+pairs: ['24']
+combis: ['243']
+results:
+23-2
+25-4
+
+time: 9pm
+gap: 45
+pairs: ['85']
+combis: ['859', '852']
+results:
+84-0
+86-1
 
 
 
