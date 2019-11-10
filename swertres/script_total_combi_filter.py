@@ -17,7 +17,7 @@ def filter_zero(results):
             if digit in set(res[0]):
                 matches.add(digit)
 
-        if len(matches) == 0:
+        if len(matches) == 0 and res not in output:
             output.append(res)
 
     return output
@@ -34,7 +34,7 @@ def filter_one(results):
             if digit in res[0]:
                 matches.add(digit)
 
-        if len(matches) == 1:
+        if len(matches) == 1 and res not in output:
             output.append(res)
 
     return output
@@ -55,7 +55,7 @@ def filter_pair(results):
         s_res = "".join(sorted(res[0]))
         for pair in all_pairs:
             s_pair = "".join(sorted(pair))
-            if s_pair in s_res:
+            if s_pair in s_res and res not in output:
                 output.append(res)
 
     return output
@@ -72,7 +72,7 @@ def filter_sum(results):
             trantab = rsum.maketrans({"(": None, ")": None})
             rsum = rsum.translate(trantab)
 
-            if rsum == digits:
+            if rsum == digits and res_sum not in output:
                 output.append(res_sum)
 
     return output
