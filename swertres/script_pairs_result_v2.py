@@ -67,7 +67,7 @@ def filter_results():
         for i in range(len(results) - 1):
             for entry in results[i]:
                 has_match = match_results(entry, num_two)
-                if has_match and (len(has_match) == 3):
+                if has_match and (len(has_match) == 3) and (len(entry) == 3):
                     filtered_results = [results[i - 1],
                                         results[i], results[i + 1]]
                     combine_results = process_filter(
