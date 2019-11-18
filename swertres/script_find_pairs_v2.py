@@ -63,7 +63,7 @@ def filter_results():
     dic_all_results = {}
     dic_all_pairs = {}
 
-    with open("pairs_result_v2.txt", "w") as fi:
+    with open("find_pairs_v2.txt", "w") as fi:
         for i in range(len(results) - 1):
             for entry in results[i]:
                 has_match = match_results(entry, num_two)
