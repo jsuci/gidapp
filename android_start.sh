@@ -44,10 +44,10 @@ python script_current_results.py
 echo
 echo
 #am start -a android.intent.action.VIEW -d file://~/sdcard/Download/gidapp/swertres/results_v2.txt -t text/plain --activity-clear-task
-read -p "Press enter to exit: " -n 1 -r
-if [[ $REPLY =~ ^$ ]]
+read -p "Press enter to exit: " ext
+if [ -z $ext ]
 then
- killall com.termux
+ kill com.termux
 fi
 echo
 # echo -ne "\n" | killall com.termux

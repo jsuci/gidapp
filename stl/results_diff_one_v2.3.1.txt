@@ -1,4 +1,4 @@
-updated: 18 mon nov 2019
+updated: 19 tue nov 2019
 
 date: 11 wed sep 2019
 time: 11am
@@ -18773,6 +18773,217 @@ combis: ['092']
 results:
 00-1
 08-3
+
+
+
+date: 19 tue nov 2019
+time: 11am
+gap: 5
+pairs: ['79']
+combis: ['791']
+results:
+79-1
+79-1
+
+time: 11am
+gap: 14
+pairs: ['28', '21']
+combis: ['282', '285', '212', '215']
+results:
+20-4
+29-3
+
+time: 11am
+gap: 22
+pairs: ['50']
+combis: ['500']
+results:
+51-1
+59-9
+
+time: 11am
+gap: 23
+pairs: ['48']
+combis: ['487']
+results:
+47-7
+49-7
+
+time: 11am
+gap: 27
+pairs: ['29']
+combis: ['294']
+results:
+29-4
+29-4
+
+time: 11am
+gap: 28
+pairs: ['25', '28']
+combis: ['254', '284']
+results:
+27-3
+26-5
+
+time: 11am
+gap: 29
+pairs: ['43']
+combis: ['430']
+results:
+44-0
+42-0
+
+time: 11am
+gap: 37
+pairs: ['74']
+combis: ['749']
+results:
+73-8
+75-0
+
+time: 11am
+gap: 38
+pairs: ['48', '41']
+combis: ['482', '485', '412', '415']
+results:
+49-4
+40-3
+
+time: 11am
+gap: 41
+pairs: ['05', '08']
+combis: ['058', '088']
+results:
+07-9
+06-7
+
+time: 11am
+gap: 44
+pairs: ['22']
+combis: ['228']
+results:
+21-9
+23-7
+
+time: 4pm
+gap: 1
+pairs: ['97']
+combis: ['972']
+results:
+96-3
+98-1
+
+time: 4pm
+gap: 3
+pairs: ['34', '37']
+combis: ['347', '340', '377', '370']
+results:
+35-8
+36-9
+
+time: 4pm
+gap: 7
+pairs: ['33', '36']
+combis: ['339', '369']
+results:
+34-0
+35-8
+
+time: 4pm
+gap: 17
+pairs: ['40']
+combis: ['405', '408']
+results:
+41-6
+49-7
+
+time: 4pm
+gap: 18
+pairs: ['72']
+combis: ['726']
+results:
+73-5
+71-7
+
+time: 4pm
+gap: 22
+pairs: ['36']
+combis: ['367', '360']
+results:
+35-8
+37-9
+
+time: 4pm
+gap: 29
+pairs: ['37']
+combis: ['374']
+results:
+36-4
+38-4
+
+time: 4pm
+gap: 35
+pairs: ['42']
+combis: ['424', '427']
+results:
+43-5
+41-6
+
+time: 4pm
+gap: 36
+pairs: ['94']
+combis: ['944']
+results:
+93-3
+95-5
+
+time: 9pm
+gap: 2
+pairs: ['43', '46']
+combis: ['439', '432', '469', '462']
+results:
+44-1
+45-0
+
+time: 9pm
+gap: 3
+pairs: ['07', '00']
+combis: ['076', '006']
+results:
+08-5
+09-7
+
+time: 9pm
+gap: 30
+pairs: ['74', '77']
+combis: ['741', '771']
+results:
+75-2
+76-0
+
+time: 9pm
+gap: 31
+pairs: ['85']
+combis: ['854', '857']
+results:
+86-5
+84-6
+
+time: 9pm
+gap: 44
+pairs: ['34', '37']
+combis: ['348', '341', '378', '371']
+results:
+36-0
+35-9
+
+time: 9pm
+gap: 48
+pairs: ['55']
+combis: ['551']
+results:
+56-0
+54-2
 
 
 
