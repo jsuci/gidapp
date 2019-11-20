@@ -1,2 +1,2 @@
 cd /sdcard/Download/gidapp/
-bash start.sh
+bash android_start.sh
