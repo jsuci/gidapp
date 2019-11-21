@@ -3308,3 +3308,27 @@ sample:
 --------------------------
 CURRENTLY OBSERVE PATTERNS AND SCRIPT
 1. follow my_probables_2.4.txt for swertres draws. only bet according to its draw time ex. 4pm or 9pm. Use this in combination with other script like script_filter_gap_excel.py to minimize bet cost
+
+
+2 using script_pairs_results_v2.txt
+['20 fri oct 2017', '787', '090', '621']
+['21 sat oct 2017', '540', '762', '238']
+['22 sun oct 2017', '563', '772', '680']
+
+['16 tue dec 2014', '384', '462', '244']
+['17 wed dec 2014', '726', '472', '317']
+['18 thu dec 2014', '756', '635', '273']
+
+['07 thu mar 2019', '087', '008', '507']
+['08 fri mar 2019', '384', '726', '780']
+['09 sat mar 2019', '628', '192', '057']
+
+
+18 mon nov 2019       963       785       608
+19 tue nov 2019       452       762       879
+20 wed nov 2019       146       510       438
+
+1. observe pairs before and after 762 (45, 42, 52 and 87, 89, 79)
+2. find those pairs in exact order as they appear on find_pairs_v2.txt
+
+
