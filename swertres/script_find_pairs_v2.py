@@ -17,7 +17,7 @@ def all_results():
 def match_results(num_one, num_two):
     output = []
 
-    if len(num_one) == 3:
+    if 2 <= len(num_one) <= 3:
         for digit in num_one:
             if digit in num_two:
                 output.append(digit)

@@ -3328,7 +3328,30 @@ CURRENTLY OBSERVE PATTERNS AND SCRIPT
 19 tue nov 2019       452       762       879
 20 wed nov 2019       146       510       438
 
-1. observe pairs before and after 762 (45, 42, 52 and 87, 89, 79)
-2. find those pairs in exact order as they appear on find_pairs_v2.txt
+a. observe pairs before and after 762 (45, 42, 52 and 87, 89, 79)
+b. find those pairs in exact order as they appear on find_pairs_v2.txt
+
+
+3. using script_pairs_results_v2.py
+04 mon nov 2019     219            704            317 (13)       
+06 wed nov 2019     167            167            999            
+08 fri nov 2019     513 (13)       689            991            
+10 sun nov 2019     788            696            248            
+12 tue nov 2019     797            124            931 (13)       
+14 thu nov 2019     726            046            977            
+16 sat nov 2019     310 (13)       456            244            
+18 mon nov 2019     963            785            608            
+20 wed nov 2019     146            510            438    
+
+
+14 fri jun 2019     615 (15)       512 (15)       482            
+21 fri jun 2019     305            114            691            
+28 fri jun 2019     893            691            518 (15)       
+05 fri jul 2019     501 (15)       121            678            
+12 fri jul 2019     875            818            716            
+19 fri jul 2019     427            641            279            
+26 fri jul 2019     156 (15)       929            935   
+
+a. spot patterns within gaps
 
 
