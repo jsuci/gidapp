@@ -3378,7 +3378,7 @@ a. spot patterns within gaps
 03 thu oct 2019     548 (5-48)     484            664            
 06 sun oct 2019     931            388            562 (5-26)     
 
-
+* check the position of the digits
 02 tue jul 2019     158 (5-18)     996            563 (5-36)     
 06 sat jul 2019     780            422            217            
 10 wed jul 2019     179            223            951 (5-19)     
@@ -3386,3 +3386,13 @@ a. spot patterns within gaps
 18 thu jul 2019     118            507 (5-07)     691            
 22 mon jul 2019     241            759 (5-79)     148            
 26 fri jul 2019     156 (5-16)     929            935 (5-39)     
+
+*check position of digits
+30 wed oct 2019     471 (1-47)     964            464            
+02 sat nov 2019     532            277            576            
+05 tue nov 2019     439            767            211 (1-12)     
+08 fri nov 2019     513 (1-35)     689            991 (1-99)     
+11 mon nov 2019     967            383            044            
+14 thu nov 2019     726            046            977            
+17 sun nov 2019     846            773            777            
+20 wed nov 2019     146 (1-46)     510 (1-05)     438
