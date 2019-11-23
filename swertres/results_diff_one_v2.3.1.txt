@@ -1,4 +1,4 @@
-updated: 22 fri nov 2019
+updated: 23 sat nov 2019
 
 date: 11 wed sep 2019
 time: 11am
@@ -18624,6 +18624,193 @@ combis: ['942']
 results:
 95-2
 93-2
+
+
+
+date: 23 sat nov 2019
+time: 11am
+gap: 4
+pairs: ['25']
+combis: ['256']
+results:
+26-7
+24-5
+
+time: 11am
+gap: 15
+pairs: ['36']
+combis: ['369', '362']
+results:
+37-0
+35-1
+
+time: 11am
+gap: 17
+pairs: ['70', '73']
+combis: ['705', '735']
+results:
+72-4
+71-6
+
+time: 11am
+gap: 20
+pairs: ['44']
+combis: ['449', '442']
+results:
+43-1
+45-0
+
+time: 11am
+gap: 21
+pairs: ['52']
+combis: ['523']
+results:
+51-4
+53-2
+
+time: 11am
+gap: 22
+pairs: ['41', '44']
+combis: ['415', '445']
+results:
+43-6
+42-4
+
+time: 11am
+gap: 25
+pairs: ['53']
+combis: ['537', '530']
+results:
+54-8
+52-9
+
+time: 11am
+gap: 30
+pairs: ['38', '31']
+combis: ['383', '313']
+results:
+30-4
+39-2
+
+time: 11am
+gap: 42
+pairs: ['35']
+combis: ['355']
+results:
+36-4
+34-6
+
+time: 11am
+gap: 46
+pairs: ['45', '48']
+combis: ['455', '485']
+results:
+46-5
+47-5
+
+time: 11am
+gap: 48
+pairs: ['38']
+combis: ['380', '383']
+results:
+37-2
+39-1
+
+time: 11am
+gap: 49
+pairs: ['29', '22']
+combis: ['293', '223']
+results:
+20-2
+21-4
+
+time: 4pm
+gap: 9
+pairs: ['04']
+combis: ['045', '048']
+results:
+04-7
+04-6
+
+time: 4pm
+gap: 15
+pairs: ['69']
+combis: ['690']
+results:
+60-1
+68-9
+
+time: 4pm
+gap: 23
+pairs: ['47']
+combis: ['474']
+results:
+48-3
+46-5
+
+time: 4pm
+gap: 41
+pairs: ['40']
+combis: ['407', '400']
+results:
+49-9
+41-8
+
+time: 4pm
+gap: 44
+pairs: ['11']
+combis: ['112', '115']
+results:
+12-3
+10-4
+
+time: 9pm
+gap: 1
+pairs: ['32', '35']
+combis: ['326', '329', '356', '359']
+results:
+34-8
+33-7
+
+time: 9pm
+gap: 4
+pairs: ['77', '70']
+combis: ['778', '708']
+results:
+79-7
+78-9
+
+time: 9pm
+gap: 20
+pairs: ['71', '74']
+combis: ['714', '744']
+results:
+72-5
+73-3
+
+time: 9pm
+gap: 21
+pairs: ['56', '59']
+combis: ['566', '596']
+results:
+58-6
+57-6
+
+time: 9pm
+gap: 22
+pairs: ['38']
+combis: ['383']
+results:
+39-2
+37-4
+
+time: 9pm
+gap: 26
+pairs: ['74']
+combis: ['743']
+results:
+73-2
+75-4
 
 
 

@@ -3396,3 +3396,9 @@ a. spot patterns within gaps
 14 thu nov 2019     726            046            977            
 17 sun nov 2019     846            773            777            
 20 wed nov 2019     146 (1-46)     510 (1-05)     438
+
+*odd digits different positions
+04 mon nov 2019     219            704            317 (3-17)     
+08 fri nov 2019     513 (3-15)     689            991            
+12 tue nov 2019     797            124            931 (3-19)     
+16 sat nov 2019     310 (3-01)     456            244            
