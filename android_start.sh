@@ -7,12 +7,12 @@ echo
 echo "Fetching Results:"
 python sw3_results_v1.py
 python sw3_results_v2.py
-python script_filter_excel.py
-python script_filter_gap_excel.py
+# python script_filter_excel.py
+# python script_filter_gap_excel.py
 echo
 echo
 echo "SEQ_TYPES Pattern"
-python script_diff_one_v2.3.1.py
+# python script_diff_one_v2.3.1.py
 python script_count_missing_v1.1.py
 echo
 echo
@@ -24,12 +24,12 @@ echo
 echo "Fetching Results:"
 python stl_results_v1.py
 python stl_results_v2.py
-python script_filter_excel.py
-python script_filter_gap_excel.py
+# python script_filter_excel.py
+# python script_filter_gap_excel.py
 echo
 echo
 echo "SEQ_TYPES Pattern"
-python script_diff_one_v2.3.1.py
+# python script_diff_one_v2.3.1.py
 python script_count_missing_v1.1.py
 echo
 echo
@@ -47,7 +47,7 @@ echo
 read -p "Press enter to exit: " ext
 if [ -z $ext ]
 then
- kill com.termux
+ killall com.termux
 fi
 echo
 # echo -ne "\n" | killall com.termux
