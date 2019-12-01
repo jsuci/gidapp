@@ -11,7 +11,7 @@ echo
 echo
 echo "SEQ_TYPES Pattern"
 # python script_diff_one_v2.3.1.py
-python script_count_missing_v1.1.py
+python script_count_missing.py
 echo
 echo
 echo
@@ -26,7 +26,7 @@ echo
 echo
 echo "SEQ_TYPES Pattern"
 # python script_diff_one_v2.3.1.py
-python script_count_missing_v1.1.py
+python script_count_missing.py
 echo
 echo
 echo "Current SW3 Results:"
