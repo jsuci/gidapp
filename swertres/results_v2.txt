@@ -1,4 +1,4 @@
-updated: 23 sat nov 2019 2
+updated: 01 sun dec 2019 0
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2477,3 +2477,11 @@ updated: 23 sat nov 2019 2
 21 thu nov 2019       906       364       211
 22 fri nov 2019       159       881       337
 23 sat nov 2019       152       191       247
+24 sun nov 2019       180       796       232
+25 mon nov 2019       612       142       452
+26 tue nov 2019       642       121       984
+27 wed nov 2019       541       818       182
+28 thu nov 2019       743       527       769
+29 fri nov 2019       736       294       100
+30 sat nov 2019       969       094       261
+01 sun dec 2019       749
