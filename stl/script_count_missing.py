@@ -7,7 +7,7 @@ def date_gap():
     """
     INPUT:
         prev_date - a string date (ex. 01 Wed May 2019 1) taken from
-        results_count_missing_v1.1.txt
+        count_missing.txt
 
         curr_date - a string date (ex. 12 fri jul 2019 1) taken from
         results_v2.txt (results_v2.txt is used for more accurate date_gap
@@ -21,7 +21,7 @@ def date_gap():
     output = []
     found = False
 
-    with open("results_count_missing_v1.1.txt", "r") as f1, \
+    with open("count_missing.txt", "r") as f1, \
             open("results_v2.txt", "r") as f2:
 
         prev_date = f1.readline().strip().replace("updated: ", "")
@@ -143,7 +143,7 @@ def all_missing_digit():
 
     result_gap = date_gap()
 
-    with open("results_count_missing_v1.1.txt", "a") as fo:
+    with open("count_missing.txt", "a") as fo:
 
         for prev_date in result_gap:
             print(f"date: {prev_date[0]} {prev_date[1]}")
@@ -172,7 +172,7 @@ def all_missing_digit():
 
     if result_gap:
         with fileinput.input(
-                "results_count_missing_v1.1.txt", inplace=True) as fio:
+                "count_missing.txt", inplace=True) as fio:
             for entry in fio:
                 if "updated:" in entry:
                     print(f"updated: {result_gap[-1][0]} {result_gap[-1][1]}")
