@@ -51,8 +51,8 @@ def search_results(num_search):
 
 
 def get_common_combi():
-    num_search = split(r"\s+", input("Enter number to search: "))
-    top_combi = {}
+    num_search = split(r"\s+", input("Enter number(s) to search: "))
+    top_combi = []
     all_common_combi = {}
 
     with open("common_combi.txt", "w") as fo:
@@ -72,38 +72,53 @@ def get_common_combi():
                         else:
                             common_combi[s_e_result] += 1
 
+            # Combine each num_search results to sorted_common_combi
             sorted_common_combi = sorted(
                 common_combi.items(), key=lambda x: x[1])
 
+            # Get the top pair for this num_search
+            top_combi.append(sorted_common_combi[-1])
+
+            # Combine each num_search results to all_common_combi
             for num, count in sorted_common_combi:
-                # Filter only common digits greater than 2
+                # Limit to atleast 3 or more appearances
                 if count >= 3:
                     if num not in all_common_combi:
                         all_common_combi.setdefault(num, count)
                     else:
                         all_common_combi[num] += count
 
-            if sorted_common_combi[-1][0] not in top_combi:
-                top_combi.setdefault(
-                    sorted_common_combi[-1][0], sorted_common_combi[-1][1])
-            else:
-                top_combi[sorted_common_combi[-1][0]
-                          ] += sorted_common_combi[-1][1]
+        # Process all_common_combi
+        by_key_all_common_combi = sorted(
+            all_common_combi.items(), key=lambda x: x[0])
 
-        for num, count in sorted(
-                all_common_combi.items(), key=lambda x: x[1]):
-            print(f"{num} ({count})")
+        by_val_all_common_combi = sorted(
+            all_common_combi.items(), key=lambda x: x[1])
+
+        # Export sorted_all_common_combi for filtering
+        for num, count in by_key_all_common_combi:
+            # print(f"{num} ({count})")
             fo.write(f"{num} ({count})\n")
 
         print("\n")
         fo.write(f"\n\n")
 
-        print("Top combinations for each number: ")
-        fo.write(f"Top combinations for each number: \n")
+        print("Top combi for each number: ")
+        fo.write(f"Top combi for each number: \n")
 
-        for combi, count in top_combi.items():
+        for combi, count in top_combi:
             print(f"{combi} ({count})")
             fo.write(f"{combi} ({count})\n")
+
+        print("\n")
+        fo.write(f"\n\n")
+
+        print("Top 3 combi for all numbers: ")
+        fo.write(f"Top 3 combi for all numbers:\n")
+
+        for pair, count in by_val_all_common_combi[-3:]:
+            print(f"{pair} ({count})")
+            fo.write(f"{pair} ({count})\n")
 
 
 def main():

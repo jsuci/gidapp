@@ -54,6 +54,7 @@ def get_common_pair():
     num_search = split(r"\s+", input("Enter number(s) to search: "))
 
     top_pairs = []
+    all_top_pairs = {}
 
     with open("common_pair.txt", "w") as fo:
         for num in num_search:
@@ -74,24 +75,48 @@ def get_common_pair():
             for pair in all_pairs:
                 if pair not in output:
                     output.setdefault(pair, 1)
+                    all_top_pairs.setdefault(pair, 1)
                 else:
                     output[pair] += 1
+                    all_top_pairs[pair] += 1
 
             for pair, count in sorted(output.items(), key=lambda x: x[1]):
                 # print(f"{pair} ({count})")
                 fo.write(f"{pair} ({count})\n")
 
+            # Accumulate each number's top pair
             top_pairs.append(sorted(output.items(), key=lambda x: x[1])[-1])
 
             # print(f"\n")
             fo.write(f"\n\n")
 
-        print(f"Top pairs for all numbers:")
-        fo.write(f"Top pairs for all numbers:\n")
+        # Sort by count
+        sorted_all_top_pairs = sorted(
+            all_top_pairs.items(), key=lambda x: x[1], reverse=False)
 
-        for pair in top_pairs:
-            print(f"{pair}")
-            fo.write(f"{pair}\n")
+        fo.write("Common pair for all numbers:\n")
+
+        for pair, count in sorted_all_top_pairs:
+            fo.write(f"{pair} ({count})\n")
+
+        fo.write(f"\n\n")
+
+        print(f"Top pairs for each numbers:")
+        fo.write(f"Top pairs for each numbers:\n")
+
+        for pair, count in top_pairs:
+            print(f"{pair} ({count})")
+            fo.write(f"{pair} ({count})\n")
+
+        print(f"\n")
+        fo.write(f"\n\n")
+
+        print(f"Top 3 pairs for all numbers:")
+        fo.write(f"Top 3 pairs for all numbers:\n")
+
+        for pair, count in sorted_all_top_pairs[-3:]:
+            print(f"{pair} ({count})")
+            fo.write(f"{pair} ({count})\n")
 
 
 def main():

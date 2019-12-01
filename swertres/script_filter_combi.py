@@ -1,4 +1,4 @@
-from re import split
+from re import split, match
 
 
 def get_results():
@@ -6,7 +6,7 @@ def get_results():
 
     with open("common_combi.txt", "r") as fi:
         for entry in fi:
-            if len(entry) != 0:
+            if not match(r"\n", entry):
                 entry = entry.strip()
                 output.append(entry)
             else:
@@ -34,7 +34,7 @@ def has_a_match(result, num_compare):
         return None
 
 
-def by_pair(results, u_pairs):
+def include_pair(results, u_pairs):
     u_pairs = split(r"\s+", u_pairs)
     output = []
 
@@ -43,13 +43,20 @@ def by_pair(results, u_pairs):
             lambda x: has_a_match(x[:3], pair), results
         ))
 
-    with open("filter_combi.txt", "w") as fi:
-        print(f"Filter by pairs:")
-        fi.write(f"Filter by pairs:\n")
+    return output
 
-        for combi in output:
-            print(f"{combi}")
-            fi.write(f"{combi}\n")
+
+def exclude_pair(results, u_pairs):
+    u_pairs = split(r"\s+", u_pairs)
+
+    for pair in u_pairs:
+        results = list(
+            filter(
+                lambda x: True if not has_a_match(
+                    x[:3], pair) else False, results
+            ))
+
+    return results
 
 
 def by_sum(results, u_sum):
@@ -61,13 +68,7 @@ def by_sum(results, u_sum):
             lambda x: sum(map(lambda y: int(y), x[:3])) == int(e_sum), results
         ))
 
-    with open("filter_combi.txt", "w") as fi:
-        print(f"Filter by sum:")
-        fi.write(f"Filter by sum:\n")
-
-        for combi in output:
-            print(f"{combi}")
-            fi.write(f"{combi}\n")
+    return output
 
 
 def by_combi(results, u_combi):
@@ -79,36 +80,89 @@ def by_combi(results, u_combi):
             lambda x: has_a_match(x[:3], combi) == 3, results
         ))
 
-    with open("filter_combi.txt", "w") as fi:
-        print(f"Filter by combi:")
-        fi.write(f"Filter by combi:\n")
+    return output
 
-        for combi in output:
-            print(f"{combi}")
-            fi.write(f"{combi}\n")
+
+def include_digit(results, u_digit):
+    u_digit = split(r"\s+", u_digit)
+    output = []
+
+    for digit in u_digit:
+        output.extend(filter(
+            lambda x: digit in x[:3], results))
+
+    return output
+
+
+def exclude_digit(results, u_digit):
+    u_digit = split(r"\s+", u_digit)
+
+    for digit in u_digit:
+
+        # Exclude each digit from existing results
+        results = list(filter(
+            lambda x: True if digit not in x[:3] else False, results))
+
+    return results
 
 
 def filter_combi():
     all_results = get_results()
-    user_input = int(input(
-        f"Enter 0 to filter by pairs\n"
-        f"Enter 1 to filter by sum\n"
-        f"Enter 2 to filter by combi: "))
+    quit_filter = ""
 
-    if user_input == 0:
-        u_pairs = input("Enter pairs (eg. 12 34 56): ")
-        by_pair(all_results, u_pairs)
+    while quit_filter != "y":
 
-    elif user_input == 1:
-        u_sum = input("Enter sum (eg. 00 10 27): ")
-        by_sum(all_results, u_sum)
+        user_input = int(input(
+            f"Enter 0 to include pairs(s)\n"
+            f"Enter 1 to exclude pairs(s)\n"
+            f"Enter 2 to filter by sum(s)\n"
+            f"Enter 3 to filter by combi(s)\n"
+            f"Enter 4 to include digit(s)\n"
+            f"Enter 5 to exclude digit(s): "))
 
-    elif user_input == 2:
-        u_count = input("Enter combi (eg, 123 345): ")
-        by_combi(all_results, u_count)
+        print(f"\n")
 
-    else:
-        print(f"Invalid option")
+        if user_input == 0:
+            u_pairs = input("Enter pair(s) (eg. 12 34 56): ")
+            all_results = include_pair(all_results, u_pairs)
+
+        elif user_input == 1:
+            u_pairs = input("Enter pair(s) (eg. 12 34 56): ")
+            all_results = exclude_pair(all_results, u_pairs)
+
+        elif user_input == 2:
+            u_sum = input("Enter sum(s) (eg. 00 10 27): ")
+            all_results = by_sum(all_results, u_sum)
+
+        elif user_input == 3:
+            u_count = input("Enter combi(s) (eg. 123 345): ")
+            all_results = by_combi(all_results, u_count)
+
+        elif user_input == 4:
+            u_digit = input("Enter digit(s) (eg. 1 3 5): ")
+            all_results = include_digit(all_results, u_digit)
+
+        elif user_input == 5:
+            u_digit = input("Enter digit(s) (eg. 1 3 5): ")
+            all_results = exclude_digit(all_results, u_digit)
+
+        else:
+            print(f"Invalid option")
+            break
+
+        # Remove duplicate entries
+        all_results = set(all_results)
+
+        with open("filter_combi.txt", "w") as fo:
+            for e in sorted(all_results):
+                print(f"{e}")
+                fo.write(f"{e}\n")
+
+        print(f"\n")
+
+        quit_filter = input("Done filtering? y/n: ")
+
+        print(f"\n")
 
 
 def main():
