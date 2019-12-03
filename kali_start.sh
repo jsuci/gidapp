@@ -11,7 +11,7 @@ python3 stl_results_v2.py
 python3 script_count_missing.py
 
 cd ../swertres
-python script_current_results.py
+python3 script_current_results.py
 
 cd ../stl
-python script_current_results.py
+python3 script_current_results.py
