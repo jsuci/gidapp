@@ -1,4 +1,4 @@
-updated: 02 mon dec 2019 2
+updated: 04 wed dec 2019 0
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -700,3 +700,5 @@ updated: 02 mon dec 2019 2
 30 sat nov 2019       806       369       015
 01 sun dec 2019       087       722       310
 02 mon dec 2019       085       814       010
+03 tue dec 2019       780       017       408
+04 wed dec 2019       012
