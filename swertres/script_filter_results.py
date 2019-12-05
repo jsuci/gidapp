@@ -118,8 +118,10 @@ def filter_results():
 
 
 def gap_results(all_filter_res):
-    gap_limit = int(input("Enter gap limit: "))
-    sample_limit = int(input("Enter sample limit: "))
+    # gap_limit = int(input("Enter gap limit: "))
+    gap_limit = 5
+    # sample_limit = int(input("Enter sample limit: "))
+    sample_limit = 10
     output = {}
 
     for gap in range(1, gap_limit + 1):
