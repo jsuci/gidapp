@@ -51,7 +51,7 @@ def search_results(num_search):
 
 
 def get_common_combi():
-    num_search = split(r"\s+", input("Enter number(s) to search: "))
+    num_search = split(r"\s+", input("Enter number(s) to search: ").strip())
     top_combi = []
     all_common_combi = {}
 
