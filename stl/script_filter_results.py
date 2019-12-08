@@ -178,14 +178,14 @@ def output_results(all_gap_res):
         probables = []
 
         for k, e in all_gap_res.items():
-            print(f"gap: {k}")
+            # print(f"gap: {k}")
             fe.write(f"gap: {k}\n")
 
             for i in e:
-                print(f"{i[0]:<20}{i[1]:<15}{i[2]:<15}{i[3]}")
+                # print(f"{i[0]:<20}{i[1]:<15}{i[2]:<15}{i[3]}")
                 fe.write(f"{i[0]:<20}{i[1]:<15}{i[2]:<15}{i[3]}\n")
 
-            print("\n")
+            # print("\n")
             fe.write("\n\n")
 
             filter_gaps_res = filter_gaps(e)
