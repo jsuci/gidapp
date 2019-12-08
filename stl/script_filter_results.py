@@ -117,6 +117,36 @@ def filter_results():
         print("Error command not found.")
 
 
+def filter_gaps(results):
+    draws = ["11am", "4pm", "9pm"]
+    output = {}
+
+    for i, draw in enumerate(draws, 1):
+        prev_count = 0
+        temp_output = []
+
+        for count, entry in enumerate(reversed(results)):
+
+            if "-" in entry[i]:
+                if prev_count == 0:
+                    temp_output.insert(0, entry[i])
+                    prev_count = count
+                else:
+                    if prev_count == count:
+                        temp_output.insert(0, entry[i])
+                    else:
+                        break
+
+                prev_count += (count + 1)
+
+        if len(temp_output) == 2:
+            output[draw] = temp_output
+        else:
+            output[draw] = []
+
+    return output
+
+
 def gap_results(all_filter_res):
     # gap_limit = int(input("Enter gap limit: "))
     gap_limit = 5
@@ -129,9 +159,12 @@ def gap_results(all_filter_res):
         temp_output = []
 
         for count, entry in enumerate(all_filter_res):
-            if count == step and len(temp_output) != sample_limit:
-                temp_output.insert(0, entry)
-                step += (gap + 1)
+            if count == step:
+                if len(temp_output) != sample_limit:
+                    temp_output.insert(0, entry)
+                    step += (gap + 1)
+                else:
+                    break
 
         output[gap] = temp_output
 
@@ -142,6 +175,8 @@ def output_results(all_gap_res):
     file_ex = Path("filter_results.txt")
 
     with open(file_ex, "w") as fe:
+        probables = []
+
         for k, e in all_gap_res.items():
             print(f"gap: {k}")
             fe.write(f"gap: {k}\n")
@@ -152,6 +187,23 @@ def output_results(all_gap_res):
 
             print("\n")
             fe.write("\n\n")
+
+            filter_gaps_res = filter_gaps(e)
+            probables.append((k, filter_gaps_res))
+
+        print("probables:")
+        for gap_val, prob in probables:
+            for time, gaps in prob.items():
+                if gaps:
+                    print(f"gap: {gap_val}")
+                    fe.write(f"gap: {gap_val}\n")
+                    print(f"{time}")
+                    fe.write(f"{time}\n")
+                    for gap in gaps:
+                        print(f"{gap}")
+                        fe.write(f"{gap}\n")
+                    print("\n")
+                    fe.write("\n\n")
 
 
 def main():
