@@ -1,4 +1,4 @@
-updated: 12 thu dec 2019 2
+updated: 13 fri dec 2019 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -710,3 +710,4 @@ updated: 12 thu dec 2019 2
 10 tue dec 2019       471       126       738
 11 wed dec 2019       569       210       890
 12 thu dec 2019       349       278       569
+13 fri dec 2019       699       490       586

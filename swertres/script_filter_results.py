@@ -147,6 +147,19 @@ def filter_gaps(results):
     return output
 
 
+def filter_seq(gaps):
+
+    if gaps:
+        b = list(map(lambda x: [int(j) for j in split(", ", x[6:])], gaps))
+
+        for j in b[0]:
+            for k in b[1]:
+                if abs(j - k) == 2:
+                    return True
+    else:
+        return False
+
+
 def gap_results(all_filter_res):
     # gap_limit = int(input("Enter gap limit: "))
     gap_limit = 5
@@ -189,12 +202,14 @@ def output_results(all_gap_res):
             fe.write("\n\n")
 
             filter_gaps_res = filter_gaps(e)
+
+            # Append gap and filter_gaps_res
             probables.append((k, filter_gaps_res))
 
         print("probables:")
         for gap_val, prob in probables:
             for time, gaps in prob.items():
-                if gaps:
+                if filter_seq(gaps):
                     print(f"gap: {gap_val}")
                     fe.write(f"gap: {gap_val}\n")
                     print(f"{time}")
