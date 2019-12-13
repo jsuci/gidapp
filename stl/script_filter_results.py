@@ -150,14 +150,16 @@ def filter_gaps(results):
 def filter_seq(gaps):
 
     if gaps:
-        b = list(map(lambda x: [int(j) for j in split(", ", x[6:])], gaps))
+        b = list(map(lambda x: [int(j[-1]) for j in split(", ", x[6:])], gaps))
 
         for j in b[0]:
             for k in b[1]:
-                if abs(j - k) == 2:
+                if (
+                    abs(j - k) == 2
+                    or abs(j - k) == 8
+                ):
+                    print(j, k)
                     return True
-    else:
-        return False
 
 
 def gap_results(all_filter_res):
@@ -230,3 +232,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # print(filter_seq(['043 - 00, 08', '005 - 03, 00']))
