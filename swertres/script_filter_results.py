@@ -158,7 +158,6 @@ def filter_seq(gaps):
                     abs(j - k) == 2
                     or abs(j - k) == 8
                 ):
-                    print(j, k)
                     return True
 
 
