@@ -1,10 +1,5 @@
-common: 4, time: 11am, gap: 1
-471 - ['41', '47'] - 10 tue dec 2019
-349 - ['43', '49'] - 12 thu dec 2019
-
-
-common: 8, time: 9pm, gap: 1
-815 - ['81', '85'] - 06 fri dec 2019
-738 - ['83', '87'] - 10 tue dec 2019
+common: 6, time: 9pm, gap: 5
+806 - ['60', '68'] - 23 sat nov 2019
+600 - ['60', '60'] - 05 thu dec 2019
 
 
