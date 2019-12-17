@@ -13,3 +13,9 @@ python3 script_current_results.py
 
 cd ../stl
 python3 script_current_results.py
+
+cd ../swertres
+python script_get_probables.py
+
+cd ../stl
+python script_get_probables.py
