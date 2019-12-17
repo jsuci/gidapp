@@ -1,0 +1,15 @@
+common: 0, time: 9pm, gap: gap: 3
+105 - ['01', '05'] - 04 wed dec 2019
+350 - ['03', '05'] - 08 sun dec 2019
+
+
+common: 4, time: 4pm, gap: gap: 2
+094 - ['40', '49'] - 30 sat nov 2019
+241 - ['41', '42'] - 06 fri dec 2019
+
+
+common: 6, time: 4pm, gap: gap: 2
+796 - ['67', '69'] - 24 sun nov 2019
+976 - ['67', '69'] - 03 tue dec 2019
+
+
