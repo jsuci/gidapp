@@ -1,7 +1,6 @@
 from itertools import islice, product
 from pathlib import Path
 from re import split
-from pprint import pprint
 
 
 def get_all_results():
