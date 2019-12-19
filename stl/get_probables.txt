@@ -1,12 +1,3 @@
-common: 0, time: 4pm, gap: 2
-049
-
-common: 4, time: 4pm, gap: 2
-409
-
-common: 8, time: 9pm, gap: 3
-810
-
-common: 9, time: 4pm, gap: 1
-904
+common: 6, time: 9pm, gap: 5
+609609
 

@@ -235,7 +235,7 @@ def filter_gap_results():
                             ])
 
                             print(f"{probables}")
-                            fo.write(f"{probables}")
+                            fo.write(f"{probables}\n")
 
                         # e = ('406', ['04', '06'], 10, '05 thu dec 2019')
                         # for e in entry[1]:

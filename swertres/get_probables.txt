@@ -1,3 +1,0 @@
-common: 0, time: 9pm, gap: 5
-095
-
