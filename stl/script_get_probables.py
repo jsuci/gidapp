@@ -1,4 +1,4 @@
-from itertools import islice, product
+from itertools import islice, product, chain
 from pathlib import Path
 from re import split
 
@@ -146,25 +146,56 @@ def filter_gap_results():
 
         # [('gap: 1', [...]), ('gap: 2', [...]), ('gap: 3', [...])]
         output = []
+        prob_digits = []
 
         for gap_results in new_results:
             # [("gap: 2", [(...), (...)])]
             digits = list(map(
                 lambda x: [int(j[-1]) for j in x[1]], gap_results[1]))
 
-            for j in digits[0]:
-                for k in digits[1]:
+            a_digits = []
+            b_digits = []
+
+            for j_count, j in enumerate(digits[0]):
+                for k_count, k in enumerate(digits[1]):
                     if (
                         abs(j - k) == 2
                         or abs(j - k) == 8
                         or abs(j - k) == 0
                     ):
-                        digits[1].remove(k)
+                        if j_count == k_count:
+                            a_digits.append(next_digit(j, k))
+                        else:
+                            b_digits.append(next_digit(j, k))
 
-            if not digits[1]:
+            if len(a_digits) == 2:
+                prob_digits.append(a_digits)
+
+            if len(b_digits) == 2:
+                prob_digits.append(b_digits)
+
+            if prob_digits:
+                # gap_results = ('gap: 4', [(...), (...)])
+                gap_results += (prob_digits, )
                 output.append(gap_results)
+                prob_digits = []
 
+        # output[0] = ('gap: 5', [(...), (...)], [7, 8])
         return output
+
+    def next_digit(j, k):
+        k, j = sorted([j, k])
+
+        if j >= k:
+            if abs(j - k) == 2:
+                return k + 1
+            elif abs(j - k) == 8:
+                if (j + 1) == 9:
+                    return 9
+                else:
+                    return 0
+            else:
+                return j
 
     all_gap_results = get_gap_results()
     file_name = Path("get_probables.txt")
@@ -173,11 +204,14 @@ def filter_gap_results():
     with open(file_name, "w") as fo:
         for common_digit, time_results in all_gap_results:
             for time, gap_results in time_results.items():
-                # [("gap: 1", [...]), ...]
+                # new_results = [("gap: 1", [...]), ...]
                 new_results = first_two(gap_results)
+
+                # filter_new_results = [('gap: 1', [...], [...]),...]
                 filter_new_results = custom_filter(new_results)
 
                 if filter_new_results:
+                    # entry = [("gap: 1", [...], [...]), ...]
                     for entry in filter_new_results:
                         print(
                             f"common: {common_digit}, "
@@ -191,9 +225,22 @@ def filter_gap_results():
                             f"{entry[0]}\n"
                         )
 
-                        for e in entry[1]:
-                            print(f"{e[0]} - {e[1]} - {e[3]}")
-                            fo.write(f"{e[0]} - {e[1]} - {e[3]}\n")
+                        # entry[2] = [[...], [...],...]
+                        for probables in entry[2]:
+                            # probables = '035'
+                            probables = "".join([
+                                str(x) for x in chain([
+                                    common_digit, *probables
+                                ])
+                            ])
+
+                            print(f"{probables}")
+                            fo.write(f"{probables}")
+
+                        # e = ('406', ['04', '06'], 10, '05 thu dec 2019')
+                        # for e in entry[1]:
+                        #     print(f"{e[0]} - {e[1]} - {e[3]}")
+                        #     fo.write(f"{e[0]} - {e[1]} - {e[3]}\n")
                         print("\n")
                         fo.write("\n\n")
 

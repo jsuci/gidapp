@@ -1,40 +1,9 @@
-common: 0, time: 11am, gap: 5
-406 - ['04', '06'] - 05 thu dec 2019
-042 - ['02', '04'] - 11 wed dec 2019
+common: 0, time: 9pm, gap: 3
+025
 
+common: 4, time: 4pm, gap: 2
+410
 
-common: 0, time: 4pm, gap: 3
-073 - ['03', '07'] - 09 mon dec 2019
-750 - ['05', '07'] - 13 fri dec 2019
-
-
-common: 0, time: 9pm, gap: 1
-860 - ['06', '08'] - 13 fri dec 2019
-808 - ['08', '08'] - 15 sun dec 2019
-
-
-common: 1, time: 11am, gap: 4
-183 - ['13', '18'] - 07 sat dec 2019
-561 - ['15', '16'] - 12 thu dec 2019
-
-
-common: 1, time: 11am, gap: 5
-471 - ['14', '17'] - 30 wed oct 2019
-152 - ['12', '15'] - 23 sat nov 2019
-
-
-common: 7, time: 4pm, gap: 1
-073 - ['70', '73'] - 09 mon dec 2019
-750 - ['70', '75'] - 13 fri dec 2019
-
-
-common: 8, time: 11am, gap: 5
-268 - ['82', '86'] - 18 fri oct 2019
-846 - ['84', '86'] - 17 sun nov 2019
-
-
-common: 8, time: 9pm, gap: 1
-860 - ['80', '86'] - 13 fri dec 2019
-808 - ['80', '88'] - 15 sun dec 2019
-
+common: 6, time: 4pm, gap: 2
+679688
 
