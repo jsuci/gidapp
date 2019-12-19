@@ -1,4 +1,4 @@
-from itertools import islice, product, zip_longest, chain
+from itertools import islice, product, chain
 from pathlib import Path
 from re import split
 
