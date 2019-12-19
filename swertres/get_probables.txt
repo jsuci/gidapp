@@ -1,0 +1,42 @@
+common: 0, time: 11am, gap: 1
+045
+
+
+common: 0, time: 11am, gap: 4
+028
+
+
+common: 1, time: 4pm, gap: 5
+114
+
+
+common: 2, time: 11am, gap: 4
+208
+299
+
+
+common: 2, time: 4pm, gap: 1
+260
+
+
+common: 2, time: 9pm, gap: 4
+269
+
+
+common: 4, time: 4pm, gap: 3
+411
+
+
+common: 6, time: 4pm, gap: 1
+620
+
+
+common: 8, time: 11am, gap: 4
+802
+811
+
+
+common: 9, time: 9pm, gap: 4
+926
+
+
