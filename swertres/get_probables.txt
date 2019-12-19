@@ -1,42 +1,27 @@
 common: 0, time: 11am, gap: 1
-045
+007 - ['00', '07']
 
 
-common: 0, time: 11am, gap: 4
-028
+common: 1, time: 9pm, gap: 1
+124 - ['12', '14']
 
 
-common: 1, time: 4pm, gap: 5
-114
+common: 4, time: 4pm, gap: 4
+446 - ['44', '46']
+455 - ['45', '45']
 
 
-common: 2, time: 11am, gap: 4
-208
-299
+common: 4, time: 9pm, gap: 1
+412 - ['41', '42']
+421 - ['42', '41']
 
 
-common: 2, time: 4pm, gap: 1
-260
+common: 6, time: 4pm, gap: 4
+644 - ['64', '64']
+644 - ['64', '64']
 
 
-common: 2, time: 9pm, gap: 4
-269
-
-
-common: 4, time: 4pm, gap: 3
-411
-
-
-common: 6, time: 4pm, gap: 1
-620
-
-
-common: 8, time: 11am, gap: 4
-802
-811
-
-
-common: 9, time: 9pm, gap: 4
-926
+common: 7, time: 11am, gap: 1
+700 - ['70', '70']
 
 

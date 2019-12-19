@@ -1,16 +1,16 @@
 common: 0, time: 4pm, gap: 2
-049
+060 - ['06', '00']
 
 
-common: 4, time: 4pm, gap: 2
-409
+common: 3, time: 11am, gap: 1
+329 - ['32', '39']
 
 
-common: 8, time: 9pm, gap: 3
-810
+common: 6, time: 4pm, gap: 2
+600 - ['60', '60']
 
 
-common: 9, time: 4pm, gap: 1
-904
+common: 7, time: 9pm, gap: 3
+712 - ['71', '72']
 
 

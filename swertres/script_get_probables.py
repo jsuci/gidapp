@@ -1,4 +1,4 @@
-from itertools import islice, product, chain
+from itertools import islice, product, zip_longest, chain
 from pathlib import Path
 from re import split
 
@@ -228,19 +228,23 @@ def filter_gap_results():
                         # entry[2] = [[...], [...],...]
                         for probables in entry[2]:
                             # probables = '035'
-                            probables = "".join([
+                            probable_digits = "".join([
                                 str(x) for x in chain([
                                     common_digit, *probables
                                 ])
                             ])
 
-                            print(f"{probables}")
-                            fo.write(f"{probables}\n")
+                            probable_pairs = ["".join([
+                                common_digit, str(x)]) for x in probables]
+
+                            print(f"{probable_digits} - {probable_pairs}")
+                            fo.write(f"{probable_digits} - {probable_pairs}\n")
 
                         # e = ('406', ['04', '06'], 10, '05 thu dec 2019')
                         # for e in entry[1]:
-                        #     print(f"{e[0]} - {e[1]} - {e[3]}")
-                        #     fo.write(f"{e[0]} - {e[1]} - {e[3]}\n")
+                            #     print(f"{e[0]} - {e[1]} - {e[3]}")
+                            # fo.write(f"{e[0]} - {e[1]} - {e[3]}\n")
+
                         print("\n")
                         fo.write("\n\n")
 
