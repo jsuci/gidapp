@@ -188,8 +188,9 @@ def get_common_pair(num_search, fo):
 
 def get_common_combi_pair():
     # get_common_combi_pair()
-    num_search = findall(r"(?<=\s)\d{3}(?!\d)", input(
-        "Enter number(s) to search: "))
+    # num_search = findall(r"(?<=\s)\d{3}(?!\d)", input(
+    #     "Enter number(s) to search: "))
+    num_search = get_results()[-1][1:]
 
     file_name = Path("common_combi_pair.txt")
 

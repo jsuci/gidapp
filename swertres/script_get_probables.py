@@ -200,6 +200,7 @@ def filter_gap_results():
     all_gap_results = get_gap_results()
     file_name = Path("get_probables.txt")
     gap_holder = []
+    all_pairs = {}
 
     with open(file_name, "w") as fo:
         for common_digit, time_results in all_gap_results:
@@ -234,8 +235,13 @@ def filter_gap_results():
                                 ])
                             ])
 
-                            probable_pairs = ["".join([
-                                common_digit, str(x)]) for x in probables]
+                            probable_pairs = ["".join(sorted(
+                                [common_digit, str(x)])) for x in probables]
+
+                            for pair in probable_pairs:
+                                all_pairs.setdefault(pair, 1)
+                                if pair in all_pairs:
+                                    all_pairs[pair] += 1
 
                             print(f"{probable_digits}")
                             fo.write(f"{probable_digits}\n")
@@ -247,6 +253,12 @@ def filter_gap_results():
 
                         print("\n")
                         fo.write("\n\n")
+
+        top_pair = sorted(all_pairs.items(), key=lambda x: x[1])
+
+        if top_pair:
+            print(f"top_pair: {top_pair[-1]}")
+            fo.write(f"top_pair: {top_pair[-1]}")
 
 
 def main():
