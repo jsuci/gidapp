@@ -237,8 +237,8 @@ def filter_gap_results():
                             probable_pairs = ["".join([
                                 common_digit, str(x)]) for x in probables]
 
-                            print(f"{probable_digits} - {probable_pairs}")
-                            fo.write(f"{probable_digits} - {probable_pairs}\n")
+                            print(f"{probable_digits}")
+                            fo.write(f"{probable_digits}\n")
 
                         # e = ('406', ['04', '06'], 10, '05 thu dec 2019')
                         # for e in entry[1]:
