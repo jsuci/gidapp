@@ -165,7 +165,7 @@ def get_common_pair(num_search, fo):
 
     # for pair, count in sorted_all_top_pairs:
     # fo.write(f"{pair} ({count})\n")
-
+    print("\n")
     fo.write(f"\n\n")
 
     print(f"Top pairs for each numbers:")
