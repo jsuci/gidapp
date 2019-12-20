@@ -1,5 +1,5 @@
 from itertools import islice, combinations
-from re import findall, split
+from re import split
 from pathlib import Path
 
 
