@@ -186,27 +186,22 @@ def filter_gap_results():
                         abs(j - k) == 2
                         or abs(j - k) == 8
                         or abs(j - k) == 0
-                        or abs(j - k) == 1
                     ):
                         if j_count == k_count:
-                            a_digits.append(next_digit(j, k))
+                            a_digits.extend(next_digit(j, k))
                         else:
-                            b_digits.append(next_digit(j, k))
+                            b_digits.extend(next_digit(j, k))
 
             if len(a_digits) == 2:
                 a_digits = sorted(a_digits)
-                combine_pairs = ["".join(sorted([str(j) for j in x]))
-                                 for x in product(
-                                     a_digits[0], a_digits[1])]
+                combine_pairs = "".join(list(map(lambda x: str(x), a_digits)))
 
                 if combine_pairs not in prob_digits:
                     prob_digits.append(combine_pairs)
 
             if len(b_digits) == 2:
                 b_digits = sorted(b_digits)
-                combine_pairs = ["".join(sorted([str(j) for j in x]))
-                                 for x in product(
-                                     b_digits[0], b_digits[1])]
+                combine_pairs = "".join(list(map(lambda x: str(x), b_digits)))
 
                 if combine_pairs not in prob_digits:
                     prob_digits.append(combine_pairs)
@@ -223,7 +218,7 @@ def filter_gap_results():
     all_gap_results = get_gap_results()
     file_name = Path("get_probables.txt")
     gap_holder = []
-    all_pairs = {}
+    time_probables = {}
 
     with open(file_name, "w") as fo:
         for common_digit, time_results in all_gap_results:
@@ -234,44 +229,25 @@ def filter_gap_results():
                 # filter_new_results = [('gap: 1', [...], [...]),...]
                 filter_new_results = custom_filter(new_results)
 
+                time_probables.setdefault(time, [])
+
                 if filter_new_results:
                     # entry = [("gap: 1", [...], [...]), ...]
                     for entry in filter_new_results:
-                        print(
-                            f"common: {common_digit}, "
-                            f"time: {time}, "
-                            f"{entry[0]}"
-                        )
-
-                        fo.write(
-                            f"common: {common_digit}, "
-                            f"time: {time}, "
-                            f"{entry[0]}\n"
-                        )
 
                         # entry[2] = [[...], [...],...]
                         for probables in entry[2]:
                             # probables = '035'
-                            probable_digits = set(map(
-                                lambda x: str(common_digit) + x, probables
-                            ))
+                            probable_digits = "".join(
+                                sorted(str(common_digit) + probables))
 
-                            print(f"{probable_digits}")
-                            fo.write(f"{probable_digits}\n")
+                            if probable_digits not in time_probables[time]:
+                                time_probables[time].append(probable_digits)
 
-                        # e = ('406', ['04', '06'], 10, '05 thu dec 2019')
-                        # for e in entry[1]:
-                            #     print(f"{e[0]} - {e[1]} - {e[3]}")
-                            # fo.write(f"{e[0]} - {e[1]} - {e[3]}\n")
-
-                        print("\n")
-                        fo.write("\n\n")
-
-        top_pair = sorted(all_pairs.items(), key=lambda x: x[1])
-
-        if top_pair:
-            print(f"top_pair: {top_pair[-1]}")
-            fo.write(f"top_pair: {top_pair[-1]}")
+        for time, probables in time_probables.items():
+            if probables:
+                print(f"time: {time}\n{probables}\n")
+                fo.write(f"time: {time}\n{probables}\n\n")
 
 
 def main():
@@ -280,14 +256,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # a = [[2, 5], 6]
-    # c = []
-    # d = []
-
-    # for e in a:
-    #     if type(e) != int:
-    #         c.extend(e)
-    #     else:
-    #         d.append(e)
-
-    # print(list(product(a)))
