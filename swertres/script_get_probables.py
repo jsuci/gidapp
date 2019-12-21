@@ -139,10 +139,34 @@ def filter_gap_results():
         # [("gap: 1", [(...), (...)]), ...]
         return output
 
+    def next_digit(j, k):
+        k, j = sorted([j, k])
+
+        if j >= k:
+            if abs(j - k) == 2:
+                return [k + 1]
+            elif abs(j - k) == 8:
+                if (j + 1) == 9:
+                    return [9]
+                else:
+                    return [0]
+            elif abs(j - k) == 0:
+                return [j]
+            else:
+                if k == 0 and j == 9:
+                    return [9, 0]
+                elif abs(k - 1) == 1:
+                    return [9, abs(j + 1)]
+                elif abs(j + 1) == 10:
+                    return [abs(k - 1), 0]
+                else:
+                    return [abs(k - 1), abs(j + 1)]
+
     def custom_filter(new_results):
         # Current filter:
         #   a. gap of two
         #   b. same digit
+        #   c. gap of one
 
         # [('gap: 1', [...]), ('gap: 2', [...]), ('gap: 3', [...])]
         output = []
@@ -162,6 +186,7 @@ def filter_gap_results():
                         abs(j - k) == 2
                         or abs(j - k) == 8
                         or abs(j - k) == 0
+                        or abs(j - k) == 1
                     ):
                         if j_count == k_count:
                             a_digits.append(next_digit(j, k))
@@ -169,10 +194,22 @@ def filter_gap_results():
                             b_digits.append(next_digit(j, k))
 
             if len(a_digits) == 2:
-                prob_digits.append(a_digits)
+                a_digits = sorted(a_digits)
+                combine_pairs = ["".join(sorted([str(j) for j in x]))
+                                 for x in product(
+                                     a_digits[0], a_digits[1])]
+
+                if combine_pairs not in prob_digits:
+                    prob_digits.append(combine_pairs)
 
             if len(b_digits) == 2:
-                prob_digits.append(b_digits)
+                b_digits = sorted(b_digits)
+                combine_pairs = ["".join(sorted([str(j) for j in x]))
+                                 for x in product(
+                                     b_digits[0], b_digits[1])]
+
+                if combine_pairs not in prob_digits:
+                    prob_digits.append(combine_pairs)
 
             if prob_digits:
                 # gap_results = ('gap: 4', [(...), (...)])
@@ -182,20 +219,6 @@ def filter_gap_results():
 
         # output[0] = ('gap: 5', [(...), (...)], [7, 8])
         return output
-
-    def next_digit(j, k):
-        k, j = sorted([j, k])
-
-        if j >= k:
-            if abs(j - k) == 2:
-                return k + 1
-            elif abs(j - k) == 8:
-                if (j + 1) == 9:
-                    return 9
-                else:
-                    return 0
-            else:
-                return j
 
     all_gap_results = get_gap_results()
     file_name = Path("get_probables.txt")
@@ -229,19 +252,9 @@ def filter_gap_results():
                         # entry[2] = [[...], [...],...]
                         for probables in entry[2]:
                             # probables = '035'
-                            probable_digits = "".join([
-                                str(x) for x in chain([
-                                    common_digit, *probables
-                                ])
-                            ])
-
-                            probable_pairs = ["".join(sorted(
-                                [common_digit, str(x)])) for x in probables]
-
-                            for pair in probable_pairs:
-                                all_pairs.setdefault(pair, 1)
-                                if pair in all_pairs:
-                                    all_pairs[pair] += 1
+                            probable_digits = set(map(
+                                lambda x: str(common_digit) + x, probables
+                            ))
 
                             print(f"{probable_digits}")
                             fo.write(f"{probable_digits}\n")
@@ -267,3 +280,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # a = [[2, 5], 6]
+    # c = []
+    # d = []
+
+    # for e in a:
+    #     if type(e) != int:
+    #         c.extend(e)
+    #     else:
+    #         d.append(e)
+
+    # print(list(product(a)))
