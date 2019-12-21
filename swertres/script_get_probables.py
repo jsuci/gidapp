@@ -1,4 +1,4 @@
-from itertools import islice, product, chain
+from itertools import islice, product
 from pathlib import Path
 from re import split
 
