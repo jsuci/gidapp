@@ -70,15 +70,36 @@ def filter_gaps(sample_limit):
                     for common in common_digits:
                         temp_res = temp_res.replace(common, "", 1)
 
-                    print(
-                        f"{result} - [{temp_res[0]}] "
-                        f"[{common_digits[0]:<3}{common_digits[1]}]"
-                    )
+                    if len(common_digits) == 2:
+                        print(
+                            f"{result} - [{temp_res[0]}] "
+                            f"[{common_digits[0]:<3}{common_digits[1]}]"
+                        )
 
-                    fo.write(
-                        f"{result} - [{temp_res[0]}] "
-                        f"[{common_digits[0]:<3}{common_digits[1]}]\n"
-                    )
+                        fo.write(
+                            f"{result} - [{temp_res[0]}] "
+                            f"[{common_digits[0]:<3}{common_digits[1]}]\n"
+                        )
+                    elif len(common_digits) == 1:
+                        print(
+                            f"{result} - [{temp_res[0]:<3}{temp_res[1]}] "
+                            f"[{common_digits[0]}]"
+                        )
+
+                        fo.write(
+                            f"{result} - [{temp_res[0]:<3}{temp_res[1]}] "
+                            f"[{common_digits[0]}]\n"
+                        )
+                    else:
+                        print(
+                            f"{result} - [{common_digits[0]:<3}"
+                            f"{common_digits[1]:<3}{common_digits[2]}]"
+                        )
+
+                        fo.write(
+                            f"{result} - [{common_digits[0]:<3}"
+                            f"{common_digits[1]:<3}{common_digits[2]}]"
+                        )
 
                 print("\n")
                 fo.write("\n\n")
