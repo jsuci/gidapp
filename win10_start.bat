@@ -13,10 +13,10 @@ cd "C:\Users\0x1\Desktop\Repo\gidapp\stl"
 python script_current_results.py
 
 cd "C:\Users\0x1\Desktop\Repo\gidapp\swertres"
-python script_get_probables.py
+python script_spot_patterns.py
 
 cd "C:\Users\0x1\Desktop\Repo\gidapp\stl"
-python script_get_probables.py
+python script_spot_patterns.py
 
 
 timeout 20

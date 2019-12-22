@@ -15,7 +15,7 @@ cd ../stl
 python script_current_results.py
 
 cd ../swertres
-python script_get_probables.py
+python script_spot_patterns.py
 
 cd ../stl
-python script_get_probables.py
+python script_spot_patterns.py
