@@ -8,7 +8,6 @@ def get_results():
 
     with open("results_v2.txt", "r") as fi:
         check_date = fi.readline().strip()[-1]
-        print(check_date)
 
         for entry in islice(fi, 1, None):
             entry = split(r"\s{2,}", entry.strip())
@@ -210,5 +209,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # main()
-    print(get_results())
+    main()
