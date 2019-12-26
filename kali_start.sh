@@ -16,6 +16,8 @@ python3 script_current_results.py
 
 cd ../swertres
 python script_spot_patterns.py
+python script_common_combi_pair.py
 
 cd ../stl
 python script_spot_patterns.py
+python script_common_combi_pair.py

@@ -7,12 +7,18 @@ def get_results():
     output = []
 
     with open("results_v2.txt", "r") as fi:
-        for entry in islice(fi, 2, None):
+        check_date = fi.readline().strip()[-1]
+        print(check_date)
+
+        for entry in islice(fi, 1, None):
             entry = split(r"\s{2,}", entry.strip())
 
             output.append(entry)
 
-    return output
+        if check_date == "2":
+            return output
+        else:
+            return output[:-1]
 
 
 def has_a_match(result, num_compare):
@@ -204,4 +210,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    print(get_results())

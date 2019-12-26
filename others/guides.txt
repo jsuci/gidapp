@@ -3484,3 +3484,16 @@ sample_limit: 2, gap: 6
 271 - [2] [1  7]
 result: 167
 draw_skip_count: 1
+
+
+sample_limit: 2, gap: 7
+258 - [8] [2  5]
+502 - [0] [2  5]
+result: 520
+draw_skip_count: 0
+
+sample_limit: 2, gap: 2
+063 - [0] [3  6]
+763 - [7] [3  6]
+result: 763
+draw_skip_count: 0
