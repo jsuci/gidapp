@@ -3497,3 +3497,20 @@ sample_limit: 2, gap: 2
 763 - [7] [3  6]
 result: 763
 draw_skip_count: 0
+
+------------------------------------
+PATTERNS FOR SCRIPT_SPOT_PATTERNS_V2.PY
+1. spot if there is common pair from top and bottom
+
+gap: 3     common: 8
+083 (308)
+598 (598)
+480 (480)
+result: 092
+
+
+gap: 4     common: 8
+808
+807
+868
+result: 859

@@ -54,7 +54,7 @@ def filter_gaps(sample_limit):
     dic_gap_results = gap_results(sample_limit)
     control = False
 
-    with open("spot_patterns.txt", "a") as fo:
+    with open("spot_patterns_v1.txt", "a") as fo:
 
         for gap, results in dic_gap_results.items():
 
@@ -110,7 +110,7 @@ def filter_gaps(sample_limit):
 
 
 def main():
-    with open("spot_patterns.txt", "w") as fi:
+    with open("spot_patterns_v1.txt", "w") as fi:
         fi.write("")
 
     sample_limit = 2

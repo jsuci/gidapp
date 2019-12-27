@@ -32,12 +32,14 @@ echo "GENERATE PROBABLES"
 echo
 echo "SW3 Probables:"
 cd /sdcard/Download/repo/gidapp/swertres
-python script_spot_patterns.py
+python script_spot_patterns_v1.py
+python script_spot_patterns_v2.py
 python script_common_combi_pair.py
 echo
 echo "STL Probables:"
 cd /sdcard/Download/repo/gidapp/stl
-python script_spot_patterns.py
+python script_spot_patterns_v1.py
+python script_spot_patterns_v2.py
 python script_common_combi_pair.py
 read -p "Press enter to exit: " ext
 if [ -z $ext ]
