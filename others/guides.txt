@@ -3517,9 +3517,15 @@ result: 859
 
 
 2. REVISED SCRIPT_SPOT_PATTERNS_V2.PY (LEN(COMMON_DIGIT) == 1)
+
 gap: 4     common: 1
 271
 162
 153
 result: 831
 draw_skip_count: 5
+
+gap: 4, common: ['1']
+411
+153
+162
