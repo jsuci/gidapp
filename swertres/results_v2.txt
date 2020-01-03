@@ -1,4 +1,4 @@
-updated: 31 tue dec 2019 2
+updated: 03 fri jan 2020 1
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2514,3 +2514,5 @@ updated: 31 tue dec 2019 2
 29 sun dec 2019       992       218       292
 30 mon dec 2019       730       718       182
 31 tue dec 2019       484       745       963
+02 thu jan 2020       908       052       062
+03 fri jan 2020       932       583
