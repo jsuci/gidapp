@@ -1,4 +1,4 @@
-updated: 03 fri jan 2020 1
+updated: 04 sat jan 2020 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -728,4 +728,5 @@ updated: 03 fri jan 2020 1
 30 mon dec 2019       269       457       644
 31 tue dec 2019       093       538       147
 02 thu jan 2020       091       594       680
-03 fri jan 2020       302       605
+03 fri jan 2020       302       605       545
+04 sat jan 2020       526       013       605

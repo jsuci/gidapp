@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from itertools import islice
 from re import split
+from openpyxl import Workbook
 
 
 def read_results():
@@ -20,26 +21,47 @@ def read_results():
             return output[:-1]
 
 
-def date_gap():
+def fix_results():
     all_results = read_results()
+    output = []
 
     for i in range(len(all_results) - 1):
         first_date = datetime.strptime(all_results[i][0], "%d %a %b %Y")
         second_date = datetime.strptime(all_results[i + 1][0], "%d %a %b %Y")
-        time_diff = second_date - first_date
+        diff_date = second_date - first_date
+        diff_year = second_date.year - first_date.year
 
-        if time_diff.days == 1:
-            print(all_results[i])
+        if diff_date.days == 1:
+            output.append(all_results[i])
         else:
-            print(all_results[i])
-            for i in range(1, time_diff.days):
-                time_fill = (first_date + timedelta(days=i)
-                             ).strftime("%d %a %b %Y")
-                print([time_fill, "", "", ""])
+            output.append(all_results[i])
+            for i in range(1, diff_date.days):
+                time_fill_obj = first_date + timedelta(days=i)
+                time_fill_str = time_fill_obj.strftime("%d %a %b %Y")
+
+                if time_fill_obj.day == 1 and time_fill_obj.month == 1:
+                    output.append([])
+                    output.append([time_fill_str.lower(), "", "", ""])
+                else:
+                    output.append([time_fill_str.lower(), "", "", ""])
+
+    output.append(all_results[-1])
+
+    return output
+
+
+def excel_export():
+    wb = Workbook()
+    ws = wb.active
+
+    ws.merge_cells("A1:A2")
+    ws["A1"] = "Date"
+
+    wb.save("fix_date_results.xlsx")
 
 
 def main():
-    date_gap()
+    excel_export()
 
 
 if __name__ == "__main__":
