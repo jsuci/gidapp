@@ -16,11 +16,12 @@ cd "D:\Repo\gidapp\swertres"
 python script_spot_patterns_v1.py
 python script_spot_patterns_v2.py
 python script_common_combi_pair.py
+python script_digit_position.py
 
 cd "D:\Repo\gidapp\stl"
 python script_spot_patterns_v1.py
 python script_spot_patterns_v2.py
 python script_common_combi_pair.py
-
+python script_digit_position.py
 
 timeout 20

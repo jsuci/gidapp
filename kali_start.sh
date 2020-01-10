@@ -18,8 +18,10 @@ cd ../swertres
 python3 script_spot_patterns_v1.py
 python3 script_spot_patterns_v2.py
 python3 script_common_combi_pair.py
+python3 script_digit_position.py
 
 cd ../stl
 python3 script_spot_patterns_v1.py
 python3 script_spot_patterns_v2.py
 python3 script_common_combi_pair.py
+python3 script_digit_position.py
