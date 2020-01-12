@@ -3529,3 +3529,25 @@ gap: 4, common: ['1']
 411
 153
 162
+
+-----------------------------
+PATTERN FOUND USING SCRIPT_EXCEL_RESULTS.PY
+
+HOW TO FIND WINNING COMBI USING script_excel_results.py:
+1. run script_excel_results.py
+2. enter two succeeding previous results (ex. 520 - 4pm Jan 09, 2020 and 869)
+3. wait for the program to generate excel
+
+4. to find the winning combi look for the given previous results. count the gaps
+in between the results
+5. move forward or backward x times depending on the gap made from previous results.
+    ex. 246 - 4pm result
+        ---
+        ---
+        869
+        ---
+        ---
+        520
+        ---
+        ---
+        495 - 11am result
