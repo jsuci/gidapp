@@ -112,10 +112,9 @@ def excel_export(user_res, user_option):
 
     # Formatting
     col_colors = [
-        "ff6666", "ff6699", "9966ff",
-        "6699ff", "33ff33", "ccff33",
-        "ff6633", "339933", "009966",
-        "66cc33", "3333ff", "6666ff"
+        "ff6699", "ff6666", "ff6633", "ccff33",
+        "9966ff", "66cc33", "6699ff", "6666ff",
+        "33ff33", "339933", "3333ff", "009966"
     ]
     bd = Side(style="thin", color="555555")
     cell_style = NamedStyle(
