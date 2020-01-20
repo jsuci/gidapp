@@ -1,4 +1,4 @@
-updated: 19 sun jan 2020 1
+updated: 20 mon jan 2020 2
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2531,4 +2531,5 @@ updated: 19 sun jan 2020 1
 16 thu jan 2020       696       856       347
 17 fri jan 2020       119       465       465
 18 sat jan 2020       983       672       140
-19 sun jan 2020       533       863
+19 sun jan 2020       533       863       404
+20 mon jan 2020       141       327       743
