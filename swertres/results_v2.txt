@@ -1,4 +1,4 @@
-updated: 05 wed feb 2020 2
+updated: 07 fri feb 2020 2
 
 02 wed jan 2013       473       328       926
 03 thu jan 2013       841       730       959
@@ -2549,3 +2549,5 @@ updated: 05 wed feb 2020 2
 03 mon feb 2020       590       345       130
 04 tue feb 2020       795       824       242
 05 wed feb 2020       138       528       580
+06 thu feb 2020       410       506       368
+07 fri feb 2020       394       627       965
