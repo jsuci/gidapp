@@ -1,4 +1,4 @@
-updated: 11 tue feb 2020 2
+updated: 24 mon feb 2020 2
 
 15 wed nov 2017       660       924       727
 16 thu nov 2017       645       800       330
@@ -768,3 +768,16 @@ updated: 11 tue feb 2020 2
 09 sun feb 2020       449       344       699
 10 mon feb 2020       415       808       025
 11 tue feb 2020       216       823       585
+12 wed feb 2020       692       004       566
+13 thu feb 2020       488       363       944
+14 fri feb 2020       182       545       948
+15 sat feb 2020       786       376       965
+16 sun feb 2020       866       378       208
+17 mon feb 2020       305       866       207
+18 tue feb 2020       989       396       189
+19 wed feb 2020       035       547       198
+20 thu feb 2020       448       083       691
+21 fri feb 2020       130       609       448
+22 sat feb 2020       694       876       122
+23 sun feb 2020       087       304       038
+24 mon feb 2020       088       777       146
