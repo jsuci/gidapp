@@ -104,8 +104,6 @@ def excel_export(user_res, user_option):
         else:
             return False
 
-    month_results = fix_results()
-
     # Creating Workbook
     wb = Workbook()
     ws = wb.active
@@ -126,12 +124,22 @@ def excel_export(user_res, user_option):
     wb.add_named_style(cell_style)
 
     # Control group
+    month_results = fix_results()
     month_gap = 1
     year_gap = 1
     color_count = 0
     time_str = ["11AM", "4PM", "9PM"]
 
     for month_res in month_results:
+
+        # Control group for finding the combis
+        gap_match_count = 0
+        match_count = 0
+        found_index = 0
+        first_match_index = 0
+        second_match_index = 0
+        before_match = []
+        after_match = []
 
         # res = ['24 September 2019', '091', '321', '729']
         for c_res, res in enumerate(month_res):
@@ -208,6 +216,11 @@ def excel_export(user_res, user_option):
                             fill_type="solid",
                             fgColor="FFFFFF"
                         )
+                        # set found_index to the index of the current match
+                        # increment match_count by 1 for every match
+                        found_index = month_res.index(res)
+                        match_count += 1
+
                     elif user_option == "n" and loose_match(dg, u_res):
                         result_cell.fill = PatternFill(
                             fill_type="solid",
@@ -215,6 +228,26 @@ def excel_export(user_res, user_option):
                         )
                     else:
                         pass
+
+            # match_count 1 find before_match value
+            # match_count 2 find after_match value
+            if match_count == 1:
+                first_match_index = found_index
+
+            if match_count == 2:
+                second_match_index = found_index
+
+        gap_match_count = second_match_index - first_match_index
+
+        if gap_match_count >= 1:
+
+            if (first_match_index - gap_match_count) >= 0:
+                before_match = month_res[first_match_index - gap_match_count]
+                print(f"{before_match}")
+
+            if (second_match_index + gap_match_count) <= len(month_res):
+                after_match = month_res[second_match_index + gap_match_count]
+                print(f"{after_match}")
 
         if res_day == "31" and res_month == "December":
             year_gap += 35
