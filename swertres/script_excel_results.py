@@ -133,6 +133,7 @@ def excel_export(user_res, user_option):
     for month_res in month_results:
 
         # Control group for finding the combis
+        # For exact match only filter
         gap_match_count = 0
         match_count = 0
         found_index = 0

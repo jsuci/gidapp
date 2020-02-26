@@ -10,11 +10,19 @@ def plus_minus(prev_res):
         sum_val = sum(e) % 10 if sum(e) < 11 else None
         minus_val = abs(e[0] - e[1])
 
-        if sum_val is not None and sum_val not in all_e:
+        if (
+            sum_val is not None
+            and sum_val not in all_e
+            and sum_val not in prev_res
+        ):
             all_e.append(sum_val)
             sum_e.append(sum_val)
 
-        if minus_val is not None and minus_val not in all_e:
+        if (
+            minus_val is not None
+            and minus_val not in all_e
+            and minus_val not in prev_res
+        ):
             all_e.append(minus_val)
             minus_e.append(minus_val)
 
