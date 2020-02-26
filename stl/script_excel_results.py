@@ -243,11 +243,15 @@ def excel_export(user_res, user_option):
 
             if (first_match_index - gap_match_count) >= 0:
                 before_match = month_res[first_match_index - gap_match_count]
-                print(f"{before_match}")
+
+                if "-" not in before_match:
+                    print(f"{before_match}")
 
             if (second_match_index + gap_match_count) <= len(month_res):
                 after_match = month_res[second_match_index + gap_match_count]
-                print(f"{after_match}")
+
+                if "-" not in after_match:
+                    print(f"{after_match}")
 
         if res_day == "31" and res_month == "December":
             year_gap += 35
