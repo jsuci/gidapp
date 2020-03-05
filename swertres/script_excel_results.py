@@ -247,7 +247,7 @@ def excel_export(user_res, user_option):
                 if "-" not in before_match:
                     print(f"{before_match}")
 
-            if (second_match_index + gap_match_count) <= len(month_res):
+            if (second_match_index + gap_match_count) < len(month_res):
                 after_match = month_res[second_match_index + gap_match_count]
 
                 if "-" not in after_match:
