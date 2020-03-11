@@ -1,5 +1,4 @@
 import fileinput
-from requests import get
 from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
