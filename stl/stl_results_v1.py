@@ -39,7 +39,7 @@ def fetch_html(month, year, date):
 
     year_month_url = (
         f"https://www.gidapp.com/lottery/philippines/"
-        f"stl/sw3/month/{year}-{month}/{token_urlsafe(5)}"
+        f"stl/swer3/month/{year}-{month}/{token_urlsafe(5)}"
     )
 
     r = cf.get(year_month_url, headers=headers)
