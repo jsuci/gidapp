@@ -3,30 +3,10 @@ from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
 from datetime import datetime
-from random import choice
 from requests import get
 from secrets import token_urlsafe
-
-
-def rand_ua():
-    """
-    INPUT:
-        user_agents.txt - a text file containing all user-agent strings
-        from chrome and firefox
-
-    OUTPUT
-        output - a random user-agent string
-    """
-
-    non_rand = []
-
-    with open("../user_agents.txt") as file:
-        for line in file:
-            non_rand.append(line.strip())
-
-    output = choice(non_rand)
-
-    return output
+from fake_useragent import UserAgent
+from cfscrape import create_scraper
 
 
 def fetch_html(month, year, date):
@@ -41,19 +21,29 @@ def fetch_html(month, year, date):
         and status code (ex. 200)
     """
 
+    ua = UserAgent()
+    cf = create_scraper()
+
     headers = {
-        "accept": "text/html",
-        "accept-language": "en-US,en;q=0.9",
-        "user-agent": rand_ua(),
-        "referer": "https://www.google.com"
+        "Accept": (
+            "text/html,application/xhtml+xml,"
+            "application/xml;q=0.9,image/webp,"
+            "image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        ),
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": ua.random,
+        "Referer": "https://www.google.com"
     }
 
     year_month_url = (
         f"https://www.gidapp.com/lottery/philippines/"
-        f"stl/swer3/month/{year}-{month}/{token_urlsafe(5)}"
+        f"stl/sw3/month/{year}-{month}/{token_urlsafe(5)}"
     )
 
-    r = get(year_month_url, headers=headers)
+    r = cf.get(year_month_url, headers=headers)
 
     return (r.text, r.status_code)
 
@@ -106,8 +96,8 @@ def update_file_date_time(new_date, new_time):
 
 
 def get_results(file_month, file_date, file_year):
-    """Give a converted month, date and year, fetch and filter gidapp
-    website and return a list of tuple output, index, status_code
+    """Fetch results from given file_month, file_date and file_year
+    and returns a list of(output, index, status_code)
     """
 
     # A list of tuples: [(date, [results],...)]
@@ -118,7 +108,9 @@ def get_results(file_month, file_date, file_year):
 
     content, status_code = fetch_html(file_month, file_year, file_date)
     soup = BS(content, "html.parser")
-    entries = soup.find_all("div", class_="result")
+
+    # Result container class="col-md-6 result
+    entries = soup.find_all("div", class_="col-md-6 result")
 
     for i, e in enumerate(entries):
         # <time datetime="2019-07-03">
@@ -132,6 +124,7 @@ def get_results(file_month, file_date, file_year):
         web_date_results_time = (web_date, web_results, len(
             web_results) - 1)
 
+        # Compare two datetime objects
         if web_date == file_date:
             index = i
 
@@ -156,8 +149,6 @@ def main():
         output, curr_date, index, status_code = get_results(
             file_month, curr_date, file_year)
 
-        # print(status_code, file_month)
-
         if status_code == 200:
             new_date, new_time = export_results(
                 output, index, file_date, file_time)
@@ -172,7 +163,6 @@ def main():
 
             sleep(5)
 
-        # No draws in the month of august
         elif status_code == 500:
             file_month += 1
 

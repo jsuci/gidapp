@@ -3,30 +3,10 @@ from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
 from datetime import datetime
-from random import choice
 from requests import get
 from secrets import token_urlsafe
-
-
-def rand_ua():
-    """
-    INPUT:
-        user_agents.txt - a text file containing all user-agent strings
-        from chrome and firefox
-
-    OUTPUT
-        output - a random user-agent string
-    """
-
-    non_rand = []
-
-    with open("../user_agents.txt") as file:
-        for line in file:
-            non_rand.append(line.strip())
-
-    output = choice(non_rand)
-
-    return output
+from fake_useragent import UserAgent
+from cfscrape import create_scraper
 
 
 def fetch_html(month, year, date):
@@ -41,11 +21,21 @@ def fetch_html(month, year, date):
         and status code (ex. 200)
     """
 
+    ua = UserAgent()
+    cf = create_scraper()
+
     headers = {
-        "accept": "text/html",
-        "accept-language": "en-US,en;q=0.9",
-        "user-agent": rand_ua(),
-        "referer": "https://www.google.com"
+        "Accept": (
+            "text/html,application/xhtml+xml,"
+            "application/xml;q=0.9,image/webp,"
+            "image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        ),
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": ua.random,
+        "Referer": "https://www.google.com"
     }
 
     year_month_url = (
@@ -53,7 +43,7 @@ def fetch_html(month, year, date):
         f"pcso/suertres/month/{year}-{month}/{token_urlsafe(5)}"
     )
 
-    r = get(year_month_url, headers=headers)
+    r = cf.get(year_month_url, headers=headers)
 
     return (r.text, r.status_code)
 
