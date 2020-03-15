@@ -1,5 +1,6 @@
 from pathlib import Path
 from itertools import islice
+from datetime import datetime
 
 
 def read_results():
@@ -110,10 +111,12 @@ def filter_gaps(sample_limit):
 
 
 def main():
-    with open("spot_patterns_v1.txt", "w") as fi:
-        fi.write("")
-
     sample_limit = 2
+    date_now = datetime.now()
+
+    with open("spot_patterns_v1.txt", "a") as fo:
+        fo.write(f"""{date_now.strftime("%c")}\n""")
+
     while True:
         if filter_gaps(sample_limit):
             sample_limit += 1

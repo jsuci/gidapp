@@ -1,4 +1,4 @@
-from itertools import combinations, product
+from itertools import combinations
 
 
 def plus_minus(prev_res):

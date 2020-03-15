@@ -1,5 +1,6 @@
 from pathlib import Path
 from itertools import islice
+from datetime import datetime
 
 
 def read_results():
@@ -35,6 +36,7 @@ def gap_results(sample_limit):
 
 
 def filter_gaps(sample_limit):
+
     def check_common(results):
         common_digits = []
 
@@ -54,7 +56,7 @@ def filter_gaps(sample_limit):
     dic_gap_results = gap_results(sample_limit)
     control = False
 
-    with open("spot_patterns_v1.txt", "a") as fo:
+    with open("spot_patterns_v1.2.txt", "a") as fo:
 
         for gap, results in dic_gap_results.items():
 
@@ -82,10 +84,13 @@ def filter_gaps(sample_limit):
 
 
 def main():
-    with open("spot_patterns_v1.txt", "w") as fi:
-        fi.write("")
-
+    # minimum limit of results
     sample_limit = 3
+    date_now = datetime.now()
+
+    with open("spot_patterns_v1.2.txt", "a") as fo:
+        fo.write(f"""{date_now.strftime("%c")}\n""")
+
     while True:
         if filter_gaps(sample_limit):
             sample_limit += 1
