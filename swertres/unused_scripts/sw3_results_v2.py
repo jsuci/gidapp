@@ -6,6 +6,7 @@ from datetime import datetime
 from secrets import token_urlsafe
 from fake_useragent import UserAgent
 from cfscrape import create_scraper
+from requests import get
 
 
 def fetch_html(month, year, date):
@@ -34,15 +35,16 @@ def fetch_html(month, year, date):
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1",
         "User-Agent": ua.random,
-        "Referer": "https://www.google.com"
+        "Referer": "https://www.google.com",
+        'Host': 'www.gidapp.com'
     }
 
     year_month_url = (
-        f"https://www.gidapp.com/lottery/philippines/"
+        f"http://128.199.93.100/lottery/philippines/"
         f"pcso/suertres/month/{year}-{month}/{token_urlsafe(5)}"
     )
 
-    r = cf.get(year_month_url, headers=headers)
+    r = get(year_month_url, headers=headers)
 
     return (r.text, r.status_code)
 

@@ -34,12 +34,13 @@ def fetch_html(month, year, date):
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1",
         "User-Agent": ua.random,
-        "Referer": "https://www.google.com"
+        "Referer": "https://www.google.com",
+        "Host": "www.gidapp.com"
     }
 
     year_month_url = (
-        f"https://www.gidapp.com/lottery/philippines/"
-        f"pcso/suertres/month/{year}-{month}/{token_urlsafe(5)}"
+        f"http://128.199.93.100/lottery/philippines/"
+        f"pcso/suertres/month/{year}-{month}"
     )
 
     r = cf.get(year_month_url, headers=headers)
