@@ -1,4 +1,4 @@
-updated: 30 mon nov 2020
+updated: 01 tue dec 2020
 
 02 mon jan 2006      -           -           904
 03 tue jan 2006      -           -           117
@@ -838,17 +838,17 @@ updated: 30 mon nov 2020
 16 wed apr 2008      100         068         727
 17 thu apr 2008      064         124         208
 18 fri apr 2008      389         529         278
-19 sat apr 2008      948         -           422
-20 sun apr 2008      624         920         289
-21 mon apr 2008      559         766         776
-22 tue apr 2008      661         602         290
-23 wed apr 2008      336         297         209
-24 thu apr 2008      602         466         077
-25 fri apr 2008      504         834         040
-26 sat apr 2008      995         462         759
-27 sun apr 2008      828         973         677
-28 mon apr 2008      845         309         167
-29 tue apr 2008      141         060         818
+19 sat apr 2008      948         920         422
+20 sun apr 2008      624         766         289
+21 mon apr 2008      559         602         776
+22 tue apr 2008      661         297         290
+23 wed apr 2008      336         466         209
+24 thu apr 2008      602         834         077
+25 fri apr 2008      504         462         040
+26 sat apr 2008      995         973         759
+27 sun apr 2008      828         309         677
+28 mon apr 2008      845         060         167
+29 tue apr 2008      141         798         818
 30 wed apr 2008      497         248         982
 01 thu may 2008      101         533         054
 02 fri may 2008      010         774         391
@@ -5446,4 +5446,5 @@ updated: 30 mon nov 2020
 27 fri nov 2020      242         376         877
 28 sat nov 2020      118         801         791
 29 sun nov 2020      369         221         395
-30 mon nov 2020      -           -           -  
+30 mon nov 2020      107         731         316
+01 tue dec 2020      -           -           -  
