@@ -4,10 +4,10 @@
 			"path": "stl"
 		},
 		{
-			"path": "."
+			"path": "swertres"
 		},
 		{
-			"path": "swertres"
+			"path": "others"
 		}
 	],
 	"settings": {}

@@ -4,7 +4,7 @@ from re import split, match
 def get_results():
     output = []
 
-    with open("common_combi.txt", "r") as fi:
+    with open("common_combi_pair.txt", "r") as fi:
         for entry in fi:
             if not match(r"\n", entry):
                 entry = entry.strip()

@@ -1,4 +1,4 @@
-updated: 01 tue dec 2020
+updated: 19 sat dec 2020
 
 02 mon jan 2006      -           -           904
 03 tue jan 2006      -           -           117
@@ -5447,4 +5447,22 @@ updated: 01 tue dec 2020
 28 sat nov 2020      118         801         791
 29 sun nov 2020      369         221         395
 30 mon nov 2020      107         731         316
-01 tue dec 2020      -           -           -  
+01 tue dec 2020      991         648         729
+02 wed dec 2020      733         471         132
+03 thu dec 2020      019         215         620
+04 fri dec 2020      265         183         793
+05 sat dec 2020      905         311         365
+06 sun dec 2020      389         685         576
+07 mon dec 2020      991         355         919
+08 tue dec 2020      540         695         003
+09 wed dec 2020      665         241         680
+10 thu dec 2020      324         066         189
+11 fri dec 2020      339         476         903
+12 sat dec 2020      279         949         057
+13 sun dec 2020      226         826         211
+14 mon dec 2020      951         102         391
+15 tue dec 2020      137         017         655
+16 wed dec 2020      511         358         468
+17 thu dec 2020      049         069         494
+18 fri dec 2020      745         751         854
+19 sat dec 2020      -           -           -  

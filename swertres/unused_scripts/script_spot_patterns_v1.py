@@ -18,7 +18,7 @@ def read_results():
 def gap_results(sample_limit):
     all_results = read_results()
     output = {}
-    gap_limit = 10
+    gap_limit = 20
 
     for gap in range(1, gap_limit + 1):
         step = gap
