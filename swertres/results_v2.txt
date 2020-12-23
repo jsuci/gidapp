@@ -1,4 +1,4 @@
-updated: 19 sat dec 2020
+updated: 23 wed dec 2020
 
 02 mon jan 2006      -           -           904
 03 tue jan 2006      -           -           117
@@ -5465,4 +5465,8 @@ updated: 19 sat dec 2020
 16 wed dec 2020      511         358         468
 17 thu dec 2020      049         069         494
 18 fri dec 2020      745         751         854
-19 sat dec 2020      636         651         -
+19 sat dec 2020      636         651         348
+20 sun dec 2020      146         259         360
+21 mon dec 2020      853         743         236
+22 tue dec 2020      673         901         159
+23 wed dec 2020      -           -           -  

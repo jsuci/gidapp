@@ -26,10 +26,11 @@ def read_results():
 
             output.append(entry)
 
-        if check_date == "2":
-            return output
-        else:
-            return output[:-1]
+        return output
+        # if check_date == "2":
+        #     return output
+        # else:
+        #     return output[:-1]
 
 
 def fix_results():
