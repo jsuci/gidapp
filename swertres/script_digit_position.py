@@ -16,7 +16,7 @@ def get_results():
 
 
 def excel_export():
-    results = get_results()[-500:]
+    results = get_results()[-1000:]
 
     wb = Workbook()
     sheet = wb.active

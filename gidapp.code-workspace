@@ -1,13 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "stl"
-		},
-		{
-			"path": "swertres"
-		},
-		{
-			"path": "others"
+			"path": "."
 		}
 	],
 	"settings": {}
