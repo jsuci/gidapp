@@ -33,8 +33,8 @@ def digit_gap_pair(digit, max_step, results):
                 else:
                     file_out.write(f"{res}\n")
 
-        if len(found) >= 2:
-            print(f"gap: {step}  digit: {sdigit}  found: {len(found)}")
+        if len(found) >= 3:
+            print(f"digit: {sdigit}  gap: {step}  found: {len(found)}")
         else:
             ulink_path = Path(
                 f"digit-gap-pair/digit_{digit}_gap_{step}.txt")
