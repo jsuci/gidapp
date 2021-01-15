@@ -1,4 +1,4 @@
-updated: 14 thu jan 2021
+updated: 15 fri jan 2021
 
 02 mon jan 2006      -           -           904
 03 tue jan 2006      -           -           117
@@ -5491,4 +5491,5 @@ updated: 14 thu jan 2021
 11 mon jan 2021      309         152         668
 12 tue jan 2021      750         445         101
 13 wed jan 2021      806         275         508
-14 thu jan 2021      255         -           -
+14 thu jan 2021      255         986         932
+15 fri jan 2021      156         366         -
