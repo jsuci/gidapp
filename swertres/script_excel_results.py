@@ -268,7 +268,11 @@ def excel_export(user_res, user_option):
 def main():
     user_res = split(r"\s{1,}", input(
         "Enter prev results (ex. 123 456 ...): "))
-    user_option = input("Exact match? (y/n): ")
+
+    if user_res:
+        user_option = ""
+    else:
+        user_option = input("Exact match? (y/n): ")
 
     print("Generating excel file, please wait...")
 

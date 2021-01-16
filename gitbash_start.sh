@@ -7,3 +7,5 @@ python sw3_results_b_v3.py
 python script_digit_position.py
 python script_digit_pair.py
 python script_digit_gap_pair.py
+
+python script_excel_results.py
