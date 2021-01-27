@@ -1,4 +1,4 @@
-updated: 22 fri jan 2021
+updated: 27 wed jan 2021
 
 02 mon jan 2006      -           -           904
 03 tue jan 2006      -           -           117
@@ -5499,4 +5499,9 @@ updated: 22 fri jan 2021
 19 tue jan 2021      208         045         913
 20 wed jan 2021      680         012         956
 21 thu jan 2021      393         940         109
-22 fri jan 2021      -           -           -  
+22 fri jan 2021      644         854         810
+23 sat jan 2021      598         143         513
+24 sun jan 2021      394         556         719
+25 mon jan 2021      757         517         093
+26 tue jan 2021      457         087         266
+27 wed jan 2021      469         679         180
