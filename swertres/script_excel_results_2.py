@@ -56,22 +56,11 @@ def class_results():
     return class_res
 
 
-def write_to_excel(user_num):
-    wb = Workbook()
-    ws = wb.active
+def write_to_excel(user_num, wb, cell_style):
 
-    bd = Side(style="thin", color="555555")
-    cell_style = NamedStyle(
-        name="cell_style",
-        font=Font(size=15, bold=False),
-        alignment=Alignment(horizontal="center", vertical="center"),
-        border=Border(top=bd, bottom=bd, right=bd, left=bd),
-        fill=PatternFill("solid", fgColor="6699ff")
-    )
+    wb.create_sheet(user_num)
+    ws = wb[user_num]
 
-    wb.add_named_style(cell_style)
-
-    dest_name = "excel_results_2.xlsx"
     class_res = class_results()
 
     # cres = ("sun, ["123", "456"]")
@@ -90,10 +79,6 @@ def write_to_excel(user_num):
             if check_num(user_num, num):
                 num_cell.fill = PatternFill("solid", fgColor="ffffff")
 
-    wb.save(filename=dest_name)
-
-    print("Done exporting excel_results_2.xlsx")
-
 
 def check_num(user_num, my_num):
     my_num_lst = list(set(my_num))
@@ -111,8 +96,29 @@ def check_num(user_num, my_num):
 
 
 def main():
-    user_num = input("Enter a number (ex. 1, 12, 123): ")
-    write_to_excel(user_num)
+    wb = Workbook()
+
+    bd = Side(style="thin", color="555555")
+    cell_style = NamedStyle(
+        name="cell_style",
+        font=Font(size=15, bold=False),
+        alignment=Alignment(horizontal="center", vertical="center"),
+        border=Border(top=bd, bottom=bd, right=bd, left=bd),
+        fill=PatternFill("solid", fgColor="6699ff")
+    )
+
+    wb.add_named_style(cell_style)
+
+    dest_name = "excel_results_2.xlsx"
+
+    for i in range(10):
+        user_num = str(i)
+        write_to_excel(user_num, wb, cell_style)
+
+    del wb["Sheet"]
+    wb.save(filename=dest_name)
+
+    print("Done exporting excel_results_2.xlsx")
 
 
 if __name__ == "__main__":
