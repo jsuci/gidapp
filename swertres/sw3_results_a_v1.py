@@ -3,7 +3,6 @@ from time import sleep
 from bs4 import BeautifulSoup as BS
 from itertools import islice
 from datetime import datetime
-from secrets import token_urlsafe
 from fake_useragent import UserAgent
 from cfscrape import create_scraper
 
