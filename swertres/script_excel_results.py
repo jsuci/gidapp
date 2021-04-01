@@ -6,6 +6,7 @@ from openpyxl.styles import (
     PatternFill, Border, Side
 )
 from datetime import datetime
+from sys import argv
 
 
 def read_results():
@@ -266,17 +267,16 @@ def excel_export(user_res, user_option):
 
 
 def main():
-    user_res = split(r"\s{1,}", input(
-        "Enter prev results (ex. 123 456 ...): "))
+    user_res = argv
 
-    if "" in user_res:
+    if len(user_res) < 2:
         user_option = ""
     else:
         user_option = input("Exact match? (y/n): ")
 
     print("Generating excel file, please wait...")
 
-    excel_export(user_res, user_option)
+    excel_export(user_res[1:], user_option)
 
     print("Done exporting.")
 
