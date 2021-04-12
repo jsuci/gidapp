@@ -39,7 +39,7 @@ def main():
 
     for count, num in enumerate(results):
         if (
-            check_num('689', num) == 'three'
+            check_num('650', num) == 'three'
             and (count != 0 or count != len(results) + 1)
         ):
             before_num = results[count - 1]

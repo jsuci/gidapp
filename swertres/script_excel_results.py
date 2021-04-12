@@ -92,19 +92,36 @@ def excel_export(user_res, user_option):
         else:
             return False
 
-    def loose_match(res, user_res):
-        output = []
+    def check_num(user_num, my_num):
+        count = 0
 
-        for digit in res:
-            if digit in user_res:
-                output.append(digit)
-                res = res.replace(digit, "", 1)
-                user_res = user_res.replace(digit, "", 1)
+        for num in user_num:
+            if num in my_num:
+                count += 1
+                my_num = my_num.replace(num, '', 1)
 
-        if len(output) == 3:
-            return True
+        if count == 1:
+            return "one"
+        elif count == 2:
+            return "two"
+        elif count == 3:
+            return "three"
         else:
-            return False
+            return "zero"
+
+    # def loose_match(res, user_res):
+    #     output = []
+
+    #     for digit in res:
+    #         if digit in user_res:
+    #             output.append(digit)
+    #             res = res.replace(digit, "", 1)
+    #             user_res = user_res.replace(digit, "", 1)
+
+    #     if len(output) == 3:
+    #         return True
+    #     else:
+    #         return False
 
     # Creating Workbook
     wb = Workbook()
@@ -223,13 +240,22 @@ def excel_export(user_res, user_option):
                         found_index = month_res.index(res)
                         match_count += 1
 
-                    elif user_option == "n" and loose_match(dg, u_res):
-                        result_cell.fill = PatternFill(
-                            fill_type="solid",
-                            fgColor="FFFFFF"
-                        )
-                    else:
-                        pass
+                    elif len(u_res) == 3:
+                        if (user_option == "n"
+                                and check_num(dg, u_res) == 'three'):
+
+                            result_cell.fill = PatternFill(
+                                fill_type="solid",
+                                fgColor="FFFFFF"
+                            )
+                    elif len(u_res) == 2:
+                        if (user_option == "n"
+                                and check_num(dg, u_res) == 'two'):
+
+                            result_cell.fill = PatternFill(
+                                fill_type="solid",
+                                fgColor="FFFFFF"
+                            )
 
             # match_count 1 find before_match value
             # match_count 2 find after_match value
