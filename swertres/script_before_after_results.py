@@ -1,4 +1,5 @@
 from pathlib import Path
+from sys import argv
 
 
 def get_results():
@@ -39,7 +40,7 @@ def main():
 
     for count, num in enumerate(results):
         if (
-            check_num('650', num) == 'three'
+            check_num(argv[1], num) == 'three'
             and (count != 0 or count != len(results) + 1)
         ):
             before_num = results[count - 1]
@@ -52,9 +53,9 @@ def main():
         classify.setdefault(num, 0)
         classify[num] += 1
 
-    for k, v in classify.items():
-        if v >= 3:
-            print(k, v)
+    for k, v in sorted(classify.items(), key=lambda x: x[1]):
+        # if v >= 3:
+        print(k, v)
 
 
 if __name__ == "__main__":

@@ -81,15 +81,14 @@ def write_to_excel(user_num, wb, cell_style):
 
 
 def check_num(user_num, my_num):
-    my_num_lst = list(set(my_num))
-    u_num_lst = list(set(user_num))
-    count = 0
+    fdigits = []
 
-    for n in u_num_lst:
-        count += my_num_lst.count(n)
+    for num in user_num:
+        if num in my_num:
+            fdigits.append(num)
+            my_num = my_num.replace(num, '', 1)
 
-    if len(u_num_lst) <= count:
-        # print(f"unum: {user_num}\tmnum: {my_num}\tcount: {count}")
+    if len(fdigits) >= 1:
         return True
     else:
         return False
