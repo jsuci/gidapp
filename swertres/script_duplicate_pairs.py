@@ -43,9 +43,9 @@ def duplicate_pairs():
         matches = check_num(orig_result, compared_result)
 
         if matches[1] == 2:
-            output.append([all_results[count], matches[0]])
+            output.append([all_results[count + 1], matches[0]])
         else:
-            output.append([all_results[count], ""])
+            output.append([all_results[count + 1], ""])
 
     return output
 
