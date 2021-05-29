@@ -70,6 +70,18 @@ def export_to_excel(results, gap):
             sheet.cell(row_count, 4 + 2).style = cust_style
             sheet.cell(row_count, 5 + 2).style = cust_style
 
+            sheet.cell(
+                row_count, 3 + 2).fill = PatternFill(
+                    start_color="b4c9ea", fill_type="solid")
+
+            sheet.cell(
+                row_count, 4 + 2).fill = PatternFill(
+                    start_color="b4c9ea", fill_type="solid")
+
+            sheet.cell(
+                row_count, 5 + 2).fill = PatternFill(
+                    start_color="b4c9ea", fill_type="solid")
+
         sheet.cell(row_count, 3 + 2).value = date_results[1]
         sheet.cell(row_count, 4 + 2).value = date_results[2]
         sheet.cell(row_count, 5 + 2).value = date_results[3]
@@ -86,7 +98,7 @@ def main():
     if len(argv) < 2:
         gap = 2
     else:
-        gap = argv[1]
+        gap = int(argv[1])
 
     export_to_excel(results, gap)
 

@@ -109,20 +109,6 @@ def excel_export(user_res, user_option):
         else:
             return "zero"
 
-    # def loose_match(res, user_res):
-    #     output = []
-
-    #     for digit in res:
-    #         if digit in user_res:
-    #             output.append(digit)
-    #             res = res.replace(digit, "", 1)
-    #             user_res = user_res.replace(digit, "", 1)
-
-    #     if len(output) == 3:
-    #         return True
-    #     else:
-    #         return False
-
     # Creating Workbook
     wb = Workbook()
     ws = wb.active
