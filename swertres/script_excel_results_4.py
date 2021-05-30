@@ -208,7 +208,6 @@ def export_to_excel(results):
 
             color_count += 1
             mo_yr_loc += 3
-
         date_loc += 33
 
     wb.save("excel_results_4.xlsx")

@@ -4,80 +4,7 @@ from openpyxl.styles import (
     PatternFill, Border, Side
 )
 from itertools import islice
-
-
-def get_results():
-    results = []
-
-    with open("results_v2.txt", "r") as fi:
-        for line in islice(fi, 2, None):
-            l_list = line.strip().split()
-            day = l_list[1]
-            nums = l_list[4:]
-            results.append((day, nums))
-
-    return results
-
-
-def class_results():
-    results = get_results()
-    class_res = [
-        ("sun", []),
-        ("mon", []),
-        ("tue", []),
-        ("wed", []),
-        ("thu", []),
-        ("fri", []),
-        ("sat", [])
-    ]
-
-    for res in results:
-        if res[0] == "sun":
-            class_res[0][1].extend(res[1])
-
-        if res[0] == "mon":
-            class_res[1][1].extend(res[1])
-
-        if res[0] == "tue":
-            class_res[2][1].extend(res[1])
-
-        if res[0] == "wed":
-            class_res[3][1].extend(res[1])
-
-        if res[0] == "thu":
-            class_res[4][1].extend(res[1])
-
-        if res[0] == "fri":
-            class_res[5][1].extend(res[1])
-
-        if res[0] == "sat":
-            class_res[6][1].extend(res[1])
-
-    return class_res
-
-
-def write_to_excel(user_num, wb, cell_style):
-
-    wb.create_sheet(user_num)
-    ws = wb[user_num]
-
-    class_res = class_results()
-
-    # cres = ("sun, ["123", "456"]")
-    for col, cres in enumerate(class_res):
-        col_loc = col + 1
-
-        day_cell = ws.cell(column=col_loc, row=1, value=cres[0])
-        day_cell.style = cell_style
-
-        for row, num in enumerate(cres[1]):
-            row_loc = row + 2
-
-            num_cell = ws.cell(column=col_loc, row=row_loc, value=f"{num}")
-            num_cell.style = cell_style
-
-            if check_num(user_num, num):
-                num_cell.fill = PatternFill("solid", fgColor="ffffff")
+from openpyxl.utils import get_column_letter
 
 
 def check_num(user_num, my_num):
@@ -94,30 +21,120 @@ def check_num(user_num, my_num):
         return False
 
 
-def main():
+def get_results():
+    results = []
+
+    with open("results_v2.txt", "r") as fi:
+        for line in islice(fi, 2, None):
+            l_list = line.strip().split()
+            day = l_list[1]
+            date = l_list[0]
+            nums = l_list[4:]
+            results.append((date, day, nums))
+
+    return results
+
+
+def write_to_excel():
+
     wb = Workbook()
+    ws = wb.active
 
-    bd = Side(style="thin", color="555555")
-    cell_style = NamedStyle(
-        name="cell_style",
-        font=Font(size=15, bold=False),
-        alignment=Alignment(horizontal="center", vertical="center"),
-        border=Border(top=bd, bottom=bd, right=bd, left=bd),
-        fill=PatternFill("solid", fgColor="6699ff")
-    )
+    # Set default styles
+    res_style = NamedStyle(name="res_style")
+    res_style.font = Font(bold=False, size=21, color='000000')
+    bd = Side(style='thin', color="000000")
+    res_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
+    res_style.alignment = Alignment(horizontal="center", vertical="center")
+    res_style.fill = PatternFill(start_color="82C09A", fill_type="solid")
 
-    wb.add_named_style(cell_style)
+    res_macth_style = NamedStyle(name="res_macth_style")
+    res_macth_style.font = Font(bold=False, size=21)
+    bd = Side(style='thin', color="000000")
+    res_macth_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
+    res_macth_style.alignment = Alignment(
+        horizontal="center", vertical="center")
+    res_macth_style.fill = PatternFill(start_color="FFFFFF", fill_type="solid")
 
-    dest_name = "excel_results_2.xlsx"
+    def_style = NamedStyle(name="def_style")
+    def_style.font = Font(bold=False, size=21)
+    bd = Side(style='thin', color="000000")
+    def_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
+    def_style.alignment = Alignment(horizontal="center", vertical="center")
+
+    del wb["Sheet"]
+
+    days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
 
     for i in range(10):
         user_num = str(i)
-        write_to_excel(user_num, wb, cell_style)
+        results = get_results()
 
-    del wb["Sheet"]
-    wb.save(filename=dest_name)
+        wb.create_sheet(user_num)
+        ws = wb[user_num]
 
-    print("Done exporting excel_results_2.xlsx")
+        # day entry
+        for i in range(len(days)):
+
+            ws.column_dimensions[get_column_letter(i + 1)].width = 12
+
+            day_cell = ws.cell(
+                row=1,
+                column=i + 1,
+                value=f'{days[i]}'.upper()
+            )
+
+            day_cell.style = def_style
+
+        # results entry
+        row_loc = 2
+        for e in results:
+            day = e[1]
+            res = e[-1]
+
+            if day == 'sat':
+                col_loc = 7
+
+            if day == 'sun':
+                col_loc = 1
+
+            if day == 'mon':
+                col_loc = 2
+
+            if day == 'tue':
+                col_loc = 3
+
+            if day == 'wed':
+                col_loc = 4
+
+            if day == 'thu':
+                col_loc = 5
+
+            if day == 'fri':
+                col_loc = 6
+
+            for rc in range(len(res)):
+
+                res_cell = ws.cell(
+                    row=row_loc + rc,
+                    column=col_loc,
+                    value=f'{res[rc]}'
+                )
+
+                if check_num(user_num, res[rc]):
+                    res_cell.style = res_macth_style
+                else:
+                    res_cell.style = res_style
+
+            if day == 'sat':
+                row_loc += 3
+
+    wb.save("excel_results_2.xlsx")
+
+
+def main():
+
+    write_to_excel()
 
 
 if __name__ == "__main__":
