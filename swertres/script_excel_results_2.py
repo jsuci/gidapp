@@ -41,16 +41,18 @@ def write_to_excel():
     ws = wb.active
 
     # Set default styles
+
+    bd = Side(style='thin', color="000000")
+    bd_thick = Side(style='thick', color="0c1e5f")
+
     res_style = NamedStyle(name="res_style")
     res_style.font = Font(bold=False, size=21, color='000000')
-    bd = Side(style='thin', color="000000")
     res_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
     res_style.alignment = Alignment(horizontal="center", vertical="center")
     res_style.fill = PatternFill(start_color="82C09A", fill_type="solid")
 
     res_macth_style = NamedStyle(name="res_macth_style")
     res_macth_style.font = Font(bold=False, size=21)
-    bd = Side(style='thin', color="000000")
     res_macth_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
     res_macth_style.alignment = Alignment(
         horizontal="center", vertical="center")
@@ -58,7 +60,6 @@ def write_to_excel():
 
     def_style = NamedStyle(name="def_style")
     def_style.font = Font(bold=False, size=21)
-    bd = Side(style='thin', color="000000")
     def_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
     def_style.alignment = Alignment(horizontal="center", vertical="center")
 
@@ -127,6 +128,10 @@ def write_to_excel():
                     res_cell.style = res_style
 
             if day == 'sat':
+                for e in ws[row_loc + 2]:
+                    e.border = Border(
+                        left=bd, top=bd, right=bd, bottom=bd_thick)
+
                 row_loc += 3
 
     wb.save("excel_results_2.xlsx")

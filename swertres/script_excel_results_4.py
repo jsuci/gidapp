@@ -20,7 +20,13 @@ def get_results(user_filter):
 
         for entry in islice(fi, 2, None):
             entry = split(r"\s{2,}", entry.strip())
-            res = filter_results(entry[1:], user_filter)
+
+            if user_filter[-1] == '-s':
+                pass
+                res = strict_filter(entry[1:], user_filter[:-1])
+            else:
+                res = loose_filter(entry[1:], user_filter[:-1])
+
             date = split(r"\s{1,}", entry[0].strip())
 
             output.setdefault(date[3], {})
@@ -41,7 +47,32 @@ def check_num(user_num, my_num):
     return (''.join(fdigits), len(fdigits))
 
 
-def filter_results(entry_num, comp_num):
+def strict_filter(entry_num, comp_num):
+    output = []
+
+    for e in entry_num:
+
+        # prevent appending same number to output
+        # detect if there is a match
+        # since we want to return same entry_num length
+        check_count = 0
+
+        for c in comp_num:
+            if len(c) == 2 and e[:2] == c:
+                check_count += 1
+
+            if len(c) == 3 and e == c:
+                check_count += 1
+
+        if check_count > 0:
+            output.append((e, 't'))
+        else:
+            output.append((e, 'f'))
+
+    return output
+
+
+def loose_filter(entry_num, comp_num):
 
     output = []
 
@@ -68,14 +99,14 @@ def export_to_excel(results):
 
     # Set default styles
     res_style = NamedStyle(name="res_style")
-    res_style.font = Font(bold=False, size=21, color='000000')
+    res_style.font = Font(bold=True, size=21, color='000000')
     bd = Side(style='thin', color="000000")
     res_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
     res_style.alignment = Alignment(horizontal="center", vertical="center")
     res_style.fill = PatternFill(start_color="82C09A", fill_type="solid")
 
     res_macth_style = NamedStyle(name="res_macth_style")
-    res_macth_style.font = Font(bold=False, size=21)
+    res_macth_style.font = Font(bold=True, size=21)
     bd = Side(style='thin', color="000000")
     res_macth_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
     res_macth_style.alignment = Alignment(
@@ -83,7 +114,7 @@ def export_to_excel(results):
     res_macth_style.fill = PatternFill(start_color="FFFFFF", fill_type="solid")
 
     def_style = NamedStyle(name="def_style")
-    def_style.font = Font(bold=False, size=21)
+    def_style.font = Font(bold=True, size=21)
     bd = Side(style='thin', color="000000")
     def_style.border = Border(left=bd, top=bd, right=bd, bottom=bd)
     def_style.alignment = Alignment(horizontal="center", vertical="center")

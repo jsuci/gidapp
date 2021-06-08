@@ -12,13 +12,22 @@ from openpyxl.styles import (
 )
 
 
-def get_results():
+def get_results(gap):
     results = []
+    reversed_res = []
 
     with open("results_v2.txt", "r") as fi:
         for entry in islice(fi, 2, None):
             result = split(r"\s{2,}", entry.strip())
-            results.append(result)
+            reversed_res.insert(0, result)
+
+    for c, e in enumerate(reversed_res):
+        if c % gap == 0:
+            e.append('t')
+        else:
+            e.append('f')
+
+        results.insert(0, e)
 
     return results
 
@@ -61,7 +70,7 @@ def export_to_excel(results, gap):
             horizontal="right")
         sheet.cell(row_count, 1).value = date_results[0].upper()
 
-        if row_count % gap == 0:
+        if date_results[-1] == 't':
             sheet.cell(row_count, 3 + 2).style = select_style
             sheet.cell(row_count, 4 + 2).style = select_style
             sheet.cell(row_count, 5 + 2).style = select_style
@@ -93,12 +102,12 @@ def main():
 
     print("Generating excel 3 results, please wait...")
 
-    results = get_results()
-
     if len(argv) < 2:
         gap = 2
     else:
         gap = int(argv[1])
+
+    results = get_results(gap)
 
     export_to_excel(results, gap)
 
