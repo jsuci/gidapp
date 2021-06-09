@@ -16,7 +16,7 @@ def get_results(gap):
         if c % gap == 0:
             results.insert(0, e)
 
-    return results[-8:]
+    return results[-9:]
 
 
 def check_num(user_num, my_num):
@@ -31,7 +31,7 @@ def check_num(user_num, my_num):
 
 
 def main():
-    for gap in range(1, 20):
+    for gap in range(1, 51):
 
         res = get_results(gap)
 
