@@ -1,7 +1,4 @@
-from pathlib import Path
-from itertools import islice, combinations
 from re import split
-from sys import argv
 
 
 def check_num(user_num, my_num):

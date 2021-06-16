@@ -62,11 +62,14 @@ def get_pair_res(pf, rs):
             ser_index = rs.index(er)
             holder[ser_index] = er
 
-    print(f'{" ":3}'.join(holder))
+    # print(f'{" ":3}'.join(holder))
+
+    return holder
 
 
 def main():
-    all_gap_pairs = {}
+    # all_gap_pairs = {}
+
     for gap in range(1, 101):
 
         res = get_results(gap)
@@ -86,24 +89,41 @@ def main():
                         pfound.append(g1)
 
             if len(pfound) >= 1:
-                print('gap:', gap)
-                print('pair:', pfound)
+
+                all_gpr_res = []
+                is_gpr_dup = False
 
                 for pf in pfound:
                     for e in res:
-                        get_pair_res(pf, e[1:])
+                        gpr = get_pair_res(pf, e[1:])
+                        all_gpr_res.append(gpr)
+
+                for e1 in all_gpr_res[0]:
+                    for e2 in all_gpr_res[2]:
+                        if e1 != '---' and e2 != '---':
+                            if sorted(e1) == sorted(e2):
+                                is_gpr_dup = True
+                                break
+
+                if is_gpr_dup:
+                    print(f'gap: {gap}')
+                    print(f'pair: {pfound}')
+
+                    for c, rs in enumerate(all_gpr_res, 1):
+                        print('\t'.join(rs))
+
+                        if c % 4 == 0:
+                            print('\n')
 
                     print('\n')
 
-                print('\n')
+    #             for pf in pfound:
+    #                 all_gap_pairs.setdefault(pf, 0)
+    #                 all_gap_pairs[pf] += 1
 
-                for pf in pfound:
-                    all_gap_pairs.setdefault(pf, 0)
-                    all_gap_pairs[pf] += 1
-
-    print('pairs stats:')
-    for k, v in sorted(all_gap_pairs.items(), key=lambda x: x[1]):
-        print(k, v)
+    # print('pairs stats:')
+    # for k, v in sorted(all_gap_pairs.items(), key=lambda x: x[1]):
+    #     print(k, v)
 
 
 if __name__ == '__main__':

@@ -16,7 +16,7 @@ def get_results(gap):
         if c % gap == 0:
             results.insert(0, e)
 
-    return results[-4:]
+    return results[-5:]
 
 
 def check_num(user_num, my_num):
@@ -66,7 +66,6 @@ def get_pair_res(pf, rs):
 
 
 def main():
-    all_gap_pairs = {}
     for gap in range(1, 101):
 
         res = get_results(gap)
@@ -77,11 +76,11 @@ def main():
 
             g_pairs.append(gp)
 
-        if g_pairs[0] and g_pairs[1]:
+        if g_pairs[0] and g_pairs[1] and g_pairs[2]:
 
             pfound = []
             for g1 in g_pairs[0]:
-                if g1 in g_pairs[1]:
+                if all(g1 in x for x in (g_pairs[1], g_pairs[2])):
                     if g1 not in pfound:
                         pfound.append(g1)
 
@@ -96,14 +95,6 @@ def main():
                     print('\n')
 
                 print('\n')
-
-                for pf in pfound:
-                    all_gap_pairs.setdefault(pf, 0)
-                    all_gap_pairs[pf] += 1
-
-    print('pairs stats:')
-    for k, v in sorted(all_gap_pairs.items(), key=lambda x: x[1]):
-        print(k, v)
 
 
 if __name__ == '__main__':
