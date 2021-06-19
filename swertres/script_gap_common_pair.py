@@ -62,13 +62,11 @@ def get_pair_res(pf, rs):
             ser_index = rs.index(er)
             holder[ser_index] = er
 
-    # print(f'{" ":3}'.join(holder))
-
-    return holder
+    print(f'{" ":3}'.join(holder))
 
 
 def main():
-
+    all_gap_pairs = {}
     for gap in range(1, 101):
 
         res = get_results(gap)
@@ -88,34 +86,24 @@ def main():
                         pfound.append(g1)
 
             if len(pfound) >= 1:
-
-                all_gpr_res = []
-                is_gpr_dup = False
+                print('gap:', gap)
+                print('pair:', pfound)
 
                 for pf in pfound:
-                    tmp_gpr_res = []
                     for e in res:
-                        gpr = get_pair_res(pf, e[1:])
-                        tmp_gpr_res.append(gpr)
+                        get_pair_res(pf, e[1:])
 
-                    all_gpr_res.append(tmp_gpr_res)
+                    print('\n')
 
-                for eagr in all_gpr_res:
-                    for e1 in eagr[0]:
-                        for e2 in eagr[2]:
-                            if e1 != '---' and e2 != '---':
-                                if sorted(e1) == sorted(e2):
+                print('\n')
 
-                                    print(f'gap: {gap}')
-                                    print(f'pair: {pfound}')
+                for pf in pfound:
+                    all_gap_pairs.setdefault(pf, 0)
+                    all_gap_pairs[pf] += 1
 
-                                    for c, rs in enumerate(eagr, 1):
-                                        print('\t'.join(rs))
-
-                                        if c % 4 == 0:
-                                            print('\n')
-
-                                    print('\n')
+    print('pairs stats:')
+    for k, v in sorted(all_gap_pairs.items(), key=lambda x: x[1]):
+        print(k, v)
 
 
 if __name__ == '__main__':
