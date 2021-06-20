@@ -104,7 +104,9 @@ def main():
                     for e1 in eagr[0]:
                         for e2 in eagr[2]:
                             if e1 != '---' and e2 != '---':
-                                if sorted(e1) == sorted(e2):
+                                # match exact combination of the two
+                                # print(e1, '----', e2)
+                                if e1 == e2:
 
                                     print(f'gap: {gap}')
                                     print(f'pair: {pfound}')
