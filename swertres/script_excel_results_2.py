@@ -43,7 +43,7 @@ def write_to_excel():
     # Set default styles
 
     bd = Side(style='thin', color="000000")
-    bd_thick = Side(style='thick', color="0c1e5f")
+    bd_thick = Side(style='thick', color="FF0000")
 
     res_style = NamedStyle(name="res_style")
     res_style.font = Font(bold=False, size=21, color='000000')

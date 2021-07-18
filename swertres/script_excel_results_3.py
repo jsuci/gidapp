@@ -103,7 +103,7 @@ def main():
     print("Generating excel 3 results, please wait...")
 
     if len(argv) < 2:
-        gap = 2
+        gap = 1
     else:
         gap = int(argv[1])
 

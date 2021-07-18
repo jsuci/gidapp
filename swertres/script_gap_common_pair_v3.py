@@ -69,7 +69,8 @@ def get_pair_res(pf, rs):
 
 def main():
 
-    for gap in range(1, 101):
+    all_gap_pairs = {}
+    for gap in range(1, 301):
 
         res = get_results(gap)
 
@@ -106,8 +107,10 @@ def main():
                             if e1 != '---' and e2 != '---':
                                 # match exact combination of the two
                                 # print(e1, '----', e2)
-                                if e1 == e2:
+                                # if e1 == e2:
+                                if sorted(e1) == sorted(e2):
 
+                                    print('date:', res[-1][0])
                                     print(f'gap: {gap}')
                                     print(f'pair: {pfound}')
 
@@ -118,6 +121,15 @@ def main():
                                             print('\n')
 
                                     print('\n')
+
+                                    for pf in pfound:
+                                        all_gap_pairs.setdefault(pf, 0)
+                                        all_gap_pairs[pf] += 1
+
+    print('date:', res[-1][0])
+    print('pairs stats:')
+    for k, v in sorted(all_gap_pairs.items(), key=lambda x: x[1]):
+        print(k, v)
 
 
 if __name__ == '__main__':
