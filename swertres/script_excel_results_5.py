@@ -170,7 +170,7 @@ def plot_rows(rows):
         ws.append(row)
 
     t_col_count = len(rows[0])
-    t_row_count = len(rows) - 1
+    t_row_count = len(rows) - 1  # adjust row entries here
     chart_gap = 15
 
     # even - odd

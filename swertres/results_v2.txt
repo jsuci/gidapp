@@ -1,4 +1,4 @@
-updated: 18 sun jul 2021
+updated: 04 wed aug 2021
 
 01 sun jan 2006      -           -           -  
 02 mon jan 2006      -           -           904
@@ -5678,3 +5678,20 @@ updated: 18 sun jul 2021
 16 fri jul 2021      662         456         144
 17 sat jul 2021      436         369         211
 18 sun jul 2021      808         361         949
+19 mon jul 2021      722         507         807
+20 tue jul 2021      912         738         972
+21 wed jul 2021      879         065         801
+22 thu jul 2021      409         836         223
+23 fri jul 2021      758         481         830
+24 sat jul 2021      488         551         629
+25 sun jul 2021      901         010         295
+26 mon jul 2021      651         236         952
+27 tue jul 2021      248         760         117
+28 wed jul 2021      128         138         855
+29 thu jul 2021      648         797         611
+30 fri jul 2021      156         057         015
+31 sat jul 2021      433         721         112
+01 sun aug 2021      116         515         346
+02 mon aug 2021      703         378         152
+03 tue aug 2021      314         644         033
+04 wed aug 2021      914         337         -

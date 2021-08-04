@@ -107,8 +107,8 @@ def main():
                             if e1 != '---' and e2 != '---':
                                 # match exact combination of the two
                                 # print(e1, '----', e2)
-                                # if e1 == e2:
-                                if sorted(e1) == sorted(e2):
+                                if e1 == e2:
+                                # if sorted(e1) == sorted(e2):
 
                                     print('date:', res[-1][0])
                                     print(f'gap: {gap}')
