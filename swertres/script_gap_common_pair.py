@@ -1,6 +1,7 @@
 
 from re import split
 from itertools import islice, combinations
+from time import sleep
 
 
 def get_results(gap):
@@ -35,6 +36,10 @@ def get_pairs(res_1, res_2):
 
     for r1 in res_1[1:]:
         for r2 in res_2[1:]:
+
+            print(check_num(r1, r2))
+            
+
             pair = ''.join(sorted(check_num(r1, r2)[0]))
 
             if len(pair) == 2:
@@ -133,4 +138,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    print(list(combinations('133', 2)))

@@ -73,6 +73,8 @@ def main():
     for gap in range(1, 301):
 
         res = get_results(gap)
+        
+        print(gap, res)
 
         g_pairs = []
         for i in range(len(res) - 1):
